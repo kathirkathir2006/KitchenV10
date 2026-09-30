@@ -1,0 +1,1445 @@
+{
+  "stages": [
+    "CLASSIFIER",
+    "DETECTOR",
+    "FOOD_STATE",
+    "NON_FOOD_REJECTION"
+  ],
+  "primary_stage_totals": {
+    "CLASSIFIER": 40,
+    "DETECTOR": 30,
+    "FOOD_STATE": 8,
+    "NON_FOOD_REJECTION": 3
+  },
+  "per_scene": [
+    {
+      "scene_id": "01_tomato_pilot",
+      "category": "01_single_raw_ingredient",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_tomato",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "tomato",
+              "required": true,
+              "pred_label": null
+            },
+            "iou": 0.0
+          }
+        ],
+        "scene_issues": [],
+        "primary_stage_counts": {
+          "CLASSIFIER": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 1
+      }
+    },
+    {
+      "scene_id": "02_multi_raw_composite",
+      "category": "02_multiple_raw_ingredients",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_0_tomato",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "tomato",
+              "required": true,
+              "pred_label": ""
+            },
+            "iou": 0.8043265900375016
+          },
+          {
+            "gt_id": "inst_1_garlic",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "garlic",
+              "required": true,
+              "pred_label": "shellfish"
+            },
+            "iou": 0.7127343823462133
+          },
+          {
+            "gt_id": "inst_2_ginger",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "ginger",
+              "required": true,
+              "pred_label": ""
+            },
+            "iou": 0.6806882782320831
+          },
+          {
+            "gt_id": "inst_3_rice",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "rice",
+              "required": true,
+              "pred_label": ""
+            },
+            "iou": 0.5038116257643009
+          }
+        ],
+        "scene_issues": [
+          {
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "reason": "insufficient_detections",
+            "n_detections": 0,
+            "n_required": 4
+          }
+        ],
+        "primary_stage_counts": {
+          "CLASSIFIER": 4,
+          "DETECTOR": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 5
+      }
+    },
+    {
+      "scene_id": "03_dense_kitchen",
+      "category": "03_dense_kitchen_scene",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_1_fried_rice",
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "fried_rice",
+              "required": true,
+              "pred_label": "food"
+            },
+            "iou": 0.49786797021751755
+          },
+          {
+            "gt_id": "inst_4_club_sandwich",
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "club_sandwich",
+              "required": true,
+              "pred_label": "sandwich"
+            },
+            "iou": 0.29501515546179785
+          },
+          {
+            "gt_id": "inst_5_omelette",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "omelette",
+              "required": true,
+              "pred_label": "food"
+            },
+            "iou": 0.8547268712366325
+          },
+          {
+            "gt_id": "inst_0_pizza",
+            "primary_stage": "FOOD_STATE",
+            "secondary_stages": [],
+            "detail": {
+              "expected": "plated",
+              "got": "cooked"
+            }
+          },
+          {
+            "gt_id": "inst_2_caesar_salad",
+            "primary_stage": "FOOD_STATE",
+            "secondary_stages": [],
+            "detail": {
+              "expected": "plated",
+              "got": "cooked"
+            }
+          },
+          {
+            "gt_id": "inst_3_french_fries",
+            "primary_stage": "FOOD_STATE",
+            "secondary_stages": [],
+            "detail": {
+              "expected": "plated",
+              "got": "cooked"
+            }
+          }
+        ],
+        "scene_issues": [
+          {
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "reason": "insufficient_detections",
+            "n_detections": 0,
+            "n_required": 6
+          }
+        ],
+        "primary_stage_counts": {
+          "DETECTOR": 3,
+          "CLASSIFIER": 1,
+          "FOOD_STATE": 3
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 13
+      }
+    },
+    {
+      "scene_id": "04_ingredient_packaged",
+      "category": "04_ingredient_plus_packaged_food",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_0_tomato",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "tomato",
+              "required": true,
+              "pred_label": ""
+            },
+            "iou": 0.8983532335892822
+          },
+          {
+            "gt_id": "inst_1_packaged_cheese",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "packaged_cheese",
+              "required": true,
+              "pred_label": "beer"
+            },
+            "iou": 0.7944037377715272
+          }
+        ],
+        "scene_issues": [
+          {
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "reason": "insufficient_detections",
+            "n_detections": 0,
+            "n_required": 2
+          }
+        ],
+        "primary_stage_counts": {
+          "CLASSIFIER": 2,
+          "DETECTOR": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 4
+      }
+    },
+    {
+      "scene_id": "05_ingredient_prepared",
+      "category": "05_ingredient_plus_prepared_meal",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_0_tomato",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "tomato",
+              "required": true,
+              "pred_label": ""
+            },
+            "iou": 0.9061208857990725
+          },
+          {
+            "gt_id": "inst_1_pizza",
+            "primary_stage": "FOOD_STATE",
+            "secondary_stages": [],
+            "detail": {
+              "expected": "plated",
+              "got": "cooked"
+            }
+          }
+        ],
+        "scene_issues": [
+          {
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "reason": "insufficient_detections",
+            "n_detections": 0,
+            "n_required": 2
+          }
+        ],
+        "primary_stage_counts": {
+          "CLASSIFIER": 1,
+          "FOOD_STATE": 1,
+          "DETECTOR": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 4
+      }
+    },
+    {
+      "scene_id": "06_multi_prepared",
+      "category": "06_multiple_prepared_components",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_1_fried_rice",
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "fried_rice",
+              "required": true,
+              "pred_label": "food"
+            },
+            "iou": 0.47007377572000947
+          },
+          {
+            "gt_id": "inst_2_club_sandwich",
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "club_sandwich",
+              "required": true,
+              "pred_label": ""
+            },
+            "iou": 0.46750755916374065
+          },
+          {
+            "gt_id": "inst_0_pizza",
+            "primary_stage": "FOOD_STATE",
+            "secondary_stages": [],
+            "detail": {
+              "expected": "plated",
+              "got": "cooked"
+            }
+          }
+        ],
+        "scene_issues": [
+          {
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "reason": "insufficient_detections",
+            "n_detections": 0,
+            "n_required": 3
+          }
+        ],
+        "primary_stage_counts": {
+          "DETECTOR": 3,
+          "FOOD_STATE": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 8
+      }
+    },
+    {
+      "scene_id": "07_packaged",
+      "category": "07_packaged_food_scene",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_pkg",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "packaged_cheese",
+              "required": true,
+              "pred_label": null
+            },
+            "iou": 0.0
+          }
+        ],
+        "scene_issues": [],
+        "primary_stage_counts": {
+          "CLASSIFIER": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 1
+      }
+    },
+    {
+      "scene_id": "08_fruit_proxy",
+      "category": "08_fruit_collection",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_0_guacamole",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "guacamole",
+              "required": true,
+              "pred_label": "food"
+            },
+            "iou": 0.7170077997531572
+          },
+          {
+            "gt_id": "inst_1_hummus",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "hummus",
+              "required": true,
+              "pred_label": ""
+            },
+            "iou": 0.8859677728198314
+          }
+        ],
+        "scene_issues": [
+          {
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "reason": "insufficient_detections",
+            "n_detections": 0,
+            "n_required": 2
+          }
+        ],
+        "primary_stage_counts": {
+          "CLASSIFIER": 2,
+          "DETECTOR": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 7
+      }
+    },
+    {
+      "scene_id": "09_snack_rte",
+      "category": "09_snack_ready_to_eat_scene",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_0_donuts",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "donuts",
+              "required": true,
+              "pred_label": "fast_food"
+            },
+            "iou": 0.6747568444577441
+          },
+          {
+            "gt_id": "inst_1_ice_cream",
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "ice_cream",
+              "required": true,
+              "pred_label": "ice_cream"
+            },
+            "iou": 0.14358600645071892
+          }
+        ],
+        "scene_issues": [
+          {
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "reason": "insufficient_detections",
+            "n_detections": 0,
+            "n_required": 2
+          }
+        ],
+        "primary_stage_counts": {
+          "CLASSIFIER": 1,
+          "DETECTOR": 2
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 9
+      }
+    },
+    {
+      "scene_id": "10_raw_vs_partial",
+      "category": "10_raw_vs_partially_prepared",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_0_tomato",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "tomato",
+              "required": true,
+              "pred_label": ""
+            },
+            "iou": 0.9075373265191726
+          },
+          {
+            "gt_id": "inst_1_tomato_paste",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "tomato_paste",
+              "required": true,
+              "pred_label": "beer"
+            },
+            "iou": 0.7819041757410755
+          }
+        ],
+        "scene_issues": [
+          {
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "reason": "insufficient_detections",
+            "n_detections": 0,
+            "n_required": 2
+          }
+        ],
+        "primary_stage_counts": {
+          "CLASSIFIER": 2,
+          "DETECTOR": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 4
+      }
+    },
+    {
+      "scene_id": "11_state_triad",
+      "category": "11_cooked_vs_plated_vs_leftover",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_0_lasagna",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "lasagna",
+              "required": true,
+              "pred_label": "food"
+            },
+            "iou": 0.7131122057243148
+          },
+          {
+            "gt_id": "inst_1_omelette",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "omelette",
+              "required": true,
+              "pred_label": "food"
+            },
+            "iou": 0.91974405218882
+          },
+          {
+            "gt_id": "inst_2_pad_thai",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "pad_thai",
+              "required": true,
+              "pred_label": "fast_food"
+            },
+            "iou": 0.861930680750564
+          }
+        ],
+        "scene_issues": [
+          {
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "reason": "insufficient_detections",
+            "n_detections": 0,
+            "n_required": 3
+          }
+        ],
+        "primary_stage_counts": {
+          "CLASSIFIER": 3,
+          "DETECTOR": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 6
+      }
+    },
+    {
+      "scene_id": "12_recipe_document",
+      "category": "12_recipe_document",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_recipe",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "recipe_document",
+              "required": true,
+              "pred_label": null
+            },
+            "iou": 0.0
+          }
+        ],
+        "scene_issues": [],
+        "primary_stage_counts": {
+          "CLASSIFIER": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 1
+      }
+    },
+    {
+      "scene_id": "12_nutrition_label",
+      "category": "12_recipe_document",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_nutrition",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "recipe_document",
+              "required": true,
+              "pred_label": null
+            },
+            "iou": 0.0
+          }
+        ],
+        "scene_issues": [],
+        "primary_stage_counts": {
+          "CLASSIFIER": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 1
+      }
+    },
+    {
+      "scene_id": "13_empty_plate",
+      "category": "13_non_food",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_empty_plate",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "non_food",
+              "required": true,
+              "pred_label": null
+            },
+            "iou": 0.0
+          }
+        ],
+        "scene_issues": [
+          {
+            "primary_stage": "NON_FOOD_REJECTION",
+            "secondary_stages": [
+              "CLASSIFIER"
+            ],
+            "reason": "false_food_on_non_food_scene",
+            "n_false_food": 1
+          }
+        ],
+        "primary_stage_counts": {
+          "CLASSIFIER": 1,
+          "NON_FOOD_REJECTION": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 1
+      }
+    },
+    {
+      "scene_id": "13_human_hand",
+      "category": "13_non_food",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_human_hand",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "non_food",
+              "required": true,
+              "pred_label": null
+            },
+            "iou": 0.0
+          }
+        ],
+        "scene_issues": [],
+        "primary_stage_counts": {
+          "CLASSIFIER": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 1
+      }
+    },
+    {
+      "scene_id": "13_pantry_empty",
+      "category": "13_non_food",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_empty_shelf",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "non_food",
+              "required": true,
+              "pred_label": null
+            },
+            "iou": 0.0
+          }
+        ],
+        "scene_issues": [
+          {
+            "primary_stage": "NON_FOOD_REJECTION",
+            "secondary_stages": [
+              "CLASSIFIER"
+            ],
+            "reason": "false_food_on_non_food_scene",
+            "n_false_food": 3
+          }
+        ],
+        "primary_stage_counts": {
+          "CLASSIFIER": 1,
+          "NON_FOOD_REJECTION": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 5
+      }
+    },
+    {
+      "scene_id": "13_kitchen_mood",
+      "category": "13_non_food",
+      "diagnosis": {
+        "instance_failures": [],
+        "scene_issues": [
+          {
+            "primary_stage": "NON_FOOD_REJECTION",
+            "secondary_stages": [
+              "CLASSIFIER"
+            ],
+            "reason": "false_food_on_non_food_scene",
+            "n_false_food": 11
+          }
+        ],
+        "primary_stage_counts": {
+          "NON_FOOD_REJECTION": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 13
+      }
+    },
+    {
+      "scene_id": "14_occlusion",
+      "category": "14_occlusion",
+      "diagnosis": {
+        "instance_failures": [],
+        "scene_issues": [],
+        "primary_stage_counts": {},
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 12
+      }
+    },
+    {
+      "scene_id": "15_overlap",
+      "category": "15_overlap",
+      "diagnosis": {
+        "instance_failures": [],
+        "scene_issues": [],
+        "primary_stage_counts": {},
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 12
+      }
+    },
+    {
+      "scene_id": "16_small_objects",
+      "category": "16_small_objects",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_primary",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "salad",
+              "required": true,
+              "pred_label": null
+            },
+            "iou": 0.0
+          }
+        ],
+        "scene_issues": [],
+        "primary_stage_counts": {
+          "CLASSIFIER": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 0
+      }
+    },
+    {
+      "scene_id": "17_partial_visibility",
+      "category": "17_partial_visibility",
+      "diagnosis": {
+        "instance_failures": [],
+        "scene_issues": [],
+        "primary_stage_counts": {},
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 12
+      }
+    },
+    {
+      "scene_id": "18_low_light",
+      "category": "18_low_light",
+      "diagnosis": {
+        "instance_failures": [],
+        "scene_issues": [],
+        "primary_stage_counts": {},
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 6
+      }
+    },
+    {
+      "scene_id": "19_motion_blur",
+      "category": "19_motion_blur",
+      "diagnosis": {
+        "instance_failures": [],
+        "scene_issues": [],
+        "primary_stage_counts": {},
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 6
+      }
+    },
+    {
+      "scene_id": "20_perspective_distortion",
+      "category": "20_perspective_distortion",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_primary",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "salad",
+              "required": true,
+              "pred_label": null
+            },
+            "iou": 0.0
+          }
+        ],
+        "scene_issues": [],
+        "primary_stage_counts": {
+          "CLASSIFIER": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 0
+      }
+    },
+    {
+      "scene_id": "21_duplicate_tomatoes",
+      "category": "21_duplicate_instances",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_0_tomato",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "tomato",
+              "required": true,
+              "pred_label": ""
+            },
+            "iou": 0.8124844874610205
+          },
+          {
+            "gt_id": "inst_1_tomato",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "tomato",
+              "required": true,
+              "pred_label": ""
+            },
+            "iou": 0.8274009778542007
+          },
+          {
+            "gt_id": "inst_2_tomato",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "tomato",
+              "required": true,
+              "pred_label": ""
+            },
+            "iou": 0.8003839678575979
+          },
+          {
+            "gt_id": "inst_3_tomato",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "tomato",
+              "required": true,
+              "pred_label": ""
+            },
+            "iou": 0.834228960656188
+          }
+        ],
+        "scene_issues": [
+          {
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "reason": "insufficient_detections",
+            "n_detections": 0,
+            "n_required": 4
+          }
+        ],
+        "primary_stage_counts": {
+          "CLASSIFIER": 4,
+          "DETECTOR": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 5
+      }
+    },
+    {
+      "scene_id": "22_qty_one",
+      "category": "22_quantity_variation",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_t1",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "tomato",
+              "required": true,
+              "pred_label": null
+            },
+            "iou": 0.0
+          }
+        ],
+        "scene_issues": [],
+        "primary_stage_counts": {
+          "CLASSIFIER": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 3
+      }
+    },
+    {
+      "scene_id": "22_qty_four",
+      "category": "22_quantity_variation",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_0_tomato",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "tomato",
+              "required": true,
+              "pred_label": ""
+            },
+            "iou": 0.8124844874610205
+          },
+          {
+            "gt_id": "inst_1_tomato",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "tomato",
+              "required": true,
+              "pred_label": ""
+            },
+            "iou": 0.8274009778542007
+          },
+          {
+            "gt_id": "inst_2_tomato",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "tomato",
+              "required": true,
+              "pred_label": ""
+            },
+            "iou": 0.8003839678575979
+          },
+          {
+            "gt_id": "inst_3_tomato",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "tomato",
+              "required": true,
+              "pred_label": ""
+            },
+            "iou": 0.834228960656188
+          }
+        ],
+        "scene_issues": [
+          {
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "reason": "insufficient_detections",
+            "n_detections": 0,
+            "n_required": 4
+          }
+        ],
+        "primary_stage_counts": {
+          "CLASSIFIER": 4,
+          "DETECTOR": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 5
+      }
+    },
+    {
+      "scene_id": "23_tomato_vs_tomato_paste",
+      "category": "23_hard_negative_food_pairs",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_0_tomato",
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "tomato",
+              "required": true,
+              "pred_label": ""
+            },
+            "iou": 0.4178928174072679
+          },
+          {
+            "gt_id": "inst_1_tomato_paste",
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "tomato_paste",
+              "required": true,
+              "pred_label": "beer"
+            },
+            "iou": 0.4603959698199666
+          }
+        ],
+        "scene_issues": [
+          {
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "reason": "insufficient_detections",
+            "n_detections": 0,
+            "n_required": 2
+          }
+        ],
+        "primary_stage_counts": {
+          "DETECTOR": 3
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 3
+      }
+    },
+    {
+      "scene_id": "23_yogurt_vs_cream",
+      "category": "23_hard_negative_food_pairs",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_0_yogurt",
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "yogurt",
+              "required": true,
+              "pred_label": "shellfish"
+            },
+            "iou": 0.4402442545882833
+          },
+          {
+            "gt_id": "inst_1_cream",
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "cream",
+              "required": true,
+              "pred_label": "shellfish"
+            },
+            "iou": 0.4059755620449578
+          }
+        ],
+        "scene_issues": [
+          {
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "reason": "insufficient_detections",
+            "n_detections": 0,
+            "n_required": 2
+          }
+        ],
+        "primary_stage_counts": {
+          "DETECTOR": 3
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 4
+      }
+    },
+    {
+      "scene_id": "23_cheese_vs_packaged_cheese",
+      "category": "23_hard_negative_food_pairs",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_0_cheese",
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "cheese",
+              "required": true,
+              "pred_label": "beer"
+            },
+            "iou": 0.4105145553822879
+          },
+          {
+            "gt_id": "inst_1_packaged_cheese",
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "packaged_cheese",
+              "required": true,
+              "pred_label": null
+            },
+            "iou": 0.0
+          }
+        ],
+        "scene_issues": [
+          {
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "reason": "insufficient_detections",
+            "n_detections": 0,
+            "n_required": 2
+          }
+        ],
+        "primary_stage_counts": {
+          "DETECTOR": 3
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 1
+      }
+    },
+    {
+      "scene_id": "23_rice_vs_biryani",
+      "category": "23_hard_negative_food_pairs",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_0_rice",
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "rice",
+              "required": true,
+              "pred_label": null
+            },
+            "iou": 0.0
+          },
+          {
+            "gt_id": "inst_1_biryani",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "biryani",
+              "required": true,
+              "pred_label": ""
+            },
+            "iou": 0.5024732833368898
+          }
+        ],
+        "scene_issues": [
+          {
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "reason": "insufficient_detections",
+            "n_detections": 0,
+            "n_required": 2
+          }
+        ],
+        "primary_stage_counts": {
+          "DETECTOR": 2,
+          "CLASSIFIER": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 1
+      }
+    },
+    {
+      "scene_id": "23_fried_rice_not_raw",
+      "category": "23_hard_negative_food_pairs",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_fr",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "fried_rice",
+              "required": true,
+              "pred_label": null
+            },
+            "iou": 0.0
+          }
+        ],
+        "scene_issues": [],
+        "primary_stage_counts": {
+          "CLASSIFIER": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 4
+      }
+    },
+    {
+      "scene_id": "24_food_nonfood",
+      "category": "24_mixed_food_and_nonfood",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_1_non_food",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "non_food",
+              "required": true,
+              "pred_label": ""
+            },
+            "iou": 0.5168872363492022
+          },
+          {
+            "gt_id": "inst_0_pizza",
+            "primary_stage": "FOOD_STATE",
+            "secondary_stages": [],
+            "detail": {
+              "expected": "plated",
+              "got": "cooked"
+            }
+          }
+        ],
+        "scene_issues": [
+          {
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "reason": "insufficient_detections",
+            "n_detections": 0,
+            "n_required": 2
+          }
+        ],
+        "primary_stage_counts": {
+          "CLASSIFIER": 1,
+          "FOOD_STATE": 1,
+          "DETECTOR": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 3
+      }
+    },
+    {
+      "scene_id": "25_salad_bowl",
+      "category": "25_complex_real_world_kitchen",
+      "diagnosis": {
+        "instance_failures": [],
+        "scene_issues": [],
+        "primary_stage_counts": {},
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 9
+      }
+    },
+    {
+      "scene_id": "25_tomato_pasta",
+      "category": "25_complex_real_world_kitchen",
+      "diagnosis": {
+        "instance_failures": [],
+        "scene_issues": [],
+        "primary_stage_counts": {},
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 11
+      }
+    },
+    {
+      "scene_id": "25_complex_mixed",
+      "category": "25_complex_real_world_kitchen",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_2_spring_rolls",
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "spring_rolls",
+              "required": true,
+              "pred_label": ""
+            },
+            "iou": 0.2936278087546772
+          }
+        ],
+        "scene_issues": [
+          {
+            "primary_stage": "DETECTOR",
+            "secondary_stages": [],
+            "reason": "insufficient_detections",
+            "n_detections": 0,
+            "n_required": 3
+          }
+        ],
+        "primary_stage_counts": {
+          "DETECTOR": 2
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 7
+      }
+    },
+    {
+      "scene_id": "prepared_pizza",
+      "category": "25_complex_real_world_kitchen",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_pizza",
+            "primary_stage": "FOOD_STATE",
+            "secondary_stages": [],
+            "detail": {
+              "expected": "plated",
+              "got": "cooked"
+            }
+          }
+        ],
+        "scene_issues": [],
+        "primary_stage_counts": {
+          "FOOD_STATE": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 1
+      }
+    },
+    {
+      "scene_id": "prepared_fried_rice",
+      "category": "25_complex_real_world_kitchen",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_fried_rice",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "fried_rice",
+              "required": true,
+              "pred_label": null
+            },
+            "iou": 0.0
+          }
+        ],
+        "scene_issues": [],
+        "primary_stage_counts": {
+          "CLASSIFIER": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 4
+      }
+    },
+    {
+      "scene_id": "prepared_bibimbap",
+      "category": "25_complex_real_world_kitchen",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_bibimbap",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "bibimbap",
+              "required": true,
+              "pred_label": null
+            },
+            "iou": 0.0
+          }
+        ],
+        "scene_issues": [],
+        "primary_stage_counts": {
+          "CLASSIFIER": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 3
+      }
+    },
+    {
+      "scene_id": "prepared_lasagna",
+      "category": "25_complex_real_world_kitchen",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_lasagna",
+            "primary_stage": "CLASSIFIER",
+            "secondary_stages": [],
+            "detail": {
+              "gt_label": "lasagna",
+              "required": true,
+              "pred_label": null
+            },
+            "iou": 0.0
+          }
+        ],
+        "scene_issues": [],
+        "primary_stage_counts": {
+          "CLASSIFIER": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 1
+      }
+    },
+    {
+      "scene_id": "prepared_club_sandwich",
+      "category": "25_complex_real_world_kitchen",
+      "diagnosis": {
+        "instance_failures": [
+          {
+            "gt_id": "inst_club_sandwich",
+            "primary_stage": "FOOD_STATE",
+            "secondary_stages": [],
+            "detail": {
+              "expected": "plated",
+              "got": "cooked"
+            }
+          }
+        ],
+        "scene_issues": [],
+        "primary_stage_counts": {
+          "FOOD_STATE": 1
+        },
+        "detector_available": true,
+        "n_detections": 0,
+        "n_observations": 5
+      }
+    }
+  ]
+}

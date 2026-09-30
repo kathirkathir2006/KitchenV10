@@ -1,0 +1,26 @@
+{
+  "dataset_version": "kiq-v10-core-remediation-v1",
+  "created_at": "2026-09-30T01:06:01.163918+00:00",
+  "production_eligible_source": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-v2-data-remediation\\production_eligible_manifest.jsonl",
+  "hard_negative_source": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-v2-data-remediation\\hard_negative_manifest.jsonl",
+  "experiment_only_source": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-v2-data-remediation\\experiment_only_manifest.jsonl",
+  "file_hashes": {
+    "production_eligible_manifest": "0996f4d2b683601bd5439f47fabdb57b34090e287a9ae877ab1bd2960211a80d",
+    "hard_negative_manifest": "f8ce25168da2a92695ddc2ee9ed7f06aacfd2a4cdd5c18a65fd239f0547a967f",
+    "experiment_only_manifest": "09931cf98e2be586ed806727c4537bc05534694b67c22f30205e6fb3c4d7fe55",
+    "acquisition_summary": "c074977f374569e1c036586021f17a52edc5cccc8ec086794d97ee127bdebee3",
+    "provenance_report": "c4331cd332be88dab69b0b969fcd62d3bb0f3b591462d98c675907d7a8edd8a7"
+  },
+  "split_definition": {
+    "note": "Split must be built on Kaggle from manifests; no bulk image mirror on Windows",
+    "leakage_controls": [
+      "source",
+      "image_hash",
+      "near_dup_ban_across_splits"
+    ]
+  },
+  "licence_policy": "CC0/CC-BY verified only for PRODUCTION_ELIGIBLE; EXPERIMENT_ONLY isolated",
+  "core_target": 250,
+  "status": "MANIFEST_READY_IMAGES_ON_REMEDIATION_STORE_OR_KAGGLE",
+  "manifest_hash": "e8616bedb52fd7e1574219d2110f8048849922bb7dc682255c300d737574bddf"
+}

@@ -1,0 +1,148 @@
+{
+  "source": "old_project_measured_artifacts",
+  "vision_v2_production_status": "BLOCKED",
+  "strict_scene_completeness_production": 0.2439,
+  "strict_scene_completeness_challenger": 0.2195,
+  "scene_delta_challenger": -0.0244,
+  "production_classifier_top1": {
+    "val": 0.6177,
+    "test": 0.5554
+  },
+  "challenger_classifier_top1": {
+    "val": 0.6155,
+    "test": 0.5714
+  },
+  "critical_categories_improved": [],
+  "promotion": false,
+  "holdout_untouched": true,
+  "ocr": "UNAVAILABLE_tesseract_missing",
+  "barcode": "AVAILABLE",
+  "failure_analysis_dominant": "E_MULTIPLE_BLOCKERS",
+  "attribution_challenger_official_stages": {
+    "detector_pct": 33.0,
+    "classifier_pct": 45.1,
+    "state_pct": 18.7,
+    "non_food_pct": 3.3,
+    "other_pct": 0.0
+  },
+  "architecture_baseline": "DINOv2 ViT-B/14 + Faster R-CNN + evidence fusion (baseline, not locked final)",
+  "notes": [
+    "Top-1 improved on challenger but strict scene completeness regressed",
+    "Missing critical labels shared by prod and challenger",
+    "Hard-negative overconfidence caused 1/41 strict regression (13_kitchen_mood)"
+  ],
+  "strict_scene_completeness_production_recomputed": 0.2439,
+  "n_scenes": 41,
+  "n_strict_complete": 10,
+  "failure_executive": {
+    "why_strict_fell": "Strict complete-scene rate fell solely because one scene flipped: 13_kitchen_mood (prod strict OK -> challenger fail). Same detector boxes; challenger became more confident that non-food kitchen-mood crops were tomato/vegetable (e.g. tomato 0.978->0.998), adding a CLASSIFIER failure stage alongside NON_FOOD_REJECTION. Detector stage totals unchanged (30->30). FOOD_STATE stage failures rose 8->17 (hurts partial completeness) but did not flip additional strict scenes. OI crop Top-1 up does not transfer to kitchen completeness: shared missing critical labels (garlic/ginger/rice/biryani/yogurt/...) are absent from BOTH models (53.6% of required identities) and therefore do not explain the prod->challenger delta.",
+    "dominant_failure_source": "E_MULTIPLE_BLOCKERS",
+    "strict_delta_cause": {
+      "n_scenes_flipped_prod_ok_to_challenger_fail": 1,
+      "scene_id": "13_kitchen_mood",
+      "category": "13_non_food",
+      "mechanism": "food_nonfood_overconfidence_calibration_regression",
+      "reasons": [
+        "classifier_label_regression",
+        "confidence_regression",
+        "threshold_calibration_regression",
+        "state_regression"
+      ]
+    },
+    "attribution_challenger_failed_instances_official_stages": {
+      "detector_pct": 33.0,
+      "classifier_pct": 45.1,
+      "state_pct": 18.7,
+      "non_food_pct": 3.3,
+      "other_pct": 0.0,
+      "stage_counts": {
+        "CLASSIFIER": 41,
+        "DETECTOR": 30,
+        "FOOD_STATE": 17,
+        "NON_FOOD_REJECTION": 3
+      },
+      "n_stage_events": 91
+    },
+    "attribution_production_failed_instances_official_stages": {
+      "detector_pct": 37.0,
+      "classifier_pct": 49.4,
+      "state_pct": 9.9,
+      "non_food_pct": 3.7,
+      "other_pct": 0.0,
+      "stage_counts": {
+        "CLASSIFIER": 40,
+        "DETECTOR": 30,
+        "FOOD_STATE": 8,
+        "NON_FOOD_REJECTION": 3
+      },
+      "n_stage_events": 81
+    },
+    "attribution_challenger_failed_instances_crop_iou": {
+      "detector_pct": 4.2,
+      "classifier_pct": 78.9,
+      "state_pct": 16.9,
+      "non_food_pct": 0.0,
+      "other_pct": 0.0,
+      "counts": {
+        "B_detected_misclassified": 56,
+        "D_correct_identity_wrong_state": 12,
+        "A_never_detected": 3
+      },
+      "n_failed_instances": 71
+    },
+    "attribution_production_failed_instances_crop_iou": {
+      "detector_pct": 4.3,
+      "classifier_pct": 77.1,
+      "state_pct": 18.6,
+      "non_food_pct": 0.0,
+      "other_pct": 0.0,
+      "counts": {
+        "B_detected_misclassified": 54,
+        "D_correct_identity_wrong_state": 13,
+        "A_never_detected": 3
+      },
+      "n_failed_instances": 70
+    },
+    "attribution_challenger_failed_instances": {
+      "detector_pct": 33.0,
+      "classifier_pct": 45.1,
+      "state_pct": 18.7,
+      "non_food_pct": 3.3,
+      "other_pct": 0.0,
+      "stage_counts": {
+        "CLASSIFIER": 41,
+        "DETECTOR": 30,
+        "FOOD_STATE": 17,
+        "NON_FOOD_REJECTION": 3
+      },
+      "n_stage_events": 91
+    },
+    "attribution_production_failed_instances": {
+      "detector_pct": 37.0,
+      "classifier_pct": 49.4,
+      "state_pct": 9.9,
+      "non_food_pct": 3.7,
+      "other_pct": 0.0,
+      "stage_counts": {
+        "CLASSIFIER": 40,
+        "DETECTOR": 30,
+        "FOOD_STATE": 8,
+        "NON_FOOD_REJECTION": 3
+      },
+      "n_stage_events": 81
+    },
+    "missing_label_impact": {
+      "acceptance_required_identities": 28,
+      "in_production": 13,
+      "in_challenger": 13,
+      "absent_from_challenger": 15,
+      "absent_from_both": 15,
+      "absent_from_challenger_only": [],
+      "pure_absent_label_fail_events_observed": 21,
+      "pct_required_absent_challenger": 53.6
+    },
+    "another_training_cycle_justified_alone": false,
+    "justification_note": "Classifier-only retraining on more OI food crops is NOT justified as the next step: the measured strict drop is a non-food overconfidence regression on 1/41 scenes, detector stage events remain ~33% of challenger failures, and absent critical labels are already shared with production (absent_from_challenger_only=[]). A future training cycle is only justified after acquiring PRODUCTION_ELIGIBLE coverage for absent critical identities PLUS hard non-food/empty negatives \u2014 not another OI-only food expansion.",
+    "exact_next_engineering_action": "5_acquire_hard_nonfood_negatives_and_absent_critical_labels_then_retrain; do_not_run_classifier_only_OI_cycle; detector_improvement_secondary"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "B_detector_specialist_ensemble",
+  "components": [
+    "faster_rcnn_detector",
+    "food_nonfood_specialist",
+    "identity_specialist_hierarchical",
+    "prepared_meal_specialist",
+    "food_state_specialist",
+    "evidence_fusion",
+    "confidence_abstention"
+  ],
+  "backbone": "DINOv2 ViT-B/14 shared representation via production FoodVisionV2 heads (specialist roles separated in fusion)",
+  "implemented_in": "src/kitcheniq_v10/specialist/",
+  "status": "IMPLEMENTED"
+}

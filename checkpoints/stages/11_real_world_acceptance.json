@@ -1,0 +1,36 @@
+{
+  "stage": "11_real_world_acceptance",
+  "status": "COMPLETE",
+  "timestamp": "2026-09-30T01:08:06.289384+00:00",
+  "git_commit": "ea52320b3f33dca74d415469e7143e7591178ea9",
+  "configuration_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "dataset_manifest_hash": null,
+  "model_hash": "665c96fc0ad3ed759633054f0fbf3f62cbaabfe488874ef64d0ae618bd48464c",
+  "random_seed": 42,
+  "metrics": {
+    "baseline_strict": 0.2439,
+    "final_strict_this_cycle": 0.2439,
+    "note": "No new weights promoted; acceptance remains baseline production measurement",
+    "n_scenes": 41
+  },
+  "environment": {},
+  "artifact_locations": {
+    "bundle": "reports/stage/07_14_training_eval_bundle.json",
+    "kaggle_kernel": "C:\\Projects\\KitchenIQ-V10-AI\\kaggle\\kernels\\kiq-v10-autonomous"
+  },
+  "completion_marker": true,
+  "payload": {
+    "metrics": {
+      "baseline_strict": 0.2439,
+      "final_strict_this_cycle": 0.2439,
+      "note": "No new weights promoted; acceptance remains baseline production measurement",
+      "n_scenes": 41
+    },
+    "artifact_locations": {
+      "bundle": "reports/stage/07_14_training_eval_bundle.json",
+      "kaggle_kernel": "C:\\Projects\\KitchenIQ-V10-AI\\kaggle\\kernels\\kiq-v10-autonomous"
+    },
+    "model_hash": "665c96fc0ad3ed759633054f0fbf3f62cbaabfe488874ef64d0ae618bd48464c",
+    "note": "covered_by_bundle:11_real_world_acceptance"
+  }
+}

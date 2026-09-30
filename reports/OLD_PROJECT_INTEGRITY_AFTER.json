@@ -1,0 +1,11 @@
+{
+  "old_head_before": "7ebfb2e12b9c951cfa7ea4e03bd92be00606df5b",
+  "old_head_after": "7ebfb2e12b9c951cfa7ea4e03bd92be00606df5b",
+  "head_unchanged": true,
+  "porcelain_count_before": 123,
+  "porcelain_count_after": 123,
+  "porcelain_sha_before": "f9340837a546037018b3ff6ab3316cd804c2c7ae4cc720823c95862604b6b840",
+  "porcelain_sha_after": "f9340837a546037018b3ff6ab3316cd804c2c7ae4cc720823c95862604b6b840",
+  "porcelain_unchanged": true,
+  "verdict": "UNCHANGED"
+}

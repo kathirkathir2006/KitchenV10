@@ -1,0 +1,27 @@
+{
+  "stage": "06_dataset_build",
+  "status": "COMPLETE",
+  "timestamp": "2026-09-30T01:06:01.189926+00:00",
+  "git_commit": "ea52320b3f33dca74d415469e7143e7591178ea9",
+  "configuration_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "dataset_manifest_hash": "e8616bedb52fd7e1574219d2110f8048849922bb7dc682255c300d737574bddf",
+  "model_hash": null,
+  "random_seed": 42,
+  "metrics": {
+    "dataset_version": "kiq-v10-core-remediation-v1"
+  },
+  "environment": {},
+  "artifact_locations": {
+    "manifest": "manifests/dataset_version_kiq-v10-core-remediation-v1.json"
+  },
+  "completion_marker": true,
+  "payload": {
+    "dataset_manifest_hash": "e8616bedb52fd7e1574219d2110f8048849922bb7dc682255c300d737574bddf",
+    "metrics": {
+      "dataset_version": "kiq-v10-core-remediation-v1"
+    },
+    "artifact_locations": {
+      "manifest": "manifests/dataset_version_kiq-v10-core-remediation-v1.json"
+    }
+  }
+}

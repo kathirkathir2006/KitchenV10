@@ -1,0 +1,44 @@
+{
+  "current_stage": "TERMINAL",
+  "completed_stages": [
+    "00_environment",
+    "01_reference_snapshot",
+    "02_baseline",
+    "03_data_audit",
+    "04_dataset_validation",
+    "05_architecture_benchmark",
+    "06_dataset_build",
+    "07_detector",
+    "08_food_recognition",
+    "09_specialists",
+    "10_calibration",
+    "11_real_world_acceptance",
+    "12_failure_analysis",
+    "13_challenger_selection",
+    "14_final_evaluation",
+    "15_registry",
+    "16_serving",
+    "17_end_to_end",
+    "18_final_report"
+  ],
+  "failed_stages": [],
+  "retry_count": {},
+  "active_candidate": null,
+  "latest_checkpoint": "C:\\Projects\\KitchenIQ-V10-AI\\checkpoints\\stages\\18_final_report.json",
+  "latest_model_hash": "665c96fc0ad3ed759633054f0fbf3f62cbaabfe488874ef64d0ae618bd48464c",
+  "latest_dataset_hash": "e8616bedb52fd7e1574219d2110f8048849922bb7dc682255c300d737574bddf",
+  "latest_acceptance_result": {
+    "baseline_strict": 0.2439,
+    "final_strict_this_cycle": 0.2439,
+    "note": "No new weights promoted; acceptance remains baseline production measurement",
+    "n_scenes": 41
+  },
+  "production_status": "BLOCKED",
+  "resume_configuration": {
+    "max_retries": 3
+  },
+  "old_project_root": "C:\\Projects\\KitchenIQ-OS",
+  "new_project_root": "C:\\Projects\\KitchenIQ-V10-AI",
+  "isolation_verified": true,
+  "updated_at": "2026-09-30T01:08:10.529870+00:00"
+}

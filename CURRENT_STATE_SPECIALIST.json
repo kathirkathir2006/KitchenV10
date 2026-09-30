@@ -1,0 +1,32 @@
+{
+  "programme": "v10-specialist-ensemble",
+  "current_stage": "18_final_report",
+  "completed_stages": [
+    "00_reference",
+    "01_baseline",
+    "02_architecture",
+    "03_data",
+    "04_food_nonfood",
+    "05_identity",
+    "06_prepared_meal",
+    "07_food_state",
+    "08_fusion",
+    "09_candidate_a",
+    "10_candidate_b",
+    "11_candidate_c",
+    "12_acceptance",
+    "13_failure_analysis",
+    "14_final_candidate",
+    "15_registry",
+    "16_serving",
+    "17_end_to_end",
+    "18_final_report"
+  ],
+  "failed_stages": [],
+  "retry_count": {},
+  "candidates": {},
+  "best_candidate": null,
+  "production_status": "BLOCKED",
+  "created_at": "2026-09-30T01:27:43.701519+00:00",
+  "updated_at": "2026-09-30T13:25:42.674737+00:00"
+}

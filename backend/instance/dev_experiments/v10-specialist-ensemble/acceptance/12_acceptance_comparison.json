@@ -1,0 +1,31 @@
+{
+  "candidates": {
+    "candidate_a": {
+      "strict": 0.2195,
+      "delta": -0.0244,
+      "stages": {
+        "CLASSIFIER": 43,
+        "DETECTOR": 12,
+        "FOOD_NONFOOD": 4
+      }
+    },
+    "candidate_b": {
+      "strict": 0.2195,
+      "delta": -0.0244,
+      "stages": {
+        "CLASSIFIER": 43,
+        "DETECTOR": 12,
+        "FOOD_NONFOOD": 4
+      }
+    },
+    "candidate_c": {
+      "strict": 0.2195,
+      "delta": -0.0244,
+      "stages": {
+        "CLASSIFIER": 43,
+        "DETECTOR": 12,
+        "FOOD_NONFOOD": 4
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "id": "B_detector_specialist_ensemble",
+  "architecture": "Faster R-CNN detector + specialist recognition heads (food/nonfood, family/identity, prepared-meal, food-state) on shared representation + evidence fusion + abstention",
+  "backbone_policy": "Reuse DINOv2 ViT-B/14 as shared representation UNLESS specialist benchmark later proves otherwise; do not assume it is final",
+  "why_not_blind_retrain_A": "Challenger Top-1 up / strict scene down; missing labels shared; hardneg regression",
+  "next_compute": "Train only justified specialists + hardneg/state on Kaggle; keep detector unless specialist cycle stalls on detection"
+}

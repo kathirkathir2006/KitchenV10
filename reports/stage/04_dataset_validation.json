@@ -1,0 +1,14 @@
+{
+  "production_eligible_manifest_exists": true,
+  "hard_negative_manifest_exists": true,
+  "experiment_only_isolated": true,
+  "rejected_quarantined": true,
+  "provenance_report_exists": true,
+  "no_holdout_mutation": true,
+  "bulk_windows_download": false,
+  "issues": [],
+  "n_production_eligible_manifest.jsonl": 310,
+  "n_hard_negative_manifest.jsonl": 166,
+  "n_experiment_only_manifest.jsonl": 36,
+  "n_rejected_manifest.jsonl": 108
+}

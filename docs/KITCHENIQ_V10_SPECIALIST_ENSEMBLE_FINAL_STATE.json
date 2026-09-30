@@ -1,0 +1,141 @@
+{
+  "status": "BLOCKED",
+  "architecture": "B_detector_specialist_ensemble (Faster R-CNN + food/nonfood + identity + prepared-meal + food-state + fusion/abstention)",
+  "best_candidate": "candidate_a",
+  "41_scene_completeness": {
+    "baseline": 0.2439,
+    "final": 0.2195
+  },
+  "critical_failure": "Best specialist candidate strict=0.2195 vs baseline 0.2439 (delta=-0.0244). Dominant failure stage=CLASSIFIER.",
+  "data": {
+    "strategy": "use_existing_valid_data_first; no 207x250 manufacture",
+    "acceptance_fixtures_copied_bytes": 10182436,
+    "remediation": {
+      "generated_at": "2026-09-29T12:43:07Z",
+      "no_train": true,
+      "no_production_weight_change": true,
+      "no_holdout_change": true,
+      "no_bulk_download_to_windows": true,
+      "staging_candidates_scanned": 1398,
+      "production_eligible_before_estimate": 227,
+      "production_eligible_food_total": 310,
+      "production_eligible_hardneg_total": 166,
+      "newly_acquired_food": 225,
+      "newly_acquired_hardneg": 24,
+      "reused_staging_food": 85,
+      "reused_staging_hardneg": 142,
+      "experiment_only_isolated": 36,
+      "rejected_count": 108,
+      "rejection_reason_counts": {
+        "wrong_semantics_reject_map": 64,
+        "zone_EXPERIMENT_ONLY:EVALUATION_ONLY": 36,
+        "no_results": 3,
+        "download_failed:URLError:<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certifi": 3,
+        "license_rejected:cc_by_sa": 2
+      },
+      "food_counts": {
+        "yogurt": 35,
+        "tomato": 40,
+        "rice": 40,
+        "garlic": 36,
+        "cream": 24,
+        "ginger": 33,
+        "packaged_cheese": 9,
+        "tomato_paste": 23,
+        "biryani": 20,
+        "fried_rice": 25,
+        "cheese": 25
+      },
+      "hardneg_counts": {
+        "foodlike_nonfood": 43,
+        "kitchen_surface": 46,
+        "empty_plate": 15,
+        "utensil": 15,
+        "human_hand": 15,
+        "empty_packaging": 8,
+        "cookware": 12,
+        "kitchen_mood_nonfood": 12
+      },
+      "zero_support_food": [],
+      "below_useful_food": [
+        "packaged_cheese"
+      ],
+      "sufficient_food": [
+        "rice",
+        "tomato"
+      ],
+      "critical_now_covered": [
+        "garlic",
+        "ginger",
+        "rice",
+        "biryani",
+        "yogurt",
+        "cream",
+        "tomato",
+        "tomato_paste",
+        "fried_rice",
+        "cheese",
+        "packaged_cheese"
+      ],
+      "critical_still_missing": [],
+      "controlled_retrain_justified": true,
+      "justification_reason": "Controlled retrain justified for absent-class + hard-negative remediation: critical foods at useful support, hardneg n=166 (kitchen_mood_nonfood=12, cookware=12), prepared/packaged coverage present. packaged_cheese still below useful (9<20) but non-zero.",
+      "real_vs_synthetic": {
+        "real": 476,
+        "synthetic": 0
+      }
+    },
+    "production_eligible_priority_labels": [
+      "tomato",
+      "garlic",
+      "ginger",
+      "rice",
+      "fried_rice",
+      "biryani",
+      "yogurt",
+      "cheese",
+      "packaged_cheese"
+    ],
+    "hardneg_available": true,
+    "note": "Specialist evaluation uses production weights + fusion; Kaggle trains optional food/nonfood improvement"
+  },
+  "kaggle": {
+    "ok": true,
+    "terminal": "complete",
+    "resumed": true,
+    "note": "prior kernel"
+  },
+  "production_gate": "FAIL",
+  "final_decision": "B. SPECIALIST ENSEMBLE NEEDS TARGETED DATA REMEDIATION",
+  "candidates": {
+    "candidate_a": {
+      "strict": 0.2195,
+      "delta": -0.0244,
+      "stages": {
+        "CLASSIFIER": 43,
+        "DETECTOR": 12,
+        "FOOD_NONFOOD": 4
+      }
+    },
+    "candidate_b": {
+      "strict": 0.2195,
+      "delta": -0.0244,
+      "stages": {
+        "CLASSIFIER": 43,
+        "DETECTOR": 12,
+        "FOOD_NONFOOD": 4
+      }
+    },
+    "candidate_c": {
+      "strict": 0.2195,
+      "delta": -0.0244,
+      "stages": {
+        "CLASSIFIER": 43,
+        "DETECTOR": 12,
+        "FOOD_NONFOOD": 4
+      }
+    }
+  },
+  "old_project": "UNCHANGED",
+  "generated_at": "2026-09-30T13:25:42.652702+00:00"
+}

@@ -1,0 +1,114 @@
+{
+  "report_id": "production_evaluation_report",
+  "generated_at": "2026-09-23T11:39:41.864729+00:00",
+  "fabricated": false,
+  "holdout_policy": {
+    "status": "EVAL_ONLY_POLICY_RECORDED",
+    "holdout_untouched": true,
+    "holdout_sha256": "fed84f55d4a101a1280563a291229d8646eecc778562b2706ff692fb15b9134b",
+    "holdout_moved_to_train": false,
+    "optimize_against_holdout": false,
+    "images_in_this_kaggle_run": false,
+    "reason": "KitchenIQ Food101-style holdout IDs not in OI production package; holdout fingerprint preserved eval-only",
+    "metrics": null
+  },
+  "detector": {
+    "trained": true,
+    "mAP_val": 0.3574,
+    "mAP_test": 0.3993,
+    "weights_sha256": "f800b7543c691b38e771aa88fd2fde2ddb87bab33128c0143599a9a6da148a63"
+  },
+  "classifier": {
+    "production_eval": {
+      "status": "EVALUATED",
+      "gt_crop_val": {
+        "n": 1601,
+        "top1": 0.6177,
+        "top5": 0.935,
+        "top1_pct": 61.77,
+        "top5_pct": 93.5,
+        "macro_recall": 0.605,
+        "n_classes_eval": 57
+      },
+      "gt_crop_test": {
+        "n": 1741,
+        "top1": 0.5554,
+        "top5": 0.9098,
+        "top1_pct": 55.54,
+        "top5_pct": 90.98,
+        "macro_recall": 0.5778,
+        "n_classes_eval": 58
+      }
+    },
+    "mode_b_promoted": false,
+    "compared_to_mode_b": false
+  },
+  "integrated_detect_crop_recognize": {
+    "val": {
+      "n_images": 523,
+      "n_gt_objects": 1602,
+      "n_detections": 2227,
+      "n_matched_iou": 796,
+      "label_correct_on_matched": 517,
+      "matched_label_acc": 0.6495,
+      "matched_label_acc_pct": 64.95,
+      "detection_recall_proxy": 0.4969,
+      "multi_object_images": 250,
+      "multi_object_images_any_correct": 184,
+      "multi_object_any_correct_rate": 0.736,
+      "score_thresh": 0.55,
+      "iou_thresh": 0.5
+    },
+    "test": {
+      "n_images": 524,
+      "n_gt_objects": 1743,
+      "n_detections": 2294,
+      "n_matched_iou": 916,
+      "label_correct_on_matched": 589,
+      "matched_label_acc": 0.643,
+      "matched_label_acc_pct": 64.3,
+      "detection_recall_proxy": 0.5255,
+      "multi_object_images": 237,
+      "multi_object_images_any_correct": 169,
+      "multi_object_any_correct_rate": 0.7131,
+      "score_thresh": 0.55,
+      "iou_thresh": 0.5
+    }
+  },
+  "multi_object": {
+    "val": {
+      "n_images": 250,
+      "any_correct_rate": 0.736
+    },
+    "test": {
+      "n_images": 237,
+      "any_correct_rate": 0.7131
+    }
+  },
+  "calibration": {
+    "calibrated": true,
+    "method": "temperature_scaling_v1",
+    "temperature": 3.0,
+    "ece": 0.036681,
+    "n": 1601,
+    "fit_on": "val_only",
+    "holdout_used_for_fit": false
+  },
+  "production_model_metrics": {
+    "detector_mAP_val": 0.3574,
+    "detector_mAP_test": 0.3993,
+    "classifier_gt_crop_val_top1_pct": 61.77,
+    "classifier_gt_crop_test_top1_pct": 55.54,
+    "integrated_dcr_val_matched_acc_pct": 64.95,
+    "integrated_dcr_test_matched_acc_pct": 64.3
+  },
+  "kaggle_download": {
+    "report_id": "classifier_kaggle_download_report",
+    "generated_at": "2026-09-23T11:19:40.702627+00:00",
+    "n_requested": 5242,
+    "ok": 5242,
+    "fail": 0,
+    "img_dir": "/kaggle/working/fv-classifier-v1/images",
+    "failures_sample": []
+  }
+}

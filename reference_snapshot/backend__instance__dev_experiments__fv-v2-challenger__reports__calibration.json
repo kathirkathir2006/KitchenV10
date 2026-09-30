@@ -1,0 +1,63 @@
+{
+  "method": "temperature_scaling_v1",
+  "temperature": 1.165985107421875,
+  "fit_on": "val_only",
+  "holdout_used_for_fit": false,
+  "val_ece_before_note": 0.1788,
+  "reliability": [
+    {
+      "bin": 1,
+      "n": 7,
+      "acc": 0.1429,
+      "mean_conf": 0.165
+    },
+    {
+      "bin": 2,
+      "n": 19,
+      "acc": 0.2632,
+      "mean_conf": 0.271
+    },
+    {
+      "bin": 3,
+      "n": 61,
+      "acc": 0.377,
+      "mean_conf": 0.3466
+    },
+    {
+      "bin": 4,
+      "n": 114,
+      "acc": 0.3684,
+      "mean_conf": 0.4568
+    },
+    {
+      "bin": 5,
+      "n": 147,
+      "acc": 0.4014,
+      "mean_conf": 0.5472
+    },
+    {
+      "bin": 6,
+      "n": 150,
+      "acc": 0.4133,
+      "mean_conf": 0.6499
+    },
+    {
+      "bin": 7,
+      "n": 171,
+      "acc": 0.5789,
+      "mean_conf": 0.7485
+    },
+    {
+      "bin": 8,
+      "n": 195,
+      "acc": 0.5846,
+      "mean_conf": 0.8522
+    },
+    {
+      "bin": 9,
+      "n": 738,
+      "acc": 0.7873,
+      "mean_conf": 0.9717
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+[2026-09-30T13:14:55.147623+00:00] START specialist ensemble programme
+[2026-09-30T13:14:55.172284+00:00] SKIP 00_reference
+[2026-09-30T13:14:55.223050+00:00] SKIP 01_baseline
+[2026-09-30T13:14:55.238425+00:00] SKIP 02_architecture
+[2026-09-30T13:14:55.260381+00:00] SKIP 03_data
+[2026-09-30T13:14:55.276423+00:00] SKIP 04_food_nonfood
+[2026-09-30T13:14:55.298001+00:00] SKIP 05_identity
+[2026-09-30T13:14:55.312450+00:00] SKIP 06_prepared_meal
+[2026-09-30T13:14:55.325021+00:00] SKIP 07_food_state
+[2026-09-30T13:14:55.330285+00:00] SKIP 08_fusion
+[2026-09-30T13:14:55.350328+00:00] SKIP 09_candidate_a
+[2026-09-30T13:14:55.371691+00:00] SKIP 10_candidate_b
+[2026-09-30T13:14:55.380618+00:00] RUN 11_candidate_c
+Using cache found in C:\Users\kathi/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\kathi/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\kathi/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\kathi/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")

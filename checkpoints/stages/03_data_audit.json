@@ -1,0 +1,47 @@
+{
+  "stage": "03_data_audit",
+  "status": "COMPLETE",
+  "timestamp": "2026-09-30T01:06:00.707889+00:00",
+  "git_commit": "ea52320b3f33dca74d415469e7143e7591178ea9",
+  "configuration_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "dataset_manifest_hash": "69993e1e125c5237273b9abd06402c56f906f738c8bae48e4b16aee1d75012b9",
+  "model_hash": null,
+  "random_seed": 42,
+  "metrics": {
+    "n_labels_audited": 207,
+    "buckets": {
+      "ZERO": 197,
+      "<50": 10,
+      "50-99": 0,
+      "100-249": 0,
+      ">=250": 0
+    },
+    "n_with_any_production_eligible": 10,
+    "core_target_met_count": 0,
+    "note": "Full 207 production-eligible coverage is incomplete; remediation package covers critical gaps only."
+  },
+  "environment": {},
+  "artifact_locations": {
+    "audit": "reports/stage/03_data_audit.json"
+  },
+  "completion_marker": true,
+  "payload": {
+    "metrics": {
+      "n_labels_audited": 207,
+      "buckets": {
+        "ZERO": 197,
+        "<50": 10,
+        "50-99": 0,
+        "100-249": 0,
+        ">=250": 0
+      },
+      "n_with_any_production_eligible": 10,
+      "core_target_met_count": 0,
+      "note": "Full 207 production-eligible coverage is incomplete; remediation package covers critical gaps only."
+    },
+    "dataset_manifest_hash": "69993e1e125c5237273b9abd06402c56f906f738c8bae48e4b16aee1d75012b9",
+    "artifact_locations": {
+      "audit": "reports/stage/03_data_audit.json"
+    }
+  }
+}

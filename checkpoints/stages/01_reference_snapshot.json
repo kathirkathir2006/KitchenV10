@@ -1,0 +1,29 @@
+{
+  "stage": "01_reference_snapshot",
+  "status": "COMPLETE",
+  "timestamp": "2026-09-30T01:05:58.579390+00:00",
+  "git_commit": "ea52320b3f33dca74d415469e7143e7591178ea9",
+  "configuration_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "dataset_manifest_hash": null,
+  "model_hash": "665c96fc0ad3ed759633054f0fbf3f62cbaabfe488874ef64d0ae618bd48464c",
+  "random_seed": 42,
+  "metrics": {
+    "n_files": 19,
+    "n_weights": 2
+  },
+  "environment": {},
+  "artifact_locations": {
+    "snapshot": "reference_snapshot/REFERENCE_SNAPSHOT.json"
+  },
+  "completion_marker": true,
+  "payload": {
+    "artifact_locations": {
+      "snapshot": "reference_snapshot/REFERENCE_SNAPSHOT.json"
+    },
+    "metrics": {
+      "n_files": 19,
+      "n_weights": 2
+    },
+    "model_hash": "665c96fc0ad3ed759633054f0fbf3f62cbaabfe488874ef64d0ae618bd48464c"
+  }
+}

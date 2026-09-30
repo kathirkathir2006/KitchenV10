@@ -1,0 +1,8 @@
+{
+  "registry_version": "v10-registry-1",
+  "production_model": "UNCHANGED_REFERENCE_ONLY",
+  "reference_production_classifier_hash": "665c96fc0ad3ed759633054f0fbf3f62cbaabfe488874ef64d0ae618bd48464c",
+  "challengers": [],
+  "promoted": false,
+  "reason": "Production gates not passed; no overwrite of production"
+}

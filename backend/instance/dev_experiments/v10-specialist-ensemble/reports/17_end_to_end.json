@@ -1,0 +1,8 @@
+{
+  "pipeline": "IMAGE\u2192OBS\u2192CANON\u2192ENTITY\u2192STATE\u2192TRAJ\u2192USEFIRST\u2192DECISION",
+  "status": "PARTIAL_CONTRACT_CHECK",
+  "vision_observation": "OK_SPECIALIST_ENSEMBLE",
+  "kitchen_state_mutation": "NOT_PERFORMED_by_design",
+  "note": "Specialist ensemble does not directly mutate KitchenState",
+  "overall": "FAIL_VISION_BLOCKER"
+}

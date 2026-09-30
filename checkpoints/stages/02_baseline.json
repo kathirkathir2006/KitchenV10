@@ -1,0 +1,28 @@
+{
+  "stage": "02_baseline",
+  "status": "COMPLETE",
+  "timestamp": "2026-09-30T01:05:58.757734+00:00",
+  "git_commit": "ea52320b3f33dca74d415469e7143e7591178ea9",
+  "configuration_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "dataset_manifest_hash": null,
+  "model_hash": null,
+  "random_seed": 42,
+  "metrics": {
+    "strict_scene_completeness": 0.2439,
+    "production_status": "BLOCKED"
+  },
+  "environment": {},
+  "artifact_locations": {
+    "baseline": "reports/stage/02_baseline.json"
+  },
+  "completion_marker": true,
+  "payload": {
+    "metrics": {
+      "strict_scene_completeness": 0.2439,
+      "production_status": "BLOCKED"
+    },
+    "artifact_locations": {
+      "baseline": "reports/stage/02_baseline.json"
+    }
+  }
+}

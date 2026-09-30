@@ -1,0 +1,7 @@
+{
+  "existing_kaggle_datasets": [
+    "kathiresannatarajan/kiq-fv-staging"
+  ],
+  "remediation_local_manifests_only": true,
+  "no_bulk_windows_image_mirror": true
+}

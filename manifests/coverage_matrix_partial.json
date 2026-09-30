@@ -1,0 +1,1496 @@
+{
+  "policy": {
+    "core_target": 250,
+    "core_target_meaning": "INITIAL_PLANNING_TARGET_not_quota",
+    "no_bulk_windows_download": true,
+    "zones": [
+      "UNTRUSTED",
+      "OPERATIONAL",
+      "LEARNING_QUARANTINE",
+      "CURATED_TRAINING"
+    ]
+  },
+  "labels": {
+    "cutting board empty": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "empty counter": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "empty packaging": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "empty plate": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "human hand": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "kitchen utensil": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "non food object": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "pet": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "sink": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "smartphone screen": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cardamom powder": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "chili paste": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cinnamon powder": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "clarified butter": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "coriander powder": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cumin powder": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "garlic paste": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "garlic powder": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "ghee": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "ginger paste": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "ginger powder": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "ground ginger": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "lemon juice": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "lime juice": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "turmeric powder": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "white pepper": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "almond milk": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "basmati rice bag": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "bay leaf packet": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "black pepper jar": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "brown rice bag": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "butter stick packaged": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "canned chickpea": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "canned fish": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "canned lentil": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "canned mushroom": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "canned tomato": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "canned tomato sauce": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cardamom powder jar": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cheddar packaged": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cheese block packaged": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "chicken breast packaged": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "chickpea can": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "chili powder jar": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "chili sauce bottle": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cinnamon powder jar": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "coriander powder jar": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cream carton": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cumin powder jar": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "dark soy sauce": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "egg carton": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "egg tray": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "flour bag": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "frozen chicken": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "frozen fish": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "frozen potato": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "garam masala jar": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "garlic powder jar": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "ghee jar": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "ginger powder jar": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "greek yogurt": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "lentil packet dry": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "light soy sauce": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "milk carton": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "mozzarella packaged": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "mushroom punnet": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "oat milk": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "packaged butter": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "packaged cheese": {
+      "production_eligible_count": 9,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "<50",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "packaged milk": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "packaged yogurt": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "parmesan packaged": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "passata bottle": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "pasta packet": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "rice bag": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "soy sauce bottle": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "tomato paste": {
+      "production_eligible_count": 23,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "<50",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": true
+    },
+    "tomato paste tube": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "tomato puree": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "tomato sauce": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "turmeric powder jar": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "yogurt pot": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "biryani": {
+      "production_eligible_count": 20,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "<50",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": true
+    },
+    "cheese pizza": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "chicken biryani": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "daal tadka": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "dal": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "dal tadka": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "dosa": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "margherita pizza": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "masala dosa": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "mutton biryani": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "penne arrabbiata": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "pizza": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 77,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "plain dosa": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "prepared pasta": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "spaghetti bolognese": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "tarka dal": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "veg biryani": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "all purpose flour": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "baby potatoes": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "basmati rice": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "bay leaf": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "bay leaves": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "bell pepper": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 64,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "black pepper": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "black peppercorns": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "boiled egg": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "brown rice": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "butter": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "button mushroom": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "capsicum": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cardamom": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cheddar": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cheese": {
+      "production_eligible_count": 25,
+      "experiment_only_challenger_train_count": 250,
+      "bucket": "<50",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": true
+    },
+    "cherry tomatoes": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "chicken": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "chicken breast": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "chicken drumstick": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "chicken thigh": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "chicken wings": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "chickpea": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "chili": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cilantro": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cinnamon": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cinnamon stick": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cod": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cooked chicken breast": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cooked chicken drumstick": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cooked chicken thigh": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cooked chicken wings": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cooked chickpea": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cooked egg": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cooked lentil": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cooked pasta": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cooked potato": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cooked rice": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "coriander": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "coriander leaves": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cream": {
+      "production_eligible_count": 24,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "<50",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": true
+    },
+    "cumin": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "cumin seeds": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "curd": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "egg": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 146,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "egg white": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "egg yolk": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "fish": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 527,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "flour": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "fresh ginger": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "fried egg": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "fried onion": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "fusilli": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "garam masala": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "garlic": {
+      "production_eligible_count": 36,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "<50",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": true
+    },
+    "garlic cloves": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "ginger": {
+      "production_eligible_count": 33,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "<50",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": true
+    },
+    "green cardamom": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "green chilli": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "green lentil": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "green pepper": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "jalapeno": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "jasmine rice": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "lemon": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 145,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "lentil": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "lettuce": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "lime": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "macaroni": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "maida": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "milk": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 17,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "minced garlic": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "mozzarella": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "mushroom": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 109,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "new potato": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "onion": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "parmesan": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "parsley": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "pasta": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 127,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "penne": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "pepper": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "plain flour": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "plain yogurt": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "portobello": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "potato": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 34,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "red lentil": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "red onion": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "red pepper": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "rice": {
+      "production_eligible_count": 40,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "<50",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": true
+    },
+    "salmon": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "scallion": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "scrambled egg": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "semi skimmed milk": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "shallot": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "skim milk": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "soy sauce": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "spaghetti": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "spinach": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "spring onion": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "tomato": {
+      "production_eligible_count": 40,
+      "experiment_only_challenger_train_count": 350,
+      "bucket": "<50",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": true
+    },
+    "tuna": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "turmeric": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "unsalted butter": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "wheat flour": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "white fish": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "white onion": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "white rice": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "whole milk": {
+      "production_eligible_count": 0,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "ZERO",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": false
+    },
+    "yogurt": {
+      "production_eligible_count": 35,
+      "experiment_only_challenger_train_count": 0,
+      "bucket": "<50",
+      "core_target": 250,
+      "below_target_sufficient_for_experiment": true
+    }
+  },
+  "summary": {
+    "n_labels_audited": 207,
+    "buckets": {
+      "ZERO": 197,
+      "<50": 10,
+      "50-99": 0,
+      "100-249": 0,
+      ">=250": 0
+    },
+    "n_with_any_production_eligible": 10,
+    "core_target_met_count": 0,
+    "note": "Full 207 production-eligible coverage is incomplete; remediation package covers critical gaps only."
+  },
+  "remediation_summary": {
+    "newly_acquired_food": 225,
+    "newly_acquired_hardneg": 24,
+    "controlled_retrain_justified": true,
+    "below_useful_food": [
+      "packaged_cheese"
+    ]
+  },
+  "hardneg": {
+    "foodlike_nonfood": 43,
+    "kitchen_surface": 46,
+    "empty_plate": 15,
+    "utensil": 15,
+    "human_hand": 15,
+    "empty_packaging": 8,
+    "cookware": 12,
+    "kitchen_mood_nonfood": 12
+  },
+  "class_support_report_sha": "fa3765be4736dccf3ba9e55e4ff71a22d833cdebf64c719eb56ce4c13a28f032"
+}

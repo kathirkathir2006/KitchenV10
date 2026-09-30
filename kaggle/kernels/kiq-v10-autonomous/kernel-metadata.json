@@ -1,0 +1,18 @@
+{
+  "id": "kathiresannatarajan/kiq-v10-autonomous",
+  "id_no": 0,
+  "title": "kiq-v10-autonomous",
+  "code_file": "kiq-v10-autonomous.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [
+    "kathiresannatarajan/kiq-fv-staging"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

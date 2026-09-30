@@ -1,0 +1,16 @@
+{
+  "id": "kathiresannatarajan/kiq-v10-specialist",
+  "title": "kiq-v10-specialist",
+  "code_file": "kiq-v10-specialist.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "kathiresannatarajan/kiq-fv-staging"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

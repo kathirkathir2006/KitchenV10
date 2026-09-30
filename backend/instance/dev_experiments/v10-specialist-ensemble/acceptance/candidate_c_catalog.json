@@ -1,0 +1,1817 @@
+{
+  "acceptance_version": "real_world_vision_acceptance_v1",
+  "holdout_mutated": false,
+  "curated_training_contaminated": false,
+  "categories_defined": [
+    "01_single_raw_ingredient",
+    "02_multiple_raw_ingredients",
+    "03_dense_kitchen_scene",
+    "04_ingredient_plus_packaged_food",
+    "05_ingredient_plus_prepared_meal",
+    "06_multiple_prepared_components",
+    "07_packaged_food_scene",
+    "08_fruit_collection",
+    "09_snack_ready_to_eat_scene",
+    "10_raw_vs_partially_prepared",
+    "11_cooked_vs_plated_vs_leftover",
+    "12_recipe_document",
+    "13_non_food",
+    "14_occlusion",
+    "15_overlap",
+    "16_small_objects",
+    "17_partial_visibility",
+    "18_low_light",
+    "19_motion_blur",
+    "20_perspective_distortion",
+    "21_duplicate_instances",
+    "22_quantity_variation",
+    "23_hard_negative_food_pairs",
+    "24_mixed_food_and_nonfood",
+    "25_complex_real_world_kitchen"
+  ],
+  "n_scenes": 41,
+  "scenes": [
+    {
+      "scene_id": "01_tomato_pilot",
+      "category": "01_single_raw_ingredient",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\01_tomato_pilot.jpg",
+        "sha256": "21cbc9111a4213301307645eb58409c852bb38b4138952ad4ca09c8d6ce464a1",
+        "dataset_zone": "SYNTHETIC_CONTRACT_EVAL",
+        "provenance": {
+          "source": "pilot_bundle",
+          "quality": "synthetic_tiny",
+          "source_path": "C:\\Projects\\KitchenIQ-OS\\backend\\app\\services\\food_vision\\dataset\\pilot\\bundle\\images\\tomato\\tomato_09.png",
+          "source_sha256": "21cbc9111a4213301307645eb58409c852bb38b4138952ad4ca09c8d6ce464a1"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_tomato",
+          "label": "tomato",
+          "food_state": "raw",
+          "bbox": null,
+          "required": true,
+          "visual_class_hint": "raw_ingredient"
+        }
+      ],
+      "expect_mixed_parent": false,
+      "notes": "synthetic_pilot_not_real_world_photo",
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "02_multi_raw_composite",
+      "category": "02_multiple_raw_ingredients",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\02_multi_raw_composite.jpg",
+        "sha256": "9db26d643495c362d1a2f5c4ab674e56bfcb3be6182030337fd6db706be854db",
+        "dataset_zone": "COMPOSITE_EVAL_FROM_EXISTING",
+        "provenance": {
+          "method": "tile_composite",
+          "sources": [
+            "C:\\Projects\\KitchenIQ-OS\\backend\\app\\services\\food_vision\\dataset\\pilot\\bundle\\images\\tomato\\tomato_09.png",
+            "C:\\Projects\\KitchenIQ-OS\\backend\\app\\services\\food_vision\\dataset\\pilot\\bundle\\images\\garlic\\garlic_09.png",
+            "C:\\Projects\\KitchenIQ-OS\\backend\\app\\services\\food_vision\\dataset\\pilot\\bundle\\images\\ginger\\ginger_09.png",
+            "C:\\Projects\\KitchenIQ-OS\\backend\\app\\services\\food_vision\\dataset\\pilot\\bundle\\images\\rice\\rice_09.png"
+          ]
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_0_tomato",
+          "label": "tomato",
+          "food_state": "raw",
+          "bbox": [
+            4.0,
+            4.0,
+            380.0,
+            380.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_1_garlic",
+          "label": "garlic",
+          "food_state": "raw",
+          "bbox": [
+            388.0,
+            4.0,
+            764.0,
+            380.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_2_ginger",
+          "label": "ginger",
+          "food_state": "raw",
+          "bbox": [
+            4.0,
+            388.0,
+            380.0,
+            764.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_3_rice",
+          "label": "rice",
+          "food_state": "raw",
+          "bbox": [
+            388.0,
+            388.0,
+            764.0,
+            764.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        }
+      ],
+      "expect_mixed_parent": true,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "03_dense_kitchen",
+      "category": "03_dense_kitchen_scene",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\03_dense_kitchen.jpg",
+        "sha256": "f2caf7d635325c828d2bc027930b690755b5699766b4a3b08f874183579b8e6e",
+        "dataset_zone": "COMPOSITE_EVAL_FROM_EXISTING",
+        "provenance": {
+          "method": "tile_composite",
+          "base_zone": "EXPERIMENT_EVAL_ONLY",
+          "note": "Food101 tiles \u2014 EVAL ONLY, never train"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_0_pizza",
+          "label": "pizza",
+          "food_state": "plated",
+          "bbox": [
+            4.0,
+            4.0,
+            337.0,
+            380.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_1_fried_rice",
+          "label": "fried_rice",
+          "food_state": "plated",
+          "bbox": [
+            345.0,
+            4.0,
+            678.0,
+            380.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_2_caesar_salad",
+          "label": "caesar_salad",
+          "food_state": "plated",
+          "bbox": [
+            686.0,
+            4.0,
+            1019.0,
+            380.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_3_french_fries",
+          "label": "french_fries",
+          "food_state": "plated",
+          "bbox": [
+            4.0,
+            388.0,
+            337.0,
+            764.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_4_club_sandwich",
+          "label": "club_sandwich",
+          "food_state": "plated",
+          "bbox": [
+            345.0,
+            388.0,
+            678.0,
+            764.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_5_omelette",
+          "label": "omelette",
+          "food_state": "plated",
+          "bbox": [
+            686.0,
+            388.0,
+            1019.0,
+            764.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        }
+      ],
+      "expect_mixed_parent": true,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "04_ingredient_packaged",
+      "category": "04_ingredient_plus_packaged_food",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\04_ingredient_packaged.jpg",
+        "sha256": "6680fa0669866c3f1ab28627436c1b737265f78e3e3d07a88eb741598bf82e1f",
+        "dataset_zone": "COMPOSITE_EVAL_FROM_EXISTING",
+        "provenance": {
+          "method": "tile_composite",
+          "sources": [
+            "C:\\Projects\\KitchenIQ-OS\\backend\\app\\services\\food_vision\\dataset\\pilot\\bundle\\images\\tomato\\tomato_19.png",
+            "C:\\Projects\\KitchenIQ-OS\\backend\\app\\services\\food_vision\\dataset\\pilot\\bundle\\images\\packaged_cheese\\packaged_cheese_09.png"
+          ]
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_0_tomato",
+          "label": "tomato",
+          "food_state": "raw",
+          "bbox": [
+            4.0,
+            4.0,
+            316.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_1_packaged_cheese",
+          "label": "packaged_cheese",
+          "food_state": "packaged_ready_to_eat",
+          "bbox": [
+            324.0,
+            4.0,
+            636.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        }
+      ],
+      "expect_mixed_parent": true,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "05_ingredient_prepared",
+      "category": "05_ingredient_plus_prepared_meal",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\05_ingredient_prepared.jpg",
+        "sha256": "05619ab514a33c2dd70f1b7d32d6eadecb8f53bafa65c1cadb22cca7623bbfbe",
+        "dataset_zone": "COMPOSITE_EVAL_FROM_EXISTING",
+        "provenance": {
+          "method": "tile_composite",
+          "zones": [
+            "SYNTHETIC_CONTRACT_EVAL",
+            "EXPERIMENT_EVAL_ONLY"
+          ]
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_0_tomato",
+          "label": "tomato",
+          "food_state": "raw",
+          "bbox": [
+            4.0,
+            4.0,
+            316.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_1_pizza",
+          "label": "pizza",
+          "food_state": "plated",
+          "bbox": [
+            324.0,
+            4.0,
+            636.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        }
+      ],
+      "expect_mixed_parent": true,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "06_multi_prepared",
+      "category": "06_multiple_prepared_components",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\06_multi_prepared.jpg",
+        "sha256": "de94a15523ab4ce570d5cdcc2fabb7664812d5f251b582284ff59da76eef6a24",
+        "dataset_zone": "COMPOSITE_EVAL_FROM_EXISTING",
+        "provenance": {
+          "method": "tile_composite",
+          "base_zone": "EXPERIMENT_EVAL_ONLY"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_0_pizza",
+          "label": "pizza",
+          "food_state": "plated",
+          "bbox": [
+            4.0,
+            4.0,
+            316.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_1_fried_rice",
+          "label": "fried_rice",
+          "food_state": "plated",
+          "bbox": [
+            324.0,
+            4.0,
+            636.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_2_club_sandwich",
+          "label": "club_sandwich",
+          "food_state": "plated",
+          "bbox": [
+            644.0,
+            4.0,
+            956.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        }
+      ],
+      "expect_mixed_parent": true,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "07_packaged",
+      "category": "07_packaged_food_scene",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\07_packaged.jpg",
+        "sha256": "55052bdb30415093dcc652beb05f355a63d100718026db2bbc17d5082de3775b",
+        "dataset_zone": "SYNTHETIC_CONTRACT_EVAL",
+        "provenance": {
+          "source": "pilot",
+          "source_path": "C:\\Projects\\KitchenIQ-OS\\backend\\app\\services\\food_vision\\dataset\\pilot\\bundle\\images\\packaged_cheese\\packaged_cheese_09.png",
+          "source_sha256": "55052bdb30415093dcc652beb05f355a63d100718026db2bbc17d5082de3775b"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_pkg",
+          "label": "packaged_cheese",
+          "food_state": "packaged_ready_to_eat",
+          "bbox": null,
+          "required": true,
+          "visual_class_hint": "packaged_food"
+        }
+      ],
+      "expect_mixed_parent": false,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "08_fruit_proxy",
+      "category": "08_fruit_collection",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\08_fruit_collection_proxy.jpg",
+        "sha256": "2f5e4f1bb72879f70a515e32b115ef96a7b31a238e2c399dcd0e0c507eae4b93",
+        "dataset_zone": "COMPOSITE_EVAL_FROM_EXISTING",
+        "provenance": {
+          "method": "tile_composite",
+          "note": "proxy produce/dip collection \u2014 no dedicated fruit GT photos on disk"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_0_guacamole",
+          "label": "guacamole",
+          "food_state": "raw",
+          "bbox": [
+            4.0,
+            4.0,
+            316.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_1_hummus",
+          "label": "hummus",
+          "food_state": "packaged_ready_to_eat",
+          "bbox": [
+            324.0,
+            4.0,
+            636.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        }
+      ],
+      "expect_mixed_parent": true,
+      "notes": "proxy_not_true_fruit_basket",
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "09_snack_rte",
+      "category": "09_snack_ready_to_eat_scene",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\09_snack_rte.jpg",
+        "sha256": "6f561062a9c68833ddf59c3a6bca5fc4e94b5e9ad692a60e2d8514326b131bb8",
+        "dataset_zone": "COMPOSITE_EVAL_FROM_EXISTING",
+        "provenance": {
+          "base_zone": "EXPERIMENT_EVAL_ONLY"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_0_donuts",
+          "label": "donuts",
+          "food_state": "packaged_ready_to_eat",
+          "bbox": [
+            4.0,
+            4.0,
+            316.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_1_ice_cream",
+          "label": "ice_cream",
+          "food_state": "packaged_ready_to_eat",
+          "bbox": [
+            324.0,
+            4.0,
+            636.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        }
+      ],
+      "expect_mixed_parent": true,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "10_raw_vs_partial",
+      "category": "10_raw_vs_partially_prepared",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\10_raw_vs_partial.jpg",
+        "sha256": "005ec679deead72001a7c18df78b8d1152766523a6dac600a57325bc4154aaca",
+        "dataset_zone": "COMPOSITE_EVAL_FROM_EXISTING",
+        "provenance": {
+          "method": "tile_composite"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_0_tomato",
+          "label": "tomato",
+          "food_state": "raw",
+          "bbox": [
+            4.0,
+            4.0,
+            316.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_1_tomato_paste",
+          "label": "tomato_paste",
+          "food_state": "partially_prepared",
+          "bbox": [
+            324.0,
+            4.0,
+            636.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        }
+      ],
+      "expect_mixed_parent": true,
+      "notes": null,
+      "hard_negative_pair": [
+        "tomato",
+        "tomato_paste"
+      ],
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "11_state_triad",
+      "category": "11_cooked_vs_plated_vs_leftover",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\11_state_triad.jpg",
+        "sha256": "4dcfd53a98dad4eb904b93e3cc96b56bd486d5bd31ba96ffc27fcc05cb179eb7",
+        "dataset_zone": "COMPOSITE_EVAL_FROM_EXISTING",
+        "provenance": {
+          "base_zone": "EXPERIMENT_EVAL_ONLY"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_0_lasagna",
+          "label": "lasagna",
+          "food_state": "cooked",
+          "bbox": [
+            4.0,
+            4.0,
+            316.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_1_omelette",
+          "label": "omelette",
+          "food_state": "plated",
+          "bbox": [
+            324.0,
+            4.0,
+            636.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_2_pad_thai",
+          "label": "pad_thai",
+          "food_state": "leftover",
+          "bbox": [
+            644.0,
+            4.0,
+            956.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        }
+      ],
+      "expect_mixed_parent": true,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "12_recipe_document",
+      "category": "12_recipe_document",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\12_recipe_document.jpg",
+        "sha256": "d7834fee246f5dc07320873b6788e70fae27b6979d9de57842b1e85a0ac77e76",
+        "dataset_zone": "SYNTHETIC_CONTRACT_EVAL",
+        "provenance": {
+          "method": "synthetic_text_render",
+          "content": "recipe_card"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_recipe",
+          "label": "recipe_document",
+          "food_state": null,
+          "bbox": null,
+          "required": true,
+          "visual_class_hint": "recipe_document"
+        }
+      ],
+      "expect_mixed_parent": false,
+      "notes": "must_not_extract_pantry_ingredients_from_text",
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "12_nutrition_label",
+      "category": "12_recipe_document",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\12_nutrition_label.jpg",
+        "sha256": "c1d46fb15996fab7b104d65c6c85b3e8eac5fddff1a7b166e361128ebcebdc32",
+        "dataset_zone": "SYNTHETIC_CONTRACT_EVAL",
+        "provenance": {
+          "method": "synthetic_text_render",
+          "content": "nutrition_label"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_nutrition",
+          "label": "recipe_document",
+          "food_state": null,
+          "bbox": null,
+          "required": true,
+          "visual_class_hint": "recipe_document"
+        }
+      ],
+      "expect_mixed_parent": false,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "13_empty_plate",
+      "category": "13_non_food",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\13_empty_plate.jpg",
+        "sha256": "4576d7626c85ddd512a1bf29f0ad1839e6b771080a94b7634bafbb639e8f5881",
+        "dataset_zone": "SYNTHETIC_CONTRACT_EVAL",
+        "provenance": {
+          "source": "C:\\Projects\\KitchenIQ-OS\\backend\\app\\services\\food_vision\\dataset\\pilot\\bundle\\images\\empty_plate\\empty_plate_09.png",
+          "role": "non_food",
+          "source_path": "C:\\Projects\\KitchenIQ-OS\\backend\\app\\services\\food_vision\\dataset\\pilot\\bundle\\images\\empty_plate\\empty_plate_09.png",
+          "source_sha256": "4576d7626c85ddd512a1bf29f0ad1839e6b771080a94b7634bafbb639e8f5881"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_empty_plate",
+          "label": "non_food",
+          "food_state": null,
+          "bbox": null,
+          "required": true,
+          "visual_class_hint": "non_food"
+        }
+      ],
+      "expect_mixed_parent": false,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "13_human_hand",
+      "category": "13_non_food",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\13_human_hand.jpg",
+        "sha256": "2f6d0274cdccd031c5865f6997b7b41c62bc7b61a1a6df9c54df877d738a8748",
+        "dataset_zone": "SYNTHETIC_CONTRACT_EVAL",
+        "provenance": {
+          "source": "C:\\Projects\\KitchenIQ-OS\\backend\\app\\services\\food_vision\\dataset\\pilot\\bundle\\images\\human_hand\\human_hand_09.png",
+          "role": "non_food",
+          "source_path": "C:\\Projects\\KitchenIQ-OS\\backend\\app\\services\\food_vision\\dataset\\pilot\\bundle\\images\\human_hand\\human_hand_09.png",
+          "source_sha256": "2f6d0274cdccd031c5865f6997b7b41c62bc7b61a1a6df9c54df877d738a8748"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_human_hand",
+          "label": "non_food",
+          "food_state": null,
+          "bbox": null,
+          "required": true,
+          "visual_class_hint": "non_food"
+        }
+      ],
+      "expect_mixed_parent": false,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "13_pantry_empty",
+      "category": "13_non_food",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\13_pantry_empty.jpg",
+        "sha256": "ed20bdac3da7ded0fd09d085327d55dab04fd3250e30edd9105fa294aa3e80e7",
+        "dataset_zone": "REAL_WORLD_ACCEPTANCE_EVAL",
+        "provenance": {
+          "source": "C:\\Projects\\KitchenIQ-OS\\mobile\\assets\\images\\pantry_empty_hero.png",
+          "role": "non_food",
+          "source_path": "C:\\Projects\\KitchenIQ-OS\\mobile\\assets\\images\\pantry_empty_hero.png",
+          "source_sha256": "ed20bdac3da7ded0fd09d085327d55dab04fd3250e30edd9105fa294aa3e80e7"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_empty_shelf",
+          "label": "non_food",
+          "food_state": null,
+          "bbox": null,
+          "required": true,
+          "visual_class_hint": "non_food"
+        }
+      ],
+      "expect_mixed_parent": false,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "13_kitchen_mood",
+      "category": "13_non_food",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\13_kitchen_mood.jpg",
+        "sha256": "d735edcd6ae321ad62477b07b903b6f92d6d18d20bb2ad28568c5542264bebaf",
+        "dataset_zone": "REAL_WORLD_ACCEPTANCE_EVAL",
+        "provenance": {
+          "source": "C:\\Projects\\KitchenIQ-OS\\mobile\\assets\\images\\home_kitchen_mood.png",
+          "role": "non_food",
+          "source_path": "C:\\Projects\\KitchenIQ-OS\\mobile\\assets\\images\\home_kitchen_mood.png",
+          "source_sha256": "d735edcd6ae321ad62477b07b903b6f92d6d18d20bb2ad28568c5542264bebaf"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_kitchen_scene_non_food",
+          "label": "non_food",
+          "food_state": null,
+          "bbox": null,
+          "required": true,
+          "visual_class_hint": "non_food"
+        }
+      ],
+      "expect_mixed_parent": false,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "14_occlusion",
+      "category": "14_occlusion",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\14_occlusion.jpg",
+        "sha256": "9d606f8ab42249a769b0563e14775e49d9a647aadb8b37ea4ca9054ba793d0a3",
+        "dataset_zone": "REAL_WORLD_ACCEPTANCE_EVAL",
+        "provenance": {
+          "method": "degrade:partial",
+          "source": "C:\\Projects\\KitchenIQ-OS\\mobile\\assets\\images\\salad_bowl.png"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_primary",
+          "label": "salad",
+          "food_state": "plated",
+          "bbox": null,
+          "required": true,
+          "visual_class_hint": "prepared_meal"
+        }
+      ],
+      "expect_mixed_parent": false,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "15_overlap",
+      "category": "15_overlap",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\15_overlap.jpg",
+        "sha256": "9d606f8ab42249a769b0563e14775e49d9a647aadb8b37ea4ca9054ba793d0a3",
+        "dataset_zone": "REAL_WORLD_ACCEPTANCE_EVAL",
+        "provenance": {
+          "method": "degrade:partial",
+          "source": "C:\\Projects\\KitchenIQ-OS\\mobile\\assets\\images\\salad_bowl.png"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_primary",
+          "label": "salad",
+          "food_state": "plated",
+          "bbox": null,
+          "required": true,
+          "visual_class_hint": "prepared_meal"
+        }
+      ],
+      "expect_mixed_parent": false,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "16_small_objects",
+      "category": "16_small_objects",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\16_small_objects.jpg",
+        "sha256": "2f9d0ad3acd07997ebfc19a255b8873125260da4f3ecac14e803388bf29bebe6",
+        "dataset_zone": "REAL_WORLD_ACCEPTANCE_EVAL",
+        "provenance": {
+          "method": "degrade:small",
+          "source": "C:\\Projects\\KitchenIQ-OS\\mobile\\assets\\images\\salad_bowl.png"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_primary",
+          "label": "salad",
+          "food_state": "plated",
+          "bbox": null,
+          "required": true,
+          "visual_class_hint": "prepared_meal"
+        }
+      ],
+      "expect_mixed_parent": false,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "17_partial_visibility",
+      "category": "17_partial_visibility",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\17_partial_visibility.jpg",
+        "sha256": "9d606f8ab42249a769b0563e14775e49d9a647aadb8b37ea4ca9054ba793d0a3",
+        "dataset_zone": "REAL_WORLD_ACCEPTANCE_EVAL",
+        "provenance": {
+          "method": "degrade:partial",
+          "source": "C:\\Projects\\KitchenIQ-OS\\mobile\\assets\\images\\salad_bowl.png"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_primary",
+          "label": "salad",
+          "food_state": "plated",
+          "bbox": null,
+          "required": true,
+          "visual_class_hint": "prepared_meal"
+        }
+      ],
+      "expect_mixed_parent": false,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "18_low_light",
+      "category": "18_low_light",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\18_low_light.jpg",
+        "sha256": "413ffdef0ea54ced58f0e5d9b9c14e5fc5543d6d0e3fff34218c5003f7dd2e38",
+        "dataset_zone": "REAL_WORLD_ACCEPTANCE_EVAL",
+        "provenance": {
+          "method": "degrade:low_light",
+          "source": "C:\\Projects\\KitchenIQ-OS\\mobile\\assets\\images\\salad_bowl.png"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_primary",
+          "label": "salad",
+          "food_state": "plated",
+          "bbox": null,
+          "required": true,
+          "visual_class_hint": "prepared_meal"
+        }
+      ],
+      "expect_mixed_parent": false,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "19_motion_blur",
+      "category": "19_motion_blur",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\19_motion_blur.jpg",
+        "sha256": "5d4f20eb4378f64b0962028fc3f67eea6f013f36f301179c37a9e56d0283b27d",
+        "dataset_zone": "REAL_WORLD_ACCEPTANCE_EVAL",
+        "provenance": {
+          "method": "degrade:motion_blur",
+          "source": "C:\\Projects\\KitchenIQ-OS\\mobile\\assets\\images\\salad_bowl.png"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_primary",
+          "label": "salad",
+          "food_state": "plated",
+          "bbox": null,
+          "required": true,
+          "visual_class_hint": "prepared_meal"
+        }
+      ],
+      "expect_mixed_parent": false,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "20_perspective_distortion",
+      "category": "20_perspective_distortion",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\20_perspective_distortion.jpg",
+        "sha256": "f2d05580293cf635e5f67f0cd35a93aaca7d4cf54b6d4a6632c1e5863922e4dd",
+        "dataset_zone": "REAL_WORLD_ACCEPTANCE_EVAL",
+        "provenance": {
+          "method": "degrade:perspective",
+          "source": "C:\\Projects\\KitchenIQ-OS\\mobile\\assets\\images\\salad_bowl.png"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_primary",
+          "label": "salad",
+          "food_state": "plated",
+          "bbox": null,
+          "required": true,
+          "visual_class_hint": "prepared_meal"
+        }
+      ],
+      "expect_mixed_parent": false,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "21_duplicate_tomatoes",
+      "category": "21_duplicate_instances",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\21_duplicate_tomatoes.jpg",
+        "sha256": "1dc1e5ad11fa2f1836ee4b4ca62f6cf99f3032a41baeb633055d5d292ef28a64",
+        "dataset_zone": "COMPOSITE_EVAL_FROM_EXISTING",
+        "provenance": {
+          "method": "duplicate_tile"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_0_tomato",
+          "label": "tomato",
+          "food_state": "raw",
+          "bbox": [
+            4.0,
+            4.0,
+            316.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_1_tomato",
+          "label": "tomato",
+          "food_state": "raw",
+          "bbox": [
+            324.0,
+            4.0,
+            636.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_2_tomato",
+          "label": "tomato",
+          "food_state": "raw",
+          "bbox": [
+            4.0,
+            324.0,
+            316.0,
+            636.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_3_tomato",
+          "label": "tomato",
+          "food_state": "raw",
+          "bbox": [
+            324.0,
+            324.0,
+            636.0,
+            636.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        }
+      ],
+      "expect_mixed_parent": true,
+      "notes": "quantity_must_remain_unknown_unless_confident",
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "22_qty_one",
+      "category": "22_quantity_variation",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\22_qty_one.jpg",
+        "sha256": "a8e4d75c237ab8e16f698cf10fc6359ea485b44dabb14007e494174e3b2a29f8",
+        "dataset_zone": "SYNTHETIC_CONTRACT_EVAL",
+        "provenance": {
+          "qty_gt": 1
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_t1",
+          "label": "tomato",
+          "food_state": "raw",
+          "bbox": null,
+          "required": true,
+          "quantity_gt": 1
+        }
+      ],
+      "expect_mixed_parent": false,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "22_qty_four",
+      "category": "22_quantity_variation",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\22_qty_four.jpg",
+        "sha256": "1dc1e5ad11fa2f1836ee4b4ca62f6cf99f3032a41baeb633055d5d292ef28a64",
+        "dataset_zone": "COMPOSITE_EVAL_FROM_EXISTING",
+        "provenance": {
+          "qty_gt": 4
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_0_tomato",
+          "label": "tomato",
+          "food_state": "raw",
+          "bbox": [
+            4.0,
+            4.0,
+            316.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_1_tomato",
+          "label": "tomato",
+          "food_state": "raw",
+          "bbox": [
+            324.0,
+            4.0,
+            636.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_2_tomato",
+          "label": "tomato",
+          "food_state": "raw",
+          "bbox": [
+            4.0,
+            324.0,
+            316.0,
+            636.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_3_tomato",
+          "label": "tomato",
+          "food_state": "raw",
+          "bbox": [
+            324.0,
+            324.0,
+            636.0,
+            636.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        }
+      ],
+      "expect_mixed_parent": true,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "23_tomato_vs_tomato_paste",
+      "category": "23_hard_negative_food_pairs",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\23_tomato_vs_tomato_paste.jpg",
+        "sha256": "29a4c974941e3c1f0c814a32624196d5ecccc2e3a991894241f95874a8f89435",
+        "dataset_zone": "COMPOSITE_EVAL_FROM_EXISTING",
+        "provenance": {
+          "hard_negative": [
+            "tomato",
+            "tomato_paste"
+          ]
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_0_tomato",
+          "label": "tomato",
+          "food_state": "raw",
+          "bbox": [
+            4.0,
+            4.0,
+            316.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_1_tomato_paste",
+          "label": "tomato_paste",
+          "food_state": "cooked",
+          "bbox": [
+            324.0,
+            4.0,
+            636.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        }
+      ],
+      "expect_mixed_parent": true,
+      "notes": null,
+      "hard_negative_pair": [
+        "tomato",
+        "tomato_paste"
+      ],
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "23_yogurt_vs_cream",
+      "category": "23_hard_negative_food_pairs",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\23_yogurt_vs_cream.jpg",
+        "sha256": "22eb6c2b0facea6166a44782aab4c958c1afb1a8a84fd99d41d1e18a720ba343",
+        "dataset_zone": "COMPOSITE_EVAL_FROM_EXISTING",
+        "provenance": {
+          "hard_negative": [
+            "yogurt",
+            "cream"
+          ]
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_0_yogurt",
+          "label": "yogurt",
+          "food_state": "raw",
+          "bbox": [
+            4.0,
+            4.0,
+            316.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_1_cream",
+          "label": "cream",
+          "food_state": "packaged_ready_to_eat",
+          "bbox": [
+            324.0,
+            4.0,
+            636.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        }
+      ],
+      "expect_mixed_parent": true,
+      "notes": null,
+      "hard_negative_pair": [
+        "yogurt",
+        "cream"
+      ],
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "23_cheese_vs_packaged_cheese",
+      "category": "23_hard_negative_food_pairs",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\23_cheese_vs_packaged_cheese.jpg",
+        "sha256": "8b7badd97bd86725b30f70517c480bf865b294be84f983cb215c81a59f43495a",
+        "dataset_zone": "COMPOSITE_EVAL_FROM_EXISTING",
+        "provenance": {
+          "hard_negative": [
+            "cheese",
+            "packaged_cheese"
+          ]
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_0_cheese",
+          "label": "cheese",
+          "food_state": "raw",
+          "bbox": [
+            4.0,
+            4.0,
+            316.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_1_packaged_cheese",
+          "label": "packaged_cheese",
+          "food_state": "packaged_ready_to_eat",
+          "bbox": [
+            324.0,
+            4.0,
+            636.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        }
+      ],
+      "expect_mixed_parent": true,
+      "notes": null,
+      "hard_negative_pair": [
+        "cheese",
+        "packaged_cheese"
+      ],
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "23_rice_vs_biryani",
+      "category": "23_hard_negative_food_pairs",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\23_rice_vs_biryani.jpg",
+        "sha256": "507934369fbb2b9c5fc6bc4c43f73dfb51d0980f76167ecea0d2ef02819b838a",
+        "dataset_zone": "COMPOSITE_EVAL_FROM_EXISTING",
+        "provenance": {
+          "hard_negative": [
+            "rice",
+            "biryani"
+          ]
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_0_rice",
+          "label": "rice",
+          "food_state": "raw",
+          "bbox": [
+            4.0,
+            4.0,
+            316.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_1_biryani",
+          "label": "biryani",
+          "food_state": "cooked",
+          "bbox": [
+            324.0,
+            4.0,
+            636.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        }
+      ],
+      "expect_mixed_parent": true,
+      "notes": null,
+      "hard_negative_pair": [
+        "rice",
+        "biryani"
+      ],
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "23_fried_rice_not_raw",
+      "category": "23_hard_negative_food_pairs",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\23_fried_rice_not_raw.jpg",
+        "sha256": "00b8de89b6bc1fb23438badd466a68a251089e80f587b2a2f61e839061c9c34f",
+        "dataset_zone": "EXPERIMENT_EVAL_ONLY",
+        "provenance": {
+          "hard_negative": [
+            "fried_rice",
+            "rice"
+          ],
+          "rule": "prepared_not_raw_pantry",
+          "source_path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-large-food-dinov2\\images\\food101\\fried_rice\\00b8de89b6bc1fb2.jpg",
+          "source_sha256": "00b8de89b6bc1fb23438badd466a68a251089e80f587b2a2f61e839061c9c34f"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_fr",
+          "label": "fried_rice",
+          "food_state": "plated",
+          "bbox": null,
+          "required": true,
+          "visual_class_hint": "prepared_meal",
+          "forbid_labels": [
+            "rice",
+            "onion",
+            "chicken"
+          ]
+        }
+      ],
+      "expect_mixed_parent": false,
+      "notes": null,
+      "hard_negative_pair": [
+        "fried_rice",
+        "rice"
+      ],
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "24_food_nonfood",
+      "category": "24_mixed_food_and_nonfood",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\24_food_nonfood.jpg",
+        "sha256": "5a596be6a74315b6e78244a84e8b450778ef7cfb43d48a67e66b786a8669b0b7",
+        "dataset_zone": "COMPOSITE_EVAL_FROM_EXISTING",
+        "provenance": {
+          "method": "tile_composite"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_0_pizza",
+          "label": "pizza",
+          "food_state": "plated",
+          "bbox": [
+            4.0,
+            4.0,
+            316.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_1_non_food",
+          "label": "non_food",
+          "food_state": null,
+          "bbox": [
+            324.0,
+            4.0,
+            636.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": "non_food"
+        }
+      ],
+      "expect_mixed_parent": true,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "25_salad_bowl",
+      "category": "25_complex_real_world_kitchen",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\25_salad_bowl.jpg",
+        "sha256": "29d53aa2d3c0f1608c59580b4efe6f5659dd243c879924602119c9239bdd8b14",
+        "dataset_zone": "REAL_WORLD_ACCEPTANCE_EVAL",
+        "provenance": {
+          "source": "mobile_assets",
+          "role": "complex_prepared_scene",
+          "source_path": "C:\\Projects\\KitchenIQ-OS\\mobile\\assets\\images\\salad_bowl.png",
+          "source_sha256": "29d53aa2d3c0f1608c59580b4efe6f5659dd243c879924602119c9239bdd8b14"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_salad",
+          "label": "salad",
+          "food_state": "plated",
+          "bbox": null,
+          "required": true,
+          "visual_class_hint": "prepared_meal",
+          "forbid_decomposition": true
+        }
+      ],
+      "expect_mixed_parent": false,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "25_tomato_pasta",
+      "category": "25_complex_real_world_kitchen",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\25_tomato_pasta.jpg",
+        "sha256": "807b7fb5aa9a649637801493e062dc3a3cbd948726b162099aadb1cdea799578",
+        "dataset_zone": "REAL_WORLD_ACCEPTANCE_EVAL",
+        "provenance": {
+          "source": "mobile_assets",
+          "role": "prepared_meal",
+          "source_path": "C:\\Projects\\KitchenIQ-OS\\mobile\\assets\\images\\tomato_pasta.png",
+          "source_sha256": "807b7fb5aa9a649637801493e062dc3a3cbd948726b162099aadb1cdea799578"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_pasta",
+          "label": "pasta",
+          "food_state": "plated",
+          "bbox": null,
+          "required": true,
+          "visual_class_hint": "prepared_meal",
+          "forbid_decomposition": true
+        }
+      ],
+      "expect_mixed_parent": false,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "25_complex_mixed",
+      "category": "25_complex_real_world_kitchen",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\25_complex_mixed.jpg",
+        "sha256": "c140443dc08a4dc7ea54e14897f13e41d4a053d7d8e81826b7d88e523f831bee",
+        "dataset_zone": "COMPOSITE_EVAL_FROM_EXISTING",
+        "provenance": {
+          "method": "tile_composite",
+          "sources": [
+            "C:\\Projects\\KitchenIQ-OS\\mobile\\assets\\images\\salad_bowl.png",
+            "C:\\Projects\\KitchenIQ-OS\\mobile\\assets\\images\\tomato_pasta.png",
+            "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-large-food-dinov2\\images\\food101\\spring_rolls\\00be5607523676ff.jpg"
+          ]
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_0_salad",
+          "label": "salad",
+          "food_state": "plated",
+          "bbox": [
+            4.0,
+            4.0,
+            316.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_1_pasta",
+          "label": "pasta",
+          "food_state": "plated",
+          "bbox": [
+            324.0,
+            4.0,
+            636.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        },
+        {
+          "instance_id": "inst_2_spring_rolls",
+          "label": "spring_rolls",
+          "food_state": "plated",
+          "bbox": [
+            644.0,
+            4.0,
+            956.0,
+            316.0
+          ],
+          "required": true,
+          "visual_class_hint": null
+        }
+      ],
+      "expect_mixed_parent": true,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "prepared_pizza",
+      "category": "25_complex_real_world_kitchen",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\prepared_pizza.jpg",
+        "sha256": "0010a118a2f6b08e33fc93a5587abe2c8042ae3cc984fd66ea56d206849aa0a6",
+        "dataset_zone": "EXPERIMENT_EVAL_ONLY",
+        "provenance": {
+          "prepared_meal_protection": true,
+          "label": "pizza",
+          "source_path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-large-food-dinov2\\images\\food101\\pizza\\0010a118a2f6b08e.jpg",
+          "source_sha256": "0010a118a2f6b08e33fc93a5587abe2c8042ae3cc984fd66ea56d206849aa0a6"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_pizza",
+          "label": "pizza",
+          "food_state": "plated",
+          "bbox": null,
+          "required": true,
+          "visual_class_hint": "prepared_meal",
+          "forbid_decomposition": true,
+          "forbid_labels": [
+            "rice",
+            "onion",
+            "chicken",
+            "tomato",
+            "flour"
+          ]
+        }
+      ],
+      "expect_mixed_parent": false,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "prepared_fried_rice",
+      "category": "25_complex_real_world_kitchen",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\prepared_fried_rice.jpg",
+        "sha256": "00b8de89b6bc1fb23438badd466a68a251089e80f587b2a2f61e839061c9c34f",
+        "dataset_zone": "EXPERIMENT_EVAL_ONLY",
+        "provenance": {
+          "prepared_meal_protection": true,
+          "label": "fried_rice",
+          "source_path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-large-food-dinov2\\images\\food101\\fried_rice\\00b8de89b6bc1fb2.jpg",
+          "source_sha256": "00b8de89b6bc1fb23438badd466a68a251089e80f587b2a2f61e839061c9c34f"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_fried_rice",
+          "label": "fried_rice",
+          "food_state": "plated",
+          "bbox": null,
+          "required": true,
+          "visual_class_hint": "prepared_meal",
+          "forbid_decomposition": true,
+          "forbid_labels": [
+            "rice",
+            "onion",
+            "chicken",
+            "tomato",
+            "flour"
+          ]
+        }
+      ],
+      "expect_mixed_parent": false,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "prepared_bibimbap",
+      "category": "25_complex_real_world_kitchen",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\prepared_bibimbap.jpg",
+        "sha256": "00716fcb87034bd75b086d1f3ced55782e3318dd507ab7c5339b6675f5439907",
+        "dataset_zone": "EXPERIMENT_EVAL_ONLY",
+        "provenance": {
+          "prepared_meal_protection": true,
+          "label": "bibimbap",
+          "source_path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-large-food-dinov2\\images\\food101\\bibimbap\\00716fcb87034bd7.jpg",
+          "source_sha256": "00716fcb87034bd75b086d1f3ced55782e3318dd507ab7c5339b6675f5439907"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_bibimbap",
+          "label": "bibimbap",
+          "food_state": "plated",
+          "bbox": null,
+          "required": true,
+          "visual_class_hint": "prepared_meal",
+          "forbid_decomposition": true,
+          "forbid_labels": [
+            "rice",
+            "onion",
+            "chicken",
+            "tomato",
+            "flour"
+          ]
+        }
+      ],
+      "expect_mixed_parent": false,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "prepared_lasagna",
+      "category": "25_complex_real_world_kitchen",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\prepared_lasagna.jpg",
+        "sha256": "0054d1efde53d15643af100a473827d763c6a6d53f65778cec4887e415e30d2c",
+        "dataset_zone": "EXPERIMENT_EVAL_ONLY",
+        "provenance": {
+          "prepared_meal_protection": true,
+          "label": "lasagna",
+          "source_path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-large-food-dinov2\\images\\food101\\lasagna\\0054d1efde53d156.jpg",
+          "source_sha256": "0054d1efde53d15643af100a473827d763c6a6d53f65778cec4887e415e30d2c"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_lasagna",
+          "label": "lasagna",
+          "food_state": "plated",
+          "bbox": null,
+          "required": true,
+          "visual_class_hint": "prepared_meal",
+          "forbid_decomposition": true,
+          "forbid_labels": [
+            "rice",
+            "onion",
+            "chicken",
+            "tomato",
+            "flour"
+          ]
+        }
+      ],
+      "expect_mixed_parent": false,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    },
+    {
+      "scene_id": "prepared_club_sandwich",
+      "category": "25_complex_real_world_kitchen",
+      "image": {
+        "path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-real-world-acceptance-v2\\fixtures\\generated\\prepared_club_sandwich.jpg",
+        "sha256": "003d2b2c314e62b2fe05754747df9a027d1936ae3293c4d60f652e72fabbaf27",
+        "dataset_zone": "EXPERIMENT_EVAL_ONLY",
+        "provenance": {
+          "prepared_meal_protection": true,
+          "label": "club_sandwich",
+          "source_path": "C:\\Projects\\KitchenIQ-OS\\backend\\instance\\dev_experiments\\fv-large-food-dinov2\\images\\food101\\club_sandwich\\003d2b2c314e62b2.jpg",
+          "source_sha256": "003d2b2c314e62b2fe05754747df9a027d1936ae3293c4d60f652e72fabbaf27"
+        },
+        "holdout_related": false,
+        "curated_training": false
+      },
+      "instances": [
+        {
+          "instance_id": "inst_club_sandwich",
+          "label": "club_sandwich",
+          "food_state": "plated",
+          "bbox": null,
+          "required": true,
+          "visual_class_hint": "prepared_meal",
+          "forbid_decomposition": true,
+          "forbid_labels": [
+            "rice",
+            "onion",
+            "chicken",
+            "tomato",
+            "flour"
+          ]
+        }
+      ],
+      "expect_mixed_parent": false,
+      "notes": null,
+      "hard_negative_pair": null,
+      "evaluation_only": true
+    }
+  ],
+  "zones_used": [
+    "COMPOSITE_EVAL_FROM_EXISTING",
+    "EXPERIMENT_EVAL_ONLY",
+    "REAL_WORLD_ACCEPTANCE_EVAL",
+    "SYNTHETIC_CONTRACT_EVAL"
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "serving_bundle": "NOT_ISSUED",
+  "reason": "PRODUCTION BLOCKED \u2014 no new serving weights",
+  "rollback_reference": "old_project_production_classifier_hash_only"
+}

@@ -1,0 +1,33 @@
+{
+  "stage": "13_failure_analysis",
+  "status": "COMPLETE",
+  "timestamp": "2026-09-30T13:25:42.404796+00:00",
+  "completion_marker": true,
+  "payload": {
+    "ranked": [
+      {
+        "id": "candidate_a",
+        "strict": 0.2195
+      },
+      {
+        "id": "candidate_b",
+        "strict": 0.2195
+      },
+      {
+        "id": "candidate_c",
+        "strict": 0.2195
+      }
+    ],
+    "best_candidate": "candidate_a",
+    "best_strict": 0.2195,
+    "baseline": 0.2439,
+    "improved": false,
+    "primary_stage_totals": {
+      "CLASSIFIER": 43,
+      "DETECTOR": 12,
+      "FOOD_NONFOOD": 4
+    },
+    "root_cause_hypothesis": "DATA",
+    "dominant_failure_stage": "CLASSIFIER"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "detector": {
+    "action": "RETAIN_FASTER_RCNN_BASELINE",
+    "reason": "Detector stage totals unchanged prod\u2192challenger; not the cause of strict delta",
+    "trained_this_cycle": false
+  },
+  "food_recognition": {
+    "action": "DEFER_SPECIALIST_TRAINING_PENDING_MOUNTED_PRODUCTION_CROPS",
+    "blind_classifier_retrain": false,
+    "evidence": "prior challenger regression",
+    "trained_this_cycle": false
+  },
+  "specialists": {
+    "planned": [
+      "food_nonfood",
+      "prepared_meal",
+      "food_state",
+      "packaged"
+    ],
+    "trained_this_cycle": false,
+    "status": "ARCHITECTURE_SELECTED_TRAINING_DEFERRED"
+  },
+  "calibration": {
+    "bands": {
+      "HIGH": 0.85,
+      "MEDIUM": 0.55,
+      "LOW": " <0.55"
+    },
+    "challenger_more_confident_wrong_on_nonfood": true,
+    "action": "retain_bands_do_not_lower_thresholds"
+  },
+  "real_world_acceptance": {
+    "baseline_strict": 0.2439,
+    "final_strict_this_cycle": 0.2439,
+    "note": "No new weights promoted; acceptance remains baseline production measurement",
+    "n_scenes": 41
+  },
+  "failure_analysis": {
+    "dominant": "E_VISION_ACCEPTANCE_STILL_BLOCKED_MULTI_COMPONENT",
+    "detector_pct": 33.0,
+    "classifier_pct": 45.1,
+    "state_pct": 18.7,
+    "non_food_pct": 3.3
+  },
+  "challenger_selection": {
+    "selected_for_promotion": null,
+    "reason": "No challenger improved strict scene completeness over 0.2439"
+  },
+  "final_evaluation": {
+    "holdout_used": false,
+    "reason": "No final frozen candidate qualified for holdout"
+  },
+  "kaggle": {
+    "push_rc": 0,
+    "push_out": "Kernel version 1 successfully pushed.  Please check progress at https://www.kaggle.com/code/kathiresannatarajan/kiq-v10-autonomous\n",
+    "push_err": "",
+    "ref": "kathiresannatarajan/kiq-v10-autonomous",
+    "last_status": "kathiresannatarajan/kiq-v10-autonomous has status \"KernelWorkerStatus.COMPLETE\"",
+    "ok": true,
+    "terminal": "complete",
+    "pull_rc": 0,
+    "pull_out": "Output file downloaded to C:\\Projects\\KitchenIQ-V10-AI\\kaggle\\outputs\\kathiresannatarajan__kiq-v10-autonomous\\v10_kaggle_env_report.json\nKernel log downloaded to C:\\Projects\\KitchenIQ-V10-AI\\kaggle\\outputs\\kathiresannatarajan__kiq-v10-autonomous\\kiq-v10-autonomous.log \n",
+    "output_dir": "C:\\Projects\\KitchenIQ-V10-AI\\kaggle\\outputs\\kathiresannatarajan__kiq-v10-autonomous"
+  }
+}

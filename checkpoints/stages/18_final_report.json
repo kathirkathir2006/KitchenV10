@@ -1,0 +1,225 @@
+{
+  "stage": "18_final_report",
+  "status": "COMPLETE",
+  "timestamp": "2026-09-30T01:08:10.290380+00:00",
+  "git_commit": "ea52320b3f33dca74d415469e7143e7591178ea9",
+  "configuration_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "dataset_manifest_hash": null,
+  "model_hash": null,
+  "random_seed": 42,
+  "metrics": {
+    "status": "BLOCKED",
+    "new_project": "C:\\Projects\\KitchenIQ-V10-AI",
+    "architecture": {
+      "id": "B_detector_specialist_ensemble",
+      "architecture": "Faster R-CNN detector + specialist recognition heads (food/nonfood, family/identity, prepared-meal, food-state) on shared representation + evidence fusion + abstention",
+      "backbone_policy": "Reuse DINOv2 ViT-B/14 as shared representation UNLESS specialist benchmark later proves otherwise; do not assume it is final",
+      "why_not_blind_retrain_A": "Challenger Top-1 up / strict scene down; missing labels shared; hardneg regression",
+      "next_compute": "Train only justified specialists + hardneg/state on Kaggle; keep detector unless specialist cycle stalls on detection"
+    },
+    "best_model": "production_reference_unchanged (no improved challenger)",
+    "real_world_scene_completeness": {
+      "baseline": 0.2439,
+      "final": 0.2439
+    },
+    "dataset": {
+      "n_labels_audited": 207,
+      "buckets": {
+        "ZERO": 197,
+        "<50": 10,
+        "50-99": 0,
+        "100-249": 0,
+        ">=250": 0
+      },
+      "n_with_any_production_eligible": 10,
+      "core_target_met_count": 0,
+      "note": "Full 207 production-eligible coverage is incomplete; remediation package covers critical gaps only."
+    },
+    "core_250_target": {
+      "met_count": 0,
+      "buckets": {
+        "ZERO": 197,
+        "<50": 10,
+        "50-99": 0,
+        "100-249": 0,
+        ">=250": 0
+      },
+      "note": "250 is planning target; critical remediation package exists but 207-wide >=250 not met"
+    },
+    "kaggle": {
+      "attempted": true,
+      "result": "complete",
+      "ref": "kathiresannatarajan/kiq-v10-autonomous",
+      "detail": {
+        "ok": true,
+        "terminal": "complete",
+        "last_status": "kathiresannatarajan/kiq-v10-autonomous has status \"KernelWorkerStatus.COMPLETE\"",
+        "push_rc": 0
+      }
+    },
+    "production_gate": "FAIL",
+    "gates": {
+      "A_DATA": "FAIL_partial_coverage_207_incomplete",
+      "B_MODEL": "FAIL_no_improved_candidate",
+      "C_REAL_WORLD": "FAIL_strict_scene_0.2439_blocker",
+      "D_STATE": "NOT_PROVEN",
+      "E_PRODUCT": "NOT_PROVEN",
+      "F_OPERATIONS": "FAIL_no_new_serving_bundle"
+    },
+    "final_decision": "E. VISION ACCEPTANCE STILL BLOCKED",
+    "dominant_blocker": "41-scene strict complete-scene rate remains 0.2439 (production BLOCKED). Classifier-only challenger previously worsened it to 0.2195. Architecture direction selected (specialist ensemble) but no candidate improved real-world acceptance this cycle.",
+    "old_project": "UNCHANGED",
+    "generated_at": "2026-09-30T01:08:10.256995+00:00"
+  },
+  "environment": {},
+  "artifact_locations": {
+    "report": "docs/KITCHENIQ_V10_AUTONOMOUS_ENGINEERING_FINAL_REPORT.md",
+    "final_state": "docs/KITCHENIQ_V10_AUTONOMOUS_FINAL_STATE.json"
+  },
+  "completion_marker": true,
+  "payload": {
+    "metrics": {
+      "status": "BLOCKED",
+      "new_project": "C:\\Projects\\KitchenIQ-V10-AI",
+      "architecture": {
+        "id": "B_detector_specialist_ensemble",
+        "architecture": "Faster R-CNN detector + specialist recognition heads (food/nonfood, family/identity, prepared-meal, food-state) on shared representation + evidence fusion + abstention",
+        "backbone_policy": "Reuse DINOv2 ViT-B/14 as shared representation UNLESS specialist benchmark later proves otherwise; do not assume it is final",
+        "why_not_blind_retrain_A": "Challenger Top-1 up / strict scene down; missing labels shared; hardneg regression",
+        "next_compute": "Train only justified specialists + hardneg/state on Kaggle; keep detector unless specialist cycle stalls on detection"
+      },
+      "best_model": "production_reference_unchanged (no improved challenger)",
+      "real_world_scene_completeness": {
+        "baseline": 0.2439,
+        "final": 0.2439
+      },
+      "dataset": {
+        "n_labels_audited": 207,
+        "buckets": {
+          "ZERO": 197,
+          "<50": 10,
+          "50-99": 0,
+          "100-249": 0,
+          ">=250": 0
+        },
+        "n_with_any_production_eligible": 10,
+        "core_target_met_count": 0,
+        "note": "Full 207 production-eligible coverage is incomplete; remediation package covers critical gaps only."
+      },
+      "core_250_target": {
+        "met_count": 0,
+        "buckets": {
+          "ZERO": 197,
+          "<50": 10,
+          "50-99": 0,
+          "100-249": 0,
+          ">=250": 0
+        },
+        "note": "250 is planning target; critical remediation package exists but 207-wide >=250 not met"
+      },
+      "kaggle": {
+        "attempted": true,
+        "result": "complete",
+        "ref": "kathiresannatarajan/kiq-v10-autonomous",
+        "detail": {
+          "ok": true,
+          "terminal": "complete",
+          "last_status": "kathiresannatarajan/kiq-v10-autonomous has status \"KernelWorkerStatus.COMPLETE\"",
+          "push_rc": 0
+        }
+      },
+      "production_gate": "FAIL",
+      "gates": {
+        "A_DATA": "FAIL_partial_coverage_207_incomplete",
+        "B_MODEL": "FAIL_no_improved_candidate",
+        "C_REAL_WORLD": "FAIL_strict_scene_0.2439_blocker",
+        "D_STATE": "NOT_PROVEN",
+        "E_PRODUCT": "NOT_PROVEN",
+        "F_OPERATIONS": "FAIL_no_new_serving_bundle"
+      },
+      "final_decision": "E. VISION ACCEPTANCE STILL BLOCKED",
+      "dominant_blocker": "41-scene strict complete-scene rate remains 0.2439 (production BLOCKED). Classifier-only challenger previously worsened it to 0.2195. Architecture direction selected (specialist ensemble) but no candidate improved real-world acceptance this cycle.",
+      "old_project": "UNCHANGED",
+      "generated_at": "2026-09-30T01:08:10.256995+00:00"
+    },
+    "artifact_locations": {
+      "report": "docs/KITCHENIQ_V10_AUTONOMOUS_ENGINEERING_FINAL_REPORT.md",
+      "final_state": "docs/KITCHENIQ_V10_AUTONOMOUS_FINAL_STATE.json"
+    },
+    "final_state": {
+      "status": "BLOCKED",
+      "new_project": "C:\\Projects\\KitchenIQ-V10-AI",
+      "architecture": {
+        "id": "B_detector_specialist_ensemble",
+        "architecture": "Faster R-CNN detector + specialist recognition heads (food/nonfood, family/identity, prepared-meal, food-state) on shared representation + evidence fusion + abstention",
+        "backbone_policy": "Reuse DINOv2 ViT-B/14 as shared representation UNLESS specialist benchmark later proves otherwise; do not assume it is final",
+        "why_not_blind_retrain_A": "Challenger Top-1 up / strict scene down; missing labels shared; hardneg regression",
+        "next_compute": "Train only justified specialists + hardneg/state on Kaggle; keep detector unless specialist cycle stalls on detection"
+      },
+      "best_model": "production_reference_unchanged (no improved challenger)",
+      "real_world_scene_completeness": {
+        "baseline": 0.2439,
+        "final": 0.2439
+      },
+      "dataset": {
+        "n_labels_audited": 207,
+        "buckets": {
+          "ZERO": 197,
+          "<50": 10,
+          "50-99": 0,
+          "100-249": 0,
+          ">=250": 0
+        },
+        "n_with_any_production_eligible": 10,
+        "core_target_met_count": 0,
+        "note": "Full 207 production-eligible coverage is incomplete; remediation package covers critical gaps only."
+      },
+      "core_250_target": {
+        "met_count": 0,
+        "buckets": {
+          "ZERO": 197,
+          "<50": 10,
+          "50-99": 0,
+          "100-249": 0,
+          ">=250": 0
+        },
+        "note": "250 is planning target; critical remediation package exists but 207-wide >=250 not met"
+      },
+      "kaggle": {
+        "attempted": true,
+        "result": "complete",
+        "ref": "kathiresannatarajan/kiq-v10-autonomous",
+        "detail": {
+          "ok": true,
+          "terminal": "complete",
+          "last_status": "kathiresannatarajan/kiq-v10-autonomous has status \"KernelWorkerStatus.COMPLETE\"",
+          "push_rc": 0
+        }
+      },
+      "production_gate": "FAIL",
+      "gates": {
+        "A_DATA": "FAIL_partial_coverage_207_incomplete",
+        "B_MODEL": "FAIL_no_improved_candidate",
+        "C_REAL_WORLD": "FAIL_strict_scene_0.2439_blocker",
+        "D_STATE": "NOT_PROVEN",
+        "E_PRODUCT": "NOT_PROVEN",
+        "F_OPERATIONS": "FAIL_no_new_serving_bundle"
+      },
+      "final_decision": "E. VISION ACCEPTANCE STILL BLOCKED",
+      "dominant_blocker": "41-scene strict complete-scene rate remains 0.2439 (production BLOCKED). Classifier-only challenger previously worsened it to 0.2195. Architecture direction selected (specialist ensemble) but no candidate improved real-world acceptance this cycle.",
+      "old_project": "UNCHANGED",
+      "generated_at": "2026-09-30T01:08:10.256995+00:00"
+    },
+    "integrity": {
+      "old_head_before": "7ebfb2e12b9c951cfa7ea4e03bd92be00606df5b",
+      "old_head_after": "7ebfb2e12b9c951cfa7ea4e03bd92be00606df5b",
+      "head_unchanged": true,
+      "porcelain_count_before": 123,
+      "porcelain_count_after": 123,
+      "porcelain_sha_before": "f9340837a546037018b3ff6ab3316cd804c2c7ae4cc720823c95862604b6b840",
+      "porcelain_sha_after": "f9340837a546037018b3ff6ab3316cd804c2c7ae4cc720823c95862604b6b840",
+      "porcelain_unchanged": true,
+      "verdict": "UNCHANGED"
+    }
+  }
+}

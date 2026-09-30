@@ -1,0 +1,6 @@
+{
+  "model_version": "candidate_a",
+  "architecture": "B_detector_specialist_ensemble",
+  "promoted": false,
+  "reason": "no_promotion_without_gate_pass"
+}

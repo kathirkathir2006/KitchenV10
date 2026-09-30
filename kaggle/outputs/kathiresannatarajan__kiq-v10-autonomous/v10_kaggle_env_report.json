@@ -1,0 +1,21 @@
+{
+  "stage": "07_14_bundle",
+  "platform": "Linux-6.12.90+-x86_64-with-glibc2.35",
+  "cuda_visible": null,
+  "torch": "2.10.0+cu128",
+  "cuda": true,
+  "gpu": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "vram_gb": [
+    15.64,
+    15.64
+  ],
+  "training_decision": "DEFER_FULL_RETRAIN",
+  "reason": "Classifier-only challenger already measured regression on 41-scene strict completeness. Architecture selected: specialist ensemble. Full specialist training requires production-eligible crop packs mounted; this kernel validates GPU env and freezes deferral.",
+  "selected_architecture": "B_detector_specialist_ensemble",
+  "baseline_strict": 0.2439,
+  "challenger_strict": 0.2195,
+  "promote": false
+}

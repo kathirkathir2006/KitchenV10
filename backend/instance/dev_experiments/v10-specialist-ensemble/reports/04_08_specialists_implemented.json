@@ -1,0 +1,8 @@
+{
+  "04_food_nonfood": "IMPLEMENTED \u2014 visual_class specialist + hardneg_strict mode",
+  "05_identity": "IMPLEMENTED \u2014 hierarchical stop via fusion (confirmed/probable/unknown/abstain)",
+  "06_prepared_meal": "IMPLEMENTED \u2014 prepared-meal specialist; no raw decomposition",
+  "07_food_state": "IMPLEMENTED \u2014 independent state head mapping",
+  "08_fusion": "IMPLEMENTED \u2014 deterministic conflict rules in fusion.py",
+  "status": "IMPLEMENTED"
+}

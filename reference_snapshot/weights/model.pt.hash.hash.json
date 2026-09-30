@@ -1,0 +1,7 @@
+{
+  "path": "backend/instance/dev_experiments/fv-v2-challenger/artifacts/challenger/model.pt",
+  "sha256": "14aa744e00521554fe551828289442c48064c2e9ebd11ddb2cd8c635ae2a5ceb",
+  "bytes": 223665,
+  "copied": false,
+  "reason": "weight_or_archive_hash_only_no_local_bulk_copy"
+}

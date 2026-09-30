@@ -1,0 +1,16 @@
+{
+  "stage": "00_reference",
+  "status": "COMPLETE",
+  "timestamp": "2026-09-30T01:27:43.893127+00:00",
+  "completion_marker": true,
+  "payload": {
+    "new_root": "C:\\Projects\\KitchenIQ-V10-AI",
+    "old_root": "C:\\Projects\\KitchenIQ-OS",
+    "isolation_ok": true,
+    "old_porcelain_n": 123,
+    "old_porcelain_sha": "f9340837a546037018b3ff6ab3316cd804c2c7ae4cc720823c95862604b6b840",
+    "v10_prior_decision": "E. VISION ACCEPTANCE STILL BLOCKED",
+    "specialist_impl_before": "MISSING",
+    "architecture_selected": "B_detector_specialist_ensemble"
+  }
+}

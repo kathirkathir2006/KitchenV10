@@ -1,0 +1,71 @@
+{
+  "principle": "DINOv2 is BASELINE not locked final; selection by product-level evidence",
+  "candidates": [
+    {
+      "id": "A_detector_dinov2_classifier_fusion",
+      "architecture": "Faster R-CNN + DINOv2 ViT-B/14 multi-head + evidence fusion",
+      "weights_available": true,
+      "licence": "code:project; backbone:DINOv2 terms; OI/OV data:per-image",
+      "compute": "Kaggle T4 capable (prior challenger run)",
+      "latency": "acceptable_prior",
+      "validation_metrics": {
+        "top1_test_prod": 0.5554,
+        "top1_test_challenger": 0.5714
+      },
+      "scene_metrics": {
+        "strict_prod": 0.2439,
+        "strict_challenger": 0.2195
+      },
+      "production_suitability": "BASELINE_BLOCKED_on_scene_completeness",
+      "evaluated": true,
+      "evidence": "fv-real-world-acceptance-v2 + fv-v2-challenger"
+    },
+    {
+      "id": "B_detector_specialist_ensemble",
+      "architecture": "Faster R-CNN + specialist classifiers (raw/packaged/prepared/state/nonfood) + fusion",
+      "weights_available": "PARTIAL_reuse_dinov2_backbone_possible",
+      "licence": "same_as_A_plus_specialist_heads",
+      "compute": "higher_than_A_but_T4_feasible_if_frozen_backbone",
+      "latency": "higher",
+      "validation_metrics": "NOT_FULLY_EVALUATED",
+      "scene_metrics": "NOT_EVALUATED",
+      "production_suitability": "PROMISING_GIVEN_FAILURE_MIX",
+      "evaluated": false,
+      "status": "NOT EVALUATED \u2014 RESOURCE/TIME for full 41-scene specialist suite pending justified training",
+      "evidence_support": "failure attribution classifier 45% + state 19% + nonfood issues => specialists justified"
+    },
+    {
+      "id": "C_detector_convnext_classifier",
+      "architecture": "Faster R-CNN + ConvNeXt-Tiny classifier",
+      "weights_available": true,
+      "licence": "timm/apache_typically",
+      "compute": "T4_feasible",
+      "validation_metrics": "NOT EVALUATED \u2014 RESOURCE UNAVAILABLE for full product acceptance in this cycle without justified data+kernel",
+      "scene_metrics": "NOT EVALUATED \u2014 RESOURCE UNAVAILABLE",
+      "production_suitability": "UNKNOWN",
+      "evaluated": false,
+      "status": "NOT EVALUATED \u2014 RESOURCE UNAVAILABLE"
+    },
+    {
+      "id": "D_detector_segmentation_assist",
+      "architecture": "Mask R-CNN / SegFormer assist + classifier",
+      "weights_available": true,
+      "licence": "varies",
+      "compute": "heavier",
+      "validation_metrics": "NOT EVALUATED \u2014 RESOURCE UNAVAILABLE",
+      "scene_metrics": "NOT EVALUATED \u2014 RESOURCE UNAVAILABLE",
+      "production_suitability": "UNKNOWN",
+      "evaluated": false,
+      "status": "NOT EVALUATED \u2014 RESOURCE UNAVAILABLE",
+      "note": "May help multi-object/occlusion but detector already 33% of failures; not first lever without measured gain"
+    }
+  ],
+  "selected": {
+    "id": "B_detector_specialist_ensemble",
+    "architecture": "Faster R-CNN detector + specialist recognition heads (food/nonfood, family/identity, prepared-meal, food-state) on shared representation + evidence fusion + abstention",
+    "backbone_policy": "Reuse DINOv2 ViT-B/14 as shared representation UNLESS specialist benchmark later proves otherwise; do not assume it is final",
+    "why_not_blind_retrain_A": "Challenger Top-1 up / strict scene down; missing labels shared; hardneg regression",
+    "next_compute": "Train only justified specialists + hardneg/state on Kaggle; keep detector unless specialist cycle stalls on detection"
+  },
+  "selection_rationale": "Measured product metric (strict scene completeness) did not improve with classifier-only challenger. Failure mix is multi-component. Specialists are the evidence-supported architecture direction. Candidates C/D not fully evaluated on 41-scene under free compute in this pass \u2014 recorded as NOT EVALUATED."
+}

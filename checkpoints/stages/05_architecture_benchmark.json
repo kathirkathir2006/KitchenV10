@@ -1,0 +1,37 @@
+{
+  "stage": "05_architecture_benchmark",
+  "status": "COMPLETE",
+  "timestamp": "2026-09-30T01:06:01.020585+00:00",
+  "git_commit": "ea52320b3f33dca74d415469e7143e7591178ea9",
+  "configuration_hash": "c1d6cb908828f43c4d6bb95a9a9fab05f5724890cd00e00d6e7285b1a86c25c5",
+  "dataset_manifest_hash": null,
+  "model_hash": null,
+  "random_seed": 42,
+  "metrics": {
+    "selected": "B_detector_specialist_ensemble",
+    "n_candidates": 4
+  },
+  "environment": {},
+  "artifact_locations": {
+    "benchmark": "reports/stage/05_architecture_benchmark.json",
+    "selected": "configs/selected_architecture.json"
+  },
+  "completion_marker": true,
+  "payload": {
+    "metrics": {
+      "selected": "B_detector_specialist_ensemble",
+      "n_candidates": 4
+    },
+    "config": {
+      "id": "B_detector_specialist_ensemble",
+      "architecture": "Faster R-CNN detector + specialist recognition heads (food/nonfood, family/identity, prepared-meal, food-state) on shared representation + evidence fusion + abstention",
+      "backbone_policy": "Reuse DINOv2 ViT-B/14 as shared representation UNLESS specialist benchmark later proves otherwise; do not assume it is final",
+      "why_not_blind_retrain_A": "Challenger Top-1 up / strict scene down; missing labels shared; hardneg regression",
+      "next_compute": "Train only justified specialists + hardneg/state on Kaggle; keep detector unless specialist cycle stalls on detection"
+    },
+    "artifact_locations": {
+      "benchmark": "reports/stage/05_architecture_benchmark.json",
+      "selected": "configs/selected_architecture.json"
+    }
+  }
+}

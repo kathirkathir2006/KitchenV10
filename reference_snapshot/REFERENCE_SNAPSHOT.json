@@ -1,0 +1,153 @@
+{
+  "captured_at": "2026-09-30T01:05:57.988917+00:00",
+  "files": {
+    "docs/KITCHENIQ_MASTER_PRODUCT_AI_REQUIREMENTS_V10.md": {
+      "path": "docs/KITCHENIQ_MASTER_PRODUCT_AI_REQUIREMENTS_V10.md",
+      "sha256": "b5dad8c6f6e17fac0be11a1831fd1b369d26bc027ce8b3fe56a0b0c94cc2e570",
+      "bytes": 26109,
+      "copied_to": "C:\\Projects\\KitchenIQ-V10-AI\\reference_snapshot\\docs__KITCHENIQ_MASTER_PRODUCT_AI_REQUIREMENTS_V10.md"
+    },
+    "docs/KitchenIQ_Architecture_Specification_v9.5.md": {
+      "path": "docs/KitchenIQ_Architecture_Specification_v9.5.md",
+      "sha256": "d4435a875bc19a9eae9109f8d4c204d769ea88eee4f8b95933527f898129a9da",
+      "bytes": 124190,
+      "copied_to": "C:\\Projects\\KitchenIQ-V10-AI\\reference_snapshot\\docs__KitchenIQ_Architecture_Specification_v9.5.md"
+    },
+    "docs/KitchenIQ_Architecture_V9.5_Change_Report.md": {
+      "path": "docs/KitchenIQ_Architecture_V9.5_Change_Report.md",
+      "sha256": "dc70f82b7f7e4ebbc32da4ae901c654a04cdd14a355a4982324d2562188762f7",
+      "bytes": 3086,
+      "copied_to": "C:\\Projects\\KitchenIQ-V10-AI\\reference_snapshot\\docs__KitchenIQ_Architecture_V9.5_Change_Report.md"
+    },
+    "docs/VISION_ENGINE_V2_IMPLEMENTATION_CONTRACT.md": {
+      "path": "docs/VISION_ENGINE_V2_IMPLEMENTATION_CONTRACT.md",
+      "sha256": "d91c25bd126fed09679b2a6e2a8c9f479972199c2aac9e82464ee6b3560ee861",
+      "bytes": 32342,
+      "copied_to": "C:\\Projects\\KitchenIQ-V10-AI\\reference_snapshot\\docs__VISION_ENGINE_V2_IMPLEMENTATION_CONTRACT.md"
+    },
+    "docs/VISION_ENGINE_V2_IMPLEMENTATION_FINAL_REPORT.md": {
+      "path": "docs/VISION_ENGINE_V2_IMPLEMENTATION_FINAL_REPORT.md",
+      "sha256": "0676916d1b4a1a8c1656a30c21e5b4a08d2c6955b2cd9efca61ddfb599401c3e",
+      "bytes": 14522,
+      "copied_to": "C:\\Projects\\KitchenIQ-V10-AI\\reference_snapshot\\docs__VISION_ENGINE_V2_IMPLEMENTATION_FINAL_REPORT.md"
+    },
+    "docs/VISION_ENGINE_V2_CHALLENGER_TRAINING_FINAL_REPORT.md": {
+      "path": "docs/VISION_ENGINE_V2_CHALLENGER_TRAINING_FINAL_REPORT.md",
+      "sha256": "dc6138a3dc456bafd3895cbd783591c414b8656f98da3d3eac40f19b334ad151",
+      "bytes": 20897,
+      "copied_to": "C:\\Projects\\KitchenIQ-V10-AI\\reference_snapshot\\docs__VISION_ENGINE_V2_CHALLENGER_TRAINING_FINAL_REPORT.md"
+    },
+    "docs/VISION_ENGINE_V2_CHALLENGER_FAILURE_ANALYSIS.md": {
+      "path": "docs/VISION_ENGINE_V2_CHALLENGER_FAILURE_ANALYSIS.md",
+      "sha256": "375cab68b2d54a4cf87001882bdcec7d5a11fbc68c7c2b61bacf28bf010d232c",
+      "bytes": 14227,
+      "copied_to": "C:\\Projects\\KitchenIQ-V10-AI\\reference_snapshot\\docs__VISION_ENGINE_V2_CHALLENGER_FAILURE_ANALYSIS.md"
+    },
+    "docs/VISION_ENGINE_V2_DATA_REMEDIATION_REPORT.md": {
+      "path": "docs/VISION_ENGINE_V2_DATA_REMEDIATION_REPORT.md",
+      "sha256": "602bdfc98b4aaa32b6605985293426600156872bc85dfc337ab39612f35e8665",
+      "bytes": 8644,
+      "copied_to": "C:\\Projects\\KitchenIQ-V10-AI\\reference_snapshot\\docs__VISION_ENGINE_V2_DATA_REMEDIATION_REPORT.md"
+    },
+    "docs/ARCHITECTURE.md": {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "0fc4a9e12625c4eb376a01ba753f2b75b599e75fa14e4742e7329e3c44bfbe11",
+      "bytes": 878,
+      "copied_to": "C:\\Projects\\KitchenIQ-V10-AI\\reference_snapshot\\docs__ARCHITECTURE.md"
+    },
+    "backend/instance/dev_experiments/fv-v2-challenger/reports/dataset_manifest.json": {
+      "path": "backend/instance/dev_experiments/fv-v2-challenger/reports/dataset_manifest.json",
+      "sha256": "04f6dc34d0a395e50ef99ec6876cffb4bd3e63bfa4037ff8a1834e27f7a76e79",
+      "bytes": 3226,
+      "copied_to": "C:\\Projects\\KitchenIQ-V10-AI\\reference_snapshot\\backend__instance__dev_experiments__fv-v2-challenger__reports__dataset_manifest.json"
+    },
+    "backend/instance/dev_experiments/fv-v2-challenger/reports/evaluation_metrics.json": {
+      "path": "backend/instance/dev_experiments/fv-v2-challenger/reports/evaluation_metrics.json",
+      "sha256": "ab3b1d7effd4ef5fc9fb0900216300aacb0f22b9cab5f54d7a38acca78c34185",
+      "bytes": 83775,
+      "copied_to": "C:\\Projects\\KitchenIQ-V10-AI\\reference_snapshot\\backend__instance__dev_experiments__fv-v2-challenger__reports__evaluation_metrics.json"
+    },
+    "backend/instance/dev_experiments/fv-v2-challenger/reports/calibration.json": {
+      "path": "backend/instance/dev_experiments/fv-v2-challenger/reports/calibration.json",
+      "sha256": "e0fd939970da64d63ccd068cdedf562c816a2355ce49c6840382f514be4c1952",
+      "bytes": 1010,
+      "copied_to": "C:\\Projects\\KitchenIQ-V10-AI\\reference_snapshot\\backend__instance__dev_experiments__fv-v2-challenger__reports__calibration.json"
+    },
+    "backend/instance/dev_experiments/fv-v2-challenger/failure_analysis.json": {
+      "path": "backend/instance/dev_experiments/fv-v2-challenger/failure_analysis.json",
+      "sha256": "ce1b5abdd474ea309aa0fb15245576fcc770c019525abc406f6ca141a08981a3",
+      "bytes": 608697,
+      "copied_to": "C:\\Projects\\KitchenIQ-V10-AI\\reference_snapshot\\backend__instance__dev_experiments__fv-v2-challenger__failure_analysis.json"
+    },
+    "backend/instance/dev_experiments/fv-v2-challenger/acceptance_challenger/reports/scene_level_metrics.json": {
+      "path": "backend/instance/dev_experiments/fv-v2-challenger/acceptance_challenger/reports/scene_level_metrics.json",
+      "sha256": "1b9aefc54ce88840190a5b4c4820728818c98473faed1f13117381be792e3901",
+      "bytes": 111733,
+      "copied_to": "C:\\Projects\\KitchenIQ-V10-AI\\reference_snapshot\\backend__instance__dev_experiments__fv-v2-challenger__acceptance_challenger__reports__scene_level_metrics.json"
+    },
+    "backend/instance/dev_experiments/fv-real-world-acceptance-v2/reports/scene_level_metrics.json": {
+      "path": "backend/instance/dev_experiments/fv-real-world-acceptance-v2/reports/scene_level_metrics.json",
+      "sha256": "b512ffb4e5c9703a23246eb68de8829204e203f6b3709d3562eded7abd59c3e5",
+      "bytes": 109588,
+      "copied_to": "C:\\Projects\\KitchenIQ-V10-AI\\reference_snapshot\\backend__instance__dev_experiments__fv-real-world-acceptance-v2__reports__scene_level_metrics.json"
+    },
+    "backend/instance/dev_experiments/fv-real-world-acceptance-v2/reports/vision_failure_taxonomy.json": {
+      "path": "backend/instance/dev_experiments/fv-real-world-acceptance-v2/reports/vision_failure_taxonomy.json",
+      "sha256": "3022a6d208cfbd2e086e42cdf2d32351d863b2ee833d5337f1e74a212b269645",
+      "bytes": 39788,
+      "copied_to": "C:\\Projects\\KitchenIQ-V10-AI\\reference_snapshot\\backend__instance__dev_experiments__fv-real-world-acceptance-v2__reports__vision_failure_taxonomy.json"
+    },
+    "backend/instance/dev_experiments/fv-v2-data-remediation/acquisition_summary.json": {
+      "path": "backend/instance/dev_experiments/fv-v2-data-remediation/acquisition_summary.json",
+      "sha256": "c074977f374569e1c036586021f17a52edc5cccc8ec086794d97ee127bdebee3",
+      "bytes": 2083,
+      "copied_to": "C:\\Projects\\KitchenIQ-V10-AI\\reference_snapshot\\backend__instance__dev_experiments__fv-v2-data-remediation__acquisition_summary.json"
+    },
+    "backend/instance/dev_experiments/fv-v2-data-remediation/class_support_report.json": {
+      "path": "backend/instance/dev_experiments/fv-v2-data-remediation/class_support_report.json",
+      "sha256": "fa3765be4736dccf3ba9e55e4ff71a22d833cdebf64c719eb56ce4c13a28f032",
+      "bytes": 6097,
+      "copied_to": "C:\\Projects\\KitchenIQ-V10-AI\\reference_snapshot\\backend__instance__dev_experiments__fv-v2-data-remediation__class_support_report.json"
+    },
+    "backend/instance/dev_experiments/fv-production-final/kaggle/reports_pull_clf_json/production_evaluation_report.json": {
+      "path": "backend/instance/dev_experiments/fv-production-final/kaggle/reports_pull_clf_json/production_evaluation_report.json",
+      "sha256": "9b848ab121198ebdeffd5226e7dec644387aa4c9cef3a0899362c40356ebb49e",
+      "bytes": 3237,
+      "copied_to": "C:\\Projects\\KitchenIQ-V10-AI\\reference_snapshot\\backend__instance__dev_experiments__fv-production-final__kaggle__reports_pull_clf_json__production_evaluation_report.json"
+    }
+  },
+  "weights": {
+    "backend/instance/dev_experiments/fv-production-final/registry_artifacts/food-vision-classifier-v1/classifier-prod-v1.0.0/model.pt": {
+      "path": "backend/instance/dev_experiments/fv-production-final/registry_artifacts/food-vision-classifier-v1/classifier-prod-v1.0.0/model.pt",
+      "sha256": "665c96fc0ad3ed759633054f0fbf3f62cbaabfe488874ef64d0ae618bd48464c",
+      "bytes": 245303,
+      "copied": false,
+      "reason": "weight_or_archive_hash_only_no_local_bulk_copy"
+    },
+    "backend/instance/dev_experiments/fv-v2-challenger/artifacts/challenger/model.pt": {
+      "path": "backend/instance/dev_experiments/fv-v2-challenger/artifacts/challenger/model.pt",
+      "sha256": "14aa744e00521554fe551828289442c48064c2e9ebd11ddb2cd8c635ae2a5ceb",
+      "bytes": 223665,
+      "copied": false,
+      "reason": "weight_or_archive_hash_only_no_local_bulk_copy"
+    }
+  },
+  "taxonomy": {},
+  "taxonomy_candidates": [
+    {
+      "rel": "backend\\app\\services\\food_vision\\dataset\\taxonomy.py",
+      "sha256": "e7faf93ec1cf7ff514d9c95a68a60f6072952926d0a560276b46a0cb1958e7a0",
+      "bytes": 2451
+    },
+    {
+      "rel": "backend\\app\\services\\food_vision\\dataset\\v1_label_taxonomy.csv",
+      "sha256": "cfc98a0ea122a6588698232e7da9cb63060636ef1cb41908c0a27a9308e59756",
+      "bytes": 28948
+    },
+    {
+      "rel": "backend\\app\\services\\food_vision\\dataset\\_generate_v1_taxonomy.py",
+      "sha256": "a0d5baaf8648cf5d56f37bbd60533af366e8e81ad6693a08dba96d346b8b2e6c",
+      "bytes": 19282
+    }
+  ]
+}

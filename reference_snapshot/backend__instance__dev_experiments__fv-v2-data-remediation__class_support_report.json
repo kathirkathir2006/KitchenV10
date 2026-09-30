@@ -1,0 +1,256 @@
+{
+  "garlic": {
+    "production_eligible_count": 36,
+    "experiment_only_count": 0,
+    "challenger_train_count_context": 0,
+    "before_staging_audit": {
+      "staging_candidates": 11,
+      "production_eligible": 11
+    },
+    "sufficient": false,
+    "useful": true,
+    "zero_support": false,
+    "sources": [
+      "openverse"
+    ],
+    "real_world": true,
+    "synthetic": 0
+  },
+  "ginger": {
+    "production_eligible_count": 33,
+    "experiment_only_count": 0,
+    "challenger_train_count_context": 0,
+    "before_staging_audit": {
+      "staging_candidates": 8,
+      "production_eligible": 8
+    },
+    "sufficient": false,
+    "useful": true,
+    "zero_support": false,
+    "sources": [
+      "openverse"
+    ],
+    "real_world": true,
+    "synthetic": 0
+  },
+  "rice": {
+    "production_eligible_count": 40,
+    "experiment_only_count": 0,
+    "challenger_train_count_context": 0,
+    "before_staging_audit": {
+      "staging_candidates": 24,
+      "production_eligible": 24
+    },
+    "sufficient": true,
+    "useful": true,
+    "zero_support": false,
+    "sources": [
+      "openverse"
+    ],
+    "real_world": true,
+    "synthetic": 0
+  },
+  "biryani": {
+    "production_eligible_count": 20,
+    "experiment_only_count": 0,
+    "challenger_train_count_context": 0,
+    "before_staging_audit": {},
+    "sufficient": false,
+    "useful": true,
+    "zero_support": false,
+    "sources": [
+      "openverse"
+    ],
+    "real_world": true,
+    "synthetic": 0
+  },
+  "yogurt": {
+    "production_eligible_count": 35,
+    "experiment_only_count": 0,
+    "challenger_train_count_context": 0,
+    "before_staging_audit": {
+      "staging_candidates": 10,
+      "production_eligible": 10
+    },
+    "sufficient": false,
+    "useful": true,
+    "zero_support": false,
+    "sources": [
+      "openverse"
+    ],
+    "real_world": true,
+    "synthetic": 0
+  },
+  "cream": {
+    "production_eligible_count": 24,
+    "experiment_only_count": 0,
+    "challenger_train_count_context": 0,
+    "before_staging_audit": {
+      "staging_candidates": 4,
+      "production_eligible": 4
+    },
+    "sufficient": false,
+    "useful": true,
+    "zero_support": false,
+    "sources": [
+      "openverse"
+    ],
+    "real_world": true,
+    "synthetic": 0
+  },
+  "tomato": {
+    "production_eligible_count": 40,
+    "experiment_only_count": 0,
+    "challenger_train_count_context": 350,
+    "before_staging_audit": {
+      "staging_candidates": 22,
+      "production_eligible": 22
+    },
+    "sufficient": true,
+    "useful": true,
+    "zero_support": false,
+    "sources": [
+      "open_images",
+      "openverse"
+    ],
+    "real_world": true,
+    "synthetic": 0
+  },
+  "tomato_paste": {
+    "production_eligible_count": 23,
+    "experiment_only_count": 0,
+    "challenger_train_count_context": 0,
+    "before_staging_audit": {
+      "staging_candidates": 3,
+      "production_eligible": 3
+    },
+    "sufficient": false,
+    "useful": true,
+    "zero_support": false,
+    "sources": [
+      "openverse"
+    ],
+    "real_world": true,
+    "synthetic": 0
+  },
+  "fried_rice": {
+    "production_eligible_count": 25,
+    "experiment_only_count": 0,
+    "challenger_train_count_context": 0,
+    "before_staging_audit": {},
+    "sufficient": false,
+    "useful": true,
+    "zero_support": false,
+    "sources": [
+      "openverse"
+    ],
+    "real_world": true,
+    "synthetic": 0
+  },
+  "cheese": {
+    "production_eligible_count": 25,
+    "experiment_only_count": 0,
+    "challenger_train_count_context": 250,
+    "before_staging_audit": {},
+    "sufficient": false,
+    "useful": true,
+    "zero_support": false,
+    "sources": [
+      "openverse"
+    ],
+    "real_world": true,
+    "synthetic": 0
+  },
+  "packaged_cheese": {
+    "production_eligible_count": 9,
+    "experiment_only_count": 0,
+    "challenger_train_count_context": 0,
+    "before_staging_audit": {
+      "staging_candidates": 3,
+      "production_eligible": 3
+    },
+    "sufficient": false,
+    "useful": false,
+    "zero_support": false,
+    "sources": [
+      "openverse",
+      "wikimedia_commons"
+    ],
+    "real_world": true,
+    "synthetic": 0
+  },
+  "NONFOOD::empty_plate": {
+    "production_eligible_count": 15,
+    "label": "NONFOOD",
+    "hardneg_category": "empty_plate",
+    "sufficient_category": true,
+    "sources": [
+      "open_images"
+    ]
+  },
+  "NONFOOD::cookware": {
+    "production_eligible_count": 12,
+    "label": "NONFOOD",
+    "hardneg_category": "cookware",
+    "sufficient_category": true,
+    "sources": [
+      "openverse"
+    ]
+  },
+  "NONFOOD::utensil": {
+    "production_eligible_count": 15,
+    "label": "NONFOOD",
+    "hardneg_category": "utensil",
+    "sufficient_category": true,
+    "sources": [
+      "open_images"
+    ]
+  },
+  "NONFOOD::kitchen_surface": {
+    "production_eligible_count": 46,
+    "label": "NONFOOD",
+    "hardneg_category": "kitchen_surface",
+    "sufficient_category": true,
+    "sources": [
+      "open_images",
+      "openverse"
+    ]
+  },
+  "NONFOOD::human_hand": {
+    "production_eligible_count": 15,
+    "label": "NONFOOD",
+    "hardneg_category": "human_hand",
+    "sufficient_category": true,
+    "sources": [
+      "open_images"
+    ]
+  },
+  "NONFOOD::empty_packaging": {
+    "production_eligible_count": 8,
+    "label": "NONFOOD",
+    "hardneg_category": "empty_packaging",
+    "sufficient_category": true,
+    "sources": [
+      "openverse"
+    ]
+  },
+  "NONFOOD::foodlike_nonfood": {
+    "production_eligible_count": 43,
+    "label": "NONFOOD",
+    "hardneg_category": "foodlike_nonfood",
+    "sufficient_category": true,
+    "sources": [
+      "open_images",
+      "openverse"
+    ]
+  },
+  "NONFOOD::kitchen_mood_nonfood": {
+    "production_eligible_count": 12,
+    "label": "NONFOOD",
+    "hardneg_category": "kitchen_mood_nonfood",
+    "sufficient_category": true,
+    "sources": [
+      "openverse"
+    ]
+  }
+}

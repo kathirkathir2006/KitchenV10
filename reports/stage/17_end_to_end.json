@@ -1,0 +1,128 @@
+{
+  "n_scenarios": 24,
+  "n_pass": 0,
+  "results": [
+    {
+      "scenario": "single_raw_ingredient",
+      "status": "FAIL_BASELINE_UNRESOLVED",
+      "pipeline": "IMAGE\u2192OBS\u2192ENTITY\u2192STATE\u2192TRAJ\u2192USEFIRST\u2192DECISION"
+    },
+    {
+      "scenario": "multiple_raw_ingredients",
+      "status": "FAIL_BASELINE_UNRESOLVED",
+      "pipeline": "IMAGE\u2192OBS\u2192ENTITY\u2192STATE\u2192TRAJ\u2192USEFIRST\u2192DECISION"
+    },
+    {
+      "scenario": "dense_kitchen",
+      "status": "FAIL_BASELINE_UNRESOLVED",
+      "pipeline": "IMAGE\u2192OBS\u2192ENTITY\u2192STATE\u2192TRAJ\u2192USEFIRST\u2192DECISION"
+    },
+    {
+      "scenario": "packaged_product",
+      "status": "FAIL_BASELINE_UNRESOLVED",
+      "pipeline": "IMAGE\u2192OBS\u2192ENTITY\u2192STATE\u2192TRAJ\u2192USEFIRST\u2192DECISION"
+    },
+    {
+      "scenario": "ingredient_packaged",
+      "status": "FAIL_BASELINE_UNRESOLVED",
+      "pipeline": "IMAGE\u2192OBS\u2192ENTITY\u2192STATE\u2192TRAJ\u2192USEFIRST\u2192DECISION"
+    },
+    {
+      "scenario": "ingredient_prepared",
+      "status": "FAIL_BASELINE_UNRESOLVED",
+      "pipeline": "IMAGE\u2192OBS\u2192ENTITY\u2192STATE\u2192TRAJ\u2192USEFIRST\u2192DECISION"
+    },
+    {
+      "scenario": "multiple_prepared",
+      "status": "FAIL_BASELINE_UNRESOLVED",
+      "pipeline": "IMAGE\u2192OBS\u2192ENTITY\u2192STATE\u2192TRAJ\u2192USEFIRST\u2192DECISION"
+    },
+    {
+      "scenario": "fruit_collection",
+      "status": "FAIL_BASELINE_UNRESOLVED",
+      "pipeline": "IMAGE\u2192OBS\u2192ENTITY\u2192STATE\u2192TRAJ\u2192USEFIRST\u2192DECISION"
+    },
+    {
+      "scenario": "ready_to_eat_snack",
+      "status": "FAIL_BASELINE_UNRESOLVED",
+      "pipeline": "IMAGE\u2192OBS\u2192ENTITY\u2192STATE\u2192TRAJ\u2192USEFIRST\u2192DECISION"
+    },
+    {
+      "scenario": "raw_vs_partial",
+      "status": "FAIL_BASELINE_UNRESOLVED",
+      "pipeline": "IMAGE\u2192OBS\u2192ENTITY\u2192STATE\u2192TRAJ\u2192USEFIRST\u2192DECISION"
+    },
+    {
+      "scenario": "cooked_plated_leftover",
+      "status": "FAIL_BASELINE_UNRESOLVED",
+      "pipeline": "IMAGE\u2192OBS\u2192ENTITY\u2192STATE\u2192TRAJ\u2192USEFIRST\u2192DECISION"
+    },
+    {
+      "scenario": "recipe_document",
+      "status": "FAIL_BASELINE_UNRESOLVED",
+      "pipeline": "IMAGE\u2192OBS\u2192ENTITY\u2192STATE\u2192TRAJ\u2192USEFIRST\u2192DECISION"
+    },
+    {
+      "scenario": "non_food",
+      "status": "FAIL_BASELINE_UNRESOLVED",
+      "pipeline": "IMAGE\u2192OBS\u2192ENTITY\u2192STATE\u2192TRAJ\u2192USEFIRST\u2192DECISION"
+    },
+    {
+      "scenario": "hard_negatives",
+      "status": "FAIL_BASELINE_UNRESOLVED",
+      "pipeline": "IMAGE\u2192OBS\u2192ENTITY\u2192STATE\u2192TRAJ\u2192USEFIRST\u2192DECISION"
+    },
+    {
+      "scenario": "mixed_food_nonfood",
+      "status": "FAIL_BASELINE_UNRESOLVED",
+      "pipeline": "IMAGE\u2192OBS\u2192ENTITY\u2192STATE\u2192TRAJ\u2192USEFIRST\u2192DECISION"
+    },
+    {
+      "scenario": "duplicate_instances",
+      "status": "FAIL_BASELINE_UNRESOLVED",
+      "pipeline": "IMAGE\u2192OBS\u2192ENTITY\u2192STATE\u2192TRAJ\u2192USEFIRST\u2192DECISION"
+    },
+    {
+      "scenario": "quantity_variation",
+      "status": "FAIL_BASELINE_UNRESOLVED",
+      "pipeline": "IMAGE\u2192OBS\u2192ENTITY\u2192STATE\u2192TRAJ\u2192USEFIRST\u2192DECISION"
+    },
+    {
+      "scenario": "occlusion",
+      "status": "FAIL_BASELINE_UNRESOLVED",
+      "pipeline": "IMAGE\u2192OBS\u2192ENTITY\u2192STATE\u2192TRAJ\u2192USEFIRST\u2192DECISION"
+    },
+    {
+      "scenario": "perspective",
+      "status": "FAIL_BASELINE_UNRESOLVED",
+      "pipeline": "IMAGE\u2192OBS\u2192ENTITY\u2192STATE\u2192TRAJ\u2192USEFIRST\u2192DECISION"
+    },
+    {
+      "scenario": "low_light",
+      "status": "FAIL_BASELINE_UNRESOLVED",
+      "pipeline": "IMAGE\u2192OBS\u2192ENTITY\u2192STATE\u2192TRAJ\u2192USEFIRST\u2192DECISION"
+    },
+    {
+      "scenario": "small_objects",
+      "status": "FAIL_BASELINE_UNRESOLVED",
+      "pipeline": "IMAGE\u2192OBS\u2192ENTITY\u2192STATE\u2192TRAJ\u2192USEFIRST\u2192DECISION"
+    },
+    {
+      "scenario": "partial_visibility",
+      "status": "FAIL_BASELINE_UNRESOLVED",
+      "pipeline": "IMAGE\u2192OBS\u2192ENTITY\u2192STATE\u2192TRAJ\u2192USEFIRST\u2192DECISION"
+    },
+    {
+      "scenario": "ocr",
+      "status": "FAIL_TESSERACT_MISSING_IN_BASELINE",
+      "pipeline": "IMAGE\u2192OBS\u2192ENTITY\u2192STATE\u2192TRAJ\u2192USEFIRST\u2192DECISION"
+    },
+    {
+      "scenario": "barcode",
+      "status": "PARTIAL_AVAILABLE_IN_BASELINE",
+      "pipeline": "IMAGE\u2192OBS\u2192ENTITY\u2192STATE\u2192TRAJ\u2192USEFIRST\u2192DECISION"
+    }
+  ],
+  "overall": "FAIL",
+  "note": "No new production weights; E2E remains blocked by vision acceptance baseline"
+}

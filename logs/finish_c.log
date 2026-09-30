@@ -1,0 +1,21 @@
+START candidate_c isolated
+Using cache found in C:\Users\kathi/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\kathi/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\kathi/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\kathi/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+C strict 0.2195 delta -0.0244
+analysis best candidate_a 0.2195
+FINAL {
+  "status": "BLOCKED",
+  "best_candidate": "candidate_a",
+  "41_scene_completeness": {
+    "baseline": 0.2439,
+    "final": 0.2195
+  },
+  "production_gate": "FAIL",
+  "final_decision": "B. SPECIALIST ENSEMBLE NEEDS TARGETED DATA REMEDIATION",
+  "old_project": "UNCHANGED"
+}

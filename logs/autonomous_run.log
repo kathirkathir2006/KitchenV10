@@ -1,0 +1,40 @@
+[2026-09-30T01:05:32.266138+00:00] START autonomous V10 programme NEW=C:\Projects\KitchenIQ-V10-AI
+[2026-09-30T01:05:32.278574+00:00] RUN 00_environment attempt=1
+[2026-09-30T01:05:57.982358+00:00] COMPLETE 00_environment
+[2026-09-30T01:05:57.987167+00:00] RUN 01_reference_snapshot attempt=1
+[2026-09-30T01:05:58.736613+00:00] COMPLETE 01_reference_snapshot
+[2026-09-30T01:05:58.742937+00:00] RUN 02_baseline attempt=1
+[2026-09-30T01:05:58.947392+00:00] COMPLETE 02_baseline
+[2026-09-30T01:05:58.952139+00:00] RUN 03_data_audit attempt=1
+[2026-09-30T01:06:00.798339+00:00] COMPLETE 03_data_audit
+[2026-09-30T01:06:00.803809+00:00] RUN 04_dataset_validation attempt=1
+[2026-09-30T01:06:01.005043+00:00] COMPLETE 04_dataset_validation
+[2026-09-30T01:06:01.013667+00:00] RUN 05_architecture_benchmark attempt=1
+[2026-09-30T01:06:01.157293+00:00] COMPLETE 05_architecture_benchmark
+[2026-09-30T01:06:01.162996+00:00] RUN 06_dataset_build attempt=1
+[2026-09-30T01:06:01.310448+00:00] COMPLETE 06_dataset_build
+[2026-09-30T01:06:01.314489+00:00] RUN 07_detector attempt=1
+[2026-09-30T01:08:05.632783+00:00] COMPLETE 07_detector
+[2026-09-30T01:08:05.656738+00:00] RUN 08_food_recognition attempt=1
+[2026-09-30T01:08:05.895204+00:00] COMPLETE 08_food_recognition
+[2026-09-30T01:08:05.905888+00:00] RUN 09_specialists attempt=1
+[2026-09-30T01:08:06.061604+00:00] COMPLETE 09_specialists
+[2026-09-30T01:08:06.070514+00:00] RUN 10_calibration attempt=1
+[2026-09-30T01:08:06.261243+00:00] COMPLETE 10_calibration
+[2026-09-30T01:08:06.288130+00:00] RUN 11_real_world_acceptance attempt=1
+[2026-09-30T01:08:06.547854+00:00] COMPLETE 11_real_world_acceptance
+[2026-09-30T01:08:06.578706+00:00] RUN 12_failure_analysis attempt=1
+[2026-09-30T01:08:07.083843+00:00] COMPLETE 12_failure_analysis
+[2026-09-30T01:08:07.137281+00:00] RUN 13_challenger_selection attempt=1
+[2026-09-30T01:08:07.730656+00:00] COMPLETE 13_challenger_selection
+[2026-09-30T01:08:07.771120+00:00] RUN 14_final_evaluation attempt=1
+[2026-09-30T01:08:08.264946+00:00] COMPLETE 14_final_evaluation
+[2026-09-30T01:08:08.286071+00:00] RUN 15_registry attempt=1
+[2026-09-30T01:08:09.145590+00:00] COMPLETE 15_registry
+[2026-09-30T01:08:09.156679+00:00] RUN 16_serving attempt=1
+[2026-09-30T01:08:09.505632+00:00] COMPLETE 16_serving
+[2026-09-30T01:08:09.520614+00:00] RUN 17_end_to_end attempt=1
+[2026-09-30T01:08:09.722379+00:00] COMPLETE 17_end_to_end
+[2026-09-30T01:08:09.757569+00:00] RUN 18_final_report attempt=1
+[2026-09-30T01:08:10.502087+00:00] COMPLETE 18_final_report
+[2026-09-30T01:08:10.536413+00:00] TERMINAL {"status": "BLOCKED", "new_project": "C:\\Projects\\KitchenIQ-V10-AI", "architecture": {"id": "B_detector_specialist_ensemble", "architecture": "Faster R-CNN detector + specialist recognition heads (food/nonfood, family/identity, prepared-meal, food-state) on shared representation + evidence fusion + abstention", "backbone_policy": "Reuse DINOv2 ViT-B/14 as shared representation UNLESS specialist benchmark later proves otherwise; do not assume it is final", "why_not_blind_retrain_A": "Challenger Top-1 up / strict scene down; missing labels shared; hardneg regression", "next_compute": "Train only justified specialists + hardneg/state on Kaggle; keep detector unless specialist cycle stalls on detection"}, "best_model": "production_reference_unchanged (no improved challenger)", "real_world_scene_completeness": {"baseline": 0.2439, "final": 0.2439}, "dataset": {"n_labels_audited": 207, "buckets": {"ZERO": 197, "<50": 10, "50-99": 0, "100-249": 0, ">=250": 0}, "n_with_any_production_eligible": 10, "core_target_met_count": 0, "note": "Full 207 production-eligible coverage is incomplete; remediation package covers critical gaps only."}, "core_250_target": {"met_count": 0, "buckets": {"ZERO": 197, "<50": 10, "50-99": 0, "100-249": 0, ">=250": 0}, "note": "250 is planning target; critical remediation package exists but 207-wide >=250 not met"}, "kaggle": {"attempted": true, "result": "complete", "ref": "kathiresannatarajan/kiq-v10-autonomous", "detail": {"ok": true, "terminal": "complete", "last_status": "kathiresannatarajan/kiq-v10-autonomous has status \"KernelWorkerStatus.COMPLETE\"", "push_rc": 0}}, "production_gate": "FAIL", "gates": {"A_DATA": "FAIL_partial_coverage_207_incomplete", "B_MODEL": "FAIL_no_improved_candidate", "C_REAL_WORLD": "FAIL_strict_scene_0.2439_blocker", "D_STATE": "NOT_PROVEN", "E_PRODUCT": "NOT_PROVEN", "F_OPERATIONS": "FAIL_no_new_serving_bundle"}, "final_decision": "E. VISION ACCEPTANCE STILL BLOCKED", "dominant_blocker": "41-scene strict comple
