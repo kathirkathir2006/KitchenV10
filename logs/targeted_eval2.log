@@ -1,0 +1,171 @@
+weights C:\Projects\KitchenIQ-V10-AI\backend\instance\dev_experiments\v10-targeted-classifier\models\identity_specialist_best.pt sha 8105b63ba049cc2e4a633518de8e2a05b069667809edcd53dcc5110ca771cea0 bytes 346660550
+Using cache found in C:\Users\kathi/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\kathi/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\kathi/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\kathi/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+{
+  "status": "BLOCKED",
+  "baseline_strict": 0.2439,
+  "specialist_ensemble_strict": 0.2195,
+  "candidate_strict": 0.0732,
+  "delta_vs_baseline": -0.1707,
+  "delta_vs_specialist": -0.1463,
+  "classifier_improved_vs_specialist": false,
+  "scene_completeness_improved_vs_baseline": false,
+  "failure_stages": {
+    "CLASSIFIER": 55,
+    "DETECTOR": 12,
+    "FOOD_NONFOOD": 2
+  },
+  "dominant_failure_stage": "CLASSIFIER",
+  "hardneg_nonfood": {
+    "n": 4,
+    "ok": 2,
+    "rate": 0.5
+  },
+  "food_state_agreement": {
+    "n": 0,
+    "ok": 0,
+    "rate": 0.0
+  },
+  "detector_unchanged": true,
+  "holdout_untouched": true,
+  "dinov2_unchanged": true,
+  "one_training_cycle_only": true,
+  "training_summary": {
+    "programme": "v10-targeted-classifier",
+    "generated_at": "2026-09-30T15:31:37.839931+00:00",
+    "dataset_hash": "7c28960f90a982345de6b0fc89bc449662a7b2914913c22542d7b73a46a6d53a",
+    "n_train": 371,
+    "n_val": 94,
+    "label_vocab": {
+      "biryani": 0,
+      "cheese": 1,
+      "cream": 2,
+      "fried_rice": 3,
+      "garlic": 4,
+      "ginger": 5,
+      "non_food": 6,
+      "packaged_cheese": 7,
+      "rice": 8,
+      "tomato": 9,
+      "tomato_paste": 10,
+      "yogurt": 11
+    },
+    "metrics": {
+      "best_val_acc": 0.6914893617021277,
+      "history": [
+        {
+          "epoch": 0,
+          "train_loss": 3.216427405568146,
+          "val_acc": 0.2978723404255319
+        },
+        {
+          "epoch": 1,
+          "train_loss": 1.6217515907197628,
+          "val_acc": 0.44680851063829785
+        },
+        {
+          "epoch": 2,
+          "train_loss": 1.0701383357099445,
+          "val_acc": 0.5425531914893617
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.8368731833532492,
+          "val_acc": 0.6170212765957447
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.5920451770654586,
+          "val_acc": 0.6702127659574468
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.4320701897706626,
+          "val_acc": 0.6914893617021277
+        }
+      ],
+      "per_class_val": {
+        "tomato_paste": {
+          "support": 5,
+          "recall": 0.4
+        },
+        "garlic": {
+          "support": 7,
+          "recall": 0.5714
+        },
+        "non_food": {
+          "support": 33,
+          "recall": 0.8182
+        },
+        "rice": {
+          "support": 8,
+          "recall": 0.375
+        },
+        "cream": {
+          "support": 5,
+          "recall": 1.0
+        },
+        "fried_rice": {
+          "support": 5,
+          "recall": 0.8
+        },
+        "tomato": {
+          "support": 8,
+          "recall": 0.75
+        },
+        "yogurt": {
+          "support": 7,
+          "recall": 0.7143
+        },
+        "biryani": {
+          "support": 4,
+          "recall": 0.25
+        },
+        "packaged_cheese": {
+          "support": 2,
+          "recall": 0.5
+        },
+        "ginger": {
+          "support": 5,
+          "recall": 0.6
+        },
+        "cheese": {
+          "support": 5,
+          "recall": 0.8
+        }
+      },
+      "best_weights": "/kaggle/working/v10-targeted-clf/weights/identity_specialist_best.pt",
+      "best_sha256": "8105b63ba049cc2e4a633518de8e2a05b069667809edcd53dcc5110ca771cea0",
+      "mean_val_confidence": 0.637
+    },
+    "immutable_baseline_strict": 0.2439,
+    "specialist_ensemble_strict": 0.2195,
+    "detector_changed": false,
+    "holdout_touched": false,
+    "epochs": 6,
+    "seed": 42,
+    "one_cycle_only": true
+  },
+  "model_artifact": "C:\\Projects\\KitchenIQ-V10-AI\\backend\\instance\\dev_experiments\\v10-targeted-classifier\\models\\identity_specialist_best.pt",
+  "model_sha256": "8105b63ba049cc2e4a633518de8e2a05b069667809edcd53dcc5110ca771cea0",
+  "registry_status": "RECORDED_NOT_PROMOTED",
+  "production_gate": "FAIL",
+  "final_decision": "TARGETED_CLASSIFIER_FAILED_DATA_LIMITATION",
+  "old_project": "UNCHANGED",
+  "old_project_integrity": {
+    "porcelain_n": 123,
+    "porcelain_sha": "f9340837a546037018b3ff6ab3316cd804c2c7ae4cc720823c95862604b6b840",
+    "baseline_sha": "f9340837a546037018b3ff6ab3316cd804c2c7ae4cc720823c95862604b6b840",
+    "unchanged": true,
+    "verdict": "UNCHANGED"
+  },
+  "kaggle_kernel": "kathiresannatarajan/kiq-v10-targeted-clf",
+  "github_repo": "https://github.com/kathirkathir2006/KitchenV10",
+  "generated_at": "2026-09-30T16:27:15.665135+00:00",
+  "recommended_next_if_blocked": "Expand production-eligible coverage for CLASSIFIER-failed labels that remain under-supported (especially prepared meals outside the remediation set and multi-object identity), without another architecture cycle; keep detector frozen until detector-stage dominates."
+}

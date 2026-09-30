@@ -1,0 +1,23 @@
+{
+  "n_total": 465,
+  "n_train": 371,
+  "n_val": 94,
+  "label_counts": {
+    "yogurt": 35,
+    "cream": 23,
+    "garlic": 36,
+    "rice": 40,
+    "ginger": 27,
+    "tomato": 40,
+    "tomato_paste": 23,
+    "packaged_cheese": 8,
+    "biryani": 19,
+    "fried_rice": 24,
+    "cheese": 24,
+    "non_food": 166
+  },
+  "zone": "PRODUCTION_ELIGIBLE_ONLY",
+  "experiment_only_mixed": false,
+  "acceptance_scenes_used": false,
+  "seed": 42
+}

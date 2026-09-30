@@ -1,0 +1,9 @@
+using staged weights C:\Projects\KitchenIQ-V10-AI\backend\instance\dev_experiments\v10-vision-recovery\models\identity_coverage_best.pt
+weights C:\Projects\KitchenIQ-V10-AI\backend\instance\dev_experiments\v10-vision-recovery\models\identity_coverage_best.pt sha e1efaa4ac04ccb060397e584b1aa78aa28c51a79009833b7a3143adbc8955853 bytes 346654554
+Using cache found in C:\Users\kathi/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\kathi/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\kathi/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\kathi/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")

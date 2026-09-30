@@ -1,0 +1,39 @@
+[2026-09-30T15:30:33.290398+00:00] START v10 targeted identity classifier — ONE cycle
+[2026-09-30T15:30:33.558508+00:00] device=cuda cuda=True
+[2026-09-30T15:30:33.606629+00:00] gpu=['Tesla T4', 'Tesla T4']
+[2026-09-30T15:30:33.650166+00:00] records_built n=476 unique=476 prod=310 hn=166
+[2026-09-30T15:30:35.254063+00:00] download_progress 50/476 ok=50
+[2026-09-30T15:30:36.786864+00:00] download_progress 100/476 ok=100
+[2026-09-30T15:30:37.314424+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/7/76/08562jfFilipino_foods_fruits :: HTTP Error 429: Too many requests (f061ab2)
+[2026-09-30T15:30:37.374957+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/5/5e/08562jfFilipino_foods_fruits :: HTTP Error 429: Too many requests (f061ab2)
+[2026-09-30T15:30:37.401551+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/9/9a/08562jfFilipino_foods_fruits :: HTTP Error 429: Too many requests (f061ab2)
+[2026-09-30T15:30:37.430099+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/d/db/08562jfFilipino_foods_fruits :: HTTP Error 429: Too many requests (f061ab2)
+[2026-09-30T15:30:37.459874+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/4/40/Dried_Ginger_Rhizomes.jpg :: HTTP Error 429: Too many requests (f061ab2)
+[2026-09-30T15:30:37.484694+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/8/8a/Ginger_rhizomes.jpg :: HTTP Error 429: Too many requests (f061ab2)
+[2026-09-30T15:30:37.903337+00:00] download_progress 150/476 ok=144
+[2026-09-30T15:30:38.112355+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/a/a5/Iraqi_Chicken_Biryani.jpg :: HTTP Error 429: Too many requests (f061ab2)
+[2026-09-30T15:30:38.975876+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/6/68/Cup_of_Coffee_with_Whipped_C :: HTTP Error 429: Too many requests (f061ab2)
+[2026-09-30T15:30:39.092673+00:00] download_progress 200/476 ok=192
+[2026-09-30T15:30:39.998880+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/f/f6/Chamorro_bbq_meat_%26_fried_ :: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+[2026-09-30T15:30:40.058907+00:00] download_progress 250/476 ok=241
+[2026-09-30T15:30:41.017045+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/7/7e/Flickr_qmnonic_123431456--Kr :: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+[2026-09-30T15:30:41.241206+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/0/0b/Cheese_17_bg_050606.jpg?utm_ :: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+[2026-09-30T15:30:41.247791+00:00] download_progress 300/476 ok=289
+[2026-09-30T15:30:42.980815+00:00] download_progress 350/476 ok=339
+[2026-09-30T15:30:45.364622+00:00] download_progress 400/476 ok=389
+[2026-09-30T15:30:47.550008+00:00] download_progress 450/476 ok=439
+[2026-09-30T15:30:48.299922+00:00] download_done ok=465/476
+[2026-09-30T15:30:48.548916+00:00] deduped 465->465
+[2026-09-30T15:31:03.146436+00:00] epoch=0 train_loss=3.2164 val_acc=0.2979
+[2026-09-30T15:31:03.908877+00:00] NEW_BEST val_acc=0.2979
+[2026-09-30T15:31:08.259300+00:00] epoch=1 train_loss=1.6218 val_acc=0.4468
+[2026-09-30T15:31:09.505951+00:00] NEW_BEST val_acc=0.4468
+[2026-09-30T15:31:14.296036+00:00] epoch=2 train_loss=1.0701 val_acc=0.5426
+[2026-09-30T15:31:17.010097+00:00] NEW_BEST val_acc=0.5426
+[2026-09-30T15:31:21.821912+00:00] epoch=3 train_loss=0.8369 val_acc=0.6170
+[2026-09-30T15:31:23.133393+00:00] NEW_BEST val_acc=0.6170
+[2026-09-30T15:31:27.855287+00:00] epoch=4 train_loss=0.5920 val_acc=0.6702
+[2026-09-30T15:31:30.639526+00:00] NEW_BEST val_acc=0.6702
+[2026-09-30T15:31:34.815686+00:00] epoch=5 train_loss=0.4321 val_acc=0.6915
+[2026-09-30T15:31:36.925725+00:00] NEW_BEST val_acc=0.6915
+[2026-09-30T15:31:37.840499+00:00] DONE best_val=0.6914893617021277 sha=8105b63ba049cc2e4a633518de8e2a05b069667809edcd53dcc5110ca771cea0
