@@ -1,0 +1,30 @@
+{
+  "candidate_id": "v3_B",
+  "strict_scene_completeness": 0.2439,
+  "delta_vs_baseline": -0.0488,
+  "primary_stage_totals": {
+    "CLASSIFIER": 42,
+    "DETECTOR": 12,
+    "FOOD_STATE": 16,
+    "FOOD_NONFOOD": 2
+  },
+  "hardneg_nonfood": {
+    "n": 4,
+    "ok": 2,
+    "rate": 0.5
+  },
+  "food_state_agreement": {
+    "n": 16,
+    "ok": 0,
+    "rate": 0.0
+  },
+  "backbone": {
+    "name": "DINOv2:dinov2_vitb14",
+    "version": "dinov2_fallback",
+    "source": "torch.hub:facebookresearch/dinov2/dinov2_vitb14",
+    "embed_dim": 768,
+    "weights_hash": "7eb2945838b2823c0d37798e7a4db18be175fd3895ca671420b230eb674010df",
+    "fallback_reason": "DINOv3 pretrained weights gated/unavailable (HTTP 403 or auth required on dl.fbaipublicfiles.com). Refusing untrained DINOv3. Detail: pretrained:HTTPError:HTTP Error 403: Forbidden"
+  },
+  "n_strict_complete": 10
+}

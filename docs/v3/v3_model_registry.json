@@ -1,0 +1,21 @@
+{
+  "models": [
+    {
+      "id": "identity_coverage_v1_specialist_evidence",
+      "path": "C:\\Projects\\KitchenIQ-V10-AI\\backend\\instance\\dev_experiments\\v10-vision-recovery\\models\\identity_coverage_best.pt",
+      "sha256": "e1efaa4ac04ccb060397e584b1aa78aa28c51a79009833b7a3143adbc8955853",
+      "role": "specialist_evidence_only"
+    },
+    {
+      "id": "v3_primary_backbone",
+      "info": {
+        "name": "DINOv2:dinov2_vitb14",
+        "version": "dinov2_fallback",
+        "source": "torch.hub:facebookresearch/dinov2/dinov2_vitb14",
+        "embed_dim": 768,
+        "weights_hash": "7eb2945838b2823c0d37798e7a4db18be175fd3895ca671420b230eb674010df",
+        "fallback_reason": "DINOv3 pretrained weights gated/unavailable (HTTP 403 or auth required on dl.fbaipublicfiles.com). Refusing untrained DINOv3. Detail: pretrained:HTTPError:HTTP Error 403: Forbidden"
+      }
+    }
+  ]
+}

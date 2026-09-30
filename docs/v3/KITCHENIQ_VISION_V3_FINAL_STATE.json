@@ -1,0 +1,141 @@
+{
+  "status": "BLOCKED",
+  "baseline_strict": 0.2927,
+  "best_candidate": "A",
+  "best_strict": 0.2927,
+  "delta_vs_baseline": 0.0,
+  "substantial_improvement_threshold": 0.439,
+  "substantial_gate": {
+    "frozen_before_eval": true,
+    "baseline_strict": 0.2927,
+    "n_scenes": 41,
+    "n_complete_baseline": 12,
+    "n_incomplete_baseline": 29,
+    "classifier_failures_baseline": 40,
+    "marginal_band_rejected": [
+      0.3,
+      0.34
+    ],
+    "min_strict_scene_completeness": 0.439,
+    "min_absolute_delta": 0.1463,
+    "min_complete_scenes": 18,
+    "max_classifier_failures": 20,
+    "rationale": "From 29 incomplete scenes and 40 CLASSIFIER failures: reject the brief's marginal band (\u22640.34\u224814/41). Require \u226518/41 (+6 scenes) and \u226420 classifier failures (\u226550% reduction). Threshold frozen before any V3 candidate eval."
+  },
+  "substantial_met": false,
+  "candidates": {
+    "A": {
+      "candidate_id": "A_existing_0.2927",
+      "strict_scene_completeness": 0.2927,
+      "primary_stage_totals": {
+        "CLASSIFIER": 40,
+        "DETECTOR": 12,
+        "FOOD_NONFOOD": 2
+      },
+      "note": "Identity-coverage recovery production-reference; not re-run.",
+      "delta_vs_baseline": 0.0
+    },
+    "B": {
+      "candidate_id": "v3_B",
+      "strict_scene_completeness": 0.2439,
+      "delta_vs_baseline": -0.0488,
+      "primary_stage_totals": {
+        "CLASSIFIER": 42,
+        "DETECTOR": 12,
+        "FOOD_STATE": 16,
+        "FOOD_NONFOOD": 2
+      },
+      "hardneg_nonfood": {
+        "n": 4,
+        "ok": 2,
+        "rate": 0.5
+      },
+      "food_state_agreement": {
+        "n": 16,
+        "ok": 0,
+        "rate": 0.0
+      },
+      "backbone": {
+        "name": "DINOv2:dinov2_vitb14",
+        "version": "dinov2_fallback",
+        "source": "torch.hub:facebookresearch/dinov2/dinov2_vitb14",
+        "embed_dim": 768,
+        "weights_hash": "7eb2945838b2823c0d37798e7a4db18be175fd3895ca671420b230eb674010df",
+        "fallback_reason": "DINOv3 pretrained weights gated/unavailable (HTTP 403 or auth required on dl.fbaipublicfiles.com). Refusing untrained DINOv3. Detail: pretrained:HTTPError:HTTP Error 403: Forbidden"
+      },
+      "n_strict_complete": 10
+    },
+    "E": {
+      "candidate_id": "v3_E",
+      "strict_scene_completeness": 0.2439,
+      "delta_vs_baseline": -0.0488,
+      "primary_stage_totals": {
+        "CLASSIFIER": 42,
+        "DETECTOR": 12,
+        "FOOD_STATE": 16,
+        "FOOD_NONFOOD": 2
+      },
+      "hardneg_nonfood": {
+        "n": 4,
+        "ok": 2,
+        "rate": 0.5
+      },
+      "food_state_agreement": {
+        "n": 16,
+        "ok": 0,
+        "rate": 0.0
+      },
+      "backbone": {
+        "name": "DINOv2:dinov2_vitb14",
+        "version": "dinov2_fallback",
+        "source": "torch.hub:facebookresearch/dinov2/dinov2_vitb14",
+        "embed_dim": 768,
+        "weights_hash": "7eb2945838b2823c0d37798e7a4db18be175fd3895ca671420b230eb674010df",
+        "fallback_reason": "DINOv3 pretrained weights gated/unavailable (HTTP 403 or auth required on dl.fbaipublicfiles.com). Refusing untrained DINOv3. Detail: pretrained:HTTPError:HTTP Error 403: Forbidden"
+      },
+      "n_strict_complete": 10
+    },
+    "C": {
+      "skipped": true,
+      "reason": "Failure matrix earliest stages dominated by food/non-food (25) and open-set (14), detector=12. Per brief, do not spend free GPU on RT-DETR until identity/open-set path is evaluated. Optional follow-up if E still detector-bound."
+    },
+    "D": {
+      "skipped": true,
+      "reason": "Depends on C; skipped with C."
+    }
+  },
+  "failure_stages_best": {
+    "CLASSIFIER": 40,
+    "DETECTOR": 12,
+    "FOOD_NONFOOD": 2
+  },
+  "classifier_failures_before": 40,
+  "classifier_failures_after": 40,
+  "primary_blocker": "DATA",
+  "final_decision": "V3_BLOCKED_DATA",
+  "production_gate": "FAIL",
+  "model_sha256": "e1efaa4ac04ccb060397e584b1aa78aa28c51a79009833b7a3143adbc8955853",
+  "dataset_manifest_sha256": "9da443fa43735513ee0bcf0712fdd2720111a039fc9f20d3116505ddeb782e24",
+  "fixture_catalog_sha256": "38fc3eaee75c76fa5fd1dc3d4177af4abde2cfeb3e410d290fb524f9e30a1523",
+  "holdout_untouched": true,
+  "old_project": "UNCHANGED",
+  "old_project_integrity": {
+    "porcelain_n": 123,
+    "porcelain_sha": "f9340837a546037018b3ff6ab3316cd804c2c7ae4cc720823c95862604b6b840",
+    "baseline_sha": "f9340837a546037018b3ff6ab3316cd804c2c7ae4cc720823c95862604b6b840",
+    "unchanged": true,
+    "verdict": "UNCHANGED"
+  },
+  "kaggle": "kathiresannatarajan/kiq-v10-vision-v3",
+  "github_repo": "https://github.com/kathirkathir2006/KitchenV10",
+  "generated_at": "2026-09-30T20:55:51.728771+00:00",
+  "blocker_detail": {
+    "dinov3_pretrained_weights": "HTTP 403 gated on dl.fbaipublicfiles.com \u2014 controlled DINOv2 fallback used",
+    "reference_library_kaggle_v1": "n_items=0 (manifest field/url mismatch; kernel v2 pushed to fix)",
+    "candidate_B_E_strict": 0.2439,
+    "candidate_B_E_delta": -0.0488,
+    "food_state_agreement_B_E": 0.0,
+    "note": "Without production-eligible reference embeddings and DINOv3 weights, hierarchical retrieval cannot outperform the 0.2927 specialist-evidence baseline. Do not promote. Do not run endless loops."
+  },
+  "recommended_next": "1) Obtain DINOv3 pretrained access OR document permanent DINOv2-primary with Meta license path. 2) Complete Kaggle reference_library build from image_url production-eligible manifests (kernel v2). 3) Re-run Candidate E only after library n_items>>0 and food_state specialist calibrated on validation (not 41-scene). 4) Keep substantial gate frozen at 0.439 / classifier<=20."
+}

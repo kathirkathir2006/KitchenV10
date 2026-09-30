@@ -1,0 +1,101 @@
+{
+  "gate": {
+    "frozen_before_eval": true,
+    "baseline_strict": 0.2927,
+    "n_scenes": 41,
+    "n_complete_baseline": 12,
+    "n_incomplete_baseline": 29,
+    "classifier_failures_baseline": 40,
+    "marginal_band_rejected": [
+      0.3,
+      0.34
+    ],
+    "min_strict_scene_completeness": 0.439,
+    "min_absolute_delta": 0.1463,
+    "min_complete_scenes": 18,
+    "max_classifier_failures": 20,
+    "rationale": "From 29 incomplete scenes and 40 CLASSIFIER failures: reject the brief's marginal band (\u22640.34\u224814/41). Require \u226518/41 (+6 scenes) and \u226420 classifier failures (\u226550% reduction). Threshold frozen before any V3 candidate eval."
+  },
+  "results": {
+    "A": {
+      "candidate_id": "A_existing_0.2927",
+      "strict_scene_completeness": 0.2927,
+      "primary_stage_totals": {
+        "CLASSIFIER": 40,
+        "DETECTOR": 12,
+        "FOOD_NONFOOD": 2
+      },
+      "note": "Identity-coverage recovery production-reference; not re-run.",
+      "delta_vs_baseline": 0.0
+    },
+    "B": {
+      "candidate_id": "v3_B",
+      "strict_scene_completeness": 0.2439,
+      "delta_vs_baseline": -0.0488,
+      "primary_stage_totals": {
+        "CLASSIFIER": 42,
+        "DETECTOR": 12,
+        "FOOD_STATE": 16,
+        "FOOD_NONFOOD": 2
+      },
+      "hardneg_nonfood": {
+        "n": 4,
+        "ok": 2,
+        "rate": 0.5
+      },
+      "food_state_agreement": {
+        "n": 16,
+        "ok": 0,
+        "rate": 0.0
+      },
+      "backbone": {
+        "name": "DINOv2:dinov2_vitb14",
+        "version": "dinov2_fallback",
+        "source": "torch.hub:facebookresearch/dinov2/dinov2_vitb14",
+        "embed_dim": 768,
+        "weights_hash": "7eb2945838b2823c0d37798e7a4db18be175fd3895ca671420b230eb674010df",
+        "fallback_reason": "DINOv3 pretrained weights gated/unavailable (HTTP 403 or auth required on dl.fbaipublicfiles.com). Refusing untrained DINOv3. Detail: pretrained:HTTPError:HTTP Error 403: Forbidden"
+      },
+      "n_strict_complete": 10
+    },
+    "E": {
+      "candidate_id": "v3_E",
+      "strict_scene_completeness": 0.2439,
+      "delta_vs_baseline": -0.0488,
+      "primary_stage_totals": {
+        "CLASSIFIER": 42,
+        "DETECTOR": 12,
+        "FOOD_STATE": 16,
+        "FOOD_NONFOOD": 2
+      },
+      "hardneg_nonfood": {
+        "n": 4,
+        "ok": 2,
+        "rate": 0.5
+      },
+      "food_state_agreement": {
+        "n": 16,
+        "ok": 0,
+        "rate": 0.0
+      },
+      "backbone": {
+        "name": "DINOv2:dinov2_vitb14",
+        "version": "dinov2_fallback",
+        "source": "torch.hub:facebookresearch/dinov2/dinov2_vitb14",
+        "embed_dim": 768,
+        "weights_hash": "7eb2945838b2823c0d37798e7a4db18be175fd3895ca671420b230eb674010df",
+        "fallback_reason": "DINOv3 pretrained weights gated/unavailable (HTTP 403 or auth required on dl.fbaipublicfiles.com). Refusing untrained DINOv3. Detail: pretrained:HTTPError:HTTP Error 403: Forbidden"
+      },
+      "n_strict_complete": 10
+    },
+    "C": {
+      "skipped": true,
+      "reason": "Failure matrix earliest stages dominated by food/non-food (25) and open-set (14), detector=12. Per brief, do not spend free GPU on RT-DETR until identity/open-set path is evaluated. Optional follow-up if E still detector-bound."
+    },
+    "D": {
+      "skipped": true,
+      "reason": "Depends on C; skipped with C."
+    }
+  },
+  "best": "A"
+}

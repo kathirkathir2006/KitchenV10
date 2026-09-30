@@ -1,0 +1,7 @@
+{
+  "production_manifest": "C:\\Projects\\KitchenIQ-V10-AI\\docs\\vision\\production_identity_training_manifest_v1.json",
+  "sha256": "9da443fa43735513ee0bcf0712fdd2720111a039fc9f20d3116505ddeb782e24",
+  "reference_library": null,
+  "experiment_only_isolated": true,
+  "synthetic_prototypes_non_production": true
+}

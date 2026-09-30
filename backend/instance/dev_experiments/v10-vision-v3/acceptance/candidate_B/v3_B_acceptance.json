@@ -1,0 +1,3233 @@
+{
+  "candidate_id": "v3_B",
+  "n_scenes": 41,
+  "n_strict_complete": 10,
+  "strict_scene_completeness": 0.2439,
+  "n_status_pass": 11,
+  "status_pass_rate": 0.2683,
+  "baseline_strict": 0.2439,
+  "delta_vs_baseline": 0.0,
+  "primary_stage_totals": {
+    "CLASSIFIER": 42,
+    "DETECTOR": 12,
+    "FOOD_STATE": 16,
+    "FOOD_NONFOOD": 2
+  },
+  "food_state_agreement": {
+    "n": 16,
+    "ok": 0,
+    "rate": 0.0
+  },
+  "hardneg_nonfood": {
+    "n": 4,
+    "ok": 2,
+    "rate": 0.5
+  },
+  "scenes": [
+    {
+      "scene_id": "01_tomato_pilot",
+      "category": "01_single_raw_ingredient",
+      "n_gt": 1,
+      "n_obs": 1,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "FAIL",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      },
+      "failures": [
+        {
+          "gt": "tomato",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.0
+        }
+      ],
+      "observations": [
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "unknown",
+          "confidence": 0.31595748476684093,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        }
+      ]
+    },
+    {
+      "scene_id": "02_multi_raw_composite",
+      "category": "02_multiple_raw_ingredients",
+      "n_gt": 4,
+      "n_obs": 4,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "FAIL",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 4,
+        "fn": 4
+      },
+      "failures": [
+        {
+          "gt": "tomato",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.8490965110736219
+        },
+        {
+          "gt": "garlic",
+          "stage": "CLASSIFIER",
+          "pred": "fried_egg",
+          "iou": 0.8489136950453798
+        },
+        {
+          "gt": "ginger",
+          "stage": "CLASSIFIER",
+          "pred": "fried_egg",
+          "iou": 0.6991087700735474
+        },
+        {
+          "gt": "rice",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.5096444266807634
+        }
+      ],
+      "observations": [
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "unknown",
+          "confidence": 0.34154559671878815,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        },
+        {
+          "status": "probable_identity",
+          "identity": "fried_egg",
+          "raw_label": "fried_egg",
+          "food_state": "prepared",
+          "confidence": 0.39166457653045655,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "fried_egg",
+          "raw_label": "fried_egg",
+          "food_state": "prepared",
+          "confidence": 0.34249815940856937,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "prepared",
+          "confidence": 0.48394064605236053,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        }
+      ]
+    },
+    {
+      "scene_id": "03_dense_kitchen",
+      "category": "03_dense_kitchen_scene",
+      "n_gt": 6,
+      "n_obs": 11,
+      "matched": 2,
+      "completeness": 0.3333,
+      "strict_scene_complete": false,
+      "status": "PARTIAL",
+      "object_prf": {
+        "object_precision": 0.1818,
+        "object_recall": 0.3333,
+        "object_f1": 0.2353,
+        "false_positive_object_rate": 0.8182,
+        "tp": 2,
+        "fp": 9,
+        "fn": 4
+      },
+      "failures": [
+        {
+          "gt": "fried_rice",
+          "stage": "CLASSIFIER",
+          "pred": "biryani",
+          "iou": 0.5120349581012756
+        },
+        {
+          "gt": "caesar_salad",
+          "stage": "DETECTOR",
+          "pred": "salad",
+          "iou": 0.08306172538145438
+        },
+        {
+          "gt": "club_sandwich",
+          "stage": "DETECTOR",
+          "pred": "sandwich",
+          "iou": 0.33210417996276276
+        },
+        {
+          "gt": "omelette",
+          "stage": "CLASSIFIER",
+          "pred": "pizza",
+          "iou": 0.8547288484041998
+        }
+      ],
+      "observations": [
+        {
+          "status": "confirmed_identity",
+          "identity": "pizza",
+          "raw_label": "pizza",
+          "food_state": "prepared",
+          "confidence": 0.7894231081008911,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "biryani",
+          "raw_label": "biryani",
+          "food_state": "prepared",
+          "confidence": 0.6403277516365051,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "pizza",
+          "raw_label": "pizza",
+          "food_state": "prepared",
+          "confidence": 0.95,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "french_fries",
+          "raw_label": "french_fries",
+          "food_state": "prepared",
+          "confidence": 0.6242608416080475,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "sandwich",
+          "raw_label": "sandwich",
+          "food_state": "prepared",
+          "confidence": 0.6270555067062379,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "pizza",
+          "raw_label": "pizza",
+          "food_state": "prepared",
+          "confidence": 0.6389751434326172,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "pizza",
+          "raw_label": "pizza",
+          "food_state": "prepared",
+          "confidence": 0.2999234437942505,
+          "visual_class": "packaged_food",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "prepared",
+          "confidence": 0.82818304002285,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "pizza",
+          "raw_label": "pizza",
+          "food_state": "prepared",
+          "confidence": 0.5548334717750549,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "sandwich",
+          "raw_label": "sandwich",
+          "food_state": "prepared",
+          "confidence": 0.6261842000484468,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.565588116645813,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        }
+      ]
+    },
+    {
+      "scene_id": "04_ingredient_packaged",
+      "category": "04_ingredient_plus_packaged_food",
+      "n_gt": 2,
+      "n_obs": 3,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "FAIL",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 3,
+        "fn": 2
+      },
+      "failures": [
+        {
+          "gt": "tomato",
+          "stage": "CLASSIFIER",
+          "pred": "non_food",
+          "iou": 0.9016512469573323
+        },
+        {
+          "gt": "packaged_cheese",
+          "stage": "CLASSIFIER",
+          "pred": "fried_egg",
+          "iou": 0.7832969014119311
+        }
+      ],
+      "observations": [
+        {
+          "status": "probable_identity",
+          "identity": "non_food",
+          "raw_label": "non_food",
+          "food_state": "unknown",
+          "confidence": 0.29888315200805665,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "prepared",
+          "confidence": 0.41158459335565567,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        },
+        {
+          "status": "probable_identity",
+          "identity": "fried_egg",
+          "raw_label": "fried_egg",
+          "food_state": "prepared",
+          "confidence": 0.3261032342910767,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        }
+      ]
+    },
+    {
+      "scene_id": "05_ingredient_prepared",
+      "category": "05_ingredient_plus_prepared_meal",
+      "n_gt": 2,
+      "n_obs": 3,
+      "matched": 1,
+      "completeness": 0.5,
+      "strict_scene_complete": false,
+      "status": "PARTIAL",
+      "object_prf": {
+        "object_precision": 0.3333,
+        "object_recall": 0.5,
+        "object_f1": 0.4,
+        "false_positive_object_rate": 0.6667,
+        "tp": 1,
+        "fp": 2,
+        "fn": 1
+      },
+      "failures": [
+        {
+          "gt": "tomato",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.9079234941184934
+        }
+      ],
+      "observations": [
+        {
+          "status": "confirmed_identity",
+          "identity": "pizza",
+          "raw_label": "pizza",
+          "food_state": "prepared",
+          "confidence": 0.95,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "unknown",
+          "confidence": 0.34809447824954987,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "prepared",
+          "confidence": 0.421433974057436,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        }
+      ]
+    },
+    {
+      "scene_id": "06_multi_prepared",
+      "category": "06_multiple_prepared_components",
+      "n_gt": 3,
+      "n_obs": 7,
+      "matched": 1,
+      "completeness": 0.3333,
+      "strict_scene_complete": false,
+      "status": "PARTIAL",
+      "object_prf": {
+        "object_precision": 0.1429,
+        "object_recall": 0.3333,
+        "object_f1": 0.2,
+        "false_positive_object_rate": 0.8571,
+        "tp": 1,
+        "fp": 6,
+        "fn": 2
+      },
+      "failures": [
+        {
+          "gt": "fried_rice",
+          "stage": "DETECTOR",
+          "pred": "biryani",
+          "iou": 0.4836757530667036
+        },
+        {
+          "gt": "club_sandwich",
+          "stage": "DETECTOR",
+          "pred": null,
+          "iou": 0.45765047617815435
+        }
+      ],
+      "observations": [
+        {
+          "status": "confirmed_identity",
+          "identity": "pizza",
+          "raw_label": "pizza",
+          "food_state": "prepared",
+          "confidence": 0.95,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "biryani",
+          "raw_label": "biryani",
+          "food_state": "prepared",
+          "confidence": 0.7075300812721252,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "prepared",
+          "confidence": 0.8718636482954025,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "prepared",
+          "confidence": 0.8396146446466446,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "unknown",
+          "confidence": 0.8709696568548679,
+          "visual_class": "packaged_food",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": "below_calibrated_threshold"
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "sandwich",
+          "raw_label": "sandwich",
+          "food_state": "prepared",
+          "confidence": 0.6265188205242158,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "sandwich",
+          "raw_label": "sandwich",
+          "food_state": "prepared",
+          "confidence": 0.95,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        }
+      ]
+    },
+    {
+      "scene_id": "07_packaged",
+      "category": "07_packaged_food_scene",
+      "n_gt": 1,
+      "n_obs": 1,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "FAIL",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      },
+      "failures": [
+        {
+          "gt": "packaged_cheese",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.0
+        }
+      ],
+      "observations": [
+        {
+          "status": "probable_identity",
+          "identity": "fried_egg",
+          "raw_label": "fried_egg",
+          "food_state": "prepared",
+          "confidence": 0.31448843479156496,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        }
+      ]
+    },
+    {
+      "scene_id": "08_fruit_proxy",
+      "category": "08_fruit_collection",
+      "n_gt": 2,
+      "n_obs": 6,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "FAIL",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 6,
+        "fn": 2
+      },
+      "failures": [
+        {
+          "gt": "guacamole",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.7235794012776013
+        },
+        {
+          "gt": "hummus",
+          "stage": "CLASSIFIER",
+          "pred": "sandwich",
+          "iou": 0.8827633998558254
+        }
+      ],
+      "observations": [
+        {
+          "status": "probable_identity",
+          "identity": "sandwich",
+          "raw_label": "sandwich",
+          "food_state": "prepared",
+          "confidence": 0.39679005146026614,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "biryani",
+          "raw_label": "biryani",
+          "food_state": "prepared",
+          "confidence": 0.6850685477256775,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "rice",
+          "raw_label": "rice",
+          "food_state": "unknown",
+          "confidence": 0.40581951141357425,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "pizza",
+          "raw_label": "pizza",
+          "food_state": "prepared",
+          "confidence": 0.3155058383941651,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "yogurt",
+          "raw_label": "yogurt",
+          "food_state": "unknown",
+          "confidence": 0.3537811040878296,
+          "visual_class": "packaged_food",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "unknown",
+          "confidence": 0.7038167417049408,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        }
+      ]
+    },
+    {
+      "scene_id": "09_snack_rte",
+      "category": "09_snack_ready_to_eat_scene",
+      "n_gt": 2,
+      "n_obs": 9,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "FAIL",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 9,
+        "fn": 2
+      },
+      "failures": [
+        {
+          "gt": "donuts",
+          "stage": "CLASSIFIER",
+          "pred": "doughnut",
+          "iou": 0.6860099501072718
+        },
+        {
+          "gt": "ice_cream",
+          "stage": "DETECTOR",
+          "pred": null,
+          "iou": 0.3127603612644757
+        }
+      ],
+      "observations": [
+        {
+          "status": "confirmed_identity",
+          "identity": "doughnut",
+          "raw_label": "doughnut",
+          "food_state": "prepared",
+          "confidence": 0.9232827425003052,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "cream",
+          "raw_label": "cream",
+          "food_state": "unknown",
+          "confidence": 0.6219810843467712,
+          "visual_class": "packaged_food",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "ice_cream",
+          "raw_label": "ice_cream",
+          "food_state": "prepared",
+          "confidence": 0.7031117677688599,
+          "visual_class": "packaged_food",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "unknown",
+          "confidence": 0.7897264137864113,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "fried_egg",
+          "raw_label": "fried_egg",
+          "food_state": "prepared",
+          "confidence": 0.7582272887229919,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "doughnut",
+          "raw_label": "doughnut",
+          "food_state": "prepared",
+          "confidence": 0.7756436467170715,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "cream",
+          "raw_label": "cream",
+          "food_state": "unknown",
+          "confidence": 0.888565719127655,
+          "visual_class": "packaged_food",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "unknown",
+          "confidence": 0.8533129282295704,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "prepared",
+          "confidence": 0.7482289113104343,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        }
+      ]
+    },
+    {
+      "scene_id": "10_raw_vs_partial",
+      "category": "10_raw_vs_partially_prepared",
+      "n_gt": 2,
+      "n_obs": 3,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "FAIL",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 3,
+        "fn": 2
+      },
+      "failures": [
+        {
+          "gt": "tomato",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.913147658468663
+        },
+        {
+          "gt": "tomato_paste",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.7910590397274362
+        }
+      ],
+      "observations": [
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "unknown",
+          "confidence": 0.373867966234684,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "prepared",
+          "confidence": 0.421433974057436,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "prepared",
+          "confidence": 0.3789355680346489,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        }
+      ]
+    },
+    {
+      "scene_id": "11_state_triad",
+      "category": "11_cooked_vs_plated_vs_leftover",
+      "n_gt": 3,
+      "n_obs": 4,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "FAIL",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 4,
+        "fn": 3
+      },
+      "failures": [
+        {
+          "gt": "lasagna",
+          "stage": "CLASSIFIER",
+          "pred": "tomato_paste",
+          "iou": 0.7119044432690297
+        },
+        {
+          "gt": "omelette",
+          "stage": "CLASSIFIER",
+          "pred": "pizza",
+          "iou": 0.9233942728912196
+        },
+        {
+          "gt": "pad_thai",
+          "stage": "CLASSIFIER",
+          "pred": "pasta",
+          "iou": 0.8409812100729082
+        }
+      ],
+      "observations": [
+        {
+          "status": "confirmed_identity",
+          "identity": "pizza",
+          "raw_label": "pizza",
+          "food_state": "prepared",
+          "confidence": 0.7066953778266907,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "tomato_paste",
+          "raw_label": "tomato_paste",
+          "food_state": "unknown",
+          "confidence": 0.335037636756897,
+          "visual_class": "packaged_food",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "pasta",
+          "raw_label": "pasta",
+          "food_state": "prepared",
+          "confidence": 0.42799081802368166,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "pizza",
+          "raw_label": "pizza",
+          "food_state": "prepared",
+          "confidence": 0.33676648139953613,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        }
+      ]
+    },
+    {
+      "scene_id": "12_recipe_document",
+      "category": "12_recipe_document",
+      "n_gt": 1,
+      "n_obs": 1,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "FAIL",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      },
+      "failures": [
+        {
+          "gt": "recipe_document",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.0
+        }
+      ],
+      "observations": [
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "raw",
+          "confidence": 0.46139100566506386,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": "below_calibrated_threshold"
+        }
+      ]
+    },
+    {
+      "scene_id": "12_nutrition_label",
+      "category": "12_recipe_document",
+      "n_gt": 1,
+      "n_obs": 1,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "FAIL",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      },
+      "failures": [
+        {
+          "gt": "recipe_document",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.0
+        }
+      ],
+      "observations": [
+        {
+          "status": "confirmed_identity",
+          "identity": "rice",
+          "raw_label": "rice",
+          "food_state": "unknown",
+          "confidence": 0.582798421382904,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        }
+      ]
+    },
+    {
+      "scene_id": "13_empty_plate",
+      "category": "13_non_food",
+      "n_gt": 1,
+      "n_obs": 1,
+      "matched": 1,
+      "completeness": 1.0,
+      "strict_scene_complete": true,
+      "status": "PASS",
+      "object_prf": {
+        "object_precision": 1.0,
+        "object_recall": 1.0,
+        "object_f1": 1.0,
+        "false_positive_object_rate": 0.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      },
+      "failures": [],
+      "observations": [
+        {
+          "status": "probable_identity",
+          "identity": "non_food",
+          "raw_label": "non_food",
+          "food_state": "unknown",
+          "confidence": 0.31625256538391117,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        }
+      ]
+    },
+    {
+      "scene_id": "13_human_hand",
+      "category": "13_non_food",
+      "n_gt": 1,
+      "n_obs": 1,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "PASS",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      },
+      "failures": [
+        {
+          "gt": "non_food",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.0
+        }
+      ],
+      "observations": [
+        {
+          "status": "probable_identity",
+          "identity": "fried_egg",
+          "raw_label": "fried_egg",
+          "food_state": "prepared",
+          "confidence": 0.31058993339538576,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        }
+      ]
+    },
+    {
+      "scene_id": "13_pantry_empty",
+      "category": "13_non_food",
+      "n_gt": 1,
+      "n_obs": 4,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "FAIL",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 4,
+        "fn": 1
+      },
+      "failures": [
+        {
+          "gt": "non_food",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.0
+        }
+      ],
+      "observations": [
+        {
+          "status": "confirmed_identity",
+          "identity": "tomato",
+          "raw_label": "tomato",
+          "food_state": "raw",
+          "confidence": 0.6232026147842408,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "tomato",
+          "raw_label": "tomato",
+          "food_state": "raw",
+          "confidence": 0.8342275023460388,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "tomato",
+          "raw_label": "tomato",
+          "food_state": "raw",
+          "confidence": 0.6250337648391724,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "tomato",
+          "raw_label": "tomato",
+          "food_state": "raw",
+          "confidence": 0.95,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        }
+      ]
+    },
+    {
+      "scene_id": "13_kitchen_mood",
+      "category": "13_non_food",
+      "n_gt": 1,
+      "n_obs": 12,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "FAIL",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 12,
+        "fn": 1
+      },
+      "failures": [
+        {
+          "gt": "non_food",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.0
+        }
+      ],
+      "observations": [
+        {
+          "status": "confirmed_identity",
+          "identity": "tomato",
+          "raw_label": "tomato",
+          "food_state": "raw",
+          "confidence": 0.934320330619812,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "tomato",
+          "raw_label": "tomato",
+          "food_state": "raw",
+          "confidence": 0.95,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "tomato",
+          "raw_label": "tomato",
+          "food_state": "raw",
+          "confidence": 0.6284623730182648,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "raw",
+          "confidence": 0.8028039373457432,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": "below_calibrated_threshold"
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "garlic",
+          "raw_label": "garlic",
+          "food_state": "raw",
+          "confidence": 0.9269142150878906,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "tomato",
+          "raw_label": "tomato",
+          "food_state": "raw",
+          "confidence": 0.95,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "tomato",
+          "raw_label": "tomato",
+          "food_state": "raw",
+          "confidence": 0.9263072609901428,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "tomato",
+          "raw_label": "tomato",
+          "food_state": "raw",
+          "confidence": 0.95,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "tomato",
+          "raw_label": "tomato",
+          "food_state": "raw",
+          "confidence": 0.6908324956893921,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "raw",
+          "confidence": 0.7476854510605335,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": "below_calibrated_threshold"
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "tomato",
+          "raw_label": "tomato",
+          "food_state": "raw",
+          "confidence": 0.6202889966964722,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "garlic",
+          "raw_label": "garlic",
+          "food_state": "raw",
+          "confidence": 0.913336455821991,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        }
+      ]
+    },
+    {
+      "scene_id": "14_occlusion",
+      "category": "14_occlusion",
+      "n_gt": 1,
+      "n_obs": 11,
+      "matched": 1,
+      "completeness": 1.0,
+      "strict_scene_complete": true,
+      "status": "PASS",
+      "object_prf": {
+        "object_precision": 0.0909,
+        "object_recall": 1.0,
+        "object_f1": 0.1667,
+        "false_positive_object_rate": 0.9091,
+        "tp": 1,
+        "fp": 10,
+        "fn": 0
+      },
+      "failures": [],
+      "observations": [
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.84969162940979,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "tomato",
+          "raw_label": "tomato",
+          "food_state": "raw",
+          "confidence": 0.5963509678840637,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.9013592600822449,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.3552287101745606,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.2907962083816528,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.4063754081726074,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.28527863025665284,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.5773913264274597,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.4222739219665528,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.664124608039856,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.35617587566375736,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        }
+      ]
+    },
+    {
+      "scene_id": "15_overlap",
+      "category": "15_overlap",
+      "n_gt": 1,
+      "n_obs": 11,
+      "matched": 1,
+      "completeness": 1.0,
+      "strict_scene_complete": true,
+      "status": "PASS",
+      "object_prf": {
+        "object_precision": 0.0909,
+        "object_recall": 1.0,
+        "object_f1": 0.1667,
+        "false_positive_object_rate": 0.9091,
+        "tp": 1,
+        "fp": 10,
+        "fn": 0
+      },
+      "failures": [],
+      "observations": [
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.84969162940979,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "tomato",
+          "raw_label": "tomato",
+          "food_state": "raw",
+          "confidence": 0.5963509678840637,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.9013592600822449,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.3552287101745606,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.2907962083816528,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.4063754081726074,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.28527863025665284,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.5773913264274597,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.4222739219665528,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.664124608039856,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.35617587566375736,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        }
+      ]
+    },
+    {
+      "scene_id": "16_small_objects",
+      "category": "16_small_objects",
+      "n_gt": 1,
+      "n_obs": 1,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "FAIL",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      },
+      "failures": [
+        {
+          "gt": "salad",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.0
+        }
+      ],
+      "observations": [
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": null,
+          "confidence": 0.4186355471611023,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": "below_calibrated_threshold"
+        }
+      ]
+    },
+    {
+      "scene_id": "17_partial_visibility",
+      "category": "17_partial_visibility",
+      "n_gt": 1,
+      "n_obs": 11,
+      "matched": 1,
+      "completeness": 1.0,
+      "strict_scene_complete": true,
+      "status": "PASS",
+      "object_prf": {
+        "object_precision": 0.0909,
+        "object_recall": 1.0,
+        "object_f1": 0.1667,
+        "false_positive_object_rate": 0.9091,
+        "tp": 1,
+        "fp": 10,
+        "fn": 0
+      },
+      "failures": [],
+      "observations": [
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.84969162940979,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "tomato",
+          "raw_label": "tomato",
+          "food_state": "raw",
+          "confidence": 0.5963509678840637,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.9013592600822449,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.3552287101745606,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.2907962083816528,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.4063754081726074,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.28527863025665284,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.5773913264274597,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.4222739219665528,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.664124608039856,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.35617587566375736,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        }
+      ]
+    },
+    {
+      "scene_id": "18_low_light",
+      "category": "18_low_light",
+      "n_gt": 1,
+      "n_obs": 5,
+      "matched": 1,
+      "completeness": 1.0,
+      "strict_scene_complete": true,
+      "status": "PASS",
+      "object_prf": {
+        "object_precision": 0.2,
+        "object_recall": 1.0,
+        "object_f1": 0.3333,
+        "false_positive_object_rate": 0.8,
+        "tp": 1,
+        "fp": 4,
+        "fn": 0
+      },
+      "failures": [],
+      "observations": [
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.723456084728241,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.7697595357894897,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.5502153038978577,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.6090143918991089,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.7735985517501831,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        }
+      ]
+    },
+    {
+      "scene_id": "19_motion_blur",
+      "category": "19_motion_blur",
+      "n_gt": 1,
+      "n_obs": 5,
+      "matched": 1,
+      "completeness": 1.0,
+      "strict_scene_complete": true,
+      "status": "PASS",
+      "object_prf": {
+        "object_precision": 0.2,
+        "object_recall": 1.0,
+        "object_f1": 0.3333,
+        "false_positive_object_rate": 0.8,
+        "tp": 1,
+        "fp": 4,
+        "fn": 0
+      },
+      "failures": [],
+      "observations": [
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.7862945795059204,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "tomato",
+          "raw_label": "tomato",
+          "food_state": "raw",
+          "confidence": 0.8992569446563721,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "tomato",
+          "raw_label": "tomato",
+          "food_state": "raw",
+          "confidence": 0.7288419604301453,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "tomato",
+          "raw_label": "tomato",
+          "food_state": "raw",
+          "confidence": 0.5889201760292053,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "tomato",
+          "raw_label": "tomato",
+          "food_state": "raw",
+          "confidence": 0.7977855205535889,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        }
+      ]
+    },
+    {
+      "scene_id": "20_perspective_distortion",
+      "category": "20_perspective_distortion",
+      "n_gt": 1,
+      "n_obs": 1,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "FAIL",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      },
+      "failures": [
+        {
+          "gt": "salad",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.0
+        }
+      ],
+      "observations": [
+        {
+          "status": "probable_identity",
+          "identity": "non_food",
+          "raw_label": "non_food",
+          "food_state": "unknown",
+          "confidence": 0.34575121402740483,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        }
+      ]
+    },
+    {
+      "scene_id": "21_duplicate_tomatoes",
+      "category": "21_duplicate_instances",
+      "n_gt": 4,
+      "n_obs": 4,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "FAIL",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 4,
+        "fn": 4
+      },
+      "failures": [
+        {
+          "gt": "tomato",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.8266215388949558
+        },
+        {
+          "gt": "tomato",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.8416909407705907
+        },
+        {
+          "gt": "tomato",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.8169568083608382
+        },
+        {
+          "gt": "tomato",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.8463755849524056
+        }
+      ],
+      "observations": [
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "unknown",
+          "confidence": 0.3195244912058115,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "unknown",
+          "confidence": 0.35759958252310753,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "unknown",
+          "confidence": 0.3165493942797184,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "unknown",
+          "confidence": 0.33437918685376644,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        }
+      ]
+    },
+    {
+      "scene_id": "22_qty_one",
+      "category": "22_quantity_variation",
+      "n_gt": 1,
+      "n_obs": 2,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "FAIL",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 2,
+        "fn": 1
+      },
+      "failures": [
+        {
+          "gt": "tomato",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.0
+        }
+      ],
+      "observations": [
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "unknown",
+          "confidence": 0.3298452254384756,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "prepared",
+          "confidence": 0.3681301288306713,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        }
+      ]
+    },
+    {
+      "scene_id": "22_qty_four",
+      "category": "22_quantity_variation",
+      "n_gt": 4,
+      "n_obs": 4,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "FAIL",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 4,
+        "fn": 4
+      },
+      "failures": [
+        {
+          "gt": "tomato",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.8266215388949558
+        },
+        {
+          "gt": "tomato",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.8416909407705907
+        },
+        {
+          "gt": "tomato",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.8169568083608382
+        },
+        {
+          "gt": "tomato",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.8463755849524056
+        }
+      ],
+      "observations": [
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "unknown",
+          "confidence": 0.3195244912058115,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "unknown",
+          "confidence": 0.35759958252310753,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "unknown",
+          "confidence": 0.3165493942797184,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "unknown",
+          "confidence": 0.33437918685376644,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        }
+      ]
+    },
+    {
+      "scene_id": "23_tomato_vs_tomato_paste",
+      "category": "23_hard_negative_food_pairs",
+      "n_gt": 2,
+      "n_obs": 2,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "FAIL",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 2,
+        "fn": 2
+      },
+      "failures": [
+        {
+          "gt": "tomato",
+          "stage": "DETECTOR",
+          "pred": null,
+          "iou": 0.43557748496567933
+        },
+        {
+          "gt": "tomato_paste",
+          "stage": "DETECTOR",
+          "pred": null,
+          "iou": 0.45460905512080874
+        }
+      ],
+      "observations": [
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "unknown",
+          "confidence": 0.30168035812675953,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "processed",
+          "confidence": 0.37065422534942627,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": "below_calibrated_threshold"
+        }
+      ]
+    },
+    {
+      "scene_id": "23_yogurt_vs_cream",
+      "category": "23_hard_negative_food_pairs",
+      "n_gt": 2,
+      "n_obs": 2,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "FAIL",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 2,
+        "fn": 2
+      },
+      "failures": [
+        {
+          "gt": "yogurt",
+          "stage": "DETECTOR",
+          "pred": "fried_egg",
+          "iou": 0.36326982349815357
+        },
+        {
+          "gt": "cream",
+          "stage": "DETECTOR",
+          "pred": "fried_egg",
+          "iou": 0.4166658738946421
+        }
+      ],
+      "observations": [
+        {
+          "status": "probable_identity",
+          "identity": "fried_egg",
+          "raw_label": "fried_egg",
+          "food_state": "prepared",
+          "confidence": 0.34333548545837406,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "fried_egg",
+          "raw_label": "fried_egg",
+          "food_state": "prepared",
+          "confidence": 0.4392772197723389,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        }
+      ]
+    },
+    {
+      "scene_id": "23_cheese_vs_packaged_cheese",
+      "category": "23_hard_negative_food_pairs",
+      "n_gt": 2,
+      "n_obs": 2,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "FAIL",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 2,
+        "fn": 2
+      },
+      "failures": [
+        {
+          "gt": "cheese",
+          "stage": "DETECTOR",
+          "pred": "fried_egg",
+          "iou": 0.4182335975552697
+        },
+        {
+          "gt": "packaged_cheese",
+          "stage": "DETECTOR",
+          "pred": null,
+          "iou": 0.4409423231518806
+        }
+      ],
+      "observations": [
+        {
+          "status": "probable_identity",
+          "identity": "fried_egg",
+          "raw_label": "fried_egg",
+          "food_state": "prepared",
+          "confidence": 0.41662034988403324,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "prepared",
+          "confidence": 0.45832276344299316,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        }
+      ]
+    },
+    {
+      "scene_id": "23_rice_vs_biryani",
+      "category": "23_hard_negative_food_pairs",
+      "n_gt": 2,
+      "n_obs": 2,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "FAIL",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 2,
+        "fn": 2
+      },
+      "failures": [
+        {
+          "gt": "rice",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.5076376436332785
+        },
+        {
+          "gt": "biryani",
+          "stage": "DETECTOR",
+          "pred": null,
+          "iou": 0.49552181990394734
+        }
+      ],
+      "observations": [
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "prepared",
+          "confidence": 0.4375535547733307,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "unknown",
+          "confidence": 0.4770216569304466,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        }
+      ]
+    },
+    {
+      "scene_id": "23_fried_rice_not_raw",
+      "category": "23_hard_negative_food_pairs",
+      "n_gt": 1,
+      "n_obs": 3,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "FAIL",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 3,
+        "fn": 1
+      },
+      "failures": [
+        {
+          "gt": "fried_rice",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.0
+        }
+      ],
+      "observations": [
+        {
+          "status": "confirmed_identity",
+          "identity": "biryani",
+          "raw_label": "biryani",
+          "food_state": "prepared",
+          "confidence": 0.7391930818557739,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.3115085124969483,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "biryani",
+          "raw_label": "biryani",
+          "food_state": "prepared",
+          "confidence": 0.2983039617538452,
+          "visual_class": "packaged_food",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        }
+      ]
+    },
+    {
+      "scene_id": "24_food_nonfood",
+      "category": "24_mixed_food_and_nonfood",
+      "n_gt": 2,
+      "n_obs": 2,
+      "matched": 1,
+      "completeness": 0.5,
+      "strict_scene_complete": false,
+      "status": "PARTIAL",
+      "object_prf": {
+        "object_precision": 0.5,
+        "object_recall": 0.5,
+        "object_f1": 0.5,
+        "false_positive_object_rate": 0.5,
+        "tp": 1,
+        "fp": 1,
+        "fn": 1
+      },
+      "failures": [
+        {
+          "gt": "non_food",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.530715293650828
+        }
+      ],
+      "observations": [
+        {
+          "status": "confirmed_identity",
+          "identity": "pizza",
+          "raw_label": "pizza",
+          "food_state": "prepared",
+          "confidence": 0.95,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "unknown",
+          "confidence": 0.5347878187894821,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": "below_calibrated_threshold"
+        }
+      ]
+    },
+    {
+      "scene_id": "25_salad_bowl",
+      "category": "25_complex_real_world_kitchen",
+      "n_gt": 1,
+      "n_obs": 7,
+      "matched": 1,
+      "completeness": 1.0,
+      "strict_scene_complete": true,
+      "status": "PASS",
+      "object_prf": {
+        "object_precision": 0.1429,
+        "object_recall": 1.0,
+        "object_f1": 0.25,
+        "false_positive_object_rate": 0.8571,
+        "tp": 1,
+        "fp": 6,
+        "fn": 0
+      },
+      "failures": [],
+      "observations": [
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.7805954217910767,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.6162344217300415,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.6359202861785889,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.32563784122467043,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.5817775726318359,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.7499382495880127,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.8299391269683838,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        }
+      ]
+    },
+    {
+      "scene_id": "25_tomato_pasta",
+      "category": "25_complex_real_world_kitchen",
+      "n_gt": 1,
+      "n_obs": 11,
+      "matched": 1,
+      "completeness": 1.0,
+      "strict_scene_complete": true,
+      "status": "PASS",
+      "object_prf": {
+        "object_precision": 0.0909,
+        "object_recall": 1.0,
+        "object_f1": 0.1667,
+        "false_positive_object_rate": 0.9091,
+        "tp": 1,
+        "fp": 10,
+        "fn": 0
+      },
+      "failures": [],
+      "observations": [
+        {
+          "status": "confirmed_identity",
+          "identity": "pasta",
+          "raw_label": "pasta",
+          "food_state": "prepared",
+          "confidence": 0.95,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "tomato",
+          "raw_label": "tomato",
+          "food_state": "raw",
+          "confidence": 0.621758155822754,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "pasta",
+          "raw_label": "pasta",
+          "food_state": "prepared",
+          "confidence": 0.8392783403396606,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "pasta",
+          "raw_label": "pasta",
+          "food_state": "prepared",
+          "confidence": 0.8782404661178589,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "tomato",
+          "raw_label": "tomato",
+          "food_state": "raw",
+          "confidence": 0.95,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "tomato",
+          "raw_label": "tomato",
+          "food_state": "raw",
+          "confidence": 0.6211315143108369,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "pasta",
+          "raw_label": "pasta",
+          "food_state": "prepared",
+          "confidence": 0.9355098009109497,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "tomato_paste",
+          "raw_label": "tomato_paste",
+          "food_state": "unknown",
+          "confidence": 0.43964524269104005,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "pasta",
+          "raw_label": "pasta",
+          "food_state": "prepared",
+          "confidence": 0.402329158782959,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "unknown",
+          "confidence": 0.7383939251303673,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": "below_calibrated_threshold"
+        },
+        {
+          "status": "probable_identity",
+          "identity": "ginger",
+          "raw_label": "ginger",
+          "food_state": "raw",
+          "confidence": 0.34126925468444824,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        }
+      ]
+    },
+    {
+      "scene_id": "25_complex_mixed",
+      "category": "25_complex_real_world_kitchen",
+      "n_gt": 3,
+      "n_obs": 8,
+      "matched": 2,
+      "completeness": 0.6667,
+      "strict_scene_complete": false,
+      "status": "PARTIAL",
+      "object_prf": {
+        "object_precision": 0.25,
+        "object_recall": 0.6667,
+        "object_f1": 0.3636,
+        "false_positive_object_rate": 0.75,
+        "tp": 2,
+        "fp": 6,
+        "fn": 1
+      },
+      "failures": [
+        {
+          "gt": "spring_rolls",
+          "stage": "CLASSIFIER",
+          "pred": "cooked_rice",
+          "iou": 0.7454051584086139
+        }
+      ],
+      "observations": [
+        {
+          "status": "confirmed_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.7919572591781616,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "pasta",
+          "raw_label": "pasta",
+          "food_state": "prepared",
+          "confidence": 0.95,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "cooked_rice",
+          "raw_label": "cooked_rice",
+          "food_state": "prepared",
+          "confidence": 0.8360653519630432,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "cooked_rice",
+          "raw_label": "cooked_rice",
+          "food_state": "prepared",
+          "confidence": 0.8894655108451843,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "cooked_rice",
+          "raw_label": "cooked_rice",
+          "food_state": "prepared",
+          "confidence": 0.8752286434173584,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "tomato",
+          "raw_label": "tomato",
+          "food_state": "raw",
+          "confidence": 0.42818784713745117,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "cooked_rice",
+          "raw_label": "cooked_rice",
+          "food_state": "prepared",
+          "confidence": 0.8631603121757507,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "tomato",
+          "raw_label": "tomato",
+          "food_state": "raw",
+          "confidence": 0.95,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        }
+      ]
+    },
+    {
+      "scene_id": "prepared_pizza",
+      "category": "25_complex_real_world_kitchen",
+      "n_gt": 1,
+      "n_obs": 1,
+      "matched": 1,
+      "completeness": 1.0,
+      "strict_scene_complete": true,
+      "status": "PASS",
+      "object_prf": {
+        "object_precision": 1.0,
+        "object_recall": 1.0,
+        "object_f1": 1.0,
+        "false_positive_object_rate": 0.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      },
+      "failures": [],
+      "observations": [
+        {
+          "status": "confirmed_identity",
+          "identity": "pizza",
+          "raw_label": "pizza",
+          "food_state": "prepared",
+          "confidence": 0.95,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        }
+      ]
+    },
+    {
+      "scene_id": "prepared_fried_rice",
+      "category": "25_complex_real_world_kitchen",
+      "n_gt": 1,
+      "n_obs": 3,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "FAIL",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 3,
+        "fn": 1
+      },
+      "failures": [
+        {
+          "gt": "fried_rice",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.0
+        }
+      ],
+      "observations": [
+        {
+          "status": "confirmed_identity",
+          "identity": "biryani",
+          "raw_label": "biryani",
+          "food_state": "prepared",
+          "confidence": 0.7391930818557739,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "salad",
+          "raw_label": "salad",
+          "food_state": "prepared",
+          "confidence": 0.3115085124969483,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "probable_identity",
+          "identity": "biryani",
+          "raw_label": "biryani",
+          "food_state": "prepared",
+          "confidence": 0.2983039617538452,
+          "visual_class": "packaged_food",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        }
+      ]
+    },
+    {
+      "scene_id": "prepared_bibimbap",
+      "category": "25_complex_real_world_kitchen",
+      "n_gt": 1,
+      "n_obs": 2,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "FAIL",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 2,
+        "fn": 1
+      },
+      "failures": [
+        {
+          "gt": "bibimbap",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.0
+        }
+      ],
+      "observations": [
+        {
+          "status": "probable_identity",
+          "identity": "cooked_rice",
+          "raw_label": "cooked_rice",
+          "food_state": "prepared",
+          "confidence": 0.3566732406616211,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "unknown",
+          "confidence": 0.4967052675783634,
+          "visual_class": "raw_ingredient",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": "below_calibrated_threshold"
+        }
+      ]
+    },
+    {
+      "scene_id": "prepared_lasagna",
+      "category": "25_complex_real_world_kitchen",
+      "n_gt": 1,
+      "n_obs": 1,
+      "matched": 0,
+      "completeness": 0.0,
+      "strict_scene_complete": false,
+      "status": "FAIL",
+      "object_prf": {
+        "object_precision": 0.0,
+        "object_recall": 0.0,
+        "object_f1": 0.0,
+        "false_positive_object_rate": 1.0,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      },
+      "failures": [
+        {
+          "gt": "lasagna",
+          "stage": "CLASSIFIER",
+          "pred": null,
+          "iou": 0.0
+        }
+      ],
+      "observations": [
+        {
+          "status": "probable_identity",
+          "identity": "tomato_paste",
+          "raw_label": "tomato_paste",
+          "food_state": "unknown",
+          "confidence": 0.42826447486877445,
+          "visual_class": "packaged_food",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": null
+        }
+      ]
+    },
+    {
+      "scene_id": "prepared_club_sandwich",
+      "category": "25_complex_real_world_kitchen",
+      "n_gt": 1,
+      "n_obs": 4,
+      "matched": 1,
+      "completeness": 1.0,
+      "strict_scene_complete": true,
+      "status": "PASS",
+      "object_prf": {
+        "object_precision": 0.25,
+        "object_recall": 1.0,
+        "object_f1": 0.4,
+        "false_positive_object_rate": 0.75,
+        "tp": 1,
+        "fp": 3,
+        "fn": 0
+      },
+      "failures": [],
+      "observations": [
+        {
+          "status": "confirmed_identity",
+          "identity": "sandwich",
+          "raw_label": "sandwich",
+          "food_state": "prepared",
+          "confidence": 0.6279417502880097,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "unknown_food",
+          "identity": null,
+          "raw_label": null,
+          "food_state": "unknown",
+          "confidence": 0.8335256092250347,
+          "visual_class": "packaged_food",
+          "is_food": true,
+          "is_prepared_meal": false,
+          "abstain_reason": "below_calibrated_threshold"
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "sandwich",
+          "raw_label": "sandwich",
+          "food_state": "prepared",
+          "confidence": 0.95,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        },
+        {
+          "status": "confirmed_identity",
+          "identity": "sandwich",
+          "raw_label": "sandwich",
+          "food_state": "prepared",
+          "confidence": 0.628544317483902,
+          "visual_class": "prepared_meal",
+          "is_food": true,
+          "is_prepared_meal": true,
+          "abstain_reason": null
+        }
+      ]
+    }
+  ],
+  "acceptance_alignment": "official_match_instances_v1"
+}

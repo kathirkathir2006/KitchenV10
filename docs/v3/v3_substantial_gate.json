@@ -1,0 +1,17 @@
+{
+  "frozen_before_eval": true,
+  "baseline_strict": 0.2927,
+  "n_scenes": 41,
+  "n_complete_baseline": 12,
+  "n_incomplete_baseline": 29,
+  "classifier_failures_baseline": 40,
+  "marginal_band_rejected": [
+    0.3,
+    0.34
+  ],
+  "min_strict_scene_completeness": 0.439,
+  "min_absolute_delta": 0.1463,
+  "min_complete_scenes": 18,
+  "max_classifier_failures": 20,
+  "rationale": "From 29 incomplete scenes and 40 CLASSIFIER failures: reject the brief's marginal band (\u22640.34\u224814/41). Require \u226518/41 (+6 scenes) and \u226420 classifier failures (\u226550% reduction). Threshold frozen before any V3 candidate eval."
+}
