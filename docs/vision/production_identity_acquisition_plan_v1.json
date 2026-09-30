@@ -1,0 +1,442 @@
+{
+  "generated_at": "2026-09-30T17:12:53.020588+00:00",
+  "n_items": 21,
+  "items": [
+    {
+      "canonical_identity": "bibimbap",
+      "action": "TAXONOMY_RESOLUTION_REQUIRED",
+      "additional_images_needed": 0,
+      "priority": "P2",
+      "reason": "No 207-taxonomy mapping; cannot invent production class",
+      "acceptance_failures_addressed": 1,
+      "acceptable_sources": []
+    },
+    {
+      "canonical_identity": "biryani",
+      "action": "ACQUIRE_PRODUCTION_ELIGIBLE",
+      "additional_images_needed": 40,
+      "current_count": 20,
+      "target_count": 60,
+      "priority": "P2",
+      "reason": "status=LOW_SUPPORT; classifier_failures=0; scenes=1",
+      "acceptance_failures_addressed": 0,
+      "acceptable_sources": [
+        "openverse_cc_by_or_cc0",
+        "open_images_cc_by",
+        "wikimedia_cc_by_or_cc0",
+        "government_public_domain"
+      ],
+      "required_diversity": [
+        "lighting",
+        "angle",
+        "background",
+        "scale"
+      ],
+      "hard_negatives_required": false,
+      "provenance_requirements": [
+        "verified_licence",
+        "attribution_where_required",
+        "no_experiment_only"
+      ]
+    },
+    {
+      "canonical_identity": "caesar_salad",
+      "action": "TAXONOMY_RESOLUTION_REQUIRED",
+      "additional_images_needed": 0,
+      "priority": "P2",
+      "reason": "No 207-taxonomy mapping; cannot invent production class",
+      "acceptance_failures_addressed": 0,
+      "acceptable_sources": []
+    },
+    {
+      "canonical_identity": "cooked_rice",
+      "action": "ACQUIRE_PRODUCTION_ELIGIBLE",
+      "additional_images_needed": 35,
+      "current_count": 25,
+      "target_count": 60,
+      "priority": "P0",
+      "reason": "status=LOW_SUPPORT; classifier_failures=3; scenes=4",
+      "acceptance_failures_addressed": 3,
+      "acceptable_sources": [
+        "openverse_cc_by_or_cc0",
+        "open_images_cc_by",
+        "wikimedia_cc_by_or_cc0",
+        "government_public_domain"
+      ],
+      "required_diversity": [
+        "lighting",
+        "angle",
+        "background",
+        "scale"
+      ],
+      "hard_negatives_required": false,
+      "provenance_requirements": [
+        "verified_licence",
+        "attribution_where_required",
+        "no_experiment_only"
+      ]
+    },
+    {
+      "canonical_identity": "doughnut",
+      "action": "ACQUIRE_PRODUCTION_ELIGIBLE",
+      "additional_images_needed": 25,
+      "current_count": 0,
+      "target_count": 25,
+      "priority": "P1",
+      "reason": "status=MISSING; classifier_failures=1; scenes=1",
+      "acceptance_failures_addressed": 1,
+      "acceptable_sources": [
+        "openverse_cc_by_or_cc0",
+        "open_images_cc_by",
+        "wikimedia_cc_by_or_cc0",
+        "government_public_domain"
+      ],
+      "required_diversity": [
+        "lighting",
+        "angle",
+        "background",
+        "scale"
+      ],
+      "hard_negatives_required": false,
+      "provenance_requirements": [
+        "verified_licence",
+        "attribution_where_required",
+        "no_experiment_only"
+      ]
+    },
+    {
+      "canonical_identity": "french_fries",
+      "action": "ACQUIRE_PRODUCTION_ELIGIBLE",
+      "additional_images_needed": 25,
+      "current_count": 0,
+      "target_count": 25,
+      "priority": "P1",
+      "reason": "status=MISSING; classifier_failures=1; scenes=1",
+      "acceptance_failures_addressed": 1,
+      "acceptable_sources": [
+        "openverse_cc_by_or_cc0",
+        "open_images_cc_by",
+        "wikimedia_cc_by_or_cc0",
+        "government_public_domain"
+      ],
+      "required_diversity": [
+        "lighting",
+        "angle",
+        "background",
+        "scale"
+      ],
+      "hard_negatives_required": false,
+      "provenance_requirements": [
+        "verified_licence",
+        "attribution_where_required",
+        "no_experiment_only"
+      ]
+    },
+    {
+      "canonical_identity": "fried_egg",
+      "action": "ACQUIRE_PRODUCTION_ELIGIBLE",
+      "additional_images_needed": 60,
+      "current_count": 0,
+      "target_count": 60,
+      "priority": "P0",
+      "reason": "status=MISSING; classifier_failures=2; scenes=2",
+      "acceptance_failures_addressed": 2,
+      "acceptable_sources": [
+        "openverse_cc_by_or_cc0",
+        "open_images_cc_by",
+        "wikimedia_cc_by_or_cc0",
+        "government_public_domain"
+      ],
+      "required_diversity": [
+        "lighting",
+        "angle",
+        "background",
+        "scale"
+      ],
+      "hard_negatives_required": false,
+      "provenance_requirements": [
+        "verified_licence",
+        "attribution_where_required",
+        "no_experiment_only"
+      ]
+    },
+    {
+      "canonical_identity": "guacamole",
+      "action": "TAXONOMY_RESOLUTION_REQUIRED",
+      "additional_images_needed": 0,
+      "priority": "P2",
+      "reason": "No 207-taxonomy mapping; cannot invent production class",
+      "acceptance_failures_addressed": 1,
+      "acceptable_sources": []
+    },
+    {
+      "canonical_identity": "hummus",
+      "action": "TAXONOMY_RESOLUTION_REQUIRED",
+      "additional_images_needed": 0,
+      "priority": "P2",
+      "reason": "No 207-taxonomy mapping; cannot invent production class",
+      "acceptance_failures_addressed": 1,
+      "acceptable_sources": []
+    },
+    {
+      "canonical_identity": "ice_cream",
+      "action": "ACQUIRE_PRODUCTION_ELIGIBLE",
+      "additional_images_needed": 25,
+      "current_count": 0,
+      "target_count": 25,
+      "priority": "P2",
+      "reason": "status=MISSING; classifier_failures=0; scenes=1",
+      "acceptance_failures_addressed": 0,
+      "acceptable_sources": [
+        "openverse_cc_by_or_cc0",
+        "open_images_cc_by",
+        "wikimedia_cc_by_or_cc0",
+        "government_public_domain"
+      ],
+      "required_diversity": [
+        "lighting",
+        "angle",
+        "background",
+        "scale"
+      ],
+      "hard_negatives_required": false,
+      "provenance_requirements": [
+        "verified_licence",
+        "attribution_where_required",
+        "no_experiment_only"
+      ]
+    },
+    {
+      "canonical_identity": "lasagna",
+      "action": "TAXONOMY_RESOLUTION_REQUIRED",
+      "additional_images_needed": 0,
+      "priority": "P0",
+      "reason": "No 207-taxonomy mapping; cannot invent production class",
+      "acceptance_failures_addressed": 2,
+      "acceptable_sources": []
+    },
+    {
+      "canonical_identity": "non_food_object",
+      "action": "ACQUIRE_PRODUCTION_ELIGIBLE",
+      "additional_images_needed": 40,
+      "current_count": 0,
+      "target_count": 40,
+      "priority": "P1",
+      "reason": "status=MISSING; classifier_failures=1; scenes=5",
+      "acceptance_failures_addressed": 1,
+      "acceptable_sources": [
+        "openverse_cc_by_or_cc0",
+        "open_images_cc_by",
+        "wikimedia_cc_by_or_cc0",
+        "government_public_domain"
+      ],
+      "required_diversity": [
+        "lighting",
+        "angle",
+        "background",
+        "scale"
+      ],
+      "hard_negatives_required": true,
+      "provenance_requirements": [
+        "verified_licence",
+        "attribution_where_required",
+        "no_experiment_only"
+      ]
+    },
+    {
+      "canonical_identity": "packaged_cheese",
+      "action": "ACQUIRE_PRODUCTION_ELIGIBLE",
+      "additional_images_needed": 31,
+      "current_count": 9,
+      "target_count": 40,
+      "priority": "P0",
+      "reason": "status=LOW_SUPPORT; classifier_failures=2; scenes=3",
+      "acceptance_failures_addressed": 2,
+      "acceptable_sources": [
+        "openverse_cc_by_or_cc0",
+        "open_images_cc_by",
+        "wikimedia_cc_by_or_cc0",
+        "government_public_domain"
+      ],
+      "required_diversity": [
+        "lighting",
+        "angle",
+        "background",
+        "scale"
+      ],
+      "hard_negatives_required": false,
+      "provenance_requirements": [
+        "verified_licence",
+        "attribution_where_required",
+        "no_experiment_only"
+      ]
+    },
+    {
+      "canonical_identity": "pad_thai",
+      "action": "TAXONOMY_RESOLUTION_REQUIRED",
+      "additional_images_needed": 0,
+      "priority": "P2",
+      "reason": "No 207-taxonomy mapping; cannot invent production class",
+      "acceptance_failures_addressed": 1,
+      "acceptable_sources": []
+    },
+    {
+      "canonical_identity": "pasta",
+      "action": "ACQUIRE_PRODUCTION_ELIGIBLE",
+      "additional_images_needed": 40,
+      "current_count": 0,
+      "target_count": 40,
+      "priority": "P0",
+      "reason": "status=MISSING; classifier_failures=2; scenes=2",
+      "acceptance_failures_addressed": 2,
+      "acceptable_sources": [
+        "openverse_cc_by_or_cc0",
+        "open_images_cc_by",
+        "wikimedia_cc_by_or_cc0",
+        "government_public_domain"
+      ],
+      "required_diversity": [
+        "lighting",
+        "angle",
+        "background",
+        "scale"
+      ],
+      "hard_negatives_required": false,
+      "provenance_requirements": [
+        "verified_licence",
+        "attribution_where_required",
+        "no_experiment_only"
+      ]
+    },
+    {
+      "canonical_identity": "pizza",
+      "action": "ACQUIRE_PRODUCTION_ELIGIBLE",
+      "additional_images_needed": 60,
+      "current_count": 0,
+      "target_count": 60,
+      "priority": "P0",
+      "reason": "status=MISSING; classifier_failures=5; scenes=5",
+      "acceptance_failures_addressed": 5,
+      "acceptable_sources": [
+        "openverse_cc_by_or_cc0",
+        "open_images_cc_by",
+        "wikimedia_cc_by_or_cc0",
+        "government_public_domain"
+      ],
+      "required_diversity": [
+        "lighting",
+        "angle",
+        "background",
+        "scale"
+      ],
+      "hard_negatives_required": false,
+      "provenance_requirements": [
+        "verified_licence",
+        "attribution_where_required",
+        "no_experiment_only"
+      ]
+    },
+    {
+      "canonical_identity": "recipe_document",
+      "action": "TAXONOMY_RESOLUTION_REQUIRED",
+      "additional_images_needed": 0,
+      "priority": "P0",
+      "reason": "No 207-taxonomy mapping; cannot invent production class",
+      "acceptance_failures_addressed": 2,
+      "acceptable_sources": []
+    },
+    {
+      "canonical_identity": "salad",
+      "action": "ACQUIRE_PRODUCTION_ELIGIBLE",
+      "additional_images_needed": 40,
+      "current_count": 0,
+      "target_count": 40,
+      "priority": "P0",
+      "reason": "status=MISSING; classifier_failures=9; scenes=9",
+      "acceptance_failures_addressed": 9,
+      "acceptable_sources": [
+        "openverse_cc_by_or_cc0",
+        "open_images_cc_by",
+        "wikimedia_cc_by_or_cc0",
+        "government_public_domain"
+      ],
+      "required_diversity": [
+        "lighting",
+        "angle",
+        "background",
+        "scale"
+      ],
+      "hard_negatives_required": false,
+      "provenance_requirements": [
+        "verified_licence",
+        "attribution_where_required",
+        "no_experiment_only"
+      ]
+    },
+    {
+      "canonical_identity": "sandwich",
+      "action": "ACQUIRE_PRODUCTION_ELIGIBLE",
+      "additional_images_needed": 25,
+      "current_count": 0,
+      "target_count": 25,
+      "priority": "P1",
+      "reason": "status=MISSING; classifier_failures=1; scenes=3",
+      "acceptance_failures_addressed": 1,
+      "acceptable_sources": [
+        "openverse_cc_by_or_cc0",
+        "open_images_cc_by",
+        "wikimedia_cc_by_or_cc0",
+        "government_public_domain"
+      ],
+      "required_diversity": [
+        "lighting",
+        "angle",
+        "background",
+        "scale"
+      ],
+      "hard_negatives_required": false,
+      "provenance_requirements": [
+        "verified_licence",
+        "attribution_where_required",
+        "no_experiment_only"
+      ]
+    },
+    {
+      "canonical_identity": "spring_rolls",
+      "action": "TAXONOMY_RESOLUTION_REQUIRED",
+      "additional_images_needed": 0,
+      "priority": "P2",
+      "reason": "No 207-taxonomy mapping; cannot invent production class",
+      "acceptance_failures_addressed": 1,
+      "acceptable_sources": []
+    },
+    {
+      "canonical_identity": "tomato_paste",
+      "action": "ACQUIRE_PRODUCTION_ELIGIBLE",
+      "additional_images_needed": 2,
+      "current_count": 23,
+      "target_count": 25,
+      "priority": "P1",
+      "reason": "status=LOW_SUPPORT; classifier_failures=1; scenes=2",
+      "acceptance_failures_addressed": 1,
+      "acceptable_sources": [
+        "openverse_cc_by_or_cc0",
+        "open_images_cc_by",
+        "wikimedia_cc_by_or_cc0",
+        "government_public_domain"
+      ],
+      "required_diversity": [
+        "lighting",
+        "angle",
+        "background",
+        "scale"
+      ],
+      "hard_negatives_required": false,
+      "provenance_requirements": [
+        "verified_licence",
+        "attribution_where_required",
+        "no_experiment_only"
+      ]
+    }
+  ]
+}

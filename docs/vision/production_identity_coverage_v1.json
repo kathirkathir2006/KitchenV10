@@ -1,0 +1,457 @@
+{
+  "version": "production_identity_coverage_v1",
+  "generated_at": "2026-09-30T17:12:53.014721+00:00",
+  "status_counts": {
+    "TAXONOMY_GAP": 8,
+    "LOW_SUPPORT": 4,
+    "SUFFICIENT": 7,
+    "MISSING": 9
+  },
+  "identities": [
+    {
+      "canonical_identity": "bibimbap",
+      "production_image_count": 0,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "TAXONOMY_GAP",
+      "taxonomy_gap": true,
+      "model_vocab_support": false,
+      "n_scenes": 1,
+      "sources": [],
+      "licences": []
+    },
+    {
+      "canonical_identity": "biryani",
+      "production_image_count": 20,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "LOW_SUPPORT",
+      "taxonomy_gap": false,
+      "model_vocab_support": false,
+      "n_scenes": 1,
+      "sources": [
+        "openverse"
+      ],
+      "licences": [
+        "cc0",
+        "cc_by"
+      ]
+    },
+    {
+      "canonical_identity": "caesar_salad",
+      "production_image_count": 0,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "TAXONOMY_GAP",
+      "taxonomy_gap": true,
+      "model_vocab_support": false,
+      "n_scenes": 1,
+      "sources": [],
+      "licences": []
+    },
+    {
+      "canonical_identity": "cheese",
+      "production_image_count": 25,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "SUFFICIENT",
+      "taxonomy_gap": false,
+      "model_vocab_support": true,
+      "n_scenes": 1,
+      "sources": [
+        "openverse"
+      ],
+      "licences": [
+        "cc_by"
+      ]
+    },
+    {
+      "canonical_identity": "cooked_rice",
+      "production_image_count": 25,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "LOW_SUPPORT",
+      "taxonomy_gap": false,
+      "model_vocab_support": false,
+      "n_scenes": 4,
+      "sources": [
+        "openverse"
+      ],
+      "licences": [
+        "cc_by"
+      ]
+    },
+    {
+      "canonical_identity": "cream",
+      "production_image_count": 24,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "SUFFICIENT",
+      "taxonomy_gap": false,
+      "model_vocab_support": false,
+      "n_scenes": 1,
+      "sources": [
+        "openverse"
+      ],
+      "licences": [
+        "cc0",
+        "cc_by"
+      ]
+    },
+    {
+      "canonical_identity": "doughnut",
+      "production_image_count": 0,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "MISSING",
+      "taxonomy_gap": true,
+      "model_vocab_support": true,
+      "n_scenes": 1,
+      "sources": [],
+      "licences": []
+    },
+    {
+      "canonical_identity": "french_fries",
+      "production_image_count": 0,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "MISSING",
+      "taxonomy_gap": true,
+      "model_vocab_support": true,
+      "n_scenes": 1,
+      "sources": [],
+      "licences": []
+    },
+    {
+      "canonical_identity": "fried_egg",
+      "production_image_count": 0,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "MISSING",
+      "taxonomy_gap": false,
+      "model_vocab_support": false,
+      "n_scenes": 2,
+      "sources": [],
+      "licences": []
+    },
+    {
+      "canonical_identity": "garlic",
+      "production_image_count": 36,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "SUFFICIENT",
+      "taxonomy_gap": false,
+      "model_vocab_support": false,
+      "n_scenes": 1,
+      "sources": [
+        "openverse"
+      ],
+      "licences": [
+        "cc0",
+        "cc_by"
+      ]
+    },
+    {
+      "canonical_identity": "ginger",
+      "production_image_count": 33,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "SUFFICIENT",
+      "taxonomy_gap": false,
+      "model_vocab_support": false,
+      "n_scenes": 1,
+      "sources": [
+        "openverse"
+      ],
+      "licences": [
+        "cc0",
+        "cc_by"
+      ]
+    },
+    {
+      "canonical_identity": "guacamole",
+      "production_image_count": 0,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "TAXONOMY_GAP",
+      "taxonomy_gap": true,
+      "model_vocab_support": false,
+      "n_scenes": 1,
+      "sources": [],
+      "licences": []
+    },
+    {
+      "canonical_identity": "hummus",
+      "production_image_count": 0,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "TAXONOMY_GAP",
+      "taxonomy_gap": true,
+      "model_vocab_support": false,
+      "n_scenes": 1,
+      "sources": [],
+      "licences": []
+    },
+    {
+      "canonical_identity": "ice_cream",
+      "production_image_count": 0,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "MISSING",
+      "taxonomy_gap": true,
+      "model_vocab_support": true,
+      "n_scenes": 1,
+      "sources": [],
+      "licences": []
+    },
+    {
+      "canonical_identity": "lasagna",
+      "production_image_count": 0,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "TAXONOMY_GAP",
+      "taxonomy_gap": true,
+      "model_vocab_support": false,
+      "n_scenes": 2,
+      "sources": [],
+      "licences": []
+    },
+    {
+      "canonical_identity": "non_food_object",
+      "production_image_count": 0,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "MISSING",
+      "taxonomy_gap": false,
+      "model_vocab_support": false,
+      "n_scenes": 5,
+      "sources": [],
+      "licences": []
+    },
+    {
+      "canonical_identity": "packaged_cheese",
+      "production_image_count": 9,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "LOW_SUPPORT",
+      "taxonomy_gap": false,
+      "model_vocab_support": false,
+      "n_scenes": 3,
+      "sources": [
+        "openverse",
+        "wikimedia_commons"
+      ],
+      "licences": [
+        "cc0",
+        "cc_by"
+      ]
+    },
+    {
+      "canonical_identity": "pad_thai",
+      "production_image_count": 0,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "TAXONOMY_GAP",
+      "taxonomy_gap": true,
+      "model_vocab_support": false,
+      "n_scenes": 1,
+      "sources": [],
+      "licences": []
+    },
+    {
+      "canonical_identity": "pasta",
+      "production_image_count": 0,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "MISSING",
+      "taxonomy_gap": false,
+      "model_vocab_support": true,
+      "n_scenes": 2,
+      "sources": [],
+      "licences": []
+    },
+    {
+      "canonical_identity": "pizza",
+      "production_image_count": 0,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "MISSING",
+      "taxonomy_gap": false,
+      "model_vocab_support": true,
+      "n_scenes": 5,
+      "sources": [],
+      "licences": []
+    },
+    {
+      "canonical_identity": "recipe_document",
+      "production_image_count": 0,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "TAXONOMY_GAP",
+      "taxonomy_gap": true,
+      "model_vocab_support": false,
+      "n_scenes": 2,
+      "sources": [],
+      "licences": []
+    },
+    {
+      "canonical_identity": "rice",
+      "production_image_count": 40,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "SUFFICIENT",
+      "taxonomy_gap": false,
+      "model_vocab_support": false,
+      "n_scenes": 2,
+      "sources": [
+        "openverse"
+      ],
+      "licences": [
+        "cc0",
+        "cc_by"
+      ]
+    },
+    {
+      "canonical_identity": "salad",
+      "production_image_count": 0,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "MISSING",
+      "taxonomy_gap": true,
+      "model_vocab_support": true,
+      "n_scenes": 9,
+      "sources": [],
+      "licences": []
+    },
+    {
+      "canonical_identity": "sandwich",
+      "production_image_count": 0,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "MISSING",
+      "taxonomy_gap": true,
+      "model_vocab_support": true,
+      "n_scenes": 3,
+      "sources": [],
+      "licences": []
+    },
+    {
+      "canonical_identity": "spring_rolls",
+      "production_image_count": 0,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "TAXONOMY_GAP",
+      "taxonomy_gap": true,
+      "model_vocab_support": false,
+      "n_scenes": 1,
+      "sources": [],
+      "licences": []
+    },
+    {
+      "canonical_identity": "tomato",
+      "production_image_count": 40,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "SUFFICIENT",
+      "taxonomy_gap": false,
+      "model_vocab_support": true,
+      "n_scenes": 9,
+      "sources": [
+        "open_images",
+        "openverse"
+      ],
+      "licences": [
+        "cc_by"
+      ]
+    },
+    {
+      "canonical_identity": "tomato_paste",
+      "production_image_count": 23,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "LOW_SUPPORT",
+      "taxonomy_gap": false,
+      "model_vocab_support": false,
+      "n_scenes": 2,
+      "sources": [
+        "openverse"
+      ],
+      "licences": [
+        "cc_by"
+      ]
+    },
+    {
+      "canonical_identity": "yogurt",
+      "production_image_count": 35,
+      "validation_image_count": 0,
+      "test_image_count": 0,
+      "hard_negative_count": 0,
+      "experiment_only_count": 0,
+      "status": "SUFFICIENT",
+      "taxonomy_gap": false,
+      "model_vocab_support": false,
+      "n_scenes": 1,
+      "sources": [
+        "openverse"
+      ],
+      "licences": [
+        "cc0",
+        "cc_by"
+      ]
+    }
+  ]
+}

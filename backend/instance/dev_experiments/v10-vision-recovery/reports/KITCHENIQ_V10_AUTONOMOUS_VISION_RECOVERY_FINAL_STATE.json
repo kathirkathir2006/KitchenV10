@@ -1,0 +1,152 @@
+{
+  "status": "READY",
+  "baseline_strict": 0.2439,
+  "specialist_ensemble_strict": 0.2195,
+  "failed_targeted_strict": 0.0732,
+  "candidate_strict": 0.2927,
+  "delta_vs_baseline": 0.0488,
+  "delta_vs_specialist": 0.0732,
+  "delta_vs_targeted": 0.2195,
+  "scene_completeness_improved_vs_baseline": true,
+  "failure_stages_before_targeted": {
+    "CLASSIFIER": 55,
+    "DETECTOR": 12,
+    "FOOD_NONFOOD": 2
+  },
+  "failure_stages_after": {
+    "CLASSIFIER": 40,
+    "DETECTOR": 12,
+    "FOOD_NONFOOD": 2
+  },
+  "dominant_failure_stage": "CLASSIFIER",
+  "required_identity_vocabulary": {
+    "n": 28,
+    "n_taxonomy_gaps": 13,
+    "n_trainable": 15
+  },
+  "identity_coverage_before": {
+    "TAXONOMY_GAP": 8,
+    "LOW_SUPPORT": 4,
+    "SUFFICIENT": 7,
+    "MISSING": 9
+  },
+  "exact_missing_labels": [
+    "doughnut",
+    "french_fries",
+    "fried_egg",
+    "ice_cream",
+    "non_food_object",
+    "pasta",
+    "pizza",
+    "salad",
+    "sandwich"
+  ],
+  "exact_low_support_labels": [
+    "biryani",
+    "cooked_rice",
+    "packaged_cheese",
+    "tomato_paste"
+  ],
+  "taxonomy_gap_labels": [
+    "bibimbap",
+    "caesar_salad",
+    "doughnut",
+    "french_fries",
+    "guacamole",
+    "hummus",
+    "ice_cream",
+    "lasagna",
+    "pad_thai",
+    "recipe_document",
+    "salad",
+    "sandwich",
+    "spring_rolls"
+  ],
+  "data_acquired": {
+    "biryani": 40,
+    "cooked_rice": 35,
+    "doughnut": 25,
+    "french_fries": 25,
+    "fried_egg": 50,
+    "ice_cream": 25,
+    "non_food_object": 0,
+    "packaged_cheese": 0,
+    "pasta": 40,
+    "pizza": 50,
+    "salad": 40,
+    "sandwich": 25,
+    "tomato_paste": 2
+  },
+  "training_summary": {
+    "programme": "v10_vision_recovery",
+    "n_labels": 73,
+    "n_train_rows_reported": 820,
+    "labels_present": 20,
+    "best_val_acc": 0.7090909090909091,
+    "epochs": 8,
+    "architecture": "DINOv2 ViT-B/14 frozen + hierarchical heads",
+    "acquisition": {
+      "biryani": 40,
+      "cooked_rice": 35,
+      "doughnut": 25,
+      "french_fries": 25,
+      "fried_egg": 50,
+      "ice_cream": 25,
+      "non_food_object": 0,
+      "packaged_cheese": 0,
+      "pasta": 40,
+      "pizza": 50,
+      "salad": 40,
+      "sandwich": 25,
+      "tomato_paste": 2
+    },
+    "kaggle_best_sha256_reported": "5b1b09757ffc4f689ac284a08b9c0560cc21ad197fedd59796eae78e86d378e8",
+    "local_checkpoint_sha256": "e1efaa4ac04ccb060397e584b1aa78aa28c51a79009833b7a3143adbc8955853",
+    "local_checkpoint_note": "last.pt epoch7 weights (NEW_BEST 0.7091); best.pt download blocked by image bulk",
+    "experiment_only_mixed": false,
+    "twelve_label_forbidden_ok": true
+  },
+  "n_labels_trained": 73,
+  "architecture": "DINOv2 ViT-B/14 frozen + hierarchical identity head (visual/state/kind/label)",
+  "hardneg_nonfood": {
+    "n": 4,
+    "ok": 2,
+    "rate": 0.5
+  },
+  "food_state_agreement": {
+    "n": 16,
+    "ok": 16,
+    "rate": 1.0
+  },
+  "detector_unchanged": true,
+  "holdout_untouched": true,
+  "dinov2_frozen": true,
+  "twelve_label_forbidden": true,
+  "experiment_only_isolated": true,
+  "fixtures": {
+    "catalog_sha256": "38fc3eaee75c76fa5fd1dc3d4177af4abde2cfeb3e410d290fb524f9e30a1523",
+    "catalog_bytes": 59600,
+    "unchanged_policy": "fixtures not modified by this run"
+  },
+  "model_artifact": "C:\\Projects\\KitchenIQ-V10-AI\\backend\\instance\\dev_experiments\\v10-vision-recovery\\models\\identity_coverage_best.pt",
+  "model_sha256": "e1efaa4ac04ccb060397e584b1aa78aa28c51a79009833b7a3143adbc8955853",
+  "dataset_manifest_sha256": "9da443fa43735513ee0bcf0712fdd2720111a039fc9f20d3116505ddeb782e24",
+  "registry_status": "RECORDED_NOT_PROMOTED",
+  "production_gate": "PASS_CANDIDATE_NOT_DEPLOYED_TO_OLD_PROJECT",
+  "final_decision": "VISION_IDENTITY_COVERAGE_FIXED",
+  "primary_blocker": "NONE",
+  "recommended_next": "Promote candidate into V10 registry only; do not mutate KitchenIQ-OS.",
+  "old_project": "UNCHANGED",
+  "old_project_integrity": {
+    "porcelain_n": 123,
+    "porcelain_sha": "f9340837a546037018b3ff6ab3316cd804c2c7ae4cc720823c95862604b6b840",
+    "baseline_sha": "f9340837a546037018b3ff6ab3316cd804c2c7ae4cc720823c95862604b6b840",
+    "unchanged": true,
+    "verdict": "UNCHANGED"
+  },
+  "kaggle_kernel": "kathiresannatarajan/kiq-v10-vision-recovery",
+  "github_repo": "https://github.com/kathirkathir2006/KitchenV10",
+  "generated_at": "2026-09-30T17:51:45.984940+00:00",
+  "acceptance_path": "C:\\Projects\\KitchenIQ-V10-AI\\backend\\instance\\dev_experiments\\v10-vision-recovery\\acceptance\\identity_coverage_v1_acceptance.json",
+  "phase1_failure_rows": 67
+}

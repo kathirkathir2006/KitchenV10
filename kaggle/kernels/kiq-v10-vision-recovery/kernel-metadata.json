@@ -1,0 +1,17 @@
+{
+  "id": "kathiresannatarajan/kiq-v10-vision-recovery",
+  "title": "kiq-v10-vision-recovery",
+  "code_file": "kiq_v10_vision_recovery.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "kathiresannatarajan/kiq-v10-recovery-pack",
+    "kathiresannatarajan/kiq-fv-production-weights-v1"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

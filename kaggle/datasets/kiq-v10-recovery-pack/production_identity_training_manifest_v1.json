@@ -1,0 +1,289 @@
+{
+  "version": "production_identity_training_manifest_v1",
+  "generated_at": "2026-09-30T17:12:53.023822+00:00",
+  "rules": {
+    "experiment_only_mixed": false,
+    "synthetic_allowed": false,
+    "acceptance_scene_leakage_allowed": false,
+    "holdout_leakage_allowed": false,
+    "twelve_label_targeted_vocab_forbidden": true
+  },
+  "n_trainable": 20,
+  "n_excluded_taxonomy_gap": 8,
+  "labels": [
+    {
+      "canonical_identity": "bibimbap",
+      "include_in_training": false,
+      "reason": "TAXONOMY_GAP",
+      "existing_production_count": 0
+    },
+    {
+      "canonical_identity": "biryani",
+      "include_in_training": true,
+      "reason": "REQUIRED_IDENTITY",
+      "existing_production_count": 20,
+      "aliases": [
+        "biryani"
+      ],
+      "kind": "meal",
+      "visual_class": "prepared_meal"
+    },
+    {
+      "canonical_identity": "caesar_salad",
+      "include_in_training": false,
+      "reason": "TAXONOMY_GAP",
+      "existing_production_count": 0
+    },
+    {
+      "canonical_identity": "cheese",
+      "include_in_training": true,
+      "reason": "REQUIRED_IDENTITY",
+      "existing_production_count": 25,
+      "aliases": [
+        "cheese"
+      ],
+      "kind": "ingredient",
+      "visual_class": "raw_ingredient"
+    },
+    {
+      "canonical_identity": "cooked_rice",
+      "include_in_training": true,
+      "reason": "REQUIRED_IDENTITY",
+      "existing_production_count": 25,
+      "aliases": [
+        "fried_rice"
+      ],
+      "kind": "ingredient",
+      "visual_class": "raw_ingredient"
+    },
+    {
+      "canonical_identity": "cream",
+      "include_in_training": true,
+      "reason": "REQUIRED_IDENTITY",
+      "existing_production_count": 24,
+      "aliases": [
+        "cream"
+      ],
+      "kind": "ingredient",
+      "visual_class": "raw_ingredient"
+    },
+    {
+      "canonical_identity": "doughnut",
+      "include_in_training": true,
+      "reason": "REQUIRED_IDENTITY",
+      "existing_production_count": 0,
+      "aliases": [
+        "donuts"
+      ],
+      "kind": null,
+      "visual_class": null
+    },
+    {
+      "canonical_identity": "french_fries",
+      "include_in_training": true,
+      "reason": "REQUIRED_IDENTITY",
+      "existing_production_count": 0,
+      "aliases": [
+        "french_fries"
+      ],
+      "kind": null,
+      "visual_class": null
+    },
+    {
+      "canonical_identity": "fried_egg",
+      "include_in_training": true,
+      "reason": "REQUIRED_IDENTITY",
+      "existing_production_count": 0,
+      "aliases": [
+        "omelette"
+      ],
+      "kind": "ingredient",
+      "visual_class": "raw_ingredient"
+    },
+    {
+      "canonical_identity": "garlic",
+      "include_in_training": true,
+      "reason": "REQUIRED_IDENTITY",
+      "existing_production_count": 36,
+      "aliases": [
+        "garlic"
+      ],
+      "kind": "ingredient",
+      "visual_class": "raw_ingredient"
+    },
+    {
+      "canonical_identity": "ginger",
+      "include_in_training": true,
+      "reason": "REQUIRED_IDENTITY",
+      "existing_production_count": 33,
+      "aliases": [
+        "ginger"
+      ],
+      "kind": "ingredient",
+      "visual_class": "raw_ingredient"
+    },
+    {
+      "canonical_identity": "guacamole",
+      "include_in_training": false,
+      "reason": "TAXONOMY_GAP",
+      "existing_production_count": 0
+    },
+    {
+      "canonical_identity": "hummus",
+      "include_in_training": false,
+      "reason": "TAXONOMY_GAP",
+      "existing_production_count": 0
+    },
+    {
+      "canonical_identity": "ice_cream",
+      "include_in_training": true,
+      "reason": "REQUIRED_IDENTITY",
+      "existing_production_count": 0,
+      "aliases": [
+        "ice_cream"
+      ],
+      "kind": null,
+      "visual_class": null
+    },
+    {
+      "canonical_identity": "lasagna",
+      "include_in_training": false,
+      "reason": "TAXONOMY_GAP",
+      "existing_production_count": 0
+    },
+    {
+      "canonical_identity": "non_food_object",
+      "include_in_training": true,
+      "reason": "REQUIRED_IDENTITY",
+      "existing_production_count": 0,
+      "aliases": [
+        "non_food"
+      ],
+      "kind": "non_food",
+      "visual_class": "non_food"
+    },
+    {
+      "canonical_identity": "packaged_cheese",
+      "include_in_training": true,
+      "reason": "REQUIRED_IDENTITY",
+      "existing_production_count": 9,
+      "aliases": [
+        "packaged_cheese"
+      ],
+      "kind": "packaged",
+      "visual_class": "packaged_food"
+    },
+    {
+      "canonical_identity": "pad_thai",
+      "include_in_training": false,
+      "reason": "TAXONOMY_GAP",
+      "existing_production_count": 0
+    },
+    {
+      "canonical_identity": "pasta",
+      "include_in_training": true,
+      "reason": "REQUIRED_IDENTITY",
+      "existing_production_count": 0,
+      "aliases": [
+        "pasta"
+      ],
+      "kind": "ingredient",
+      "visual_class": "raw_ingredient"
+    },
+    {
+      "canonical_identity": "pizza",
+      "include_in_training": true,
+      "reason": "REQUIRED_IDENTITY",
+      "existing_production_count": 0,
+      "aliases": [
+        "pizza"
+      ],
+      "kind": "meal",
+      "visual_class": "prepared_meal"
+    },
+    {
+      "canonical_identity": "recipe_document",
+      "include_in_training": false,
+      "reason": "TAXONOMY_GAP",
+      "existing_production_count": 0
+    },
+    {
+      "canonical_identity": "rice",
+      "include_in_training": true,
+      "reason": "REQUIRED_IDENTITY",
+      "existing_production_count": 40,
+      "aliases": [
+        "rice"
+      ],
+      "kind": "ingredient",
+      "visual_class": "raw_ingredient"
+    },
+    {
+      "canonical_identity": "salad",
+      "include_in_training": true,
+      "reason": "REQUIRED_IDENTITY",
+      "existing_production_count": 0,
+      "aliases": [
+        "salad"
+      ],
+      "kind": "prepared_meal",
+      "visual_class": null
+    },
+    {
+      "canonical_identity": "sandwich",
+      "include_in_training": true,
+      "reason": "REQUIRED_IDENTITY",
+      "existing_production_count": 0,
+      "aliases": [
+        "club_sandwich"
+      ],
+      "kind": null,
+      "visual_class": null
+    },
+    {
+      "canonical_identity": "spring_rolls",
+      "include_in_training": false,
+      "reason": "TAXONOMY_GAP",
+      "existing_production_count": 0
+    },
+    {
+      "canonical_identity": "tomato",
+      "include_in_training": true,
+      "reason": "REQUIRED_IDENTITY",
+      "existing_production_count": 40,
+      "aliases": [
+        "tomato"
+      ],
+      "kind": "ingredient",
+      "visual_class": "raw_ingredient"
+    },
+    {
+      "canonical_identity": "tomato_paste",
+      "include_in_training": true,
+      "reason": "REQUIRED_IDENTITY",
+      "existing_production_count": 23,
+      "aliases": [
+        "tomato_paste"
+      ],
+      "kind": "packaged",
+      "visual_class": "packaged_food"
+    },
+    {
+      "canonical_identity": "yogurt",
+      "include_in_training": true,
+      "reason": "REQUIRED_IDENTITY",
+      "existing_production_count": 35,
+      "aliases": [
+        "yogurt"
+      ],
+      "kind": "ingredient",
+      "visual_class": "raw_ingredient"
+    }
+  ],
+  "source_manifests": {
+    "production_eligible": "C:\\Projects\\KitchenIQ-V10-AI\\backend\\instance\\dev_experiments\\v10-targeted-classifier\\data\\production_eligible_manifest.jsonl",
+    "hard_negative": "C:\\Projects\\KitchenIQ-V10-AI\\backend\\instance\\dev_experiments\\v10-targeted-classifier\\data\\hard_negative_manifest.jsonl",
+    "experiment_only_isolated": "C:\\Projects\\KitchenIQ-V10-AI\\backend\\instance\\dev_experiments\\v10-targeted-classifier\\data\\experiment_only_manifest.jsonl"
+  },
+  "acquisition_plan": "C:\\Projects\\KitchenIQ-V10-AI\\docs\\vision\\production_identity_acquisition_plan_v1.json"
+}

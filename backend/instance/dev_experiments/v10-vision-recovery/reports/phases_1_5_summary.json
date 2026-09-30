@@ -1,0 +1,27 @@
+{
+  "phases_complete": [
+    "1",
+    "2",
+    "3",
+    "4_plan",
+    "5_manifest"
+  ],
+  "n_failure_rows": 67,
+  "group_counts": {
+    "B. model vocabulary missing": 22,
+    "C. training data insufficient": 12,
+    "D. detector failure": 12,
+    "A. taxonomy missing": 21
+  },
+  "n_required_identities": 28,
+  "n_taxonomy_gaps": 13,
+  "coverage_status_counts": {
+    "TAXONOMY_GAP": 8,
+    "LOW_SUPPORT": 4,
+    "SUFFICIENT": 7,
+    "MISSING": 9
+  },
+  "n_acquisition_items": 21,
+  "n_trainable_labels": 20,
+  "generated_at": "2026-09-30T17:12:53.027829+00:00"
+}

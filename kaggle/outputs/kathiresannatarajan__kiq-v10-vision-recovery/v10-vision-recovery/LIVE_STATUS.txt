@@ -1,0 +1,69 @@
+[2026-09-30T17:16:31.511178+00:00] START vision recovery acquire+train FULL vocab
+[2026-09-30T17:16:31.818318+00:00] device=cuda gpus=2
+[2026-09-30T17:16:31.826321+00:00] pack=/kaggle/input/datasets/kathiresannatarajan/kiq-v10-recovery-pack
+[2026-09-30T17:16:31.883411+00:00] label_vocab_n=73 (prod62∪required trainable)
+[2026-09-30T17:16:33.763191+00:00] download_progress 40/476 ok=40
+[2026-09-30T17:16:35.550635+00:00] download_progress 80/476 ok=80
+[2026-09-30T17:16:36.540131+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/d/d4/Garlic_bulb.jpg :: HTTP Error 429: Too many requests (f061ab2)
+[2026-09-30T17:16:37.305648+00:00] download_progress 120/476 ok=119
+[2026-09-30T17:16:37.385929+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/5/5e/08562jfFilipino_foods_fruits_Bulacan_l :: HTTP Error 429: Too many requests (f061ab2)
+[2026-09-30T17:16:37.445897+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/7/76/08562jfFilipino_foods_fruits_Bulacan_l :: HTTP Error 429: Too many requests (f061ab2)
+[2026-09-30T17:16:37.450794+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/9/9a/08562jfFilipino_foods_fruits_Bulacan_l :: HTTP Error 429: Too many requests (f061ab2)
+[2026-09-30T17:16:37.478921+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/d/db/08562jfFilipino_foods_fruits_Bulacan_l :: HTTP Error 429: Too many requests (f061ab2)
+[2026-09-30T17:16:37.521379+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/8/8a/Ginger_rhizomes.jpg :: HTTP Error 429: Too many requests (f061ab2)
+[2026-09-30T17:16:37.557341+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/4/40/Dried_Ginger_Rhizomes.jpg :: HTTP Error 429: Too many requests (f061ab2)
+[2026-09-30T17:16:39.064247+00:00] download_progress 160/476 ok=153
+[2026-09-30T17:16:39.254238+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/a/a5/Iraqi_Chicken_Biryani.jpg :: HTTP Error 429: Too many requests (f061ab2)
+[2026-09-30T17:16:40.597894+00:00] download_progress 200/476 ok=192
+[2026-09-30T17:16:40.711945+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/6/68/Cup_of_Coffee_with_Whipped_Cream.jpg :: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+[2026-09-30T17:16:42.084231+00:00] download_progress 240/476 ok=231
+[2026-09-30T17:16:42.464106+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/f/f6/Chamorro_bbq_meat_%26_fried_rice_plate :: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+[2026-09-30T17:16:44.019526+00:00] download_progress 280/476 ok=270
+[2026-09-30T17:16:44.541065+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/b/ba/Pepperjack_Cheese.jpg :: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+[2026-09-30T17:16:44.753900+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/7/7e/Flickr_qmnonic_123431456--Kraft_Dinner :: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+[2026-09-30T17:16:45.056216+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/0/0b/Cheese_17_bg_050606.jpg?utm_source=com :: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+[2026-09-30T17:16:45.682541+00:00] download_progress 320/476 ok=307
+[2026-09-30T17:16:47.381133+00:00] download_progress 360/476 ok=347
+[2026-09-30T17:16:48.860062+00:00] download_progress 400/476 ok=387
+[2026-09-30T17:16:50.157664+00:00] download_progress 440/476 ok=427
+[2026-09-30T17:16:51.564307+00:00] download_done 463/476
+[2026-09-30T17:17:01.865838+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/e/ed/Sheer_Khurma.jpg :: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+[2026-09-30T17:17:14.364352+00:00] acquired biryani: 40/40
+[2026-09-30T17:17:15.257074+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/f/f6/Chamorro_bbq_meat_%26_fried_rice_plate :: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+[2026-09-30T17:17:33.259750+00:00] acquired cooked_rice: 35/35
+[2026-09-30T17:17:41.629820+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/a/a2/Krispy_Kreme_Dozen_Doughnuts_2.jpg :: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+[2026-09-30T17:17:45.682037+00:00] acquired doughnut: 25/25
+[2026-09-30T17:17:55.980574+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/2/21/Chicken_moambe_with_French_fries_%2814 :: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+[2026-09-30T17:17:56.043033+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/5/56/BK-French-Fries.jpg :: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+[2026-09-30T17:17:56.952963+00:00] acquired french_fries: 25/25
+[2026-09-30T17:18:01.811059+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/2/23/Fried_eggs.jpg :: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+[2026-09-30T17:18:02.135402+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/2/2b/Fried_Egg_Nebula.jpg :: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+[2026-09-30T17:18:11.589577+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/f/f0/Fried_Egg_2.jpg :: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+[2026-09-30T17:18:19.610748+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/2/2a/Pan-fried_egg.jpg :: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+[2026-09-30T17:18:19.734077+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/9/99/Fried_eggs_%2825056120628%29.jpg :: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+[2026-09-30T17:18:20.851919+00:00] acquired fried_egg: 50/50
+[2026-09-30T17:18:33.596278+00:00] acquired ice_cream: 25/25
+[2026-09-30T17:18:34.039103+00:00] acquired non_food_object: 0/40
+[2026-09-30T17:18:35.872921+00:00] acquired packaged_cheese: 0/31
+[2026-09-30T17:18:53.490951+00:00] acquired pasta: 40/40
+[2026-09-30T17:19:14.724899+00:00] acquired pizza: 50/50
+[2026-09-30T17:19:34.065245+00:00] acquired salad: 40/40
+[2026-09-30T17:19:41.356655+00:00] DL_FAIL https://upload.wikimedia.org/wikipedia/commons/d/d8/Club_sandwich.jpg :: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+[2026-09-30T17:19:46.905911+00:00] acquired sandwich: 25/25
+[2026-09-30T17:19:51.809572+00:00] acquired tomato_paste: 2/2
+[2026-09-30T17:19:51.815635+00:00] rows_for_train=820 labels_present=20
+[2026-09-30T17:20:14.991268+00:00] epoch=0 loss=4.4462 val_acc=0.4667
+[2026-09-30T17:20:15.758509+00:00] NEW_BEST 0.4667
+[2026-09-30T17:20:22.824692+00:00] epoch=1 loss=2.0162 val_acc=0.5879
+[2026-09-30T17:20:24.123257+00:00] NEW_BEST 0.5879
+[2026-09-30T17:20:32.244765+00:00] epoch=2 loss=1.3667 val_acc=0.6364
+[2026-09-30T17:20:33.524644+00:00] NEW_BEST 0.6364
+[2026-09-30T17:20:41.005825+00:00] epoch=3 loss=1.0095 val_acc=0.6182
+[2026-09-30T17:20:49.413994+00:00] epoch=4 loss=0.8758 val_acc=0.6545
+[2026-09-30T17:20:50.720360+00:00] NEW_BEST 0.6545
+[2026-09-30T17:20:58.044412+00:00] epoch=5 loss=0.7026 val_acc=0.6788
+[2026-09-30T17:20:59.357631+00:00] NEW_BEST 0.6788
+[2026-09-30T17:21:06.784301+00:00] epoch=6 loss=0.5791 val_acc=0.6667
+[2026-09-30T17:21:14.820100+00:00] epoch=7 loss=0.4960 val_acc=0.7091
+[2026-09-30T17:21:16.137022+00:00] NEW_BEST 0.7091
+[2026-09-30T17:21:17.117879+00:00] DONE n_labels=73 best_val=0.7090909090909091 sha=5b1b09757ffc4f689ac284a08b9c0560cc21ad197fedd59796eae78e86d378e8

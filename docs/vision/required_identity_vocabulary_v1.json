@@ -1,0 +1,551 @@
+{
+  "version": "required_identity_vocabulary_v1",
+  "generated_at": "2026-09-30T17:12:53.007275+00:00",
+  "n_identities": 28,
+  "n_taxonomy_gaps": 13,
+  "n_model_vocab_supported": 9,
+  "production_classifier_vocab_size": 62,
+  "taxonomy_size": 207,
+  "identities": [
+    {
+      "canonical_identity": "bibimbap",
+      "raw_aliases": [
+        "bibimbap"
+      ],
+      "taxonomy_gap": true,
+      "taxonomy_support": false,
+      "model_vocab_support": false,
+      "kind": "prepared_meal",
+      "visual_class": null,
+      "food_state_examples": [
+        "plated"
+      ],
+      "scene_ids": [
+        "prepared_bibimbap"
+      ],
+      "trainable_production_candidate": false
+    },
+    {
+      "canonical_identity": "biryani",
+      "raw_aliases": [
+        "biryani"
+      ],
+      "taxonomy_gap": false,
+      "taxonomy_support": true,
+      "model_vocab_support": false,
+      "kind": "meal",
+      "visual_class": "prepared_meal",
+      "food_state_examples": [
+        "cooked"
+      ],
+      "scene_ids": [
+        "23_rice_vs_biryani"
+      ],
+      "trainable_production_candidate": true
+    },
+    {
+      "canonical_identity": "caesar_salad",
+      "raw_aliases": [
+        "caesar_salad"
+      ],
+      "taxonomy_gap": true,
+      "taxonomy_support": false,
+      "model_vocab_support": false,
+      "kind": null,
+      "visual_class": null,
+      "food_state_examples": [
+        "plated"
+      ],
+      "scene_ids": [
+        "03_dense_kitchen"
+      ],
+      "trainable_production_candidate": false
+    },
+    {
+      "canonical_identity": "cheese",
+      "raw_aliases": [
+        "cheese"
+      ],
+      "taxonomy_gap": false,
+      "taxonomy_support": true,
+      "model_vocab_support": true,
+      "kind": "ingredient",
+      "visual_class": "raw_ingredient",
+      "food_state_examples": [
+        "raw"
+      ],
+      "scene_ids": [
+        "23_cheese_vs_packaged_cheese"
+      ],
+      "trainable_production_candidate": true
+    },
+    {
+      "canonical_identity": "cooked_rice",
+      "raw_aliases": [
+        "fried_rice"
+      ],
+      "taxonomy_gap": false,
+      "taxonomy_support": true,
+      "model_vocab_support": false,
+      "kind": "ingredient",
+      "visual_class": "raw_ingredient",
+      "food_state_examples": [
+        "plated"
+      ],
+      "scene_ids": [
+        "03_dense_kitchen",
+        "06_multi_prepared",
+        "23_fried_rice_not_raw",
+        "prepared_fried_rice"
+      ],
+      "trainable_production_candidate": true
+    },
+    {
+      "canonical_identity": "cream",
+      "raw_aliases": [
+        "cream"
+      ],
+      "taxonomy_gap": false,
+      "taxonomy_support": true,
+      "model_vocab_support": false,
+      "kind": "ingredient",
+      "visual_class": "raw_ingredient",
+      "food_state_examples": [
+        "packaged_ready_to_eat"
+      ],
+      "scene_ids": [
+        "23_yogurt_vs_cream"
+      ],
+      "trainable_production_candidate": true
+    },
+    {
+      "canonical_identity": "doughnut",
+      "raw_aliases": [
+        "donuts"
+      ],
+      "taxonomy_gap": true,
+      "taxonomy_support": false,
+      "model_vocab_support": true,
+      "kind": null,
+      "visual_class": null,
+      "food_state_examples": [
+        "packaged_ready_to_eat"
+      ],
+      "scene_ids": [
+        "09_snack_rte"
+      ],
+      "trainable_production_candidate": true
+    },
+    {
+      "canonical_identity": "french_fries",
+      "raw_aliases": [
+        "french_fries"
+      ],
+      "taxonomy_gap": true,
+      "taxonomy_support": false,
+      "model_vocab_support": true,
+      "kind": null,
+      "visual_class": null,
+      "food_state_examples": [
+        "plated"
+      ],
+      "scene_ids": [
+        "03_dense_kitchen"
+      ],
+      "trainable_production_candidate": true
+    },
+    {
+      "canonical_identity": "fried_egg",
+      "raw_aliases": [
+        "omelette"
+      ],
+      "taxonomy_gap": false,
+      "taxonomy_support": true,
+      "model_vocab_support": false,
+      "kind": "ingredient",
+      "visual_class": "raw_ingredient",
+      "food_state_examples": [
+        "plated"
+      ],
+      "scene_ids": [
+        "03_dense_kitchen",
+        "11_state_triad"
+      ],
+      "trainable_production_candidate": true
+    },
+    {
+      "canonical_identity": "garlic",
+      "raw_aliases": [
+        "garlic"
+      ],
+      "taxonomy_gap": false,
+      "taxonomy_support": true,
+      "model_vocab_support": false,
+      "kind": "ingredient",
+      "visual_class": "raw_ingredient",
+      "food_state_examples": [
+        "raw"
+      ],
+      "scene_ids": [
+        "02_multi_raw_composite"
+      ],
+      "trainable_production_candidate": true
+    },
+    {
+      "canonical_identity": "ginger",
+      "raw_aliases": [
+        "ginger"
+      ],
+      "taxonomy_gap": false,
+      "taxonomy_support": true,
+      "model_vocab_support": false,
+      "kind": "ingredient",
+      "visual_class": "raw_ingredient",
+      "food_state_examples": [
+        "raw"
+      ],
+      "scene_ids": [
+        "02_multi_raw_composite"
+      ],
+      "trainable_production_candidate": true
+    },
+    {
+      "canonical_identity": "guacamole",
+      "raw_aliases": [
+        "guacamole"
+      ],
+      "taxonomy_gap": true,
+      "taxonomy_support": false,
+      "model_vocab_support": false,
+      "kind": null,
+      "visual_class": null,
+      "food_state_examples": [
+        "raw"
+      ],
+      "scene_ids": [
+        "08_fruit_proxy"
+      ],
+      "trainable_production_candidate": false
+    },
+    {
+      "canonical_identity": "hummus",
+      "raw_aliases": [
+        "hummus"
+      ],
+      "taxonomy_gap": true,
+      "taxonomy_support": false,
+      "model_vocab_support": false,
+      "kind": null,
+      "visual_class": null,
+      "food_state_examples": [
+        "packaged_ready_to_eat"
+      ],
+      "scene_ids": [
+        "08_fruit_proxy"
+      ],
+      "trainable_production_candidate": false
+    },
+    {
+      "canonical_identity": "ice_cream",
+      "raw_aliases": [
+        "ice_cream"
+      ],
+      "taxonomy_gap": true,
+      "taxonomy_support": false,
+      "model_vocab_support": true,
+      "kind": null,
+      "visual_class": null,
+      "food_state_examples": [
+        "packaged_ready_to_eat"
+      ],
+      "scene_ids": [
+        "09_snack_rte"
+      ],
+      "trainable_production_candidate": true
+    },
+    {
+      "canonical_identity": "lasagna",
+      "raw_aliases": [
+        "lasagna"
+      ],
+      "taxonomy_gap": true,
+      "taxonomy_support": false,
+      "model_vocab_support": false,
+      "kind": null,
+      "visual_class": null,
+      "food_state_examples": [
+        "cooked",
+        "plated"
+      ],
+      "scene_ids": [
+        "11_state_triad",
+        "prepared_lasagna"
+      ],
+      "trainable_production_candidate": false
+    },
+    {
+      "canonical_identity": "non_food_object",
+      "raw_aliases": [
+        "non_food"
+      ],
+      "taxonomy_gap": false,
+      "taxonomy_support": true,
+      "model_vocab_support": false,
+      "kind": "non_food",
+      "visual_class": "non_food",
+      "food_state_examples": [],
+      "scene_ids": [
+        "13_empty_plate",
+        "13_human_hand",
+        "13_kitchen_mood",
+        "13_pantry_empty",
+        "24_food_nonfood"
+      ],
+      "trainable_production_candidate": true
+    },
+    {
+      "canonical_identity": "packaged_cheese",
+      "raw_aliases": [
+        "packaged_cheese"
+      ],
+      "taxonomy_gap": false,
+      "taxonomy_support": true,
+      "model_vocab_support": false,
+      "kind": "packaged",
+      "visual_class": "packaged_food",
+      "food_state_examples": [
+        "packaged_ready_to_eat"
+      ],
+      "scene_ids": [
+        "04_ingredient_packaged",
+        "07_packaged",
+        "23_cheese_vs_packaged_cheese"
+      ],
+      "trainable_production_candidate": true
+    },
+    {
+      "canonical_identity": "pad_thai",
+      "raw_aliases": [
+        "pad_thai"
+      ],
+      "taxonomy_gap": true,
+      "taxonomy_support": false,
+      "model_vocab_support": false,
+      "kind": null,
+      "visual_class": null,
+      "food_state_examples": [
+        "leftover"
+      ],
+      "scene_ids": [
+        "11_state_triad"
+      ],
+      "trainable_production_candidate": false
+    },
+    {
+      "canonical_identity": "pasta",
+      "raw_aliases": [
+        "pasta"
+      ],
+      "taxonomy_gap": false,
+      "taxonomy_support": true,
+      "model_vocab_support": true,
+      "kind": "ingredient",
+      "visual_class": "raw_ingredient",
+      "food_state_examples": [
+        "plated"
+      ],
+      "scene_ids": [
+        "25_complex_mixed",
+        "25_tomato_pasta"
+      ],
+      "trainable_production_candidate": true
+    },
+    {
+      "canonical_identity": "pizza",
+      "raw_aliases": [
+        "pizza"
+      ],
+      "taxonomy_gap": false,
+      "taxonomy_support": true,
+      "model_vocab_support": true,
+      "kind": "meal",
+      "visual_class": "prepared_meal",
+      "food_state_examples": [
+        "plated"
+      ],
+      "scene_ids": [
+        "03_dense_kitchen",
+        "05_ingredient_prepared",
+        "06_multi_prepared",
+        "24_food_nonfood",
+        "prepared_pizza"
+      ],
+      "trainable_production_candidate": true
+    },
+    {
+      "canonical_identity": "recipe_document",
+      "raw_aliases": [
+        "recipe_document"
+      ],
+      "taxonomy_gap": true,
+      "taxonomy_support": false,
+      "model_vocab_support": false,
+      "kind": "recipe_document",
+      "visual_class": null,
+      "food_state_examples": [],
+      "scene_ids": [
+        "12_nutrition_label",
+        "12_recipe_document"
+      ],
+      "trainable_production_candidate": false
+    },
+    {
+      "canonical_identity": "rice",
+      "raw_aliases": [
+        "rice"
+      ],
+      "taxonomy_gap": false,
+      "taxonomy_support": true,
+      "model_vocab_support": false,
+      "kind": "ingredient",
+      "visual_class": "raw_ingredient",
+      "food_state_examples": [
+        "raw"
+      ],
+      "scene_ids": [
+        "02_multi_raw_composite",
+        "23_rice_vs_biryani"
+      ],
+      "trainable_production_candidate": true
+    },
+    {
+      "canonical_identity": "salad",
+      "raw_aliases": [
+        "salad"
+      ],
+      "taxonomy_gap": true,
+      "taxonomy_support": false,
+      "model_vocab_support": true,
+      "kind": "prepared_meal",
+      "visual_class": null,
+      "food_state_examples": [
+        "plated"
+      ],
+      "scene_ids": [
+        "14_occlusion",
+        "15_overlap",
+        "16_small_objects",
+        "17_partial_visibility",
+        "18_low_light",
+        "19_motion_blur",
+        "20_perspective_distortion",
+        "25_complex_mixed",
+        "25_salad_bowl"
+      ],
+      "trainable_production_candidate": true
+    },
+    {
+      "canonical_identity": "sandwich",
+      "raw_aliases": [
+        "club_sandwich"
+      ],
+      "taxonomy_gap": true,
+      "taxonomy_support": false,
+      "model_vocab_support": true,
+      "kind": null,
+      "visual_class": null,
+      "food_state_examples": [
+        "plated"
+      ],
+      "scene_ids": [
+        "03_dense_kitchen",
+        "06_multi_prepared",
+        "prepared_club_sandwich"
+      ],
+      "trainable_production_candidate": true
+    },
+    {
+      "canonical_identity": "spring_rolls",
+      "raw_aliases": [
+        "spring_rolls"
+      ],
+      "taxonomy_gap": true,
+      "taxonomy_support": false,
+      "model_vocab_support": false,
+      "kind": null,
+      "visual_class": null,
+      "food_state_examples": [
+        "plated"
+      ],
+      "scene_ids": [
+        "25_complex_mixed"
+      ],
+      "trainable_production_candidate": false
+    },
+    {
+      "canonical_identity": "tomato",
+      "raw_aliases": [
+        "tomato"
+      ],
+      "taxonomy_gap": false,
+      "taxonomy_support": true,
+      "model_vocab_support": true,
+      "kind": "ingredient",
+      "visual_class": "raw_ingredient",
+      "food_state_examples": [
+        "raw"
+      ],
+      "scene_ids": [
+        "01_tomato_pilot",
+        "02_multi_raw_composite",
+        "04_ingredient_packaged",
+        "05_ingredient_prepared",
+        "10_raw_vs_partial",
+        "21_duplicate_tomatoes",
+        "22_qty_four",
+        "22_qty_one",
+        "23_tomato_vs_tomato_paste"
+      ],
+      "trainable_production_candidate": true
+    },
+    {
+      "canonical_identity": "tomato_paste",
+      "raw_aliases": [
+        "tomato_paste"
+      ],
+      "taxonomy_gap": false,
+      "taxonomy_support": true,
+      "model_vocab_support": false,
+      "kind": "packaged",
+      "visual_class": "packaged_food",
+      "food_state_examples": [
+        "cooked",
+        "partially_prepared"
+      ],
+      "scene_ids": [
+        "10_raw_vs_partial",
+        "23_tomato_vs_tomato_paste"
+      ],
+      "trainable_production_candidate": true
+    },
+    {
+      "canonical_identity": "yogurt",
+      "raw_aliases": [
+        "yogurt"
+      ],
+      "taxonomy_gap": false,
+      "taxonomy_support": true,
+      "model_vocab_support": false,
+      "kind": "ingredient",
+      "visual_class": "raw_ingredient",
+      "food_state_examples": [
+        "raw"
+      ],
+      "scene_ids": [
+        "23_yogurt_vs_cream"
+      ],
+      "trainable_production_candidate": true
+    }
+  ],
+  "notes": "No invented labels. taxonomy_gap=true means no suitable 207-tax mapping; model_vocab_support reflects OI-62 production head."
+}

@@ -1,0 +1,11 @@
+# vision recovery local weights / bulk (hashes recorded in reports)
+backend/instance/dev_experiments/v10-vision-recovery/models/*.pt
+backend/instance/dev_experiments/v10-vision-recovery/models/*.db
+kaggle/outputs/**/*.pt
+kaggle/outputs/**/images/
+kaggle/outputs/_tmp_*/
+*.pt
+
+__pycache__/
+*.pyc
+

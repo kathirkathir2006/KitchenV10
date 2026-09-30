@@ -1,0 +1,29 @@
+{
+  "programme": "v10_vision_recovery",
+  "n_labels": 73,
+  "n_train_rows_reported": 820,
+  "labels_present": 20,
+  "best_val_acc": 0.7090909090909091,
+  "epochs": 8,
+  "architecture": "DINOv2 ViT-B/14 frozen + hierarchical heads",
+  "acquisition": {
+    "biryani": 40,
+    "cooked_rice": 35,
+    "doughnut": 25,
+    "french_fries": 25,
+    "fried_egg": 50,
+    "ice_cream": 25,
+    "non_food_object": 0,
+    "packaged_cheese": 0,
+    "pasta": 40,
+    "pizza": 50,
+    "salad": 40,
+    "sandwich": 25,
+    "tomato_paste": 2
+  },
+  "kaggle_best_sha256_reported": "5b1b09757ffc4f689ac284a08b9c0560cc21ad197fedd59796eae78e86d378e8",
+  "local_checkpoint_sha256": "e1efaa4ac04ccb060397e584b1aa78aa28c51a79009833b7a3143adbc8955853",
+  "local_checkpoint_note": "last.pt epoch7 weights (NEW_BEST 0.7091); best.pt download blocked by image bulk",
+  "experiment_only_mixed": false,
+  "twelve_label_forbidden_ok": true
+}
