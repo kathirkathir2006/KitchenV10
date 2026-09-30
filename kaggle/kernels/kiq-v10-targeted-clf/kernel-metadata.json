@@ -1,0 +1,17 @@
+{
+  "id": "kathiresannatarajan/kiq-v10-targeted-clf",
+  "title": "kiq-v10-targeted-clf",
+  "code_file": "kiq_v10_targeted_clf.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "kathiresannatarajan/kiq-v10-targeted-manifests",
+    "kathiresannatarajan/kiq-fv-production-weights-v1"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}
