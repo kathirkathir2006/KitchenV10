@@ -1,0 +1,23 @@
+{
+  "candidate_id": "v4_open_world_scene",
+  "strict_scene_completeness": 0.2195,
+  "delta_vs_baseline": -0.0732,
+  "primary_stage_totals": {
+    "CLASSIFIER": 43,
+    "DETECTOR": 12,
+    "FOOD_NONFOOD": 2
+  },
+  "hardneg_nonfood": {
+    "n": 4,
+    "ok": 2,
+    "rate": 0.5
+  },
+  "food_state_agreement": {
+    "n": 16,
+    "ok": 16,
+    "rate": 1.0
+  },
+  "retrieval_enabled": false,
+  "library_path": null,
+  "n_strict_complete": 9
+}

@@ -1,0 +1,15 @@
+[2026-09-30T21:37:06] START v4 reference library
+[2026-09-30T21:37:10] backbone=DINOv2:dinov2_vitb14
+[2026-09-30T21:37:13] label=biryani embedded=10
+[2026-09-30T21:37:15] label=cheese embedded=10
+[2026-09-30T21:37:17] label=cream embedded=10
+[2026-09-30T21:37:18] label=fried_rice embedded=10
+[2026-09-30T21:37:20] label=garlic embedded=10
+[2026-09-30T21:37:23] label=ginger embedded=10
+[2026-09-30T21:37:24] label=packaged_cheese embedded=8
+[2026-09-30T21:37:25] label=rice embedded=10
+[2026-09-30T21:37:27] label=tomato embedded=10
+[2026-09-30T21:37:28] label=tomato_paste embedded=10
+[2026-09-30T21:37:30] label=yogurt embedded=10
+[2026-09-30T21:37:30] n_items=108
+[2026-09-30T21:37:30] DONE sha=72db59a963781d5752239d6374d64393fa06661867c4d472c68234311e21c91a

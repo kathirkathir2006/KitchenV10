@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-09-30T21:26:33.365898+00:00",
+  "primary": "OPEN_SET",
+  "secondary": "FOOD_NONFOOD",
+  "tertiary": "DETECTOR",
+  "substantial_target": 0.439,
+  "selected_components": [
+    "food_nonfood_gate_repair_with_topk_food_mass",
+    "F_specialist_classifiers_as_evidence_only",
+    "L_evidence_fusion",
+    "M_open_set_rejection",
+    "K_cross_object_graph",
+    "J_food_state_specialist",
+    "D_dinov2_retained_backbone",
+    "E_hierarchical_retrieval_REQUIRES_n_items_gt_0",
+    "candidate_generation_topk_not_argmax"
+  ],
+  "rejected_components": [
+    "blind_dinov3_swap",
+    "blind_rtdetr_swap",
+    "small_softmax_retrain",
+    "retrieval_without_library",
+    "RT-DETR_primary_this_cycle",
+    "DINOv3_until_weights_accessible"
+  ],
+  "architecture_name": "V4_OPEN_WORLD_SCENE_ENGINE",
+  "rationale": "Primary bottleneck=OPEN_SET, secondary=FOOD_NONFOOD. V4 keeps DINOv2 frozen representation; replaces flat argmax with top-k candidate generation + evidence fusion + open-set; repairs food/non-food false negatives that were mislabeled CLASSIFIER; adds scene-level cross-object confidence modifiers; builds retrieval library ONLY with assert n>0. Detector upgrade deferred unless detector ranks primary."
+}

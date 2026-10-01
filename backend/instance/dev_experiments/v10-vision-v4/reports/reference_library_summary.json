@@ -1,0 +1,18 @@
+{
+  "n_items": 108,
+  "labels": [
+    "biryani",
+    "cheese",
+    "cream",
+    "fried_rice",
+    "garlic",
+    "ginger",
+    "packaged_cheese",
+    "rice",
+    "tomato",
+    "tomato_paste",
+    "yogurt"
+  ],
+  "sha256": "72db59a963781d5752239d6374d64393fa06661867c4d472c68234311e21c91a",
+  "backbone": "DINOv2:dinov2_vitb14"
+}

@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-09-30T21:26:32.162608+00:00",
+  "baseline_strict": 0.2927,
+  "weights": {
+    "path": "C:\\Projects\\KitchenIQ-V10-AI\\backend\\instance\\dev_experiments\\v10-vision-recovery\\models\\identity_coverage_best.pt",
+    "sha256": "e1efaa4ac04ccb060397e584b1aa78aa28c51a79009833b7a3143adbc8955853",
+    "bytes": 346654554,
+    "role": "identity_coverage_v1 FoodVisionV2 multi-head (DINOv2 ViT-B/14 frozen)"
+  },
+  "stages": [
+    {
+      "stage": "input",
+      "model": null,
+      "weights": null,
+      "behaviour": "PIL RGB image from fixture path; JPEG bytes for detector",
+      "threshold": null,
+      "fail_closed": false,
+      "notes": "No secure upload boundary in local acceptance path"
+    },
+    {
+      "stage": "secure_boundary",
+      "model": null,
+      "weights": null,
+      "behaviour": "Acceptance harness bypasses Flask secure input; production path uses OS food_vision routes",
+      "threshold": null,
+      "fail_closed": true,
+      "notes": "DEAD in local 41-scene eval \u2014 not exercised"
+    },
+    {
+      "stage": "image_preprocessing",
+      "model": "resize 224 + ImageNet normalize",
+      "weights": null,
+      "behaviour": "Crop \u2192 RGB \u2192 224x224 bilinear \u2192 mean/std",
+      "threshold": null,
+      "fail_closed": false,
+      "notes": "Detector uses full-res JPEG bytes; classifier uses 224 crop"
+    },
+    {
+      "stage": "detector",
+      "model": "KitchenIQ production Faster R-CNN via select_object_detector()",
+      "weights": "OS registry_final.db \u2192 food-vision detector artifact (read-only copy)",
+      "behaviour": "Top-12 boxes by confidence; empty \u2192 whole-image fallback box",
+      "threshold": "implicit detector score ranking; COCO FRCNN fallback score>=0.4 if KIQ load fails",
+      "fail_closed": false,
+      "fallback": "torchvision fasterrcnn_resnet50_fpn COCO (DOMAIN WRONG)",
+      "notes": "Detector NOT retrained; 12 DETECTOR-stage failures at 0.2927"
+    },
+    {
+      "stage": "crop_region_generation",
+      "model": null,
+      "behaviour": "Axis-aligned crop from bbox; no segmentation; no NMS beyond detector",
+      "fail_closed": false,
+      "notes": "Overlapping/small objects poorly served \u2014 no mask/proposal refinement"
+    },
+    {
+      "stage": "food_nonfood",
+      "model": "FoodVisionV2 visual_class head + identity top1 heuristics in SpecialistEnsemble",
+      "weights": "C:\\Projects\\KitchenIQ-V10-AI\\backend\\instance\\dev_experiments\\v10-vision-recovery\\models\\identity_coverage_best.pt",
+      "behaviour": "visual_class==non_food OR top1 in {non_food,empty_plate,hand} \u2192 non_food",
+      "threshold": "hardneg_strict mode raises non_food; coverage ensemble uses fusion rules",
+      "fail_closed": "Aggressive non_food can veto true food (tomato\u2192non_food observed)",
+      "notes": "Acceptance often MISLABELS these as CLASSIFIER; first divergence is FOOD_NONFOOD"
+    },
+    {
+      "stage": "classifier_identity",
+      "model": "FoodVisionV2 fc_label over 73-class vocab (OI-62 \u222a trainable)",
+      "weights": "C:\\Projects\\KitchenIQ-V10-AI\\backend\\instance\\dev_experiments\\v10-vision-recovery\\models\\identity_coverage_best.pt",
+      "behaviour": "softmax top-1; OOV \u2192 unknown in coverage path",
+      "threshold": "temperature from blob calibration or 1.0; fusion MEDIUM/HIGH bands",
+      "calibration": "temperature scalar if present in checkpoint",
+      "fail_closed": "unsupported label \u2192 unknown (coverage)",
+      "notes": "Closed-set softmax remains primary identity authority in 0.2927 system"
+    },
+    {
+      "stage": "food_state",
+      "model": "FoodVisionV2 fc_state + prepared specialist remaps",
+      "weights": "C:\\Projects\\KitchenIQ-V10-AI\\backend\\instance\\dev_experiments\\v10-vision-recovery\\models\\identity_coverage_best.pt",
+      "behaviour": "raw/prepared/packaged/processed/unknown; prepared meals mapped toward plated",
+      "fail_closed": false,
+      "notes": "At 0.2927 food_state_agreement=1.0 on measured subset; V3 broke this to 0.0"
+    },
+    {
+      "stage": "evidence_fusion",
+      "model": "fuse_specialists deterministic rules",
+      "weights": null,
+      "behaviour": "food vs nonfood conflict; prepared labels; abstain bands",
+      "ocr": "accepted as optional dict but unused in coverage acceptance path",
+      "barcode": "accepted as optional dict but unused in coverage acceptance path",
+      "fail_closed": true,
+      "notes": "OCR/barcode are DEAD fields in current 41-scene path"
+    },
+    {
+      "stage": "canonicalisation",
+      "model": null,
+      "behaviour": "obs_to_official maps FusedObservation \u2192 acceptance schema",
+      "fail_closed": false,
+      "notes": "No Food Entity canonicalisation engine in V10 src"
+    },
+    {
+      "stage": "entity_matching",
+      "model": null,
+      "behaviour": "ABSENT in V10 \u2014 no runtime entity continuity",
+      "fail_closed": false,
+      "notes": "DEAD / not implemented"
+    },
+    {
+      "stage": "final_observation",
+      "model": "match_instances + scene_completeness (OS metrics, read-only)",
+      "behaviour": "IoU match GT vs obs; failure_stage from matcher",
+      "fail_closed": false,
+      "notes": "Matcher may attribute FOOD_NONFOOD failures as CLASSIFIER when pred=null"
+    }
+  ],
+  "duplicated_authorities": [
+    "visual_class head AND identity label both gate food/non-food",
+    "prepared specialist AND identity PREPARED_MEAL_LABELS set",
+    "OS production classifier weights vs V10 coverage weights \u2014 only coverage used for 0.2927"
+  ],
+  "dead_or_unused": [
+    "OCR evidence in fusion (None in acceptance)",
+    "Barcode evidence in fusion (None in acceptance)",
+    "Food Entity matching",
+    "Secure input boundary in local eval",
+    "Retrieval / evidence graph (V3 built but library n=0; not in 0.2927 path)"
+  ],
+  "stale_or_fallback_risks": [
+    "COCO Faster R-CNN fallback if KIQ detector load fails",
+    "Whole-image box when detector returns empty \u2014 creates false 'regions'"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "specialist_evidence_weights": "C:\\Projects\\KitchenIQ-V10-AI\\backend\\instance\\dev_experiments\\v10-vision-recovery\\models\\identity_coverage_best.pt",
+  "sha256": "e1efaa4ac04ccb060397e584b1aa78aa28c51a79009833b7a3143adbc8955853",
+  "backbone": "DINOv2 ViT-B/14 frozen",
+  "retrieval_library": "C:\\Projects\\KitchenIQ-V10-AI\\backend\\instance\\dev_experiments\\v10-vision-v4\\reference_library\\reference_library.json",
+  "retrieval_library_n": 108,
+  "retrieval_library_sha256": "72db59a963781d5752239d6374d64393fa06661867c4d472c68234311e21c91a",
+  "engine": "VisionV4Engine"
+}

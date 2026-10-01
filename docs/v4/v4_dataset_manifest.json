@@ -1,0 +1,8 @@
+{
+  "production_manifest_sha256": "9da443fa43735513ee0bcf0712fdd2720111a039fc9f20d3116505ddeb782e24",
+  "reference_library": "C:\\Projects\\KitchenIQ-V10-AI\\backend\\instance\\dev_experiments\\v10-vision-v4\\reference_library\\reference_library.json",
+  "reference_library_n": 108,
+  "reference_library_sha256": "72db59a963781d5752239d6374d64393fa06661867c4d472c68234311e21c91a",
+  "experiment_only_isolated": true,
+  "no_acceptance_leakage_policy": true
+}

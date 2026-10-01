@@ -1,0 +1,291 @@
+{
+  "status": "BLOCKED",
+  "baseline_strict": 0.2927,
+  "previous_results": {
+    "immutable_original": 0.2439,
+    "specialist": 0.2195,
+    "targeted": 0.0732,
+    "identity_coverage": 0.2927,
+    "v3_B": 0.2439,
+    "v3_E": 0.2439,
+    "v4_no_retrieval": 0.2195
+  },
+  "primary_bottleneck": "OPEN_SET",
+  "secondary_bottleneck": "FOOD_NONFOOD",
+  "tertiary_bottleneck": "DETECTOR",
+  "architecture": "V4_OPEN_WORLD_SCENE_ENGINE",
+  "architecture_selection": {
+    "generated_at": "2026-09-30T21:26:33.365898+00:00",
+    "primary": "OPEN_SET",
+    "secondary": "FOOD_NONFOOD",
+    "tertiary": "DETECTOR",
+    "substantial_target": 0.439,
+    "selected_components": [
+      "food_nonfood_gate_repair_with_topk_food_mass",
+      "F_specialist_classifiers_as_evidence_only",
+      "L_evidence_fusion",
+      "M_open_set_rejection",
+      "K_cross_object_graph",
+      "J_food_state_specialist",
+      "D_dinov2_retained_backbone",
+      "E_hierarchical_retrieval_REQUIRES_n_items_gt_0",
+      "candidate_generation_topk_not_argmax"
+    ],
+    "rejected_components": [
+      "blind_dinov3_swap",
+      "blind_rtdetr_swap",
+      "small_softmax_retrain",
+      "retrieval_without_library",
+      "RT-DETR_primary_this_cycle",
+      "DINOv3_until_weights_accessible"
+    ],
+    "architecture_name": "V4_OPEN_WORLD_SCENE_ENGINE",
+    "rationale": "Primary bottleneck=OPEN_SET, secondary=FOOD_NONFOOD. V4 keeps DINOv2 frozen representation; replaces flat argmax with top-k candidate generation + evidence fusion + open-set; repairs food/non-food false negatives that were mislabeled CLASSIFIER; adds scene-level cross-object confidence modifiers; builds retrieval library ONLY with assert n>0. Detector upgrade deferred unless detector ranks primary."
+  },
+  "best_candidate": "A",
+  "best_strict": 0.2927,
+  "v4_strict": 0.2195,
+  "delta_vs_baseline": -0.0732,
+  "substantial_target": 0.439,
+  "substantial_met": false,
+  "candidates": {
+    "A": {
+      "candidate_id": "A_current_0.2927",
+      "strict_scene_completeness": 0.2927,
+      "primary_stage_totals": {
+        "CLASSIFIER": 40,
+        "DETECTOR": 12,
+        "FOOD_NONFOOD": 2
+      },
+      "delta_vs_baseline": 0.0,
+      "note": "identity_coverage_v1 production-reference"
+    },
+    "B": {
+      "candidate_id": "v4_open_world_scene_retrieval",
+      "strict_scene_completeness": 0.2195,
+      "delta_vs_baseline": -0.0732,
+      "primary_stage_totals": {
+        "CLASSIFIER": 43,
+        "DETECTOR": 12,
+        "FOOD_NONFOOD": 2
+      },
+      "hardneg_nonfood": {
+        "n": 4,
+        "ok": 2,
+        "rate": 0.5
+      },
+      "food_state_agreement": {
+        "n": 16,
+        "ok": 16,
+        "rate": 1.0
+      },
+      "retrieval_enabled": true,
+      "library_path": "C:\\Projects\\KitchenIQ-V10-AI\\backend\\instance\\dev_experiments\\v10-vision-v4\\reference_library\\reference_library.json",
+      "library_n": 108,
+      "library_sha256": "72db59a963781d5752239d6374d64393fa06661867c4d472c68234311e21c91a",
+      "n_strict_complete": 9
+    },
+    "B_no_retrieval_prior": {
+      "strict_scene_completeness": 0.2195,
+      "retrieval_enabled": false,
+      "note": "prior V4 without library"
+    }
+  },
+  "failure_stages_v4": {
+    "CLASSIFIER": 43,
+    "DETECTOR": 12,
+    "FOOD_NONFOOD": 2
+  },
+  "classifier_failures_before": 40,
+  "classifier_failures_after": 43,
+  "production_gate": "FAIL",
+  "final_decision": "V4_BLOCKED_OPEN_WORLD",
+  "feasibility_if_blocked": {
+    "remaining_gap_to_substantial": 0.2195,
+    "scenes_needed_for_substantial": 9,
+    "precise_identity_requirements": [
+      {
+        "canonical_identity": "tomato",
+        "failures_addressed_approx": 4,
+        "production_image_count": 40,
+        "status": "SUFFICIENT",
+        "taxonomy_gap": false,
+        "additional_production_images_needed": 40,
+        "acceptable_sources": [
+          "openverse_cc0_cc_by",
+          "wikimedia_cc"
+        ],
+        "priority": "HIGH"
+      },
+      {
+        "canonical_identity": "fried_rice",
+        "failures_addressed_approx": 3,
+        "production_image_count": 0,
+        "status": null,
+        "taxonomy_gap": null,
+        "additional_production_images_needed": 80,
+        "acceptable_sources": [
+          "openverse_cc0_cc_by",
+          "wikimedia_cc"
+        ],
+        "priority": "HIGH"
+      },
+      {
+        "canonical_identity": "omelette",
+        "failures_addressed_approx": 2,
+        "production_image_count": 0,
+        "status": null,
+        "taxonomy_gap": null,
+        "additional_production_images_needed": 80,
+        "acceptable_sources": [
+          "openverse_cc0_cc_by",
+          "wikimedia_cc"
+        ],
+        "priority": "MEDIUM"
+      },
+      {
+        "canonical_identity": "lasagna",
+        "failures_addressed_approx": 2,
+        "production_image_count": 0,
+        "status": "TAXONOMY_GAP",
+        "taxonomy_gap": true,
+        "additional_production_images_needed": null,
+        "acceptable_sources": [
+          "openverse_cc0_cc_by",
+          "wikimedia_cc"
+        ],
+        "priority": "MEDIUM"
+      },
+      {
+        "canonical_identity": "non_food",
+        "failures_addressed_approx": 2,
+        "production_image_count": 0,
+        "status": null,
+        "taxonomy_gap": null,
+        "additional_production_images_needed": 80,
+        "acceptable_sources": [
+          "openverse_cc0_cc_by",
+          "wikimedia_cc"
+        ],
+        "priority": "MEDIUM"
+      },
+      {
+        "canonical_identity": "garlic",
+        "failures_addressed_approx": 1,
+        "production_image_count": 36,
+        "status": "SUFFICIENT",
+        "taxonomy_gap": false,
+        "additional_production_images_needed": 44,
+        "acceptable_sources": [
+          "openverse_cc0_cc_by",
+          "wikimedia_cc"
+        ],
+        "priority": "MEDIUM"
+      },
+      {
+        "canonical_identity": "ginger",
+        "failures_addressed_approx": 1,
+        "production_image_count": 33,
+        "status": "SUFFICIENT",
+        "taxonomy_gap": false,
+        "additional_production_images_needed": 47,
+        "acceptable_sources": [
+          "openverse_cc0_cc_by",
+          "wikimedia_cc"
+        ],
+        "priority": "MEDIUM"
+      },
+      {
+        "canonical_identity": "rice",
+        "failures_addressed_approx": 1,
+        "production_image_count": 40,
+        "status": "SUFFICIENT",
+        "taxonomy_gap": false,
+        "additional_production_images_needed": 40,
+        "acceptable_sources": [
+          "openverse_cc0_cc_by",
+          "wikimedia_cc"
+        ],
+        "priority": "MEDIUM"
+      },
+      {
+        "canonical_identity": "packaged_cheese",
+        "failures_addressed_approx": 1,
+        "production_image_count": 9,
+        "status": "LOW_SUPPORT",
+        "taxonomy_gap": false,
+        "additional_production_images_needed": 71,
+        "acceptable_sources": [
+          "openverse_cc0_cc_by",
+          "wikimedia_cc"
+        ],
+        "priority": "MEDIUM"
+      },
+      {
+        "canonical_identity": "guacamole",
+        "failures_addressed_approx": 1,
+        "production_image_count": 0,
+        "status": "TAXONOMY_GAP",
+        "taxonomy_gap": true,
+        "additional_production_images_needed": null,
+        "acceptable_sources": [
+          "openverse_cc0_cc_by",
+          "wikimedia_cc"
+        ],
+        "priority": "MEDIUM"
+      },
+      {
+        "canonical_identity": "hummus",
+        "failures_addressed_approx": 1,
+        "production_image_count": 0,
+        "status": "TAXONOMY_GAP",
+        "taxonomy_gap": true,
+        "additional_production_images_needed": null,
+        "acceptable_sources": [
+          "openverse_cc0_cc_by",
+          "wikimedia_cc"
+        ],
+        "priority": "MEDIUM"
+      },
+      {
+        "canonical_identity": "donuts",
+        "failures_addressed_approx": 1,
+        "production_image_count": 0,
+        "status": null,
+        "taxonomy_gap": null,
+        "additional_production_images_needed": 80,
+        "acceptable_sources": [
+          "openverse_cc0_cc_by",
+          "wikimedia_cc"
+        ],
+        "priority": "MEDIUM"
+      }
+    ],
+    "note": "Do not run another blind train. Fill measured identity gaps and/or detector only if scene_blocking DETECTOR remains material after open-world gate repair.",
+    "remaining_gap_to_substantial_from_best": 0.1463,
+    "remaining_gap_v4_candidate_to_substantial": 0.2195,
+    "v4_vs_baseline": -0.0732,
+    "retrieval_library_n": 108,
+    "retrieval_library_sha256": "72db59a963781d5752239d6374d64393fa06661867c4d472c68234311e21c91a",
+    "retrieval_did_not_improve_strict": true
+  },
+  "model_sha256": "e1efaa4ac04ccb060397e584b1aa78aa28c51a79009833b7a3143adbc8955853",
+  "dataset_manifest_sha256": "9da443fa43735513ee0bcf0712fdd2720111a039fc9f20d3116505ddeb782e24",
+  "reference_library_sha256": "72db59a963781d5752239d6374d64393fa06661867c4d472c68234311e21c91a",
+  "reference_library_n": 108,
+  "fixture_catalog_sha256": "38fc3eaee75c76fa5fd1dc3d4177af4abde2cfeb3e410d290fb524f9e30a1523",
+  "holdout_untouched": true,
+  "old_project": "UNCHANGED",
+  "old_project_integrity": {
+    "porcelain_n": 123,
+    "porcelain_sha": "f9340837a546037018b3ff6ab3316cd804c2c7ae4cc720823c95862604b6b840",
+    "baseline_sha": "f9340837a546037018b3ff6ab3316cd804c2c7ae4cc720823c95862604b6b840",
+    "unchanged": true,
+    "verdict": "UNCHANGED"
+  },
+  "kaggle": "kathiresannatarajan/kiq-v10-vision-v4",
+  "github_repo": "https://github.com/kathirkathir2006/KitchenV10",
+  "generated_at": "2026-10-01T01:47:41.925509+00:00",
+  "exact_blocker": "V4 open-world scene engine (top-k + fusion + open-set + food-gate + retrieval n=108) regressed to 0.2195 vs baseline 0.2927; over-abstention / weak identity evidence remains the scene-blocking failure mode (PRIMARY=OPEN_SET). Retrieval library present but does not lift 41-scene strict completeness.",
+  "exact_next_technical_requirement": "Do not launch another flat softmax retrain or empty-library retrieval. Required next: (1) production-eligible hard-negative + calibrated open-set thresholds tuned on identity_coverage failures without sacrificing the 12 currently-complete scenes; (2) for the measured misses \u2014 tomato(4), fried_rice(3), omelette(2), lasagna(2), non_food(2) \u2014 either raise specialist recall above the open-set gate with >=80 verified production images each for fried_rice/omelette (currently 0) and fill taxonomy gaps lasagna/guacamole/hummus, OR replace the crop identity path with an open-vocab detector+segmenter that emits regions before open-set (DETECTOR blocks 7 scenes); (3) keep A=0.2927 as production reference until a candidate >=0.4390."
+}

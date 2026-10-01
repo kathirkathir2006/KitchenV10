@@ -1,0 +1,49 @@
+{
+  "results": {
+    "A": {
+      "candidate_id": "A_current_0.2927",
+      "strict_scene_completeness": 0.2927,
+      "primary_stage_totals": {
+        "CLASSIFIER": 40,
+        "DETECTOR": 12,
+        "FOOD_NONFOOD": 2
+      },
+      "delta_vs_baseline": 0.0,
+      "note": "identity_coverage_v1 production-reference"
+    },
+    "B": {
+      "candidate_id": "v4_open_world_scene_retrieval",
+      "strict_scene_completeness": 0.2195,
+      "delta_vs_baseline": -0.0732,
+      "primary_stage_totals": {
+        "CLASSIFIER": 43,
+        "DETECTOR": 12,
+        "FOOD_NONFOOD": 2
+      },
+      "hardneg_nonfood": {
+        "n": 4,
+        "ok": 2,
+        "rate": 0.5
+      },
+      "food_state_agreement": {
+        "n": 16,
+        "ok": 16,
+        "rate": 1.0
+      },
+      "retrieval_enabled": true,
+      "library_path": "C:\\Projects\\KitchenIQ-V10-AI\\backend\\instance\\dev_experiments\\v10-vision-v4\\reference_library\\reference_library.json",
+      "library_n": 108,
+      "library_sha256": "72db59a963781d5752239d6374d64393fa06661867c4d472c68234311e21c91a",
+      "n_strict_complete": 9
+    },
+    "B_no_retrieval_prior": {
+      "strict_scene_completeness": 0.2195,
+      "retrieval_enabled": false,
+      "note": "prior V4 without library"
+    }
+  },
+  "substantial_target": 0.439,
+  "primary_bottleneck": "OPEN_SET",
+  "secondary_bottleneck": "FOOD_NONFOOD",
+  "final_decision": "V4_BLOCKED_OPEN_WORLD"
+}
