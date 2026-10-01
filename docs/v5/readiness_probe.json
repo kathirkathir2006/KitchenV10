@@ -1,0 +1,139 @@
+{
+  "git": "92a38b7ebad14296377ea6a0013798ac803f50b0",
+  "compute": {
+    "cuda": false,
+    "gpu": null,
+    "vram_gb": 0,
+    "cpu_cores": 6,
+    "ram_gb": 7.9,
+    "disk_free_gb": 5.6,
+    "torch": "2.14.0+cpu"
+  },
+  "library": {
+    "n": 108,
+    "item_keys": [
+      "canonical_identity",
+      "data_zone",
+      "embedding",
+      "family",
+      "food_state",
+      "id",
+      "kind",
+      "licence",
+      "model_version",
+      "provenance",
+      "source_hash"
+    ],
+    "labels": {
+      "biryani": 10,
+      "cheese": 10,
+      "cream": 10,
+      "fried_rice": 10,
+      "garlic": 10,
+      "ginger": 10,
+      "packaged_cheese": 8,
+      "rice": 10,
+      "tomato": 10,
+      "tomato_paste": 10,
+      "yogurt": 10
+    },
+    "families": {
+      "rice_grain": 20,
+      "dairy": 30,
+      "produce": 30,
+      "packaged_dairy": 8,
+      "unknown": 20
+    },
+    "states": {
+      "prepared": 20,
+      "raw": 80,
+      "packaged": 8
+    },
+    "has_source_url": 0,
+    "has_license": 0,
+    "has_image_sha": 0,
+    "sha256_file": "142e2d6d03028bbd5f1b9d08b09148e768ef8f5ae374024b02d564f16eaea51d"
+  },
+  "benchmark": {
+    "catalog": "C:\\Projects\\KitchenIQ-V10-AI\\backend\\instance\\dev_experiments\\v10-specialist-ensemble\\acceptance\\fixtures\\catalog\\fixture_catalog.json",
+    "catalog_sha256": "38fc3eaee75c76fa5fd1dc3d4177af4abde2cfeb3e410d290fb524f9e30a1523",
+    "n_scenes": 41,
+    "n_instances": 71,
+    "gt_labels": {
+      "tomato": 15,
+      "salad": 9,
+      "pizza": 5,
+      "non_food": 5,
+      "fried_rice": 4,
+      "club_sandwich": 3,
+      "packaged_cheese": 3,
+      "rice": 2,
+      "omelette": 2,
+      "tomato_paste": 2,
+      "lasagna": 2,
+      "recipe_document": 2,
+      "pasta": 2,
+      "garlic": 1,
+      "ginger": 1,
+      "caesar_salad": 1,
+      "french_fries": 1,
+      "guacamole": 1,
+      "hummus": 1,
+      "donuts": 1,
+      "ice_cream": 1,
+      "pad_thai": 1,
+      "yogurt": 1,
+      "cream": 1,
+      "cheese": 1,
+      "biryani": 1,
+      "spring_rolls": 1,
+      "bibimbap": 1
+    },
+    "fixture_images_hashed": 41,
+    "instance_keys": [
+      "bbox",
+      "food_state",
+      "instance_id",
+      "label",
+      "required",
+      "visual_class_hint"
+    ]
+  },
+  "leakage": {
+    "fixture_hash_in_library": [],
+    "fixture_path_in_library_urls": []
+  },
+  "docs/vision/production_identity_training_manifest_v1.json": {
+    "sha256": "9da443fa43735513ee0bcf0712fdd2720111a039fc9f20d3116505ddeb782e24",
+    "top_keys": [
+      "version",
+      "generated_at",
+      "rules",
+      "n_trainable",
+      "n_excluded_taxonomy_gap",
+      "labels",
+      "source_manifests",
+      "acquisition_plan"
+    ],
+    "n_identities": 0,
+    "n_rows": 0
+  },
+  "docs/vision/production_identity_coverage_v1.json": {
+    "sha256": "16b369ff3845ed1c6ab5d213eaf976fcadc4b14f6054aece4b4410f5f7f2603b",
+    "top_keys": [
+      "version",
+      "generated_at",
+      "status_counts",
+      "identities"
+    ],
+    "n_identities": 28,
+    "n_rows": 0,
+    "status_counts": {
+      "TAXONOMY_GAP": 8,
+      "LOW_SUPPORT": 4,
+      "SUFFICIENT": 7,
+      "MISSING": 9
+    },
+    "total_production_images": 310
+  }
+}

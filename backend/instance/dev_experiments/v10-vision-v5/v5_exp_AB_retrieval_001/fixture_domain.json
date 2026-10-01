@@ -1,0 +1,390 @@
+{
+  "per_scene": {
+    "01_tomato_pilot": {
+      "size": [
+        128,
+        128
+      ],
+      "unique_colours_q": 48,
+      "mean_grad": 1.62,
+      "domain": "SYNTHETIC_DRAWING"
+    },
+    "02_multi_raw_composite": {
+      "size": [
+        768,
+        768
+      ],
+      "unique_colours_q": 293,
+      "mean_grad": 5.89,
+      "domain": "SYNTHETIC_DRAWING"
+    },
+    "03_dense_kitchen": {
+      "size": [
+        1024,
+        768
+      ],
+      "unique_colours_q": 2518,
+      "mean_grad": 15.16,
+      "domain": "PHOTO"
+    },
+    "04_ingredient_packaged": {
+      "size": [
+        640,
+        320
+      ],
+      "unique_colours_q": 194,
+      "mean_grad": 3.98,
+      "domain": "SYNTHETIC_DRAWING"
+    },
+    "05_ingredient_prepared": {
+      "size": [
+        640,
+        320
+      ],
+      "unique_colours_q": 738,
+      "mean_grad": 7.73,
+      "domain": "PHOTO"
+    },
+    "06_multi_prepared": {
+      "size": [
+        960,
+        320
+      ],
+      "unique_colours_q": 1935,
+      "mean_grad": 16.36,
+      "domain": "PHOTO"
+    },
+    "07_packaged": {
+      "size": [
+        128,
+        128
+      ],
+      "unique_colours_q": 43,
+      "mean_grad": 2.61,
+      "domain": "SYNTHETIC_DRAWING"
+    },
+    "08_fruit_proxy": {
+      "size": [
+        640,
+        320
+      ],
+      "unique_colours_q": 2101,
+      "mean_grad": 15.94,
+      "domain": "PHOTO"
+    },
+    "09_snack_rte": {
+      "size": [
+        640,
+        320
+      ],
+      "unique_colours_q": 2103,
+      "mean_grad": 12.98,
+      "domain": "PHOTO"
+    },
+    "10_raw_vs_partial": {
+      "size": [
+        640,
+        320
+      ],
+      "unique_colours_q": 140,
+      "mean_grad": 3.01,
+      "domain": "SYNTHETIC_DRAWING"
+    },
+    "11_state_triad": {
+      "size": [
+        960,
+        320
+      ],
+      "unique_colours_q": 2725,
+      "mean_grad": 19.82,
+      "domain": "PHOTO"
+    },
+    "12_recipe_document": {
+      "size": [
+        640,
+        800
+      ],
+      "unique_colours_q": 48,
+      "mean_grad": 0.62,
+      "domain": "SYNTHETIC_DRAWING"
+    },
+    "12_nutrition_label": {
+      "size": [
+        400,
+        500
+      ],
+      "unique_colours_q": 23,
+      "mean_grad": 5.9,
+      "domain": "SYNTHETIC_DRAWING"
+    },
+    "13_empty_plate": {
+      "size": [
+        128,
+        128
+      ],
+      "unique_colours_q": 26,
+      "mean_grad": 4.79,
+      "domain": "SYNTHETIC_DRAWING"
+    },
+    "13_human_hand": {
+      "size": [
+        128,
+        128
+      ],
+      "unique_colours_q": 64,
+      "mean_grad": 2.42,
+      "domain": "SYNTHETIC_DRAWING"
+    },
+    "13_pantry_empty": {
+      "size": [
+        1024,
+        1024
+      ],
+      "unique_colours_q": 1492,
+      "mean_grad": 11.47,
+      "domain": "PHOTO"
+    },
+    "13_kitchen_mood": {
+      "size": [
+        1536,
+        1024
+      ],
+      "unique_colours_q": 1351,
+      "mean_grad": 10.98,
+      "domain": "PHOTO"
+    },
+    "14_occlusion": {
+      "size": [
+        563,
+        1024
+      ],
+      "unique_colours_q": 3100,
+      "mean_grad": 12.65,
+      "domain": "PHOTO"
+    },
+    "15_overlap": {
+      "size": [
+        563,
+        1024
+      ],
+      "unique_colours_q": 3100,
+      "mean_grad": 12.65,
+      "domain": "PHOTO"
+    },
+    "16_small_objects": {
+      "size": [
+        3072,
+        3072
+      ],
+      "unique_colours_q": 72,
+      "mean_grad": 0.28,
+      "domain": "SYNTHETIC_DRAWING"
+    },
+    "17_partial_visibility": {
+      "size": [
+        563,
+        1024
+      ],
+      "unique_colours_q": 3100,
+      "mean_grad": 12.65,
+      "domain": "PHOTO"
+    },
+    "18_low_light": {
+      "size": [
+        1024,
+        1024
+      ],
+      "unique_colours_q": 316,
+      "mean_grad": 5.83,
+      "domain": "SYNTHETIC_DRAWING"
+    },
+    "19_motion_blur": {
+      "size": [
+        1024,
+        1024
+      ],
+      "unique_colours_q": 2691,
+      "mean_grad": 12.79,
+      "domain": "PHOTO"
+    },
+    "20_perspective_distortion": {
+      "size": [
+        1024,
+        1024
+      ],
+      "unique_colours_q": 6,
+      "mean_grad": 0.24,
+      "domain": "SYNTHETIC_DRAWING"
+    },
+    "21_duplicate_tomatoes": {
+      "size": [
+        640,
+        640
+      ],
+      "unique_colours_q": 61,
+      "mean_grad": 2.77,
+      "domain": "SYNTHETIC_DRAWING"
+    },
+    "22_qty_one": {
+      "size": [
+        320,
+        320
+      ],
+      "unique_colours_q": 148,
+      "mean_grad": 1.77,
+      "domain": "SYNTHETIC_DRAWING"
+    },
+    "22_qty_four": {
+      "size": [
+        640,
+        640
+      ],
+      "unique_colours_q": 61,
+      "mean_grad": 2.77,
+      "domain": "SYNTHETIC_DRAWING"
+    },
+    "23_tomato_vs_tomato_paste": {
+      "size": [
+        640,
+        320
+      ],
+      "unique_colours_q": 134,
+      "mean_grad": 2.08,
+      "domain": "SYNTHETIC_DRAWING"
+    },
+    "23_yogurt_vs_cream": {
+      "size": [
+        640,
+        320
+      ],
+      "unique_colours_q": 122,
+      "mean_grad": 4.88,
+      "domain": "SYNTHETIC_DRAWING"
+    },
+    "23_cheese_vs_packaged_cheese": {
+      "size": [
+        640,
+        320
+      ],
+      "unique_colours_q": 157,
+      "mean_grad": 3.37,
+      "domain": "SYNTHETIC_DRAWING"
+    },
+    "23_rice_vs_biryani": {
+      "size": [
+        640,
+        320
+      ],
+      "unique_colours_q": 265,
+      "mean_grad": 5.21,
+      "domain": "SYNTHETIC_DRAWING"
+    },
+    "23_fried_rice_not_raw": {
+      "size": [
+        512,
+        512
+      ],
+      "unique_colours_q": 1231,
+      "mean_grad": 13.36,
+      "domain": "PHOTO"
+    },
+    "24_food_nonfood": {
+      "size": [
+        640,
+        320
+      ],
+      "unique_colours_q": 694,
+      "mean_grad": 8.54,
+      "domain": "PHOTO"
+    },
+    "25_salad_bowl": {
+      "size": [
+        1024,
+        1024
+      ],
+      "unique_colours_q": 2950,
+      "mean_grad": 16.71,
+      "domain": "PHOTO"
+    },
+    "25_tomato_pasta": {
+      "size": [
+        1024,
+        1024
+      ],
+      "unique_colours_q": 2447,
+      "mean_grad": 14.96,
+      "domain": "PHOTO"
+    },
+    "25_complex_mixed": {
+      "size": [
+        960,
+        320
+      ],
+      "unique_colours_q": 3400,
+      "mean_grad": 26.96,
+      "domain": "PHOTO"
+    },
+    "prepared_pizza": {
+      "size": [
+        512,
+        512
+      ],
+      "unique_colours_q": 713,
+      "mean_grad": 6.06,
+      "domain": "PHOTO"
+    },
+    "prepared_fried_rice": {
+      "size": [
+        512,
+        512
+      ],
+      "unique_colours_q": 1231,
+      "mean_grad": 13.36,
+      "domain": "PHOTO"
+    },
+    "prepared_bibimbap": {
+      "size": [
+        512,
+        289
+      ],
+      "unique_colours_q": 2033,
+      "mean_grad": 14.63,
+      "domain": "PHOTO"
+    },
+    "prepared_lasagna": {
+      "size": [
+        512,
+        384
+      ],
+      "unique_colours_q": 2299,
+      "mean_grad": 9.33,
+      "domain": "PHOTO"
+    },
+    "prepared_club_sandwich": {
+      "size": [
+        512,
+        512
+      ],
+      "unique_colours_q": 2036,
+      "mean_grad": 8.04,
+      "domain": "PHOTO"
+    }
+  },
+  "split": {
+    "SYNTHETIC_DRAWING": {
+      "regions": 34,
+      "covered": 27,
+      "A_top1_ok": 1,
+      "B_top5_ok": 22,
+      "scenes": 19
+    },
+    "PHOTO": {
+      "regions": 37,
+      "covered": 5,
+      "A_top1_ok": 4,
+      "B_top5_ok": 5,
+      "scenes": 22
+    }
+  },
+  "n_synthetic_scenes": 19
+}

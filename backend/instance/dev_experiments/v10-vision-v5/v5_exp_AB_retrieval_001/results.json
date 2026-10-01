@@ -1,0 +1,104 @@
+{
+  "experiment_id": "v5_exp_AB_retrieval_001",
+  "git": "92a38b7ebad14296377ea6a0013798ac803f50b0",
+  "benchmark_catalog_sha256": "38fc3eaee75c76fa5fd1dc3d4177af4abde2cfeb3e410d290fb524f9e30a1523",
+  "reference_library_sha256": "142e2d6d03028bbd5f1b9d08b09148e768ef8f5ae374024b02d564f16eaea51d",
+  "reference_library_n": 108,
+  "reference_library_labels": [
+    "biryani",
+    "cheese",
+    "cream",
+    "fried_rice",
+    "garlic",
+    "ginger",
+    "packaged_cheese",
+    "rice",
+    "tomato",
+    "tomato_paste",
+    "yogurt"
+  ],
+  "hardware": "CPU (6 logical cores, 7.9 GB RAM, no CUDA)",
+  "training": "none",
+  "benchmark_usage": "scoring only on GT regions; no fitting, selection or threshold tuning",
+  "calibration_library_only": {
+    "B": {
+      "t_id": 0.6400000000000003,
+      "m_id": 0.01,
+      "t_fam": 0.5400000000000004,
+      "objective": 1.2315,
+      "known_correct_rate": 0.2407,
+      "known_false_identity_rate": 0.0,
+      "unknown_rejection_rate": 0.9907
+    },
+    "A_flat_threshold": 0.7200000000000004,
+    "library_loo_identity_top1": 0.4815,
+    "library_loo_family_top1": 0.6136,
+    "sim_known_correct_mean": 0.5592,
+    "sim_unknown_top1_mean": 0.3333,
+    "n_known_queries": 108,
+    "n_unknown_queries": 108
+  },
+  "embedding_space_consistency": {
+    "ckpt_backbone_tensors": 175,
+    "matched_tensors": 175,
+    "max_abs_weight_diff": 0.0,
+    "backbone_differs_from_pretrained": false
+  },
+  "n_required_regions": 71,
+  "n_covered_regions": 32,
+  "library_coverage_scene_ceiling": 0.439,
+  "A": {
+    "covered_identity_top1_raw": 0.1562,
+    "covered_identity_accepted_correct": 0.0,
+    "covered_family_top1": 0.25,
+    "uncovered_unknown_rejection": 1.0,
+    "false_confirmation_rate_all": 0.0,
+    "oracle_region_scene_complete": 0.0976
+  },
+  "A_v4query": {
+    "skipped": "backbone identical to pretrained"
+  },
+  "B": {
+    "covered_identity_top1_raw": 0.0938,
+    "covered_identity_accepted_correct": 0.0,
+    "covered_family_top1": 0.25,
+    "uncovered_unknown_rejection": 1.0,
+    "false_confirmation_rate_all": 0.0,
+    "covered_top5": 0.8438,
+    "covered_family_level_backoff": 0,
+    "covered_identity_ok_or_correct_family_backoff": 0.0,
+    "oracle_region_scene_complete": 0.0976
+  },
+  "uncovered_gt_labels": {
+    "salad": 9,
+    "pizza": 5,
+    "non_food": 5,
+    "club_sandwich": 3,
+    "omelette": 2,
+    "lasagna": 2,
+    "recipe_document": 2,
+    "pasta": 2,
+    "caesar_salad": 1,
+    "french_fries": 1,
+    "guacamole": 1,
+    "hummus": 1,
+    "donuts": 1,
+    "ice_cream": 1,
+    "pad_thai": 1,
+    "spring_rolls": 1,
+    "bibimbap": 1
+  },
+  "covered_confusions_B": {
+    "tomato->cream": 15,
+    "packaged_cheese->cream": 3,
+    "rice->cream": 2,
+    "fried_rice->biryani": 2,
+    "tomato_paste->cream": 2,
+    "garlic->cream": 1,
+    "ginger->cream": 1,
+    "yogurt->cream": 1,
+    "cheese->cream": 1,
+    "biryani->cream": 1
+  },
+  "duration_s": 92.3
+}

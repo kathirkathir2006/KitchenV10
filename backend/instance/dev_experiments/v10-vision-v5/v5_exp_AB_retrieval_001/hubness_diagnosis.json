@@ -1,0 +1,322 @@
+{
+  "lib_nn_in_degree_by_label": {
+    "fried_rice": 16,
+    "biryani": 14,
+    "tomato_paste": 13,
+    "cream": 10,
+    "rice": 9,
+    "garlic": 9,
+    "ginger": 9,
+    "tomato": 9,
+    "packaged_cheese": 8,
+    "yogurt": 6,
+    "cheese": 5
+  },
+  "intra_class_mean_sim": {
+    "biryani": 0.22,
+    "cheese": 0.062,
+    "cream": 0.138,
+    "fried_rice": 0.317,
+    "garlic": 0.39,
+    "ginger": 0.059,
+    "packaged_cheese": 0.099,
+    "rice": 0.159,
+    "tomato": 0.355,
+    "tomato_paste": 0.099,
+    "yogurt": 0.07
+  },
+  "mean_sim_to_whole_library": {
+    "biryani": 0.083,
+    "cheese": 0.033,
+    "cream": 0.039,
+    "fried_rice": 0.091,
+    "garlic": 0.07,
+    "ginger": 0.035,
+    "packaged_cheese": 0.034,
+    "rice": 0.08,
+    "tomato": 0.053,
+    "tomato_paste": 0.054,
+    "yogurt": 0.049
+  },
+  "near_duplicate_pairs_gt_0.97": 2,
+  "provenance_samples": {
+    "biryani": [
+      {
+        "prov": "openverse",
+        "licence": "cc0",
+        "zone": "PRODUCTION_ELIGIBLE"
+      },
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      },
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      }
+    ],
+    "cheese": [
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      },
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      },
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      }
+    ],
+    "cream": [
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      },
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      },
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      }
+    ],
+    "fried_rice": [
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      },
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      },
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      }
+    ],
+    "garlic": [
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      },
+      {
+        "prov": "openverse",
+        "licence": "cc0",
+        "zone": "PRODUCTION_ELIGIBLE"
+      },
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      }
+    ],
+    "ginger": [
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      },
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      },
+      {
+        "prov": "openverse",
+        "licence": "cc0",
+        "zone": "PRODUCTION_ELIGIBLE"
+      }
+    ],
+    "packaged_cheese": [
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      },
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      },
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      }
+    ],
+    "rice": [
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      },
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      },
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      }
+    ],
+    "tomato": [
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      },
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      },
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      }
+    ],
+    "tomato_paste": [
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      },
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      },
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      }
+    ],
+    "yogurt": [
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      },
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      },
+      {
+        "prov": "openverse",
+        "licence": "cc_by",
+        "zone": "PRODUCTION_ELIGIBLE"
+      }
+    ]
+  },
+  "query_A_sim_stats": {
+    "mean": 0.348,
+    "max": 0.6352,
+    "min": 0.164
+  },
+  "query_top1_label_counts": {
+    "cream": 35,
+    "yogurt": 10,
+    "tomato": 6,
+    "fried_rice": 6,
+    "tomato_paste": 6,
+    "cheese": 3,
+    "ginger": 2,
+    "packaged_cheese": 1,
+    "rice": 1,
+    "garlic": 1
+  },
+  "tomato_rows": [
+    {
+      "scene_id": "01_tomato_pilot",
+      "A_top1": "cream",
+      "A_sim": 0.2972,
+      "B_top5": [
+        "cream",
+        "packaged_cheese",
+        "tomato",
+        "yogurt",
+        "tomato_paste"
+      ]
+    },
+    {
+      "scene_id": "02_multi_raw_composite",
+      "A_top1": "cream",
+      "A_sim": 0.2953,
+      "B_top5": [
+        "cream",
+        "packaged_cheese",
+        "tomato",
+        "yogurt",
+        "tomato_paste"
+      ]
+    },
+    {
+      "scene_id": "04_ingredient_packaged",
+      "A_top1": "cream",
+      "A_sim": 0.3052,
+      "B_top5": [
+        "cream",
+        "cheese",
+        "yogurt",
+        "packaged_cheese",
+        "tomato"
+      ]
+    },
+    {
+      "scene_id": "05_ingredient_prepared",
+      "A_top1": "cream",
+      "A_sim": 0.2984,
+      "B_top5": [
+        "cream",
+        "packaged_cheese",
+        "tomato",
+        "tomato_paste",
+        "yogurt"
+      ]
+    },
+    {
+      "scene_id": "10_raw_vs_partial",
+      "A_top1": "cream",
+      "A_sim": 0.2984,
+      "B_top5": [
+        "cream",
+        "packaged_cheese",
+        "tomato",
+        "tomato_paste",
+        "yogurt"
+      ]
+    },
+    {
+      "scene_id": "21_duplicate_tomatoes",
+      "A_top1": "cream",
+      "A_sim": 0.2984,
+      "B_top5": [
+        "cream",
+        "packaged_cheese",
+        "tomato",
+        "tomato_paste",
+        "yogurt"
+      ]
+    }
+  ]
+}
