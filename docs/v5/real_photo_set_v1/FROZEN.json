@@ -1,0 +1,42 @@
+{
+  "set_id": "kiq_v5_real_photo_v1",
+  "manifest_sha256": "89ea9b20effdf40983ce670722f43fce42e44bd4378cc5810853dbba94c656e0",
+  "n": 1357,
+  "split_totals": {
+    "test": 284,
+    "train": 791,
+    "val": 282
+  },
+  "licences": {
+    "by": 1266,
+    "cc0": 91
+  },
+  "providers": {
+    "flickr": 1283,
+    "rawpixel": 48,
+    "museumsvictoria": 8,
+    "wikimedia": 7,
+    "wordpress": 5,
+    "stocksnap": 5,
+    "met": 1
+  },
+  "n_groups": 774,
+  "checks": {
+    "manifest_sha_matches_build_report": true,
+    "benchmark_catalog_sha_matches": true,
+    "n_matches": true,
+    "licences_only_cc0_by": true,
+    "every_item_has_licence_url_landing_creator_field": true,
+    "unique_sha256": true,
+    "unique_openverse_id": true,
+    "no_group_spans_splits": true,
+    "no_open_set_in_train": true,
+    "benchmark_max_cos_below_0.92": true,
+    "benchmark_min_dhash_above_8": true,
+    "no_sha_overlap_with_108_library": true,
+    "val_test_clip_top1_and_keyword": true
+  },
+  "failed": [],
+  "images_location": "Kaggle kernel output kathiresannatarajan/kiq-v5-real-photo-v1 (version 3)",
+  "consumer_rule": "re-hash every image against manifest sha256 and abort on any mismatch; never rebuild v1"
+}

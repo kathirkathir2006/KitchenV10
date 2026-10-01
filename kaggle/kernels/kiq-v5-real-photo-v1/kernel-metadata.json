@@ -1,0 +1,20 @@
+{
+  "id": "kathiresannatarajan/kiq-v5-real-photo-v1",
+  "title": "kiq-v5-real-photo-v1",
+  "code_file": "kiq_v5_real_photo_v1.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "kathiresannatarajan/kiq-v10-recovery-pack",
+    "kathiresannatarajan/kiq-v5-benchmark-fingerprints"
+  ],
+  "kernel_sources": [
+    "kathiresannatarajan/kiq-v10-vision-recovery",
+    "kathiresannatarajan/kiq-v10-vision-v4"
+  ],
+  "competition_sources": [],
+  "model_sources": []
+}
