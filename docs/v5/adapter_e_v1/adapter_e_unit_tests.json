@@ -1,0 +1,20 @@
+{
+ "01_adapter_d_shape": true,
+ "01b_no_class_vectors": true,
+ "02_adapter_e_shape": true,
+ "03_supcon_finite": true,
+ "04_hard_finite": true,
+ "05_open_finite": true,
+ "06_grad_nonzero": true,
+ "07_same_image_views_positive": true,
+ "08_same_label_diff_image_positive": true,
+ "09_diff_label_negative": true,
+ "10_pseudo_unknown_excluded": true,
+ "14_library_sha_constant": true,
+ "15_photo_sha_constant": true,
+ "16_backbone_is_dinov2_vitb14": true,
+ "17_scorer_matches_reference_impl": true,
+ "17b_scorer_source_sha": "ec2dd8a44f48246bd810d619b3495acb9a4a4ecc40994d92809ce20767e9a270",
+ "17c_scorer_source_unchanged": true,
+ "all_pass": true
+}

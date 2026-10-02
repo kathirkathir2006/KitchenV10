@@ -1,0 +1,20 @@
+{
+  "id": "kathiresannatarajan/kiq-v5-adapter-de-test",
+  "title": "kiq-v5-adapter-de-test",
+  "code_file": "kiq_v5_stage.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "kernel_sources": [
+    "kathiresannatarajan/kiq-v5-real-photo-v1",
+    "kathiresannatarajan/kiq-v5-reflib-v1",
+    "kathiresannatarajan/kiq-v5-adapter-c",
+    "kathiresannatarajan/kiq-v5-adapter-d",
+    "kathiresannatarajan/kiq-v5-adapter-e"
+  ],
+  "competition_sources": [],
+  "model_sources": []
+}

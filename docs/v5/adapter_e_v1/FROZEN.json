@@ -1,0 +1,67 @@
+{
+  "config_id": "kiq_v5_adapter_e_v1",
+  "config_sha256": "ab26699426b4eb71b52166c99b38c0d2376098bde8a43dcb5b45d075e49020cc",
+  "checkpoint_sha256": "40ff977e1b90866436f663bd9c2014b26d1fd55bc72d65649ab427d8afa9b331",
+  "library_manifest_sha256": "7e95ee5636af0a14b2839b1a242699bc02635b5d0956c6d6e89a5b9019fc0a02",
+  "photo_manifest_sha256": "89ea9b20effdf40983ce670722f43fce42e44bd4378cc5810853dbba94c656e0",
+  "kaggle_run": "kathiresannatarajan/kiq-v5-adapter-e version 1",
+  "winner": {
+    "cfg": {
+      "dim": 256,
+      "dropout": 0.3,
+      "epochs": 60,
+      "hidden": 512,
+      "lambda_hard": 0.5,
+      "lambda_open": 0.5,
+      "lr": 0.0003,
+      "margin": 0.2,
+      "open_margin": 0.1,
+      "seed": 1536,
+      "temperature": 0.07,
+      "wd": 0.0001
+    },
+    "cfg_index": 2,
+    "epoch": 5,
+    "thresholds": {
+      "m_id": 0.05,
+      "t_fam": 0.8,
+      "t_id": 0.9
+    },
+    "val_metrics": {
+      "abstention_rate_known": 0.3879,
+      "false_confirmation": 0.0248,
+      "family_backoff_rate_known": 0.3362,
+      "known_accepted_correct": 0.5905,
+      "known_coverage_identity": 0.6121,
+      "known_family_top1_raw": 0.8707,
+      "known_identity_top1_raw": 0.819,
+      "known_identity_top5_raw": 0.9483,
+      "known_score": 0.7263,
+      "known_state_top1_raw": 0.9095,
+      "objective": 1.6366,
+      "unknown_rate_all": 0.0745,
+      "unknown_rejection": 0.96
+    }
+  },
+  "safety_gate": {
+    "false_confirmation_max": 0.0284,
+    "n_candidates": 36,
+    "n_passing": 29,
+    "reference": "frozen Adapter D val",
+    "rule_applied": "safety gate passed; max val known_score among gated candidates",
+    "safety_gate_passed": true,
+    "unknown_rejection_min": 0.96
+  },
+  "checks": {
+    "frozen_flag": true,
+    "test_not_used": true,
+    "report_test_not_used": true,
+    "selection_on_val": true,
+    "library_sha": true,
+    "photo_sha": true,
+    "checkpoint_sha": true,
+    "report_points_to_config": true,
+    "unit_tests_pass": true,
+    "no_test_loaded": true
+  }
+}

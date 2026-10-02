@@ -1,0 +1,1856 @@
+{
+ "candidates": [
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.1,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1534,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 0,
+   "checkpoint": "cfg0_ep5.pt",
+   "checkpoint_sha256": "e02d096d303e0f3c2b8f714701b605de3341b5fec486cc44922907431abf4009",
+   "epoch": 5,
+   "losses": {
+    "hard": 0.10402,
+    "loss": 3.93643,
+    "open": 0.69341,
+    "supcon": 3.81507
+   },
+   "metrics": {
+    "abstention_rate_known": 0.3448,
+    "false_confirmation": 0.0248,
+    "family_backoff_rate_known": 0.3147,
+    "known_accepted_correct": 0.6379,
+    "known_coverage_identity": 0.6552,
+    "known_family_top1_raw": 0.9009,
+    "known_identity_top1_raw": 0.8491,
+    "known_identity_top5_raw": 0.9612,
+    "known_score": 0.7586,
+    "known_state_top1_raw": 0.9353,
+    "objective": 1.649,
+    "unknown_rate_all": 0.0496,
+    "unknown_rejection": 0.94
+   },
+   "safety_gate": false,
+   "thresholds": {
+    "m_id": 0.02,
+    "t_fam": 0.82,
+    "t_id": 0.92
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.1,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1534,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 0,
+   "checkpoint": "cfg0_ep10.pt",
+   "checkpoint_sha256": "3bf14440670134bae55db370df84795725867690cde08a85fbe7cf1cf49232ea",
+   "epoch": 10,
+   "losses": {
+    "hard": 0.04878,
+    "loss": 3.70861,
+    "open": 0.63723,
+    "supcon": 3.62049
+   },
+   "metrics": {
+    "abstention_rate_known": 0.4052,
+    "false_confirmation": 0.0142,
+    "family_backoff_rate_known": 0.319,
+    "known_accepted_correct": 0.5819,
+    "known_coverage_identity": 0.5948,
+    "known_family_top1_raw": 0.8966,
+    "known_identity_top1_raw": 0.8664,
+    "known_identity_top5_raw": 0.9526,
+    "known_score": 0.7155,
+    "known_state_top1_raw": 0.9353,
+    "objective": 1.6671,
+    "unknown_rate_all": 0.1383,
+    "unknown_rejection": 0.98
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.84,
+    "t_id": 0.94
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.1,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1534,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 0,
+   "checkpoint": "cfg0_ep15.pt",
+   "checkpoint_sha256": "94510ed0c625300a5676668d8879f8892bb3f6b36bc1c462814d556f40157fa3",
+   "epoch": 15,
+   "losses": {
+    "hard": 0.02082,
+    "loss": 3.61727,
+    "open": 0.57128,
+    "supcon": 3.54973
+   },
+   "metrics": {
+    "abstention_rate_known": 0.4397,
+    "false_confirmation": 0.0142,
+    "family_backoff_rate_known": 0.3405,
+    "known_accepted_correct": 0.5474,
+    "known_coverage_identity": 0.5603,
+    "known_family_top1_raw": 0.8879,
+    "known_identity_top1_raw": 0.8491,
+    "known_identity_top5_raw": 0.9526,
+    "known_score": 0.6897,
+    "known_state_top1_raw": 0.9224,
+    "objective": 1.6413,
+    "unknown_rate_all": 0.1702,
+    "unknown_rejection": 0.98
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.84,
+    "t_id": 0.94
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.1,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1534,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 0,
+   "checkpoint": "cfg0_ep20.pt",
+   "checkpoint_sha256": "878352254cedd1e24b3c2c972b1e66e2cd2d6e7199d88d6a94cfacc9b5a05726",
+   "epoch": 20,
+   "losses": {
+    "hard": 0.00873,
+    "loss": 3.56948,
+    "open": 0.52451,
+    "supcon": 3.51266
+   },
+   "metrics": {
+    "abstention_rate_known": 0.4483,
+    "false_confirmation": 0.0106,
+    "family_backoff_rate_known": 0.3276,
+    "known_accepted_correct": 0.5431,
+    "known_coverage_identity": 0.5517,
+    "known_family_top1_raw": 0.8922,
+    "known_identity_top1_raw": 0.8578,
+    "known_identity_top5_raw": 0.9483,
+    "known_score": 0.6853,
+    "known_state_top1_raw": 0.9267,
+    "objective": 1.6441,
+    "unknown_rate_all": 0.2057,
+    "unknown_rejection": 0.98
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.84,
+    "t_id": 0.94
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.1,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1534,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 0,
+   "checkpoint": "cfg0_ep25.pt",
+   "checkpoint_sha256": "3c3cfd4e6ae9215f81faebd51a5fa8f231f08ace04fe29c4243841bf40213d01",
+   "epoch": 25,
+   "losses": {
+    "hard": 0.00297,
+    "loss": 3.54621,
+    "open": 0.47917,
+    "supcon": 3.49681
+   },
+   "metrics": {
+    "abstention_rate_known": 0.4526,
+    "false_confirmation": 0.0106,
+    "family_backoff_rate_known": 0.3233,
+    "known_accepted_correct": 0.5388,
+    "known_coverage_identity": 0.5474,
+    "known_family_top1_raw": 0.8922,
+    "known_identity_top1_raw": 0.8578,
+    "known_identity_top5_raw": 0.9483,
+    "known_score": 0.681,
+    "known_state_top1_raw": 0.931,
+    "objective": 1.6398,
+    "unknown_rate_all": 0.2092,
+    "unknown_rejection": 0.98
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.84,
+    "t_id": 0.94
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.1,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1534,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 0,
+   "checkpoint": "cfg0_ep30.pt",
+   "checkpoint_sha256": "88ce89e5dae7d100b96721db7698502cc56a5dc371c8065cb2f1f4c8253bd864",
+   "epoch": 30,
+   "losses": {
+    "hard": 0.00094,
+    "loss": 3.52565,
+    "open": 0.44593,
+    "supcon": 3.48058
+   },
+   "metrics": {
+    "abstention_rate_known": 0.4655,
+    "false_confirmation": 0.0106,
+    "family_backoff_rate_known": 0.3319,
+    "known_accepted_correct": 0.5259,
+    "known_coverage_identity": 0.5345,
+    "known_family_top1_raw": 0.8879,
+    "known_identity_top1_raw": 0.8534,
+    "known_identity_top5_raw": 0.9526,
+    "known_score": 0.6703,
+    "known_state_top1_raw": 0.9267,
+    "objective": 1.629,
+    "unknown_rate_all": 0.2199,
+    "unknown_rejection": 0.98
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.84,
+    "t_id": 0.94
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.1,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1534,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 0,
+   "checkpoint": "cfg0_ep35.pt",
+   "checkpoint_sha256": "e3d872916a0d894d8f6cc1bec5109dfb197010eeb39c58bfdec1b80bb7803934",
+   "epoch": 35,
+   "losses": {
+    "hard": 0.00048,
+    "loss": 3.51792,
+    "open": 0.4237,
+    "supcon": 3.47532
+   },
+   "metrics": {
+    "abstention_rate_known": 0.4698,
+    "false_confirmation": 0.0106,
+    "family_backoff_rate_known": 0.319,
+    "known_accepted_correct": 0.5216,
+    "known_coverage_identity": 0.5302,
+    "known_family_top1_raw": 0.8879,
+    "known_identity_top1_raw": 0.8534,
+    "known_identity_top5_raw": 0.9526,
+    "known_score": 0.6659,
+    "known_state_top1_raw": 0.9267,
+    "objective": 1.6247,
+    "unknown_rate_all": 0.2482,
+    "unknown_rejection": 0.98
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.84,
+    "t_id": 0.94
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.1,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1534,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 0,
+   "checkpoint": "cfg0_ep40.pt",
+   "checkpoint_sha256": "6ea4fced32a82e415579f795b3f254fe293735d73f340184e6f40d166d1db8c3",
+   "epoch": 40,
+   "losses": {
+    "hard": 0.00032,
+    "loss": 3.51279,
+    "open": 0.4068,
+    "supcon": 3.47195
+   },
+   "metrics": {
+    "abstention_rate_known": 0.4655,
+    "false_confirmation": 0.0106,
+    "family_backoff_rate_known": 0.3147,
+    "known_accepted_correct": 0.5259,
+    "known_coverage_identity": 0.5345,
+    "known_family_top1_raw": 0.8836,
+    "known_identity_top1_raw": 0.8405,
+    "known_identity_top5_raw": 0.9526,
+    "known_score": 0.6659,
+    "known_state_top1_raw": 0.9224,
+    "objective": 1.6247,
+    "unknown_rate_all": 0.2411,
+    "unknown_rejection": 0.98
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.84,
+    "t_id": 0.94
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.1,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1534,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 0,
+   "checkpoint": "cfg0_ep45.pt",
+   "checkpoint_sha256": "37e2a079fa24ebc7bf283fca796a1799fa80023b492b77ecba8ff4723892eb66",
+   "epoch": 45,
+   "losses": {
+    "hard": 0.00017,
+    "loss": 3.50925,
+    "open": 0.39979,
+    "supcon": 3.46919
+   },
+   "metrics": {
+    "abstention_rate_known": 0.4698,
+    "false_confirmation": 0.0106,
+    "family_backoff_rate_known": 0.319,
+    "known_accepted_correct": 0.5216,
+    "known_coverage_identity": 0.5302,
+    "known_family_top1_raw": 0.8836,
+    "known_identity_top1_raw": 0.8448,
+    "known_identity_top5_raw": 0.9569,
+    "known_score": 0.6638,
+    "known_state_top1_raw": 0.9224,
+    "objective": 1.6225,
+    "unknown_rate_all": 0.2482,
+    "unknown_rejection": 0.98
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.84,
+    "t_id": 0.94
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.1,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1534,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 0,
+   "checkpoint": "cfg0_ep50.pt",
+   "checkpoint_sha256": "8f8828fc6c2a2c8bc38f41d37d926d6aac9b04a9ecb81438300403066af887b7",
+   "epoch": 50,
+   "losses": {
+    "hard": 0.00018,
+    "loss": 3.50652,
+    "open": 0.38386,
+    "supcon": 3.46804
+   },
+   "metrics": {
+    "abstention_rate_known": 0.4698,
+    "false_confirmation": 0.0106,
+    "family_backoff_rate_known": 0.3147,
+    "known_accepted_correct": 0.5216,
+    "known_coverage_identity": 0.5302,
+    "known_family_top1_raw": 0.8836,
+    "known_identity_top1_raw": 0.8405,
+    "known_identity_top5_raw": 0.9569,
+    "known_score": 0.6638,
+    "known_state_top1_raw": 0.9224,
+    "objective": 1.6225,
+    "unknown_rate_all": 0.2589,
+    "unknown_rejection": 0.98
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.84,
+    "t_id": 0.94
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.1,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1534,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 0,
+   "checkpoint": "cfg0_ep55.pt",
+   "checkpoint_sha256": "648584e0146ac1ac644755f5406d69fbfe0a2af6ee294239e443b508069b1dfc",
+   "epoch": 55,
+   "losses": {
+    "hard": 0.00019,
+    "loss": 3.50487,
+    "open": 0.37859,
+    "supcon": 3.46691
+   },
+   "metrics": {
+    "abstention_rate_known": 0.4698,
+    "false_confirmation": 0.0106,
+    "family_backoff_rate_known": 0.3147,
+    "known_accepted_correct": 0.5216,
+    "known_coverage_identity": 0.5302,
+    "known_family_top1_raw": 0.8836,
+    "known_identity_top1_raw": 0.8405,
+    "known_identity_top5_raw": 0.9569,
+    "known_score": 0.6638,
+    "known_state_top1_raw": 0.9224,
+    "objective": 1.6225,
+    "unknown_rate_all": 0.2553,
+    "unknown_rejection": 0.98
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.84,
+    "t_id": 0.94
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.1,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1534,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 0,
+   "checkpoint": "cfg0_ep60.pt",
+   "checkpoint_sha256": "5b52e6b8c99d7909aa21c561bd4760f2ee838454d38b1f585ec2d727712d28a1",
+   "epoch": 60,
+   "losses": {
+    "hard": 8e-05,
+    "loss": 3.50575,
+    "open": 0.37975,
+    "supcon": 3.46773
+   },
+   "metrics": {
+    "abstention_rate_known": 0.4698,
+    "false_confirmation": 0.0106,
+    "family_backoff_rate_known": 0.3147,
+    "known_accepted_correct": 0.5216,
+    "known_coverage_identity": 0.5302,
+    "known_family_top1_raw": 0.8836,
+    "known_identity_top1_raw": 0.8405,
+    "known_identity_top5_raw": 0.9569,
+    "known_score": 0.6638,
+    "known_state_top1_raw": 0.9224,
+    "objective": 1.6225,
+    "unknown_rate_all": 0.2553,
+    "unknown_rejection": 0.98
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.84,
+    "t_id": 0.94
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.25,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1535,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 1,
+   "checkpoint": "cfg1_ep5.pt",
+   "checkpoint_sha256": "a5fd97f8c1e88aa889f6d61ec078e827b35cee4992bc7ef8cd52c367c5841773",
+   "epoch": 5,
+   "losses": {
+    "hard": 0.1125,
+    "loss": 4.11063,
+    "open": 0.67988,
+    "supcon": 3.88441
+   },
+   "metrics": {
+    "abstention_rate_known": 0.4655,
+    "false_confirmation": 0.0213,
+    "family_backoff_rate_known": 0.4095,
+    "known_accepted_correct": 0.5172,
+    "known_coverage_identity": 0.5345,
+    "known_family_top1_raw": 0.8879,
+    "known_identity_top1_raw": 0.8276,
+    "known_identity_top5_raw": 0.9526,
+    "known_score": 0.6853,
+    "known_state_top1_raw": 0.931,
+    "objective": 1.6028,
+    "unknown_rate_all": 0.0993,
+    "unknown_rejection": 0.96
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.02,
+    "t_fam": 0.84,
+    "t_id": 0.94
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.25,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1535,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 1,
+   "checkpoint": "cfg1_ep10.pt",
+   "checkpoint_sha256": "c1ebaae0cf9602388b196d6302ae21c8a216238c5b7d5701b6e5dac345f6b1a1",
+   "epoch": 10,
+   "losses": {
+    "hard": 0.04848,
+    "loss": 3.82687,
+    "open": 0.60175,
+    "supcon": 3.65219
+   },
+   "metrics": {
+    "abstention_rate_known": 0.4353,
+    "false_confirmation": 0.0177,
+    "family_backoff_rate_known": 0.319,
+    "known_accepted_correct": 0.5474,
+    "known_coverage_identity": 0.5647,
+    "known_family_top1_raw": 0.8879,
+    "known_identity_top1_raw": 0.8405,
+    "known_identity_top5_raw": 0.9397,
+    "known_score": 0.6832,
+    "known_state_top1_raw": 0.9224,
+    "objective": 1.6277,
+    "unknown_rate_all": 0.1879,
+    "unknown_rejection": 0.98
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.84,
+    "t_id": 0.94
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.25,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1535,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 1,
+   "checkpoint": "cfg1_ep15.pt",
+   "checkpoint_sha256": "38b2dfe53e2778aed514ba303852233e374bdc2d9a162b92f276f63b5a16cec8",
+   "epoch": 15,
+   "losses": {
+    "hard": 0.01284,
+    "loss": 3.68279,
+    "open": 0.50868,
+    "supcon": 3.5492
+   },
+   "metrics": {
+    "abstention_rate_known": 0.375,
+    "false_confirmation": 0.0284,
+    "family_backoff_rate_known": 0.2328,
+    "known_accepted_correct": 0.5991,
+    "known_coverage_identity": 0.625,
+    "known_family_top1_raw": 0.8879,
+    "known_identity_top1_raw": 0.8362,
+    "known_identity_top5_raw": 0.9397,
+    "known_score": 0.6983,
+    "known_state_top1_raw": 0.9224,
+    "objective": 1.6015,
+    "unknown_rate_all": 0.2092,
+    "unknown_rejection": 0.96
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.82,
+    "t_id": 0.92
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.25,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1535,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 1,
+   "checkpoint": "cfg1_ep20.pt",
+   "checkpoint_sha256": "19c33d87a62ddb92ff8de484331b324bc476ca9706b7dac21eab459af133c915",
+   "epoch": 20,
+   "losses": {
+    "hard": 0.00256,
+    "loss": 3.62378,
+    "open": 0.42844,
+    "supcon": 3.51539
+   },
+   "metrics": {
+    "abstention_rate_known": 0.319,
+    "false_confirmation": 0.0284,
+    "family_backoff_rate_known": 0.1724,
+    "known_accepted_correct": 0.6552,
+    "known_coverage_identity": 0.681,
+    "known_family_top1_raw": 0.8836,
+    "known_identity_top1_raw": 0.8319,
+    "known_identity_top5_raw": 0.9353,
+    "known_score": 0.7241,
+    "known_state_top1_raw": 0.9181,
+    "objective": 1.6274,
+    "unknown_rate_all": 0.2128,
+    "unknown_rejection": 0.96
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.8,
+    "t_id": 0.9
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.25,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1535,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 1,
+   "checkpoint": "cfg1_ep25.pt",
+   "checkpoint_sha256": "31baff656d3dfc72d14f8b15e144614d0130abd55d3732bb4d351d36f3c1f72f",
+   "epoch": 25,
+   "losses": {
+    "hard": 0.0005,
+    "loss": 3.58402,
+    "open": 0.33185,
+    "supcon": 3.50081
+   },
+   "metrics": {
+    "abstention_rate_known": 0.3017,
+    "false_confirmation": 0.0355,
+    "family_backoff_rate_known": 0.1466,
+    "known_accepted_correct": 0.6681,
+    "known_coverage_identity": 0.6983,
+    "known_family_top1_raw": 0.8793,
+    "known_identity_top1_raw": 0.8276,
+    "known_identity_top5_raw": 0.9353,
+    "known_score": 0.7284,
+    "known_state_top1_raw": 0.9181,
+    "objective": 1.5975,
+    "unknown_rate_all": 0.2234,
+    "unknown_rejection": 0.94
+   },
+   "safety_gate": false,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.78,
+    "t_id": 0.88
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.25,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1535,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 1,
+   "checkpoint": "cfg1_ep30.pt",
+   "checkpoint_sha256": "7fd9d807b67f770299dd6a827f87a7ece391a87571f2bef755e97d28d024b82a",
+   "epoch": 30,
+   "losses": {
+    "hard": 0.00017,
+    "loss": 3.55337,
+    "open": 0.25281,
+    "supcon": 3.49009
+   },
+   "metrics": {
+    "abstention_rate_known": 0.306,
+    "false_confirmation": 0.0319,
+    "family_backoff_rate_known": 0.1164,
+    "known_accepted_correct": 0.6638,
+    "known_coverage_identity": 0.694,
+    "known_family_top1_raw": 0.8879,
+    "known_identity_top1_raw": 0.819,
+    "known_identity_top5_raw": 0.944,
+    "known_score": 0.7112,
+    "known_state_top1_raw": 0.9138,
+    "objective": 1.6074,
+    "unknown_rate_all": 0.2589,
+    "unknown_rejection": 0.96
+   },
+   "safety_gate": false,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.78,
+    "t_id": 0.88
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.25,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1535,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 1,
+   "checkpoint": "cfg1_ep35.pt",
+   "checkpoint_sha256": "45f24e1fb73776ba65e354b253ac0cafa006a183bdedee8127220c9a84b524d6",
+   "epoch": 35,
+   "losses": {
+    "hard": 1e-05,
+    "loss": 3.53515,
+    "open": 0.2022,
+    "supcon": 3.4846
+   },
+   "metrics": {
+    "abstention_rate_known": 0.3707,
+    "false_confirmation": 0.0284,
+    "family_backoff_rate_known": 0.1681,
+    "known_accepted_correct": 0.6034,
+    "known_coverage_identity": 0.6293,
+    "known_family_top1_raw": 0.8879,
+    "known_identity_top1_raw": 0.8276,
+    "known_identity_top5_raw": 0.9353,
+    "known_score": 0.6789,
+    "known_state_top1_raw": 0.9138,
+    "objective": 1.5821,
+    "unknown_rate_all": 0.2979,
+    "unknown_rejection": 0.96
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.8,
+    "t_id": 0.9
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.25,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1535,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 1,
+   "checkpoint": "cfg1_ep40.pt",
+   "checkpoint_sha256": "a3f9ad2d9c51e94a94b23e144f3ca2d48f05d0a23ce20d8bd7240e9b3b3b80d0",
+   "epoch": 40,
+   "losses": {
+    "hard": 9e-05,
+    "loss": 3.52232,
+    "open": 0.17152,
+    "supcon": 3.4794
+   },
+   "metrics": {
+    "abstention_rate_known": 0.3362,
+    "false_confirmation": 0.0284,
+    "family_backoff_rate_known": 0.1466,
+    "known_accepted_correct": 0.6379,
+    "known_coverage_identity": 0.6638,
+    "known_family_top1_raw": 0.8836,
+    "known_identity_top1_raw": 0.8276,
+    "known_identity_top5_raw": 0.9353,
+    "known_score": 0.7004,
+    "known_state_top1_raw": 0.9181,
+    "objective": 1.6037,
+    "unknown_rate_all": 0.273,
+    "unknown_rejection": 0.96
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.78,
+    "t_id": 0.88
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.25,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1535,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 1,
+   "checkpoint": "cfg1_ep45.pt",
+   "checkpoint_sha256": "a7f136e8e97f36b392e1966e25e4c8647c41bed640df52de6ecdb2e02080b0c4",
+   "epoch": 45,
+   "losses": {
+    "hard": 0.0,
+    "loss": 3.51593,
+    "open": 0.15275,
+    "supcon": 3.47775
+   },
+   "metrics": {
+    "abstention_rate_known": 0.3276,
+    "false_confirmation": 0.0319,
+    "family_backoff_rate_known": 0.1379,
+    "known_accepted_correct": 0.6466,
+    "known_coverage_identity": 0.6724,
+    "known_family_top1_raw": 0.8879,
+    "known_identity_top1_raw": 0.8276,
+    "known_identity_top5_raw": 0.931,
+    "known_score": 0.7047,
+    "known_state_top1_raw": 0.9181,
+    "objective": 1.5809,
+    "unknown_rate_all": 0.273,
+    "unknown_rejection": 0.94
+   },
+   "safety_gate": false,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.78,
+    "t_id": 0.88
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.25,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1535,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 1,
+   "checkpoint": "cfg1_ep50.pt",
+   "checkpoint_sha256": "aa1c213354a2a6b41e3cdaee1f110a8c0c765a17a5f7da1d7f743d055d5c1c5c",
+   "epoch": 50,
+   "losses": {
+    "hard": 0.0,
+    "loss": 3.51288,
+    "open": 0.1465,
+    "supcon": 3.47625
+   },
+   "metrics": {
+    "abstention_rate_known": 0.375,
+    "false_confirmation": 0.0284,
+    "family_backoff_rate_known": 0.1681,
+    "known_accepted_correct": 0.5991,
+    "known_coverage_identity": 0.625,
+    "known_family_top1_raw": 0.8836,
+    "known_identity_top1_raw": 0.8276,
+    "known_identity_top5_raw": 0.931,
+    "known_score": 0.6767,
+    "known_state_top1_raw": 0.9181,
+    "objective": 1.58,
+    "unknown_rate_all": 0.2979,
+    "unknown_rejection": 0.96
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.8,
+    "t_id": 0.9
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.25,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1535,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 1,
+   "checkpoint": "cfg1_ep55.pt",
+   "checkpoint_sha256": "bd3dd8a157b97cf0b2eebb39219224f6e430c743143d0f11b4e9fada0ee2849e",
+   "epoch": 55,
+   "losses": {
+    "hard": 0.0,
+    "loss": 3.50948,
+    "open": 0.13998,
+    "supcon": 3.47449
+   },
+   "metrics": {
+    "abstention_rate_known": 0.3233,
+    "false_confirmation": 0.0319,
+    "family_backoff_rate_known": 0.1336,
+    "known_accepted_correct": 0.6509,
+    "known_coverage_identity": 0.6767,
+    "known_family_top1_raw": 0.8879,
+    "known_identity_top1_raw": 0.8276,
+    "known_identity_top5_raw": 0.931,
+    "known_score": 0.7069,
+    "known_state_top1_raw": 0.9181,
+    "objective": 1.5831,
+    "unknown_rate_all": 0.273,
+    "unknown_rejection": 0.94
+   },
+   "safety_gate": false,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.78,
+    "t_id": 0.88
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.25,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1535,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 1,
+   "checkpoint": "cfg1_ep60.pt",
+   "checkpoint_sha256": "9e41a948d0ce74a5a00275444f8fc7be1df6df9e0d9962e4e04a695d76f5e3ab",
+   "epoch": 60,
+   "losses": {
+    "hard": 0.0,
+    "loss": 3.50948,
+    "open": 0.14233,
+    "supcon": 3.4739
+   },
+   "metrics": {
+    "abstention_rate_known": 0.3233,
+    "false_confirmation": 0.0319,
+    "family_backoff_rate_known": 0.1336,
+    "known_accepted_correct": 0.6509,
+    "known_coverage_identity": 0.6767,
+    "known_family_top1_raw": 0.8879,
+    "known_identity_top1_raw": 0.8276,
+    "known_identity_top5_raw": 0.931,
+    "known_score": 0.7069,
+    "known_state_top1_raw": 0.9181,
+    "objective": 1.5831,
+    "unknown_rate_all": 0.273,
+    "unknown_rejection": 0.94
+   },
+   "safety_gate": false,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.78,
+    "t_id": 0.88
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.5,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1536,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 2,
+   "checkpoint": "cfg2_ep5.pt",
+   "checkpoint_sha256": "40ff977e1b90866436f663bd9c2014b26d1fd55bc72d65649ab427d8afa9b331",
+   "epoch": 5,
+   "losses": {
+    "hard": 0.10201,
+    "loss": 4.2358,
+    "open": 0.66323,
+    "supcon": 3.85319
+   },
+   "metrics": {
+    "abstention_rate_known": 0.3879,
+    "false_confirmation": 0.0248,
+    "family_backoff_rate_known": 0.3362,
+    "known_accepted_correct": 0.5905,
+    "known_coverage_identity": 0.6121,
+    "known_family_top1_raw": 0.8707,
+    "known_identity_top1_raw": 0.819,
+    "known_identity_top5_raw": 0.9483,
+    "known_score": 0.7263,
+    "known_state_top1_raw": 0.9095,
+    "objective": 1.6366,
+    "unknown_rate_all": 0.0745,
+    "unknown_rejection": 0.96
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.05,
+    "t_fam": 0.8,
+    "t_id": 0.9
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.5,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1536,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 2,
+   "checkpoint": "cfg2_ep10.pt",
+   "checkpoint_sha256": "0f406fe72cda20f646961eb022c6dbf439a15d3dafff4a45c7a70b5422543f0b",
+   "epoch": 10,
+   "losses": {
+    "hard": 0.03887,
+    "loss": 3.94329,
+    "open": 0.55675,
+    "supcon": 3.64548
+   },
+   "metrics": {
+    "abstention_rate_known": 0.431,
+    "false_confirmation": 0.0106,
+    "family_backoff_rate_known": 0.3147,
+    "known_accepted_correct": 0.5603,
+    "known_coverage_identity": 0.569,
+    "known_family_top1_raw": 0.9009,
+    "known_identity_top1_raw": 0.8621,
+    "known_identity_top5_raw": 0.9526,
+    "known_score": 0.7004,
+    "known_state_top1_raw": 0.9224,
+    "objective": 1.6592,
+    "unknown_rate_all": 0.2305,
+    "unknown_rejection": 0.98
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.05,
+    "t_fam": 0.82,
+    "t_id": 0.92
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.5,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1536,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 2,
+   "checkpoint": "cfg2_ep15.pt",
+   "checkpoint_sha256": "6732fba81e7137a860deef445fd96b18184944814ba2323b734d25d6d91864c9",
+   "epoch": 15,
+   "losses": {
+    "hard": 0.00732,
+    "loss": 3.77894,
+    "open": 0.40331,
+    "supcon": 3.57362
+   },
+   "metrics": {
+    "abstention_rate_known": 0.3966,
+    "false_confirmation": 0.0213,
+    "family_backoff_rate_known": 0.2414,
+    "known_accepted_correct": 0.5819,
+    "known_coverage_identity": 0.6034,
+    "known_family_top1_raw": 0.8879,
+    "known_identity_top1_raw": 0.8362,
+    "known_identity_top5_raw": 0.9397,
+    "known_score": 0.6897,
+    "known_state_top1_raw": 0.9095,
+    "objective": 1.6271,
+    "unknown_rate_all": 0.2695,
+    "unknown_rejection": 0.98
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.8,
+    "t_id": 0.9
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.5,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1536,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 2,
+   "checkpoint": "cfg2_ep20.pt",
+   "checkpoint_sha256": "4e7abc1ac9cf6fa76e583e79cffd44d1f9b2862d735e0ea3f5264e4ecbc66d5c",
+   "epoch": 20,
+   "losses": {
+    "hard": 0.0014,
+    "loss": 3.65536,
+    "open": 0.22532,
+    "supcon": 3.54199
+   },
+   "metrics": {
+    "abstention_rate_known": 0.2888,
+    "false_confirmation": 0.0355,
+    "family_backoff_rate_known": 0.1466,
+    "known_accepted_correct": 0.6767,
+    "known_coverage_identity": 0.7112,
+    "known_family_top1_raw": 0.8879,
+    "known_identity_top1_raw": 0.8319,
+    "known_identity_top5_raw": 0.9353,
+    "known_score": 0.7392,
+    "known_state_top1_raw": 0.9095,
+    "objective": 1.6283,
+    "unknown_rate_all": 0.2305,
+    "unknown_rejection": 0.96
+   },
+   "safety_gate": false,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.74,
+    "t_id": 0.84
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.5,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1536,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 2,
+   "checkpoint": "cfg2_ep25.pt",
+   "checkpoint_sha256": "80930a7d9480fdf4d59169ea12a77cf36673cf102f1fd5f5d04b57fd1a7747f0",
+   "epoch": 25,
+   "losses": {
+    "hard": 0.0,
+    "loss": 3.57935,
+    "open": 0.13143,
+    "supcon": 3.51363
+   },
+   "metrics": {
+    "abstention_rate_known": 0.3836,
+    "false_confirmation": 0.0213,
+    "family_backoff_rate_known": 0.1767,
+    "known_accepted_correct": 0.5948,
+    "known_coverage_identity": 0.6164,
+    "known_family_top1_raw": 0.8836,
+    "known_identity_top1_raw": 0.8276,
+    "known_identity_top5_raw": 0.931,
+    "known_score": 0.6767,
+    "known_state_top1_raw": 0.9181,
+    "objective": 1.6142,
+    "unknown_rate_all": 0.3085,
+    "unknown_rejection": 0.98
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.78,
+    "t_id": 0.88
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.5,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1536,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 2,
+   "checkpoint": "cfg2_ep30.pt",
+   "checkpoint_sha256": "98614fc1d5625c4c2536232683b8397afa56d7ca528d61a3147259f5fbcf8c36",
+   "epoch": 30,
+   "losses": {
+    "hard": 0.0,
+    "loss": 3.54192,
+    "open": 0.08945,
+    "supcon": 3.49719
+   },
+   "metrics": {
+    "abstention_rate_known": 0.3405,
+    "false_confirmation": 0.0248,
+    "family_backoff_rate_known": 0.1466,
+    "known_accepted_correct": 0.6379,
+    "known_coverage_identity": 0.6595,
+    "known_family_top1_raw": 0.8879,
+    "known_identity_top1_raw": 0.8233,
+    "known_identity_top5_raw": 0.931,
+    "known_score": 0.7026,
+    "known_state_top1_raw": 0.9138,
+    "objective": 1.6129,
+    "unknown_rate_all": 0.2872,
+    "unknown_rejection": 0.96
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.76,
+    "t_id": 0.86
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.5,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1536,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 2,
+   "checkpoint": "cfg2_ep35.pt",
+   "checkpoint_sha256": "b0c82d48da09f0c49380b40039e0786bb7ef1de0c00c5af48aa4f0e578e3ae46",
+   "epoch": 35,
+   "losses": {
+    "hard": 0.0,
+    "loss": 3.5223,
+    "open": 0.06847,
+    "supcon": 3.48807
+   },
+   "metrics": {
+    "abstention_rate_known": 0.3362,
+    "false_confirmation": 0.0248,
+    "family_backoff_rate_known": 0.1379,
+    "known_accepted_correct": 0.6422,
+    "known_coverage_identity": 0.6638,
+    "known_family_top1_raw": 0.8879,
+    "known_identity_top1_raw": 0.8276,
+    "known_identity_top5_raw": 0.931,
+    "known_score": 0.7026,
+    "known_state_top1_raw": 0.9138,
+    "objective": 1.6129,
+    "unknown_rate_all": 0.2872,
+    "unknown_rejection": 0.96
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.76,
+    "t_id": 0.86
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.5,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1536,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 2,
+   "checkpoint": "cfg2_ep40.pt",
+   "checkpoint_sha256": "3b6a221534b594e802e5a6a1fbbfae378b4637697e28cfb5d92e9d0040b11a52",
+   "epoch": 40,
+   "losses": {
+    "hard": 0.0,
+    "loss": 3.50558,
+    "open": 0.04612,
+    "supcon": 3.48252
+   },
+   "metrics": {
+    "abstention_rate_known": 0.3276,
+    "false_confirmation": 0.0248,
+    "family_backoff_rate_known": 0.1379,
+    "known_accepted_correct": 0.6509,
+    "known_coverage_identity": 0.6724,
+    "known_family_top1_raw": 0.8879,
+    "known_identity_top1_raw": 0.8276,
+    "known_identity_top5_raw": 0.9267,
+    "known_score": 0.7112,
+    "known_state_top1_raw": 0.9138,
+    "objective": 1.6216,
+    "unknown_rate_all": 0.2801,
+    "unknown_rejection": 0.96
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.76,
+    "t_id": 0.86
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.5,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1536,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 2,
+   "checkpoint": "cfg2_ep45.pt",
+   "checkpoint_sha256": "a5f6ab0ee5f4764a9ec1bde906229d8d9c10169f53b4f1e26d32f5e0de8c3f55",
+   "epoch": 45,
+   "losses": {
+    "hard": 0.0,
+    "loss": 3.4989,
+    "open": 0.03835,
+    "supcon": 3.47972
+   },
+   "metrics": {
+    "abstention_rate_known": 0.3276,
+    "false_confirmation": 0.0284,
+    "family_backoff_rate_known": 0.1293,
+    "known_accepted_correct": 0.6466,
+    "known_coverage_identity": 0.6724,
+    "known_family_top1_raw": 0.8879,
+    "known_identity_top1_raw": 0.8276,
+    "known_identity_top5_raw": 0.9267,
+    "known_score": 0.7026,
+    "known_state_top1_raw": 0.9138,
+    "objective": 1.6058,
+    "unknown_rate_all": 0.2872,
+    "unknown_rejection": 0.96
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.76,
+    "t_id": 0.86
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.5,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1536,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 2,
+   "checkpoint": "cfg2_ep50.pt",
+   "checkpoint_sha256": "df82e151486b148a2ba27d0debaf556f9c74d4ea376aa6bd223be9b42d963cd8",
+   "epoch": 50,
+   "losses": {
+    "hard": 0.0,
+    "loss": 3.49512,
+    "open": 0.03625,
+    "supcon": 3.477
+   },
+   "metrics": {
+    "abstention_rate_known": 0.3233,
+    "false_confirmation": 0.0284,
+    "family_backoff_rate_known": 0.1379,
+    "known_accepted_correct": 0.6509,
+    "known_coverage_identity": 0.6767,
+    "known_family_top1_raw": 0.8836,
+    "known_identity_top1_raw": 0.8276,
+    "known_identity_top5_raw": 0.931,
+    "known_score": 0.7112,
+    "known_state_top1_raw": 0.9181,
+    "objective": 1.6145,
+    "unknown_rate_all": 0.2766,
+    "unknown_rejection": 0.96
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.76,
+    "t_id": 0.86
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.5,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1536,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 2,
+   "checkpoint": "cfg2_ep55.pt",
+   "checkpoint_sha256": "abeeaf007f15bd1ec59897662091c37c070488d4264f1311acfba01aa29ba3a2",
+   "epoch": 55,
+   "losses": {
+    "hard": 0.0,
+    "loss": 3.4943,
+    "open": 0.03657,
+    "supcon": 3.47602
+   },
+   "metrics": {
+    "abstention_rate_known": 0.3233,
+    "false_confirmation": 0.0284,
+    "family_backoff_rate_known": 0.1379,
+    "known_accepted_correct": 0.6509,
+    "known_coverage_identity": 0.6767,
+    "known_family_top1_raw": 0.8793,
+    "known_identity_top1_raw": 0.8233,
+    "known_identity_top5_raw": 0.931,
+    "known_score": 0.7112,
+    "known_state_top1_raw": 0.9138,
+    "objective": 1.6145,
+    "unknown_rate_all": 0.2766,
+    "unknown_rejection": 0.96
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.76,
+    "t_id": 0.86
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 60,
+    "hidden": 512,
+    "lambda_hard": 0.5,
+    "lambda_open": 0.5,
+    "lr": 0.0003,
+    "margin": 0.2,
+    "open_margin": 0.1,
+    "seed": 1536,
+    "temperature": 0.07,
+    "wd": 0.0001
+   },
+   "cfg_index": 2,
+   "checkpoint": "cfg2_ep60.pt",
+   "checkpoint_sha256": "4ff93e2dc96e4563cb8cd6677b20900908d72106601c557ea355bfa73c60511a",
+   "epoch": 60,
+   "losses": {
+    "hard": 0.0,
+    "loss": 3.492,
+    "open": 0.03313,
+    "supcon": 3.47544
+   },
+   "metrics": {
+    "abstention_rate_known": 0.3233,
+    "false_confirmation": 0.0284,
+    "family_backoff_rate_known": 0.1336,
+    "known_accepted_correct": 0.6509,
+    "known_coverage_identity": 0.6767,
+    "known_family_top1_raw": 0.8793,
+    "known_identity_top1_raw": 0.8233,
+    "known_identity_top5_raw": 0.931,
+    "known_score": 0.7091,
+    "known_state_top1_raw": 0.9138,
+    "objective": 1.6123,
+    "unknown_rate_all": 0.2801,
+    "unknown_rejection": 0.96
+   },
+   "safety_gate": true,
+   "thresholds": {
+    "m_id": 0.0,
+    "t_fam": 0.76,
+    "t_id": 0.86
+   }
+  }
+ ],
+ "checkpoint_sha256": "40ff977e1b90866436f663bd9c2014b26d1fd55bc72d65649ab427d8afa9b331",
+ "data_checks": {
+  "11_no_test_loaded": true,
+  "12_13_hard_negatives_train_only": true,
+  "14_library_sha": true,
+  "15_photo_sha": true,
+  "18_thresholds_calibrated_on_val_only": true,
+  "19_test_not_used_for_selection": true,
+  "hard_negative_manifest_sha256": "9b724cf046136493ad81672f21756bdbef3187ce71bd5013e548730aa409ad60"
+ },
+ "frozen_config_sha256": "ab26699426b4eb71b52166c99b38c0d2376098bde8a43dcb5b45d075e49020cc",
+ "grid": [
+  {
+   "dim": 256,
+   "dropout": 0.3,
+   "epochs": 60,
+   "hidden": 512,
+   "lambda_hard": 0.5,
+   "lambda_open": 0.1,
+   "lr": 0.0003,
+   "margin": 0.2,
+   "open_margin": 0.1,
+   "temperature": 0.07,
+   "wd": 0.0001
+  },
+  {
+   "dim": 256,
+   "dropout": 0.3,
+   "epochs": 60,
+   "hidden": 512,
+   "lambda_hard": 0.5,
+   "lambda_open": 0.25,
+   "lr": 0.0003,
+   "margin": 0.2,
+   "open_margin": 0.1,
+   "temperature": 0.07,
+   "wd": 0.0001
+  },
+  {
+   "dim": 256,
+   "dropout": 0.3,
+   "epochs": 60,
+   "hidden": 512,
+   "lambda_hard": 0.5,
+   "lambda_open": 0.5,
+   "lr": 0.0003,
+   "margin": 0.2,
+   "open_margin": 0.1,
+   "temperature": 0.07,
+   "wd": 0.0001
+  }
+ ],
+ "safety_gate": {
+  "false_confirmation_max": 0.0284,
+  "n_candidates": 36,
+  "n_passing": 29,
+  "reference": "frozen Adapter D val",
+  "rule_applied": "safety gate passed; max val known_score among gated candidates",
+  "safety_gate_passed": true,
+  "unknown_rejection_min": 0.96
+ },
+ "test_used": false,
+ "unit_tests": {
+  "01_adapter_d_shape": true,
+  "01b_no_class_vectors": true,
+  "02_adapter_e_shape": true,
+  "03_supcon_finite": true,
+  "04_hard_finite": true,
+  "05_open_finite": true,
+  "06_grad_nonzero": true,
+  "07_same_image_views_positive": true,
+  "08_same_label_diff_image_positive": true,
+  "09_diff_label_negative": true,
+  "10_pseudo_unknown_excluded": true,
+  "14_library_sha_constant": true,
+  "15_photo_sha_constant": true,
+  "16_backbone_is_dinov2_vitb14": true,
+  "17_scorer_matches_reference_impl": true,
+  "17b_scorer_source_sha": "ec2dd8a44f48246bd810d619b3495acb9a4a4ecc40994d92809ce20767e9a270",
+  "17c_scorer_source_unchanged": true,
+  "all_pass": true
+ },
+ "val_adapter_c": {
+  "metrics": {
+   "abstention_rate_known": 0.3276,
+   "false_confirmation": 0.0213,
+   "family_backoff_rate_known": 0.2284,
+   "known_accepted_correct": 0.6552,
+   "known_coverage_identity": 0.6724,
+   "known_family_top1_raw": 0.9009,
+   "known_identity_top1_raw": 0.8578,
+   "known_identity_top5_raw": 0.9397,
+   "known_score": 0.7457,
+   "known_state_top1_raw": 0.944,
+   "objective": 1.6631,
+   "unknown_rate_all": 0.1525,
+   "unknown_rejection": 0.96
+  },
+  "thresholds": {
+   "m_id": 0.1,
+   "t_fam": 0.78,
+   "t_id": 0.88
+  }
+ },
+ "val_adapter_d": {
+  "abstention_rate_known": 0.2931,
+  "false_confirmation": 0.0284,
+  "family_backoff_rate_known": 0.2586,
+  "known_accepted_correct": 0.681,
+  "known_coverage_identity": 0.7069,
+  "known_family_top1_raw": 0.8879,
+  "known_identity_top1_raw": 0.8362,
+  "known_identity_top5_raw": 0.9483,
+  "known_score": 0.7737,
+  "known_state_top1_raw": 0.9181,
+  "objective": 1.677,
+  "unknown_rate_all": 0.0496,
+  "unknown_rejection": 0.96
+ },
+ "val_adapter_e": {
+  "abstention_rate_known": 0.3879,
+  "false_confirmation": 0.0248,
+  "family_backoff_rate_known": 0.3362,
+  "known_accepted_correct": 0.5905,
+  "known_coverage_identity": 0.6121,
+  "known_family_top1_raw": 0.8707,
+  "known_identity_top1_raw": 0.819,
+  "known_identity_top5_raw": 0.9483,
+  "known_score": 0.7263,
+  "known_state_top1_raw": 0.9095,
+  "objective": 1.6366,
+  "unknown_rate_all": 0.0745,
+  "unknown_rejection": 0.96
+ },
+ "val_baseline": {
+  "metrics": {
+   "abstention_rate_known": 0.5172,
+   "false_confirmation": 0.0177,
+   "family_backoff_rate_known": 0.1853,
+   "known_accepted_correct": 0.4698,
+   "known_coverage_identity": 0.4828,
+   "known_family_top1_raw": 0.8922,
+   "known_identity_top1_raw": 0.8362,
+   "known_identity_top5_raw": 0.9741,
+   "known_score": 0.5582,
+   "known_state_top1_raw": 0.9353,
+   "objective": 1.4827,
+   "unknown_rate_all": 0.422,
+   "unknown_rejection": 0.96
+  },
+  "thresholds": {
+   "m_id": 0.1,
+   "t_fam": 0.5,
+   "t_id": 0.6
+  }
+ },
+ "winner": {
+  "cfg_index": 2,
+  "epoch": 5
+ }
+}
