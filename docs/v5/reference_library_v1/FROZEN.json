@@ -1,0 +1,19 @@
+{
+  "library_id": "kiq_v5_reference_library_v1",
+  "manifest_sha256": "7e95ee5636af0a14b2839b1a242699bc02635b5d0956c6d6e89a5b9019fc0a02",
+  "embeddings_sha256": "a5e0c1a1aa663d335a076c530c6591f68b42791483a18269e6d66a4a92d51253",
+  "n": 524,
+  "n_labels": 27,
+  "kaggle_run": "kathiresannatarajan/kiq-v5-reflib-v1 version 1",
+  "checks": {
+    "source_manifest_sha": true,
+    "all_refs_in_photo_set": true,
+    "all_refs_train_split": true,
+    "no_open_set_refs": true,
+    "unique_sha": true,
+    "unique_ref_id": true,
+    "metadata_matches_photo_set": true,
+    "embeddings_bound_to_manifest": true,
+    "embeddings_cover_all_refs": true
+  }
+}
