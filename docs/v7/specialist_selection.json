@@ -1,0 +1,600 @@
+{
+ "test_used": false,
+ "criteria": {
+  "min_recoverable_errors": 2,
+  "min_train_per_class": 10,
+  "min_val_per_class": 3,
+  "max_specialists": 5,
+  "order": "recoverable_errors DESC"
+ },
+ "selected": [
+  "cream <-> ice_cream",
+  "biryani <-> fried_rice",
+  "cheese <-> packaged_cheese",
+  "caesar_salad <-> salad",
+  "guacamole <-> hummus"
+ ],
+ "n_qualifying": 5,
+ "candidates": [
+  {
+   "pair": "cream <-> ice_cream",
+   "a": "cream",
+   "b": "ice_cream",
+   "recoverable_errors": 4,
+   "total_errors": 4,
+   "train": {
+    "cream": 30,
+    "ice_cream": 30
+   },
+   "val": {
+    "cream": 4,
+    "ice_cream": 10
+   },
+   "qualifies": true,
+   "reasons": []
+  },
+  {
+   "pair": "biryani <-> fried_rice",
+   "a": "biryani",
+   "b": "fried_rice",
+   "recoverable_errors": 3,
+   "total_errors": 3,
+   "train": {
+    "biryani": 30,
+    "fried_rice": 30
+   },
+   "val": {
+    "biryani": 10,
+    "fried_rice": 10
+   },
+   "qualifies": true,
+   "reasons": []
+  },
+  {
+   "pair": "cheese <-> packaged_cheese",
+   "a": "cheese",
+   "b": "packaged_cheese",
+   "recoverable_errors": 3,
+   "total_errors": 3,
+   "train": {
+    "cheese": 30,
+    "packaged_cheese": 18
+   },
+   "val": {
+    "cheese": 5,
+    "packaged_cheese": 4
+   },
+   "qualifies": true,
+   "reasons": []
+  },
+  {
+   "pair": "caesar_salad <-> salad",
+   "a": "caesar_salad",
+   "b": "salad",
+   "recoverable_errors": 2,
+   "total_errors": 2,
+   "train": {
+    "caesar_salad": 30,
+    "salad": 30
+   },
+   "val": {
+    "caesar_salad": 10,
+    "salad": 10
+   },
+   "qualifies": true,
+   "reasons": []
+  },
+  {
+   "pair": "guacamole <-> hummus",
+   "a": "guacamole",
+   "b": "hummus",
+   "recoverable_errors": 2,
+   "total_errors": 2,
+   "train": {
+    "guacamole": 30,
+    "hummus": 30
+   },
+   "val": {
+    "guacamole": 10,
+    "hummus": 10
+   },
+   "qualifies": true,
+   "reasons": []
+  },
+  {
+   "pair": "biryani <-> tomato_paste",
+   "a": "biryani",
+   "b": "tomato_paste",
+   "recoverable_errors": 1,
+   "total_errors": 2,
+   "train": {
+    "biryani": 30,
+    "tomato_paste": 23
+   },
+   "val": {
+    "biryani": 10,
+    "tomato_paste": 3
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 1 < 2"
+   ]
+  },
+  {
+   "pair": "bibimbap <-> fried_rice",
+   "a": "bibimbap",
+   "b": "fried_rice",
+   "recoverable_errors": 1,
+   "total_errors": 1,
+   "train": {
+    "bibimbap": 30,
+    "fried_rice": 30
+   },
+   "val": {
+    "bibimbap": 10,
+    "fried_rice": 10
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 1 < 2"
+   ]
+  },
+  {
+   "pair": "bibimbap <-> rice",
+   "a": "bibimbap",
+   "b": "rice",
+   "recoverable_errors": 1,
+   "total_errors": 1,
+   "train": {
+    "bibimbap": 30,
+    "rice": 30
+   },
+   "val": {
+    "bibimbap": 10,
+    "rice": 4
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 1 < 2"
+   ]
+  },
+  {
+   "pair": "biryani <-> omelette",
+   "a": "biryani",
+   "b": "omelette",
+   "recoverable_errors": 1,
+   "total_errors": 1,
+   "train": {
+    "biryani": 30,
+    "omelette": 30
+   },
+   "val": {
+    "biryani": 10,
+    "omelette": 10
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 1 < 2"
+   ]
+  },
+  {
+   "pair": "biryani <-> rice",
+   "a": "biryani",
+   "b": "rice",
+   "recoverable_errors": 1,
+   "total_errors": 1,
+   "train": {
+    "biryani": 30,
+    "rice": 30
+   },
+   "val": {
+    "biryani": 10,
+    "rice": 4
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 1 < 2"
+   ]
+  },
+  {
+   "pair": "club_sandwich <-> guacamole",
+   "a": "club_sandwich",
+   "b": "guacamole",
+   "recoverable_errors": 1,
+   "total_errors": 1,
+   "train": {
+    "club_sandwich": 30,
+    "guacamole": 30
+   },
+   "val": {
+    "club_sandwich": 10,
+    "guacamole": 10
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 1 < 2"
+   ]
+  },
+  {
+   "pair": "fried_rice <-> pad_thai",
+   "a": "fried_rice",
+   "b": "pad_thai",
+   "recoverable_errors": 1,
+   "total_errors": 1,
+   "train": {
+    "fried_rice": 30,
+    "pad_thai": 30
+   },
+   "val": {
+    "fried_rice": 10,
+    "pad_thai": 10
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 1 < 2"
+   ]
+  },
+  {
+   "pair": "fried_rice <-> rice",
+   "a": "fried_rice",
+   "b": "rice",
+   "recoverable_errors": 1,
+   "total_errors": 1,
+   "train": {
+    "fried_rice": 30,
+    "rice": 30
+   },
+   "val": {
+    "fried_rice": 10,
+    "rice": 4
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 1 < 2"
+   ]
+  },
+  {
+   "pair": "ginger <-> tomato_paste",
+   "a": "ginger",
+   "b": "tomato_paste",
+   "recoverable_errors": 1,
+   "total_errors": 1,
+   "train": {
+    "ginger": 30,
+    "tomato_paste": 23
+   },
+   "val": {
+    "ginger": 2,
+    "tomato_paste": 3
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 1 < 2",
+    "val ginger=2 tomato_paste=3 < 3"
+   ]
+  },
+  {
+   "pair": "guacamole <-> omelette",
+   "a": "guacamole",
+   "b": "omelette",
+   "recoverable_errors": 1,
+   "total_errors": 1,
+   "train": {
+    "guacamole": 30,
+    "omelette": 30
+   },
+   "val": {
+    "guacamole": 10,
+    "omelette": 10
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 1 < 2"
+   ]
+  },
+  {
+   "pair": "guacamole <-> salad",
+   "a": "guacamole",
+   "b": "salad",
+   "recoverable_errors": 1,
+   "total_errors": 1,
+   "train": {
+    "guacamole": 30,
+    "salad": 30
+   },
+   "val": {
+    "guacamole": 10,
+    "salad": 10
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 1 < 2"
+   ]
+  },
+  {
+   "pair": "hummus <-> tomato_paste",
+   "a": "hummus",
+   "b": "tomato_paste",
+   "recoverable_errors": 1,
+   "total_errors": 1,
+   "train": {
+    "hummus": 30,
+    "tomato_paste": 23
+   },
+   "val": {
+    "hummus": 10,
+    "tomato_paste": 3
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 1 < 2"
+   ]
+  },
+  {
+   "pair": "ice_cream <-> yogurt",
+   "a": "ice_cream",
+   "b": "yogurt",
+   "recoverable_errors": 1,
+   "total_errors": 1,
+   "train": {
+    "ice_cream": 30,
+    "yogurt": 30
+   },
+   "val": {
+    "ice_cream": 10,
+    "yogurt": 10
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 1 < 2"
+   ]
+  },
+  {
+   "pair": "lasagna <-> pasta",
+   "a": "lasagna",
+   "b": "pasta",
+   "recoverable_errors": 1,
+   "total_errors": 1,
+   "train": {
+    "lasagna": 30,
+    "pasta": 30
+   },
+   "val": {
+    "lasagna": 10,
+    "pasta": 10
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 1 < 2"
+   ]
+  },
+  {
+   "pair": "pad_thai <-> pasta",
+   "a": "pad_thai",
+   "b": "pasta",
+   "recoverable_errors": 1,
+   "total_errors": 1,
+   "train": {
+    "pad_thai": 30,
+    "pasta": 30
+   },
+   "val": {
+    "pad_thai": 10,
+    "pasta": 10
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 1 < 2"
+   ]
+  },
+  {
+   "pair": "salad <-> tomato_paste",
+   "a": "salad",
+   "b": "tomato_paste",
+   "recoverable_errors": 1,
+   "total_errors": 1,
+   "train": {
+    "salad": 30,
+    "tomato_paste": 23
+   },
+   "val": {
+    "salad": 10,
+    "tomato_paste": 3
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 1 < 2"
+   ]
+  },
+  {
+   "pair": "omelette <-> pad_thai",
+   "a": "omelette",
+   "b": "pad_thai",
+   "recoverable_errors": 0,
+   "total_errors": 2,
+   "train": {
+    "omelette": 30,
+    "pad_thai": 30
+   },
+   "val": {
+    "omelette": 10,
+    "pad_thai": 10
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 0 < 2"
+   ]
+  },
+  {
+   "pair": "bibimbap <-> omelette",
+   "a": "bibimbap",
+   "b": "omelette",
+   "recoverable_errors": 0,
+   "total_errors": 1,
+   "train": {
+    "bibimbap": 30,
+    "omelette": 30
+   },
+   "val": {
+    "bibimbap": 10,
+    "omelette": 10
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 0 < 2"
+   ]
+  },
+  {
+   "pair": "biryani <-> donuts",
+   "a": "biryani",
+   "b": "donuts",
+   "recoverable_errors": 0,
+   "total_errors": 1,
+   "train": {
+    "biryani": 30,
+    "donuts": 30
+   },
+   "val": {
+    "biryani": 10,
+    "donuts": 10
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 0 < 2"
+   ]
+  },
+  {
+   "pair": "cheese <-> omelette",
+   "a": "cheese",
+   "b": "omelette",
+   "recoverable_errors": 0,
+   "total_errors": 1,
+   "train": {
+    "cheese": 30,
+    "omelette": 30
+   },
+   "val": {
+    "cheese": 5,
+    "omelette": 10
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 0 < 2"
+   ]
+  },
+  {
+   "pair": "cheese <-> salad",
+   "a": "cheese",
+   "b": "salad",
+   "recoverable_errors": 0,
+   "total_errors": 1,
+   "train": {
+    "cheese": 30,
+    "salad": 30
+   },
+   "val": {
+    "cheese": 5,
+    "salad": 10
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 0 < 2"
+   ]
+  },
+  {
+   "pair": "cheese <-> spring_rolls",
+   "a": "cheese",
+   "b": "spring_rolls",
+   "recoverable_errors": 0,
+   "total_errors": 1,
+   "train": {
+    "cheese": 30,
+    "spring_rolls": 30
+   },
+   "val": {
+    "cheese": 5,
+    "spring_rolls": 10
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 0 < 2"
+   ]
+  },
+  {
+   "pair": "donuts <-> french_fries",
+   "a": "donuts",
+   "b": "french_fries",
+   "recoverable_errors": 0,
+   "total_errors": 1,
+   "train": {
+    "donuts": 30,
+    "french_fries": 30
+   },
+   "val": {
+    "donuts": 10,
+    "french_fries": 10
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 0 < 2"
+   ]
+  },
+  {
+   "pair": "garlic <-> tomato_paste",
+   "a": "garlic",
+   "b": "tomato_paste",
+   "recoverable_errors": 0,
+   "total_errors": 1,
+   "train": {
+    "garlic": 30,
+    "tomato_paste": 23
+   },
+   "val": {
+    "garlic": 10,
+    "tomato_paste": 3
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 0 < 2"
+   ]
+  },
+  {
+   "pair": "garlic <-> yogurt",
+   "a": "garlic",
+   "b": "yogurt",
+   "recoverable_errors": 0,
+   "total_errors": 1,
+   "train": {
+    "garlic": 30,
+    "yogurt": 30
+   },
+   "val": {
+    "garlic": 10,
+    "yogurt": 10
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 0 < 2"
+   ]
+  },
+  {
+   "pair": "hummus <-> packaged_cheese",
+   "a": "hummus",
+   "b": "packaged_cheese",
+   "recoverable_errors": 0,
+   "total_errors": 1,
+   "train": {
+    "hummus": 30,
+    "packaged_cheese": 18
+   },
+   "val": {
+    "hummus": 10,
+    "packaged_cheese": 4
+   },
+   "qualifies": false,
+   "reasons": [
+    "recoverable_errors 0 < 2"
+   ]
+  }
+ ]
+}

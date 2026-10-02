@@ -1,0 +1,71 @@
+{
+ "adapter_e_checkpoint_sha256": "40ff977e1b90866436f663bd9c2014b26d1fd55bc72d65649ab427d8afa9b331",
+ "adapter_e_config_sha256": "ab26699426b4eb71b52166c99b38c0d2376098bde8a43dcb5b45d075e49020cc",
+ "base_model": "frozen Adapter E",
+ "cache_library_alignment_maxabs": 5.00120222568512e-07,
+ "checkpoint": "v7_specialists_final.pt",
+ "checkpoint_sha256": "eeae5fbeaf84969af199b263bde13ebb8a69895fcb20f7fdbd0dfbc0fc29eb25",
+ "config_id": "kiq_v7_specialists_v1",
+ "decision": "E frozen thresholds; E top-5 score values permuted onto final order",
+ "embedding_cache": "kaggle kernel kathiresannatarajan/kiq-v5-adapter-e v1 /v5_adapter_e/emb_cache.npz",
+ "embedding_cache_sha256": "482d26ea3082c637f5b271fe3b408247065bc384ea49af649ccb0a63f562d3db",
+ "frozen": true,
+ "gating": "specialist active only if both A and B are in E top-5; swaps A/B only if |P(A)-P(B)| >= margin",
+ "library_manifest_sha256": "7e95ee5636af0a14b2839b1a242699bc02635b5d0956c6d6e89a5b9019fc0a02",
+ "pairs": [
+  {
+   "a": "cream",
+   "b": "ice_cream",
+   "kind": "mlp",
+   "margin": 0.0,
+   "pair": "cream <-> ice_cream"
+  },
+  {
+   "a": "biryani",
+   "b": "fried_rice",
+   "kind": "mlp",
+   "margin": 0.0,
+   "pair": "biryani <-> fried_rice"
+  },
+  {
+   "a": "cheese",
+   "b": "packaged_cheese",
+   "kind": "linear",
+   "margin": 0.0,
+   "pair": "cheese <-> packaged_cheese"
+  },
+  {
+   "a": "caesar_salad",
+   "b": "salad",
+   "kind": "mlp",
+   "margin": 0.0,
+   "pair": "caesar_salad <-> salad"
+  },
+  {
+   "a": "guacamole",
+   "b": "hummus",
+   "kind": "mlp",
+   "margin": 0.0,
+   "pair": "guacamole <-> hummus"
+  }
+ ],
+ "photo_manifest_sha256": "89ea9b20effdf40983ce670722f43fce42e44bd4378cc5810853dbba94c656e0",
+ "scorer_source_sha256": "ec2dd8a44f48246bd810d619b3495acb9a4a4ecc40994d92809ce20767e9a270",
+ "selection_split": "val",
+ "test_used": false,
+ "val_metrics": {
+  "abstention_rate_known": 0.3879,
+  "false_confirmation": 0.0213,
+  "family_backoff_rate_known": 0.3362,
+  "known_accepted_correct": 0.5948,
+  "known_coverage_identity": 0.6121,
+  "known_family_top1_raw": 0.8793,
+  "known_identity_top1_raw": 0.8448,
+  "known_identity_top5_raw": 0.9483,
+  "known_score": 0.7328,
+  "known_state_top1_raw": 0.9181,
+  "objective": 1.6502,
+  "unknown_rate_all": 0.0745,
+  "unknown_rejection": 0.96
+ }
+}

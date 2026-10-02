@@ -1,0 +1,4193 @@
+{
+ "test_used": false,
+ "V7_STATUS": "SUCCESS",
+ "success_checks": {
+  "top1_gain_ge_0.02": true,
+  "corrections_ge_5": true,
+  "regressions_le_2": true,
+  "unknown_rejection_ge_E": true,
+  "false_confirmation_le_E_plus_0.005": true
+ },
+ "top1_gain": 0.0258,
+ "E_val": {
+  "known_identity_top1_raw": 0.819,
+  "known_identity_top5_raw": 0.9483,
+  "known_family_top1_raw": 0.8707,
+  "known_state_top1_raw": 0.9095,
+  "known_accepted_correct": 0.5905,
+  "known_coverage_identity": 0.6121,
+  "objective": 1.6366,
+  "known_score": 0.7263,
+  "unknown_rejection": 0.96,
+  "false_confirmation": 0.0248,
+  "unknown_rate_all": 0.0745,
+  "abstention_rate_known": 0.3879,
+  "family_backoff_rate_known": 0.3362
+ },
+ "final_system": "all_selected",
+ "combinations": {
+  "all_selected": {
+   "pairs": [
+    "cream <-> ice_cream",
+    "biryani <-> fried_rice",
+    "cheese <-> packaged_cheese",
+    "caesar_salad <-> salad",
+    "guacamole <-> hummus"
+   ],
+   "metrics": {
+    "known_identity_top1_raw": 0.8448,
+    "known_identity_top5_raw": 0.9483,
+    "known_family_top1_raw": 0.8793,
+    "known_state_top1_raw": 0.9181,
+    "known_accepted_correct": 0.5948,
+    "known_coverage_identity": 0.6121,
+    "objective": 1.6502,
+    "known_score": 0.7328,
+    "unknown_rejection": 0.96,
+    "false_confirmation": 0.0213,
+    "unknown_rate_all": 0.0745,
+    "abstention_rate_known": 0.3879,
+    "family_backoff_rate_known": 0.3362
+   },
+   "changes": {
+    "corrections": 7,
+    "regressions": 1,
+    "net": 6
+   },
+   "sum_of_individual_net": 6,
+   "interaction_net_loss": 0,
+   "queries_with_multiple_specialists_firing": []
+  },
+  "only_individually_positive": {
+   "pairs": [
+    "cream <-> ice_cream",
+    "biryani <-> fried_rice",
+    "cheese <-> packaged_cheese",
+    "caesar_salad <-> salad",
+    "guacamole <-> hummus"
+   ],
+   "metrics": {
+    "known_identity_top1_raw": 0.8448,
+    "known_identity_top5_raw": 0.9483,
+    "known_family_top1_raw": 0.8793,
+    "known_state_top1_raw": 0.9181,
+    "known_accepted_correct": 0.5948,
+    "known_coverage_identity": 0.6121,
+    "objective": 1.6502,
+    "known_score": 0.7328,
+    "unknown_rejection": 0.96,
+    "false_confirmation": 0.0213,
+    "unknown_rate_all": 0.0745,
+    "abstention_rate_known": 0.3879,
+    "family_backoff_rate_known": 0.3362
+   },
+   "changes": {
+    "corrections": 7,
+    "regressions": 1,
+    "net": 6
+   },
+   "sum_of_individual_net": 6,
+   "interaction_net_loss": 0,
+   "queries_with_multiple_specialists_firing": []
+  }
+ },
+ "specialists": [
+  {
+   "pair": "cream <-> ice_cream",
+   "a": "cream",
+   "b": "ice_cream",
+   "train_images": {
+    "cream": 30,
+    "ice_cream": 30
+   },
+   "val_images": {
+    "cream": 4,
+    "ice_cream": 10
+   },
+   "E_errors_involving_pair": 4,
+   "recoverable_E_errors": 4,
+   "chosen_model": "adapter_e/mlp",
+   "mlp_kept": true,
+   "best_epoch": 5,
+   "val_binary": {
+    "adapter_e/linear": {
+     "best_epoch": 7,
+     "accuracy": 0.7143,
+     "balanced_accuracy": 0.725,
+     "precision": 0.5,
+     "recall": 0.75,
+     "confusion_matrix": {
+      "A_as_A": 3,
+      "A_as_B": 1,
+      "B_as_A": 3,
+      "B_as_B": 7
+     }
+    },
+    "adapter_e/mlp": {
+     "best_epoch": 5,
+     "accuracy": 0.7857,
+     "balanced_accuracy": 0.775,
+     "precision": 0.6,
+     "recall": 0.75,
+     "confusion_matrix": {
+      "A_as_A": 3,
+      "A_as_B": 1,
+      "B_as_A": 2,
+      "B_as_B": 8
+     }
+    },
+    "frozen_dinov2/linear": {
+     "best_epoch": 4,
+     "accuracy": 0.6429,
+     "balanced_accuracy": 0.6,
+     "precision": 0.4,
+     "recall": 0.5,
+     "confusion_matrix": {
+      "A_as_A": 2,
+      "A_as_B": 2,
+      "B_as_A": 3,
+      "B_as_B": 7
+     }
+    },
+    "frozen_dinov2/mlp": {
+     "best_epoch": 4,
+     "accuracy": 0.8571,
+     "balanced_accuracy": 0.9,
+     "precision": 0.6667,
+     "recall": 1.0,
+     "confusion_matrix": {
+      "A_as_A": 4,
+      "A_as_B": 0,
+      "B_as_A": 2,
+      "B_as_B": 8
+     }
+    }
+   },
+   "history": {
+    "adapter_e/linear": [
+     {
+      "epoch": 1,
+      "train_loss": 0.69651,
+      "val_accuracy": 0.5714,
+      "val_balanced_accuracy": 0.55,
+      "val_precision": 0.3333,
+      "val_recall": 0.5,
+      "val_confusion_matrix": {
+       "A_as_A": 2,
+       "A_as_B": 2,
+       "B_as_A": 4,
+       "B_as_B": 6
+      }
+     },
+     {
+      "epoch": 2,
+      "train_loss": 0.59318,
+      "val_accuracy": 0.5,
+      "val_balanced_accuracy": 0.5,
+      "val_precision": 0.2857,
+      "val_recall": 0.5,
+      "val_confusion_matrix": {
+       "A_as_A": 2,
+       "A_as_B": 2,
+       "B_as_A": 5,
+       "B_as_B": 5
+      }
+     },
+     {
+      "epoch": 3,
+      "train_loss": 0.50687,
+      "val_accuracy": 0.5714,
+      "val_balanced_accuracy": 0.55,
+      "val_precision": 0.3333,
+      "val_recall": 0.5,
+      "val_confusion_matrix": {
+       "A_as_A": 2,
+       "A_as_B": 2,
+       "B_as_A": 4,
+       "B_as_B": 6
+      }
+     },
+     {
+      "epoch": 4,
+      "train_loss": 0.43622,
+      "val_accuracy": 0.5714,
+      "val_balanced_accuracy": 0.55,
+      "val_precision": 0.3333,
+      "val_recall": 0.5,
+      "val_confusion_matrix": {
+       "A_as_A": 2,
+       "A_as_B": 2,
+       "B_as_A": 4,
+       "B_as_B": 6
+      }
+     },
+     {
+      "epoch": 5,
+      "train_loss": 0.37881,
+      "val_accuracy": 0.6429,
+      "val_balanced_accuracy": 0.675,
+      "val_precision": 0.4286,
+      "val_recall": 0.75,
+      "val_confusion_matrix": {
+       "A_as_A": 3,
+       "A_as_B": 1,
+       "B_as_A": 4,
+       "B_as_B": 6
+      }
+     },
+     {
+      "epoch": 6,
+      "train_loss": 0.33288,
+      "val_accuracy": 0.6429,
+      "val_balanced_accuracy": 0.675,
+      "val_precision": 0.4286,
+      "val_recall": 0.75,
+      "val_confusion_matrix": {
+       "A_as_A": 3,
+       "A_as_B": 1,
+       "B_as_A": 4,
+       "B_as_B": 6
+      }
+     },
+     {
+      "epoch": 7,
+      "train_loss": 0.29557,
+      "val_accuracy": 0.7143,
+      "val_balanced_accuracy": 0.725,
+      "val_precision": 0.5,
+      "val_recall": 0.75,
+      "val_confusion_matrix": {
+       "A_as_A": 3,
+       "A_as_B": 1,
+       "B_as_A": 3,
+       "B_as_B": 7
+      }
+     },
+     {
+      "epoch": 8,
+      "train_loss": 0.26527,
+      "val_accuracy": 0.7143,
+      "val_balanced_accuracy": 0.725,
+      "val_precision": 0.5,
+      "val_recall": 0.75,
+      "val_confusion_matrix": {
+       "A_as_A": 3,
+       "A_as_B": 1,
+       "B_as_A": 3,
+       "B_as_B": 7
+      }
+     },
+     {
+      "epoch": 9,
+      "train_loss": 0.24025,
+      "val_accuracy": 0.7143,
+      "val_balanced_accuracy": 0.725,
+      "val_precision": 0.5,
+      "val_recall": 0.75,
+      "val_confusion_matrix": {
+       "A_as_A": 3,
+       "A_as_B": 1,
+       "B_as_A": 3,
+       "B_as_B": 7
+      }
+     },
+     {
+      "epoch": 10,
+      "train_loss": 0.21939,
+      "val_accuracy": 0.7143,
+      "val_balanced_accuracy": 0.725,
+      "val_precision": 0.5,
+      "val_recall": 0.75,
+      "val_confusion_matrix": {
+       "A_as_A": 3,
+       "A_as_B": 1,
+       "B_as_A": 3,
+       "B_as_B": 7
+      }
+     },
+     {
+      "epoch": 11,
+      "train_loss": 0.2018,
+      "val_accuracy": 0.7143,
+      "val_balanced_accuracy": 0.725,
+      "val_precision": 0.5,
+      "val_recall": 0.75,
+      "val_confusion_matrix": {
+       "A_as_A": 3,
+       "A_as_B": 1,
+       "B_as_A": 3,
+       "B_as_B": 7
+      }
+     }
+    ],
+    "adapter_e/mlp": [
+     {
+      "epoch": 1,
+      "train_loss": 0.58565,
+      "val_accuracy": 0.7143,
+      "val_balanced_accuracy": 0.65,
+      "val_precision": 0.5,
+      "val_recall": 0.5,
+      "val_confusion_matrix": {
+       "A_as_A": 2,
+       "A_as_B": 2,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 2,
+      "train_loss": 0.35903,
+      "val_accuracy": 0.7143,
+      "val_balanced_accuracy": 0.65,
+      "val_precision": 0.5,
+      "val_recall": 0.5,
+      "val_confusion_matrix": {
+       "A_as_A": 2,
+       "A_as_B": 2,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 3,
+      "train_loss": 0.23022,
+      "val_accuracy": 0.7143,
+      "val_balanced_accuracy": 0.65,
+      "val_precision": 0.5,
+      "val_recall": 0.5,
+      "val_confusion_matrix": {
+       "A_as_A": 2,
+       "A_as_B": 2,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 4,
+      "train_loss": 0.1598,
+      "val_accuracy": 0.7143,
+      "val_balanced_accuracy": 0.65,
+      "val_precision": 0.5,
+      "val_recall": 0.5,
+      "val_confusion_matrix": {
+       "A_as_A": 2,
+       "A_as_B": 2,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 5,
+      "train_loss": 0.11611,
+      "val_accuracy": 0.7857,
+      "val_balanced_accuracy": 0.775,
+      "val_precision": 0.6,
+      "val_recall": 0.75,
+      "val_confusion_matrix": {
+       "A_as_A": 3,
+       "A_as_B": 1,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 6,
+      "train_loss": 0.09109,
+      "val_accuracy": 0.7857,
+      "val_balanced_accuracy": 0.775,
+      "val_precision": 0.6,
+      "val_recall": 0.75,
+      "val_confusion_matrix": {
+       "A_as_A": 3,
+       "A_as_B": 1,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 7,
+      "train_loss": 0.07306,
+      "val_accuracy": 0.7857,
+      "val_balanced_accuracy": 0.775,
+      "val_precision": 0.6,
+      "val_recall": 0.75,
+      "val_confusion_matrix": {
+       "A_as_A": 3,
+       "A_as_B": 1,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 8,
+      "train_loss": 0.05917,
+      "val_accuracy": 0.7857,
+      "val_balanced_accuracy": 0.775,
+      "val_precision": 0.6,
+      "val_recall": 0.75,
+      "val_confusion_matrix": {
+       "A_as_A": 3,
+       "A_as_B": 1,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 9,
+      "train_loss": 0.04896,
+      "val_accuracy": 0.7857,
+      "val_balanced_accuracy": 0.775,
+      "val_precision": 0.6,
+      "val_recall": 0.75,
+      "val_confusion_matrix": {
+       "A_as_A": 3,
+       "A_as_B": 1,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     }
+    ],
+    "frozen_dinov2/linear": [
+     {
+      "epoch": 1,
+      "train_loss": 0.85534,
+      "val_accuracy": 0.4286,
+      "val_balanced_accuracy": 0.375,
+      "val_precision": 0.1667,
+      "val_recall": 0.25,
+      "val_confusion_matrix": {
+       "A_as_A": 1,
+       "A_as_B": 3,
+       "B_as_A": 5,
+       "B_as_B": 5
+      }
+     },
+     {
+      "epoch": 2,
+      "train_loss": 0.68205,
+      "val_accuracy": 0.5,
+      "val_balanced_accuracy": 0.425,
+      "val_precision": 0.2,
+      "val_recall": 0.25,
+      "val_confusion_matrix": {
+       "A_as_A": 1,
+       "A_as_B": 3,
+       "B_as_A": 4,
+       "B_as_B": 6
+      }
+     },
+     {
+      "epoch": 3,
+      "train_loss": 0.55433,
+      "val_accuracy": 0.5714,
+      "val_balanced_accuracy": 0.475,
+      "val_precision": 0.25,
+      "val_recall": 0.25,
+      "val_confusion_matrix": {
+       "A_as_A": 1,
+       "A_as_B": 3,
+       "B_as_A": 3,
+       "B_as_B": 7
+      }
+     },
+     {
+      "epoch": 4,
+      "train_loss": 0.45956,
+      "val_accuracy": 0.6429,
+      "val_balanced_accuracy": 0.6,
+      "val_precision": 0.4,
+      "val_recall": 0.5,
+      "val_confusion_matrix": {
+       "A_as_A": 2,
+       "A_as_B": 2,
+       "B_as_A": 3,
+       "B_as_B": 7
+      }
+     },
+     {
+      "epoch": 5,
+      "train_loss": 0.38982,
+      "val_accuracy": 0.6429,
+      "val_balanced_accuracy": 0.6,
+      "val_precision": 0.4,
+      "val_recall": 0.5,
+      "val_confusion_matrix": {
+       "A_as_A": 2,
+       "A_as_B": 2,
+       "B_as_A": 3,
+       "B_as_B": 7
+      }
+     },
+     {
+      "epoch": 6,
+      "train_loss": 0.33595,
+      "val_accuracy": 0.6429,
+      "val_balanced_accuracy": 0.6,
+      "val_precision": 0.4,
+      "val_recall": 0.5,
+      "val_confusion_matrix": {
+       "A_as_A": 2,
+       "A_as_B": 2,
+       "B_as_A": 3,
+       "B_as_B": 7
+      }
+     },
+     {
+      "epoch": 7,
+      "train_loss": 0.29387,
+      "val_accuracy": 0.6429,
+      "val_balanced_accuracy": 0.6,
+      "val_precision": 0.4,
+      "val_recall": 0.5,
+      "val_confusion_matrix": {
+       "A_as_A": 2,
+       "A_as_B": 2,
+       "B_as_A": 3,
+       "B_as_B": 7
+      }
+     },
+     {
+      "epoch": 8,
+      "train_loss": 0.25971,
+      "val_accuracy": 0.6429,
+      "val_balanced_accuracy": 0.6,
+      "val_precision": 0.4,
+      "val_recall": 0.5,
+      "val_confusion_matrix": {
+       "A_as_A": 2,
+       "A_as_B": 2,
+       "B_as_A": 3,
+       "B_as_B": 7
+      }
+     }
+    ],
+    "frozen_dinov2/mlp": [
+     {
+      "epoch": 1,
+      "train_loss": 0.53715,
+      "val_accuracy": 0.7143,
+      "val_balanced_accuracy": 0.575,
+      "val_precision": 0.5,
+      "val_recall": 0.25,
+      "val_confusion_matrix": {
+       "A_as_A": 1,
+       "A_as_B": 3,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 2,
+      "train_loss": 0.27572,
+      "val_accuracy": 0.8571,
+      "val_balanced_accuracy": 0.825,
+      "val_precision": 0.75,
+      "val_recall": 0.75,
+      "val_confusion_matrix": {
+       "A_as_A": 3,
+       "A_as_B": 1,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 3,
+      "train_loss": 0.15931,
+      "val_accuracy": 0.7857,
+      "val_balanced_accuracy": 0.775,
+      "val_precision": 0.6,
+      "val_recall": 0.75,
+      "val_confusion_matrix": {
+       "A_as_A": 3,
+       "A_as_B": 1,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 4,
+      "train_loss": 0.09943,
+      "val_accuracy": 0.8571,
+      "val_balanced_accuracy": 0.9,
+      "val_precision": 0.6667,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 4,
+       "A_as_B": 0,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 5,
+      "train_loss": 0.06388,
+      "val_accuracy": 0.8571,
+      "val_balanced_accuracy": 0.9,
+      "val_precision": 0.6667,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 4,
+       "A_as_B": 0,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 6,
+      "train_loss": 0.04426,
+      "val_accuracy": 0.8571,
+      "val_balanced_accuracy": 0.9,
+      "val_precision": 0.6667,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 4,
+       "A_as_B": 0,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 7,
+      "train_loss": 0.03195,
+      "val_accuracy": 0.8571,
+      "val_balanced_accuracy": 0.9,
+      "val_precision": 0.6667,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 4,
+       "A_as_B": 0,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 8,
+      "train_loss": 0.02447,
+      "val_accuracy": 0.8571,
+      "val_balanced_accuracy": 0.9,
+      "val_precision": 0.6667,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 4,
+       "A_as_B": 0,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     }
+    ]
+   },
+   "control": {
+    "n_active_val_queries": 33,
+    "n_active_known_gt_in_pair": 14,
+    "E_top1_on_active": 0.6429,
+    "specialist_acc_on_active": 0.7857
+   },
+   "ablation_by_margin": {
+    "adapter_e/linear": {
+     "0.0": {
+      "corrections": 1,
+      "regressions": 0,
+      "net": 1
+     },
+     "0.05": {
+      "corrections": 1,
+      "regressions": 0,
+      "net": 1
+     },
+     "0.1": {
+      "corrections": 1,
+      "regressions": 0,
+      "net": 1
+     },
+     "0.15": {
+      "corrections": 1,
+      "regressions": 0,
+      "net": 1
+     }
+    },
+    "adapter_e/mlp": {
+     "0.0": {
+      "corrections": 1,
+      "regressions": 0,
+      "net": 1
+     },
+     "0.05": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     },
+     "0.1": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     },
+     "0.15": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     }
+    },
+    "frozen_dinov2/linear": {
+     "0.0": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     },
+     "0.05": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     },
+     "0.1": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     },
+     "0.15": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     }
+    },
+    "frozen_dinov2/mlp": {
+     "0.0": {
+      "corrections": 2,
+      "regressions": 0,
+      "net": 2
+     },
+     "0.05": {
+      "corrections": 1,
+      "regressions": 0,
+      "net": 1
+     },
+     "0.1": {
+      "corrections": 1,
+      "regressions": 0,
+      "net": 1
+     },
+     "0.15": {
+      "corrections": 1,
+      "regressions": 0,
+      "net": 1
+     }
+    }
+   },
+   "selected_margin": 0.0,
+   "individual_at_margin": {
+    "corrections": 1,
+    "regressions": 0,
+    "net": 1
+   },
+   "learning_curve": {
+    "points": [
+     {
+      "frac": 0.4,
+      "n_images": 24,
+      "val_balanced_accuracy": 0.775
+     },
+     {
+      "frac": 0.6,
+      "n_images": 36,
+      "val_balanced_accuracy": 0.775
+     },
+     {
+      "frac": 0.8,
+      "n_images": 48,
+      "val_balanced_accuracy": 0.775
+     },
+     {
+      "frac": 1.0,
+      "n_images": 60,
+      "val_balanced_accuracy": 0.775
+     }
+    ],
+    "slope_per_log_n": 0.0,
+    "target_balanced_accuracy": 0.9,
+    "status": "flat learning curve: more of the same images will not separate this pair",
+    "additional_per_class": null
+   }
+  },
+  {
+   "pair": "biryani <-> fried_rice",
+   "a": "biryani",
+   "b": "fried_rice",
+   "train_images": {
+    "biryani": 30,
+    "fried_rice": 30
+   },
+   "val_images": {
+    "biryani": 10,
+    "fried_rice": 10
+   },
+   "E_errors_involving_pair": 3,
+   "recoverable_E_errors": 3,
+   "chosen_model": "adapter_e/mlp",
+   "mlp_kept": true,
+   "best_epoch": 2,
+   "val_binary": {
+    "adapter_e/linear": {
+     "best_epoch": 7,
+     "accuracy": 0.75,
+     "balanced_accuracy": 0.75,
+     "precision": 0.6923,
+     "recall": 0.9,
+     "confusion_matrix": {
+      "A_as_A": 9,
+      "A_as_B": 1,
+      "B_as_A": 4,
+      "B_as_B": 6
+     }
+    },
+    "adapter_e/mlp": {
+     "best_epoch": 2,
+     "accuracy": 0.8,
+     "balanced_accuracy": 0.8,
+     "precision": 0.75,
+     "recall": 0.9,
+     "confusion_matrix": {
+      "A_as_A": 9,
+      "A_as_B": 1,
+      "B_as_A": 3,
+      "B_as_B": 7
+     }
+    },
+    "frozen_dinov2/linear": {
+     "best_epoch": 2,
+     "accuracy": 0.85,
+     "balanced_accuracy": 0.85,
+     "precision": 0.8182,
+     "recall": 0.9,
+     "confusion_matrix": {
+      "A_as_A": 9,
+      "A_as_B": 1,
+      "B_as_A": 2,
+      "B_as_B": 8
+     }
+    },
+    "frozen_dinov2/mlp": {
+     "best_epoch": 1,
+     "accuracy": 0.85,
+     "balanced_accuracy": 0.85,
+     "precision": 0.8182,
+     "recall": 0.9,
+     "confusion_matrix": {
+      "A_as_A": 9,
+      "A_as_B": 1,
+      "B_as_A": 2,
+      "B_as_B": 8
+     }
+    }
+   },
+   "history": {
+    "adapter_e/linear": [
+     {
+      "epoch": 1,
+      "train_loss": 0.86796,
+      "val_accuracy": 0.35,
+      "val_balanced_accuracy": 0.35,
+      "val_precision": 0.3636,
+      "val_recall": 0.4,
+      "val_confusion_matrix": {
+       "A_as_A": 4,
+       "A_as_B": 6,
+       "B_as_A": 7,
+       "B_as_B": 3
+      }
+     },
+     {
+      "epoch": 2,
+      "train_loss": 0.77967,
+      "val_accuracy": 0.35,
+      "val_balanced_accuracy": 0.35,
+      "val_precision": 0.3636,
+      "val_recall": 0.4,
+      "val_confusion_matrix": {
+       "A_as_A": 4,
+       "A_as_B": 6,
+       "B_as_A": 7,
+       "B_as_B": 3
+      }
+     },
+     {
+      "epoch": 3,
+      "train_loss": 0.70333,
+      "val_accuracy": 0.4,
+      "val_balanced_accuracy": 0.4,
+      "val_precision": 0.4286,
+      "val_recall": 0.6,
+      "val_confusion_matrix": {
+       "A_as_A": 6,
+       "A_as_B": 4,
+       "B_as_A": 8,
+       "B_as_B": 2
+      }
+     },
+     {
+      "epoch": 4,
+      "train_loss": 0.6345,
+      "val_accuracy": 0.45,
+      "val_balanced_accuracy": 0.45,
+      "val_precision": 0.4667,
+      "val_recall": 0.7,
+      "val_confusion_matrix": {
+       "A_as_A": 7,
+       "A_as_B": 3,
+       "B_as_A": 8,
+       "B_as_B": 2
+      }
+     },
+     {
+      "epoch": 5,
+      "train_loss": 0.57983,
+      "val_accuracy": 0.5,
+      "val_balanced_accuracy": 0.5,
+      "val_precision": 0.5,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 8,
+       "A_as_B": 2,
+       "B_as_A": 8,
+       "B_as_B": 2
+      }
+     },
+     {
+      "epoch": 6,
+      "train_loss": 0.52959,
+      "val_accuracy": 0.6,
+      "val_balanced_accuracy": 0.6,
+      "val_precision": 0.5714,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 8,
+       "A_as_B": 2,
+       "B_as_A": 6,
+       "B_as_B": 4
+      }
+     },
+     {
+      "epoch": 7,
+      "train_loss": 0.48835,
+      "val_accuracy": 0.75,
+      "val_balanced_accuracy": 0.75,
+      "val_precision": 0.6923,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 4,
+       "B_as_B": 6
+      }
+     },
+     {
+      "epoch": 8,
+      "train_loss": 0.4542,
+      "val_accuracy": 0.7,
+      "val_balanced_accuracy": 0.7,
+      "val_precision": 0.6429,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 5,
+       "B_as_B": 5
+      }
+     },
+     {
+      "epoch": 9,
+      "train_loss": 0.42445,
+      "val_accuracy": 0.7,
+      "val_balanced_accuracy": 0.7,
+      "val_precision": 0.6429,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 5,
+       "B_as_B": 5
+      }
+     },
+     {
+      "epoch": 10,
+      "train_loss": 0.39926,
+      "val_accuracy": 0.75,
+      "val_balanced_accuracy": 0.75,
+      "val_precision": 0.6923,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 4,
+       "B_as_B": 6
+      }
+     },
+     {
+      "epoch": 11,
+      "train_loss": 0.37708,
+      "val_accuracy": 0.75,
+      "val_balanced_accuracy": 0.75,
+      "val_precision": 0.6923,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 4,
+       "B_as_B": 6
+      }
+     }
+    ],
+    "adapter_e/mlp": [
+     {
+      "epoch": 1,
+      "train_loss": 0.64855,
+      "val_accuracy": 0.75,
+      "val_balanced_accuracy": 0.75,
+      "val_precision": 0.6923,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 4,
+       "B_as_B": 6
+      }
+     },
+     {
+      "epoch": 2,
+      "train_loss": 0.48475,
+      "val_accuracy": 0.8,
+      "val_balanced_accuracy": 0.8,
+      "val_precision": 0.75,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 3,
+       "B_as_B": 7
+      }
+     },
+     {
+      "epoch": 3,
+      "train_loss": 0.38,
+      "val_accuracy": 0.8,
+      "val_balanced_accuracy": 0.8,
+      "val_precision": 0.75,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 3,
+       "B_as_B": 7
+      }
+     },
+     {
+      "epoch": 4,
+      "train_loss": 0.30425,
+      "val_accuracy": 0.8,
+      "val_balanced_accuracy": 0.8,
+      "val_precision": 0.75,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 3,
+       "B_as_B": 7
+      }
+     },
+     {
+      "epoch": 5,
+      "train_loss": 0.25215,
+      "val_accuracy": 0.8,
+      "val_balanced_accuracy": 0.8,
+      "val_precision": 0.75,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 3,
+       "B_as_B": 7
+      }
+     },
+     {
+      "epoch": 6,
+      "train_loss": 0.21465,
+      "val_accuracy": 0.8,
+      "val_balanced_accuracy": 0.8,
+      "val_precision": 0.75,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 3,
+       "B_as_B": 7
+      }
+     }
+    ],
+    "frozen_dinov2/linear": [
+     {
+      "epoch": 1,
+      "train_loss": 0.64412,
+      "val_accuracy": 0.75,
+      "val_balanced_accuracy": 0.75,
+      "val_precision": 0.7273,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 8,
+       "A_as_B": 2,
+       "B_as_A": 3,
+       "B_as_B": 7
+      }
+     },
+     {
+      "epoch": 2,
+      "train_loss": 0.51428,
+      "val_accuracy": 0.85,
+      "val_balanced_accuracy": 0.85,
+      "val_precision": 0.8182,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 3,
+      "train_loss": 0.42972,
+      "val_accuracy": 0.85,
+      "val_balanced_accuracy": 0.85,
+      "val_precision": 0.8182,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 4,
+      "train_loss": 0.36997,
+      "val_accuracy": 0.85,
+      "val_balanced_accuracy": 0.85,
+      "val_precision": 0.8182,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 5,
+      "train_loss": 0.32892,
+      "val_accuracy": 0.85,
+      "val_balanced_accuracy": 0.85,
+      "val_precision": 0.8182,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 6,
+      "train_loss": 0.29274,
+      "val_accuracy": 0.85,
+      "val_balanced_accuracy": 0.85,
+      "val_precision": 0.8182,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     }
+    ],
+    "frozen_dinov2/mlp": [
+     {
+      "epoch": 1,
+      "train_loss": 0.55559,
+      "val_accuracy": 0.85,
+      "val_balanced_accuracy": 0.85,
+      "val_precision": 0.8182,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 2,
+      "train_loss": 0.34254,
+      "val_accuracy": 0.85,
+      "val_balanced_accuracy": 0.85,
+      "val_precision": 0.8182,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 3,
+      "train_loss": 0.22992,
+      "val_accuracy": 0.85,
+      "val_balanced_accuracy": 0.85,
+      "val_precision": 0.8182,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 4,
+      "train_loss": 0.15977,
+      "val_accuracy": 0.85,
+      "val_balanced_accuracy": 0.85,
+      "val_precision": 0.8182,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 5,
+      "train_loss": 0.11396,
+      "val_accuracy": 0.85,
+      "val_balanced_accuracy": 0.85,
+      "val_precision": 0.8182,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     }
+    ]
+   },
+   "control": {
+    "n_active_val_queries": 43,
+    "n_active_known_gt_in_pair": 17,
+    "E_top1_on_active": 0.6471,
+    "specialist_acc_on_active": 0.7647
+   },
+   "ablation_by_margin": {
+    "adapter_e/linear": {
+     "0.0": {
+      "corrections": 2,
+      "regressions": 3,
+      "net": -1
+     },
+     "0.05": {
+      "corrections": 2,
+      "regressions": 3,
+      "net": -1
+     },
+     "0.1": {
+      "corrections": 2,
+      "regressions": 3,
+      "net": -1
+     },
+     "0.15": {
+      "corrections": 0,
+      "regressions": 2,
+      "net": -2
+     }
+    },
+    "adapter_e/mlp": {
+     "0.0": {
+      "corrections": 2,
+      "regressions": 1,
+      "net": 1
+     },
+     "0.05": {
+      "corrections": 1,
+      "regressions": 1,
+      "net": 0
+     },
+     "0.1": {
+      "corrections": 0,
+      "regressions": 1,
+      "net": -1
+     },
+     "0.15": {
+      "corrections": 0,
+      "regressions": 1,
+      "net": -1
+     }
+    },
+    "frozen_dinov2/linear": {
+     "0.0": {
+      "corrections": 2,
+      "regressions": 1,
+      "net": 1
+     },
+     "0.05": {
+      "corrections": 2,
+      "regressions": 1,
+      "net": 1
+     },
+     "0.1": {
+      "corrections": 2,
+      "regressions": 1,
+      "net": 1
+     },
+     "0.15": {
+      "corrections": 2,
+      "regressions": 1,
+      "net": 1
+     }
+    },
+    "frozen_dinov2/mlp": {
+     "0.0": {
+      "corrections": 1,
+      "regressions": 0,
+      "net": 1
+     },
+     "0.05": {
+      "corrections": 1,
+      "regressions": 0,
+      "net": 1
+     },
+     "0.1": {
+      "corrections": 1,
+      "regressions": 0,
+      "net": 1
+     },
+     "0.15": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     }
+    }
+   },
+   "selected_margin": 0.0,
+   "individual_at_margin": {
+    "corrections": 2,
+    "regressions": 1,
+    "net": 1
+   },
+   "learning_curve": {
+    "points": [
+     {
+      "frac": 0.4,
+      "n_images": 24,
+      "val_balanced_accuracy": 0.75
+     },
+     {
+      "frac": 0.6,
+      "n_images": 36,
+      "val_balanced_accuracy": 0.8
+     },
+     {
+      "frac": 0.8,
+      "n_images": 48,
+      "val_balanced_accuracy": 0.75
+     },
+     {
+      "frac": 1.0,
+      "n_images": 60,
+      "val_balanced_accuracy": 0.8
+     }
+    ],
+    "slope_per_log_n": 0.0335,
+    "target_balanced_accuracy": 0.9,
+    "status": "log-linear extrapolation",
+    "n_images_needed_total": 1663,
+    "additional_per_class": 802,
+    "extrapolation_factor": 27.71
+   }
+  },
+  {
+   "pair": "cheese <-> packaged_cheese",
+   "a": "cheese",
+   "b": "packaged_cheese",
+   "train_images": {
+    "cheese": 30,
+    "packaged_cheese": 18
+   },
+   "val_images": {
+    "cheese": 5,
+    "packaged_cheese": 4
+   },
+   "E_errors_involving_pair": 3,
+   "recoverable_E_errors": 3,
+   "chosen_model": "adapter_e/linear",
+   "mlp_kept": false,
+   "best_epoch": 2,
+   "val_binary": {
+    "adapter_e/linear": {
+     "best_epoch": 2,
+     "accuracy": 0.7778,
+     "balanced_accuracy": 0.75,
+     "precision": 0.7143,
+     "recall": 1.0,
+     "confusion_matrix": {
+      "A_as_A": 5,
+      "A_as_B": 0,
+      "B_as_A": 2,
+      "B_as_B": 2
+     }
+    },
+    "adapter_e/mlp": {
+     "best_epoch": 1,
+     "accuracy": 0.5556,
+     "balanced_accuracy": 0.525,
+     "precision": 0.5714,
+     "recall": 0.8,
+     "confusion_matrix": {
+      "A_as_A": 4,
+      "A_as_B": 1,
+      "B_as_A": 3,
+      "B_as_B": 1
+     }
+    },
+    "frozen_dinov2/linear": {
+     "best_epoch": 3,
+     "accuracy": 0.6667,
+     "balanced_accuracy": 0.65,
+     "precision": 0.6667,
+     "recall": 0.8,
+     "confusion_matrix": {
+      "A_as_A": 4,
+      "A_as_B": 1,
+      "B_as_A": 2,
+      "B_as_B": 2
+     }
+    },
+    "frozen_dinov2/mlp": {
+     "best_epoch": 1,
+     "accuracy": 0.7778,
+     "balanced_accuracy": 0.775,
+     "precision": 0.8,
+     "recall": 0.8,
+     "confusion_matrix": {
+      "A_as_A": 4,
+      "A_as_B": 1,
+      "B_as_A": 1,
+      "B_as_B": 3
+     }
+    }
+   },
+   "history": {
+    "adapter_e/linear": [
+     {
+      "epoch": 1,
+      "train_loss": 0.6711,
+      "val_accuracy": 0.6667,
+      "val_balanced_accuracy": 0.65,
+      "val_precision": 0.6667,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 4,
+       "A_as_B": 1,
+       "B_as_A": 2,
+       "B_as_B": 2
+      }
+     },
+     {
+      "epoch": 2,
+      "train_loss": 0.56898,
+      "val_accuracy": 0.7778,
+      "val_balanced_accuracy": 0.75,
+      "val_precision": 0.7143,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 5,
+       "A_as_B": 0,
+       "B_as_A": 2,
+       "B_as_B": 2
+      }
+     },
+     {
+      "epoch": 3,
+      "train_loss": 0.48143,
+      "val_accuracy": 0.6667,
+      "val_balanced_accuracy": 0.625,
+      "val_precision": 0.625,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 5,
+       "A_as_B": 0,
+       "B_as_A": 3,
+       "B_as_B": 1
+      }
+     },
+     {
+      "epoch": 4,
+      "train_loss": 0.40769,
+      "val_accuracy": 0.6667,
+      "val_balanced_accuracy": 0.625,
+      "val_precision": 0.625,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 5,
+       "A_as_B": 0,
+       "B_as_A": 3,
+       "B_as_B": 1
+      }
+     },
+     {
+      "epoch": 5,
+      "train_loss": 0.34674,
+      "val_accuracy": 0.6667,
+      "val_balanced_accuracy": 0.625,
+      "val_precision": 0.625,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 5,
+       "A_as_B": 0,
+       "B_as_A": 3,
+       "B_as_B": 1
+      }
+     },
+     {
+      "epoch": 6,
+      "train_loss": 0.29883,
+      "val_accuracy": 0.6667,
+      "val_balanced_accuracy": 0.625,
+      "val_precision": 0.625,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 5,
+       "A_as_B": 0,
+       "B_as_A": 3,
+       "B_as_B": 1
+      }
+     }
+    ],
+    "adapter_e/mlp": [
+     {
+      "epoch": 1,
+      "train_loss": 0.45224,
+      "val_accuracy": 0.5556,
+      "val_balanced_accuracy": 0.525,
+      "val_precision": 0.5714,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 4,
+       "A_as_B": 1,
+       "B_as_A": 3,
+       "B_as_B": 1
+      }
+     },
+     {
+      "epoch": 2,
+      "train_loss": 0.26152,
+      "val_accuracy": 0.4444,
+      "val_balanced_accuracy": 0.425,
+      "val_precision": 0.5,
+      "val_recall": 0.6,
+      "val_confusion_matrix": {
+       "A_as_A": 3,
+       "A_as_B": 2,
+       "B_as_A": 3,
+       "B_as_B": 1
+      }
+     },
+     {
+      "epoch": 3,
+      "train_loss": 0.15644,
+      "val_accuracy": 0.4444,
+      "val_balanced_accuracy": 0.425,
+      "val_precision": 0.5,
+      "val_recall": 0.6,
+      "val_confusion_matrix": {
+       "A_as_A": 3,
+       "A_as_B": 2,
+       "B_as_A": 3,
+       "B_as_B": 1
+      }
+     },
+     {
+      "epoch": 4,
+      "train_loss": 0.10165,
+      "val_accuracy": 0.4444,
+      "val_balanced_accuracy": 0.425,
+      "val_precision": 0.5,
+      "val_recall": 0.6,
+      "val_confusion_matrix": {
+       "A_as_A": 3,
+       "A_as_B": 2,
+       "B_as_A": 3,
+       "B_as_B": 1
+      }
+     },
+     {
+      "epoch": 5,
+      "train_loss": 0.072,
+      "val_accuracy": 0.4444,
+      "val_balanced_accuracy": 0.425,
+      "val_precision": 0.5,
+      "val_recall": 0.6,
+      "val_confusion_matrix": {
+       "A_as_A": 3,
+       "A_as_B": 2,
+       "B_as_A": 3,
+       "B_as_B": 1
+      }
+     }
+    ],
+    "frozen_dinov2/linear": [
+     {
+      "epoch": 1,
+      "train_loss": 0.55807,
+      "val_accuracy": 0.6667,
+      "val_balanced_accuracy": 0.625,
+      "val_precision": 0.625,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 5,
+       "A_as_B": 0,
+       "B_as_A": 3,
+       "B_as_B": 1
+      }
+     },
+     {
+      "epoch": 2,
+      "train_loss": 0.46371,
+      "val_accuracy": 0.5556,
+      "val_balanced_accuracy": 0.525,
+      "val_precision": 0.5714,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 4,
+       "A_as_B": 1,
+       "B_as_A": 3,
+       "B_as_B": 1
+      }
+     },
+     {
+      "epoch": 3,
+      "train_loss": 0.38985,
+      "val_accuracy": 0.6667,
+      "val_balanced_accuracy": 0.65,
+      "val_precision": 0.6667,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 4,
+       "A_as_B": 1,
+       "B_as_A": 2,
+       "B_as_B": 2
+      }
+     },
+     {
+      "epoch": 4,
+      "train_loss": 0.33242,
+      "val_accuracy": 0.5556,
+      "val_balanced_accuracy": 0.55,
+      "val_precision": 0.6,
+      "val_recall": 0.6,
+      "val_confusion_matrix": {
+       "A_as_A": 3,
+       "A_as_B": 2,
+       "B_as_A": 2,
+       "B_as_B": 2
+      }
+     },
+     {
+      "epoch": 5,
+      "train_loss": 0.28772,
+      "val_accuracy": 0.5556,
+      "val_balanced_accuracy": 0.55,
+      "val_precision": 0.6,
+      "val_recall": 0.6,
+      "val_confusion_matrix": {
+       "A_as_A": 3,
+       "A_as_B": 2,
+       "B_as_A": 2,
+       "B_as_B": 2
+      }
+     },
+     {
+      "epoch": 6,
+      "train_loss": 0.25371,
+      "val_accuracy": 0.5556,
+      "val_balanced_accuracy": 0.55,
+      "val_precision": 0.6,
+      "val_recall": 0.6,
+      "val_confusion_matrix": {
+       "A_as_A": 3,
+       "A_as_B": 2,
+       "B_as_A": 2,
+       "B_as_B": 2
+      }
+     },
+     {
+      "epoch": 7,
+      "train_loss": 0.22679,
+      "val_accuracy": 0.5556,
+      "val_balanced_accuracy": 0.55,
+      "val_precision": 0.6,
+      "val_recall": 0.6,
+      "val_confusion_matrix": {
+       "A_as_A": 3,
+       "A_as_B": 2,
+       "B_as_A": 2,
+       "B_as_B": 2
+      }
+     }
+    ],
+    "frozen_dinov2/mlp": [
+     {
+      "epoch": 1,
+      "train_loss": 0.39377,
+      "val_accuracy": 0.7778,
+      "val_balanced_accuracy": 0.775,
+      "val_precision": 0.8,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 4,
+       "A_as_B": 1,
+       "B_as_A": 1,
+       "B_as_B": 3
+      }
+     },
+     {
+      "epoch": 2,
+      "train_loss": 0.22923,
+      "val_accuracy": 0.7778,
+      "val_balanced_accuracy": 0.775,
+      "val_precision": 0.8,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 4,
+       "A_as_B": 1,
+       "B_as_A": 1,
+       "B_as_B": 3
+      }
+     },
+     {
+      "epoch": 3,
+      "train_loss": 0.15073,
+      "val_accuracy": 0.7778,
+      "val_balanced_accuracy": 0.775,
+      "val_precision": 0.8,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 4,
+       "A_as_B": 1,
+       "B_as_A": 1,
+       "B_as_B": 3
+      }
+     },
+     {
+      "epoch": 4,
+      "train_loss": 0.10439,
+      "val_accuracy": 0.7778,
+      "val_balanced_accuracy": 0.775,
+      "val_precision": 0.8,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 4,
+       "A_as_B": 1,
+       "B_as_A": 1,
+       "B_as_B": 3
+      }
+     },
+     {
+      "epoch": 5,
+      "train_loss": 0.07436,
+      "val_accuracy": 0.6667,
+      "val_balanced_accuracy": 0.65,
+      "val_precision": 0.6667,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 4,
+       "A_as_B": 1,
+       "B_as_A": 2,
+       "B_as_B": 2
+      }
+     }
+    ]
+   },
+   "control": {
+    "n_active_val_queries": 15,
+    "n_active_known_gt_in_pair": 6,
+    "E_top1_on_active": 0.5,
+    "specialist_acc_on_active": 0.6667
+   },
+   "ablation_by_margin": {
+    "adapter_e/linear": {
+     "0.0": {
+      "corrections": 1,
+      "regressions": 0,
+      "net": 1
+     },
+     "0.05": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     },
+     "0.1": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     },
+     "0.15": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     }
+    },
+    "adapter_e/mlp": {
+     "0.0": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     },
+     "0.05": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     },
+     "0.1": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     },
+     "0.15": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     }
+    },
+    "frozen_dinov2/linear": {
+     "0.0": {
+      "corrections": 1,
+      "regressions": 0,
+      "net": 1
+     },
+     "0.05": {
+      "corrections": 1,
+      "regressions": 0,
+      "net": 1
+     },
+     "0.1": {
+      "corrections": 1,
+      "regressions": 0,
+      "net": 1
+     },
+     "0.15": {
+      "corrections": 1,
+      "regressions": 0,
+      "net": 1
+     }
+    },
+    "frozen_dinov2/mlp": {
+     "0.0": {
+      "corrections": 2,
+      "regressions": 0,
+      "net": 2
+     },
+     "0.05": {
+      "corrections": 2,
+      "regressions": 0,
+      "net": 2
+     },
+     "0.1": {
+      "corrections": 2,
+      "regressions": 0,
+      "net": 2
+     },
+     "0.15": {
+      "corrections": 2,
+      "regressions": 0,
+      "net": 2
+     }
+    }
+   },
+   "selected_margin": 0.0,
+   "individual_at_margin": {
+    "corrections": 1,
+    "regressions": 0,
+    "net": 1
+   },
+   "learning_curve": {
+    "points": [
+     {
+      "frac": 0.4,
+      "n_images": 19,
+      "val_balanced_accuracy": 0.75
+     },
+     {
+      "frac": 0.6,
+      "n_images": 29,
+      "val_balanced_accuracy": 0.75
+     },
+     {
+      "frac": 0.8,
+      "n_images": 38,
+      "val_balanced_accuracy": 0.75
+     },
+     {
+      "frac": 1.0,
+      "n_images": 48,
+      "val_balanced_accuracy": 0.75
+     }
+    ],
+    "slope_per_log_n": 0.0,
+    "target_balanced_accuracy": 0.9,
+    "status": "flat learning curve: more of the same images will not separate this pair",
+    "additional_per_class": null
+   }
+  },
+  {
+   "pair": "caesar_salad <-> salad",
+   "a": "caesar_salad",
+   "b": "salad",
+   "train_images": {
+    "caesar_salad": 30,
+    "salad": 30
+   },
+   "val_images": {
+    "caesar_salad": 10,
+    "salad": 10
+   },
+   "E_errors_involving_pair": 2,
+   "recoverable_E_errors": 2,
+   "chosen_model": "adapter_e/mlp",
+   "mlp_kept": true,
+   "best_epoch": 2,
+   "val_binary": {
+    "adapter_e/linear": {
+     "best_epoch": 9,
+     "accuracy": 0.95,
+     "balanced_accuracy": 0.95,
+     "precision": 0.9091,
+     "recall": 1.0,
+     "confusion_matrix": {
+      "A_as_A": 10,
+      "A_as_B": 0,
+      "B_as_A": 1,
+      "B_as_B": 9
+     }
+    },
+    "adapter_e/mlp": {
+     "best_epoch": 2,
+     "accuracy": 1.0,
+     "balanced_accuracy": 1.0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "confusion_matrix": {
+      "A_as_A": 10,
+      "A_as_B": 0,
+      "B_as_A": 0,
+      "B_as_B": 10
+     }
+    },
+    "frozen_dinov2/linear": {
+     "best_epoch": 6,
+     "accuracy": 0.95,
+     "balanced_accuracy": 0.95,
+     "precision": 0.9091,
+     "recall": 1.0,
+     "confusion_matrix": {
+      "A_as_A": 10,
+      "A_as_B": 0,
+      "B_as_A": 1,
+      "B_as_B": 9
+     }
+    },
+    "frozen_dinov2/mlp": {
+     "best_epoch": 3,
+     "accuracy": 1.0,
+     "balanced_accuracy": 1.0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "confusion_matrix": {
+      "A_as_A": 10,
+      "A_as_B": 0,
+      "B_as_A": 0,
+      "B_as_B": 10
+     }
+    }
+   },
+   "history": {
+    "adapter_e/linear": [
+     {
+      "epoch": 1,
+      "train_loss": 0.92875,
+      "val_accuracy": 0.45,
+      "val_balanced_accuracy": 0.45,
+      "val_precision": 0.4545,
+      "val_recall": 0.5,
+      "val_confusion_matrix": {
+       "A_as_A": 5,
+       "A_as_B": 5,
+       "B_as_A": 6,
+       "B_as_B": 4
+      }
+     },
+     {
+      "epoch": 2,
+      "train_loss": 0.79423,
+      "val_accuracy": 0.5,
+      "val_balanced_accuracy": 0.5,
+      "val_precision": 0.5,
+      "val_recall": 0.5,
+      "val_confusion_matrix": {
+       "A_as_A": 5,
+       "A_as_B": 5,
+       "B_as_A": 5,
+       "B_as_B": 5
+      }
+     },
+     {
+      "epoch": 3,
+      "train_loss": 0.67987,
+      "val_accuracy": 0.7,
+      "val_balanced_accuracy": 0.7,
+      "val_precision": 0.6667,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 8,
+       "A_as_B": 2,
+       "B_as_A": 4,
+       "B_as_B": 6
+      }
+     },
+     {
+      "epoch": 4,
+      "train_loss": 0.58366,
+      "val_accuracy": 0.75,
+      "val_balanced_accuracy": 0.75,
+      "val_precision": 0.6923,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 4,
+       "B_as_B": 6
+      }
+     },
+     {
+      "epoch": 5,
+      "train_loss": 0.50456,
+      "val_accuracy": 0.8,
+      "val_balanced_accuracy": 0.8,
+      "val_precision": 0.75,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 3,
+       "B_as_B": 7
+      }
+     },
+     {
+      "epoch": 6,
+      "train_loss": 0.43973,
+      "val_accuracy": 0.85,
+      "val_balanced_accuracy": 0.85,
+      "val_precision": 0.8182,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 7,
+      "train_loss": 0.38797,
+      "val_accuracy": 0.85,
+      "val_balanced_accuracy": 0.85,
+      "val_precision": 0.8182,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 8,
+      "train_loss": 0.34575,
+      "val_accuracy": 0.9,
+      "val_balanced_accuracy": 0.9,
+      "val_precision": 0.9,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 9,
+      "train_loss": 0.3114,
+      "val_accuracy": 0.95,
+      "val_balanced_accuracy": 0.95,
+      "val_precision": 0.9091,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 10,
+      "train_loss": 0.28245,
+      "val_accuracy": 0.95,
+      "val_balanced_accuracy": 0.95,
+      "val_precision": 0.9091,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 11,
+      "train_loss": 0.25887,
+      "val_accuracy": 0.95,
+      "val_balanced_accuracy": 0.95,
+      "val_precision": 0.9091,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 12,
+      "train_loss": 0.23893,
+      "val_accuracy": 0.95,
+      "val_balanced_accuracy": 0.95,
+      "val_precision": 0.9091,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 13,
+      "train_loss": 0.22191,
+      "val_accuracy": 0.95,
+      "val_balanced_accuracy": 0.95,
+      "val_precision": 0.9091,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     }
+    ],
+    "adapter_e/mlp": [
+     {
+      "epoch": 1,
+      "train_loss": 0.52106,
+      "val_accuracy": 0.95,
+      "val_balanced_accuracy": 0.95,
+      "val_precision": 0.9091,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 2,
+      "train_loss": 0.31523,
+      "val_accuracy": 1.0,
+      "val_balanced_accuracy": 1.0,
+      "val_precision": 1.0,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 0,
+       "B_as_B": 10
+      }
+     },
+     {
+      "epoch": 3,
+      "train_loss": 0.20495,
+      "val_accuracy": 1.0,
+      "val_balanced_accuracy": 1.0,
+      "val_precision": 1.0,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 0,
+       "B_as_B": 10
+      }
+     },
+     {
+      "epoch": 4,
+      "train_loss": 0.14723,
+      "val_accuracy": 0.95,
+      "val_balanced_accuracy": 0.95,
+      "val_precision": 0.9091,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 5,
+      "train_loss": 0.11339,
+      "val_accuracy": 0.95,
+      "val_balanced_accuracy": 0.95,
+      "val_precision": 0.9091,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 6,
+      "train_loss": 0.09412,
+      "val_accuracy": 0.95,
+      "val_balanced_accuracy": 0.95,
+      "val_precision": 0.9091,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     }
+    ],
+    "frozen_dinov2/linear": [
+     {
+      "epoch": 1,
+      "train_loss": 0.64875,
+      "val_accuracy": 0.8,
+      "val_balanced_accuracy": 0.8,
+      "val_precision": 0.75,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 3,
+       "B_as_B": 7
+      }
+     },
+     {
+      "epoch": 2,
+      "train_loss": 0.50615,
+      "val_accuracy": 0.9,
+      "val_balanced_accuracy": 0.9,
+      "val_precision": 0.8333,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 3,
+      "train_loss": 0.40558,
+      "val_accuracy": 0.9,
+      "val_balanced_accuracy": 0.9,
+      "val_precision": 0.8333,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 4,
+      "train_loss": 0.33568,
+      "val_accuracy": 0.85,
+      "val_balanced_accuracy": 0.85,
+      "val_precision": 0.7692,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 3,
+       "B_as_B": 7
+      }
+     },
+     {
+      "epoch": 5,
+      "train_loss": 0.28419,
+      "val_accuracy": 0.85,
+      "val_balanced_accuracy": 0.85,
+      "val_precision": 0.7692,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 3,
+       "B_as_B": 7
+      }
+     },
+     {
+      "epoch": 6,
+      "train_loss": 0.24577,
+      "val_accuracy": 0.95,
+      "val_balanced_accuracy": 0.95,
+      "val_precision": 0.9091,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 7,
+      "train_loss": 0.21671,
+      "val_accuracy": 0.95,
+      "val_balanced_accuracy": 0.95,
+      "val_precision": 0.9091,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 8,
+      "train_loss": 0.19296,
+      "val_accuracy": 0.95,
+      "val_balanced_accuracy": 0.95,
+      "val_precision": 0.9091,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 9,
+      "train_loss": 0.17381,
+      "val_accuracy": 0.95,
+      "val_balanced_accuracy": 0.95,
+      "val_precision": 0.9091,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 10,
+      "train_loss": 0.15782,
+      "val_accuracy": 0.95,
+      "val_balanced_accuracy": 0.95,
+      "val_precision": 0.9091,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     }
+    ],
+    "frozen_dinov2/mlp": [
+     {
+      "epoch": 1,
+      "train_loss": 0.55366,
+      "val_accuracy": 0.95,
+      "val_balanced_accuracy": 0.95,
+      "val_precision": 0.9091,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 2,
+      "train_loss": 0.29569,
+      "val_accuracy": 0.95,
+      "val_balanced_accuracy": 0.95,
+      "val_precision": 0.9091,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 3,
+      "train_loss": 0.17803,
+      "val_accuracy": 1.0,
+      "val_balanced_accuracy": 1.0,
+      "val_precision": 1.0,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 0,
+       "B_as_B": 10
+      }
+     },
+     {
+      "epoch": 4,
+      "train_loss": 0.11435,
+      "val_accuracy": 1.0,
+      "val_balanced_accuracy": 1.0,
+      "val_precision": 1.0,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 0,
+       "B_as_B": 10
+      }
+     },
+     {
+      "epoch": 5,
+      "train_loss": 0.07854,
+      "val_accuracy": 1.0,
+      "val_balanced_accuracy": 1.0,
+      "val_precision": 1.0,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 0,
+       "B_as_B": 10
+      }
+     },
+     {
+      "epoch": 6,
+      "train_loss": 0.05647,
+      "val_accuracy": 1.0,
+      "val_balanced_accuracy": 1.0,
+      "val_precision": 1.0,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 0,
+       "B_as_B": 10
+      }
+     },
+     {
+      "epoch": 7,
+      "train_loss": 0.04041,
+      "val_accuracy": 0.95,
+      "val_balanced_accuracy": 0.95,
+      "val_precision": 0.9091,
+      "val_recall": 1.0,
+      "val_confusion_matrix": {
+       "A_as_A": 10,
+       "A_as_B": 0,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     }
+    ]
+   },
+   "control": {
+    "n_active_val_queries": 40,
+    "n_active_known_gt_in_pair": 20,
+    "E_top1_on_active": 0.85,
+    "specialist_acc_on_active": 1.0
+   },
+   "ablation_by_margin": {
+    "adapter_e/linear": {
+     "0.0": {
+      "corrections": 1,
+      "regressions": 0,
+      "net": 1
+     },
+     "0.05": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     },
+     "0.1": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     },
+     "0.15": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     }
+    },
+    "adapter_e/mlp": {
+     "0.0": {
+      "corrections": 2,
+      "regressions": 0,
+      "net": 2
+     },
+     "0.05": {
+      "corrections": 1,
+      "regressions": 0,
+      "net": 1
+     },
+     "0.1": {
+      "corrections": 1,
+      "regressions": 0,
+      "net": 1
+     },
+     "0.15": {
+      "corrections": 1,
+      "regressions": 0,
+      "net": 1
+     }
+    },
+    "frozen_dinov2/linear": {
+     "0.0": {
+      "corrections": 1,
+      "regressions": 0,
+      "net": 1
+     },
+     "0.05": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     },
+     "0.1": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     },
+     "0.15": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     }
+    },
+    "frozen_dinov2/mlp": {
+     "0.0": {
+      "corrections": 2,
+      "regressions": 0,
+      "net": 2
+     },
+     "0.05": {
+      "corrections": 2,
+      "regressions": 0,
+      "net": 2
+     },
+     "0.1": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     },
+     "0.15": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     }
+    }
+   },
+   "selected_margin": 0.0,
+   "individual_at_margin": {
+    "corrections": 2,
+    "regressions": 0,
+    "net": 2
+   },
+   "learning_curve": {
+    "points": [
+     {
+      "frac": 0.4,
+      "n_images": 24,
+      "val_balanced_accuracy": 1.0
+     },
+     {
+      "frac": 0.6,
+      "n_images": 36,
+      "val_balanced_accuracy": 0.95
+     },
+     {
+      "frac": 0.8,
+      "n_images": 48,
+      "val_balanced_accuracy": 1.0
+     },
+     {
+      "frac": 1.0,
+      "n_images": 60,
+      "val_balanced_accuracy": 1.0
+     }
+    ],
+    "slope_per_log_n": 0.0105,
+    "target_balanced_accuracy": 0.9,
+    "status": "target already met",
+    "additional_per_class": 0
+   }
+  },
+  {
+   "pair": "guacamole <-> hummus",
+   "a": "guacamole",
+   "b": "hummus",
+   "train_images": {
+    "guacamole": 30,
+    "hummus": 30
+   },
+   "val_images": {
+    "guacamole": 10,
+    "hummus": 10
+   },
+   "E_errors_involving_pair": 2,
+   "recoverable_E_errors": 2,
+   "chosen_model": "adapter_e/mlp",
+   "mlp_kept": true,
+   "best_epoch": 2,
+   "val_binary": {
+    "adapter_e/linear": {
+     "best_epoch": 9,
+     "accuracy": 0.8,
+     "balanced_accuracy": 0.8,
+     "precision": 0.8,
+     "recall": 0.8,
+     "confusion_matrix": {
+      "A_as_A": 8,
+      "A_as_B": 2,
+      "B_as_A": 2,
+      "B_as_B": 8
+     }
+    },
+    "adapter_e/mlp": {
+     "best_epoch": 2,
+     "accuracy": 0.85,
+     "balanced_accuracy": 0.85,
+     "precision": 0.8889,
+     "recall": 0.8,
+     "confusion_matrix": {
+      "A_as_A": 8,
+      "A_as_B": 2,
+      "B_as_A": 1,
+      "B_as_B": 9
+     }
+    },
+    "frozen_dinov2/linear": {
+     "best_epoch": 3,
+     "accuracy": 0.9,
+     "balanced_accuracy": 0.9,
+     "precision": 0.9,
+     "recall": 0.9,
+     "confusion_matrix": {
+      "A_as_A": 9,
+      "A_as_B": 1,
+      "B_as_A": 1,
+      "B_as_B": 9
+     }
+    },
+    "frozen_dinov2/mlp": {
+     "best_epoch": 1,
+     "accuracy": 0.9,
+     "balanced_accuracy": 0.9,
+     "precision": 0.9,
+     "recall": 0.9,
+     "confusion_matrix": {
+      "A_as_A": 9,
+      "A_as_B": 1,
+      "B_as_A": 1,
+      "B_as_B": 9
+     }
+    }
+   },
+   "history": {
+    "adapter_e/linear": [
+     {
+      "epoch": 1,
+      "train_loss": 0.82682,
+      "val_accuracy": 0.4,
+      "val_balanced_accuracy": 0.4,
+      "val_precision": 0.4375,
+      "val_recall": 0.7,
+      "val_confusion_matrix": {
+       "A_as_A": 7,
+       "A_as_B": 3,
+       "B_as_A": 9,
+       "B_as_B": 1
+      }
+     },
+     {
+      "epoch": 2,
+      "train_loss": 0.71127,
+      "val_accuracy": 0.5,
+      "val_balanced_accuracy": 0.5,
+      "val_precision": 0.5,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 8,
+       "A_as_B": 2,
+       "B_as_A": 8,
+       "B_as_B": 2
+      }
+     },
+     {
+      "epoch": 3,
+      "train_loss": 0.61288,
+      "val_accuracy": 0.55,
+      "val_balanced_accuracy": 0.55,
+      "val_precision": 0.5333,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 8,
+       "A_as_B": 2,
+       "B_as_A": 7,
+       "B_as_B": 3
+      }
+     },
+     {
+      "epoch": 4,
+      "train_loss": 0.53085,
+      "val_accuracy": 0.65,
+      "val_balanced_accuracy": 0.65,
+      "val_precision": 0.6154,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 8,
+       "A_as_B": 2,
+       "B_as_A": 5,
+       "B_as_B": 5
+      }
+     },
+     {
+      "epoch": 5,
+      "train_loss": 0.46177,
+      "val_accuracy": 0.65,
+      "val_balanced_accuracy": 0.65,
+      "val_precision": 0.6154,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 8,
+       "A_as_B": 2,
+       "B_as_A": 5,
+       "B_as_B": 5
+      }
+     },
+     {
+      "epoch": 6,
+      "train_loss": 0.40645,
+      "val_accuracy": 0.65,
+      "val_balanced_accuracy": 0.65,
+      "val_precision": 0.6154,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 8,
+       "A_as_B": 2,
+       "B_as_A": 5,
+       "B_as_B": 5
+      }
+     },
+     {
+      "epoch": 7,
+      "train_loss": 0.361,
+      "val_accuracy": 0.65,
+      "val_balanced_accuracy": 0.65,
+      "val_precision": 0.6154,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 8,
+       "A_as_B": 2,
+       "B_as_A": 5,
+       "B_as_B": 5
+      }
+     },
+     {
+      "epoch": 8,
+      "train_loss": 0.32385,
+      "val_accuracy": 0.7,
+      "val_balanced_accuracy": 0.7,
+      "val_precision": 0.6667,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 8,
+       "A_as_B": 2,
+       "B_as_A": 4,
+       "B_as_B": 6
+      }
+     },
+     {
+      "epoch": 9,
+      "train_loss": 0.29338,
+      "val_accuracy": 0.8,
+      "val_balanced_accuracy": 0.8,
+      "val_precision": 0.8,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 8,
+       "A_as_B": 2,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 10,
+      "train_loss": 0.26784,
+      "val_accuracy": 0.8,
+      "val_balanced_accuracy": 0.8,
+      "val_precision": 0.8,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 8,
+       "A_as_B": 2,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 11,
+      "train_loss": 0.24632,
+      "val_accuracy": 0.8,
+      "val_balanced_accuracy": 0.8,
+      "val_precision": 0.8,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 8,
+       "A_as_B": 2,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 12,
+      "train_loss": 0.22781,
+      "val_accuracy": 0.8,
+      "val_balanced_accuracy": 0.8,
+      "val_precision": 0.8,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 8,
+       "A_as_B": 2,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 13,
+      "train_loss": 0.21202,
+      "val_accuracy": 0.8,
+      "val_balanced_accuracy": 0.8,
+      "val_precision": 0.8,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 8,
+       "A_as_B": 2,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     }
+    ],
+    "adapter_e/mlp": [
+     {
+      "epoch": 1,
+      "train_loss": 0.59946,
+      "val_accuracy": 0.75,
+      "val_balanced_accuracy": 0.75,
+      "val_precision": 0.7778,
+      "val_recall": 0.7,
+      "val_confusion_matrix": {
+       "A_as_A": 7,
+       "A_as_B": 3,
+       "B_as_A": 2,
+       "B_as_B": 8
+      }
+     },
+     {
+      "epoch": 2,
+      "train_loss": 0.38241,
+      "val_accuracy": 0.85,
+      "val_balanced_accuracy": 0.85,
+      "val_precision": 0.8889,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 8,
+       "A_as_B": 2,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 3,
+      "train_loss": 0.25276,
+      "val_accuracy": 0.85,
+      "val_balanced_accuracy": 0.85,
+      "val_precision": 0.8889,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 8,
+       "A_as_B": 2,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 4,
+      "train_loss": 0.17732,
+      "val_accuracy": 0.85,
+      "val_balanced_accuracy": 0.85,
+      "val_precision": 0.8889,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 8,
+       "A_as_B": 2,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 5,
+      "train_loss": 0.13192,
+      "val_accuracy": 0.85,
+      "val_balanced_accuracy": 0.85,
+      "val_precision": 0.8889,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 8,
+       "A_as_B": 2,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 6,
+      "train_loss": 0.10251,
+      "val_accuracy": 0.85,
+      "val_balanced_accuracy": 0.85,
+      "val_precision": 0.8889,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 8,
+       "A_as_B": 2,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     }
+    ],
+    "frozen_dinov2/linear": [
+     {
+      "epoch": 1,
+      "train_loss": 0.70051,
+      "val_accuracy": 0.7,
+      "val_balanced_accuracy": 0.7,
+      "val_precision": 0.6667,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 8,
+       "A_as_B": 2,
+       "B_as_A": 4,
+       "B_as_B": 6
+      }
+     },
+     {
+      "epoch": 2,
+      "train_loss": 0.57156,
+      "val_accuracy": 0.75,
+      "val_balanced_accuracy": 0.75,
+      "val_precision": 0.7273,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 8,
+       "A_as_B": 2,
+       "B_as_A": 3,
+       "B_as_B": 7
+      }
+     },
+     {
+      "epoch": 3,
+      "train_loss": 0.46899,
+      "val_accuracy": 0.9,
+      "val_balanced_accuracy": 0.9,
+      "val_precision": 0.9,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 4,
+      "train_loss": 0.38984,
+      "val_accuracy": 0.9,
+      "val_balanced_accuracy": 0.9,
+      "val_precision": 0.9,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 5,
+      "train_loss": 0.32836,
+      "val_accuracy": 0.9,
+      "val_balanced_accuracy": 0.9,
+      "val_precision": 0.9,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 6,
+      "train_loss": 0.28074,
+      "val_accuracy": 0.9,
+      "val_balanced_accuracy": 0.9,
+      "val_precision": 0.9,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 7,
+      "train_loss": 0.24405,
+      "val_accuracy": 0.9,
+      "val_balanced_accuracy": 0.9,
+      "val_precision": 0.9,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     }
+    ],
+    "frozen_dinov2/mlp": [
+     {
+      "epoch": 1,
+      "train_loss": 0.57833,
+      "val_accuracy": 0.9,
+      "val_balanced_accuracy": 0.9,
+      "val_precision": 0.9,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 2,
+      "train_loss": 0.31433,
+      "val_accuracy": 0.9,
+      "val_balanced_accuracy": 0.9,
+      "val_precision": 0.9,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 3,
+      "train_loss": 0.18384,
+      "val_accuracy": 0.9,
+      "val_balanced_accuracy": 0.9,
+      "val_precision": 0.9,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 4,
+      "train_loss": 0.11579,
+      "val_accuracy": 0.9,
+      "val_balanced_accuracy": 0.9,
+      "val_precision": 0.9,
+      "val_recall": 0.9,
+      "val_confusion_matrix": {
+       "A_as_A": 9,
+       "A_as_B": 1,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     },
+     {
+      "epoch": 5,
+      "train_loss": 0.07605,
+      "val_accuracy": 0.85,
+      "val_balanced_accuracy": 0.85,
+      "val_precision": 0.8889,
+      "val_recall": 0.8,
+      "val_confusion_matrix": {
+       "A_as_A": 8,
+       "A_as_B": 2,
+       "B_as_A": 1,
+       "B_as_B": 9
+      }
+     }
+    ]
+   },
+   "control": {
+    "n_active_val_queries": 34,
+    "n_active_known_gt_in_pair": 17,
+    "E_top1_on_active": 0.8235,
+    "specialist_acc_on_active": 0.8824
+   },
+   "ablation_by_margin": {
+    "adapter_e/linear": {
+     "0.0": {
+      "corrections": 1,
+      "regressions": 1,
+      "net": 0
+     },
+     "0.05": {
+      "corrections": 1,
+      "regressions": 1,
+      "net": 0
+     },
+     "0.1": {
+      "corrections": 1,
+      "regressions": 1,
+      "net": 0
+     },
+     "0.15": {
+      "corrections": 1,
+      "regressions": 1,
+      "net": 0
+     }
+    },
+    "adapter_e/mlp": {
+     "0.0": {
+      "corrections": 1,
+      "regressions": 0,
+      "net": 1
+     },
+     "0.05": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     },
+     "0.1": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     },
+     "0.15": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     }
+    },
+    "frozen_dinov2/linear": {
+     "0.0": {
+      "corrections": 1,
+      "regressions": 1,
+      "net": 0
+     },
+     "0.05": {
+      "corrections": 1,
+      "regressions": 1,
+      "net": 0
+     },
+     "0.1": {
+      "corrections": 1,
+      "regressions": 1,
+      "net": 0
+     },
+     "0.15": {
+      "corrections": 1,
+      "regressions": 1,
+      "net": 0
+     }
+    },
+    "frozen_dinov2/mlp": {
+     "0.0": {
+      "corrections": 1,
+      "regressions": 0,
+      "net": 1
+     },
+     "0.05": {
+      "corrections": 1,
+      "regressions": 0,
+      "net": 1
+     },
+     "0.1": {
+      "corrections": 1,
+      "regressions": 0,
+      "net": 1
+     },
+     "0.15": {
+      "corrections": 0,
+      "regressions": 0,
+      "net": 0
+     }
+    }
+   },
+   "selected_margin": 0.0,
+   "individual_at_margin": {
+    "corrections": 1,
+    "regressions": 0,
+    "net": 1
+   },
+   "learning_curve": {
+    "points": [
+     {
+      "frac": 0.4,
+      "n_images": 24,
+      "val_balanced_accuracy": 0.8
+     },
+     {
+      "frac": 0.6,
+      "n_images": 36,
+      "val_balanced_accuracy": 0.85
+     },
+     {
+      "frac": 0.8,
+      "n_images": 48,
+      "val_balanced_accuracy": 0.85
+     },
+     {
+      "frac": 1.0,
+      "n_images": 60,
+      "val_balanced_accuracy": 0.85
+     }
+    ],
+    "slope_per_log_n": 0.0536,
+    "target_balanced_accuracy": 0.9,
+    "status": "log-linear extrapolation",
+    "n_images_needed_total": 128,
+    "additional_per_class": 34,
+    "extrapolation_factor": 2.12
+   }
+  }
+ ],
+ "final_changed_or_wrong_queries": [
+  {
+   "query_id": "ce6b6031-ff75-4e35-b312-1396e4d5e6c2",
+   "gt": "bibimbap",
+   "E_top5": [
+    "rice",
+    "bibimbap",
+    "fried_rice",
+    "biryani",
+    "pad_thai"
+   ],
+   "V7_top5": [
+    "rice",
+    "bibimbap",
+    "biryani",
+    "fried_rice",
+    "pad_thai"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "65a3eeee-e25d-49bf-ac63-57b9e67aef5a",
+   "gt": "biryani",
+   "E_top5": [
+    "fried_rice",
+    "biryani",
+    "rice",
+    "pad_thai",
+    "bibimbap"
+   ],
+   "V7_top5": [
+    "biryani",
+    "fried_rice",
+    "rice",
+    "pad_thai",
+    "bibimbap"
+   ],
+   "E_ok": false,
+   "V7_ok": true
+  },
+  {
+   "query_id": "a974f0ce-693f-42ea-a741-2e8a321314ce",
+   "gt": "biryani",
+   "E_top5": [
+    "biryani",
+    "fried_rice",
+    "rice",
+    "pad_thai",
+    "tomato_paste"
+   ],
+   "V7_top5": [
+    "fried_rice",
+    "biryani",
+    "rice",
+    "pad_thai",
+    "tomato_paste"
+   ],
+   "E_ok": true,
+   "V7_ok": false
+  },
+  {
+   "query_id": "0b39c841-a865-407e-9a89-fc6070c75ee3",
+   "gt": "biryani",
+   "E_top5": [
+    "tomato_paste",
+    "biryani",
+    "packaged_cheese",
+    "rice",
+    "non_food"
+   ],
+   "V7_top5": [
+    "tomato_paste",
+    "biryani",
+    "packaged_cheese",
+    "rice",
+    "non_food"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "ffb4ddce-60a4-4127-a852-ccac6496bcf7",
+   "gt": "biryani",
+   "E_top5": [
+    "tomato_paste",
+    "yogurt",
+    "hummus",
+    "non_food",
+    "rice"
+   ],
+   "V7_top5": [
+    "tomato_paste",
+    "yogurt",
+    "hummus",
+    "non_food",
+    "rice"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "44797329-a737-4445-9c4d-8aa237a0322c",
+   "gt": "biryani",
+   "E_top5": [
+    "omelette",
+    "caesar_salad",
+    "pizza",
+    "biryani",
+    "guacamole"
+   ],
+   "V7_top5": [
+    "omelette",
+    "caesar_salad",
+    "pizza",
+    "biryani",
+    "guacamole"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "11fd0517-c463-4e10-ae02-afd0588e5a45",
+   "gt": "biryani",
+   "E_top5": [
+    "fried_rice",
+    "biryani",
+    "rice",
+    "pad_thai",
+    "bibimbap"
+   ],
+   "V7_top5": [
+    "biryani",
+    "fried_rice",
+    "rice",
+    "pad_thai",
+    "bibimbap"
+   ],
+   "E_ok": false,
+   "V7_ok": true
+  },
+  {
+   "query_id": "82379f65-7d81-4fea-a3ec-6383691cada8",
+   "gt": "cheese",
+   "E_top5": [
+    "omelette",
+    "biryani",
+    "guacamole",
+    "hummus",
+    "yogurt"
+   ],
+   "V7_top5": [
+    "omelette",
+    "biryani",
+    "guacamole",
+    "hummus",
+    "yogurt"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "3dd0d83a-9b42-4927-9e4f-db23a6c7c744",
+   "gt": "cheese",
+   "E_top5": [
+    "salad",
+    "guacamole",
+    "hummus",
+    "yogurt",
+    "tomato"
+   ],
+   "V7_top5": [
+    "salad",
+    "guacamole",
+    "hummus",
+    "yogurt",
+    "tomato"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "5001faac-0ca6-4ed7-b10b-68c8ed2f3de1",
+   "gt": "cream",
+   "E_top5": [
+    "ice_cream",
+    "cream",
+    "yogurt",
+    "donuts",
+    "ginger"
+   ],
+   "V7_top5": [
+    "ice_cream",
+    "cream",
+    "yogurt",
+    "donuts",
+    "ginger"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "e60462d7-fcf6-4eec-812f-f58caff93ff8",
+   "gt": "cream",
+   "E_top5": [
+    "ice_cream",
+    "cream",
+    "yogurt",
+    "hummus",
+    "donuts"
+   ],
+   "V7_top5": [
+    "cream",
+    "ice_cream",
+    "yogurt",
+    "hummus",
+    "donuts"
+   ],
+   "E_ok": false,
+   "V7_ok": true
+  },
+  {
+   "query_id": "27131d64-42a9-4cdc-8c47-edbef8b74df6",
+   "gt": "donuts",
+   "E_top5": [
+    "biryani",
+    "rice",
+    "packaged_cheese",
+    "ice_cream",
+    "fried_rice"
+   ],
+   "V7_top5": [
+    "biryani",
+    "rice",
+    "packaged_cheese",
+    "ice_cream",
+    "fried_rice"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "452cf3f3-0e75-4a11-b1e9-d3eae7227cc6",
+   "gt": "french_fries",
+   "E_top5": [
+    "donuts",
+    "ice_cream",
+    "yogurt",
+    "cheese",
+    "tomato_paste"
+   ],
+   "V7_top5": [
+    "donuts",
+    "ice_cream",
+    "yogurt",
+    "cheese",
+    "tomato_paste"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "23d5de8a-75b3-4f18-be80-43c26ed394da",
+   "gt": "fried_rice",
+   "E_top5": [
+    "bibimbap",
+    "fried_rice",
+    "rice",
+    "biryani",
+    "pad_thai"
+   ],
+   "V7_top5": [
+    "bibimbap",
+    "fried_rice",
+    "rice",
+    "biryani",
+    "pad_thai"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "75d45f60-cdd1-4524-9449-ef071753432f",
+   "gt": "fried_rice",
+   "E_top5": [
+    "biryani",
+    "fried_rice",
+    "pad_thai",
+    "rice",
+    "pasta"
+   ],
+   "V7_top5": [
+    "biryani",
+    "fried_rice",
+    "pad_thai",
+    "rice",
+    "pasta"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "385e5ca1-790d-4f11-a647-1efcdda5a921",
+   "gt": "fried_rice",
+   "E_top5": [
+    "rice",
+    "biryani",
+    "fried_rice",
+    "bibimbap",
+    "hummus"
+   ],
+   "V7_top5": [
+    "rice",
+    "biryani",
+    "fried_rice",
+    "bibimbap",
+    "hummus"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "758c9b8e-950f-459a-adc8-e899cc1f826d",
+   "gt": "fried_rice",
+   "E_top5": [
+    "pad_thai",
+    "french_fries",
+    "rice",
+    "biryani",
+    "fried_rice"
+   ],
+   "V7_top5": [
+    "pad_thai",
+    "french_fries",
+    "rice",
+    "biryani",
+    "fried_rice"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "f0b6afd6-f7cf-4426-81c0-9bd1ba93440c",
+   "gt": "garlic",
+   "E_top5": [
+    "tomato_paste",
+    "rice",
+    "yogurt",
+    "ice_cream",
+    "pad_thai"
+   ],
+   "V7_top5": [
+    "tomato_paste",
+    "rice",
+    "yogurt",
+    "ice_cream",
+    "pad_thai"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "58e6c7dc-2d5d-4e3f-92d9-c0d7b3071809",
+   "gt": "garlic",
+   "E_top5": [
+    "yogurt",
+    "hummus",
+    "rice",
+    "donuts",
+    "salad"
+   ],
+   "V7_top5": [
+    "yogurt",
+    "hummus",
+    "rice",
+    "donuts",
+    "salad"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "c7672c2c-bc53-4732-89a3-b4e220f14619",
+   "gt": "ginger",
+   "E_top5": [
+    "tomato_paste",
+    "packaged_cheese",
+    "ginger",
+    "non_food",
+    "rice"
+   ],
+   "V7_top5": [
+    "tomato_paste",
+    "packaged_cheese",
+    "ginger",
+    "non_food",
+    "rice"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "6ec1af71-efd7-45e1-85ef-51f8ae0a3d14",
+   "gt": "guacamole",
+   "E_top5": [
+    "omelette",
+    "guacamole",
+    "biryani",
+    "spring_rolls",
+    "rice"
+   ],
+   "V7_top5": [
+    "omelette",
+    "guacamole",
+    "biryani",
+    "spring_rolls",
+    "rice"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "f9618f94-378b-4779-9fac-c83f97672b98",
+   "gt": "guacamole",
+   "E_top5": [
+    "hummus",
+    "guacamole",
+    "salad",
+    "yogurt",
+    "caesar_salad"
+   ],
+   "V7_top5": [
+    "guacamole",
+    "hummus",
+    "salad",
+    "yogurt",
+    "caesar_salad"
+   ],
+   "E_ok": false,
+   "V7_ok": true
+  },
+  {
+   "query_id": "3b13b97f-7d33-4a0d-baff-dcf4280a8bde",
+   "gt": "guacamole",
+   "E_top5": [
+    "club_sandwich",
+    "guacamole",
+    "hummus",
+    "cream",
+    "tomato_paste"
+   ],
+   "V7_top5": [
+    "club_sandwich",
+    "hummus",
+    "guacamole",
+    "cream",
+    "tomato_paste"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "919fbcb5-47e6-4613-bc6c-4f4dc100fe3f",
+   "gt": "guacamole",
+   "E_top5": [
+    "hummus",
+    "guacamole",
+    "yogurt",
+    "salad",
+    "rice"
+   ],
+   "V7_top5": [
+    "hummus",
+    "guacamole",
+    "yogurt",
+    "salad",
+    "rice"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "ee5cd632-3959-4ae6-9cdf-a8ecc0369dae",
+   "gt": "hummus",
+   "E_top5": [
+    "tomato_paste",
+    "garlic",
+    "packaged_cheese",
+    "non_food",
+    "hummus"
+   ],
+   "V7_top5": [
+    "tomato_paste",
+    "garlic",
+    "packaged_cheese",
+    "non_food",
+    "hummus"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "29425755-7bce-4486-aa3a-6e0edda1ef06",
+   "gt": "hummus",
+   "E_top5": [
+    "packaged_cheese",
+    "tomato_paste",
+    "non_food",
+    "pasta",
+    "tomato"
+   ],
+   "V7_top5": [
+    "packaged_cheese",
+    "tomato_paste",
+    "non_food",
+    "pasta",
+    "tomato"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "e4e5f322-5384-44b7-86d0-b6afb017b697",
+   "gt": "ice_cream",
+   "E_top5": [
+    "yogurt",
+    "ice_cream",
+    "cream",
+    "hummus",
+    "donuts"
+   ],
+   "V7_top5": [
+    "yogurt",
+    "ice_cream",
+    "cream",
+    "hummus",
+    "donuts"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "5a3927f6-8dcf-4788-ba44-c7a5c28d2b58",
+   "gt": "ice_cream",
+   "E_top5": [
+    "cream",
+    "ice_cream",
+    "yogurt",
+    "donuts",
+    "hummus"
+   ],
+   "V7_top5": [
+    "cream",
+    "ice_cream",
+    "yogurt",
+    "donuts",
+    "hummus"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "280b46fb-8570-47ae-96b4-a13e6ea2453b",
+   "gt": "ice_cream",
+   "E_top5": [
+    "cream",
+    "yogurt",
+    "ice_cream",
+    "donuts",
+    "hummus"
+   ],
+   "V7_top5": [
+    "cream",
+    "yogurt",
+    "ice_cream",
+    "donuts",
+    "hummus"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "a2ddf81f-0873-493f-8103-d567c2c54a55",
+   "gt": "omelette",
+   "E_top5": [
+    "bibimbap",
+    "tomato",
+    "biryani",
+    "salad",
+    "pad_thai"
+   ],
+   "V7_top5": [
+    "bibimbap",
+    "tomato",
+    "biryani",
+    "salad",
+    "pad_thai"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "99d43ebe-7dc2-4f73-8b08-0b07b8dcb98b",
+   "gt": "packaged_cheese",
+   "E_top5": [
+    "cheese",
+    "donuts",
+    "packaged_cheese",
+    "cream",
+    "pizza"
+   ],
+   "V7_top5": [
+    "cheese",
+    "donuts",
+    "packaged_cheese",
+    "cream",
+    "pizza"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "539e8002-5504-4e57-bc00-0bd0ac60aa00",
+   "gt": "packaged_cheese",
+   "E_top5": [
+    "cheese",
+    "packaged_cheese",
+    "cream",
+    "donuts",
+    "pizza"
+   ],
+   "V7_top5": [
+    "cheese",
+    "packaged_cheese",
+    "cream",
+    "donuts",
+    "pizza"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "523c8785-1a84-4059-901d-086cc5fa8630",
+   "gt": "packaged_cheese",
+   "E_top5": [
+    "cheese",
+    "donuts",
+    "cream",
+    "packaged_cheese",
+    "club_sandwich"
+   ],
+   "V7_top5": [
+    "packaged_cheese",
+    "donuts",
+    "cream",
+    "cheese",
+    "club_sandwich"
+   ],
+   "E_ok": false,
+   "V7_ok": true
+  },
+  {
+   "query_id": "8c04f513-c973-4502-b965-df87751c6771",
+   "gt": "pad_thai",
+   "E_top5": [
+    "omelette",
+    "lasagna",
+    "biryani",
+    "bibimbap",
+    "pasta"
+   ],
+   "V7_top5": [
+    "omelette",
+    "lasagna",
+    "biryani",
+    "bibimbap",
+    "pasta"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "eae93194-24c8-42d5-8ca8-c780e4145697",
+   "gt": "pad_thai",
+   "E_top5": [
+    "omelette",
+    "lasagna",
+    "biryani",
+    "bibimbap",
+    "guacamole"
+   ],
+   "V7_top5": [
+    "omelette",
+    "lasagna",
+    "biryani",
+    "bibimbap",
+    "guacamole"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "46e70ce8-2736-4682-8221-d43877107b25",
+   "gt": "pasta",
+   "E_top5": [
+    "pad_thai",
+    "rice",
+    "fried_rice",
+    "biryani",
+    "pasta"
+   ],
+   "V7_top5": [
+    "pad_thai",
+    "rice",
+    "biryani",
+    "fried_rice",
+    "pasta"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "7ef252ae-53dd-4107-bb7d-d317978ff0dd",
+   "gt": "pasta",
+   "E_top5": [
+    "lasagna",
+    "pasta",
+    "omelette",
+    "biryani",
+    "pad_thai"
+   ],
+   "V7_top5": [
+    "lasagna",
+    "pasta",
+    "omelette",
+    "biryani",
+    "pad_thai"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "9bddadfe-87d7-480a-bd09-d6add920a392",
+   "gt": "rice",
+   "E_top5": [
+    "biryani",
+    "rice",
+    "fried_rice",
+    "pad_thai",
+    "bibimbap"
+   ],
+   "V7_top5": [
+    "biryani",
+    "rice",
+    "fried_rice",
+    "pad_thai",
+    "bibimbap"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "169418c8-20cd-4813-a0c8-0da37605e244",
+   "gt": "salad",
+   "E_top5": [
+    "caesar_salad",
+    "salad",
+    "guacamole",
+    "club_sandwich",
+    "hummus"
+   ],
+   "V7_top5": [
+    "salad",
+    "caesar_salad",
+    "guacamole",
+    "club_sandwich",
+    "hummus"
+   ],
+   "E_ok": false,
+   "V7_ok": true
+  },
+  {
+   "query_id": "15c6e3ca-1db1-4314-8362-2403e7ed55a1",
+   "gt": "salad",
+   "E_top5": [
+    "guacamole",
+    "caesar_salad",
+    "salad",
+    "spring_rolls",
+    "club_sandwich"
+   ],
+   "V7_top5": [
+    "guacamole",
+    "salad",
+    "caesar_salad",
+    "spring_rolls",
+    "club_sandwich"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "645ed8e9-8a32-440f-a5d4-d19ebe433f96",
+   "gt": "salad",
+   "E_top5": [
+    "caesar_salad",
+    "salad",
+    "club_sandwich",
+    "guacamole",
+    "tomato"
+   ],
+   "V7_top5": [
+    "salad",
+    "caesar_salad",
+    "club_sandwich",
+    "guacamole",
+    "tomato"
+   ],
+   "E_ok": false,
+   "V7_ok": true
+  },
+  {
+   "query_id": "12c7a397-21a1-40e5-84bc-97d069c012b4",
+   "gt": "spring_rolls",
+   "E_top5": [
+    "cheese",
+    "donuts",
+    "packaged_cheese",
+    "cream",
+    "club_sandwich"
+   ],
+   "V7_top5": [
+    "packaged_cheese",
+    "donuts",
+    "cheese",
+    "cream",
+    "club_sandwich"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  },
+  {
+   "query_id": "f850f25e-29c8-4398-abb9-4660595376d1",
+   "gt": "tomato_paste",
+   "E_top5": [
+    "salad",
+    "tomato_paste",
+    "yogurt",
+    "tomato",
+    "guacamole"
+   ],
+   "V7_top5": [
+    "salad",
+    "tomato_paste",
+    "yogurt",
+    "tomato",
+    "guacamole"
+   ],
+   "E_ok": false,
+   "V7_ok": false
+  }
+ ],
+ "theoretical_v7_ceiling": 0.9483,
+ "max_recoverable_by_selected_pairs": 14,
+ "inputs": {
+  "confusion_analysis_sha256": "0f34b52b20f0198cb6be604c04b2a8c169f595af22be22c51e396658b6ffe2e6",
+  "specialist_selection_sha256": "c0e06fdc8b37546b722df37832cf52bf6eed2a20188985730a20ef87102a9e0c",
+  "photo_manifest_sha256": "89ea9b20effdf40983ce670722f43fce42e44bd4378cc5810853dbba94c656e0",
+  "library_manifest_sha256": "7e95ee5636af0a14b2839b1a242699bc02635b5d0956c6d6e89a5b9019fc0a02",
+  "embedding_cache": "kaggle kernel kathiresannatarajan/kiq-v5-adapter-e v1 /v5_adapter_e/emb_cache.npz",
+  "embedding_cache_sha256": "482d26ea3082c637f5b271fe3b408247065bc384ea49af649ccb0a63f562d3db",
+  "cache_library_alignment_maxabs": 5.00120222568512e-07,
+  "adapter_e_config_sha256": "ab26699426b4eb71b52166c99b38c0d2376098bde8a43dcb5b45d075e49020cc",
+  "adapter_e_checkpoint_sha256": "40ff977e1b90866436f663bd9c2014b26d1fd55bc72d65649ab427d8afa9b331",
+  "scorer_source_sha256": "ec2dd8a44f48246bd810d619b3495acb9a4a4ecc40994d92809ce20767e9a270"
+ },
+ "selection_bias_note": "model variant, epoch and margin are all chosen on the same VAL split that is scored"
+}

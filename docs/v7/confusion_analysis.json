@@ -1,0 +1,1111 @@
+{
+ "test_used": false,
+ "n_known_val": 232,
+ "E_correct": 190,
+ "E_errors": 42,
+ "E_errors_recoverable": 30,
+ "E_errors_nonrecoverable": 12,
+ "E_top1": 0.819,
+ "theoretical_v7_ceiling": 0.9483,
+ "theoretical_v7_ceiling_count": 220,
+ "required_for_success": {
+  "abs_top1_gain": 0.02,
+  "net_queries": 5
+ },
+ "cross_check_v6": {
+  "v6_absent_from_top5": 12,
+  "matches": true
+ },
+ "pairs": [
+  {
+   "pair": "cream <-> ice_cream",
+   "total_errors": 4,
+   "recoverable_errors": 4,
+   "nonrecoverable_errors": 0,
+   "correct_in_top5_rate": 1.0,
+   "average_score_gap": 0.0213,
+   "maximum_possible_recovery": 4,
+   "directions": {
+    "cream -> ice_cream": 2,
+    "ice_cream -> cream": 2
+   }
+  },
+  {
+   "pair": "biryani <-> fried_rice",
+   "total_errors": 3,
+   "recoverable_errors": 3,
+   "nonrecoverable_errors": 0,
+   "correct_in_top5_rate": 1.0,
+   "average_score_gap": 0.0062,
+   "maximum_possible_recovery": 3,
+   "directions": {
+    "biryani -> fried_rice": 2,
+    "fried_rice -> biryani": 1
+   }
+  },
+  {
+   "pair": "cheese <-> packaged_cheese",
+   "total_errors": 3,
+   "recoverable_errors": 3,
+   "nonrecoverable_errors": 0,
+   "correct_in_top5_rate": 1.0,
+   "average_score_gap": 0.1301,
+   "maximum_possible_recovery": 3,
+   "directions": {
+    "packaged_cheese -> cheese": 3
+   }
+  },
+  {
+   "pair": "caesar_salad <-> salad",
+   "total_errors": 2,
+   "recoverable_errors": 2,
+   "nonrecoverable_errors": 0,
+   "correct_in_top5_rate": 1.0,
+   "average_score_gap": 0.0179,
+   "maximum_possible_recovery": 2,
+   "directions": {
+    "salad -> caesar_salad": 2
+   }
+  },
+  {
+   "pair": "guacamole <-> hummus",
+   "total_errors": 2,
+   "recoverable_errors": 2,
+   "nonrecoverable_errors": 0,
+   "correct_in_top5_rate": 1.0,
+   "average_score_gap": 0.013,
+   "maximum_possible_recovery": 2,
+   "directions": {
+    "guacamole -> hummus": 2
+   }
+  },
+  {
+   "pair": "biryani <-> tomato_paste",
+   "total_errors": 2,
+   "recoverable_errors": 1,
+   "nonrecoverable_errors": 1,
+   "correct_in_top5_rate": 0.5,
+   "average_score_gap": 0.0513,
+   "maximum_possible_recovery": 1,
+   "directions": {
+    "biryani -> tomato_paste": 2
+   }
+  },
+  {
+   "pair": "bibimbap <-> fried_rice",
+   "total_errors": 1,
+   "recoverable_errors": 1,
+   "nonrecoverable_errors": 0,
+   "correct_in_top5_rate": 1.0,
+   "average_score_gap": 0.0412,
+   "maximum_possible_recovery": 1,
+   "directions": {
+    "fried_rice -> bibimbap": 1
+   }
+  },
+  {
+   "pair": "bibimbap <-> rice",
+   "total_errors": 1,
+   "recoverable_errors": 1,
+   "nonrecoverable_errors": 0,
+   "correct_in_top5_rate": 1.0,
+   "average_score_gap": 0.057,
+   "maximum_possible_recovery": 1,
+   "directions": {
+    "bibimbap -> rice": 1
+   }
+  },
+  {
+   "pair": "biryani <-> omelette",
+   "total_errors": 1,
+   "recoverable_errors": 1,
+   "nonrecoverable_errors": 0,
+   "correct_in_top5_rate": 1.0,
+   "average_score_gap": 0.038,
+   "maximum_possible_recovery": 1,
+   "directions": {
+    "biryani -> omelette": 1
+   }
+  },
+  {
+   "pair": "biryani <-> rice",
+   "total_errors": 1,
+   "recoverable_errors": 1,
+   "nonrecoverable_errors": 0,
+   "correct_in_top5_rate": 1.0,
+   "average_score_gap": 0.0226,
+   "maximum_possible_recovery": 1,
+   "directions": {
+    "rice -> biryani": 1
+   }
+  },
+  {
+   "pair": "club_sandwich <-> guacamole",
+   "total_errors": 1,
+   "recoverable_errors": 1,
+   "nonrecoverable_errors": 0,
+   "correct_in_top5_rate": 1.0,
+   "average_score_gap": 0.0371,
+   "maximum_possible_recovery": 1,
+   "directions": {
+    "guacamole -> club_sandwich": 1
+   }
+  },
+  {
+   "pair": "fried_rice <-> pad_thai",
+   "total_errors": 1,
+   "recoverable_errors": 1,
+   "nonrecoverable_errors": 0,
+   "correct_in_top5_rate": 1.0,
+   "average_score_gap": 0.056,
+   "maximum_possible_recovery": 1,
+   "directions": {
+    "fried_rice -> pad_thai": 1
+   }
+  },
+  {
+   "pair": "fried_rice <-> rice",
+   "total_errors": 1,
+   "recoverable_errors": 1,
+   "nonrecoverable_errors": 0,
+   "correct_in_top5_rate": 1.0,
+   "average_score_gap": 0.0147,
+   "maximum_possible_recovery": 1,
+   "directions": {
+    "fried_rice -> rice": 1
+   }
+  },
+  {
+   "pair": "ginger <-> tomato_paste",
+   "total_errors": 1,
+   "recoverable_errors": 1,
+   "nonrecoverable_errors": 0,
+   "correct_in_top5_rate": 1.0,
+   "average_score_gap": 0.0278,
+   "maximum_possible_recovery": 1,
+   "directions": {
+    "ginger -> tomato_paste": 1
+   }
+  },
+  {
+   "pair": "guacamole <-> omelette",
+   "total_errors": 1,
+   "recoverable_errors": 1,
+   "nonrecoverable_errors": 0,
+   "correct_in_top5_rate": 1.0,
+   "average_score_gap": 0.111,
+   "maximum_possible_recovery": 1,
+   "directions": {
+    "guacamole -> omelette": 1
+   }
+  },
+  {
+   "pair": "guacamole <-> salad",
+   "total_errors": 1,
+   "recoverable_errors": 1,
+   "nonrecoverable_errors": 0,
+   "correct_in_top5_rate": 1.0,
+   "average_score_gap": 0.0092,
+   "maximum_possible_recovery": 1,
+   "directions": {
+    "salad -> guacamole": 1
+   }
+  },
+  {
+   "pair": "hummus <-> tomato_paste",
+   "total_errors": 1,
+   "recoverable_errors": 1,
+   "nonrecoverable_errors": 0,
+   "correct_in_top5_rate": 1.0,
+   "average_score_gap": 0.1164,
+   "maximum_possible_recovery": 1,
+   "directions": {
+    "hummus -> tomato_paste": 1
+   }
+  },
+  {
+   "pair": "ice_cream <-> yogurt",
+   "total_errors": 1,
+   "recoverable_errors": 1,
+   "nonrecoverable_errors": 0,
+   "correct_in_top5_rate": 1.0,
+   "average_score_gap": 0.003,
+   "maximum_possible_recovery": 1,
+   "directions": {
+    "ice_cream -> yogurt": 1
+   }
+  },
+  {
+   "pair": "lasagna <-> pasta",
+   "total_errors": 1,
+   "recoverable_errors": 1,
+   "nonrecoverable_errors": 0,
+   "correct_in_top5_rate": 1.0,
+   "average_score_gap": 0.0154,
+   "maximum_possible_recovery": 1,
+   "directions": {
+    "pasta -> lasagna": 1
+   }
+  },
+  {
+   "pair": "pad_thai <-> pasta",
+   "total_errors": 1,
+   "recoverable_errors": 1,
+   "nonrecoverable_errors": 0,
+   "correct_in_top5_rate": 1.0,
+   "average_score_gap": 0.029,
+   "maximum_possible_recovery": 1,
+   "directions": {
+    "pasta -> pad_thai": 1
+   }
+  },
+  {
+   "pair": "salad <-> tomato_paste",
+   "total_errors": 1,
+   "recoverable_errors": 1,
+   "nonrecoverable_errors": 0,
+   "correct_in_top5_rate": 1.0,
+   "average_score_gap": 0.0023,
+   "maximum_possible_recovery": 1,
+   "directions": {
+    "tomato_paste -> salad": 1
+   }
+  },
+  {
+   "pair": "omelette <-> pad_thai",
+   "total_errors": 2,
+   "recoverable_errors": 0,
+   "nonrecoverable_errors": 2,
+   "correct_in_top5_rate": 0.0,
+   "average_score_gap": 0.3951,
+   "maximum_possible_recovery": 0,
+   "directions": {
+    "pad_thai -> omelette": 2
+   }
+  },
+  {
+   "pair": "bibimbap <-> omelette",
+   "total_errors": 1,
+   "recoverable_errors": 0,
+   "nonrecoverable_errors": 1,
+   "correct_in_top5_rate": 0.0,
+   "average_score_gap": 0.2109,
+   "maximum_possible_recovery": 0,
+   "directions": {
+    "omelette -> bibimbap": 1
+   }
+  },
+  {
+   "pair": "biryani <-> donuts",
+   "total_errors": 1,
+   "recoverable_errors": 0,
+   "nonrecoverable_errors": 1,
+   "correct_in_top5_rate": 0.0,
+   "average_score_gap": 0.0818,
+   "maximum_possible_recovery": 0,
+   "directions": {
+    "donuts -> biryani": 1
+   }
+  },
+  {
+   "pair": "cheese <-> omelette",
+   "total_errors": 1,
+   "recoverable_errors": 0,
+   "nonrecoverable_errors": 1,
+   "correct_in_top5_rate": 0.0,
+   "average_score_gap": 0.2538,
+   "maximum_possible_recovery": 0,
+   "directions": {
+    "cheese -> omelette": 1
+   }
+  },
+  {
+   "pair": "cheese <-> salad",
+   "total_errors": 1,
+   "recoverable_errors": 0,
+   "nonrecoverable_errors": 1,
+   "correct_in_top5_rate": 0.0,
+   "average_score_gap": 0.1361,
+   "maximum_possible_recovery": 0,
+   "directions": {
+    "cheese -> salad": 1
+   }
+  },
+  {
+   "pair": "cheese <-> spring_rolls",
+   "total_errors": 1,
+   "recoverable_errors": 0,
+   "nonrecoverable_errors": 1,
+   "correct_in_top5_rate": 0.0,
+   "average_score_gap": 0.207,
+   "maximum_possible_recovery": 0,
+   "directions": {
+    "spring_rolls -> cheese": 1
+   }
+  },
+  {
+   "pair": "donuts <-> french_fries",
+   "total_errors": 1,
+   "recoverable_errors": 0,
+   "nonrecoverable_errors": 1,
+   "correct_in_top5_rate": 0.0,
+   "average_score_gap": 0.092,
+   "maximum_possible_recovery": 0,
+   "directions": {
+    "french_fries -> donuts": 1
+   }
+  },
+  {
+   "pair": "garlic <-> tomato_paste",
+   "total_errors": 1,
+   "recoverable_errors": 0,
+   "nonrecoverable_errors": 1,
+   "correct_in_top5_rate": 0.0,
+   "average_score_gap": 0.2187,
+   "maximum_possible_recovery": 0,
+   "directions": {
+    "garlic -> tomato_paste": 1
+   }
+  },
+  {
+   "pair": "garlic <-> yogurt",
+   "total_errors": 1,
+   "recoverable_errors": 0,
+   "nonrecoverable_errors": 1,
+   "correct_in_top5_rate": 0.0,
+   "average_score_gap": 0.1858,
+   "maximum_possible_recovery": 0,
+   "directions": {
+    "garlic -> yogurt": 1
+   }
+  },
+  {
+   "pair": "hummus <-> packaged_cheese",
+   "total_errors": 1,
+   "recoverable_errors": 0,
+   "nonrecoverable_errors": 1,
+   "correct_in_top5_rate": 0.0,
+   "average_score_gap": 0.4137,
+   "maximum_possible_recovery": 0,
+   "directions": {
+    "hummus -> packaged_cheese": 1
+   }
+  }
+ ],
+ "errors": [
+  {
+   "query_id": "ce6b6031-ff75-4e35-b312-1396e4d5e6c2",
+   "ground_truth": "bibimbap",
+   "E_top1": "rice",
+   "E_top5": [
+    "rice",
+    "bibimbap",
+    "fried_rice",
+    "biryani",
+    "pad_thai"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 2,
+   "confusion_pair": "bibimbap <-> rice",
+   "E_score_correct": 0.8638,
+   "E_score_winner": 0.9208
+  },
+  {
+   "query_id": "65a3eeee-e25d-49bf-ac63-57b9e67aef5a",
+   "ground_truth": "biryani",
+   "E_top1": "fried_rice",
+   "E_top5": [
+    "fried_rice",
+    "biryani",
+    "rice",
+    "pad_thai",
+    "bibimbap"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 2,
+   "confusion_pair": "biryani <-> fried_rice",
+   "E_score_correct": 0.9342,
+   "E_score_winner": 0.9406
+  },
+  {
+   "query_id": "0b39c841-a865-407e-9a89-fc6070c75ee3",
+   "ground_truth": "biryani",
+   "E_top1": "tomato_paste",
+   "E_top5": [
+    "tomato_paste",
+    "biryani",
+    "packaged_cheese",
+    "rice",
+    "non_food"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 2,
+   "confusion_pair": "biryani <-> tomato_paste",
+   "E_score_correct": 0.7645,
+   "E_score_winner": 0.772
+  },
+  {
+   "query_id": "ffb4ddce-60a4-4127-a852-ccac6496bcf7",
+   "ground_truth": "biryani",
+   "E_top1": "tomato_paste",
+   "E_top5": [
+    "tomato_paste",
+    "yogurt",
+    "hummus",
+    "non_food",
+    "rice"
+   ],
+   "correct_in_top5": false,
+   "rank_of_correct": 8,
+   "confusion_pair": "biryani <-> tomato_paste",
+   "E_score_correct": 0.7581,
+   "E_score_winner": 0.8532
+  },
+  {
+   "query_id": "44797329-a737-4445-9c4d-8aa237a0322c",
+   "ground_truth": "biryani",
+   "E_top1": "omelette",
+   "E_top5": [
+    "omelette",
+    "caesar_salad",
+    "pizza",
+    "biryani",
+    "guacamole"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 4,
+   "confusion_pair": "biryani <-> omelette",
+   "E_score_correct": 0.7482,
+   "E_score_winner": 0.7862
+  },
+  {
+   "query_id": "11fd0517-c463-4e10-ae02-afd0588e5a45",
+   "ground_truth": "biryani",
+   "E_top1": "fried_rice",
+   "E_top5": [
+    "fried_rice",
+    "biryani",
+    "rice",
+    "pad_thai",
+    "bibimbap"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 2,
+   "confusion_pair": "biryani <-> fried_rice",
+   "E_score_correct": 0.9593,
+   "E_score_winner": 0.9648
+  },
+  {
+   "query_id": "82379f65-7d81-4fea-a3ec-6383691cada8",
+   "ground_truth": "cheese",
+   "E_top1": "omelette",
+   "E_top5": [
+    "omelette",
+    "biryani",
+    "guacamole",
+    "hummus",
+    "yogurt"
+   ],
+   "correct_in_top5": false,
+   "rank_of_correct": 23,
+   "confusion_pair": "cheese <-> omelette",
+   "E_score_correct": 0.5993,
+   "E_score_winner": 0.8531
+  },
+  {
+   "query_id": "3dd0d83a-9b42-4927-9e4f-db23a6c7c744",
+   "ground_truth": "cheese",
+   "E_top1": "salad",
+   "E_top5": [
+    "salad",
+    "guacamole",
+    "hummus",
+    "yogurt",
+    "tomato"
+   ],
+   "correct_in_top5": false,
+   "rank_of_correct": 15,
+   "confusion_pair": "cheese <-> salad",
+   "E_score_correct": 0.6308,
+   "E_score_winner": 0.7669
+  },
+  {
+   "query_id": "5001faac-0ca6-4ed7-b10b-68c8ed2f3de1",
+   "ground_truth": "cream",
+   "E_top1": "ice_cream",
+   "E_top5": [
+    "ice_cream",
+    "cream",
+    "yogurt",
+    "donuts",
+    "ginger"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 2,
+   "confusion_pair": "cream <-> ice_cream",
+   "E_score_correct": 0.7896,
+   "E_score_winner": 0.791
+  },
+  {
+   "query_id": "e60462d7-fcf6-4eec-812f-f58caff93ff8",
+   "ground_truth": "cream",
+   "E_top1": "ice_cream",
+   "E_top5": [
+    "ice_cream",
+    "cream",
+    "yogurt",
+    "hummus",
+    "donuts"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 2,
+   "confusion_pair": "cream <-> ice_cream",
+   "E_score_correct": 0.9103,
+   "E_score_winner": 0.9144
+  },
+  {
+   "query_id": "27131d64-42a9-4cdc-8c47-edbef8b74df6",
+   "ground_truth": "donuts",
+   "E_top1": "biryani",
+   "E_top5": [
+    "biryani",
+    "rice",
+    "packaged_cheese",
+    "ice_cream",
+    "fried_rice"
+   ],
+   "correct_in_top5": false,
+   "rank_of_correct": 8,
+   "confusion_pair": "biryani <-> donuts",
+   "E_score_correct": 0.6891,
+   "E_score_winner": 0.7709
+  },
+  {
+   "query_id": "452cf3f3-0e75-4a11-b1e9-d3eae7227cc6",
+   "ground_truth": "french_fries",
+   "E_top1": "donuts",
+   "E_top5": [
+    "donuts",
+    "ice_cream",
+    "yogurt",
+    "cheese",
+    "tomato_paste"
+   ],
+   "correct_in_top5": false,
+   "rank_of_correct": 8,
+   "confusion_pair": "donuts <-> french_fries",
+   "E_score_correct": 0.7213,
+   "E_score_winner": 0.8133
+  },
+  {
+   "query_id": "23d5de8a-75b3-4f18-be80-43c26ed394da",
+   "ground_truth": "fried_rice",
+   "E_top1": "bibimbap",
+   "E_top5": [
+    "bibimbap",
+    "fried_rice",
+    "rice",
+    "biryani",
+    "pad_thai"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 2,
+   "confusion_pair": "bibimbap <-> fried_rice",
+   "E_score_correct": 0.8713,
+   "E_score_winner": 0.9125
+  },
+  {
+   "query_id": "75d45f60-cdd1-4524-9449-ef071753432f",
+   "ground_truth": "fried_rice",
+   "E_top1": "biryani",
+   "E_top5": [
+    "biryani",
+    "fried_rice",
+    "pad_thai",
+    "rice",
+    "pasta"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 2,
+   "confusion_pair": "biryani <-> fried_rice",
+   "E_score_correct": 0.8844,
+   "E_score_winner": 0.891
+  },
+  {
+   "query_id": "385e5ca1-790d-4f11-a647-1efcdda5a921",
+   "ground_truth": "fried_rice",
+   "E_top1": "rice",
+   "E_top5": [
+    "rice",
+    "biryani",
+    "fried_rice",
+    "bibimbap",
+    "hummus"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 3,
+   "confusion_pair": "fried_rice <-> rice",
+   "E_score_correct": 0.8705,
+   "E_score_winner": 0.8852
+  },
+  {
+   "query_id": "758c9b8e-950f-459a-adc8-e899cc1f826d",
+   "ground_truth": "fried_rice",
+   "E_top1": "pad_thai",
+   "E_top5": [
+    "pad_thai",
+    "french_fries",
+    "rice",
+    "biryani",
+    "fried_rice"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 5,
+   "confusion_pair": "fried_rice <-> pad_thai",
+   "E_score_correct": 0.7423,
+   "E_score_winner": 0.7983
+  },
+  {
+   "query_id": "f0b6afd6-f7cf-4426-81c0-9bd1ba93440c",
+   "ground_truth": "garlic",
+   "E_top1": "tomato_paste",
+   "E_top5": [
+    "tomato_paste",
+    "rice",
+    "yogurt",
+    "ice_cream",
+    "pad_thai"
+   ],
+   "correct_in_top5": false,
+   "rank_of_correct": 23,
+   "confusion_pair": "garlic <-> tomato_paste",
+   "E_score_correct": 0.5226,
+   "E_score_winner": 0.7413
+  },
+  {
+   "query_id": "58e6c7dc-2d5d-4e3f-92d9-c0d7b3071809",
+   "ground_truth": "garlic",
+   "E_top1": "yogurt",
+   "E_top5": [
+    "yogurt",
+    "hummus",
+    "rice",
+    "donuts",
+    "salad"
+   ],
+   "correct_in_top5": false,
+   "rank_of_correct": 24,
+   "confusion_pair": "garlic <-> yogurt",
+   "E_score_correct": 0.5061,
+   "E_score_winner": 0.6919
+  },
+  {
+   "query_id": "c7672c2c-bc53-4732-89a3-b4e220f14619",
+   "ground_truth": "ginger",
+   "E_top1": "tomato_paste",
+   "E_top5": [
+    "tomato_paste",
+    "packaged_cheese",
+    "ginger",
+    "non_food",
+    "rice"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 3,
+   "confusion_pair": "ginger <-> tomato_paste",
+   "E_score_correct": 0.7792,
+   "E_score_winner": 0.807
+  },
+  {
+   "query_id": "6ec1af71-efd7-45e1-85ef-51f8ae0a3d14",
+   "ground_truth": "guacamole",
+   "E_top1": "omelette",
+   "E_top5": [
+    "omelette",
+    "guacamole",
+    "biryani",
+    "spring_rolls",
+    "rice"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 2,
+   "confusion_pair": "guacamole <-> omelette",
+   "E_score_correct": 0.7553,
+   "E_score_winner": 0.8663
+  },
+  {
+   "query_id": "f9618f94-378b-4779-9fac-c83f97672b98",
+   "ground_truth": "guacamole",
+   "E_top1": "hummus",
+   "E_top5": [
+    "hummus",
+    "guacamole",
+    "salad",
+    "yogurt",
+    "caesar_salad"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 2,
+   "confusion_pair": "guacamole <-> hummus",
+   "E_score_correct": 0.9384,
+   "E_score_winner": 0.939
+  },
+  {
+   "query_id": "3b13b97f-7d33-4a0d-baff-dcf4280a8bde",
+   "ground_truth": "guacamole",
+   "E_top1": "club_sandwich",
+   "E_top5": [
+    "club_sandwich",
+    "guacamole",
+    "hummus",
+    "cream",
+    "tomato_paste"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 2,
+   "confusion_pair": "club_sandwich <-> guacamole",
+   "E_score_correct": 0.7496,
+   "E_score_winner": 0.7867
+  },
+  {
+   "query_id": "919fbcb5-47e6-4613-bc6c-4f4dc100fe3f",
+   "ground_truth": "guacamole",
+   "E_top1": "hummus",
+   "E_top5": [
+    "hummus",
+    "guacamole",
+    "yogurt",
+    "salad",
+    "rice"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 2,
+   "confusion_pair": "guacamole <-> hummus",
+   "E_score_correct": 0.9245,
+   "E_score_winner": 0.95
+  },
+  {
+   "query_id": "ee5cd632-3959-4ae6-9cdf-a8ecc0369dae",
+   "ground_truth": "hummus",
+   "E_top1": "tomato_paste",
+   "E_top5": [
+    "tomato_paste",
+    "garlic",
+    "packaged_cheese",
+    "non_food",
+    "hummus"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 5,
+   "confusion_pair": "hummus <-> tomato_paste",
+   "E_score_correct": 0.7288,
+   "E_score_winner": 0.8452
+  },
+  {
+   "query_id": "29425755-7bce-4486-aa3a-6e0edda1ef06",
+   "ground_truth": "hummus",
+   "E_top1": "packaged_cheese",
+   "E_top5": [
+    "packaged_cheese",
+    "tomato_paste",
+    "non_food",
+    "pasta",
+    "tomato"
+   ],
+   "correct_in_top5": false,
+   "rank_of_correct": 18,
+   "confusion_pair": "hummus <-> packaged_cheese",
+   "E_score_correct": 0.4922,
+   "E_score_winner": 0.9059
+  },
+  {
+   "query_id": "e4e5f322-5384-44b7-86d0-b6afb017b697",
+   "ground_truth": "ice_cream",
+   "E_top1": "yogurt",
+   "E_top5": [
+    "yogurt",
+    "ice_cream",
+    "cream",
+    "hummus",
+    "donuts"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 2,
+   "confusion_pair": "ice_cream <-> yogurt",
+   "E_score_correct": 0.9082,
+   "E_score_winner": 0.9112
+  },
+  {
+   "query_id": "5a3927f6-8dcf-4788-ba44-c7a5c28d2b58",
+   "ground_truth": "ice_cream",
+   "E_top1": "cream",
+   "E_top5": [
+    "cream",
+    "ice_cream",
+    "yogurt",
+    "donuts",
+    "hummus"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 2,
+   "confusion_pair": "cream <-> ice_cream",
+   "E_score_correct": 0.8897,
+   "E_score_winner": 0.9327
+  },
+  {
+   "query_id": "280b46fb-8570-47ae-96b4-a13e6ea2453b",
+   "ground_truth": "ice_cream",
+   "E_top1": "cream",
+   "E_top5": [
+    "cream",
+    "yogurt",
+    "ice_cream",
+    "donuts",
+    "hummus"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 3,
+   "confusion_pair": "cream <-> ice_cream",
+   "E_score_correct": 0.8814,
+   "E_score_winner": 0.9181
+  },
+  {
+   "query_id": "a2ddf81f-0873-493f-8103-d567c2c54a55",
+   "ground_truth": "omelette",
+   "E_top1": "bibimbap",
+   "E_top5": [
+    "bibimbap",
+    "tomato",
+    "biryani",
+    "salad",
+    "pad_thai"
+   ],
+   "correct_in_top5": false,
+   "rank_of_correct": 9,
+   "confusion_pair": "bibimbap <-> omelette",
+   "E_score_correct": 0.6754,
+   "E_score_winner": 0.8863
+  },
+  {
+   "query_id": "99d43ebe-7dc2-4f73-8b08-0b07b8dcb98b",
+   "ground_truth": "packaged_cheese",
+   "E_top1": "cheese",
+   "E_top5": [
+    "cheese",
+    "donuts",
+    "packaged_cheese",
+    "cream",
+    "pizza"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 3,
+   "confusion_pair": "cheese <-> packaged_cheese",
+   "E_score_correct": 0.7598,
+   "E_score_winner": 0.8798
+  },
+  {
+   "query_id": "539e8002-5504-4e57-bc00-0bd0ac60aa00",
+   "ground_truth": "packaged_cheese",
+   "E_top1": "cheese",
+   "E_top5": [
+    "cheese",
+    "packaged_cheese",
+    "cream",
+    "donuts",
+    "pizza"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 2,
+   "confusion_pair": "cheese <-> packaged_cheese",
+   "E_score_correct": 0.7588,
+   "E_score_winner": 0.8299
+  },
+  {
+   "query_id": "523c8785-1a84-4059-901d-086cc5fa8630",
+   "ground_truth": "packaged_cheese",
+   "E_top1": "cheese",
+   "E_top5": [
+    "cheese",
+    "donuts",
+    "cream",
+    "packaged_cheese",
+    "club_sandwich"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 4,
+   "confusion_pair": "cheese <-> packaged_cheese",
+   "E_score_correct": 0.7037,
+   "E_score_winner": 0.9029
+  },
+  {
+   "query_id": "8c04f513-c973-4502-b965-df87751c6771",
+   "ground_truth": "pad_thai",
+   "E_top1": "omelette",
+   "E_top5": [
+    "omelette",
+    "lasagna",
+    "biryani",
+    "bibimbap",
+    "pasta"
+   ],
+   "correct_in_top5": false,
+   "rank_of_correct": 11,
+   "confusion_pair": "omelette <-> pad_thai",
+   "E_score_correct": 0.5389,
+   "E_score_winner": 0.9594
+  },
+  {
+   "query_id": "eae93194-24c8-42d5-8ca8-c780e4145697",
+   "ground_truth": "pad_thai",
+   "E_top1": "omelette",
+   "E_top5": [
+    "omelette",
+    "lasagna",
+    "biryani",
+    "bibimbap",
+    "guacamole"
+   ],
+   "correct_in_top5": false,
+   "rank_of_correct": 12,
+   "confusion_pair": "omelette <-> pad_thai",
+   "E_score_correct": 0.5882,
+   "E_score_winner": 0.9579
+  },
+  {
+   "query_id": "46e70ce8-2736-4682-8221-d43877107b25",
+   "ground_truth": "pasta",
+   "E_top1": "pad_thai",
+   "E_top5": [
+    "pad_thai",
+    "rice",
+    "fried_rice",
+    "biryani",
+    "pasta"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 5,
+   "confusion_pair": "pad_thai <-> pasta",
+   "E_score_correct": 0.8448,
+   "E_score_winner": 0.8738
+  },
+  {
+   "query_id": "7ef252ae-53dd-4107-bb7d-d317978ff0dd",
+   "ground_truth": "pasta",
+   "E_top1": "lasagna",
+   "E_top5": [
+    "lasagna",
+    "pasta",
+    "omelette",
+    "biryani",
+    "pad_thai"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 2,
+   "confusion_pair": "lasagna <-> pasta",
+   "E_score_correct": 0.9116,
+   "E_score_winner": 0.927
+  },
+  {
+   "query_id": "9bddadfe-87d7-480a-bd09-d6add920a392",
+   "ground_truth": "rice",
+   "E_top1": "biryani",
+   "E_top5": [
+    "biryani",
+    "rice",
+    "fried_rice",
+    "pad_thai",
+    "bibimbap"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 2,
+   "confusion_pair": "biryani <-> rice",
+   "E_score_correct": 0.8815,
+   "E_score_winner": 0.9041
+  },
+  {
+   "query_id": "169418c8-20cd-4813-a0c8-0da37605e244",
+   "ground_truth": "salad",
+   "E_top1": "caesar_salad",
+   "E_top5": [
+    "caesar_salad",
+    "salad",
+    "guacamole",
+    "club_sandwich",
+    "hummus"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 2,
+   "confusion_pair": "caesar_salad <-> salad",
+   "E_score_correct": 0.9172,
+   "E_score_winner": 0.9428
+  },
+  {
+   "query_id": "15c6e3ca-1db1-4314-8362-2403e7ed55a1",
+   "ground_truth": "salad",
+   "E_top1": "guacamole",
+   "E_top5": [
+    "guacamole",
+    "caesar_salad",
+    "salad",
+    "spring_rolls",
+    "club_sandwich"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 3,
+   "confusion_pair": "guacamole <-> salad",
+   "E_score_correct": 0.7851,
+   "E_score_winner": 0.7943
+  },
+  {
+   "query_id": "645ed8e9-8a32-440f-a5d4-d19ebe433f96",
+   "ground_truth": "salad",
+   "E_top1": "caesar_salad",
+   "E_top5": [
+    "caesar_salad",
+    "salad",
+    "club_sandwich",
+    "guacamole",
+    "tomato"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 2,
+   "confusion_pair": "caesar_salad <-> salad",
+   "E_score_correct": 0.9312,
+   "E_score_winner": 0.9414
+  },
+  {
+   "query_id": "12c7a397-21a1-40e5-84bc-97d069c012b4",
+   "ground_truth": "spring_rolls",
+   "E_top1": "cheese",
+   "E_top5": [
+    "cheese",
+    "donuts",
+    "packaged_cheese",
+    "cream",
+    "club_sandwich"
+   ],
+   "correct_in_top5": false,
+   "rank_of_correct": 15,
+   "confusion_pair": "cheese <-> spring_rolls",
+   "E_score_correct": 0.5945,
+   "E_score_winner": 0.8015
+  },
+  {
+   "query_id": "f850f25e-29c8-4398-abb9-4660595376d1",
+   "ground_truth": "tomato_paste",
+   "E_top1": "salad",
+   "E_top5": [
+    "salad",
+    "tomato_paste",
+    "yogurt",
+    "tomato",
+    "guacamole"
+   ],
+   "correct_in_top5": true,
+   "rank_of_correct": 2,
+   "confusion_pair": "salad <-> tomato_paste",
+   "E_score_correct": 0.7315,
+   "E_score_winner": 0.7338
+  }
+ ]
+}
