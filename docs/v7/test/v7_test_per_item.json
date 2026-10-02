@@ -1,0 +1,9416 @@
+[
+ {
+  "id": "cb8dd8c4-b0da-489d-b141-35189fcc39ec",
+  "gt": "beef_stew",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "yogurt",
+   "hummus",
+   "tomato_paste",
+   "ice_cream",
+   "rice"
+  ],
+  "V7_top5": [
+   "yogurt",
+   "hummus",
+   "tomato_paste",
+   "ice_cream",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "yogurt",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "yogurt",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "30346af4-7333-4e95-ab54-f14918a9405a",
+  "gt": "beef_stew",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "rice",
+   "yogurt",
+   "hummus",
+   "tomato_paste",
+   "ice_cream"
+  ],
+  "V7_top5": [
+   "rice",
+   "yogurt",
+   "hummus",
+   "tomato_paste",
+   "ice_cream"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "rice",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "rice",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "97d93ba9-21e8-4b64-852b-505e53d514c9",
+  "gt": "beef_stew",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "guacamole",
+   "salad",
+   "rice",
+   "biryani",
+   "hummus"
+  ],
+  "V7_top5": [
+   "guacamole",
+   "salad",
+   "rice",
+   "biryani",
+   "hummus"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "guacamole",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "guacamole",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "9699d671-1825-41a2-a27c-b944bc226e21",
+  "gt": "beef_stew",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "tomato_paste",
+   "pad_thai",
+   "rice",
+   "non_food",
+   "ginger"
+  ],
+  "V7_top5": [
+   "tomato_paste",
+   "pad_thai",
+   "rice",
+   "non_food",
+   "ginger"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato_paste",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato_paste",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "67001ac6-0a4c-49df-8952-c143533d2f15",
+  "gt": "beef_stew",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "tomato_paste",
+   "pad_thai",
+   "non_food",
+   "rice",
+   "tomato"
+  ],
+  "V7_top5": [
+   "tomato_paste",
+   "pad_thai",
+   "non_food",
+   "rice",
+   "tomato"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato_paste",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato_paste",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "d41196b6-172f-46a5-bd52-846ce9145ad8",
+  "gt": "beef_stew",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "rice",
+   "fried_rice",
+   "biryani",
+   "pad_thai",
+   "bibimbap"
+  ],
+  "V7_top5": [
+   "rice",
+   "biryani",
+   "fried_rice",
+   "pad_thai",
+   "bibimbap"
+  ],
+  "specialists_fired": [
+   "biryani <-> fried_rice"
+  ],
+  "adapter_e": {
+   "top1": "rice",
+   "decision": "identity",
+   "label": "rice",
+   "divergence": "OPEN_SET_FALSE_ACCEPT"
+  },
+  "adapter_e_v7": {
+   "top1": "rice",
+   "decision": "identity",
+   "label": "rice",
+   "divergence": "OPEN_SET_FALSE_ACCEPT"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "236f8552-7c05-4919-8c2e-09e6694a3870",
+  "gt": "beef_stew",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "tomato_paste",
+   "non_food",
+   "biryani",
+   "fried_rice",
+   "rice"
+  ],
+  "V7_top5": [
+   "tomato_paste",
+   "non_food",
+   "biryani",
+   "fried_rice",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato_paste",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato_paste",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "832c1f09-9518-46f5-92e5-705a4faca8b2",
+  "gt": "beef_stew",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "rice",
+   "tomato_paste",
+   "salad",
+   "biryani",
+   "donuts"
+  ],
+  "V7_top5": [
+   "rice",
+   "tomato_paste",
+   "salad",
+   "biryani",
+   "donuts"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "ef698cf5-9857-4319-9f88-16cb0be8d830",
+  "gt": "beef_stew",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "tomato_paste",
+   "non_food",
+   "tomato",
+   "garlic",
+   "yogurt"
+  ],
+  "V7_top5": [
+   "tomato_paste",
+   "non_food",
+   "tomato",
+   "garlic",
+   "yogurt"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato_paste",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato_paste",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "ce757099-c7cc-413c-b0e7-9f0225065a8f",
+  "gt": "beef_stew",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "rice",
+   "fried_rice",
+   "biryani",
+   "hummus",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "rice",
+   "biryani",
+   "fried_rice",
+   "hummus",
+   "tomato_paste"
+  ],
+  "specialists_fired": [
+   "biryani <-> fried_rice"
+  ],
+  "adapter_e": {
+   "top1": "rice",
+   "decision": "identity",
+   "label": "rice",
+   "divergence": "OPEN_SET_FALSE_ACCEPT"
+  },
+  "adapter_e_v7": {
+   "top1": "rice",
+   "decision": "identity",
+   "label": "rice",
+   "divergence": "OPEN_SET_FALSE_ACCEPT"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "da8083ef-b822-4a85-ae3c-a3eb345e85a8",
+  "gt": "bibimbap",
+  "role": "known",
+  "E_top5": [
+   "fried_rice",
+   "biryani",
+   "rice",
+   "bibimbap",
+   "pad_thai"
+  ],
+  "V7_top5": [
+   "biryani",
+   "fried_rice",
+   "rice",
+   "bibimbap",
+   "pad_thai"
+  ],
+  "specialists_fired": [
+   "biryani <-> fried_rice"
+  ],
+  "adapter_e": {
+   "top1": "fried_rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "adapter_e_v7": {
+   "top1": "biryani",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "16ff268c-ff1d-43e3-aa01-4c9e2d40ed76",
+  "gt": "bibimbap",
+  "role": "known",
+  "E_top5": [
+   "bibimbap",
+   "salad",
+   "caesar_salad",
+   "biryani",
+   "rice"
+  ],
+  "V7_top5": [
+   "bibimbap",
+   "salad",
+   "caesar_salad",
+   "biryani",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "bibimbap",
+   "decision": "identity",
+   "label": "bibimbap",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "bibimbap",
+   "decision": "identity",
+   "label": "bibimbap",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "0efc1450-c101-4150-b313-59237e95316a",
+  "gt": "bibimbap",
+  "role": "known",
+  "E_top5": [
+   "bibimbap",
+   "biryani",
+   "pad_thai",
+   "rice",
+   "fried_rice"
+  ],
+  "V7_top5": [
+   "bibimbap",
+   "biryani",
+   "pad_thai",
+   "rice",
+   "fried_rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "bibimbap",
+   "decision": "identity",
+   "label": "bibimbap",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "bibimbap",
+   "decision": "identity",
+   "label": "bibimbap",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "9756c02f-4669-4d70-9539-597da39087df",
+  "gt": "bibimbap",
+  "role": "known",
+  "E_top5": [
+   "bibimbap",
+   "biryani",
+   "fried_rice",
+   "rice",
+   "pad_thai"
+  ],
+  "V7_top5": [
+   "bibimbap",
+   "biryani",
+   "fried_rice",
+   "rice",
+   "pad_thai"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "bibimbap",
+   "decision": "identity",
+   "label": "bibimbap",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "bibimbap",
+   "decision": "identity",
+   "label": "bibimbap",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "3b92d544-6925-4e04-be11-7ad970732454",
+  "gt": "bibimbap",
+  "role": "known",
+  "E_top5": [
+   "bibimbap",
+   "biryani",
+   "caesar_salad",
+   "salad",
+   "omelette"
+  ],
+  "V7_top5": [
+   "bibimbap",
+   "biryani",
+   "salad",
+   "caesar_salad",
+   "omelette"
+  ],
+  "specialists_fired": [
+   "caesar_salad <-> salad"
+  ],
+  "adapter_e": {
+   "top1": "bibimbap",
+   "decision": "identity",
+   "label": "bibimbap",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "bibimbap",
+   "decision": "identity",
+   "label": "bibimbap",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "d80d43a5-7116-431b-aaea-f2f6dfb6168b",
+  "gt": "bibimbap",
+  "role": "known",
+  "E_top5": [
+   "bibimbap",
+   "rice",
+   "biryani",
+   "fried_rice",
+   "pasta"
+  ],
+  "V7_top5": [
+   "bibimbap",
+   "rice",
+   "biryani",
+   "fried_rice",
+   "pasta"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "bibimbap",
+   "decision": "identity",
+   "label": "bibimbap",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "bibimbap",
+   "decision": "identity",
+   "label": "bibimbap",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "b8f96b3b-4afc-4a52-b082-96d9ccbae71a",
+  "gt": "bibimbap",
+  "role": "known",
+  "E_top5": [
+   "bibimbap",
+   "rice",
+   "biryani",
+   "fried_rice",
+   "pad_thai"
+  ],
+  "V7_top5": [
+   "bibimbap",
+   "rice",
+   "biryani",
+   "fried_rice",
+   "pad_thai"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "bibimbap",
+   "decision": "identity",
+   "label": "bibimbap",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "bibimbap",
+   "decision": "identity",
+   "label": "bibimbap",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "655e8dc9-a72e-4e95-8ca7-77d9948b074b",
+  "gt": "bibimbap",
+  "role": "known",
+  "E_top5": [
+   "bibimbap",
+   "biryani",
+   "lasagna",
+   "omelette",
+   "fried_rice"
+  ],
+  "V7_top5": [
+   "bibimbap",
+   "biryani",
+   "lasagna",
+   "omelette",
+   "fried_rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "bibimbap",
+   "decision": "identity",
+   "label": "bibimbap",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "bibimbap",
+   "decision": "identity",
+   "label": "bibimbap",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "c2bb8796-b3b4-4701-a0cb-d561e21a2f86",
+  "gt": "bibimbap",
+  "role": "known",
+  "E_top5": [
+   "bibimbap",
+   "rice",
+   "biryani",
+   "fried_rice",
+   "pad_thai"
+  ],
+  "V7_top5": [
+   "bibimbap",
+   "rice",
+   "biryani",
+   "fried_rice",
+   "pad_thai"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "bibimbap",
+   "decision": "identity",
+   "label": "bibimbap",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "bibimbap",
+   "decision": "identity",
+   "label": "bibimbap",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "a7532566-b0da-43c9-8e45-c7922d802b02",
+  "gt": "bibimbap",
+  "role": "known",
+  "E_top5": [
+   "bibimbap",
+   "rice",
+   "pad_thai",
+   "biryani",
+   "fried_rice"
+  ],
+  "V7_top5": [
+   "bibimbap",
+   "rice",
+   "pad_thai",
+   "biryani",
+   "fried_rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "bibimbap",
+   "decision": "identity",
+   "label": "bibimbap",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "bibimbap",
+   "decision": "identity",
+   "label": "bibimbap",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "8cfc4933-007c-4521-879b-0777aff01e09",
+  "gt": "biryani",
+  "role": "known",
+  "E_top5": [
+   "biryani",
+   "fried_rice",
+   "rice",
+   "guacamole",
+   "hummus"
+  ],
+  "V7_top5": [
+   "biryani",
+   "fried_rice",
+   "rice",
+   "guacamole",
+   "hummus"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "biryani",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "biryani",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "e3f99593-4386-41e4-8da2-1b757dd83ffe",
+  "gt": "biryani",
+  "role": "known",
+  "E_top5": [
+   "fried_rice",
+   "biryani",
+   "rice",
+   "pad_thai",
+   "bibimbap"
+  ],
+  "V7_top5": [
+   "fried_rice",
+   "biryani",
+   "rice",
+   "pad_thai",
+   "bibimbap"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "fried_rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "adapter_e_v7": {
+   "top1": "fried_rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "40d131c8-73de-47ae-9e0f-c2e80d2569f4",
+  "gt": "biryani",
+  "role": "known",
+  "E_top5": [
+   "fried_rice",
+   "biryani",
+   "pad_thai",
+   "rice",
+   "bibimbap"
+  ],
+  "V7_top5": [
+   "biryani",
+   "fried_rice",
+   "pad_thai",
+   "rice",
+   "bibimbap"
+  ],
+  "specialists_fired": [
+   "biryani <-> fried_rice"
+  ],
+  "adapter_e": {
+   "top1": "fried_rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "adapter_e_v7": {
+   "top1": "biryani",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "fixed"
+ },
+ {
+  "id": "4e3171ee-d975-45a9-9288-626763fc26ef",
+  "gt": "biryani",
+  "role": "known",
+  "E_top5": [
+   "fried_rice",
+   "biryani",
+   "rice",
+   "pad_thai",
+   "bibimbap"
+  ],
+  "V7_top5": [
+   "fried_rice",
+   "biryani",
+   "rice",
+   "pad_thai",
+   "bibimbap"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "fried_rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "adapter_e_v7": {
+   "top1": "fried_rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "1cd1751a-35c1-42b8-b3ad-328724a05902",
+  "gt": "caesar_salad",
+  "role": "known",
+  "E_top5": [
+   "caesar_salad",
+   "salad",
+   "guacamole",
+   "club_sandwich",
+   "spring_rolls"
+  ],
+  "V7_top5": [
+   "caesar_salad",
+   "salad",
+   "guacamole",
+   "club_sandwich",
+   "spring_rolls"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "caesar_salad",
+   "decision": "identity",
+   "label": "caesar_salad",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "caesar_salad",
+   "decision": "identity",
+   "label": "caesar_salad",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "00a84c14-a942-45e4-86c6-4fa6dba7e99a",
+  "gt": "caesar_salad",
+  "role": "known",
+  "E_top5": [
+   "guacamole",
+   "salad",
+   "caesar_salad",
+   "hummus",
+   "french_fries"
+  ],
+  "V7_top5": [
+   "guacamole",
+   "salad",
+   "caesar_salad",
+   "hummus",
+   "french_fries"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "guacamole",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "guacamole",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "56ed8096-2d0d-41f8-bd4d-7d0b479fee70",
+  "gt": "caesar_salad",
+  "role": "known",
+  "E_top5": [
+   "caesar_salad",
+   "salad",
+   "club_sandwich",
+   "spring_rolls",
+   "guacamole"
+  ],
+  "V7_top5": [
+   "caesar_salad",
+   "salad",
+   "club_sandwich",
+   "spring_rolls",
+   "guacamole"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "caesar_salad",
+   "decision": "identity",
+   "label": "caesar_salad",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "caesar_salad",
+   "decision": "identity",
+   "label": "caesar_salad",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "60d05822-866d-4fa4-9847-7eb18b071498",
+  "gt": "caesar_salad",
+  "role": "known",
+  "E_top5": [
+   "caesar_salad",
+   "salad",
+   "guacamole",
+   "hummus",
+   "bibimbap"
+  ],
+  "V7_top5": [
+   "caesar_salad",
+   "salad",
+   "guacamole",
+   "hummus",
+   "bibimbap"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "caesar_salad",
+   "decision": "identity",
+   "label": "caesar_salad",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "caesar_salad",
+   "decision": "identity",
+   "label": "caesar_salad",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "e77baecc-b70a-4515-a45f-f42d8af87b8f",
+  "gt": "caesar_salad",
+  "role": "known",
+  "E_top5": [
+   "caesar_salad",
+   "salad",
+   "guacamole",
+   "club_sandwich",
+   "pad_thai"
+  ],
+  "V7_top5": [
+   "caesar_salad",
+   "salad",
+   "guacamole",
+   "club_sandwich",
+   "pad_thai"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "caesar_salad",
+   "decision": "identity",
+   "label": "caesar_salad",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "caesar_salad",
+   "decision": "identity",
+   "label": "caesar_salad",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "f41e267d-b4ca-4069-a4b1-46d0b50a05c4",
+  "gt": "caesar_salad",
+  "role": "known",
+  "E_top5": [
+   "caesar_salad",
+   "salad",
+   "club_sandwich",
+   "guacamole",
+   "bibimbap"
+  ],
+  "V7_top5": [
+   "caesar_salad",
+   "salad",
+   "club_sandwich",
+   "guacamole",
+   "bibimbap"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "caesar_salad",
+   "decision": "identity",
+   "label": "caesar_salad",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "caesar_salad",
+   "decision": "identity",
+   "label": "caesar_salad",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "140d2d2b-d6f8-4d0c-ae47-2a8813c56518",
+  "gt": "caesar_salad",
+  "role": "known",
+  "E_top5": [
+   "caesar_salad",
+   "salad",
+   "club_sandwich",
+   "guacamole",
+   "spring_rolls"
+  ],
+  "V7_top5": [
+   "caesar_salad",
+   "salad",
+   "club_sandwich",
+   "guacamole",
+   "spring_rolls"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "caesar_salad",
+   "decision": "identity",
+   "label": "caesar_salad",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "caesar_salad",
+   "decision": "identity",
+   "label": "caesar_salad",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "6ee7095b-d45f-4a98-b974-47be3a10f2e2",
+  "gt": "caesar_salad",
+  "role": "known",
+  "E_top5": [
+   "caesar_salad",
+   "salad",
+   "guacamole",
+   "hummus",
+   "club_sandwich"
+  ],
+  "V7_top5": [
+   "caesar_salad",
+   "salad",
+   "guacamole",
+   "hummus",
+   "club_sandwich"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "caesar_salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "caesar_salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "47102266-240f-489d-b4d8-6f842be8801b",
+  "gt": "caesar_salad",
+  "role": "known",
+  "E_top5": [
+   "caesar_salad",
+   "salad",
+   "club_sandwich",
+   "guacamole",
+   "spring_rolls"
+  ],
+  "V7_top5": [
+   "caesar_salad",
+   "salad",
+   "club_sandwich",
+   "guacamole",
+   "spring_rolls"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "caesar_salad",
+   "decision": "identity",
+   "label": "caesar_salad",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "caesar_salad",
+   "decision": "identity",
+   "label": "caesar_salad",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "7f8cc1c8-500c-4137-9667-3c0faa35f783",
+  "gt": "caesar_salad",
+  "role": "known",
+  "E_top5": [
+   "caesar_salad",
+   "salad",
+   "guacamole",
+   "club_sandwich",
+   "hummus"
+  ],
+  "V7_top5": [
+   "caesar_salad",
+   "salad",
+   "guacamole",
+   "club_sandwich",
+   "hummus"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "caesar_salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "caesar_salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "254b9e91-4ff5-461d-a6db-7b4276bc0770",
+  "gt": "cheese",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "club_sandwich",
+   "cheese",
+   "french_fries",
+   "cream"
+  ],
+  "V7_top5": [
+   "donuts",
+   "club_sandwich",
+   "cheese",
+   "french_fries",
+   "cream"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "ff4d3d6d-a9fe-4326-a096-e69b3c4b7174",
+  "gt": "cheese",
+  "role": "known",
+  "E_top5": [
+   "cheese",
+   "donuts",
+   "packaged_cheese",
+   "pizza",
+   "cream"
+  ],
+  "V7_top5": [
+   "packaged_cheese",
+   "donuts",
+   "cheese",
+   "pizza",
+   "cream"
+  ],
+  "specialists_fired": [
+   "cheese <-> packaged_cheese"
+  ],
+  "adapter_e": {
+   "top1": "cheese",
+   "decision": "identity",
+   "label": "cheese",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "packaged_cheese",
+   "decision": "identity",
+   "label": "packaged_cheese",
+   "divergence": "FAMILY"
+  },
+  "top1_change": "broken"
+ },
+ {
+  "id": "25dee53a-d83b-413a-a19f-6ef092cc28d2",
+  "gt": "club_sandwich",
+  "role": "known",
+  "E_top5": [
+   "club_sandwich",
+   "caesar_salad",
+   "french_fries",
+   "salad",
+   "donuts"
+  ],
+  "V7_top5": [
+   "club_sandwich",
+   "caesar_salad",
+   "french_fries",
+   "salad",
+   "donuts"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "615e5046-9b04-4a06-ac9b-763a476ca00f",
+  "gt": "club_sandwich",
+  "role": "known",
+  "E_top5": [
+   "club_sandwich",
+   "caesar_salad",
+   "spring_rolls",
+   "salad",
+   "french_fries"
+  ],
+  "V7_top5": [
+   "club_sandwich",
+   "caesar_salad",
+   "spring_rolls",
+   "salad",
+   "french_fries"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "d2f73233-1c62-4256-a1df-2922fd2fec44",
+  "gt": "club_sandwich",
+  "role": "known",
+  "E_top5": [
+   "club_sandwich",
+   "french_fries",
+   "caesar_salad",
+   "salad",
+   "donuts"
+  ],
+  "V7_top5": [
+   "club_sandwich",
+   "french_fries",
+   "caesar_salad",
+   "salad",
+   "donuts"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "7428d951-5ea1-4d7a-b9ce-589ea5996e0e",
+  "gt": "club_sandwich",
+  "role": "known",
+  "E_top5": [
+   "club_sandwich",
+   "french_fries",
+   "caesar_salad",
+   "packaged_cheese",
+   "donuts"
+  ],
+  "V7_top5": [
+   "club_sandwich",
+   "french_fries",
+   "caesar_salad",
+   "packaged_cheese",
+   "donuts"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "97f154fd-a845-4576-aaaf-e8ac78762f3e",
+  "gt": "club_sandwich",
+  "role": "known",
+  "E_top5": [
+   "club_sandwich",
+   "caesar_salad",
+   "donuts",
+   "salad",
+   "packaged_cheese"
+  ],
+  "V7_top5": [
+   "club_sandwich",
+   "caesar_salad",
+   "donuts",
+   "salad",
+   "packaged_cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "68258316-3d89-44fa-9aa2-ab7e073cd20a",
+  "gt": "club_sandwich",
+  "role": "known",
+  "E_top5": [
+   "club_sandwich",
+   "caesar_salad",
+   "salad",
+   "packaged_cheese",
+   "french_fries"
+  ],
+  "V7_top5": [
+   "club_sandwich",
+   "caesar_salad",
+   "salad",
+   "packaged_cheese",
+   "french_fries"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "746dcde0-ccdc-4e14-a95f-fb1cb821c279",
+  "gt": "club_sandwich",
+  "role": "known",
+  "E_top5": [
+   "club_sandwich",
+   "caesar_salad",
+   "salad",
+   "french_fries",
+   "donuts"
+  ],
+  "V7_top5": [
+   "club_sandwich",
+   "caesar_salad",
+   "salad",
+   "french_fries",
+   "donuts"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "8fd3cf50-0bc8-4bc1-9106-6efd1456d42c",
+  "gt": "club_sandwich",
+  "role": "known",
+  "E_top5": [
+   "club_sandwich",
+   "caesar_salad",
+   "salad",
+   "french_fries",
+   "packaged_cheese"
+  ],
+  "V7_top5": [
+   "club_sandwich",
+   "caesar_salad",
+   "salad",
+   "french_fries",
+   "packaged_cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "490a92fd-6866-4580-bc63-ae0820292894",
+  "gt": "club_sandwich",
+  "role": "known",
+  "E_top5": [
+   "club_sandwich",
+   "french_fries",
+   "caesar_salad",
+   "donuts",
+   "salad"
+  ],
+  "V7_top5": [
+   "club_sandwich",
+   "french_fries",
+   "caesar_salad",
+   "donuts",
+   "salad"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "afd5de79-c58d-494e-865d-a50b313f0c01",
+  "gt": "club_sandwich",
+  "role": "known",
+  "E_top5": [
+   "club_sandwich",
+   "french_fries",
+   "caesar_salad",
+   "donuts",
+   "salad"
+  ],
+  "V7_top5": [
+   "club_sandwich",
+   "french_fries",
+   "caesar_salad",
+   "donuts",
+   "salad"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "8d9a335d-4b47-464b-8cd1-cc84d43c2763",
+  "gt": "cream",
+  "role": "known",
+  "E_top5": [
+   "cream",
+   "yogurt",
+   "ice_cream",
+   "hummus",
+   "donuts"
+  ],
+  "V7_top5": [
+   "cream",
+   "yogurt",
+   "ice_cream",
+   "hummus",
+   "donuts"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "cream",
+   "decision": "identity",
+   "label": "cream",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "cream",
+   "decision": "identity",
+   "label": "cream",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "2d9e8492-ca53-4275-a866-9aa924c25840",
+  "gt": "cream",
+  "role": "known",
+  "E_top5": [
+   "cream",
+   "ice_cream",
+   "yogurt",
+   "donuts",
+   "cheese"
+  ],
+  "V7_top5": [
+   "cream",
+   "ice_cream",
+   "yogurt",
+   "donuts",
+   "cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "cream",
+   "decision": "identity",
+   "label": "cream",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "cream",
+   "decision": "identity",
+   "label": "cream",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "f563c9e2-74b7-4d51-afda-7f9fa0457c0c",
+  "gt": "cream",
+  "role": "known",
+  "E_top5": [
+   "salad",
+   "club_sandwich",
+   "donuts",
+   "caesar_salad",
+   "french_fries"
+  ],
+  "V7_top5": [
+   "salad",
+   "club_sandwich",
+   "donuts",
+   "caesar_salad",
+   "french_fries"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "salad",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "salad",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "2d159f3a-e297-414f-9447-66311221619e",
+  "gt": "cream",
+  "role": "known",
+  "E_top5": [
+   "cream",
+   "donuts",
+   "yogurt",
+   "ice_cream",
+   "cheese"
+  ],
+  "V7_top5": [
+   "cream",
+   "donuts",
+   "yogurt",
+   "ice_cream",
+   "cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "cream",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "cream",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "b3a00273-0861-4db5-940a-c857654591e4",
+  "gt": "cream",
+  "role": "known",
+  "E_top5": [
+   "yogurt",
+   "hummus",
+   "rice",
+   "ice_cream",
+   "cream"
+  ],
+  "V7_top5": [
+   "yogurt",
+   "hummus",
+   "rice",
+   "cream",
+   "ice_cream"
+  ],
+  "specialists_fired": [
+   "cream <-> ice_cream"
+  ],
+  "adapter_e": {
+   "top1": "yogurt",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "adapter_e_v7": {
+   "top1": "yogurt",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "2a1e17bc-5ce8-4bfa-88ed-0a3a95d5c409",
+  "gt": "cream",
+  "role": "known",
+  "E_top5": [
+   "salad",
+   "guacamole",
+   "donuts",
+   "french_fries",
+   "ginger"
+  ],
+  "V7_top5": [
+   "salad",
+   "guacamole",
+   "donuts",
+   "french_fries",
+   "ginger"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "salad",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "salad",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "4fc6d70f-cfa8-42d2-aa65-14922171a2fc",
+  "gt": "donuts",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "cream",
+   "ice_cream",
+   "yogurt",
+   "hummus"
+  ],
+  "V7_top5": [
+   "donuts",
+   "cream",
+   "ice_cream",
+   "yogurt",
+   "hummus"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "d4cb5957-a5b1-4bbb-a7a2-a37e3f99dbc3",
+  "gt": "donuts",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "french_fries",
+   "ice_cream",
+   "yogurt",
+   "rice"
+  ],
+  "V7_top5": [
+   "donuts",
+   "french_fries",
+   "ice_cream",
+   "yogurt",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "bd3a8492-e857-4c94-8345-9476877f5697",
+  "gt": "donuts",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "cream",
+   "ice_cream",
+   "yogurt",
+   "french_fries"
+  ],
+  "V7_top5": [
+   "donuts",
+   "ice_cream",
+   "cream",
+   "yogurt",
+   "french_fries"
+  ],
+  "specialists_fired": [
+   "cream <-> ice_cream"
+  ],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "identity",
+   "label": "donuts",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "identity",
+   "label": "donuts",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "ea6baf1e-c91d-496e-bb1f-7abc64d08554",
+  "gt": "donuts",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "cream",
+   "ice_cream",
+   "yogurt",
+   "hummus"
+  ],
+  "V7_top5": [
+   "donuts",
+   "cream",
+   "ice_cream",
+   "yogurt",
+   "hummus"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "identity",
+   "label": "donuts",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "identity",
+   "label": "donuts",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "e6fcdb28-26db-44d1-8476-03be9459317d",
+  "gt": "donuts",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "salad",
+   "tomato_paste",
+   "cheese",
+   "packaged_cheese"
+  ],
+  "V7_top5": [
+   "donuts",
+   "salad",
+   "tomato_paste",
+   "packaged_cheese",
+   "cheese"
+  ],
+  "specialists_fired": [
+   "cheese <-> packaged_cheese"
+  ],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "9049003f-264f-4ab1-b162-98a30d2a388c",
+  "gt": "donuts",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "cheese",
+   "packaged_cheese",
+   "french_fries",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "donuts",
+   "cheese",
+   "packaged_cheese",
+   "french_fries",
+   "tomato_paste"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "b365e909-c3f8-4be5-af81-873a2496cfea",
+  "gt": "donuts",
+  "role": "known",
+  "E_top5": [
+   "cream",
+   "donuts",
+   "yogurt",
+   "ice_cream",
+   "hummus"
+  ],
+  "V7_top5": [
+   "cream",
+   "donuts",
+   "yogurt",
+   "ice_cream",
+   "hummus"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "cream",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "cream",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "e8dc844a-6a83-4be1-b31e-88a8129b6e32",
+  "gt": "donuts",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "cream",
+   "ice_cream",
+   "yogurt",
+   "rice"
+  ],
+  "V7_top5": [
+   "donuts",
+   "cream",
+   "ice_cream",
+   "yogurt",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "identity",
+   "label": "donuts",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "identity",
+   "label": "donuts",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "7be9cc69-78ea-4fc5-9024-d819d239bd6e",
+  "gt": "donuts",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "ice_cream",
+   "french_fries",
+   "cream",
+   "yogurt"
+  ],
+  "V7_top5": [
+   "donuts",
+   "ice_cream",
+   "french_fries",
+   "cream",
+   "yogurt"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "identity",
+   "label": "donuts",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "identity",
+   "label": "donuts",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "f20ddfb3-9baf-4bfe-a2cc-28c078f9d6e6",
+  "gt": "donuts",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "cream",
+   "yogurt",
+   "ice_cream",
+   "rice"
+  ],
+  "V7_top5": [
+   "donuts",
+   "cream",
+   "yogurt",
+   "ice_cream",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "identity",
+   "label": "donuts",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "identity",
+   "label": "donuts",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "3882c500-9296-4b19-a70e-0ebba65c707a",
+  "gt": "dumplings",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "rice",
+   "spring_rolls",
+   "biryani",
+   "salad",
+   "fried_rice"
+  ],
+  "V7_top5": [
+   "rice",
+   "spring_rolls",
+   "biryani",
+   "salad",
+   "fried_rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "rice",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "rice",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "39bea213-4286-41e2-990a-614086b7392d",
+  "gt": "dumplings",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "spring_rolls",
+   "pasta",
+   "caesar_salad",
+   "omelette",
+   "pad_thai"
+  ],
+  "V7_top5": [
+   "spring_rolls",
+   "pasta",
+   "caesar_salad",
+   "omelette",
+   "pad_thai"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "spring_rolls",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "spring_rolls",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "a5b1e399-6755-4813-af4a-33921c2a4c96",
+  "gt": "dumplings",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "spring_rolls",
+   "donuts",
+   "french_fries",
+   "rice",
+   "club_sandwich"
+  ],
+  "V7_top5": [
+   "spring_rolls",
+   "donuts",
+   "french_fries",
+   "rice",
+   "club_sandwich"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "spring_rolls",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "spring_rolls",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "748a6f1e-aa12-4e29-bd20-96bebd98fb9d",
+  "gt": "dumplings",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "spring_rolls",
+   "rice",
+   "pasta",
+   "biryani",
+   "fried_rice"
+  ],
+  "V7_top5": [
+   "spring_rolls",
+   "rice",
+   "pasta",
+   "biryani",
+   "fried_rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "spring_rolls",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "spring_rolls",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "02d47718-eb4d-4daf-885b-53527a2cd012",
+  "gt": "dumplings",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "spring_rolls",
+   "pasta",
+   "rice",
+   "biryani",
+   "pad_thai"
+  ],
+  "V7_top5": [
+   "spring_rolls",
+   "pasta",
+   "rice",
+   "biryani",
+   "pad_thai"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "spring_rolls",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "spring_rolls",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "4ab66816-0fb3-4be6-a335-686d2babcd0c",
+  "gt": "dumplings",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "donuts",
+   "tomato_paste",
+   "cream",
+   "hummus",
+   "rice"
+  ],
+  "V7_top5": [
+   "donuts",
+   "tomato_paste",
+   "cream",
+   "hummus",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "01327d5d-2cd2-4faa-946b-c89eee9c4af3",
+  "gt": "dumplings",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "spring_rolls",
+   "caesar_salad",
+   "pasta",
+   "rice",
+   "club_sandwich"
+  ],
+  "V7_top5": [
+   "spring_rolls",
+   "caesar_salad",
+   "pasta",
+   "rice",
+   "club_sandwich"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "spring_rolls",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "spring_rolls",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "36a60675-e5bd-4d7e-9635-70cda95266f1",
+  "gt": "dumplings",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "spring_rolls",
+   "rice",
+   "tomato_paste",
+   "biryani",
+   "donuts"
+  ],
+  "V7_top5": [
+   "spring_rolls",
+   "rice",
+   "tomato_paste",
+   "biryani",
+   "donuts"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "spring_rolls",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "spring_rolls",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "cf11914e-df42-49da-aa75-f3ba55c29702",
+  "gt": "dumplings",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "pasta",
+   "spring_rolls",
+   "tomato_paste",
+   "packaged_cheese",
+   "pad_thai"
+  ],
+  "V7_top5": [
+   "pasta",
+   "spring_rolls",
+   "tomato_paste",
+   "packaged_cheese",
+   "pad_thai"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pasta",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pasta",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "dd27002b-fc02-489a-b498-cdd70d27bac9",
+  "gt": "dumplings",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "pasta",
+   "spring_rolls",
+   "pad_thai",
+   "lasagna",
+   "packaged_cheese"
+  ],
+  "V7_top5": [
+   "pasta",
+   "spring_rolls",
+   "pad_thai",
+   "lasagna",
+   "packaged_cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pasta",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pasta",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "8e24f77b-6333-473b-b315-1dea4fdfd91c",
+  "gt": "flatbread",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "donuts",
+   "cream",
+   "tomato_paste",
+   "cheese",
+   "rice"
+  ],
+  "V7_top5": [
+   "donuts",
+   "cream",
+   "tomato_paste",
+   "cheese",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "670440ac-579a-43a8-a60a-850ef84e0c19",
+  "gt": "flatbread",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "pizza",
+   "cheese",
+   "omelette",
+   "lasagna",
+   "club_sandwich"
+  ],
+  "V7_top5": [
+   "pizza",
+   "cheese",
+   "omelette",
+   "lasagna",
+   "club_sandwich"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pizza",
+   "decision": "identity",
+   "label": "pizza",
+   "divergence": "OPEN_SET_FALSE_ACCEPT"
+  },
+  "adapter_e_v7": {
+   "top1": "pizza",
+   "decision": "identity",
+   "label": "pizza",
+   "divergence": "OPEN_SET_FALSE_ACCEPT"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "c83e15ac-23f9-4200-8ae3-845f494eb3c9",
+  "gt": "flatbread",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "pizza",
+   "cheese",
+   "caesar_salad",
+   "club_sandwich",
+   "salad"
+  ],
+  "V7_top5": [
+   "pizza",
+   "cheese",
+   "caesar_salad",
+   "club_sandwich",
+   "salad"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pizza",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pizza",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "0e204157-bb93-4a39-8107-8c44c2825fa8",
+  "gt": "flatbread",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "omelette",
+   "biryani",
+   "guacamole",
+   "pizza",
+   "fried_rice"
+  ],
+  "V7_top5": [
+   "omelette",
+   "biryani",
+   "guacamole",
+   "pizza",
+   "fried_rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "omelette",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "omelette",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "140162b5-5d31-4cff-aef2-d52769f42cf1",
+  "gt": "flatbread",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "pizza",
+   "cheese",
+   "tomato",
+   "tomato_paste",
+   "salad"
+  ],
+  "V7_top5": [
+   "pizza",
+   "cheese",
+   "tomato",
+   "tomato_paste",
+   "salad"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pizza",
+   "decision": "identity",
+   "label": "pizza",
+   "divergence": "OPEN_SET_FALSE_ACCEPT"
+  },
+  "adapter_e_v7": {
+   "top1": "pizza",
+   "decision": "identity",
+   "label": "pizza",
+   "divergence": "OPEN_SET_FALSE_ACCEPT"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "6af94520-1f29-4c37-af63-85c78e91625c",
+  "gt": "flatbread",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "club_sandwich",
+   "caesar_salad",
+   "salad",
+   "guacamole",
+   "spring_rolls"
+  ],
+  "V7_top5": [
+   "club_sandwich",
+   "caesar_salad",
+   "salad",
+   "guacamole",
+   "spring_rolls"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "club_sandwich",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "club_sandwich",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "17de7110-0f57-4958-bb40-17d3562e97e6",
+  "gt": "flatbread",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "omelette",
+   "cream",
+   "pizza",
+   "yogurt",
+   "guacamole"
+  ],
+  "V7_top5": [
+   "omelette",
+   "cream",
+   "pizza",
+   "yogurt",
+   "guacamole"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "omelette",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "omelette",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "1f06bf58-6e36-40da-9dab-78d254933b75",
+  "gt": "flatbread",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "omelette",
+   "pizza",
+   "spring_rolls",
+   "lasagna",
+   "pasta"
+  ],
+  "V7_top5": [
+   "omelette",
+   "pizza",
+   "spring_rolls",
+   "lasagna",
+   "pasta"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "omelette",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "omelette",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "9a187960-09c2-468a-98d0-77bd2d3c4da9",
+  "gt": "flatbread",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "lasagna",
+   "pizza",
+   "omelette",
+   "pasta",
+   "caesar_salad"
+  ],
+  "V7_top5": [
+   "lasagna",
+   "pizza",
+   "omelette",
+   "pasta",
+   "caesar_salad"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "lasagna",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "lasagna",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "7878bca8-dd51-40ea-ae76-861ff5c969d4",
+  "gt": "flatbread",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "guacamole",
+   "french_fries",
+   "hummus",
+   "club_sandwich",
+   "salad"
+  ],
+  "V7_top5": [
+   "guacamole",
+   "french_fries",
+   "hummus",
+   "club_sandwich",
+   "salad"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "guacamole",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "guacamole",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "ba635bcc-a404-4a16-87cc-b74f417e4fbb",
+  "gt": "french_fries",
+  "role": "known",
+  "E_top5": [
+   "french_fries",
+   "club_sandwich",
+   "donuts",
+   "packaged_cheese",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "french_fries",
+   "club_sandwich",
+   "donuts",
+   "packaged_cheese",
+   "tomato_paste"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "french_fries",
+   "decision": "identity",
+   "label": "french_fries",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "french_fries",
+   "decision": "identity",
+   "label": "french_fries",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "34fbb656-e52b-42d7-8bc2-3d551625403e",
+  "gt": "french_fries",
+  "role": "known",
+  "E_top5": [
+   "french_fries",
+   "club_sandwich",
+   "donuts",
+   "packaged_cheese",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "french_fries",
+   "club_sandwich",
+   "donuts",
+   "packaged_cheese",
+   "tomato_paste"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "french_fries",
+   "decision": "identity",
+   "label": "french_fries",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "french_fries",
+   "decision": "identity",
+   "label": "french_fries",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "09e28a22-a335-44f7-b778-c9a65e775906",
+  "gt": "french_fries",
+  "role": "known",
+  "E_top5": [
+   "french_fries",
+   "club_sandwich",
+   "donuts",
+   "ice_cream",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "french_fries",
+   "club_sandwich",
+   "donuts",
+   "ice_cream",
+   "tomato_paste"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "french_fries",
+   "decision": "identity",
+   "label": "french_fries",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "french_fries",
+   "decision": "identity",
+   "label": "french_fries",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "729c38ab-d0ca-406f-8daf-c0bd212056a0",
+  "gt": "french_fries",
+  "role": "known",
+  "E_top5": [
+   "club_sandwich",
+   "french_fries",
+   "packaged_cheese",
+   "donuts",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "club_sandwich",
+   "french_fries",
+   "packaged_cheese",
+   "donuts",
+   "tomato_paste"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "258f2e3d-60c8-412a-971f-abcfae274f4d",
+  "gt": "french_fries",
+  "role": "known",
+  "E_top5": [
+   "french_fries",
+   "donuts",
+   "club_sandwich",
+   "pad_thai",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "french_fries",
+   "donuts",
+   "club_sandwich",
+   "pad_thai",
+   "tomato_paste"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "french_fries",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "french_fries",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "aadc5973-51b8-488f-9dbf-235743f6c1fb",
+  "gt": "french_fries",
+  "role": "known",
+  "E_top5": [
+   "tomato_paste",
+   "french_fries",
+   "non_food",
+   "pad_thai",
+   "rice"
+  ],
+  "V7_top5": [
+   "tomato_paste",
+   "french_fries",
+   "non_food",
+   "pad_thai",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato_paste",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato_paste",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "c382efed-5661-4b9c-a8cb-9517758053ee",
+  "gt": "french_fries",
+  "role": "known",
+  "E_top5": [
+   "pad_thai",
+   "biryani",
+   "pasta",
+   "rice",
+   "fried_rice"
+  ],
+  "V7_top5": [
+   "pad_thai",
+   "biryani",
+   "pasta",
+   "rice",
+   "fried_rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pad_thai",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "pad_thai",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "fae6fa97-c9b2-4d6c-8145-5fc049e1461f",
+  "gt": "french_fries",
+  "role": "known",
+  "E_top5": [
+   "french_fries",
+   "donuts",
+   "ice_cream",
+   "club_sandwich",
+   "yogurt"
+  ],
+  "V7_top5": [
+   "french_fries",
+   "donuts",
+   "ice_cream",
+   "club_sandwich",
+   "yogurt"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "french_fries",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "french_fries",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "40867013-4b54-4ce4-86f5-b8c6dd019581",
+  "gt": "french_fries",
+  "role": "known",
+  "E_top5": [
+   "french_fries",
+   "club_sandwich",
+   "pad_thai",
+   "donuts",
+   "guacamole"
+  ],
+  "V7_top5": [
+   "french_fries",
+   "club_sandwich",
+   "pad_thai",
+   "donuts",
+   "guacamole"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "french_fries",
+   "decision": "identity",
+   "label": "french_fries",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "french_fries",
+   "decision": "identity",
+   "label": "french_fries",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "998d9494-6427-4834-8add-74f40df99d3a",
+  "gt": "french_fries",
+  "role": "known",
+  "E_top5": [
+   "french_fries",
+   "donuts",
+   "club_sandwich",
+   "ice_cream",
+   "packaged_cheese"
+  ],
+  "V7_top5": [
+   "french_fries",
+   "donuts",
+   "club_sandwich",
+   "ice_cream",
+   "packaged_cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "french_fries",
+   "decision": "identity",
+   "label": "french_fries",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "french_fries",
+   "decision": "identity",
+   "label": "french_fries",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "48b4c6df-4795-4511-9b29-d169189a1a16",
+  "gt": "fried_rice",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "salad",
+   "packaged_cheese",
+   "hummus",
+   "guacamole"
+  ],
+  "V7_top5": [
+   "donuts",
+   "salad",
+   "packaged_cheese",
+   "hummus",
+   "guacamole"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "f1f67c9c-3482-47cf-be55-f16bbe2c5fcb",
+  "gt": "fried_rice",
+  "role": "known",
+  "E_top5": [
+   "fried_rice",
+   "biryani",
+   "rice",
+   "pad_thai",
+   "bibimbap"
+  ],
+  "V7_top5": [
+   "fried_rice",
+   "biryani",
+   "rice",
+   "pad_thai",
+   "bibimbap"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "fried_rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "fried_rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "fb7146aa-a013-42f1-a390-e631eec598c2",
+  "gt": "fried_rice",
+  "role": "known",
+  "E_top5": [
+   "fried_rice",
+   "biryani",
+   "rice",
+   "pad_thai",
+   "bibimbap"
+  ],
+  "V7_top5": [
+   "fried_rice",
+   "biryani",
+   "rice",
+   "pad_thai",
+   "bibimbap"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "fried_rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "fried_rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "d14973a4-ad08-48fd-907c-d28a79713a67",
+  "gt": "fried_rice",
+  "role": "known",
+  "E_top5": [
+   "biryani",
+   "fried_rice",
+   "guacamole",
+   "rice",
+   "omelette"
+  ],
+  "V7_top5": [
+   "biryani",
+   "fried_rice",
+   "guacamole",
+   "rice",
+   "omelette"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "biryani",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "adapter_e_v7": {
+   "top1": "biryani",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "fcf4d4ac-d003-4dd2-8ceb-376b491580fc",
+  "gt": "fried_rice",
+  "role": "known",
+  "E_top5": [
+   "fried_rice",
+   "biryani",
+   "rice",
+   "pad_thai",
+   "bibimbap"
+  ],
+  "V7_top5": [
+   "fried_rice",
+   "biryani",
+   "rice",
+   "pad_thai",
+   "bibimbap"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "fried_rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "fried_rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "0e75ebe2-b394-4203-a2b1-a2761740301f",
+  "gt": "fried_rice",
+  "role": "known",
+  "E_top5": [
+   "fried_rice",
+   "rice",
+   "biryani",
+   "pad_thai",
+   "bibimbap"
+  ],
+  "V7_top5": [
+   "fried_rice",
+   "rice",
+   "biryani",
+   "pad_thai",
+   "bibimbap"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "fried_rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "fried_rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "b7a761a6-3388-40ab-8258-a16177fbd6dd",
+  "gt": "fried_rice",
+  "role": "known",
+  "E_top5": [
+   "biryani",
+   "fried_rice",
+   "rice",
+   "guacamole",
+   "hummus"
+  ],
+  "V7_top5": [
+   "biryani",
+   "fried_rice",
+   "rice",
+   "guacamole",
+   "hummus"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "biryani",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "adapter_e_v7": {
+   "top1": "biryani",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "c866bb16-3dcf-4556-b5a3-c8d5a20ffd33",
+  "gt": "fried_rice",
+  "role": "known",
+  "E_top5": [
+   "fried_rice",
+   "biryani",
+   "rice",
+   "pad_thai",
+   "bibimbap"
+  ],
+  "V7_top5": [
+   "fried_rice",
+   "biryani",
+   "rice",
+   "pad_thai",
+   "bibimbap"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "fried_rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "fried_rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "32d106e4-4d58-44d1-ba68-0e2a430a296c",
+  "gt": "fried_rice",
+  "role": "known",
+  "E_top5": [
+   "fried_rice",
+   "biryani",
+   "rice",
+   "pad_thai",
+   "bibimbap"
+  ],
+  "V7_top5": [
+   "fried_rice",
+   "biryani",
+   "rice",
+   "pad_thai",
+   "bibimbap"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "fried_rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "fried_rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "e0c7e9e2-5d47-484a-94d0-0c3d538d7ecb",
+  "gt": "fried_rice",
+  "role": "known",
+  "E_top5": [
+   "fried_rice",
+   "biryani",
+   "rice",
+   "pad_thai",
+   "bibimbap"
+  ],
+  "V7_top5": [
+   "fried_rice",
+   "biryani",
+   "rice",
+   "pad_thai",
+   "bibimbap"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "fried_rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "fried_rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "3bbc5f08-1337-4e6c-a2c7-8f294f0c628a",
+  "gt": "garlic",
+  "role": "known",
+  "E_top5": [
+   "garlic",
+   "hummus",
+   "tomato",
+   "ginger",
+   "yogurt"
+  ],
+  "V7_top5": [
+   "garlic",
+   "hummus",
+   "tomato",
+   "ginger",
+   "yogurt"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "garlic",
+   "decision": "identity",
+   "label": "garlic",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "garlic",
+   "decision": "identity",
+   "label": "garlic",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "c9d95e9b-917c-43f1-a22c-3a27a8e8ce8f",
+  "gt": "garlic",
+  "role": "known",
+  "E_top5": [
+   "garlic",
+   "tomato",
+   "non_food",
+   "hummus",
+   "ginger"
+  ],
+  "V7_top5": [
+   "garlic",
+   "tomato",
+   "non_food",
+   "hummus",
+   "ginger"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "garlic",
+   "decision": "identity",
+   "label": "garlic",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "garlic",
+   "decision": "identity",
+   "label": "garlic",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "5c715c2a-283a-4f92-af70-fd7274cff7f2",
+  "gt": "garlic",
+  "role": "known",
+  "E_top5": [
+   "garlic",
+   "tomato",
+   "hummus",
+   "non_food",
+   "ginger"
+  ],
+  "V7_top5": [
+   "garlic",
+   "tomato",
+   "hummus",
+   "non_food",
+   "ginger"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "garlic",
+   "decision": "identity",
+   "label": "garlic",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "garlic",
+   "decision": "identity",
+   "label": "garlic",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "e6f2198a-254b-4022-9124-d9e74e9617fc",
+  "gt": "garlic",
+  "role": "known",
+  "E_top5": [
+   "garlic",
+   "ginger",
+   "hummus",
+   "cream",
+   "yogurt"
+  ],
+  "V7_top5": [
+   "garlic",
+   "ginger",
+   "hummus",
+   "cream",
+   "yogurt"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "garlic",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "garlic",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "c4172009-5fdd-44f3-a486-6033f62aec58",
+  "gt": "garlic",
+  "role": "known",
+  "E_top5": [
+   "garlic",
+   "tomato",
+   "non_food",
+   "hummus",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "garlic",
+   "tomato",
+   "non_food",
+   "hummus",
+   "tomato_paste"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "garlic",
+   "decision": "identity",
+   "label": "garlic",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "garlic",
+   "decision": "identity",
+   "label": "garlic",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "a89b6bc8-799e-4b40-a773-5a1056a3beab",
+  "gt": "garlic",
+  "role": "known",
+  "E_top5": [
+   "garlic",
+   "hummus",
+   "ginger",
+   "tomato",
+   "non_food"
+  ],
+  "V7_top5": [
+   "garlic",
+   "hummus",
+   "ginger",
+   "tomato",
+   "non_food"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "garlic",
+   "decision": "identity",
+   "label": "garlic",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "garlic",
+   "decision": "identity",
+   "label": "garlic",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "43457e11-0b1d-426f-bb15-cde9a4f5a3d8",
+  "gt": "garlic",
+  "role": "known",
+  "E_top5": [
+   "garlic",
+   "tomato",
+   "hummus",
+   "non_food",
+   "salad"
+  ],
+  "V7_top5": [
+   "garlic",
+   "tomato",
+   "hummus",
+   "non_food",
+   "salad"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "garlic",
+   "decision": "identity",
+   "label": "garlic",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "garlic",
+   "decision": "identity",
+   "label": "garlic",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "0bb8ebb8-dfa0-4d0c-be06-442eed8f92af",
+  "gt": "garlic",
+  "role": "known",
+  "E_top5": [
+   "garlic",
+   "hummus",
+   "ginger",
+   "yogurt",
+   "guacamole"
+  ],
+  "V7_top5": [
+   "garlic",
+   "hummus",
+   "ginger",
+   "yogurt",
+   "guacamole"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "garlic",
+   "decision": "identity",
+   "label": "garlic",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "garlic",
+   "decision": "identity",
+   "label": "garlic",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "7f807db2-178c-4062-b5e1-fdecc36fb8bb",
+  "gt": "garlic",
+  "role": "known",
+  "E_top5": [
+   "garlic",
+   "tomato",
+   "ginger",
+   "hummus",
+   "non_food"
+  ],
+  "V7_top5": [
+   "garlic",
+   "tomato",
+   "ginger",
+   "hummus",
+   "non_food"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "garlic",
+   "decision": "identity",
+   "label": "garlic",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "garlic",
+   "decision": "identity",
+   "label": "garlic",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "e19c27d1-ba6e-4b19-b43a-80467987b371",
+  "gt": "garlic",
+  "role": "known",
+  "E_top5": [
+   "garlic",
+   "ginger",
+   "tomato",
+   "non_food",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "garlic",
+   "ginger",
+   "tomato",
+   "non_food",
+   "tomato_paste"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "garlic",
+   "decision": "identity",
+   "label": "garlic",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "garlic",
+   "decision": "identity",
+   "label": "garlic",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "1172289f-63ee-431c-965b-e56baa67049e",
+  "gt": "ginger",
+  "role": "known",
+  "E_top5": [
+   "ginger",
+   "donuts",
+   "tomato_paste",
+   "garlic",
+   "rice"
+  ],
+  "V7_top5": [
+   "ginger",
+   "donuts",
+   "tomato_paste",
+   "garlic",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "ginger",
+   "decision": "identity",
+   "label": "ginger",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "ginger",
+   "decision": "identity",
+   "label": "ginger",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "f17cd23e-bfb2-4faf-a45b-60e04e3e92b1",
+  "gt": "ginger",
+  "role": "known",
+  "E_top5": [
+   "ginger",
+   "garlic",
+   "donuts",
+   "tomato_paste",
+   "hummus"
+  ],
+  "V7_top5": [
+   "ginger",
+   "garlic",
+   "donuts",
+   "tomato_paste",
+   "hummus"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "ginger",
+   "decision": "identity",
+   "label": "ginger",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "ginger",
+   "decision": "identity",
+   "label": "ginger",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "acea4a82-5bc0-4115-baeb-4ab6f0c13a95",
+  "gt": "ginger",
+  "role": "known",
+  "E_top5": [
+   "ginger",
+   "donuts",
+   "cream",
+   "ice_cream",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "ginger",
+   "donuts",
+   "ice_cream",
+   "cream",
+   "tomato_paste"
+  ],
+  "specialists_fired": [
+   "cream <-> ice_cream"
+  ],
+  "adapter_e": {
+   "top1": "ginger",
+   "decision": "identity",
+   "label": "ginger",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "ginger",
+   "decision": "identity",
+   "label": "ginger",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "e80f36df-4372-4f1e-98c1-b128c23a4fb2",
+  "gt": "ginger",
+  "role": "known",
+  "E_top5": [
+   "ginger",
+   "donuts",
+   "tomato_paste",
+   "garlic",
+   "cream"
+  ],
+  "V7_top5": [
+   "ginger",
+   "donuts",
+   "tomato_paste",
+   "garlic",
+   "cream"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "ginger",
+   "decision": "identity",
+   "label": "ginger",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "ginger",
+   "decision": "identity",
+   "label": "ginger",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "ebbc438f-d375-4384-b366-ef73d647efc7",
+  "gt": "guacamole",
+  "role": "known",
+  "E_top5": [
+   "guacamole",
+   "hummus",
+   "salad",
+   "yogurt",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "guacamole",
+   "hummus",
+   "salad",
+   "yogurt",
+   "tomato_paste"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "guacamole",
+   "decision": "identity",
+   "label": "guacamole",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "guacamole",
+   "decision": "identity",
+   "label": "guacamole",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "fd907e1f-0beb-4fb1-ab16-094bafdfb8eb",
+  "gt": "guacamole",
+  "role": "known",
+  "E_top5": [
+   "lasagna",
+   "pasta",
+   "omelette",
+   "biryani",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "lasagna",
+   "pasta",
+   "omelette",
+   "biryani",
+   "tomato_paste"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "lasagna",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "lasagna",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "55ef464f-3b85-424f-8f9e-cef0ed4bb37f",
+  "gt": "guacamole",
+  "role": "known",
+  "E_top5": [
+   "guacamole",
+   "hummus",
+   "salad",
+   "biryani",
+   "caesar_salad"
+  ],
+  "V7_top5": [
+   "guacamole",
+   "hummus",
+   "salad",
+   "biryani",
+   "caesar_salad"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "guacamole",
+   "decision": "identity",
+   "label": "guacamole",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "guacamole",
+   "decision": "identity",
+   "label": "guacamole",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "8d318edf-1ad8-4aba-bf16-b989380653c1",
+  "gt": "guacamole",
+  "role": "known",
+  "E_top5": [
+   "guacamole",
+   "hummus",
+   "biryani",
+   "tomato_paste",
+   "salad"
+  ],
+  "V7_top5": [
+   "guacamole",
+   "hummus",
+   "biryani",
+   "tomato_paste",
+   "salad"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "guacamole",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "guacamole",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "0dd7a9f8-e346-4f72-ba63-9993117a4445",
+  "gt": "guacamole",
+  "role": "known",
+  "E_top5": [
+   "guacamole",
+   "hummus",
+   "tomato_paste",
+   "yogurt",
+   "salad"
+  ],
+  "V7_top5": [
+   "guacamole",
+   "hummus",
+   "tomato_paste",
+   "yogurt",
+   "salad"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "guacamole",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "guacamole",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "7c9ecff8-dbbe-4c05-88d1-fa4629ce7311",
+  "gt": "guacamole",
+  "role": "known",
+  "E_top5": [
+   "guacamole",
+   "hummus",
+   "salad",
+   "yogurt",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "guacamole",
+   "hummus",
+   "salad",
+   "yogurt",
+   "tomato_paste"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "guacamole",
+   "decision": "identity",
+   "label": "guacamole",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "guacamole",
+   "decision": "identity",
+   "label": "guacamole",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "de6e0b8f-e510-4792-b567-6108e6dfbae6",
+  "gt": "guacamole",
+  "role": "known",
+  "E_top5": [
+   "guacamole",
+   "hummus",
+   "biryani",
+   "salad",
+   "omelette"
+  ],
+  "V7_top5": [
+   "guacamole",
+   "hummus",
+   "biryani",
+   "salad",
+   "omelette"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "guacamole",
+   "decision": "identity",
+   "label": "guacamole",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "guacamole",
+   "decision": "identity",
+   "label": "guacamole",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "0a6863b2-5265-4fe3-81f7-c036fc558144",
+  "gt": "guacamole",
+  "role": "known",
+  "E_top5": [
+   "guacamole",
+   "hummus",
+   "salad",
+   "yogurt",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "guacamole",
+   "hummus",
+   "salad",
+   "yogurt",
+   "tomato_paste"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "guacamole",
+   "decision": "identity",
+   "label": "guacamole",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "guacamole",
+   "decision": "identity",
+   "label": "guacamole",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "fc782cbb-4aae-47a1-a94a-63f1ed8546bf",
+  "gt": "guacamole",
+  "role": "known",
+  "E_top5": [
+   "guacamole",
+   "hummus",
+   "biryani",
+   "salad",
+   "omelette"
+  ],
+  "V7_top5": [
+   "guacamole",
+   "hummus",
+   "biryani",
+   "salad",
+   "omelette"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "guacamole",
+   "decision": "identity",
+   "label": "guacamole",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "guacamole",
+   "decision": "identity",
+   "label": "guacamole",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "e8716065-6ae2-4623-a7d7-85d29a8ca633",
+  "gt": "guacamole",
+  "role": "known",
+  "E_top5": [
+   "guacamole",
+   "hummus",
+   "salad",
+   "yogurt",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "guacamole",
+   "hummus",
+   "salad",
+   "yogurt",
+   "tomato_paste"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "guacamole",
+   "decision": "identity",
+   "label": "guacamole",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "guacamole",
+   "decision": "identity",
+   "label": "guacamole",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "81fd1d96-c2c4-46b6-a17f-a51dfdcde169",
+  "gt": "hummus",
+  "role": "known",
+  "E_top5": [
+   "hummus",
+   "yogurt",
+   "guacamole",
+   "salad",
+   "caesar_salad"
+  ],
+  "V7_top5": [
+   "hummus",
+   "yogurt",
+   "guacamole",
+   "salad",
+   "caesar_salad"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "hummus",
+   "decision": "identity",
+   "label": "hummus",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "hummus",
+   "decision": "identity",
+   "label": "hummus",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "02830de3-42f8-426d-ae36-59b0deec018d",
+  "gt": "hummus",
+  "role": "known",
+  "E_top5": [
+   "hummus",
+   "yogurt",
+   "guacamole",
+   "cream",
+   "ice_cream"
+  ],
+  "V7_top5": [
+   "hummus",
+   "yogurt",
+   "guacamole",
+   "cream",
+   "ice_cream"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "hummus",
+   "decision": "identity",
+   "label": "hummus",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "hummus",
+   "decision": "identity",
+   "label": "hummus",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "78ef05f9-8f8d-4b4d-a29a-29a8b588b698",
+  "gt": "hummus",
+  "role": "known",
+  "E_top5": [
+   "hummus",
+   "yogurt",
+   "cream",
+   "guacamole",
+   "ice_cream"
+  ],
+  "V7_top5": [
+   "hummus",
+   "yogurt",
+   "cream",
+   "guacamole",
+   "ice_cream"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "hummus",
+   "decision": "identity",
+   "label": "hummus",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "hummus",
+   "decision": "identity",
+   "label": "hummus",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "dd073fb8-3a71-49b3-b128-df89abc851f7",
+  "gt": "hummus",
+  "role": "known",
+  "E_top5": [
+   "omelette",
+   "bibimbap",
+   "lasagna",
+   "biryani",
+   "pasta"
+  ],
+  "V7_top5": [
+   "omelette",
+   "bibimbap",
+   "lasagna",
+   "biryani",
+   "pasta"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "omelette",
+   "decision": "identity",
+   "label": "omelette",
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "omelette",
+   "decision": "identity",
+   "label": "omelette",
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "7526eb76-9b2c-4648-8366-e9b1637a268a",
+  "gt": "hummus",
+  "role": "known",
+  "E_top5": [
+   "salad",
+   "guacamole",
+   "caesar_salad",
+   "hummus",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "salad",
+   "guacamole",
+   "caesar_salad",
+   "hummus",
+   "tomato_paste"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "c7ac8d63-f688-4e6b-9454-0f4ed0939d10",
+  "gt": "hummus",
+  "role": "known",
+  "E_top5": [
+   "hummus",
+   "guacamole",
+   "yogurt",
+   "salad",
+   "ice_cream"
+  ],
+  "V7_top5": [
+   "hummus",
+   "guacamole",
+   "yogurt",
+   "salad",
+   "ice_cream"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "hummus",
+   "decision": "identity",
+   "label": "hummus",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "hummus",
+   "decision": "identity",
+   "label": "hummus",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "37c52053-1830-43c4-b121-3d6a2ed13df4",
+  "gt": "hummus",
+  "role": "known",
+  "E_top5": [
+   "hummus",
+   "yogurt",
+   "guacamole",
+   "rice",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "hummus",
+   "yogurt",
+   "guacamole",
+   "rice",
+   "tomato_paste"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "hummus",
+   "decision": "identity",
+   "label": "hummus",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "hummus",
+   "decision": "identity",
+   "label": "hummus",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "9a66b65b-5417-4b26-a597-5beccefb3f86",
+  "gt": "hummus",
+  "role": "known",
+  "E_top5": [
+   "omelette",
+   "lasagna",
+   "bibimbap",
+   "biryani",
+   "pasta"
+  ],
+  "V7_top5": [
+   "omelette",
+   "lasagna",
+   "bibimbap",
+   "biryani",
+   "pasta"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "omelette",
+   "decision": "identity",
+   "label": "omelette",
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "omelette",
+   "decision": "identity",
+   "label": "omelette",
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "bede2941-7730-4cfb-a1e1-96f5a4dbb923",
+  "gt": "hummus",
+  "role": "known",
+  "E_top5": [
+   "guacamole",
+   "french_fries",
+   "hummus",
+   "ice_cream",
+   "yogurt"
+  ],
+  "V7_top5": [
+   "guacamole",
+   "french_fries",
+   "hummus",
+   "ice_cream",
+   "yogurt"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "guacamole",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "adapter_e_v7": {
+   "top1": "guacamole",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "97aa6c59-30fc-4fcb-9e0e-6b6f13c5f2cc",
+  "gt": "hummus",
+  "role": "known",
+  "E_top5": [
+   "hummus",
+   "guacamole",
+   "omelette",
+   "yogurt",
+   "salad"
+  ],
+  "V7_top5": [
+   "hummus",
+   "guacamole",
+   "omelette",
+   "yogurt",
+   "salad"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "hummus",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "hummus",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "4a1559f0-67ec-4563-96f4-561eed567c5a",
+  "gt": "ice_cream",
+  "role": "known",
+  "E_top5": [
+   "cream",
+   "donuts",
+   "yogurt",
+   "ice_cream",
+   "hummus"
+  ],
+  "V7_top5": [
+   "cream",
+   "donuts",
+   "yogurt",
+   "ice_cream",
+   "hummus"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "cream",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "cream",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "58b4d987-ebf8-4144-9fd8-269efcfb0638",
+  "gt": "ice_cream",
+  "role": "known",
+  "E_top5": [
+   "ice_cream",
+   "yogurt",
+   "cream",
+   "hummus",
+   "guacamole"
+  ],
+  "V7_top5": [
+   "ice_cream",
+   "yogurt",
+   "cream",
+   "hummus",
+   "guacamole"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "ice_cream",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "ice_cream",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "e0a8abf5-9c11-4f2d-aa1e-2320e901a82c",
+  "gt": "ice_cream",
+  "role": "known",
+  "E_top5": [
+   "ice_cream",
+   "cream",
+   "yogurt",
+   "donuts",
+   "hummus"
+  ],
+  "V7_top5": [
+   "ice_cream",
+   "cream",
+   "yogurt",
+   "donuts",
+   "hummus"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "ice_cream",
+   "decision": "identity",
+   "label": "ice_cream",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "ice_cream",
+   "decision": "identity",
+   "label": "ice_cream",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "aeb5ab6e-a629-4972-b2bc-13635be47a00",
+  "gt": "ice_cream",
+  "role": "known",
+  "E_top5": [
+   "ice_cream",
+   "yogurt",
+   "cream",
+   "donuts",
+   "french_fries"
+  ],
+  "V7_top5": [
+   "ice_cream",
+   "yogurt",
+   "cream",
+   "donuts",
+   "french_fries"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "ice_cream",
+   "decision": "identity",
+   "label": "ice_cream",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "ice_cream",
+   "decision": "identity",
+   "label": "ice_cream",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "336aadae-4106-48e9-bdba-21989da2d39f",
+  "gt": "ice_cream",
+  "role": "known",
+  "E_top5": [
+   "ice_cream",
+   "cream",
+   "yogurt",
+   "donuts",
+   "french_fries"
+  ],
+  "V7_top5": [
+   "ice_cream",
+   "cream",
+   "yogurt",
+   "donuts",
+   "french_fries"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "ice_cream",
+   "decision": "identity",
+   "label": "ice_cream",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "ice_cream",
+   "decision": "identity",
+   "label": "ice_cream",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "41566dd0-5427-4e14-8a4b-f88716177893",
+  "gt": "ice_cream",
+  "role": "known",
+  "E_top5": [
+   "ice_cream",
+   "yogurt",
+   "cream",
+   "hummus",
+   "donuts"
+  ],
+  "V7_top5": [
+   "ice_cream",
+   "yogurt",
+   "cream",
+   "hummus",
+   "donuts"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "ice_cream",
+   "decision": "identity",
+   "label": "ice_cream",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "ice_cream",
+   "decision": "identity",
+   "label": "ice_cream",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "76be27d4-81d2-4d0d-b9f2-9daeeb857713",
+  "gt": "ice_cream",
+  "role": "known",
+  "E_top5": [
+   "cream",
+   "ice_cream",
+   "yogurt",
+   "donuts",
+   "cheese"
+  ],
+  "V7_top5": [
+   "cream",
+   "ice_cream",
+   "yogurt",
+   "donuts",
+   "cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "cream",
+   "decision": "identity",
+   "label": "cream",
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "cream",
+   "decision": "identity",
+   "label": "cream",
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "6abcc769-187a-4bf9-bbf1-e77e07b6402d",
+  "gt": "ice_cream",
+  "role": "known",
+  "E_top5": [
+   "ice_cream",
+   "cream",
+   "yogurt",
+   "donuts",
+   "french_fries"
+  ],
+  "V7_top5": [
+   "ice_cream",
+   "cream",
+   "yogurt",
+   "donuts",
+   "french_fries"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "ice_cream",
+   "decision": "identity",
+   "label": "ice_cream",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "ice_cream",
+   "decision": "identity",
+   "label": "ice_cream",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "497413ca-4a12-48c7-9ee7-68d8cfe87c4e",
+  "gt": "ice_cream",
+  "role": "known",
+  "E_top5": [
+   "yogurt",
+   "rice",
+   "ice_cream",
+   "donuts",
+   "french_fries"
+  ],
+  "V7_top5": [
+   "yogurt",
+   "rice",
+   "ice_cream",
+   "donuts",
+   "french_fries"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "yogurt",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "yogurt",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "02770759-9c74-4e52-8bb5-05ab7704879d",
+  "gt": "ice_cream",
+  "role": "known",
+  "E_top5": [
+   "ice_cream",
+   "yogurt",
+   "cream",
+   "donuts",
+   "hummus"
+  ],
+  "V7_top5": [
+   "ice_cream",
+   "yogurt",
+   "cream",
+   "donuts",
+   "hummus"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "ice_cream",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "ice_cream",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "457e8c8c-1ce1-419c-8b3d-7cb95f08878e",
+  "gt": "lasagna",
+  "role": "known",
+  "E_top5": [
+   "lasagna",
+   "pasta",
+   "pizza",
+   "omelette",
+   "biryani"
+  ],
+  "V7_top5": [
+   "lasagna",
+   "pasta",
+   "pizza",
+   "omelette",
+   "biryani"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "lasagna",
+   "decision": "identity",
+   "label": "lasagna",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "lasagna",
+   "decision": "identity",
+   "label": "lasagna",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "896c288e-7f9a-440b-b411-38c246787ad9",
+  "gt": "lasagna",
+  "role": "known",
+  "E_top5": [
+   "lasagna",
+   "omelette",
+   "pasta",
+   "biryani",
+   "pizza"
+  ],
+  "V7_top5": [
+   "lasagna",
+   "omelette",
+   "pasta",
+   "biryani",
+   "pizza"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "lasagna",
+   "decision": "identity",
+   "label": "lasagna",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "lasagna",
+   "decision": "identity",
+   "label": "lasagna",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "bc0b09bd-5822-4a2a-9f53-59faedf712fe",
+  "gt": "lasagna",
+  "role": "known",
+  "E_top5": [
+   "lasagna",
+   "pasta",
+   "omelette",
+   "pizza",
+   "biryani"
+  ],
+  "V7_top5": [
+   "lasagna",
+   "pasta",
+   "omelette",
+   "pizza",
+   "biryani"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "lasagna",
+   "decision": "identity",
+   "label": "lasagna",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "lasagna",
+   "decision": "identity",
+   "label": "lasagna",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "1c375822-a8a9-46e9-b3ab-7536e0f199e1",
+  "gt": "lasagna",
+  "role": "known",
+  "E_top5": [
+   "lasagna",
+   "pasta",
+   "omelette",
+   "pizza",
+   "biryani"
+  ],
+  "V7_top5": [
+   "lasagna",
+   "pasta",
+   "omelette",
+   "pizza",
+   "biryani"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "lasagna",
+   "decision": "identity",
+   "label": "lasagna",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "lasagna",
+   "decision": "identity",
+   "label": "lasagna",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "3447721f-1504-42b1-b3d4-de34af51d549",
+  "gt": "lasagna",
+  "role": "known",
+  "E_top5": [
+   "lasagna",
+   "omelette",
+   "pasta",
+   "pizza",
+   "biryani"
+  ],
+  "V7_top5": [
+   "lasagna",
+   "omelette",
+   "pasta",
+   "pizza",
+   "biryani"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "lasagna",
+   "decision": "identity",
+   "label": "lasagna",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "lasagna",
+   "decision": "identity",
+   "label": "lasagna",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "c431b004-3ea1-46a3-9a85-6b997a1a9498",
+  "gt": "lasagna",
+  "role": "known",
+  "E_top5": [
+   "lasagna",
+   "pasta",
+   "omelette",
+   "pizza",
+   "biryani"
+  ],
+  "V7_top5": [
+   "lasagna",
+   "pasta",
+   "omelette",
+   "pizza",
+   "biryani"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "lasagna",
+   "decision": "identity",
+   "label": "lasagna",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "lasagna",
+   "decision": "identity",
+   "label": "lasagna",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "6a028e15-cede-4385-8870-7bfc5238cca1",
+  "gt": "lasagna",
+  "role": "known",
+  "E_top5": [
+   "lasagna",
+   "pasta",
+   "omelette",
+   "pizza",
+   "biryani"
+  ],
+  "V7_top5": [
+   "lasagna",
+   "pasta",
+   "omelette",
+   "pizza",
+   "biryani"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "lasagna",
+   "decision": "identity",
+   "label": "lasagna",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "lasagna",
+   "decision": "identity",
+   "label": "lasagna",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "76a16495-e10a-4a90-93aa-7d530d187f04",
+  "gt": "lasagna",
+  "role": "known",
+  "E_top5": [
+   "lasagna",
+   "omelette",
+   "pasta",
+   "bibimbap",
+   "biryani"
+  ],
+  "V7_top5": [
+   "lasagna",
+   "omelette",
+   "pasta",
+   "bibimbap",
+   "biryani"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "lasagna",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "lasagna",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "6200ef81-b5ca-4403-a433-da35a508f593",
+  "gt": "lasagna",
+  "role": "known",
+  "E_top5": [
+   "lasagna",
+   "pasta",
+   "pizza",
+   "omelette",
+   "biryani"
+  ],
+  "V7_top5": [
+   "lasagna",
+   "pasta",
+   "pizza",
+   "omelette",
+   "biryani"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "lasagna",
+   "decision": "identity",
+   "label": "lasagna",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "lasagna",
+   "decision": "identity",
+   "label": "lasagna",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "f62fe629-27bd-44b3-a35c-cd057b015cbc",
+  "gt": "lasagna",
+  "role": "known",
+  "E_top5": [
+   "lasagna",
+   "pasta",
+   "omelette",
+   "pizza",
+   "biryani"
+  ],
+  "V7_top5": [
+   "lasagna",
+   "pasta",
+   "omelette",
+   "pizza",
+   "biryani"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "lasagna",
+   "decision": "identity",
+   "label": "lasagna",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "lasagna",
+   "decision": "identity",
+   "label": "lasagna",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "89bc55e8-12af-416c-b13f-fbfe34fa8c8a",
+  "gt": "non_food",
+  "role": "known",
+  "E_top5": [
+   "non_food",
+   "tomato_paste",
+   "donuts",
+   "rice",
+   "salad"
+  ],
+  "V7_top5": [
+   "non_food",
+   "tomato_paste",
+   "donuts",
+   "rice",
+   "salad"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "non_food",
+   "decision": "identity",
+   "label": "non_food",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "non_food",
+   "decision": "identity",
+   "label": "non_food",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "b920061f-aede-4c4b-86ac-01c69f4f3801",
+  "gt": "non_food",
+  "role": "known",
+  "E_top5": [
+   "non_food",
+   "tomato_paste",
+   "salad",
+   "tomato",
+   "biryani"
+  ],
+  "V7_top5": [
+   "non_food",
+   "tomato_paste",
+   "salad",
+   "tomato",
+   "biryani"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "non_food",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "non_food",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "e45faa29-da50-4633-9994-17dd28c80685",
+  "gt": "non_food",
+  "role": "known",
+  "E_top5": [
+   "tomato_paste",
+   "non_food",
+   "yogurt",
+   "donuts",
+   "packaged_cheese"
+  ],
+  "V7_top5": [
+   "tomato_paste",
+   "non_food",
+   "yogurt",
+   "donuts",
+   "packaged_cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato_paste",
+   "decision": "family",
+   "label": null,
+   "divergence": "FOOD_NONFOOD"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato_paste",
+   "decision": "family",
+   "label": null,
+   "divergence": "FOOD_NONFOOD"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "2f7381f6-87ea-44e7-8ddb-65efbbc53b8d",
+  "gt": "non_food",
+  "role": "known",
+  "E_top5": [
+   "non_food",
+   "tomato_paste",
+   "donuts",
+   "yogurt",
+   "packaged_cheese"
+  ],
+  "V7_top5": [
+   "non_food",
+   "tomato_paste",
+   "donuts",
+   "yogurt",
+   "packaged_cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "non_food",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "non_food",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "92e38e07-a114-4b87-96f2-b9055904219e",
+  "gt": "non_food",
+  "role": "known",
+  "E_top5": [
+   "non_food",
+   "tomato_paste",
+   "tomato",
+   "salad",
+   "rice"
+  ],
+  "V7_top5": [
+   "non_food",
+   "tomato_paste",
+   "tomato",
+   "salad",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "non_food",
+   "decision": "identity",
+   "label": "non_food",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "non_food",
+   "decision": "identity",
+   "label": "non_food",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "ccb2cba1-480d-4dc3-93f5-cef02897df08",
+  "gt": "non_food",
+  "role": "known",
+  "E_top5": [
+   "non_food",
+   "tomato_paste",
+   "packaged_cheese",
+   "tomato",
+   "rice"
+  ],
+  "V7_top5": [
+   "non_food",
+   "tomato_paste",
+   "packaged_cheese",
+   "tomato",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "non_food",
+   "decision": "identity",
+   "label": "non_food",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "non_food",
+   "decision": "identity",
+   "label": "non_food",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "7c477beb-b7d5-4dcc-b4f4-5922335d4cea",
+  "gt": "non_food",
+  "role": "known",
+  "E_top5": [
+   "non_food",
+   "tomato_paste",
+   "donuts",
+   "yogurt",
+   "salad"
+  ],
+  "V7_top5": [
+   "non_food",
+   "tomato_paste",
+   "donuts",
+   "yogurt",
+   "salad"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "non_food",
+   "decision": "identity",
+   "label": "non_food",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "non_food",
+   "decision": "identity",
+   "label": "non_food",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "2fa10c3f-1336-455e-b299-df3e1580bcf8",
+  "gt": "non_food",
+  "role": "known",
+  "E_top5": [
+   "non_food",
+   "tomato_paste",
+   "tomato",
+   "salad",
+   "donuts"
+  ],
+  "V7_top5": [
+   "non_food",
+   "tomato_paste",
+   "tomato",
+   "salad",
+   "donuts"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "non_food",
+   "decision": "identity",
+   "label": "non_food",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "non_food",
+   "decision": "identity",
+   "label": "non_food",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "b716a05e-948f-489a-83b6-e89d2bf976d0",
+  "gt": "non_food",
+  "role": "known",
+  "E_top5": [
+   "non_food",
+   "tomato_paste",
+   "donuts",
+   "salad",
+   "tomato"
+  ],
+  "V7_top5": [
+   "non_food",
+   "tomato_paste",
+   "donuts",
+   "salad",
+   "tomato"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "non_food",
+   "decision": "identity",
+   "label": "non_food",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "non_food",
+   "decision": "identity",
+   "label": "non_food",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "8e14d586-ca02-495d-85b0-8474c22b2bd4",
+  "gt": "non_food",
+  "role": "known",
+  "E_top5": [
+   "non_food",
+   "tomato_paste",
+   "donuts",
+   "tomato",
+   "rice"
+  ],
+  "V7_top5": [
+   "non_food",
+   "tomato_paste",
+   "donuts",
+   "tomato",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "non_food",
+   "decision": "identity",
+   "label": "non_food",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "non_food",
+   "decision": "identity",
+   "label": "non_food",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "274258bf-5629-4dec-8160-10fa73151379",
+  "gt": "omelette",
+  "role": "known",
+  "E_top5": [
+   "omelette",
+   "pizza",
+   "lasagna",
+   "pasta",
+   "guacamole"
+  ],
+  "V7_top5": [
+   "omelette",
+   "pizza",
+   "lasagna",
+   "pasta",
+   "guacamole"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "omelette",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "omelette",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "f76f5b71-7bcd-4811-a69d-91a9da37bc87",
+  "gt": "omelette",
+  "role": "known",
+  "E_top5": [
+   "omelette",
+   "pizza",
+   "guacamole",
+   "lasagna",
+   "caesar_salad"
+  ],
+  "V7_top5": [
+   "omelette",
+   "pizza",
+   "guacamole",
+   "lasagna",
+   "caesar_salad"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "omelette",
+   "decision": "identity",
+   "label": "omelette",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "omelette",
+   "decision": "identity",
+   "label": "omelette",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "fd95abce-b6b6-49da-95c4-e6bf0e5f4cba",
+  "gt": "omelette",
+  "role": "known",
+  "E_top5": [
+   "omelette",
+   "guacamole",
+   "hummus",
+   "biryani",
+   "yogurt"
+  ],
+  "V7_top5": [
+   "omelette",
+   "guacamole",
+   "hummus",
+   "biryani",
+   "yogurt"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "omelette",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "omelette",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "b6b8352e-4f21-47ac-9fac-7dbee23f7ae8",
+  "gt": "omelette",
+  "role": "known",
+  "E_top5": [
+   "omelette",
+   "hummus",
+   "guacamole",
+   "pizza",
+   "bibimbap"
+  ],
+  "V7_top5": [
+   "omelette",
+   "hummus",
+   "guacamole",
+   "pizza",
+   "bibimbap"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "omelette",
+   "decision": "identity",
+   "label": "omelette",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "omelette",
+   "decision": "identity",
+   "label": "omelette",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "41bfc588-293f-4ecd-b2c9-24b61313d66b",
+  "gt": "omelette",
+  "role": "known",
+  "E_top5": [
+   "omelette",
+   "spring_rolls",
+   "hummus",
+   "caesar_salad",
+   "lasagna"
+  ],
+  "V7_top5": [
+   "omelette",
+   "spring_rolls",
+   "hummus",
+   "caesar_salad",
+   "lasagna"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "omelette",
+   "decision": "identity",
+   "label": "omelette",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "omelette",
+   "decision": "identity",
+   "label": "omelette",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "fbf01a71-2212-4670-a052-e31fde7b5850",
+  "gt": "omelette",
+  "role": "known",
+  "E_top5": [
+   "omelette",
+   "tomato",
+   "guacamole",
+   "tomato_paste",
+   "biryani"
+  ],
+  "V7_top5": [
+   "omelette",
+   "tomato",
+   "guacamole",
+   "tomato_paste",
+   "biryani"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "omelette",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "omelette",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "2c290058-e09f-457f-9707-552f16a4b99c",
+  "gt": "omelette",
+  "role": "known",
+  "E_top5": [
+   "omelette",
+   "lasagna",
+   "yogurt",
+   "pizza",
+   "cream"
+  ],
+  "V7_top5": [
+   "omelette",
+   "lasagna",
+   "yogurt",
+   "pizza",
+   "cream"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "omelette",
+   "decision": "identity",
+   "label": "omelette",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "omelette",
+   "decision": "identity",
+   "label": "omelette",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "358bda57-7f95-4f3e-8dc8-ce887901c55b",
+  "gt": "omelette",
+  "role": "known",
+  "E_top5": [
+   "omelette",
+   "lasagna",
+   "biryani",
+   "spring_rolls",
+   "pizza"
+  ],
+  "V7_top5": [
+   "omelette",
+   "lasagna",
+   "biryani",
+   "spring_rolls",
+   "pizza"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "omelette",
+   "decision": "identity",
+   "label": "omelette",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "omelette",
+   "decision": "identity",
+   "label": "omelette",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "d5471702-ef1b-4c0c-a754-5f3218da1736",
+  "gt": "omelette",
+  "role": "known",
+  "E_top5": [
+   "omelette",
+   "lasagna",
+   "biryani",
+   "pizza",
+   "pasta"
+  ],
+  "V7_top5": [
+   "omelette",
+   "lasagna",
+   "biryani",
+   "pizza",
+   "pasta"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "omelette",
+   "decision": "identity",
+   "label": "omelette",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "omelette",
+   "decision": "identity",
+   "label": "omelette",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "2d448193-4c93-451f-bde5-bdb447beba9f",
+  "gt": "omelette",
+  "role": "known",
+  "E_top5": [
+   "omelette",
+   "lasagna",
+   "pizza",
+   "guacamole",
+   "biryani"
+  ],
+  "V7_top5": [
+   "omelette",
+   "lasagna",
+   "pizza",
+   "guacamole",
+   "biryani"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "omelette",
+   "decision": "identity",
+   "label": "omelette",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "omelette",
+   "decision": "identity",
+   "label": "omelette",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "e8b8810e-d284-4549-94c7-d340889d8c16",
+  "gt": "packaged_cheese",
+  "role": "known",
+  "E_top5": [
+   "packaged_cheese",
+   "french_fries",
+   "donuts",
+   "club_sandwich",
+   "cheese"
+  ],
+  "V7_top5": [
+   "cheese",
+   "french_fries",
+   "donuts",
+   "club_sandwich",
+   "packaged_cheese"
+  ],
+  "specialists_fired": [
+   "cheese <-> packaged_cheese"
+  ],
+  "adapter_e": {
+   "top1": "packaged_cheese",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "cheese",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "broken"
+ },
+ {
+  "id": "0bf0d430-6425-4b7a-bb46-96db7e2e9313",
+  "gt": "packaged_cheese",
+  "role": "known",
+  "E_top5": [
+   "cream",
+   "yogurt",
+   "donuts",
+   "ice_cream",
+   "hummus"
+  ],
+  "V7_top5": [
+   "cream",
+   "yogurt",
+   "donuts",
+   "ice_cream",
+   "hummus"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "cream",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "cream",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "6a14ad5c-9c9b-44cf-b03d-13e363e02107",
+  "gt": "packaged_cheese",
+  "role": "known",
+  "E_top5": [
+   "cheese",
+   "packaged_cheese",
+   "club_sandwich",
+   "donuts",
+   "salad"
+  ],
+  "V7_top5": [
+   "packaged_cheese",
+   "cheese",
+   "club_sandwich",
+   "donuts",
+   "salad"
+  ],
+  "specialists_fired": [
+   "cheese <-> packaged_cheese"
+  ],
+  "adapter_e": {
+   "top1": "cheese",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "packaged_cheese",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "fixed"
+ },
+ {
+  "id": "f4b91a48-f575-42e5-a468-c83a95ad7565",
+  "gt": "pad_thai",
+  "role": "known",
+  "E_top5": [
+   "pad_thai",
+   "biryani",
+   "fried_rice",
+   "pasta",
+   "bibimbap"
+  ],
+  "V7_top5": [
+   "pad_thai",
+   "fried_rice",
+   "biryani",
+   "pasta",
+   "bibimbap"
+  ],
+  "specialists_fired": [
+   "biryani <-> fried_rice"
+  ],
+  "adapter_e": {
+   "top1": "pad_thai",
+   "decision": "identity",
+   "label": "pad_thai",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pad_thai",
+   "decision": "identity",
+   "label": "pad_thai",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "cc14b784-e775-47f6-b2cd-346aaad6b09c",
+  "gt": "pad_thai",
+  "role": "known",
+  "E_top5": [
+   "pad_thai",
+   "biryani",
+   "fried_rice",
+   "rice",
+   "pasta"
+  ],
+  "V7_top5": [
+   "pad_thai",
+   "biryani",
+   "fried_rice",
+   "rice",
+   "pasta"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pad_thai",
+   "decision": "identity",
+   "label": "pad_thai",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pad_thai",
+   "decision": "identity",
+   "label": "pad_thai",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "05e92ef7-9f86-4bc4-a39f-c2c365e3b4d7",
+  "gt": "pad_thai",
+  "role": "known",
+  "E_top5": [
+   "pad_thai",
+   "biryani",
+   "fried_rice",
+   "pasta",
+   "bibimbap"
+  ],
+  "V7_top5": [
+   "pad_thai",
+   "biryani",
+   "fried_rice",
+   "pasta",
+   "bibimbap"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pad_thai",
+   "decision": "identity",
+   "label": "pad_thai",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pad_thai",
+   "decision": "identity",
+   "label": "pad_thai",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "19897f67-3878-4399-bc2b-a2b15467caf2",
+  "gt": "pad_thai",
+  "role": "known",
+  "E_top5": [
+   "pad_thai",
+   "pasta",
+   "biryani",
+   "bibimbap",
+   "caesar_salad"
+  ],
+  "V7_top5": [
+   "pad_thai",
+   "pasta",
+   "biryani",
+   "bibimbap",
+   "caesar_salad"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pad_thai",
+   "decision": "identity",
+   "label": "pad_thai",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pad_thai",
+   "decision": "identity",
+   "label": "pad_thai",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "4c3fa367-804e-47c9-8f41-c20f79c8c130",
+  "gt": "pad_thai",
+  "role": "known",
+  "E_top5": [
+   "pad_thai",
+   "pasta",
+   "bibimbap",
+   "biryani",
+   "rice"
+  ],
+  "V7_top5": [
+   "pad_thai",
+   "pasta",
+   "bibimbap",
+   "biryani",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pad_thai",
+   "decision": "identity",
+   "label": "pad_thai",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pad_thai",
+   "decision": "identity",
+   "label": "pad_thai",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "28dab922-8a75-422f-aed3-c44516e72b3b",
+  "gt": "pad_thai",
+  "role": "known",
+  "E_top5": [
+   "pad_thai",
+   "pasta",
+   "rice",
+   "biryani",
+   "fried_rice"
+  ],
+  "V7_top5": [
+   "pad_thai",
+   "pasta",
+   "rice",
+   "fried_rice",
+   "biryani"
+  ],
+  "specialists_fired": [
+   "biryani <-> fried_rice"
+  ],
+  "adapter_e": {
+   "top1": "pad_thai",
+   "decision": "identity",
+   "label": "pad_thai",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pad_thai",
+   "decision": "identity",
+   "label": "pad_thai",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "03a7a340-adb0-4799-8f88-d0b306272677",
+  "gt": "pad_thai",
+  "role": "known",
+  "E_top5": [
+   "pad_thai",
+   "biryani",
+   "fried_rice",
+   "rice",
+   "bibimbap"
+  ],
+  "V7_top5": [
+   "pad_thai",
+   "biryani",
+   "fried_rice",
+   "rice",
+   "bibimbap"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pad_thai",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "pad_thai",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "85df9011-3d67-47f0-b2c8-c627762cca39",
+  "gt": "pad_thai",
+  "role": "known",
+  "E_top5": [
+   "pad_thai",
+   "fried_rice",
+   "biryani",
+   "pasta",
+   "rice"
+  ],
+  "V7_top5": [
+   "pad_thai",
+   "fried_rice",
+   "biryani",
+   "pasta",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pad_thai",
+   "decision": "identity",
+   "label": "pad_thai",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pad_thai",
+   "decision": "identity",
+   "label": "pad_thai",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "f6d82633-37fb-43f7-abd5-19e0c679d658",
+  "gt": "pad_thai",
+  "role": "known",
+  "E_top5": [
+   "pad_thai",
+   "pasta",
+   "biryani",
+   "bibimbap",
+   "rice"
+  ],
+  "V7_top5": [
+   "pad_thai",
+   "pasta",
+   "biryani",
+   "bibimbap",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pad_thai",
+   "decision": "identity",
+   "label": "pad_thai",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pad_thai",
+   "decision": "identity",
+   "label": "pad_thai",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "c7fec479-be66-435d-b252-c15e7d3bb01b",
+  "gt": "pad_thai",
+  "role": "known",
+  "E_top5": [
+   "pad_thai",
+   "pasta",
+   "biryani",
+   "fried_rice",
+   "bibimbap"
+  ],
+  "V7_top5": [
+   "pad_thai",
+   "pasta",
+   "fried_rice",
+   "biryani",
+   "bibimbap"
+  ],
+  "specialists_fired": [
+   "biryani <-> fried_rice"
+  ],
+  "adapter_e": {
+   "top1": "pad_thai",
+   "decision": "identity",
+   "label": "pad_thai",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pad_thai",
+   "decision": "identity",
+   "label": "pad_thai",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "fdfa3c26-dd70-49aa-b5a7-6bd3f1677f4f",
+  "gt": "pancakes",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "yogurt",
+   "donuts",
+   "cream",
+   "hummus",
+   "club_sandwich"
+  ],
+  "V7_top5": [
+   "yogurt",
+   "donuts",
+   "cream",
+   "hummus",
+   "club_sandwich"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "yogurt",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "yogurt",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "3f00ef28-6d44-4942-ba5c-669ab00499d3",
+  "gt": "pancakes",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "omelette",
+   "hummus",
+   "guacamole",
+   "biryani",
+   "yogurt"
+  ],
+  "V7_top5": [
+   "omelette",
+   "hummus",
+   "guacamole",
+   "biryani",
+   "yogurt"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "omelette",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "omelette",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "fced270b-7525-4da4-89db-f38616a26c56",
+  "gt": "pancakes",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "omelette",
+   "hummus",
+   "spring_rolls",
+   "guacamole",
+   "club_sandwich"
+  ],
+  "V7_top5": [
+   "omelette",
+   "hummus",
+   "spring_rolls",
+   "guacamole",
+   "club_sandwich"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "omelette",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "omelette",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "af0006f2-4b54-44b7-a307-bd2896aded89",
+  "gt": "pancakes",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "tomato_paste",
+   "donuts",
+   "yogurt",
+   "cream",
+   "rice"
+  ],
+  "V7_top5": [
+   "tomato_paste",
+   "donuts",
+   "yogurt",
+   "cream",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato_paste",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato_paste",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "c0c219f5-8aef-430c-9d65-87ede4b63338",
+  "gt": "pancakes",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "omelette",
+   "tomato_paste",
+   "salad",
+   "guacamole",
+   "hummus"
+  ],
+  "V7_top5": [
+   "omelette",
+   "tomato_paste",
+   "salad",
+   "hummus",
+   "guacamole"
+  ],
+  "specialists_fired": [
+   "guacamole <-> hummus"
+  ],
+  "adapter_e": {
+   "top1": "omelette",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "omelette",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "59247647-f8d7-41dd-8f9b-aa27ca5b2190",
+  "gt": "pancakes",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "hummus",
+   "tomato_paste",
+   "donuts",
+   "guacamole",
+   "yogurt"
+  ],
+  "V7_top5": [
+   "hummus",
+   "tomato_paste",
+   "donuts",
+   "guacamole",
+   "yogurt"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "hummus",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "hummus",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "d0a4ea0d-d1ec-4e86-8d58-1ebfcb30901b",
+  "gt": "pancakes",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "hummus",
+   "donuts",
+   "omelette",
+   "yogurt",
+   "guacamole"
+  ],
+  "V7_top5": [
+   "hummus",
+   "donuts",
+   "omelette",
+   "yogurt",
+   "guacamole"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "hummus",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "hummus",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "2a561824-7592-49d0-bf2f-00c39ad1acec",
+  "gt": "pancakes",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "spring_rolls",
+   "omelette",
+   "guacamole",
+   "tomato_paste",
+   "biryani"
+  ],
+  "V7_top5": [
+   "spring_rolls",
+   "omelette",
+   "guacamole",
+   "tomato_paste",
+   "biryani"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "spring_rolls",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "spring_rolls",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "998fed11-997e-4c20-944f-8fc6fefc5527",
+  "gt": "pancakes",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "cream",
+   "yogurt",
+   "ice_cream",
+   "hummus",
+   "donuts"
+  ],
+  "V7_top5": [
+   "cream",
+   "yogurt",
+   "ice_cream",
+   "hummus",
+   "donuts"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "cream",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "cream",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "0417a54e-590e-45b8-9537-67b61aa16b5a",
+  "gt": "pancakes",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "cream",
+   "yogurt",
+   "donuts",
+   "hummus",
+   "ice_cream"
+  ],
+  "V7_top5": [
+   "cream",
+   "yogurt",
+   "donuts",
+   "hummus",
+   "ice_cream"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "cream",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "cream",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "cd5bf116-522d-401e-914b-7ad6dfe284e0",
+  "gt": "pasta",
+  "role": "known",
+  "E_top5": [
+   "pasta",
+   "pad_thai",
+   "rice",
+   "biryani",
+   "fried_rice"
+  ],
+  "V7_top5": [
+   "pasta",
+   "pad_thai",
+   "rice",
+   "biryani",
+   "fried_rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pasta",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "pasta",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "0fbd5b07-38a8-4884-8b78-c78139379875",
+  "gt": "pasta",
+  "role": "known",
+  "E_top5": [
+   "pasta",
+   "lasagna",
+   "pad_thai",
+   "bibimbap",
+   "biryani"
+  ],
+  "V7_top5": [
+   "pasta",
+   "lasagna",
+   "pad_thai",
+   "bibimbap",
+   "biryani"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pasta",
+   "decision": "identity",
+   "label": "pasta",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pasta",
+   "decision": "identity",
+   "label": "pasta",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "a356c4a4-7569-4350-9d42-3208e51add52",
+  "gt": "pasta",
+  "role": "known",
+  "E_top5": [
+   "pasta",
+   "pad_thai",
+   "lasagna",
+   "biryani",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "pasta",
+   "pad_thai",
+   "lasagna",
+   "biryani",
+   "tomato_paste"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pasta",
+   "decision": "identity",
+   "label": "pasta",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pasta",
+   "decision": "identity",
+   "label": "pasta",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "c6d67132-fa4a-4326-8441-58cf76a4833d",
+  "gt": "pasta",
+  "role": "known",
+  "E_top5": [
+   "pasta",
+   "lasagna",
+   "pad_thai",
+   "biryani",
+   "bibimbap"
+  ],
+  "V7_top5": [
+   "pasta",
+   "lasagna",
+   "pad_thai",
+   "biryani",
+   "bibimbap"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pasta",
+   "decision": "identity",
+   "label": "pasta",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pasta",
+   "decision": "identity",
+   "label": "pasta",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "e2160662-bb8f-4a4a-8632-9b9de6f42a6d",
+  "gt": "pasta",
+  "role": "known",
+  "E_top5": [
+   "pasta",
+   "lasagna",
+   "pad_thai",
+   "biryani",
+   "packaged_cheese"
+  ],
+  "V7_top5": [
+   "pasta",
+   "lasagna",
+   "pad_thai",
+   "biryani",
+   "packaged_cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pasta",
+   "decision": "identity",
+   "label": "pasta",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pasta",
+   "decision": "identity",
+   "label": "pasta",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "3b681e09-c9f8-485d-9e5e-b66ef2d41eac",
+  "gt": "pasta",
+  "role": "known",
+  "E_top5": [
+   "pasta",
+   "pad_thai",
+   "tomato_paste",
+   "lasagna",
+   "biryani"
+  ],
+  "V7_top5": [
+   "pasta",
+   "pad_thai",
+   "tomato_paste",
+   "lasagna",
+   "biryani"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pasta",
+   "decision": "identity",
+   "label": "pasta",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pasta",
+   "decision": "identity",
+   "label": "pasta",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "aa19b24a-7250-4897-89c4-2312fe45b8cb",
+  "gt": "pasta",
+  "role": "known",
+  "E_top5": [
+   "pasta",
+   "pad_thai",
+   "lasagna",
+   "bibimbap",
+   "biryani"
+  ],
+  "V7_top5": [
+   "pasta",
+   "pad_thai",
+   "lasagna",
+   "bibimbap",
+   "biryani"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pasta",
+   "decision": "identity",
+   "label": "pasta",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pasta",
+   "decision": "identity",
+   "label": "pasta",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "30fe8275-8c1a-4051-894b-db656688231c",
+  "gt": "pasta",
+  "role": "known",
+  "E_top5": [
+   "pasta",
+   "pad_thai",
+   "caesar_salad",
+   "lasagna",
+   "guacamole"
+  ],
+  "V7_top5": [
+   "pasta",
+   "pad_thai",
+   "caesar_salad",
+   "lasagna",
+   "guacamole"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pasta",
+   "decision": "identity",
+   "label": "pasta",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pasta",
+   "decision": "identity",
+   "label": "pasta",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "5db6fa16-a1aa-4edf-8485-036d3c765075",
+  "gt": "pasta",
+  "role": "known",
+  "E_top5": [
+   "non_food",
+   "donuts",
+   "tomato_paste",
+   "salad",
+   "yogurt"
+  ],
+  "V7_top5": [
+   "non_food",
+   "donuts",
+   "tomato_paste",
+   "salad",
+   "yogurt"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "non_food",
+   "decision": "family",
+   "label": null,
+   "divergence": "FOOD_NONFOOD"
+  },
+  "adapter_e_v7": {
+   "top1": "non_food",
+   "decision": "family",
+   "label": null,
+   "divergence": "FOOD_NONFOOD"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "80d52238-f7a9-4b30-9609-4ac6811d5f0b",
+  "gt": "pasta",
+  "role": "known",
+  "E_top5": [
+   "pasta",
+   "pad_thai",
+   "lasagna",
+   "biryani",
+   "rice"
+  ],
+  "V7_top5": [
+   "pasta",
+   "pad_thai",
+   "lasagna",
+   "biryani",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pasta",
+   "decision": "identity",
+   "label": "pasta",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pasta",
+   "decision": "identity",
+   "label": "pasta",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "d0ce1e3a-dc85-435c-8443-69ae02aec5ad",
+  "gt": "pizza",
+  "role": "known",
+  "E_top5": [
+   "pizza",
+   "cheese",
+   "lasagna",
+   "tomato_paste",
+   "omelette"
+  ],
+  "V7_top5": [
+   "pizza",
+   "cheese",
+   "lasagna",
+   "tomato_paste",
+   "omelette"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pizza",
+   "decision": "identity",
+   "label": "pizza",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pizza",
+   "decision": "identity",
+   "label": "pizza",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "5c5f26c4-aacd-4ec8-96d5-056927a15829",
+  "gt": "pizza",
+  "role": "known",
+  "E_top5": [
+   "pizza",
+   "lasagna",
+   "cheese",
+   "omelette",
+   "pasta"
+  ],
+  "V7_top5": [
+   "pizza",
+   "lasagna",
+   "cheese",
+   "omelette",
+   "pasta"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pizza",
+   "decision": "identity",
+   "label": "pizza",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pizza",
+   "decision": "identity",
+   "label": "pizza",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "e35c668e-e88b-42d4-9cac-0e07211abde2",
+  "gt": "pizza",
+  "role": "known",
+  "E_top5": [
+   "pizza",
+   "lasagna",
+   "omelette",
+   "cheese",
+   "pasta"
+  ],
+  "V7_top5": [
+   "pizza",
+   "lasagna",
+   "omelette",
+   "cheese",
+   "pasta"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pizza",
+   "decision": "identity",
+   "label": "pizza",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pizza",
+   "decision": "identity",
+   "label": "pizza",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "429038fa-4fa8-4124-9bd9-4180ba95d882",
+  "gt": "pizza",
+  "role": "known",
+  "E_top5": [
+   "pizza",
+   "cheese",
+   "donuts",
+   "club_sandwich",
+   "packaged_cheese"
+  ],
+  "V7_top5": [
+   "pizza",
+   "cheese",
+   "donuts",
+   "club_sandwich",
+   "packaged_cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pizza",
+   "decision": "identity",
+   "label": "pizza",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pizza",
+   "decision": "identity",
+   "label": "pizza",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "54532f93-5789-4fbc-b155-66f3239cc3ac",
+  "gt": "pizza",
+  "role": "known",
+  "E_top5": [
+   "pizza",
+   "cheese",
+   "lasagna",
+   "omelette",
+   "spring_rolls"
+  ],
+  "V7_top5": [
+   "pizza",
+   "cheese",
+   "lasagna",
+   "omelette",
+   "spring_rolls"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pizza",
+   "decision": "identity",
+   "label": "pizza",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pizza",
+   "decision": "identity",
+   "label": "pizza",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "6fedf109-8918-4275-b987-53ad592a03df",
+  "gt": "pizza",
+  "role": "known",
+  "E_top5": [
+   "pizza",
+   "lasagna",
+   "omelette",
+   "pasta",
+   "spring_rolls"
+  ],
+  "V7_top5": [
+   "pizza",
+   "lasagna",
+   "omelette",
+   "pasta",
+   "spring_rolls"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pizza",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "pizza",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "b7b26c17-89de-4156-b48f-9928a2a234a0",
+  "gt": "pizza",
+  "role": "known",
+  "E_top5": [
+   "pizza",
+   "lasagna",
+   "cheese",
+   "omelette",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "pizza",
+   "lasagna",
+   "cheese",
+   "omelette",
+   "tomato_paste"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pizza",
+   "decision": "identity",
+   "label": "pizza",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pizza",
+   "decision": "identity",
+   "label": "pizza",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "7af7a335-fba3-49d4-9052-5597b0b7e878",
+  "gt": "pizza",
+  "role": "known",
+  "E_top5": [
+   "pizza",
+   "cheese",
+   "omelette",
+   "lasagna",
+   "cream"
+  ],
+  "V7_top5": [
+   "pizza",
+   "cheese",
+   "omelette",
+   "lasagna",
+   "cream"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pizza",
+   "decision": "identity",
+   "label": "pizza",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pizza",
+   "decision": "identity",
+   "label": "pizza",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "64bbadd9-ebca-4e49-b666-00fbf5a65370",
+  "gt": "pizza",
+  "role": "known",
+  "E_top5": [
+   "pizza",
+   "cheese",
+   "cream",
+   "lasagna",
+   "omelette"
+  ],
+  "V7_top5": [
+   "pizza",
+   "cheese",
+   "cream",
+   "lasagna",
+   "omelette"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pizza",
+   "decision": "identity",
+   "label": "pizza",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pizza",
+   "decision": "identity",
+   "label": "pizza",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "3feb6717-8386-4ead-8e03-b5cc9a5c5a42",
+  "gt": "pizza",
+  "role": "known",
+  "E_top5": [
+   "pizza",
+   "cheese",
+   "omelette",
+   "lasagna",
+   "spring_rolls"
+  ],
+  "V7_top5": [
+   "pizza",
+   "cheese",
+   "omelette",
+   "lasagna",
+   "spring_rolls"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pizza",
+   "decision": "identity",
+   "label": "pizza",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pizza",
+   "decision": "identity",
+   "label": "pizza",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "ec26224f-0499-4aad-9f60-0fde6d4e6e5b",
+  "gt": "red_bell_pepper",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "tomato",
+   "tomato_paste",
+   "non_food",
+   "salad",
+   "garlic"
+  ],
+  "V7_top5": [
+   "tomato",
+   "tomato_paste",
+   "non_food",
+   "salad",
+   "garlic"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "39de9bf2-0ba6-4726-8407-28665c96c12c",
+  "gt": "red_bell_pepper",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "tomato",
+   "tomato_paste",
+   "non_food",
+   "salad",
+   "garlic"
+  ],
+  "V7_top5": [
+   "tomato",
+   "tomato_paste",
+   "non_food",
+   "salad",
+   "garlic"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "3051e300-26ce-4657-a709-34930915aacc",
+  "gt": "red_bell_pepper",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "salad",
+   "hummus",
+   "guacamole",
+   "yogurt",
+   "tomato"
+  ],
+  "V7_top5": [
+   "salad",
+   "hummus",
+   "guacamole",
+   "yogurt",
+   "tomato"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "05dc7c44-90dc-47d2-803e-beb5817b0be6",
+  "gt": "red_bell_pepper",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "tomato",
+   "tomato_paste",
+   "non_food",
+   "salad",
+   "guacamole"
+  ],
+  "V7_top5": [
+   "tomato",
+   "tomato_paste",
+   "non_food",
+   "salad",
+   "guacamole"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "dd9c9bb5-8b3c-4507-8d30-c71202e57528",
+  "gt": "red_bell_pepper",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "tomato",
+   "tomato_paste",
+   "garlic",
+   "non_food",
+   "salad"
+  ],
+  "V7_top5": [
+   "tomato",
+   "tomato_paste",
+   "garlic",
+   "non_food",
+   "salad"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "c00f1d36-2cc4-4041-b621-15a1218efb86",
+  "gt": "red_bell_pepper",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "tomato",
+   "tomato_paste",
+   "non_food",
+   "garlic",
+   "salad"
+  ],
+  "V7_top5": [
+   "tomato",
+   "tomato_paste",
+   "non_food",
+   "garlic",
+   "salad"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "15f63dcc-f0ca-4ab6-b6d3-6cb87b8739c9",
+  "gt": "red_bell_pepper",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "tomato_paste",
+   "non_food",
+   "tomato",
+   "salad",
+   "donuts"
+  ],
+  "V7_top5": [
+   "tomato_paste",
+   "non_food",
+   "tomato",
+   "salad",
+   "donuts"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato_paste",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato_paste",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "267c47fd-39fa-4f44-9598-dcb706450d66",
+  "gt": "red_bell_pepper",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "tomato",
+   "tomato_paste",
+   "salad",
+   "non_food",
+   "guacamole"
+  ],
+  "V7_top5": [
+   "tomato",
+   "tomato_paste",
+   "salad",
+   "non_food",
+   "guacamole"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "6765a2ed-27c2-4448-99d3-2fed54a60a02",
+  "gt": "red_bell_pepper",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "tomato",
+   "tomato_paste",
+   "non_food",
+   "salad",
+   "garlic"
+  ],
+  "V7_top5": [
+   "tomato",
+   "tomato_paste",
+   "non_food",
+   "salad",
+   "garlic"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "8d18c44e-44b7-4348-b804-876b73a3affa",
+  "gt": "red_bell_pepper",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "tomato",
+   "tomato_paste",
+   "garlic",
+   "non_food",
+   "hummus"
+  ],
+  "V7_top5": [
+   "tomato",
+   "tomato_paste",
+   "garlic",
+   "non_food",
+   "hummus"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato",
+   "decision": "family",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "id": "e25fc34f-99a4-4eac-8b6f-401870bc1199",
+  "gt": "rice",
+  "role": "known",
+  "E_top5": [
+   "rice",
+   "fried_rice",
+   "biryani",
+   "bibimbap",
+   "pad_thai"
+  ],
+  "V7_top5": [
+   "rice",
+   "biryani",
+   "fried_rice",
+   "bibimbap",
+   "pad_thai"
+  ],
+  "specialists_fired": [
+   "biryani <-> fried_rice"
+  ],
+  "adapter_e": {
+   "top1": "rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "41df5c57-6fc1-49d3-80ea-108028da963a",
+  "gt": "rice",
+  "role": "known",
+  "E_top5": [
+   "biryani",
+   "rice",
+   "fried_rice",
+   "pasta",
+   "bibimbap"
+  ],
+  "V7_top5": [
+   "biryani",
+   "rice",
+   "fried_rice",
+   "pasta",
+   "bibimbap"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "biryani",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "adapter_e_v7": {
+   "top1": "biryani",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "f55807eb-3f3c-4316-9234-ec95925e2f86",
+  "gt": "rice",
+  "role": "known",
+  "E_top5": [
+   "fried_rice",
+   "rice",
+   "biryani",
+   "pad_thai",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "fried_rice",
+   "rice",
+   "biryani",
+   "pad_thai",
+   "tomato_paste"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "fried_rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "adapter_e_v7": {
+   "top1": "fried_rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "4a9e4d6b-3517-4a51-a0ce-21b422be5a0d",
+  "gt": "rice",
+  "role": "known",
+  "E_top5": [
+   "rice",
+   "biryani",
+   "fried_rice",
+   "yogurt",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "rice",
+   "biryani",
+   "fried_rice",
+   "yogurt",
+   "tomato_paste"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "7232bb0b-66d1-4c6c-90ca-f3e4ce07782b",
+  "gt": "rice",
+  "role": "known",
+  "E_top5": [
+   "rice",
+   "biryani",
+   "fried_rice",
+   "hummus",
+   "bibimbap"
+  ],
+  "V7_top5": [
+   "rice",
+   "biryani",
+   "fried_rice",
+   "hummus",
+   "bibimbap"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "82b60f2f-05ae-498b-ae7c-caa4268b867d",
+  "gt": "rice",
+  "role": "known",
+  "E_top5": [
+   "yogurt",
+   "rice",
+   "hummus",
+   "biryani",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "yogurt",
+   "rice",
+   "hummus",
+   "biryani",
+   "tomato_paste"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "yogurt",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "yogurt",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "96e4a02a-2d0d-4bce-bd6e-9357fa4fc15d",
+  "gt": "rice",
+  "role": "known",
+  "E_top5": [
+   "caesar_salad",
+   "guacamole",
+   "salad",
+   "club_sandwich",
+   "spring_rolls"
+  ],
+  "V7_top5": [
+   "caesar_salad",
+   "guacamole",
+   "salad",
+   "club_sandwich",
+   "spring_rolls"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "caesar_salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "caesar_salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "4ea570ea-77c9-45a6-8ba6-1db4ca7ab412",
+  "gt": "rice",
+  "role": "known",
+  "E_top5": [
+   "rice",
+   "fried_rice",
+   "biryani",
+   "hummus",
+   "pad_thai"
+  ],
+  "V7_top5": [
+   "rice",
+   "biryani",
+   "fried_rice",
+   "hummus",
+   "pad_thai"
+  ],
+  "specialists_fired": [
+   "biryani <-> fried_rice"
+  ],
+  "adapter_e": {
+   "top1": "rice",
+   "decision": "identity",
+   "label": "rice",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "rice",
+   "decision": "identity",
+   "label": "rice",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "d8ebf983-5fc8-4efc-891a-e4db52dbddc6",
+  "gt": "rice",
+  "role": "known",
+  "E_top5": [
+   "rice",
+   "fried_rice",
+   "biryani",
+   "pad_thai",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "rice",
+   "biryani",
+   "fried_rice",
+   "pad_thai",
+   "tomato_paste"
+  ],
+  "specialists_fired": [
+   "biryani <-> fried_rice"
+  ],
+  "adapter_e": {
+   "top1": "rice",
+   "decision": "identity",
+   "label": "rice",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "rice",
+   "decision": "identity",
+   "label": "rice",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "4ef344cb-9a91-4001-ab49-815e2187071a",
+  "gt": "rice",
+  "role": "known",
+  "E_top5": [
+   "yogurt",
+   "cream",
+   "ice_cream",
+   "hummus",
+   "donuts"
+  ],
+  "V7_top5": [
+   "yogurt",
+   "cream",
+   "ice_cream",
+   "hummus",
+   "donuts"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "yogurt",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "yogurt",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "2f65d2a8-d915-4f78-95e7-2236d95cd741",
+  "gt": "salad",
+  "role": "known",
+  "E_top5": [
+   "rice",
+   "fried_rice",
+   "biryani",
+   "bibimbap",
+   "pad_thai"
+  ],
+  "V7_top5": [
+   "rice",
+   "fried_rice",
+   "biryani",
+   "bibimbap",
+   "pad_thai"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "a516f54b-9d2f-442a-9308-471fe2a62d55",
+  "gt": "salad",
+  "role": "known",
+  "E_top5": [
+   "caesar_salad",
+   "salad",
+   "guacamole",
+   "club_sandwich",
+   "hummus"
+  ],
+  "V7_top5": [
+   "salad",
+   "caesar_salad",
+   "guacamole",
+   "club_sandwich",
+   "hummus"
+  ],
+  "specialists_fired": [
+   "caesar_salad <-> salad"
+  ],
+  "adapter_e": {
+   "top1": "caesar_salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "adapter_e_v7": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "fixed"
+ },
+ {
+  "id": "c1fb4780-b24c-408d-b60b-b21b7a4f8a79",
+  "gt": "salad",
+  "role": "known",
+  "E_top5": [
+   "salad",
+   "guacamole",
+   "tomato_paste",
+   "hummus",
+   "non_food"
+  ],
+  "V7_top5": [
+   "salad",
+   "guacamole",
+   "tomato_paste",
+   "hummus",
+   "non_food"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "3ae4f7d5-4076-40ae-bb80-2ddf38fd69d5",
+  "gt": "salad",
+  "role": "known",
+  "E_top5": [
+   "caesar_salad",
+   "salad",
+   "club_sandwich",
+   "guacamole",
+   "tomato"
+  ],
+  "V7_top5": [
+   "caesar_salad",
+   "salad",
+   "club_sandwich",
+   "guacamole",
+   "tomato"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "caesar_salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "adapter_e_v7": {
+   "top1": "caesar_salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "e791f1d4-9e54-4337-9e02-35cbbe1f2940",
+  "gt": "salad",
+  "role": "known",
+  "E_top5": [
+   "salad",
+   "tomato",
+   "caesar_salad",
+   "guacamole",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "salad",
+   "tomato",
+   "caesar_salad",
+   "guacamole",
+   "tomato_paste"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "ccb5f459-aa7b-4be7-b3d1-f29264024b2c",
+  "gt": "salad",
+  "role": "known",
+  "E_top5": [
+   "salad",
+   "caesar_salad",
+   "guacamole",
+   "tomato",
+   "bibimbap"
+  ],
+  "V7_top5": [
+   "salad",
+   "caesar_salad",
+   "guacamole",
+   "tomato",
+   "bibimbap"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "b7aca3ac-4fb2-4954-a19c-0f50e61cbf64",
+  "gt": "salad",
+  "role": "known",
+  "E_top5": [
+   "salad",
+   "caesar_salad",
+   "guacamole",
+   "hummus",
+   "tomato"
+  ],
+  "V7_top5": [
+   "salad",
+   "caesar_salad",
+   "guacamole",
+   "hummus",
+   "tomato"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "74557730-dcc8-46e4-9bb2-6f007179f7c3",
+  "gt": "salad",
+  "role": "known",
+  "E_top5": [
+   "salad",
+   "caesar_salad",
+   "tomato",
+   "guacamole",
+   "club_sandwich"
+  ],
+  "V7_top5": [
+   "salad",
+   "caesar_salad",
+   "tomato",
+   "guacamole",
+   "club_sandwich"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "salad",
+   "decision": "identity",
+   "label": "salad",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "salad",
+   "decision": "identity",
+   "label": "salad",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "8e62b363-55b6-496f-9825-73a9897fcefa",
+  "gt": "salad",
+  "role": "known",
+  "E_top5": [
+   "salad",
+   "caesar_salad",
+   "guacamole",
+   "tomato",
+   "club_sandwich"
+  ],
+  "V7_top5": [
+   "salad",
+   "caesar_salad",
+   "guacamole",
+   "tomato",
+   "club_sandwich"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "7c972f8e-2824-4817-abb6-ff333a41d56e",
+  "gt": "salad",
+  "role": "known",
+  "E_top5": [
+   "salad",
+   "caesar_salad",
+   "guacamole",
+   "tomato",
+   "club_sandwich"
+  ],
+  "V7_top5": [
+   "salad",
+   "caesar_salad",
+   "guacamole",
+   "tomato",
+   "club_sandwich"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "1d75eaff-d6c7-4a52-805c-c6eaee301e28",
+  "gt": "spring_rolls",
+  "role": "known",
+  "E_top5": [
+   "spring_rolls",
+   "club_sandwich",
+   "rice",
+   "caesar_salad",
+   "omelette"
+  ],
+  "V7_top5": [
+   "spring_rolls",
+   "club_sandwich",
+   "rice",
+   "caesar_salad",
+   "omelette"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "spring_rolls",
+   "decision": "identity",
+   "label": "spring_rolls",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "spring_rolls",
+   "decision": "identity",
+   "label": "spring_rolls",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "de1865ca-a260-40ca-a979-aca347a75885",
+  "gt": "spring_rolls",
+  "role": "known",
+  "E_top5": [
+   "spring_rolls",
+   "caesar_salad",
+   "club_sandwich",
+   "omelette",
+   "pasta"
+  ],
+  "V7_top5": [
+   "spring_rolls",
+   "caesar_salad",
+   "club_sandwich",
+   "omelette",
+   "pasta"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "spring_rolls",
+   "decision": "identity",
+   "label": "spring_rolls",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "spring_rolls",
+   "decision": "identity",
+   "label": "spring_rolls",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "6c369f1f-31ac-46eb-93e8-6e7c4d3e7875",
+  "gt": "spring_rolls",
+  "role": "known",
+  "E_top5": [
+   "spring_rolls",
+   "caesar_salad",
+   "club_sandwich",
+   "salad",
+   "pizza"
+  ],
+  "V7_top5": [
+   "spring_rolls",
+   "caesar_salad",
+   "club_sandwich",
+   "salad",
+   "pizza"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "spring_rolls",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "spring_rolls",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "45505a47-8d07-4298-a7c9-5adfb86dea68",
+  "gt": "spring_rolls",
+  "role": "known",
+  "E_top5": [
+   "spring_rolls",
+   "caesar_salad",
+   "pasta",
+   "club_sandwich",
+   "salad"
+  ],
+  "V7_top5": [
+   "spring_rolls",
+   "caesar_salad",
+   "pasta",
+   "club_sandwich",
+   "salad"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "spring_rolls",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "spring_rolls",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "b18dff76-f098-45fb-a127-011271306dce",
+  "gt": "spring_rolls",
+  "role": "known",
+  "E_top5": [
+   "spring_rolls",
+   "club_sandwich",
+   "caesar_salad",
+   "french_fries",
+   "donuts"
+  ],
+  "V7_top5": [
+   "spring_rolls",
+   "club_sandwich",
+   "caesar_salad",
+   "french_fries",
+   "donuts"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "spring_rolls",
+   "decision": "identity",
+   "label": "spring_rolls",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "spring_rolls",
+   "decision": "identity",
+   "label": "spring_rolls",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "d2a7cdda-ee9e-490a-811e-5d00a57c6657",
+  "gt": "spring_rolls",
+  "role": "known",
+  "E_top5": [
+   "spring_rolls",
+   "pasta",
+   "lasagna",
+   "omelette",
+   "pizza"
+  ],
+  "V7_top5": [
+   "spring_rolls",
+   "pasta",
+   "lasagna",
+   "omelette",
+   "pizza"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "spring_rolls",
+   "decision": "identity",
+   "label": "spring_rolls",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "spring_rolls",
+   "decision": "identity",
+   "label": "spring_rolls",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "58d3b079-3ab3-448b-917d-80dc900457e0",
+  "gt": "spring_rolls",
+  "role": "known",
+  "E_top5": [
+   "spring_rolls",
+   "caesar_salad",
+   "club_sandwich",
+   "salad",
+   "omelette"
+  ],
+  "V7_top5": [
+   "spring_rolls",
+   "caesar_salad",
+   "club_sandwich",
+   "salad",
+   "omelette"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "spring_rolls",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "spring_rolls",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "3184ad3b-7164-48e2-96bf-00241c67a3a9",
+  "gt": "spring_rolls",
+  "role": "known",
+  "E_top5": [
+   "spring_rolls",
+   "caesar_salad",
+   "club_sandwich",
+   "salad",
+   "omelette"
+  ],
+  "V7_top5": [
+   "spring_rolls",
+   "caesar_salad",
+   "club_sandwich",
+   "salad",
+   "omelette"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "spring_rolls",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "spring_rolls",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "71583e68-23b5-4042-8cea-1a21195a4234",
+  "gt": "spring_rolls",
+  "role": "known",
+  "E_top5": [
+   "spring_rolls",
+   "caesar_salad",
+   "pasta",
+   "omelette",
+   "lasagna"
+  ],
+  "V7_top5": [
+   "spring_rolls",
+   "caesar_salad",
+   "pasta",
+   "omelette",
+   "lasagna"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "spring_rolls",
+   "decision": "identity",
+   "label": "spring_rolls",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "spring_rolls",
+   "decision": "identity",
+   "label": "spring_rolls",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "0e9b4ea3-10b1-4404-a2b5-ae885f3165b7",
+  "gt": "spring_rolls",
+  "role": "known",
+  "E_top5": [
+   "spring_rolls",
+   "club_sandwich",
+   "caesar_salad",
+   "ginger",
+   "donuts"
+  ],
+  "V7_top5": [
+   "spring_rolls",
+   "club_sandwich",
+   "caesar_salad",
+   "ginger",
+   "donuts"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "spring_rolls",
+   "decision": "identity",
+   "label": "spring_rolls",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "spring_rolls",
+   "decision": "identity",
+   "label": "spring_rolls",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "507c3b29-a865-40d3-a5ed-81b2e6d431c4",
+  "gt": "tomato",
+  "role": "known",
+  "E_top5": [
+   "tomato",
+   "salad",
+   "tomato_paste",
+   "guacamole",
+   "non_food"
+  ],
+  "V7_top5": [
+   "tomato",
+   "salad",
+   "tomato_paste",
+   "guacamole",
+   "non_food"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato",
+   "decision": "identity",
+   "label": "tomato",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato",
+   "decision": "identity",
+   "label": "tomato",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "7c46b153-5602-43e8-8b3c-438dcc3b8b22",
+  "gt": "tomato",
+  "role": "known",
+  "E_top5": [
+   "tomato",
+   "salad",
+   "tomato_paste",
+   "non_food",
+   "guacamole"
+  ],
+  "V7_top5": [
+   "tomato",
+   "salad",
+   "tomato_paste",
+   "non_food",
+   "guacamole"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato",
+   "decision": "identity",
+   "label": "tomato",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato",
+   "decision": "identity",
+   "label": "tomato",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "bfc855eb-1139-49fa-ba63-f4849f69238a",
+  "gt": "tomato",
+  "role": "known",
+  "E_top5": [
+   "tomato",
+   "salad",
+   "tomato_paste",
+   "non_food",
+   "guacamole"
+  ],
+  "V7_top5": [
+   "tomato",
+   "salad",
+   "tomato_paste",
+   "non_food",
+   "guacamole"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato",
+   "decision": "identity",
+   "label": "tomato",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato",
+   "decision": "identity",
+   "label": "tomato",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "e8dae2d7-4653-4984-809f-8a2499488d71",
+  "gt": "tomato",
+  "role": "known",
+  "E_top5": [
+   "tomato",
+   "salad",
+   "tomato_paste",
+   "garlic",
+   "non_food"
+  ],
+  "V7_top5": [
+   "tomato",
+   "salad",
+   "tomato_paste",
+   "garlic",
+   "non_food"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato",
+   "decision": "identity",
+   "label": "tomato",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato",
+   "decision": "identity",
+   "label": "tomato",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "e2483946-b4b9-4c04-af0f-42beaf32ea68",
+  "gt": "tomato",
+  "role": "known",
+  "E_top5": [
+   "tomato",
+   "salad",
+   "tomato_paste",
+   "non_food",
+   "caesar_salad"
+  ],
+  "V7_top5": [
+   "tomato",
+   "salad",
+   "tomato_paste",
+   "non_food",
+   "caesar_salad"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato",
+   "decision": "identity",
+   "label": "tomato",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato",
+   "decision": "identity",
+   "label": "tomato",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "ec6ab48d-1c85-462f-bab6-c51fc0b5696f",
+  "gt": "tomato",
+  "role": "known",
+  "E_top5": [
+   "tomato",
+   "salad",
+   "tomato_paste",
+   "non_food",
+   "guacamole"
+  ],
+  "V7_top5": [
+   "tomato",
+   "salad",
+   "tomato_paste",
+   "non_food",
+   "guacamole"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato",
+   "decision": "identity",
+   "label": "tomato",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato",
+   "decision": "identity",
+   "label": "tomato",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "71ae8f05-2d4f-4305-ad5f-9cf35c2b35c6",
+  "gt": "tomato",
+  "role": "known",
+  "E_top5": [
+   "tomato",
+   "salad",
+   "tomato_paste",
+   "non_food",
+   "guacamole"
+  ],
+  "V7_top5": [
+   "tomato",
+   "salad",
+   "tomato_paste",
+   "non_food",
+   "guacamole"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato",
+   "decision": "identity",
+   "label": "tomato",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato",
+   "decision": "identity",
+   "label": "tomato",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "73f8904c-48e8-404f-af55-e488f0918e14",
+  "gt": "tomato",
+  "role": "known",
+  "E_top5": [
+   "tomato",
+   "salad",
+   "tomato_paste",
+   "non_food",
+   "garlic"
+  ],
+  "V7_top5": [
+   "tomato",
+   "salad",
+   "tomato_paste",
+   "non_food",
+   "garlic"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato",
+   "decision": "identity",
+   "label": "tomato",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato",
+   "decision": "identity",
+   "label": "tomato",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "be4802e4-faed-4afc-ac49-1d910f2abe8b",
+  "gt": "tomato",
+  "role": "known",
+  "E_top5": [
+   "tomato",
+   "salad",
+   "tomato_paste",
+   "guacamole",
+   "non_food"
+  ],
+  "V7_top5": [
+   "tomato",
+   "salad",
+   "tomato_paste",
+   "guacamole",
+   "non_food"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato",
+   "decision": "identity",
+   "label": "tomato",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato",
+   "decision": "identity",
+   "label": "tomato",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "596a0995-31c6-41c8-8342-065d68a5800e",
+  "gt": "tomato",
+  "role": "known",
+  "E_top5": [
+   "tomato",
+   "salad",
+   "tomato_paste",
+   "non_food",
+   "guacamole"
+  ],
+  "V7_top5": [
+   "tomato",
+   "salad",
+   "tomato_paste",
+   "non_food",
+   "guacamole"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato",
+   "decision": "identity",
+   "label": "tomato",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato",
+   "decision": "identity",
+   "label": "tomato",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "db9db98e-5aca-4a1c-8eee-bad56fb3dd9d",
+  "gt": "tomato_paste",
+  "role": "known",
+  "E_top5": [
+   "tomato_paste",
+   "yogurt",
+   "cream",
+   "non_food",
+   "donuts"
+  ],
+  "V7_top5": [
+   "tomato_paste",
+   "yogurt",
+   "cream",
+   "non_food",
+   "donuts"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato_paste",
+   "decision": "identity",
+   "label": "tomato_paste",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato_paste",
+   "decision": "identity",
+   "label": "tomato_paste",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "c6133cd6-ce01-41dc-9480-6fa0337f2c58",
+  "gt": "tomato_paste",
+  "role": "known",
+  "E_top5": [
+   "tomato_paste",
+   "non_food",
+   "rice",
+   "pad_thai",
+   "fried_rice"
+  ],
+  "V7_top5": [
+   "tomato_paste",
+   "non_food",
+   "rice",
+   "pad_thai",
+   "fried_rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato_paste",
+   "decision": "identity",
+   "label": "tomato_paste",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato_paste",
+   "decision": "identity",
+   "label": "tomato_paste",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "d3887ccd-0fb8-442f-937a-e091a378bdf6",
+  "gt": "tomato_paste",
+  "role": "known",
+  "E_top5": [
+   "packaged_cheese",
+   "cheese",
+   "tomato_paste",
+   "donuts",
+   "non_food"
+  ],
+  "V7_top5": [
+   "cheese",
+   "packaged_cheese",
+   "tomato_paste",
+   "donuts",
+   "non_food"
+  ],
+  "specialists_fired": [
+   "cheese <-> packaged_cheese"
+  ],
+  "adapter_e": {
+   "top1": "packaged_cheese",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "cheese",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "86a22b9a-a4de-422a-98e1-4ba6ceeb516e",
+  "gt": "tomato_paste",
+  "role": "known",
+  "E_top5": [
+   "tomato_paste",
+   "non_food",
+   "yogurt",
+   "pad_thai",
+   "rice"
+  ],
+  "V7_top5": [
+   "tomato_paste",
+   "non_food",
+   "yogurt",
+   "pad_thai",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato_paste",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato_paste",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "b7b48f6c-e601-4cac-8642-67b4ba68e965",
+  "gt": "tomato_paste",
+  "role": "known",
+  "E_top5": [
+   "non_food",
+   "tomato_paste",
+   "donuts",
+   "yogurt",
+   "cream"
+  ],
+  "V7_top5": [
+   "non_food",
+   "tomato_paste",
+   "donuts",
+   "yogurt",
+   "cream"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "non_food",
+   "decision": "family",
+   "label": null,
+   "divergence": "FOOD_NONFOOD"
+  },
+  "adapter_e_v7": {
+   "top1": "non_food",
+   "decision": "family",
+   "label": null,
+   "divergence": "FOOD_NONFOOD"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "id": "6669ab5d-5cf1-4c31-8991-749ca1e03d0f",
+  "gt": "yogurt",
+  "role": "known",
+  "E_top5": [
+   "yogurt",
+   "ice_cream",
+   "cream",
+   "hummus",
+   "donuts"
+  ],
+  "V7_top5": [
+   "yogurt",
+   "ice_cream",
+   "cream",
+   "hummus",
+   "donuts"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "yogurt",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "yogurt",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "e7e9e34b-edbc-44b3-a5e0-24b5935cf770",
+  "gt": "yogurt",
+  "role": "known",
+  "E_top5": [
+   "yogurt",
+   "guacamole",
+   "hummus",
+   "salad",
+   "cream"
+  ],
+  "V7_top5": [
+   "yogurt",
+   "guacamole",
+   "hummus",
+   "salad",
+   "cream"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "yogurt",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "yogurt",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "21114f34-0c80-4d10-b132-9bb5524c3caf",
+  "gt": "yogurt",
+  "role": "known",
+  "E_top5": [
+   "yogurt",
+   "ice_cream",
+   "cream",
+   "hummus",
+   "donuts"
+  ],
+  "V7_top5": [
+   "yogurt",
+   "ice_cream",
+   "cream",
+   "hummus",
+   "donuts"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "yogurt",
+   "decision": "identity",
+   "label": "yogurt",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "yogurt",
+   "decision": "identity",
+   "label": "yogurt",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "a4d93b51-0ac4-4576-b267-8199a7eb4b73",
+  "gt": "yogurt",
+  "role": "known",
+  "E_top5": [
+   "yogurt",
+   "ice_cream",
+   "cream",
+   "hummus",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "yogurt",
+   "ice_cream",
+   "cream",
+   "hummus",
+   "tomato_paste"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "yogurt",
+   "decision": "identity",
+   "label": "yogurt",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "yogurt",
+   "decision": "identity",
+   "label": "yogurt",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "b532b8dd-fb64-42a1-946e-435e4b4facc9",
+  "gt": "yogurt",
+  "role": "known",
+  "E_top5": [
+   "yogurt",
+   "ice_cream",
+   "cream",
+   "hummus",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "yogurt",
+   "ice_cream",
+   "cream",
+   "hummus",
+   "tomato_paste"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "yogurt",
+   "decision": "identity",
+   "label": "yogurt",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "yogurt",
+   "decision": "identity",
+   "label": "yogurt",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "681ffd90-a51f-45cd-8f51-8a751c4ff2e8",
+  "gt": "yogurt",
+  "role": "known",
+  "E_top5": [
+   "yogurt",
+   "ice_cream",
+   "cream",
+   "hummus",
+   "rice"
+  ],
+  "V7_top5": [
+   "yogurt",
+   "ice_cream",
+   "cream",
+   "hummus",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "yogurt",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "yogurt",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "d1503a6a-84ae-42a4-877a-540fce3b835a",
+  "gt": "yogurt",
+  "role": "known",
+  "E_top5": [
+   "yogurt",
+   "cream",
+   "ice_cream",
+   "donuts",
+   "hummus"
+  ],
+  "V7_top5": [
+   "yogurt",
+   "cream",
+   "ice_cream",
+   "donuts",
+   "hummus"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "yogurt",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "yogurt",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "65a67439-0cf2-432c-9a27-38732b555ffd",
+  "gt": "yogurt",
+  "role": "known",
+  "E_top5": [
+   "yogurt",
+   "ice_cream",
+   "cream",
+   "hummus",
+   "rice"
+  ],
+  "V7_top5": [
+   "yogurt",
+   "ice_cream",
+   "cream",
+   "hummus",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "yogurt",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "yogurt",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "1f979e92-c7eb-4fc1-9b8d-9ba21b60f6b4",
+  "gt": "yogurt",
+  "role": "known",
+  "E_top5": [
+   "yogurt",
+   "cream",
+   "hummus",
+   "tomato_paste",
+   "ice_cream"
+  ],
+  "V7_top5": [
+   "yogurt",
+   "cream",
+   "hummus",
+   "tomato_paste",
+   "ice_cream"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "yogurt",
+   "decision": "identity",
+   "label": "yogurt",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "yogurt",
+   "decision": "identity",
+   "label": "yogurt",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "id": "5ee9b0ba-795f-49ca-bead-eadfdc1e6f0d",
+  "gt": "yogurt",
+  "role": "known",
+  "E_top5": [
+   "yogurt",
+   "ice_cream",
+   "cream",
+   "hummus",
+   "donuts"
+  ],
+  "V7_top5": [
+   "yogurt",
+   "ice_cream",
+   "cream",
+   "hummus",
+   "donuts"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "yogurt",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "yogurt",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ }
+]

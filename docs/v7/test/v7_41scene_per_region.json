@@ -1,0 +1,2489 @@
+[
+ {
+  "scene_id": "01_tomato_pilot",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "01_tomato_pilot#0",
+  "gt": "tomato",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "tomato_paste",
+   "cream",
+   "non_food",
+   "yogurt"
+  ],
+  "V7_top5": [
+   "donuts",
+   "tomato_paste",
+   "cream",
+   "non_food",
+   "yogurt"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "02_multi_raw_composite",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "02_multi_raw_composite#1",
+  "gt": "tomato",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "tomato_paste",
+   "cream",
+   "non_food",
+   "yogurt"
+  ],
+  "V7_top5": [
+   "donuts",
+   "tomato_paste",
+   "cream",
+   "non_food",
+   "yogurt"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "02_multi_raw_composite",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "02_multi_raw_composite#2",
+  "gt": "garlic",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "cream",
+   "ice_cream",
+   "yogurt",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "donuts",
+   "cream",
+   "ice_cream",
+   "yogurt",
+   "tomato_paste"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "02_multi_raw_composite",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "02_multi_raw_composite#3",
+  "gt": "ginger",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "tomato_paste",
+   "cream",
+   "yogurt",
+   "non_food"
+  ],
+  "V7_top5": [
+   "donuts",
+   "tomato_paste",
+   "cream",
+   "yogurt",
+   "non_food"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "02_multi_raw_composite",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "02_multi_raw_composite#4",
+  "gt": "rice",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "cream",
+   "hummus",
+   "yogurt",
+   "salad"
+  ],
+  "V7_top5": [
+   "donuts",
+   "cream",
+   "hummus",
+   "yogurt",
+   "salad"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "03_dense_kitchen",
+  "domain": "PHOTO",
+  "id": "03_dense_kitchen#5",
+  "gt": "pizza",
+  "role": "known",
+  "E_top5": [
+   "pizza",
+   "lasagna",
+   "omelette",
+   "pasta",
+   "cheese"
+  ],
+  "V7_top5": [
+   "pizza",
+   "lasagna",
+   "omelette",
+   "pasta",
+   "cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pizza",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "pizza",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "03_dense_kitchen",
+  "domain": "PHOTO",
+  "id": "03_dense_kitchen#6",
+  "gt": "fried_rice",
+  "role": "known",
+  "E_top5": [
+   "biryani",
+   "pad_thai",
+   "fried_rice",
+   "pasta",
+   "rice"
+  ],
+  "V7_top5": [
+   "biryani",
+   "pad_thai",
+   "fried_rice",
+   "pasta",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "biryani",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "adapter_e_v7": {
+   "top1": "biryani",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "03_dense_kitchen",
+  "domain": "PHOTO",
+  "id": "03_dense_kitchen#7",
+  "gt": "caesar_salad",
+  "role": "known",
+  "E_top5": [
+   "caesar_salad",
+   "salad",
+   "guacamole",
+   "club_sandwich",
+   "spring_rolls"
+  ],
+  "V7_top5": [
+   "caesar_salad",
+   "salad",
+   "guacamole",
+   "club_sandwich",
+   "spring_rolls"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "caesar_salad",
+   "decision": "identity",
+   "label": "caesar_salad",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "caesar_salad",
+   "decision": "identity",
+   "label": "caesar_salad",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "03_dense_kitchen",
+  "domain": "PHOTO",
+  "id": "03_dense_kitchen#8",
+  "gt": "french_fries",
+  "role": "known",
+  "E_top5": [
+   "french_fries",
+   "donuts",
+   "tomato_paste",
+   "club_sandwich",
+   "packaged_cheese"
+  ],
+  "V7_top5": [
+   "french_fries",
+   "donuts",
+   "tomato_paste",
+   "club_sandwich",
+   "packaged_cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "french_fries",
+   "decision": "identity",
+   "label": "french_fries",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "french_fries",
+   "decision": "identity",
+   "label": "french_fries",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "03_dense_kitchen",
+  "domain": "PHOTO",
+  "id": "03_dense_kitchen#9",
+  "gt": "club_sandwich",
+  "role": "known",
+  "E_top5": [
+   "club_sandwich",
+   "caesar_salad",
+   "salad",
+   "packaged_cheese",
+   "french_fries"
+  ],
+  "V7_top5": [
+   "club_sandwich",
+   "caesar_salad",
+   "salad",
+   "packaged_cheese",
+   "french_fries"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "03_dense_kitchen",
+  "domain": "PHOTO",
+  "id": "03_dense_kitchen#10",
+  "gt": "omelette",
+  "role": "known",
+  "E_top5": [
+   "omelette",
+   "guacamole",
+   "lasagna",
+   "pizza",
+   "biryani"
+  ],
+  "V7_top5": [
+   "omelette",
+   "guacamole",
+   "lasagna",
+   "pizza",
+   "biryani"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "omelette",
+   "decision": "identity",
+   "label": "omelette",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "omelette",
+   "decision": "identity",
+   "label": "omelette",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "04_ingredient_packaged",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "04_ingredient_packaged#11",
+  "gt": "tomato",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "tomato_paste",
+   "non_food",
+   "cream",
+   "yogurt"
+  ],
+  "V7_top5": [
+   "donuts",
+   "tomato_paste",
+   "non_food",
+   "cream",
+   "yogurt"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "04_ingredient_packaged",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "04_ingredient_packaged#12",
+  "gt": "packaged_cheese",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "cheese",
+   "club_sandwich",
+   "pizza",
+   "packaged_cheese"
+  ],
+  "V7_top5": [
+   "donuts",
+   "cheese",
+   "club_sandwich",
+   "pizza",
+   "packaged_cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "05_ingredient_prepared",
+  "domain": "PHOTO",
+  "id": "05_ingredient_prepared#13",
+  "gt": "tomato",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "tomato_paste",
+   "non_food",
+   "cream",
+   "cheese"
+  ],
+  "V7_top5": [
+   "donuts",
+   "tomato_paste",
+   "non_food",
+   "cream",
+   "cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "05_ingredient_prepared",
+  "domain": "PHOTO",
+  "id": "05_ingredient_prepared#14",
+  "gt": "pizza",
+  "role": "known",
+  "E_top5": [
+   "pizza",
+   "lasagna",
+   "omelette",
+   "cheese",
+   "pasta"
+  ],
+  "V7_top5": [
+   "pizza",
+   "lasagna",
+   "omelette",
+   "cheese",
+   "pasta"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pizza",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "pizza",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "06_multi_prepared",
+  "domain": "PHOTO",
+  "id": "06_multi_prepared#15",
+  "gt": "pizza",
+  "role": "known",
+  "E_top5": [
+   "pizza",
+   "lasagna",
+   "omelette",
+   "cheese",
+   "pasta"
+  ],
+  "V7_top5": [
+   "pizza",
+   "lasagna",
+   "omelette",
+   "cheese",
+   "pasta"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pizza",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "pizza",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "06_multi_prepared",
+  "domain": "PHOTO",
+  "id": "06_multi_prepared#16",
+  "gt": "fried_rice",
+  "role": "known",
+  "E_top5": [
+   "biryani",
+   "pad_thai",
+   "fried_rice",
+   "pasta",
+   "rice"
+  ],
+  "V7_top5": [
+   "biryani",
+   "pad_thai",
+   "fried_rice",
+   "pasta",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "biryani",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "adapter_e_v7": {
+   "top1": "biryani",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "06_multi_prepared",
+  "domain": "PHOTO",
+  "id": "06_multi_prepared#17",
+  "gt": "club_sandwich",
+  "role": "known",
+  "E_top5": [
+   "club_sandwich",
+   "caesar_salad",
+   "salad",
+   "packaged_cheese",
+   "french_fries"
+  ],
+  "V7_top5": [
+   "club_sandwich",
+   "caesar_salad",
+   "salad",
+   "packaged_cheese",
+   "french_fries"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "07_packaged",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "07_packaged#18",
+  "gt": "packaged_cheese",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "cheese",
+   "pizza",
+   "club_sandwich",
+   "spring_rolls"
+  ],
+  "V7_top5": [
+   "donuts",
+   "cheese",
+   "pizza",
+   "club_sandwich",
+   "spring_rolls"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "08_fruit_proxy",
+  "domain": "PHOTO",
+  "id": "08_fruit_proxy#19",
+  "gt": "guacamole",
+  "role": "known",
+  "E_top5": [
+   "guacamole",
+   "hummus",
+   "biryani",
+   "salad",
+   "rice"
+  ],
+  "V7_top5": [
+   "guacamole",
+   "hummus",
+   "biryani",
+   "salad",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "guacamole",
+   "decision": "identity",
+   "label": "guacamole",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "guacamole",
+   "decision": "identity",
+   "label": "guacamole",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "08_fruit_proxy",
+  "domain": "PHOTO",
+  "id": "08_fruit_proxy#20",
+  "gt": "hummus",
+  "role": "known",
+  "E_top5": [
+   "hummus",
+   "guacamole",
+   "club_sandwich",
+   "yogurt",
+   "cream"
+  ],
+  "V7_top5": [
+   "hummus",
+   "guacamole",
+   "club_sandwich",
+   "yogurt",
+   "cream"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "hummus",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "hummus",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "09_snack_rte",
+  "domain": "PHOTO",
+  "id": "09_snack_rte#21",
+  "gt": "donuts",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "ice_cream",
+   "french_fries",
+   "yogurt",
+   "cream"
+  ],
+  "V7_top5": [
+   "donuts",
+   "ice_cream",
+   "french_fries",
+   "yogurt",
+   "cream"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "identity",
+   "label": "donuts",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "identity",
+   "label": "donuts",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "09_snack_rte",
+  "domain": "PHOTO",
+  "id": "09_snack_rte#22",
+  "gt": "ice_cream",
+  "role": "known",
+  "E_top5": [
+   "ice_cream",
+   "yogurt",
+   "cream",
+   "hummus",
+   "donuts"
+  ],
+  "V7_top5": [
+   "ice_cream",
+   "yogurt",
+   "cream",
+   "hummus",
+   "donuts"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "ice_cream",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "ice_cream",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "10_raw_vs_partial",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "10_raw_vs_partial#23",
+  "gt": "tomato",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "tomato_paste",
+   "non_food",
+   "cream",
+   "cheese"
+  ],
+  "V7_top5": [
+   "donuts",
+   "tomato_paste",
+   "non_food",
+   "cream",
+   "cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "10_raw_vs_partial",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "10_raw_vs_partial#24",
+  "gt": "tomato_paste",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "cheese",
+   "french_fries",
+   "club_sandwich",
+   "packaged_cheese"
+  ],
+  "V7_top5": [
+   "donuts",
+   "packaged_cheese",
+   "french_fries",
+   "club_sandwich",
+   "cheese"
+  ],
+  "specialists_fired": [
+   "cheese <-> packaged_cheese"
+  ],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "11_state_triad",
+  "domain": "PHOTO",
+  "id": "11_state_triad#25",
+  "gt": "lasagna",
+  "role": "known",
+  "E_top5": [
+   "lasagna",
+   "omelette",
+   "pasta",
+   "pizza",
+   "biryani"
+  ],
+  "V7_top5": [
+   "lasagna",
+   "omelette",
+   "pasta",
+   "pizza",
+   "biryani"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "lasagna",
+   "decision": "identity",
+   "label": "lasagna",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "lasagna",
+   "decision": "identity",
+   "label": "lasagna",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "11_state_triad",
+  "domain": "PHOTO",
+  "id": "11_state_triad#26",
+  "gt": "omelette",
+  "role": "known",
+  "E_top5": [
+   "omelette",
+   "guacamole",
+   "lasagna",
+   "pizza",
+   "hummus"
+  ],
+  "V7_top5": [
+   "omelette",
+   "guacamole",
+   "lasagna",
+   "pizza",
+   "hummus"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "omelette",
+   "decision": "identity",
+   "label": "omelette",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "omelette",
+   "decision": "identity",
+   "label": "omelette",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "11_state_triad",
+  "domain": "PHOTO",
+  "id": "11_state_triad#27",
+  "gt": "pad_thai",
+  "role": "known",
+  "E_top5": [
+   "pad_thai",
+   "biryani",
+   "pasta",
+   "bibimbap",
+   "rice"
+  ],
+  "V7_top5": [
+   "pad_thai",
+   "biryani",
+   "pasta",
+   "bibimbap",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pad_thai",
+   "decision": "identity",
+   "label": "pad_thai",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pad_thai",
+   "decision": "identity",
+   "label": "pad_thai",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "12_recipe_document",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "12_recipe_document#28",
+  "gt": "recipe_document",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "tomato_paste",
+   "pad_thai",
+   "rice",
+   "biryani",
+   "donuts"
+  ],
+  "V7_top5": [
+   "tomato_paste",
+   "pad_thai",
+   "rice",
+   "biryani",
+   "donuts"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato_paste",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato_paste",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "scene_id": "12_nutrition_label",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "12_nutrition_label#29",
+  "gt": "recipe_document",
+  "role": "open_set_unknown",
+  "E_top5": [
+   "donuts",
+   "cheese",
+   "ice_cream",
+   "tomato_paste",
+   "french_fries"
+  ],
+  "V7_top5": [
+   "donuts",
+   "cheese",
+   "ice_cream",
+   "tomato_paste",
+   "french_fries"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "OK"
+  },
+  "top1_change": null
+ },
+ {
+  "scene_id": "13_empty_plate",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "13_empty_plate#30",
+  "gt": "non_food",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "cream",
+   "ice_cream",
+   "yogurt",
+   "hummus"
+  ],
+  "V7_top5": [
+   "donuts",
+   "cream",
+   "ice_cream",
+   "yogurt",
+   "hummus"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FOOD_NONFOOD"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FOOD_NONFOOD"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "13_human_hand",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "13_human_hand#31",
+  "gt": "non_food",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "non_food",
+   "cream",
+   "cheese",
+   "yogurt"
+  ],
+  "V7_top5": [
+   "donuts",
+   "non_food",
+   "cream",
+   "cheese",
+   "yogurt"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FOOD_NONFOOD"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FOOD_NONFOOD"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "13_pantry_empty",
+  "domain": "PHOTO",
+  "id": "13_pantry_empty#32",
+  "gt": "non_food",
+  "role": "known",
+  "E_top5": [
+   "tomato",
+   "salad",
+   "non_food",
+   "tomato_paste",
+   "guacamole"
+  ],
+  "V7_top5": [
+   "tomato",
+   "salad",
+   "non_food",
+   "tomato_paste",
+   "guacamole"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato",
+   "decision": "family",
+   "label": null,
+   "divergence": "FOOD_NONFOOD"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato",
+   "decision": "family",
+   "label": null,
+   "divergence": "FOOD_NONFOOD"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "13_kitchen_mood",
+  "domain": "PHOTO",
+  "id": "13_kitchen_mood#33",
+  "gt": "non_food",
+  "role": "known",
+  "E_top5": [
+   "tomato",
+   "tomato_paste",
+   "salad",
+   "non_food",
+   "garlic"
+  ],
+  "V7_top5": [
+   "tomato",
+   "tomato_paste",
+   "salad",
+   "non_food",
+   "garlic"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato",
+   "decision": "family",
+   "label": null,
+   "divergence": "FOOD_NONFOOD"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato",
+   "decision": "family",
+   "label": null,
+   "divergence": "FOOD_NONFOOD"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "14_occlusion",
+  "domain": "PHOTO",
+  "id": "14_occlusion#34",
+  "gt": "salad",
+  "role": "known",
+  "E_top5": [
+   "salad",
+   "caesar_salad",
+   "guacamole",
+   "hummus",
+   "tomato"
+  ],
+  "V7_top5": [
+   "salad",
+   "caesar_salad",
+   "guacamole",
+   "hummus",
+   "tomato"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "15_overlap",
+  "domain": "PHOTO",
+  "id": "15_overlap#35",
+  "gt": "salad",
+  "role": "known",
+  "E_top5": [
+   "salad",
+   "caesar_salad",
+   "guacamole",
+   "hummus",
+   "tomato"
+  ],
+  "V7_top5": [
+   "salad",
+   "caesar_salad",
+   "guacamole",
+   "hummus",
+   "tomato"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "16_small_objects",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "16_small_objects#36",
+  "gt": "salad",
+  "role": "known",
+  "E_top5": [
+   "tomato_paste",
+   "donuts",
+   "pasta",
+   "rice",
+   "ice_cream"
+  ],
+  "V7_top5": [
+   "tomato_paste",
+   "donuts",
+   "pasta",
+   "rice",
+   "ice_cream"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "tomato_paste",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "tomato_paste",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "17_partial_visibility",
+  "domain": "PHOTO",
+  "id": "17_partial_visibility#37",
+  "gt": "salad",
+  "role": "known",
+  "E_top5": [
+   "salad",
+   "caesar_salad",
+   "guacamole",
+   "hummus",
+   "tomato"
+  ],
+  "V7_top5": [
+   "salad",
+   "caesar_salad",
+   "guacamole",
+   "hummus",
+   "tomato"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "18_low_light",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "18_low_light#38",
+  "gt": "salad",
+  "role": "known",
+  "E_top5": [
+   "salad",
+   "caesar_salad",
+   "guacamole",
+   "hummus",
+   "tomato"
+  ],
+  "V7_top5": [
+   "salad",
+   "caesar_salad",
+   "guacamole",
+   "hummus",
+   "tomato"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "19_motion_blur",
+  "domain": "PHOTO",
+  "id": "19_motion_blur#39",
+  "gt": "salad",
+  "role": "known",
+  "E_top5": [
+   "salad",
+   "caesar_salad",
+   "guacamole",
+   "hummus",
+   "tomato"
+  ],
+  "V7_top5": [
+   "salad",
+   "caesar_salad",
+   "guacamole",
+   "hummus",
+   "tomato"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "20_perspective_distortion",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "20_perspective_distortion#40",
+  "gt": "salad",
+  "role": "known",
+  "E_top5": [
+   "non_food",
+   "donuts",
+   "salad",
+   "tomato_paste",
+   "club_sandwich"
+  ],
+  "V7_top5": [
+   "non_food",
+   "donuts",
+   "salad",
+   "tomato_paste",
+   "club_sandwich"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "non_food",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "FOOD_NONFOOD"
+  },
+  "adapter_e_v7": {
+   "top1": "non_food",
+   "decision": "unknown",
+   "label": null,
+   "divergence": "FOOD_NONFOOD"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "21_duplicate_tomatoes",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "21_duplicate_tomatoes#41",
+  "gt": "tomato",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "tomato_paste",
+   "non_food",
+   "cream",
+   "cheese"
+  ],
+  "V7_top5": [
+   "donuts",
+   "tomato_paste",
+   "non_food",
+   "cream",
+   "cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "21_duplicate_tomatoes",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "21_duplicate_tomatoes#42",
+  "gt": "tomato",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "tomato_paste",
+   "non_food",
+   "cream",
+   "cheese"
+  ],
+  "V7_top5": [
+   "donuts",
+   "tomato_paste",
+   "non_food",
+   "cream",
+   "cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "21_duplicate_tomatoes",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "21_duplicate_tomatoes#43",
+  "gt": "tomato",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "tomato_paste",
+   "non_food",
+   "cream",
+   "cheese"
+  ],
+  "V7_top5": [
+   "donuts",
+   "tomato_paste",
+   "non_food",
+   "cream",
+   "cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "21_duplicate_tomatoes",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "21_duplicate_tomatoes#44",
+  "gt": "tomato",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "tomato_paste",
+   "non_food",
+   "cream",
+   "cheese"
+  ],
+  "V7_top5": [
+   "donuts",
+   "tomato_paste",
+   "non_food",
+   "cream",
+   "cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "22_qty_one",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "22_qty_one#45",
+  "gt": "tomato",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "tomato_paste",
+   "non_food",
+   "cream",
+   "yogurt"
+  ],
+  "V7_top5": [
+   "donuts",
+   "tomato_paste",
+   "non_food",
+   "cream",
+   "yogurt"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "22_qty_four",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "22_qty_four#46",
+  "gt": "tomato",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "tomato_paste",
+   "non_food",
+   "cream",
+   "cheese"
+  ],
+  "V7_top5": [
+   "donuts",
+   "tomato_paste",
+   "non_food",
+   "cream",
+   "cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "22_qty_four",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "22_qty_four#47",
+  "gt": "tomato",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "tomato_paste",
+   "non_food",
+   "cream",
+   "cheese"
+  ],
+  "V7_top5": [
+   "donuts",
+   "tomato_paste",
+   "non_food",
+   "cream",
+   "cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "22_qty_four",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "22_qty_four#48",
+  "gt": "tomato",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "tomato_paste",
+   "non_food",
+   "cream",
+   "cheese"
+  ],
+  "V7_top5": [
+   "donuts",
+   "tomato_paste",
+   "non_food",
+   "cream",
+   "cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "22_qty_four",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "22_qty_four#49",
+  "gt": "tomato",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "tomato_paste",
+   "non_food",
+   "cream",
+   "cheese"
+  ],
+  "V7_top5": [
+   "donuts",
+   "tomato_paste",
+   "non_food",
+   "cream",
+   "cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "23_tomato_vs_tomato_paste",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "23_tomato_vs_tomato_paste#50",
+  "gt": "tomato",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "tomato_paste",
+   "cream",
+   "non_food",
+   "cheese"
+  ],
+  "V7_top5": [
+   "donuts",
+   "tomato_paste",
+   "cream",
+   "non_food",
+   "cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "23_tomato_vs_tomato_paste",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "23_tomato_vs_tomato_paste#51",
+  "gt": "tomato_paste",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "cheese",
+   "salad",
+   "club_sandwich",
+   "cream"
+  ],
+  "V7_top5": [
+   "donuts",
+   "cheese",
+   "salad",
+   "club_sandwich",
+   "cream"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "23_yogurt_vs_cream",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "23_yogurt_vs_cream#52",
+  "gt": "yogurt",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "cream",
+   "ice_cream",
+   "yogurt",
+   "cheese"
+  ],
+  "V7_top5": [
+   "donuts",
+   "cream",
+   "ice_cream",
+   "yogurt",
+   "cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "23_yogurt_vs_cream",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "23_yogurt_vs_cream#53",
+  "gt": "cream",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "cream",
+   "cheese",
+   "ice_cream",
+   "yogurt"
+  ],
+  "V7_top5": [
+   "donuts",
+   "cream",
+   "cheese",
+   "ice_cream",
+   "yogurt"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "23_cheese_vs_packaged_cheese",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "23_cheese_vs_packaged_cheese#54",
+  "gt": "cheese",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "cream",
+   "salad",
+   "tomato_paste",
+   "cheese"
+  ],
+  "V7_top5": [
+   "donuts",
+   "cream",
+   "salad",
+   "tomato_paste",
+   "cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "23_cheese_vs_packaged_cheese",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "23_cheese_vs_packaged_cheese#55",
+  "gt": "packaged_cheese",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "cheese",
+   "cream",
+   "salad",
+   "club_sandwich"
+  ],
+  "V7_top5": [
+   "donuts",
+   "cheese",
+   "cream",
+   "salad",
+   "club_sandwich"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "23_rice_vs_biryani",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "23_rice_vs_biryani#56",
+  "gt": "rice",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "cream",
+   "salad",
+   "hummus",
+   "cheese"
+  ],
+  "V7_top5": [
+   "donuts",
+   "cream",
+   "salad",
+   "hummus",
+   "cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "23_rice_vs_biryani",
+  "domain": "SYNTHETIC_DRAWING",
+  "id": "23_rice_vs_biryani#57",
+  "gt": "biryani",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "salad",
+   "cream",
+   "cheese",
+   "tomato_paste"
+  ],
+  "V7_top5": [
+   "donuts",
+   "salad",
+   "cream",
+   "cheese",
+   "tomato_paste"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FAMILY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "23_fried_rice_not_raw",
+  "domain": "PHOTO",
+  "id": "23_fried_rice_not_raw#58",
+  "gt": "fried_rice",
+  "role": "known",
+  "E_top5": [
+   "biryani",
+   "pad_thai",
+   "fried_rice",
+   "pasta",
+   "rice"
+  ],
+  "V7_top5": [
+   "biryani",
+   "pad_thai",
+   "fried_rice",
+   "pasta",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "biryani",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "adapter_e_v7": {
+   "top1": "biryani",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "24_food_nonfood",
+  "domain": "PHOTO",
+  "id": "24_food_nonfood#59",
+  "gt": "pizza",
+  "role": "known",
+  "E_top5": [
+   "pizza",
+   "lasagna",
+   "omelette",
+   "cheese",
+   "pasta"
+  ],
+  "V7_top5": [
+   "pizza",
+   "lasagna",
+   "omelette",
+   "cheese",
+   "pasta"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pizza",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "pizza",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "24_food_nonfood",
+  "domain": "PHOTO",
+  "id": "24_food_nonfood#60",
+  "gt": "non_food",
+  "role": "known",
+  "E_top5": [
+   "donuts",
+   "cheese",
+   "non_food",
+   "cream",
+   "salad"
+  ],
+  "V7_top5": [
+   "donuts",
+   "cheese",
+   "non_food",
+   "cream",
+   "salad"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FOOD_NONFOOD"
+  },
+  "adapter_e_v7": {
+   "top1": "donuts",
+   "decision": "family",
+   "label": null,
+   "divergence": "FOOD_NONFOOD"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "25_salad_bowl",
+  "domain": "PHOTO",
+  "id": "25_salad_bowl#61",
+  "gt": "salad",
+  "role": "known",
+  "E_top5": [
+   "salad",
+   "caesar_salad",
+   "guacamole",
+   "hummus",
+   "tomato"
+  ],
+  "V7_top5": [
+   "salad",
+   "caesar_salad",
+   "guacamole",
+   "hummus",
+   "tomato"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "adapter_e_v7": {
+   "top1": "salad",
+   "decision": "family",
+   "label": null,
+   "divergence": "OPEN_SET_OVER_ABSTAIN"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "25_tomato_pasta",
+  "domain": "PHOTO",
+  "id": "25_tomato_pasta#62",
+  "gt": "pasta",
+  "role": "known",
+  "E_top5": [
+   "pasta",
+   "pad_thai",
+   "lasagna",
+   "tomato_paste",
+   "biryani"
+  ],
+  "V7_top5": [
+   "pasta",
+   "pad_thai",
+   "lasagna",
+   "tomato_paste",
+   "biryani"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pasta",
+   "decision": "identity",
+   "label": "pasta",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pasta",
+   "decision": "identity",
+   "label": "pasta",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "25_complex_mixed",
+  "domain": "PHOTO",
+  "id": "25_complex_mixed#63",
+  "gt": "salad",
+  "role": "known",
+  "E_top5": [
+   "salad",
+   "caesar_salad",
+   "guacamole",
+   "tomato",
+   "hummus"
+  ],
+  "V7_top5": [
+   "salad",
+   "caesar_salad",
+   "guacamole",
+   "tomato",
+   "hummus"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "salad",
+   "decision": "identity",
+   "label": "salad",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "salad",
+   "decision": "identity",
+   "label": "salad",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "25_complex_mixed",
+  "domain": "PHOTO",
+  "id": "25_complex_mixed#64",
+  "gt": "pasta",
+  "role": "known",
+  "E_top5": [
+   "pasta",
+   "pad_thai",
+   "tomato_paste",
+   "lasagna",
+   "packaged_cheese"
+  ],
+  "V7_top5": [
+   "pasta",
+   "pad_thai",
+   "tomato_paste",
+   "lasagna",
+   "packaged_cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pasta",
+   "decision": "identity",
+   "label": "pasta",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pasta",
+   "decision": "identity",
+   "label": "pasta",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "25_complex_mixed",
+  "domain": "PHOTO",
+  "id": "25_complex_mixed#65",
+  "gt": "spring_rolls",
+  "role": "known",
+  "E_top5": [
+   "spring_rolls",
+   "caesar_salad",
+   "club_sandwich",
+   "rice",
+   "pasta"
+  ],
+  "V7_top5": [
+   "spring_rolls",
+   "caesar_salad",
+   "club_sandwich",
+   "rice",
+   "pasta"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "spring_rolls",
+   "decision": "identity",
+   "label": "spring_rolls",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "spring_rolls",
+   "decision": "identity",
+   "label": "spring_rolls",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "prepared_pizza",
+  "domain": "PHOTO",
+  "id": "prepared_pizza#66",
+  "gt": "pizza",
+  "role": "known",
+  "E_top5": [
+   "pizza",
+   "lasagna",
+   "omelette",
+   "cheese",
+   "pasta"
+  ],
+  "V7_top5": [
+   "pizza",
+   "lasagna",
+   "omelette",
+   "cheese",
+   "pasta"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "pizza",
+   "decision": "identity",
+   "label": "pizza",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "pizza",
+   "decision": "identity",
+   "label": "pizza",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "prepared_fried_rice",
+  "domain": "PHOTO",
+  "id": "prepared_fried_rice#67",
+  "gt": "fried_rice",
+  "role": "known",
+  "E_top5": [
+   "biryani",
+   "pad_thai",
+   "fried_rice",
+   "pasta",
+   "rice"
+  ],
+  "V7_top5": [
+   "biryani",
+   "pad_thai",
+   "fried_rice",
+   "pasta",
+   "rice"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "biryani",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "adapter_e_v7": {
+   "top1": "biryani",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "prepared_bibimbap",
+  "domain": "PHOTO",
+  "id": "prepared_bibimbap#68",
+  "gt": "bibimbap",
+  "role": "known",
+  "E_top5": [
+   "fried_rice",
+   "biryani",
+   "rice",
+   "bibimbap",
+   "pad_thai"
+  ],
+  "V7_top5": [
+   "fried_rice",
+   "biryani",
+   "rice",
+   "bibimbap",
+   "pad_thai"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "fried_rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "adapter_e_v7": {
+   "top1": "fried_rice",
+   "decision": "family",
+   "label": null,
+   "divergence": "IDENTITY"
+  },
+  "top1_change": "both_wrong"
+ },
+ {
+  "scene_id": "prepared_lasagna",
+  "domain": "PHOTO",
+  "id": "prepared_lasagna#69",
+  "gt": "lasagna",
+  "role": "known",
+  "E_top5": [
+   "lasagna",
+   "omelette",
+   "pasta",
+   "pizza",
+   "bibimbap"
+  ],
+  "V7_top5": [
+   "lasagna",
+   "omelette",
+   "pasta",
+   "pizza",
+   "bibimbap"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "lasagna",
+   "decision": "identity",
+   "label": "lasagna",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "lasagna",
+   "decision": "identity",
+   "label": "lasagna",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ },
+ {
+  "scene_id": "prepared_club_sandwich",
+  "domain": "PHOTO",
+  "id": "prepared_club_sandwich#70",
+  "gt": "club_sandwich",
+  "role": "known",
+  "E_top5": [
+   "club_sandwich",
+   "caesar_salad",
+   "salad",
+   "french_fries",
+   "packaged_cheese"
+  ],
+  "V7_top5": [
+   "club_sandwich",
+   "caesar_salad",
+   "salad",
+   "french_fries",
+   "packaged_cheese"
+  ],
+  "specialists_fired": [],
+  "adapter_e": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "adapter_e_v7": {
+   "top1": "club_sandwich",
+   "decision": "identity",
+   "label": "club_sandwich",
+   "divergence": "OK"
+  },
+  "top1_change": "both_ok"
+ }
+]
