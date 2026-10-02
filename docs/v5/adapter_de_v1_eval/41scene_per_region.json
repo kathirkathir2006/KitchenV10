@@ -1,0 +1,3197 @@
+[
+  {
+    "scene_id": "01_tomato_pilot",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2116,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8357,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8343,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8451,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "02_multi_raw_composite",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2063,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.831,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8262,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.841,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "02_multi_raw_composite",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "garlic",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.195,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.846,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8274,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8255,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "02_multi_raw_composite",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "ginger",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2113,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8426,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8439,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8515,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "02_multi_raw_composite",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "rice",
+    "gt_family": "rice_grain",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2223,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8717,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.841,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8299,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "03_dense_kitchen",
+    "domain": "PHOTO",
+    "gt": "pizza",
+    "gt_family": "prepared_meal",
+    "role": "known",
+    "baseline": {
+      "top1": "pizza",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_meal",
+      "score": 0.5698,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_c": {
+      "top1": "pizza",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7599,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_d": {
+      "top1": "pizza",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_meal",
+      "score": 0.8789,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_e": {
+      "top1": "pizza",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_meal",
+      "score": 0.8953,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "03_dense_kitchen",
+    "domain": "PHOTO",
+    "gt": "fried_rice",
+    "gt_family": "rice_grain",
+    "role": "known",
+    "baseline": {
+      "top1": "biryani",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.399,
+      "divergence": "IDENTITY"
+    },
+    "adapter_c": {
+      "top1": "fried_rice",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.6811,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_d": {
+      "top1": "biryani",
+      "decision": "family",
+      "label": null,
+      "family": "rice_grain",
+      "score": 0.9045,
+      "divergence": "IDENTITY"
+    },
+    "adapter_e": {
+      "top1": "biryani",
+      "decision": "family",
+      "label": null,
+      "family": "rice_grain",
+      "score": 0.8379,
+      "divergence": "IDENTITY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "03_dense_kitchen",
+    "domain": "PHOTO",
+    "gt": "caesar_salad",
+    "gt_family": "salad",
+    "role": "known",
+    "baseline": {
+      "top1": "caesar_salad",
+      "decision": "identity",
+      "label": "caesar_salad",
+      "family": "salad",
+      "score": 0.6575,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "caesar_salad",
+      "decision": "identity",
+      "label": "caesar_salad",
+      "family": "salad",
+      "score": 0.9444,
+      "divergence": "OK"
+    },
+    "adapter_d": {
+      "top1": "caesar_salad",
+      "decision": "identity",
+      "label": "caesar_salad",
+      "family": "salad",
+      "score": 0.9627,
+      "divergence": "OK"
+    },
+    "adapter_e": {
+      "top1": "caesar_salad",
+      "decision": "identity",
+      "label": "caesar_salad",
+      "family": "salad",
+      "score": 0.9555,
+      "divergence": "OK"
+    },
+    "change": {
+      "baseline->adapter_d": "both_ok",
+      "baseline->adapter_e": "both_ok",
+      "adapter_c->adapter_d": "both_ok",
+      "adapter_c->adapter_e": "both_ok"
+    }
+  },
+  {
+    "scene_id": "03_dense_kitchen",
+    "domain": "PHOTO",
+    "gt": "french_fries",
+    "gt_family": "prepared_side",
+    "role": "known",
+    "baseline": {
+      "top1": "french_fries",
+      "decision": "identity",
+      "label": "french_fries",
+      "family": "prepared_side",
+      "score": 0.7382,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "french_fries",
+      "decision": "identity",
+      "label": "french_fries",
+      "family": "prepared_side",
+      "score": 0.9659,
+      "divergence": "OK"
+    },
+    "adapter_d": {
+      "top1": "french_fries",
+      "decision": "identity",
+      "label": "french_fries",
+      "family": "prepared_side",
+      "score": 0.9681,
+      "divergence": "OK"
+    },
+    "adapter_e": {
+      "top1": "french_fries",
+      "decision": "identity",
+      "label": "french_fries",
+      "family": "prepared_side",
+      "score": 0.9712,
+      "divergence": "OK"
+    },
+    "change": {
+      "baseline->adapter_d": "both_ok",
+      "baseline->adapter_e": "both_ok",
+      "adapter_c->adapter_d": "both_ok",
+      "adapter_c->adapter_e": "both_ok"
+    }
+  },
+  {
+    "scene_id": "03_dense_kitchen",
+    "domain": "PHOTO",
+    "gt": "club_sandwich",
+    "gt_family": "sandwich",
+    "role": "known",
+    "baseline": {
+      "top1": "club_sandwich",
+      "decision": "identity",
+      "label": "club_sandwich",
+      "family": "sandwich",
+      "score": 0.8026,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "club_sandwich",
+      "decision": "identity",
+      "label": "club_sandwich",
+      "family": "sandwich",
+      "score": 0.9835,
+      "divergence": "OK"
+    },
+    "adapter_d": {
+      "top1": "club_sandwich",
+      "decision": "identity",
+      "label": "club_sandwich",
+      "family": "sandwich",
+      "score": 0.9781,
+      "divergence": "OK"
+    },
+    "adapter_e": {
+      "top1": "club_sandwich",
+      "decision": "identity",
+      "label": "club_sandwich",
+      "family": "sandwich",
+      "score": 0.975,
+      "divergence": "OK"
+    },
+    "change": {
+      "baseline->adapter_d": "both_ok",
+      "baseline->adapter_e": "both_ok",
+      "adapter_c->adapter_d": "both_ok",
+      "adapter_c->adapter_e": "both_ok"
+    }
+  },
+  {
+    "scene_id": "03_dense_kitchen",
+    "domain": "PHOTO",
+    "gt": "omelette",
+    "gt_family": "prepared_egg",
+    "role": "known",
+    "baseline": {
+      "top1": "omelette",
+      "decision": "identity",
+      "label": "omelette",
+      "family": "prepared_egg",
+      "score": 0.6236,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "omelette",
+      "decision": "identity",
+      "label": "omelette",
+      "family": "prepared_egg",
+      "score": 0.9346,
+      "divergence": "OK"
+    },
+    "adapter_d": {
+      "top1": "omelette",
+      "decision": "identity",
+      "label": "omelette",
+      "family": "prepared_egg",
+      "score": 0.949,
+      "divergence": "OK"
+    },
+    "adapter_e": {
+      "top1": "omelette",
+      "decision": "identity",
+      "label": "omelette",
+      "family": "prepared_egg",
+      "score": 0.9421,
+      "divergence": "OK"
+    },
+    "change": {
+      "baseline->adapter_d": "both_ok",
+      "baseline->adapter_e": "both_ok",
+      "adapter_c->adapter_d": "both_ok",
+      "adapter_c->adapter_e": "both_ok"
+    }
+  },
+  {
+    "scene_id": "04_ingredient_packaged",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2161,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8443,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8273,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8317,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "04_ingredient_packaged",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "packaged_cheese",
+    "gt_family": "packaged_dairy",
+    "role": "known",
+    "baseline": {
+      "top1": "cheese",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.1348,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7668,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "cheese",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.6991,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7503,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "05_ingredient_prepared",
+    "domain": "PHOTO",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2087,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8195,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8223,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8355,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "05_ingredient_prepared",
+    "domain": "PHOTO",
+    "gt": "pizza",
+    "gt_family": "prepared_meal",
+    "role": "known",
+    "baseline": {
+      "top1": "pizza",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_meal",
+      "score": 0.5553,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_c": {
+      "top1": "pizza",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7426,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_d": {
+      "top1": "pizza",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_meal",
+      "score": 0.8777,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_e": {
+      "top1": "pizza",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_meal",
+      "score": 0.893,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "06_multi_prepared",
+    "domain": "PHOTO",
+    "gt": "pizza",
+    "gt_family": "prepared_meal",
+    "role": "known",
+    "baseline": {
+      "top1": "pizza",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_meal",
+      "score": 0.5553,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_c": {
+      "top1": "pizza",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7426,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_d": {
+      "top1": "pizza",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_meal",
+      "score": 0.8777,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_e": {
+      "top1": "pizza",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_meal",
+      "score": 0.893,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "06_multi_prepared",
+    "domain": "PHOTO",
+    "gt": "fried_rice",
+    "gt_family": "rice_grain",
+    "role": "known",
+    "baseline": {
+      "top1": "biryani",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.395,
+      "divergence": "IDENTITY"
+    },
+    "adapter_c": {
+      "top1": "fried_rice",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.6664,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_d": {
+      "top1": "biryani",
+      "decision": "family",
+      "label": null,
+      "family": "rice_grain",
+      "score": 0.9014,
+      "divergence": "IDENTITY"
+    },
+    "adapter_e": {
+      "top1": "biryani",
+      "decision": "family",
+      "label": null,
+      "family": "rice_grain",
+      "score": 0.8346,
+      "divergence": "IDENTITY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "06_multi_prepared",
+    "domain": "PHOTO",
+    "gt": "club_sandwich",
+    "gt_family": "sandwich",
+    "role": "known",
+    "baseline": {
+      "top1": "club_sandwich",
+      "decision": "identity",
+      "label": "club_sandwich",
+      "family": "sandwich",
+      "score": 0.8055,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "club_sandwich",
+      "decision": "identity",
+      "label": "club_sandwich",
+      "family": "sandwich",
+      "score": 0.9839,
+      "divergence": "OK"
+    },
+    "adapter_d": {
+      "top1": "club_sandwich",
+      "decision": "identity",
+      "label": "club_sandwich",
+      "family": "sandwich",
+      "score": 0.9784,
+      "divergence": "OK"
+    },
+    "adapter_e": {
+      "top1": "club_sandwich",
+      "decision": "identity",
+      "label": "club_sandwich",
+      "family": "sandwich",
+      "score": 0.9742,
+      "divergence": "OK"
+    },
+    "change": {
+      "baseline->adapter_d": "both_ok",
+      "baseline->adapter_e": "both_ok",
+      "adapter_c->adapter_d": "both_ok",
+      "adapter_c->adapter_e": "both_ok"
+    }
+  },
+  {
+    "scene_id": "07_packaged",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "packaged_cheese",
+    "gt_family": "packaged_dairy",
+    "role": "known",
+    "baseline": {
+      "top1": "cheese",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.1475,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7795,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7285,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7561,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "08_fruit_proxy",
+    "domain": "PHOTO",
+    "gt": "guacamole",
+    "gt_family": "dip",
+    "role": "known",
+    "baseline": {
+      "top1": "guacamole",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.4798,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_c": {
+      "top1": "guacamole",
+      "decision": "family",
+      "label": null,
+      "family": "dip",
+      "score": 0.8589,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_d": {
+      "top1": "guacamole",
+      "decision": "family",
+      "label": null,
+      "family": "dip",
+      "score": 0.9283,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_e": {
+      "top1": "guacamole",
+      "decision": "identity",
+      "label": "guacamole",
+      "family": "dip",
+      "score": 0.9237,
+      "divergence": "OK"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "fixed",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "fixed"
+    }
+  },
+  {
+    "scene_id": "08_fruit_proxy",
+    "domain": "PHOTO",
+    "gt": "hummus",
+    "gt_family": "dip",
+    "role": "known",
+    "baseline": {
+      "top1": "hummus",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.471,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_c": {
+      "top1": "hummus",
+      "decision": "identity",
+      "label": "hummus",
+      "family": "dip",
+      "score": 0.9225,
+      "divergence": "OK"
+    },
+    "adapter_d": {
+      "top1": "hummus",
+      "decision": "identity",
+      "label": "hummus",
+      "family": "dip",
+      "score": 0.9269,
+      "divergence": "OK"
+    },
+    "adapter_e": {
+      "top1": "hummus",
+      "decision": "family",
+      "label": null,
+      "family": "dip",
+      "score": 0.8939,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": {
+      "baseline->adapter_d": "fixed",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_ok",
+      "adapter_c->adapter_e": "regressed"
+    }
+  },
+  {
+    "scene_id": "09_snack_rte",
+    "domain": "PHOTO",
+    "gt": "donuts",
+    "gt_family": "prepared_sweet",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.4474,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8424,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "identity",
+      "label": "donuts",
+      "family": "prepared_sweet",
+      "score": 0.9299,
+      "divergence": "OK"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "identity",
+      "label": "donuts",
+      "family": "prepared_sweet",
+      "score": 0.9209,
+      "divergence": "OK"
+    },
+    "change": {
+      "baseline->adapter_d": "fixed",
+      "baseline->adapter_e": "fixed",
+      "adapter_c->adapter_d": "fixed",
+      "adapter_c->adapter_e": "fixed"
+    }
+  },
+  {
+    "scene_id": "09_snack_rte",
+    "domain": "PHOTO",
+    "gt": "ice_cream",
+    "gt_family": "prepared_sweet",
+    "role": "known",
+    "baseline": {
+      "top1": "ice_cream",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.5207,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_c": {
+      "top1": "ice_cream",
+      "decision": "identity",
+      "label": "ice_cream",
+      "family": "prepared_sweet",
+      "score": 0.8876,
+      "divergence": "OK"
+    },
+    "adapter_d": {
+      "top1": "ice_cream",
+      "decision": "identity",
+      "label": "ice_cream",
+      "family": "prepared_sweet",
+      "score": 0.9438,
+      "divergence": "OK"
+    },
+    "adapter_e": {
+      "top1": "ice_cream",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.9198,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": {
+      "baseline->adapter_d": "fixed",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_ok",
+      "adapter_c->adapter_e": "regressed"
+    }
+  },
+  {
+    "scene_id": "10_raw_vs_partial",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2087,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8195,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8223,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8355,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "10_raw_vs_partial",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato_paste",
+    "gt_family": "sauce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.1426,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "non_food",
+      "decision": "family",
+      "label": null,
+      "family": "non_food",
+      "score": 0.7837,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7743,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7777,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "11_state_triad",
+    "domain": "PHOTO",
+    "gt": "lasagna",
+    "gt_family": "grain_starch",
+    "role": "known",
+    "baseline": {
+      "top1": "lasagna",
+      "decision": "family",
+      "label": null,
+      "family": "grain_starch",
+      "score": 0.5638,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_c": {
+      "top1": "lasagna",
+      "decision": "identity",
+      "label": "lasagna",
+      "family": "grain_starch",
+      "score": 0.9413,
+      "divergence": "OK"
+    },
+    "adapter_d": {
+      "top1": "lasagna",
+      "decision": "identity",
+      "label": "lasagna",
+      "family": "grain_starch",
+      "score": 0.9525,
+      "divergence": "OK"
+    },
+    "adapter_e": {
+      "top1": "lasagna",
+      "decision": "identity",
+      "label": "lasagna",
+      "family": "grain_starch",
+      "score": 0.9465,
+      "divergence": "OK"
+    },
+    "change": {
+      "baseline->adapter_d": "fixed",
+      "baseline->adapter_e": "fixed",
+      "adapter_c->adapter_d": "both_ok",
+      "adapter_c->adapter_e": "both_ok"
+    }
+  },
+  {
+    "scene_id": "11_state_triad",
+    "domain": "PHOTO",
+    "gt": "omelette",
+    "gt_family": "prepared_egg",
+    "role": "known",
+    "baseline": {
+      "top1": "omelette",
+      "decision": "identity",
+      "label": "omelette",
+      "family": "prepared_egg",
+      "score": 0.6255,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "omelette",
+      "decision": "identity",
+      "label": "omelette",
+      "family": "prepared_egg",
+      "score": 0.9345,
+      "divergence": "OK"
+    },
+    "adapter_d": {
+      "top1": "omelette",
+      "decision": "identity",
+      "label": "omelette",
+      "family": "prepared_egg",
+      "score": 0.9474,
+      "divergence": "OK"
+    },
+    "adapter_e": {
+      "top1": "omelette",
+      "decision": "identity",
+      "label": "omelette",
+      "family": "prepared_egg",
+      "score": 0.9413,
+      "divergence": "OK"
+    },
+    "change": {
+      "baseline->adapter_d": "both_ok",
+      "baseline->adapter_e": "both_ok",
+      "adapter_c->adapter_d": "both_ok",
+      "adapter_c->adapter_e": "both_ok"
+    }
+  },
+  {
+    "scene_id": "11_state_triad",
+    "domain": "PHOTO",
+    "gt": "pad_thai",
+    "gt_family": "noodle",
+    "role": "known",
+    "baseline": {
+      "top1": "pad_thai",
+      "decision": "identity",
+      "label": "pad_thai",
+      "family": "noodle",
+      "score": 0.7862,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "pad_thai",
+      "decision": "identity",
+      "label": "pad_thai",
+      "family": "noodle",
+      "score": 0.97,
+      "divergence": "OK"
+    },
+    "adapter_d": {
+      "top1": "pad_thai",
+      "decision": "identity",
+      "label": "pad_thai",
+      "family": "noodle",
+      "score": 0.967,
+      "divergence": "OK"
+    },
+    "adapter_e": {
+      "top1": "pad_thai",
+      "decision": "identity",
+      "label": "pad_thai",
+      "family": "noodle",
+      "score": 0.9687,
+      "divergence": "OK"
+    },
+    "change": {
+      "baseline->adapter_d": "both_ok",
+      "baseline->adapter_e": "both_ok",
+      "adapter_c->adapter_d": "both_ok",
+      "adapter_c->adapter_e": "both_ok"
+    }
+  },
+  {
+    "scene_id": "12_recipe_document",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "recipe_document",
+    "gt_family": "document",
+    "role": "open_set_unknown",
+    "baseline": {
+      "top1": "non_food",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.0977,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "cheese",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7344,
+      "divergence": "OK"
+    },
+    "adapter_d": {
+      "top1": "non_food",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.6975,
+      "divergence": "OK"
+    },
+    "adapter_e": {
+      "top1": "tomato_paste",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.6857,
+      "divergence": "OK"
+    },
+    "change": {
+      "baseline->adapter_d": "both_ok",
+      "baseline->adapter_e": "both_ok",
+      "adapter_c->adapter_d": "both_ok",
+      "adapter_c->adapter_e": "both_ok"
+    }
+  },
+  {
+    "scene_id": "12_nutrition_label",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "recipe_document",
+    "gt_family": "document",
+    "role": "open_set_unknown",
+    "baseline": {
+      "top1": "non_food",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.0987,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "cheese",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7528,
+      "divergence": "OK"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7613,
+      "divergence": "OK"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.6937,
+      "divergence": "OK"
+    },
+    "change": {
+      "baseline->adapter_d": "both_ok",
+      "baseline->adapter_e": "both_ok",
+      "adapter_c->adapter_d": "both_ok",
+      "adapter_c->adapter_e": "both_ok"
+    }
+  },
+  {
+    "scene_id": "13_empty_plate",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "non_food",
+    "gt_family": "non_food",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2256,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8366,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8664,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8439,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "13_human_hand",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "non_food",
+    "gt_family": "non_food",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.1994,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8389,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8679,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8154,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "13_pantry_empty",
+    "domain": "PHOTO",
+    "gt": "non_food",
+    "gt_family": "non_food",
+    "role": "known",
+    "baseline": {
+      "top1": "tomato",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.4635,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_c": {
+      "top1": "tomato",
+      "decision": "family",
+      "label": null,
+      "family": "produce",
+      "score": 0.8697,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_d": {
+      "top1": "tomato",
+      "decision": "identity",
+      "label": "tomato",
+      "family": "produce",
+      "score": 0.9405,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_e": {
+      "top1": "tomato",
+      "decision": "family",
+      "label": null,
+      "family": "produce",
+      "score": 0.8976,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "13_kitchen_mood",
+    "domain": "PHOTO",
+    "gt": "non_food",
+    "gt_family": "non_food",
+    "role": "known",
+    "baseline": {
+      "top1": "garlic",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.3276,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_c": {
+      "top1": "tomato_paste",
+      "decision": "family",
+      "label": null,
+      "family": "sauce",
+      "score": 0.8166,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_d": {
+      "top1": "tomato",
+      "decision": "family",
+      "label": null,
+      "family": "produce",
+      "score": 0.8596,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_e": {
+      "top1": "tomato",
+      "decision": "family",
+      "label": null,
+      "family": "produce",
+      "score": 0.8558,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "14_occlusion",
+    "domain": "PHOTO",
+    "gt": "salad",
+    "gt_family": "salad",
+    "role": "known",
+    "baseline": {
+      "top1": "caesar_salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.6237,
+      "divergence": "IDENTITY"
+    },
+    "adapter_c": {
+      "top1": "salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.8662,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_d": {
+      "top1": "salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.9359,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_e": {
+      "top1": "salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.9258,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "15_overlap",
+    "domain": "PHOTO",
+    "gt": "salad",
+    "gt_family": "salad",
+    "role": "known",
+    "baseline": {
+      "top1": "caesar_salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.6237,
+      "divergence": "IDENTITY"
+    },
+    "adapter_c": {
+      "top1": "salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.8662,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_d": {
+      "top1": "salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.9359,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_e": {
+      "top1": "salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.9258,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "16_small_objects",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "salad",
+    "gt_family": "salad",
+    "role": "known",
+    "baseline": {
+      "top1": "non_food",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.0895,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_c": {
+      "top1": "non_food",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7449,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_d": {
+      "top1": "tomato_paste",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7485,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "tomato_paste",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.6856,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "17_partial_visibility",
+    "domain": "PHOTO",
+    "gt": "salad",
+    "gt_family": "salad",
+    "role": "known",
+    "baseline": {
+      "top1": "caesar_salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.6237,
+      "divergence": "IDENTITY"
+    },
+    "adapter_c": {
+      "top1": "salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.8662,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_d": {
+      "top1": "salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.9359,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_e": {
+      "top1": "salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.9258,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "18_low_light",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "salad",
+    "gt_family": "salad",
+    "role": "known",
+    "baseline": {
+      "top1": "caesar_salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.6384,
+      "divergence": "IDENTITY"
+    },
+    "adapter_c": {
+      "top1": "salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.8579,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_d": {
+      "top1": "caesar_salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.934,
+      "divergence": "IDENTITY"
+    },
+    "adapter_e": {
+      "top1": "salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.931,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "19_motion_blur",
+    "domain": "PHOTO",
+    "gt": "salad",
+    "gt_family": "salad",
+    "role": "known",
+    "baseline": {
+      "top1": "caesar_salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.6511,
+      "divergence": "IDENTITY"
+    },
+    "adapter_c": {
+      "top1": "salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.8641,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_d": {
+      "top1": "salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.9389,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_e": {
+      "top1": "salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.9389,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "20_perspective_distortion",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "salad",
+    "gt_family": "salad",
+    "role": "known",
+    "baseline": {
+      "top1": "non_food",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.1329,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_c": {
+      "top1": "non_food",
+      "decision": "family",
+      "label": null,
+      "family": "non_food",
+      "score": 0.82,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_d": {
+      "top1": "non_food",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7766,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_e": {
+      "top1": "non_food",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7469,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "21_duplicate_tomatoes",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2087,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8195,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8223,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8355,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "21_duplicate_tomatoes",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2087,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8195,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8223,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8355,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "21_duplicate_tomatoes",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2087,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8195,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8223,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8355,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "21_duplicate_tomatoes",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2087,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8195,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8223,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8355,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "22_qty_one",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2045,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8264,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.823,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8355,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "22_qty_four",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2087,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8195,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8223,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8355,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "22_qty_four",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2087,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8195,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8223,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8355,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "22_qty_four",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2087,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8195,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8223,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8355,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "22_qty_four",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2087,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8195,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8223,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8355,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "23_tomato_vs_tomato_paste",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.1945,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8254,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.8048,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8274,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "23_tomato_vs_tomato_paste",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato_paste",
+    "gt_family": "sauce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.1765,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8037,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8208,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8272,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "23_yogurt_vs_cream",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "yogurt",
+    "gt_family": "dairy",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2153,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8424,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8311,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8313,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "23_yogurt_vs_cream",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "cream",
+    "gt_family": "dairy",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.206,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8366,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.826,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8325,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "23_cheese_vs_packaged_cheese",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "cheese",
+    "gt_family": "dairy",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.1978,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8232,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.8123,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8366,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "23_cheese_vs_packaged_cheese",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "packaged_cheese",
+    "gt_family": "packaged_dairy",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.1557,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.799,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7732,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8023,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "23_rice_vs_biryani",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "rice",
+    "gt_family": "rice_grain",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2067,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8705,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.8046,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.828,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "23_rice_vs_biryani",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "biryani",
+    "gt_family": "rice_grain",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8637,
+      "divergence": "FAMILY"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.8102,
+      "divergence": "FAMILY"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8265,
+      "divergence": "FAMILY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "23_fried_rice_not_raw",
+    "domain": "PHOTO",
+    "gt": "fried_rice",
+    "gt_family": "rice_grain",
+    "role": "known",
+    "baseline": {
+      "top1": "fried_rice",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.4095,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_c": {
+      "top1": "fried_rice",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.6913,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_d": {
+      "top1": "biryani",
+      "decision": "family",
+      "label": null,
+      "family": "rice_grain",
+      "score": 0.9063,
+      "divergence": "IDENTITY"
+    },
+    "adapter_e": {
+      "top1": "biryani",
+      "decision": "family",
+      "label": null,
+      "family": "rice_grain",
+      "score": 0.8372,
+      "divergence": "IDENTITY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "24_food_nonfood",
+    "domain": "PHOTO",
+    "gt": "pizza",
+    "gt_family": "prepared_meal",
+    "role": "known",
+    "baseline": {
+      "top1": "pizza",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_meal",
+      "score": 0.5553,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_c": {
+      "top1": "pizza",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7426,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_d": {
+      "top1": "pizza",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_meal",
+      "score": 0.8777,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_e": {
+      "top1": "pizza",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_meal",
+      "score": 0.893,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "24_food_nonfood",
+    "domain": "PHOTO",
+    "gt": "non_food",
+    "gt_family": "non_food",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2052,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.85,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_d": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8568,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_e": {
+      "top1": "donuts",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8016,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "25_salad_bowl",
+    "domain": "PHOTO",
+    "gt": "salad",
+    "gt_family": "salad",
+    "role": "known",
+    "baseline": {
+      "top1": "caesar_salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.6258,
+      "divergence": "IDENTITY"
+    },
+    "adapter_c": {
+      "top1": "salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.8624,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_d": {
+      "top1": "salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.933,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_e": {
+      "top1": "salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.9356,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "25_tomato_pasta",
+    "domain": "PHOTO",
+    "gt": "pasta",
+    "gt_family": "grain_starch",
+    "role": "known",
+    "baseline": {
+      "top1": "pasta",
+      "decision": "identity",
+      "label": "pasta",
+      "family": "grain_starch",
+      "score": 0.6498,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "pasta",
+      "decision": "identity",
+      "label": "pasta",
+      "family": "grain_starch",
+      "score": 0.9091,
+      "divergence": "OK"
+    },
+    "adapter_d": {
+      "top1": "pasta",
+      "decision": "identity",
+      "label": "pasta",
+      "family": "grain_starch",
+      "score": 0.9584,
+      "divergence": "OK"
+    },
+    "adapter_e": {
+      "top1": "pasta",
+      "decision": "identity",
+      "label": "pasta",
+      "family": "grain_starch",
+      "score": 0.9485,
+      "divergence": "OK"
+    },
+    "change": {
+      "baseline->adapter_d": "both_ok",
+      "baseline->adapter_e": "both_ok",
+      "adapter_c->adapter_d": "both_ok",
+      "adapter_c->adapter_e": "both_ok"
+    }
+  },
+  {
+    "scene_id": "25_complex_mixed",
+    "domain": "PHOTO",
+    "gt": "salad",
+    "gt_family": "salad",
+    "role": "known",
+    "baseline": {
+      "top1": "caesar_salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.5691,
+      "divergence": "IDENTITY"
+    },
+    "adapter_c": {
+      "top1": "salad",
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.8438,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_d": {
+      "top1": "salad",
+      "decision": "identity",
+      "label": "salad",
+      "family": "salad",
+      "score": 0.9323,
+      "divergence": "OK"
+    },
+    "adapter_e": {
+      "top1": "salad",
+      "decision": "identity",
+      "label": "salad",
+      "family": "salad",
+      "score": 0.9377,
+      "divergence": "OK"
+    },
+    "change": {
+      "baseline->adapter_d": "fixed",
+      "baseline->adapter_e": "fixed",
+      "adapter_c->adapter_d": "fixed",
+      "adapter_c->adapter_e": "fixed"
+    }
+  },
+  {
+    "scene_id": "25_complex_mixed",
+    "domain": "PHOTO",
+    "gt": "pasta",
+    "gt_family": "grain_starch",
+    "role": "known",
+    "baseline": {
+      "top1": "pasta",
+      "decision": "family",
+      "label": null,
+      "family": "grain_starch",
+      "score": 0.5608,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_c": {
+      "top1": "pasta",
+      "decision": "family",
+      "label": null,
+      "family": "grain_starch",
+      "score": 0.8724,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_d": {
+      "top1": "pasta",
+      "decision": "identity",
+      "label": "pasta",
+      "family": "grain_starch",
+      "score": 0.9367,
+      "divergence": "OK"
+    },
+    "adapter_e": {
+      "top1": "pasta",
+      "decision": "identity",
+      "label": "pasta",
+      "family": "grain_starch",
+      "score": 0.9193,
+      "divergence": "OK"
+    },
+    "change": {
+      "baseline->adapter_d": "fixed",
+      "baseline->adapter_e": "fixed",
+      "adapter_c->adapter_d": "fixed",
+      "adapter_c->adapter_e": "fixed"
+    }
+  },
+  {
+    "scene_id": "25_complex_mixed",
+    "domain": "PHOTO",
+    "gt": "spring_rolls",
+    "gt_family": "prepared_side",
+    "role": "known",
+    "baseline": {
+      "top1": "spring_rolls",
+      "decision": "identity",
+      "label": "spring_rolls",
+      "family": "prepared_side",
+      "score": 0.8136,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "spring_rolls",
+      "decision": "identity",
+      "label": "spring_rolls",
+      "family": "prepared_side",
+      "score": 0.9853,
+      "divergence": "OK"
+    },
+    "adapter_d": {
+      "top1": "spring_rolls",
+      "decision": "identity",
+      "label": "spring_rolls",
+      "family": "prepared_side",
+      "score": 0.9784,
+      "divergence": "OK"
+    },
+    "adapter_e": {
+      "top1": "spring_rolls",
+      "decision": "identity",
+      "label": "spring_rolls",
+      "family": "prepared_side",
+      "score": 0.9759,
+      "divergence": "OK"
+    },
+    "change": {
+      "baseline->adapter_d": "both_ok",
+      "baseline->adapter_e": "both_ok",
+      "adapter_c->adapter_d": "both_ok",
+      "adapter_c->adapter_e": "both_ok"
+    }
+  },
+  {
+    "scene_id": "prepared_pizza",
+    "domain": "PHOTO",
+    "gt": "pizza",
+    "gt_family": "prepared_meal",
+    "role": "known",
+    "baseline": {
+      "top1": "pizza",
+      "decision": "identity",
+      "label": "pizza",
+      "family": "prepared_meal",
+      "score": 0.6253,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "pizza",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_meal",
+      "score": 0.8411,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_d": {
+      "top1": "pizza",
+      "decision": "family",
+      "label": null,
+      "family": "prepared_meal",
+      "score": 0.9052,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_e": {
+      "top1": "pizza",
+      "decision": "identity",
+      "label": "pizza",
+      "family": "prepared_meal",
+      "score": 0.9179,
+      "divergence": "OK"
+    },
+    "change": {
+      "baseline->adapter_d": "regressed",
+      "baseline->adapter_e": "both_ok",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "fixed"
+    }
+  },
+  {
+    "scene_id": "prepared_fried_rice",
+    "domain": "PHOTO",
+    "gt": "fried_rice",
+    "gt_family": "rice_grain",
+    "role": "known",
+    "baseline": {
+      "top1": "fried_rice",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.4095,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_c": {
+      "top1": "fried_rice",
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.6913,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_d": {
+      "top1": "biryani",
+      "decision": "family",
+      "label": null,
+      "family": "rice_grain",
+      "score": 0.9063,
+      "divergence": "IDENTITY"
+    },
+    "adapter_e": {
+      "top1": "biryani",
+      "decision": "family",
+      "label": null,
+      "family": "rice_grain",
+      "score": 0.8372,
+      "divergence": "IDENTITY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "prepared_bibimbap",
+    "domain": "PHOTO",
+    "gt": "bibimbap",
+    "gt_family": "rice_grain",
+    "role": "known",
+    "baseline": {
+      "top1": "fried_rice",
+      "decision": "identity",
+      "label": "fried_rice",
+      "family": "rice_grain",
+      "score": 0.6842,
+      "divergence": "IDENTITY"
+    },
+    "adapter_c": {
+      "top1": "fried_rice",
+      "decision": "family",
+      "label": null,
+      "family": "rice_grain",
+      "score": 0.8546,
+      "divergence": "IDENTITY"
+    },
+    "adapter_d": {
+      "top1": "fried_rice",
+      "decision": "identity",
+      "label": "fried_rice",
+      "family": "rice_grain",
+      "score": 0.9572,
+      "divergence": "IDENTITY"
+    },
+    "adapter_e": {
+      "top1": "fried_rice",
+      "decision": "family",
+      "label": null,
+      "family": "rice_grain",
+      "score": 0.9486,
+      "divergence": "IDENTITY"
+    },
+    "change": {
+      "baseline->adapter_d": "both_fail",
+      "baseline->adapter_e": "both_fail",
+      "adapter_c->adapter_d": "both_fail",
+      "adapter_c->adapter_e": "both_fail"
+    }
+  },
+  {
+    "scene_id": "prepared_lasagna",
+    "domain": "PHOTO",
+    "gt": "lasagna",
+    "gt_family": "grain_starch",
+    "role": "known",
+    "baseline": {
+      "top1": "lasagna",
+      "decision": "identity",
+      "label": "lasagna",
+      "family": "grain_starch",
+      "score": 0.6024,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "lasagna",
+      "decision": "identity",
+      "label": "lasagna",
+      "family": "grain_starch",
+      "score": 0.9473,
+      "divergence": "OK"
+    },
+    "adapter_d": {
+      "top1": "lasagna",
+      "decision": "identity",
+      "label": "lasagna",
+      "family": "grain_starch",
+      "score": 0.9604,
+      "divergence": "OK"
+    },
+    "adapter_e": {
+      "top1": "lasagna",
+      "decision": "identity",
+      "label": "lasagna",
+      "family": "grain_starch",
+      "score": 0.9523,
+      "divergence": "OK"
+    },
+    "change": {
+      "baseline->adapter_d": "both_ok",
+      "baseline->adapter_e": "both_ok",
+      "adapter_c->adapter_d": "both_ok",
+      "adapter_c->adapter_e": "both_ok"
+    }
+  },
+  {
+    "scene_id": "prepared_club_sandwich",
+    "domain": "PHOTO",
+    "gt": "club_sandwich",
+    "gt_family": "sandwich",
+    "role": "known",
+    "baseline": {
+      "top1": "club_sandwich",
+      "decision": "identity",
+      "label": "club_sandwich",
+      "family": "sandwich",
+      "score": 0.8036,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "club_sandwich",
+      "decision": "identity",
+      "label": "club_sandwich",
+      "family": "sandwich",
+      "score": 0.9842,
+      "divergence": "OK"
+    },
+    "adapter_d": {
+      "top1": "club_sandwich",
+      "decision": "identity",
+      "label": "club_sandwich",
+      "family": "sandwich",
+      "score": 0.979,
+      "divergence": "OK"
+    },
+    "adapter_e": {
+      "top1": "club_sandwich",
+      "decision": "identity",
+      "label": "club_sandwich",
+      "family": "sandwich",
+      "score": 0.9741,
+      "divergence": "OK"
+    },
+    "change": {
+      "baseline->adapter_d": "both_ok",
+      "baseline->adapter_e": "both_ok",
+      "adapter_c->adapter_d": "both_ok",
+      "adapter_c->adapter_e": "both_ok"
+    }
+  }
+]
