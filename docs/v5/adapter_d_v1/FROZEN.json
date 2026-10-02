@@ -1,0 +1,59 @@
+{
+  "config_id": "kiq_v5_adapter_d_v1",
+  "config_sha256": "987c29889356db4ff8055ebe8f39e95a4be9a0bd778e86e3463e8de62a0e4951",
+  "checkpoint_sha256": "5a1af335cd919a0e6a62b221914d53333f12ce146e60cc10a64288c33779a761",
+  "library_manifest_sha256": "7e95ee5636af0a14b2839b1a242699bc02635b5d0956c6d6e89a5b9019fc0a02",
+  "photo_manifest_sha256": "89ea9b20effdf40983ce670722f43fce42e44bd4378cc5810853dbba94c656e0",
+  "kaggle_run": "kathiresannatarajan/kiq-v5-adapter-d version 1",
+  "winner": {
+    "cfg": {
+      "dim": 256,
+      "dropout": 0.3,
+      "epochs": 60,
+      "hidden": 512,
+      "lambda_hard": 0.5,
+      "lambda_open": 0.0,
+      "lr": 0.0003,
+      "margin": 0.2,
+      "open_margin": 0.1,
+      "seed": 1441,
+      "temperature": 0.07,
+      "wd": 0.0001
+    },
+    "cfg_index": 7,
+    "epoch": 5,
+    "thresholds": {
+      "m_id": 0.02,
+      "t_fam": 0.82,
+      "t_id": 0.92
+    },
+    "val_metrics": {
+      "abstention_rate_known": 0.2931,
+      "false_confirmation": 0.0284,
+      "family_backoff_rate_known": 0.2586,
+      "known_accepted_correct": 0.681,
+      "known_coverage_identity": 0.7069,
+      "known_family_top1_raw": 0.8879,
+      "known_identity_top1_raw": 0.8362,
+      "known_identity_top5_raw": 0.9483,
+      "known_score": 0.7737,
+      "known_state_top1_raw": 0.9181,
+      "objective": 1.677,
+      "unknown_rate_all": 0.0496,
+      "unknown_rejection": 0.96
+    }
+  },
+  "safety_gate": null,
+  "checks": {
+    "frozen_flag": true,
+    "test_not_used": true,
+    "report_test_not_used": true,
+    "selection_on_val": true,
+    "library_sha": true,
+    "photo_sha": true,
+    "checkpoint_sha": true,
+    "report_points_to_config": true,
+    "unit_tests_pass": true,
+    "no_test_loaded": true
+  }
+}
