@@ -1,0 +1,150 @@
+{
+  "experiment_id": "v5_exp_C_41scene_001",
+  "benchmark_catalog_sha256": "38fc3eaee75c76fa5fd1dc3d4177af4abde2cfeb3e410d290fb524f9e30a1523",
+  "frozen_config_sha256": "2d1121dd428e9e8fcb06c4438988ea86cb1b8f0464b38896d2b082c18c3e561c",
+  "library_manifest_sha256": "7e95ee5636af0a14b2839b1a242699bc02635b5d0956c6d6e89a5b9019fc0a02",
+  "region_source": "ground-truth boxes (diagnostic; detector excluded)",
+  "all": {
+    "n_regions": 71,
+    "baseline": {
+      "known_identity_top1_raw": 0.3478,
+      "known_identity_top5_raw": 0.5942,
+      "known_family_top1_raw": 0.4928,
+      "known_state_top1_raw": 0.5072,
+      "known_accepted_correct": 0.1739,
+      "known_coverage_identity": 0.1884,
+      "objective": 1.2472,
+      "known_score": 0.2754,
+      "unknown_rejection": 1.0,
+      "false_confirmation": 0.0141,
+      "oracle_region_scene_complete": "6/41",
+      "divergence_counts": {
+        "FAMILY": 28,
+        "OPEN_SET_OVER_ABSTAIN": 12,
+        "IDENTITY": 10,
+        "OK": 14,
+        "FOOD_NONFOOD": 7
+      }
+    },
+    "adapter_c": {
+      "known_identity_top1_raw": 0.4783,
+      "known_identity_top5_raw": 0.6522,
+      "known_family_top1_raw": 0.4928,
+      "known_state_top1_raw": 0.5072,
+      "known_accepted_correct": 0.2029,
+      "known_coverage_identity": 0.2029,
+      "objective": 1.2899,
+      "known_score": 0.2899,
+      "unknown_rejection": 1.0,
+      "false_confirmation": 0.0,
+      "oracle_region_scene_complete": "6/41",
+      "divergence_counts": {
+        "FAMILY": 27,
+        "OPEN_SET_OVER_ABSTAIN": 19,
+        "OK": 16,
+        "FOOD_NONFOOD": 8,
+        "IDENTITY": 1
+      }
+    },
+    "change_counts": {
+      "both_fail": 54,
+      "both_ok": 13,
+      "fixed": 3,
+      "regressed": 1
+    }
+  },
+  "photo": {
+    "n_regions": 37,
+    "baseline": {
+      "known_identity_top1_raw": 0.6486,
+      "known_identity_top5_raw": 0.9459,
+      "known_family_top1_raw": 0.8919,
+      "known_state_top1_raw": 0.8919,
+      "known_accepted_correct": 0.3243,
+      "known_coverage_identity": 0.3514,
+      "objective": 0.4459,
+      "known_score": 0.5,
+      "unknown_rejection": 0.0,
+      "false_confirmation": 0.027,
+      "oracle_region_scene_complete": "4/22",
+      "divergence_counts": {
+        "OPEN_SET_OVER_ABSTAIN": 12,
+        "IDENTITY": 9,
+        "OK": 12,
+        "FAMILY": 1,
+        "FOOD_NONFOOD": 3
+      }
+    },
+    "adapter_c": {
+      "known_identity_top1_raw": 0.8649,
+      "known_identity_top5_raw": 0.973,
+      "known_family_top1_raw": 0.8919,
+      "known_state_top1_raw": 0.8919,
+      "known_accepted_correct": 0.3784,
+      "known_coverage_identity": 0.3784,
+      "objective": 0.527,
+      "known_score": 0.527,
+      "unknown_rejection": 0.0,
+      "false_confirmation": 0.0,
+      "oracle_region_scene_complete": "4/22",
+      "divergence_counts": {
+        "OPEN_SET_OVER_ABSTAIN": 18,
+        "OK": 14,
+        "FAMILY": 1,
+        "FOOD_NONFOOD": 3,
+        "IDENTITY": 1
+      }
+    },
+    "change_counts": {
+      "both_fail": 22,
+      "both_ok": 11,
+      "fixed": 3,
+      "regressed": 1
+    }
+  },
+  "synthetic": {
+    "n_regions": 34,
+    "baseline": {
+      "known_identity_top1_raw": 0.0,
+      "known_identity_top5_raw": 0.1875,
+      "known_family_top1_raw": 0.0312,
+      "known_state_top1_raw": 0.0625,
+      "known_accepted_correct": 0.0,
+      "known_coverage_identity": 0.0,
+      "objective": 1.0156,
+      "known_score": 0.0156,
+      "unknown_rejection": 1.0,
+      "false_confirmation": 0.0,
+      "oracle_region_scene_complete": "2/19",
+      "divergence_counts": {
+        "FAMILY": 27,
+        "OK": 2,
+        "FOOD_NONFOOD": 4,
+        "IDENTITY": 1
+      }
+    },
+    "adapter_c": {
+      "known_identity_top1_raw": 0.0312,
+      "known_identity_top5_raw": 0.2812,
+      "known_family_top1_raw": 0.0312,
+      "known_state_top1_raw": 0.0625,
+      "known_accepted_correct": 0.0,
+      "known_coverage_identity": 0.0,
+      "objective": 1.0156,
+      "known_score": 0.0156,
+      "unknown_rejection": 1.0,
+      "false_confirmation": 0.0,
+      "oracle_region_scene_complete": "2/19",
+      "divergence_counts": {
+        "FAMILY": 26,
+        "FOOD_NONFOOD": 5,
+        "OK": 2,
+        "OPEN_SET_OVER_ABSTAIN": 1
+      }
+    },
+    "change_counts": {
+      "both_fail": 32,
+      "both_ok": 2
+    }
+  }
+}

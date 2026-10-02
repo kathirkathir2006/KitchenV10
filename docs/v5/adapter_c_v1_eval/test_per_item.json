@@ -1,0 +1,6534 @@
+[
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.7442,
+   "top1": "hummus"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.3423,
+   "top1": "rice"
+  },
+  "change": "both_ok",
+  "gt": "beef_stew",
+  "gt_family": "stew",
+  "openverse_id": "cb8dd8c4-b0da-489d-b141-35189fcc39ec",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.7082,
+   "top1": "rice"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.384,
+   "top1": "rice"
+  },
+  "change": "both_ok",
+  "gt": "beef_stew",
+  "gt_family": "stew",
+  "openverse_id": "30346af4-7333-4e95-ab54-f14918a9405a",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.724,
+   "top1": "bibimbap"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.2109,
+   "top1": "bibimbap"
+  },
+  "change": "both_ok",
+  "gt": "beef_stew",
+  "gt_family": "stew",
+  "openverse_id": "97d93ba9-21e8-4b64-852b-505e53d514c9",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.7535,
+   "top1": "tomato_paste"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.2796,
+   "top1": "pad_thai"
+  },
+  "change": "both_ok",
+  "gt": "beef_stew",
+  "gt_family": "stew",
+  "openverse_id": "9699d671-1825-41a2-a27c-b944bc226e21",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.6084,
+   "top1": "pad_thai"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.2572,
+   "top1": "rice"
+  },
+  "change": "both_ok",
+  "gt": "beef_stew",
+  "gt_family": "stew",
+  "openverse_id": "67001ac6-0a4c-49df-8952-c143533d2f15",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OPEN_SET_FALSE_ACCEPT",
+   "family": "rice_grain",
+   "label": "rice",
+   "score": 0.9224,
+   "top1": "rice"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OPEN_SET_FALSE_ACCEPT",
+   "family": "rice_grain",
+   "label": "rice",
+   "score": 0.7325,
+   "top1": "rice"
+  },
+  "change": "both_fail",
+  "gt": "beef_stew",
+  "gt_family": "stew",
+  "openverse_id": "d41196b6-172f-46a5-bd52-846ce9145ad8",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.7498,
+   "top1": "tomato_paste"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.297,
+   "top1": "tomato_paste"
+  },
+  "change": "both_ok",
+  "gt": "beef_stew",
+  "gt_family": "stew",
+  "openverse_id": "236f8552-7c05-4919-8c2e-09e6694a3870",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.7627,
+   "top1": "rice"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.2198,
+   "top1": "rice"
+  },
+  "change": "both_ok",
+  "gt": "beef_stew",
+  "gt_family": "stew",
+  "openverse_id": "832c1f09-9518-46f5-92e5-705a4faca8b2",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OK",
+   "family": "sauce",
+   "label": null,
+   "score": 0.8513,
+   "top1": "tomato_paste"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.3793,
+   "top1": "tomato_paste"
+  },
+  "change": "both_ok",
+  "gt": "beef_stew",
+  "gt_family": "stew",
+  "openverse_id": "ef698cf5-9857-4319-9f88-16cb0be8d830",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": null,
+   "score": 0.858,
+   "top1": "rice"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": null,
+   "score": 0.5147,
+   "top1": "rice"
+  },
+  "change": "both_ok",
+  "gt": "beef_stew",
+  "gt_family": "stew",
+  "openverse_id": "ce757099-c7cc-413c-b0e7-9f0225065a8f",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "IDENTITY",
+   "family": null,
+   "label": null,
+   "score": 0.748,
+   "top1": "biryani"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "IDENTITY",
+   "family": "rice_grain",
+   "label": null,
+   "score": 0.5554,
+   "top1": "fried_rice"
+  },
+  "change": "both_fail",
+  "gt": "bibimbap",
+  "gt_family": "rice_grain",
+  "openverse_id": "da8083ef-b822-4a85-ae3c-a3eb345e85a8",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "bibimbap",
+   "score": 0.9786,
+   "top1": "bibimbap"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "bibimbap",
+   "score": 0.6916,
+   "top1": "bibimbap"
+  },
+  "change": "both_ok",
+  "gt": "bibimbap",
+  "gt_family": "rice_grain",
+  "openverse_id": "16ff268c-ff1d-43e3-aa01-4c9e2d40ed76",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "bibimbap",
+   "score": 0.9779,
+   "top1": "bibimbap"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "bibimbap",
+   "score": 0.7469,
+   "top1": "bibimbap"
+  },
+  "change": "both_ok",
+  "gt": "bibimbap",
+  "gt_family": "rice_grain",
+  "openverse_id": "0efc1450-c101-4150-b313-59237e95316a",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "rice_grain",
+   "label": null,
+   "score": 0.8739,
+   "top1": "bibimbap"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "rice_grain",
+   "label": null,
+   "score": 0.5794,
+   "top1": "bibimbap"
+  },
+  "change": "both_fail",
+  "gt": "bibimbap",
+  "gt_family": "rice_grain",
+  "openverse_id": "9756c02f-4669-4d70-9539-597da39087df",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "bibimbap",
+   "score": 0.9758,
+   "top1": "bibimbap"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "bibimbap",
+   "score": 0.7188,
+   "top1": "bibimbap"
+  },
+  "change": "both_ok",
+  "gt": "bibimbap",
+  "gt_family": "rice_grain",
+  "openverse_id": "3b92d544-6925-4e04-be11-7ad970732454",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "bibimbap",
+   "score": 0.91,
+   "top1": "bibimbap"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.4904,
+   "top1": "bibimbap"
+  },
+  "change": "fixed",
+  "gt": "bibimbap",
+  "gt_family": "rice_grain",
+  "openverse_id": "d80d43a5-7116-431b-aaea-f2f6dfb6168b",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "bibimbap",
+   "score": 0.9734,
+   "top1": "bibimbap"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "bibimbap",
+   "score": 0.7333,
+   "top1": "bibimbap"
+  },
+  "change": "both_ok",
+  "gt": "bibimbap",
+  "gt_family": "rice_grain",
+  "openverse_id": "b8f96b3b-4afc-4a52-b082-96d9ccbae71a",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "bibimbap",
+   "score": 0.8913,
+   "top1": "bibimbap"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "bibimbap",
+   "score": 0.6174,
+   "top1": "bibimbap"
+  },
+  "change": "both_ok",
+  "gt": "bibimbap",
+  "gt_family": "rice_grain",
+  "openverse_id": "655e8dc9-a72e-4e95-8ca7-77d9948b074b",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "bibimbap",
+   "score": 0.959,
+   "top1": "bibimbap"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "bibimbap",
+   "score": 0.6434,
+   "top1": "bibimbap"
+  },
+  "change": "both_ok",
+  "gt": "bibimbap",
+  "gt_family": "rice_grain",
+  "openverse_id": "c2bb8796-b3b4-4701-a0cb-d561e21a2f86",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "bibimbap",
+   "score": 0.9743,
+   "top1": "bibimbap"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "bibimbap",
+   "score": 0.7555,
+   "top1": "bibimbap"
+  },
+  "change": "both_ok",
+  "gt": "bibimbap",
+  "gt_family": "rice_grain",
+  "openverse_id": "a7532566-b0da-43c9-8e45-c7922d802b02",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.6049,
+   "top1": "biryani"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.4546,
+   "top1": "biryani"
+  },
+  "change": "both_fail",
+  "gt": "biryani",
+  "gt_family": "rice_grain",
+  "openverse_id": "8cfc4933-007c-4521-879b-0777aff01e09",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "biryani",
+   "score": 0.8893,
+   "top1": "biryani"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "IDENTITY",
+   "family": "rice_grain",
+   "label": "fried_rice",
+   "score": 0.7816,
+   "top1": "fried_rice"
+  },
+  "change": "fixed",
+  "gt": "biryani",
+  "gt_family": "rice_grain",
+  "openverse_id": "e3f99593-4386-41e4-8da2-1b757dd83ffe",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "rice_grain",
+   "label": null,
+   "score": 0.8554,
+   "top1": "biryani"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "IDENTITY",
+   "family": "rice_grain",
+   "label": null,
+   "score": 0.6367,
+   "top1": "fried_rice"
+  },
+  "change": "both_fail",
+  "gt": "biryani",
+  "gt_family": "rice_grain",
+  "openverse_id": "40d131c8-73de-47ae-9e0f-c2e80d2569f4",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "IDENTITY",
+   "family": "rice_grain",
+   "label": null,
+   "score": 0.8796,
+   "top1": "fried_rice"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "IDENTITY",
+   "family": "rice_grain",
+   "label": "fried_rice",
+   "score": 0.7864,
+   "top1": "fried_rice"
+  },
+  "change": "both_fail",
+  "gt": "biryani",
+  "gt_family": "rice_grain",
+  "openverse_id": "4e3171ee-d975-45a9-9288-626763fc26ef",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "salad",
+   "label": "caesar_salad",
+   "score": 0.9695,
+   "top1": "caesar_salad"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "salad",
+   "label": "caesar_salad",
+   "score": 0.7347,
+   "top1": "caesar_salad"
+  },
+  "change": "both_ok",
+  "gt": "caesar_salad",
+  "gt_family": "salad",
+  "openverse_id": "1cd1751a-35c1-42b8-b3ad-328724a05902",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.715,
+   "top1": "ice_cream"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.3221,
+   "top1": "ice_cream"
+  },
+  "change": "both_fail",
+  "gt": "caesar_salad",
+  "gt_family": "salad",
+  "openverse_id": "00a84c14-a942-45e4-86c6-4fa6dba7e99a",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "salad",
+   "label": "caesar_salad",
+   "score": 0.9084,
+   "top1": "caesar_salad"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "salad",
+   "label": null,
+   "score": 0.5579,
+   "top1": "caesar_salad"
+  },
+  "change": "fixed",
+  "gt": "caesar_salad",
+  "gt_family": "salad",
+  "openverse_id": "56ed8096-2d0d-41f8-bd4d-7d0b479fee70",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "salad",
+   "label": "caesar_salad",
+   "score": 0.9159,
+   "top1": "caesar_salad"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "salad",
+   "label": "caesar_salad",
+   "score": 0.6452,
+   "top1": "caesar_salad"
+  },
+  "change": "both_ok",
+  "gt": "caesar_salad",
+  "gt_family": "salad",
+  "openverse_id": "60d05822-866d-4fa4-9847-7eb18b071498",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "salad",
+   "label": "caesar_salad",
+   "score": 0.8945,
+   "top1": "caesar_salad"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "salad",
+   "label": "caesar_salad",
+   "score": 0.635,
+   "top1": "caesar_salad"
+  },
+  "change": "both_ok",
+  "gt": "caesar_salad",
+  "gt_family": "salad",
+  "openverse_id": "e77baecc-b70a-4515-a45f-f42d8af87b8f",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "salad",
+   "label": "caesar_salad",
+   "score": 0.9675,
+   "top1": "caesar_salad"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "salad",
+   "label": "caesar_salad",
+   "score": 0.7703,
+   "top1": "caesar_salad"
+  },
+  "change": "both_ok",
+  "gt": "caesar_salad",
+  "gt_family": "salad",
+  "openverse_id": "f41e267d-b4ca-4069-a4b1-46d0b50a05c4",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "salad",
+   "label": "caesar_salad",
+   "score": 0.9564,
+   "top1": "caesar_salad"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "salad",
+   "label": "caesar_salad",
+   "score": 0.7117,
+   "top1": "caesar_salad"
+  },
+  "change": "both_ok",
+  "gt": "caesar_salad",
+  "gt_family": "salad",
+  "openverse_id": "140d2d2b-d6f8-4d0c-ae47-2a8813c56518",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "salad",
+   "label": "caesar_salad",
+   "score": 0.9242,
+   "top1": "caesar_salad"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "salad",
+   "label": null,
+   "score": 0.5443,
+   "top1": "caesar_salad"
+  },
+  "change": "fixed",
+  "gt": "caesar_salad",
+  "gt_family": "salad",
+  "openverse_id": "6ee7095b-d45f-4a98-b974-47be3a10f2e2",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "salad",
+   "label": "caesar_salad",
+   "score": 0.9604,
+   "top1": "caesar_salad"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "salad",
+   "label": "caesar_salad",
+   "score": 0.728,
+   "top1": "caesar_salad"
+  },
+  "change": "both_ok",
+  "gt": "caesar_salad",
+  "gt_family": "salad",
+  "openverse_id": "47102266-240f-489d-b4d8-6f842be8801b",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "salad",
+   "label": "caesar_salad",
+   "score": 0.887,
+   "top1": "caesar_salad"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "salad",
+   "label": "caesar_salad",
+   "score": 0.6241,
+   "top1": "caesar_salad"
+  },
+  "change": "both_ok",
+  "gt": "caesar_salad",
+  "gt_family": "salad",
+  "openverse_id": "7f8cc1c8-500c-4137-9667-3c0faa35f783",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.7448,
+   "top1": "donuts"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.347,
+   "top1": "donuts"
+  },
+  "change": "both_fail",
+  "gt": "cheese",
+  "gt_family": "dairy",
+  "openverse_id": "254b9e91-4ff5-461d-a6db-7b4276bc0770",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dairy",
+   "label": "cheese",
+   "score": 0.9374,
+   "top1": "cheese"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "dairy",
+   "label": null,
+   "score": 0.5769,
+   "top1": "cheese"
+  },
+  "change": "fixed",
+  "gt": "cheese",
+  "gt_family": "dairy",
+  "openverse_id": "ff4d3d6d-a9fe-4326-a096-e69b3c4b7174",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "sandwich",
+   "label": "club_sandwich",
+   "score": 0.9781,
+   "top1": "club_sandwich"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "sandwich",
+   "label": "club_sandwich",
+   "score": 0.7563,
+   "top1": "club_sandwich"
+  },
+  "change": "both_ok",
+  "gt": "club_sandwich",
+  "gt_family": "sandwich",
+  "openverse_id": "25dee53a-d83b-413a-a19f-6ef092cc28d2",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "sandwich",
+   "label": "club_sandwich",
+   "score": 0.9634,
+   "top1": "club_sandwich"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "sandwich",
+   "label": "club_sandwich",
+   "score": 0.7038,
+   "top1": "club_sandwich"
+  },
+  "change": "both_ok",
+  "gt": "club_sandwich",
+  "gt_family": "sandwich",
+  "openverse_id": "615e5046-9b04-4a06-ac9b-763a476ca00f",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "sandwich",
+   "label": "club_sandwich",
+   "score": 0.9587,
+   "top1": "club_sandwich"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "sandwich",
+   "label": "club_sandwich",
+   "score": 0.7008,
+   "top1": "club_sandwich"
+  },
+  "change": "both_ok",
+  "gt": "club_sandwich",
+  "gt_family": "sandwich",
+  "openverse_id": "d2f73233-1c62-4256-a1df-2922fd2fec44",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "sandwich",
+   "label": "club_sandwich",
+   "score": 0.9772,
+   "top1": "club_sandwich"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "sandwich",
+   "label": "club_sandwich",
+   "score": 0.7604,
+   "top1": "club_sandwich"
+  },
+  "change": "both_ok",
+  "gt": "club_sandwich",
+  "gt_family": "sandwich",
+  "openverse_id": "7428d951-5ea1-4d7a-b9ce-589ea5996e0e",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "sandwich",
+   "label": "club_sandwich",
+   "score": 0.9739,
+   "top1": "club_sandwich"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "sandwich",
+   "label": "club_sandwich",
+   "score": 0.7241,
+   "top1": "club_sandwich"
+  },
+  "change": "both_ok",
+  "gt": "club_sandwich",
+  "gt_family": "sandwich",
+  "openverse_id": "97f154fd-a845-4576-aaaf-e8ac78762f3e",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "sandwich",
+   "label": "club_sandwich",
+   "score": 0.9757,
+   "top1": "club_sandwich"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "sandwich",
+   "label": "club_sandwich",
+   "score": 0.764,
+   "top1": "club_sandwich"
+  },
+  "change": "both_ok",
+  "gt": "club_sandwich",
+  "gt_family": "sandwich",
+  "openverse_id": "68258316-3d89-44fa-9aa2-ab7e073cd20a",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "sandwich",
+   "label": "club_sandwich",
+   "score": 0.9593,
+   "top1": "club_sandwich"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "sandwich",
+   "label": "club_sandwich",
+   "score": 0.7265,
+   "top1": "club_sandwich"
+  },
+  "change": "both_ok",
+  "gt": "club_sandwich",
+  "gt_family": "sandwich",
+  "openverse_id": "746dcde0-ccdc-4e14-a95f-fb1cb821c279",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "sandwich",
+   "label": "club_sandwich",
+   "score": 0.9801,
+   "top1": "club_sandwich"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "sandwich",
+   "label": "club_sandwich",
+   "score": 0.7707,
+   "top1": "club_sandwich"
+  },
+  "change": "both_ok",
+  "gt": "club_sandwich",
+  "gt_family": "sandwich",
+  "openverse_id": "8fd3cf50-0bc8-4bc1-9106-6efd1456d42c",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "sandwich",
+   "label": "club_sandwich",
+   "score": 0.9768,
+   "top1": "club_sandwich"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "sandwich",
+   "label": "club_sandwich",
+   "score": 0.7538,
+   "top1": "club_sandwich"
+  },
+  "change": "both_ok",
+  "gt": "club_sandwich",
+  "gt_family": "sandwich",
+  "openverse_id": "490a92fd-6866-4580-bc63-ae0820292894",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "sandwich",
+   "label": "club_sandwich",
+   "score": 0.9636,
+   "top1": "club_sandwich"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "sandwich",
+   "label": "club_sandwich",
+   "score": 0.7215,
+   "top1": "club_sandwich"
+  },
+  "change": "both_ok",
+  "gt": "club_sandwich",
+  "gt_family": "sandwich",
+  "openverse_id": "afd5de79-c58d-494e-865d-a50b313f0c01",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dairy",
+   "label": "cream",
+   "score": 0.931,
+   "top1": "cream"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "dairy",
+   "label": null,
+   "score": 0.5421,
+   "top1": "cream"
+  },
+  "change": "fixed",
+  "gt": "cream",
+  "gt_family": "dairy",
+  "openverse_id": "8d9a335d-4b47-464b-8cd1-cc84d43c2763",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dairy",
+   "label": "cream",
+   "score": 0.9476,
+   "top1": "cream"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "dairy",
+   "label": null,
+   "score": 0.5734,
+   "top1": "cream"
+  },
+  "change": "fixed",
+  "gt": "cream",
+  "gt_family": "dairy",
+  "openverse_id": "2d9e8492-ca53-4275-a866-9aa924c25840",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "IDENTITY",
+   "family": null,
+   "label": null,
+   "score": 0.7354,
+   "top1": "cheese"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.0993,
+   "top1": "bibimbap"
+  },
+  "change": "both_fail",
+  "gt": "cream",
+  "gt_family": "dairy",
+  "openverse_id": "f563c9e2-74b7-4d51-afda-7f9fa0457c0c",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dairy",
+   "label": "cream",
+   "score": 0.8899,
+   "top1": "cream"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.4464,
+   "top1": "cream"
+  },
+  "change": "fixed",
+  "gt": "cream",
+  "gt_family": "dairy",
+  "openverse_id": "2d159f3a-e297-414f-9447-66311221619e",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.7094,
+   "top1": "packaged_cheese"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.1193,
+   "top1": "cream"
+  },
+  "change": "both_fail",
+  "gt": "cream",
+  "gt_family": "dairy",
+  "openverse_id": "b3a00273-0861-4db5-940a-c857654591e4",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.6505,
+   "top1": "tomato"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.0789,
+   "top1": "biryani"
+  },
+  "change": "both_fail",
+  "gt": "cream",
+  "gt_family": "dairy",
+  "openverse_id": "2a1e17bc-5ce8-4bfa-88ed-0a3a95d5c409",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_sweet",
+   "label": "donuts",
+   "score": 0.9243,
+   "top1": "donuts"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.4803,
+   "top1": "donuts"
+  },
+  "change": "fixed",
+  "gt": "donuts",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "4fc6d70f-cfa8-42d2-aa65-14922171a2fc",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_sweet",
+   "label": "donuts",
+   "score": 0.9063,
+   "top1": "donuts"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "prepared_sweet",
+   "label": null,
+   "score": 0.5052,
+   "top1": "donuts"
+  },
+  "change": "fixed",
+  "gt": "donuts",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "d4cb5957-a5b1-4bbb-a7a2-a37e3f99dbc3",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_sweet",
+   "label": "donuts",
+   "score": 0.9668,
+   "top1": "donuts"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_sweet",
+   "label": "donuts",
+   "score": 0.6907,
+   "top1": "donuts"
+  },
+  "change": "both_ok",
+  "gt": "donuts",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "bd3a8492-e857-4c94-8345-9476877f5697",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_sweet",
+   "label": "donuts",
+   "score": 0.911,
+   "top1": "donuts"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.4635,
+   "top1": "donuts"
+  },
+  "change": "fixed",
+  "gt": "donuts",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "ea6baf1e-c91d-496e-bb1f-7abc64d08554",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "prepared_sweet",
+   "label": null,
+   "score": 0.8697,
+   "top1": "donuts"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.3335,
+   "top1": "donuts"
+  },
+  "change": "both_fail",
+  "gt": "donuts",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "e6fcdb28-26db-44d1-8476-03be9459317d",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "prepared_sweet",
+   "label": null,
+   "score": 0.8579,
+   "top1": "donuts"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.4113,
+   "top1": "donuts"
+  },
+  "change": "both_fail",
+  "gt": "donuts",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "9049003f-264f-4ab1-b162-98a30d2a388c",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "prepared_sweet",
+   "label": null,
+   "score": 0.8285,
+   "top1": "donuts"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.354,
+   "top1": "cream"
+  },
+  "change": "both_fail",
+  "gt": "donuts",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "b365e909-c3f8-4be5-af81-873a2496cfea",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_sweet",
+   "label": "donuts",
+   "score": 0.9422,
+   "top1": "donuts"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "prepared_sweet",
+   "label": null,
+   "score": 0.552,
+   "top1": "donuts"
+  },
+  "change": "fixed",
+  "gt": "donuts",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "e8dc844a-6a83-4be1-b31e-88a8129b6e32",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_sweet",
+   "label": "donuts",
+   "score": 0.9537,
+   "top1": "donuts"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_sweet",
+   "label": "donuts",
+   "score": 0.632,
+   "top1": "donuts"
+  },
+  "change": "both_ok",
+  "gt": "donuts",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "7be9cc69-78ea-4fc5-9024-d819d239bd6e",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_sweet",
+   "label": "donuts",
+   "score": 0.9557,
+   "top1": "donuts"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "prepared_sweet",
+   "label": null,
+   "score": 0.5939,
+   "top1": "donuts"
+  },
+  "change": "fixed",
+  "gt": "donuts",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "f20ddfb3-9baf-4bfe-a2cc-28c078f9d6e6",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.6389,
+   "top1": "pasta"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.268,
+   "top1": "spring_rolls"
+  },
+  "change": "both_ok",
+  "gt": "dumplings",
+  "gt_family": "prepared_side",
+  "openverse_id": "3882c500-9296-4b19-a70e-0ebba65c707a",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": null,
+   "score": 0.8313,
+   "top1": "spring_rolls"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": null,
+   "score": 0.5786,
+   "top1": "spring_rolls"
+  },
+  "change": "both_ok",
+  "gt": "dumplings",
+  "gt_family": "prepared_side",
+  "openverse_id": "39bea213-4286-41e2-990a-614086b7392d",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.7335,
+   "top1": "spring_rolls"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.4107,
+   "top1": "spring_rolls"
+  },
+  "change": "both_ok",
+  "gt": "dumplings",
+  "gt_family": "prepared_side",
+  "openverse_id": "a5b1e399-6755-4813-af4a-33921c2a4c96",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.6856,
+   "top1": "spring_rolls"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.41,
+   "top1": "spring_rolls"
+  },
+  "change": "both_ok",
+  "gt": "dumplings",
+  "gt_family": "prepared_side",
+  "openverse_id": "748a6f1e-aa12-4e29-bd20-96bebd98fb9d",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": null,
+   "score": 0.8472,
+   "top1": "spring_rolls"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": null,
+   "score": 0.5836,
+   "top1": "spring_rolls"
+  },
+  "change": "both_ok",
+  "gt": "dumplings",
+  "gt_family": "prepared_side",
+  "openverse_id": "02d47718-eb4d-4daf-885b-53527a2cd012",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.722,
+   "top1": "hummus"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.2297,
+   "top1": "spring_rolls"
+  },
+  "change": "both_ok",
+  "gt": "dumplings",
+  "gt_family": "prepared_side",
+  "openverse_id": "4ab66816-0fb3-4be6-a335-686d2babcd0c",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.7762,
+   "top1": "spring_rolls"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": null,
+   "score": 0.5214,
+   "top1": "spring_rolls"
+  },
+  "change": "both_ok",
+  "gt": "dumplings",
+  "gt_family": "prepared_side",
+  "openverse_id": "01327d5d-2cd2-4faa-946b-c89eee9c4af3",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.6817,
+   "top1": "pasta"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.4087,
+   "top1": "spring_rolls"
+  },
+  "change": "both_ok",
+  "gt": "dumplings",
+  "gt_family": "prepared_side",
+  "openverse_id": "36a60675-e5bd-4d7e-9635-70cda95266f1",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": null,
+   "score": 0.8145,
+   "top1": "pasta"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.48,
+   "top1": "spring_rolls"
+  },
+  "change": "both_ok",
+  "gt": "dumplings",
+  "gt_family": "prepared_side",
+  "openverse_id": "cf11914e-df42-49da-aa75-f3ba55c29702",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": null,
+   "score": 0.8207,
+   "top1": "pasta"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": null,
+   "score": 0.5392,
+   "top1": "spring_rolls"
+  },
+  "change": "both_ok",
+  "gt": "dumplings",
+  "gt_family": "prepared_side",
+  "openverse_id": "dd27002b-fc02-489a-b498-cdd70d27bac9",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OK",
+   "family": "prepared_sweet",
+   "label": null,
+   "score": 0.8446,
+   "top1": "donuts"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.312,
+   "top1": "donuts"
+  },
+  "change": "both_ok",
+  "gt": "flatbread",
+  "gt_family": "bread",
+  "openverse_id": "8e24f77b-6333-473b-b315-1dea4fdfd91c",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OPEN_SET_FALSE_ACCEPT",
+   "family": "prepared_meal",
+   "label": "pizza",
+   "score": 0.9488,
+   "top1": "pizza"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OPEN_SET_FALSE_ACCEPT",
+   "family": "prepared_meal",
+   "label": "pizza",
+   "score": 0.7401,
+   "top1": "pizza"
+  },
+  "change": "both_fail",
+  "gt": "flatbread",
+  "gt_family": "bread",
+  "openverse_id": "670440ac-579a-43a8-a60a-850ef84e0c19",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OK",
+   "family": "prepared_meal",
+   "label": null,
+   "score": 0.845,
+   "top1": "pizza"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OPEN_SET_FALSE_ACCEPT",
+   "family": "prepared_meal",
+   "label": "pizza",
+   "score": 0.6435,
+   "top1": "pizza"
+  },
+  "change": "fixed",
+  "gt": "flatbread",
+  "gt_family": "bread",
+  "openverse_id": "c83e15ac-23f9-4200-8ae3-845f494eb3c9",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.6199,
+   "top1": "pizza"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.3705,
+   "top1": "pizza"
+  },
+  "change": "both_ok",
+  "gt": "flatbread",
+  "gt_family": "bread",
+  "openverse_id": "0e204157-bb93-4a39-8107-8c44c2825fa8",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OK",
+   "family": "prepared_meal",
+   "label": null,
+   "score": 0.8781,
+   "top1": "pizza"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OPEN_SET_FALSE_ACCEPT",
+   "family": "prepared_meal",
+   "label": "pizza",
+   "score": 0.6455,
+   "top1": "pizza"
+  },
+  "change": "fixed",
+  "gt": "flatbread",
+  "gt_family": "bread",
+  "openverse_id": "140162b5-5d31-4cff-aef2-d52769f42cf1",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OK",
+   "family": "sandwich",
+   "label": null,
+   "score": 0.8317,
+   "top1": "club_sandwich"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.4243,
+   "top1": "club_sandwich"
+  },
+  "change": "both_ok",
+  "gt": "flatbread",
+  "gt_family": "bread",
+  "openverse_id": "6af94520-1f29-4c37-af63-85c78e91625c",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.7341,
+   "top1": "omelette"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.3584,
+   "top1": "pizza"
+  },
+  "change": "both_ok",
+  "gt": "flatbread",
+  "gt_family": "bread",
+  "openverse_id": "17de7110-0f57-4958-bb40-17d3562e97e6",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.6091,
+   "top1": "pizza"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.4182,
+   "top1": "pizza"
+  },
+  "change": "both_ok",
+  "gt": "flatbread",
+  "gt_family": "bread",
+  "openverse_id": "1f06bf58-6e36-40da-9dab-78d254933b75",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.7112,
+   "top1": "lasagna"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OK",
+   "family": "prepared_meal",
+   "label": null,
+   "score": 0.5709,
+   "top1": "pizza"
+  },
+  "change": "both_ok",
+  "gt": "flatbread",
+  "gt_family": "bread",
+  "openverse_id": "9a187960-09c2-468a-98d0-77bd2d3c4da9",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.7765,
+   "top1": "guacamole"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.3379,
+   "top1": "guacamole"
+  },
+  "change": "both_ok",
+  "gt": "flatbread",
+  "gt_family": "bread",
+  "openverse_id": "7878bca8-dd51-40ea-ae76-861ff5c969d4",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": "french_fries",
+   "score": 0.9595,
+   "top1": "french_fries"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": "french_fries",
+   "score": 0.707,
+   "top1": "french_fries"
+  },
+  "change": "both_ok",
+  "gt": "french_fries",
+  "gt_family": "prepared_side",
+  "openverse_id": "ba635bcc-a404-4a16-87cc-b74f417e4fbb",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": "french_fries",
+   "score": 0.9615,
+   "top1": "french_fries"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": "french_fries",
+   "score": 0.728,
+   "top1": "french_fries"
+  },
+  "change": "both_ok",
+  "gt": "french_fries",
+  "gt_family": "prepared_side",
+  "openverse_id": "34fbb656-e52b-42d7-8bc2-3d551625403e",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": "french_fries",
+   "score": 0.9742,
+   "top1": "french_fries"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": "french_fries",
+   "score": 0.7899,
+   "top1": "french_fries"
+  },
+  "change": "both_ok",
+  "gt": "french_fries",
+  "gt_family": "prepared_side",
+  "openverse_id": "09e28a22-a335-44f7-b778-c9a65e775906",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "FAMILY",
+   "family": "sandwich",
+   "label": "club_sandwich",
+   "score": 0.9298,
+   "top1": "club_sandwich"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "FAMILY",
+   "family": "sandwich",
+   "label": "club_sandwich",
+   "score": 0.6059,
+   "top1": "club_sandwich"
+  },
+  "change": "both_fail",
+  "gt": "french_fries",
+  "gt_family": "prepared_side",
+  "openverse_id": "729c38ab-d0ca-406f-8daf-c0bd212056a0",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": "french_fries",
+   "score": 0.888,
+   "top1": "french_fries"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.3351,
+   "top1": "french_fries"
+  },
+  "change": "fixed",
+  "gt": "french_fries",
+  "gt_family": "prepared_side",
+  "openverse_id": "258f2e3d-60c8-412a-971f-abcfae274f4d",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.7356,
+   "top1": "french_fries"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.3726,
+   "top1": "french_fries"
+  },
+  "change": "both_fail",
+  "gt": "french_fries",
+  "gt_family": "prepared_side",
+  "openverse_id": "aadc5973-51b8-488f-9dbf-235743f6c1fb",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.6231,
+   "top1": "pad_thai"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.2977,
+   "top1": "biryani"
+  },
+  "change": "both_fail",
+  "gt": "french_fries",
+  "gt_family": "prepared_side",
+  "openverse_id": "c382efed-5661-4b9c-a8cb-9517758053ee",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "prepared_side",
+   "label": null,
+   "score": 0.785,
+   "top1": "french_fries"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.2581,
+   "top1": "donuts"
+  },
+  "change": "both_fail",
+  "gt": "french_fries",
+  "gt_family": "prepared_side",
+  "openverse_id": "fae6fa97-c9b2-4d6c-8145-5fc049e1461f",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": "french_fries",
+   "score": 0.9231,
+   "top1": "french_fries"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "prepared_side",
+   "label": null,
+   "score": 0.5441,
+   "top1": "french_fries"
+  },
+  "change": "fixed",
+  "gt": "french_fries",
+  "gt_family": "prepared_side",
+  "openverse_id": "40867013-4b54-4ce4-86f5-b8c6dd019581",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": "french_fries",
+   "score": 0.9741,
+   "top1": "french_fries"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": "french_fries",
+   "score": 0.8012,
+   "top1": "french_fries"
+  },
+  "change": "both_ok",
+  "gt": "french_fries",
+  "gt_family": "prepared_side",
+  "openverse_id": "998d9494-6427-4834-8add-74f40df99d3a",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.7635,
+   "top1": "packaged_cheese"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.2329,
+   "top1": "packaged_cheese"
+  },
+  "change": "both_fail",
+  "gt": "fried_rice",
+  "gt_family": "rice_grain",
+  "openverse_id": "48b4c6df-4795-4511-9b29-d169189a1a16",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "fried_rice",
+   "score": 0.9079,
+   "top1": "fried_rice"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "fried_rice",
+   "score": 0.6461,
+   "top1": "fried_rice"
+  },
+  "change": "both_ok",
+  "gt": "fried_rice",
+  "gt_family": "rice_grain",
+  "openverse_id": "f1f67c9c-3482-47cf-be55-f16bbe2c5fcb",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "fried_rice",
+   "score": 0.8864,
+   "top1": "fried_rice"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "fried_rice",
+   "score": 0.7451,
+   "top1": "fried_rice"
+  },
+  "change": "both_ok",
+  "gt": "fried_rice",
+  "gt_family": "rice_grain",
+  "openverse_id": "fb7146aa-a013-42f1-a390-e631eec598c2",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "IDENTITY",
+   "family": null,
+   "label": null,
+   "score": 0.6317,
+   "top1": "biryani"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.3701,
+   "top1": "guacamole"
+  },
+  "change": "both_fail",
+  "gt": "fried_rice",
+  "gt_family": "rice_grain",
+  "openverse_id": "d14973a4-ad08-48fd-907c-d28a79713a67",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "IDENTITY",
+   "family": "rice_grain",
+   "label": null,
+   "score": 0.8818,
+   "top1": "biryani"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "fried_rice",
+   "score": 0.7333,
+   "top1": "fried_rice"
+  },
+  "change": "regressed",
+  "gt": "fried_rice",
+  "gt_family": "rice_grain",
+  "openverse_id": "fcf4d4ac-d003-4dd2-8ceb-376b491580fc",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "fried_rice",
+   "score": 0.9261,
+   "top1": "fried_rice"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "fried_rice",
+   "score": 0.6532,
+   "top1": "fried_rice"
+  },
+  "change": "both_ok",
+  "gt": "fried_rice",
+  "gt_family": "rice_grain",
+  "openverse_id": "0e75ebe2-b394-4203-a2b1-a2761740301f",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.7009,
+   "top1": "fried_rice"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.4289,
+   "top1": "fried_rice"
+  },
+  "change": "both_fail",
+  "gt": "fried_rice",
+  "gt_family": "rice_grain",
+  "openverse_id": "b7a761a6-3388-40ab-8258-a16177fbd6dd",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "rice_grain",
+   "label": null,
+   "score": 0.8695,
+   "top1": "fried_rice"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "fried_rice",
+   "score": 0.777,
+   "top1": "fried_rice"
+  },
+  "change": "regressed",
+  "gt": "fried_rice",
+  "gt_family": "rice_grain",
+  "openverse_id": "c866bb16-3dcf-4556-b5a3-c8d5a20ffd33",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "fried_rice",
+   "score": 0.9471,
+   "top1": "fried_rice"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "fried_rice",
+   "score": 0.7337,
+   "top1": "fried_rice"
+  },
+  "change": "both_ok",
+  "gt": "fried_rice",
+  "gt_family": "rice_grain",
+  "openverse_id": "32d106e4-4d58-44d1-ba68-0e2a430a296c",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "fried_rice",
+   "score": 0.8998,
+   "top1": "fried_rice"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "fried_rice",
+   "score": 0.765,
+   "top1": "fried_rice"
+  },
+  "change": "both_ok",
+  "gt": "fried_rice",
+  "gt_family": "rice_grain",
+  "openverse_id": "e0c7e9e2-5d47-484a-94d0-0c3d538d7ecb",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "garlic",
+   "score": 0.9897,
+   "top1": "garlic"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "garlic",
+   "score": 0.7955,
+   "top1": "garlic"
+  },
+  "change": "both_ok",
+  "gt": "garlic",
+  "gt_family": "produce",
+  "openverse_id": "3bbc5f08-1337-4e6c-a2c7-8f294f0c628a",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "garlic",
+   "score": 0.9894,
+   "top1": "garlic"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "garlic",
+   "score": 0.8052,
+   "top1": "garlic"
+  },
+  "change": "both_ok",
+  "gt": "garlic",
+  "gt_family": "produce",
+  "openverse_id": "c9d95e9b-917c-43f1-a22c-3a27a8e8ce8f",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "garlic",
+   "score": 0.9803,
+   "top1": "garlic"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "garlic",
+   "score": 0.7261,
+   "top1": "garlic"
+  },
+  "change": "both_ok",
+  "gt": "garlic",
+  "gt_family": "produce",
+  "openverse_id": "5c715c2a-283a-4f92-af70-fd7274cff7f2",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "produce",
+   "label": null,
+   "score": 0.8877,
+   "top1": "garlic"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "produce",
+   "label": null,
+   "score": 0.5241,
+   "top1": "garlic"
+  },
+  "change": "both_fail",
+  "gt": "garlic",
+  "gt_family": "produce",
+  "openverse_id": "e6f2198a-254b-4022-9124-d9e74e9617fc",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "garlic",
+   "score": 0.988,
+   "top1": "garlic"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "garlic",
+   "score": 0.7836,
+   "top1": "garlic"
+  },
+  "change": "both_ok",
+  "gt": "garlic",
+  "gt_family": "produce",
+  "openverse_id": "c4172009-5fdd-44f3-a486-6033f62aec58",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "garlic",
+   "score": 0.9887,
+   "top1": "garlic"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "garlic",
+   "score": 0.8017,
+   "top1": "garlic"
+  },
+  "change": "both_ok",
+  "gt": "garlic",
+  "gt_family": "produce",
+  "openverse_id": "a89b6bc8-799e-4b40-a773-5a1056a3beab",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "garlic",
+   "score": 0.9904,
+   "top1": "garlic"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "garlic",
+   "score": 0.835,
+   "top1": "garlic"
+  },
+  "change": "both_ok",
+  "gt": "garlic",
+  "gt_family": "produce",
+  "openverse_id": "43457e11-0b1d-426f-bb15-cde9a4f5a3d8",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "garlic",
+   "score": 0.9788,
+   "top1": "garlic"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "garlic",
+   "score": 0.6848,
+   "top1": "garlic"
+  },
+  "change": "both_ok",
+  "gt": "garlic",
+  "gt_family": "produce",
+  "openverse_id": "0bb8ebb8-dfa0-4d0c-be06-442eed8f92af",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "garlic",
+   "score": 0.9885,
+   "top1": "garlic"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "garlic",
+   "score": 0.7815,
+   "top1": "garlic"
+  },
+  "change": "both_ok",
+  "gt": "garlic",
+  "gt_family": "produce",
+  "openverse_id": "7f807db2-178c-4062-b5e1-fdecc36fb8bb",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "garlic",
+   "score": 0.967,
+   "top1": "garlic"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "garlic",
+   "score": 0.6838,
+   "top1": "garlic"
+  },
+  "change": "both_ok",
+  "gt": "garlic",
+  "gt_family": "produce",
+  "openverse_id": "e19c27d1-ba6e-4b19-b43a-80467987b371",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "ginger",
+   "score": 0.987,
+   "top1": "ginger"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "ginger",
+   "score": 0.8195,
+   "top1": "ginger"
+  },
+  "change": "both_ok",
+  "gt": "ginger",
+  "gt_family": "produce",
+  "openverse_id": "1172289f-63ee-431c-965b-e56baa67049e",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "ginger",
+   "score": 0.9782,
+   "top1": "ginger"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "ginger",
+   "score": 0.7442,
+   "top1": "ginger"
+  },
+  "change": "both_ok",
+  "gt": "ginger",
+  "gt_family": "produce",
+  "openverse_id": "f17cd23e-bfb2-4faf-a45b-60e04e3e92b1",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "ginger",
+   "score": 0.9851,
+   "top1": "ginger"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "ginger",
+   "score": 0.8252,
+   "top1": "ginger"
+  },
+  "change": "both_ok",
+  "gt": "ginger",
+  "gt_family": "produce",
+  "openverse_id": "acea4a82-5bc0-4115-baeb-4ab6f0c13a95",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "ginger",
+   "score": 0.9883,
+   "top1": "ginger"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "ginger",
+   "score": 0.8527,
+   "top1": "ginger"
+  },
+  "change": "both_ok",
+  "gt": "ginger",
+  "gt_family": "produce",
+  "openverse_id": "e80f36df-4372-4f1e-98c1-b128c23a4fb2",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dip",
+   "label": "guacamole",
+   "score": 0.9552,
+   "top1": "guacamole"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dip",
+   "label": "guacamole",
+   "score": 0.6873,
+   "top1": "guacamole"
+  },
+  "change": "both_ok",
+  "gt": "guacamole",
+  "gt_family": "dip",
+  "openverse_id": "ebbc438f-d375-4384-b366-ef73d647efc7",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "FAMILY",
+   "family": "grain_starch",
+   "label": null,
+   "score": 0.7938,
+   "top1": "lasagna"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.4046,
+   "top1": "lasagna"
+  },
+  "change": "both_fail",
+  "gt": "guacamole",
+  "gt_family": "dip",
+  "openverse_id": "fd907e1f-0beb-4fb1-ab16-094bafdfb8eb",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "dip",
+   "label": null,
+   "score": 0.8015,
+   "top1": "guacamole"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.3824,
+   "top1": "guacamole"
+  },
+  "change": "both_fail",
+  "gt": "guacamole",
+  "gt_family": "dip",
+  "openverse_id": "55ef464f-3b85-424f-8f9e-cef0ed4bb37f",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "dip",
+   "label": null,
+   "score": 0.84,
+   "top1": "guacamole"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.4953,
+   "top1": "guacamole"
+  },
+  "change": "both_fail",
+  "gt": "guacamole",
+  "gt_family": "dip",
+  "openverse_id": "8d318edf-1ad8-4aba-bf16-b989380653c1",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "dip",
+   "label": null,
+   "score": 0.8088,
+   "top1": "guacamole"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.4187,
+   "top1": "guacamole"
+  },
+  "change": "both_fail",
+  "gt": "guacamole",
+  "gt_family": "dip",
+  "openverse_id": "0dd7a9f8-e346-4f72-ba63-9993117a4445",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dip",
+   "label": "guacamole",
+   "score": 0.9652,
+   "top1": "guacamole"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dip",
+   "label": "guacamole",
+   "score": 0.6982,
+   "top1": "guacamole"
+  },
+  "change": "both_ok",
+  "gt": "guacamole",
+  "gt_family": "dip",
+  "openverse_id": "7c9ecff8-dbbe-4c05-88d1-fa4629ce7311",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dip",
+   "label": "guacamole",
+   "score": 0.9541,
+   "top1": "guacamole"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dip",
+   "label": "guacamole",
+   "score": 0.6549,
+   "top1": "guacamole"
+  },
+  "change": "both_ok",
+  "gt": "guacamole",
+  "gt_family": "dip",
+  "openverse_id": "de6e0b8f-e510-4792-b567-6108e6dfbae6",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dip",
+   "label": "guacamole",
+   "score": 0.9383,
+   "top1": "guacamole"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "dip",
+   "label": null,
+   "score": 0.5844,
+   "top1": "guacamole"
+  },
+  "change": "fixed",
+  "gt": "guacamole",
+  "gt_family": "dip",
+  "openverse_id": "0a6863b2-5265-4fe3-81f7-c036fc558144",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dip",
+   "label": "guacamole",
+   "score": 0.9469,
+   "top1": "guacamole"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dip",
+   "label": "guacamole",
+   "score": 0.6752,
+   "top1": "guacamole"
+  },
+  "change": "both_ok",
+  "gt": "guacamole",
+  "gt_family": "dip",
+  "openverse_id": "fc782cbb-4aae-47a1-a94a-63f1ed8546bf",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dip",
+   "label": "guacamole",
+   "score": 0.9527,
+   "top1": "guacamole"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dip",
+   "label": "guacamole",
+   "score": 0.6425,
+   "top1": "guacamole"
+  },
+  "change": "both_ok",
+  "gt": "guacamole",
+  "gt_family": "dip",
+  "openverse_id": "e8716065-6ae2-4623-a7d7-85d29a8ca633",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dip",
+   "label": "hummus",
+   "score": 0.9236,
+   "top1": "hummus"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "dip",
+   "label": null,
+   "score": 0.5641,
+   "top1": "hummus"
+  },
+  "change": "fixed",
+  "gt": "hummus",
+  "gt_family": "dip",
+  "openverse_id": "81fd1d96-c2c4-46b6-a17f-a51dfdcde169",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dip",
+   "label": "hummus",
+   "score": 0.9525,
+   "top1": "hummus"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dip",
+   "label": "hummus",
+   "score": 0.6462,
+   "top1": "hummus"
+  },
+  "change": "both_ok",
+  "gt": "hummus",
+  "gt_family": "dip",
+  "openverse_id": "02830de3-42f8-426d-ae36-59b0deec018d",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dip",
+   "label": "hummus",
+   "score": 0.9477,
+   "top1": "hummus"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dip",
+   "label": "hummus",
+   "score": 0.6464,
+   "top1": "hummus"
+  },
+  "change": "both_ok",
+  "gt": "hummus",
+  "gt_family": "dip",
+  "openverse_id": "78ef05f9-8f8d-4b4d-a29a-29a8b588b698",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "FAMILY",
+   "family": "prepared_egg",
+   "label": null,
+   "score": 0.8105,
+   "top1": "omelette"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.4505,
+   "top1": "omelette"
+  },
+  "change": "both_fail",
+  "gt": "hummus",
+  "gt_family": "dip",
+  "openverse_id": "dd073fb8-3a71-49b3-b128-df89abc851f7",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.6606,
+   "top1": "yogurt"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.3042,
+   "top1": "hummus"
+  },
+  "change": "both_fail",
+  "gt": "hummus",
+  "gt_family": "dip",
+  "openverse_id": "7526eb76-9b2c-4648-8366-e9b1637a268a",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dip",
+   "label": "hummus",
+   "score": 0.9536,
+   "top1": "hummus"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "dip",
+   "label": null,
+   "score": 0.5453,
+   "top1": "hummus"
+  },
+  "change": "fixed",
+  "gt": "hummus",
+  "gt_family": "dip",
+  "openverse_id": "c7ac8d63-f688-4e6b-9454-0f4ed0939d10",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dip",
+   "label": "hummus",
+   "score": 0.9112,
+   "top1": "hummus"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "dip",
+   "label": null,
+   "score": 0.5076,
+   "top1": "hummus"
+  },
+  "change": "fixed",
+  "gt": "hummus",
+  "gt_family": "dip",
+  "openverse_id": "37c52053-1830-43c4-b121-3d6a2ed13df4",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "FAMILY",
+   "family": "prepared_egg",
+   "label": null,
+   "score": 0.8444,
+   "top1": "omelette"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.4714,
+   "top1": "omelette"
+  },
+  "change": "both_fail",
+  "gt": "hummus",
+  "gt_family": "dip",
+  "openverse_id": "9a66b65b-5417-4b26-a597-5beccefb3f86",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.7074,
+   "top1": "hummus"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.29,
+   "top1": "hummus"
+  },
+  "change": "both_fail",
+  "gt": "hummus",
+  "gt_family": "dip",
+  "openverse_id": "bede2941-7730-4cfb-a1e1-96f5a4dbb923",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dip",
+   "label": "hummus",
+   "score": 0.9135,
+   "top1": "hummus"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dip",
+   "label": "hummus",
+   "score": 0.665,
+   "top1": "hummus"
+  },
+  "change": "both_ok",
+  "gt": "hummus",
+  "gt_family": "dip",
+  "openverse_id": "97aa6c59-30fc-4fcb-9e0e-6b6f13c5f2cc",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "FAMILY",
+   "family": "dairy",
+   "label": null,
+   "score": 0.8656,
+   "top1": "cream"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.3609,
+   "top1": "cream"
+  },
+  "change": "both_fail",
+  "gt": "ice_cream",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "4a1559f0-67ec-4563-96f4-561eed567c5a",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "prepared_sweet",
+   "label": null,
+   "score": 0.8457,
+   "top1": "ice_cream"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.4731,
+   "top1": "ice_cream"
+  },
+  "change": "both_fail",
+  "gt": "ice_cream",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "58b4d987-ebf8-4144-9fd8-269efcfb0638",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_sweet",
+   "label": "ice_cream",
+   "score": 0.9175,
+   "top1": "ice_cream"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "prepared_sweet",
+   "label": null,
+   "score": 0.5936,
+   "top1": "ice_cream"
+  },
+  "change": "fixed",
+  "gt": "ice_cream",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "e0a8abf5-9c11-4f2d-aa1e-2320e901a82c",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_sweet",
+   "label": "ice_cream",
+   "score": 0.9472,
+   "top1": "ice_cream"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_sweet",
+   "label": "ice_cream",
+   "score": 0.6825,
+   "top1": "ice_cream"
+  },
+  "change": "both_ok",
+  "gt": "ice_cream",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "aeb5ab6e-a629-4972-b2bc-13635be47a00",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_sweet",
+   "label": "ice_cream",
+   "score": 0.9066,
+   "top1": "ice_cream"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.3839,
+   "top1": "ice_cream"
+  },
+  "change": "fixed",
+  "gt": "ice_cream",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "336aadae-4106-48e9-bdba-21989da2d39f",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_sweet",
+   "label": "ice_cream",
+   "score": 0.9326,
+   "top1": "ice_cream"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_sweet",
+   "label": "ice_cream",
+   "score": 0.637,
+   "top1": "ice_cream"
+  },
+  "change": "both_ok",
+  "gt": "ice_cream",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "41566dd0-5427-4e14-8a4b-f88716177893",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "FAMILY",
+   "family": "dairy",
+   "label": "cream",
+   "score": 0.9266,
+   "top1": "cream"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.4777,
+   "top1": "cream"
+  },
+  "change": "both_fail",
+  "gt": "ice_cream",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "76be27d4-81d2-4d0d-b9f2-9daeeb857713",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_sweet",
+   "label": "ice_cream",
+   "score": 0.9425,
+   "top1": "ice_cream"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_sweet",
+   "label": "ice_cream",
+   "score": 0.6678,
+   "top1": "ice_cream"
+  },
+  "change": "both_ok",
+  "gt": "ice_cream",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "6abcc769-187a-4bf9-bbf1-e77e07b6402d",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.7109,
+   "top1": "packaged_cheese"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.3378,
+   "top1": "french_fries"
+  },
+  "change": "both_fail",
+  "gt": "ice_cream",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "497413ca-4a12-48c7-9ee7-68d8cfe87c4e",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "FAMILY",
+   "family": "dairy",
+   "label": "yogurt",
+   "score": 0.9195,
+   "top1": "yogurt"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "prepared_sweet",
+   "label": null,
+   "score": 0.5664,
+   "top1": "ice_cream"
+  },
+  "change": "both_fail",
+  "gt": "ice_cream",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "02770759-9c74-4e52-8bb5-05ab7704879d",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "lasagna",
+   "score": 0.9142,
+   "top1": "lasagna"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "lasagna",
+   "score": 0.695,
+   "top1": "lasagna"
+  },
+  "change": "both_ok",
+  "gt": "lasagna",
+  "gt_family": "grain_starch",
+  "openverse_id": "457e8c8c-1ce1-419c-8b3d-7cb95f08878e",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "grain_starch",
+   "label": null,
+   "score": 0.7809,
+   "top1": "lasagna"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "grain_starch",
+   "label": null,
+   "score": 0.5152,
+   "top1": "lasagna"
+  },
+  "change": "both_fail",
+  "gt": "lasagna",
+  "gt_family": "grain_starch",
+  "openverse_id": "896c288e-7f9a-440b-b411-38c246787ad9",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "lasagna",
+   "score": 0.9378,
+   "top1": "lasagna"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "grain_starch",
+   "label": null,
+   "score": 0.5884,
+   "top1": "lasagna"
+  },
+  "change": "fixed",
+  "gt": "lasagna",
+  "gt_family": "grain_starch",
+  "openverse_id": "bc0b09bd-5822-4a2a-9f53-59faedf712fe",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "lasagna",
+   "score": 0.9693,
+   "top1": "lasagna"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "lasagna",
+   "score": 0.6995,
+   "top1": "lasagna"
+  },
+  "change": "both_ok",
+  "gt": "lasagna",
+  "gt_family": "grain_starch",
+  "openverse_id": "1c375822-a8a9-46e9-b3ab-7536e0f199e1",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "lasagna",
+   "score": 0.9485,
+   "top1": "lasagna"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "lasagna",
+   "score": 0.7068,
+   "top1": "lasagna"
+  },
+  "change": "both_ok",
+  "gt": "lasagna",
+  "gt_family": "grain_starch",
+  "openverse_id": "3447721f-1504-42b1-b3d4-de34af51d549",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "lasagna",
+   "score": 0.9727,
+   "top1": "lasagna"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "lasagna",
+   "score": 0.6991,
+   "top1": "lasagna"
+  },
+  "change": "both_ok",
+  "gt": "lasagna",
+  "gt_family": "grain_starch",
+  "openverse_id": "c431b004-3ea1-46a3-9a85-6b997a1a9498",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "lasagna",
+   "score": 0.9585,
+   "top1": "lasagna"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "lasagna",
+   "score": 0.6532,
+   "top1": "lasagna"
+  },
+  "change": "both_ok",
+  "gt": "lasagna",
+  "gt_family": "grain_starch",
+  "openverse_id": "6a028e15-cede-4385-8870-7bfc5238cca1",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "grain_starch",
+   "label": null,
+   "score": 0.8752,
+   "top1": "lasagna"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "grain_starch",
+   "label": null,
+   "score": 0.5554,
+   "top1": "lasagna"
+  },
+  "change": "both_fail",
+  "gt": "lasagna",
+  "gt_family": "grain_starch",
+  "openverse_id": "76a16495-e10a-4a90-93aa-7d530d187f04",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "lasagna",
+   "score": 0.9309,
+   "top1": "lasagna"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "lasagna",
+   "score": 0.6118,
+   "top1": "lasagna"
+  },
+  "change": "both_ok",
+  "gt": "lasagna",
+  "gt_family": "grain_starch",
+  "openverse_id": "6200ef81-b5ca-4403-a433-da35a508f593",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "lasagna",
+   "score": 0.9787,
+   "top1": "lasagna"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "lasagna",
+   "score": 0.7583,
+   "top1": "lasagna"
+  },
+  "change": "both_ok",
+  "gt": "lasagna",
+  "gt_family": "grain_starch",
+  "openverse_id": "f62fe629-27bd-44b3-a35c-cd057b015cbc",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "non_food",
+   "label": "non_food",
+   "score": 0.9243,
+   "top1": "non_food"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.3329,
+   "top1": "non_food"
+  },
+  "change": "fixed",
+  "gt": "non_food",
+  "gt_family": "non_food",
+  "openverse_id": "89bc55e8-12af-416c-b13f-fbfe34fa8c8a",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "non_food",
+   "label": null,
+   "score": 0.7967,
+   "top1": "non_food"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.3175,
+   "top1": "non_food"
+  },
+  "change": "both_fail",
+  "gt": "non_food",
+  "gt_family": "non_food",
+  "openverse_id": "b920061f-aede-4c4b-86ac-01c69f4f3801",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.7711,
+   "top1": "non_food"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.2227,
+   "top1": "non_food"
+  },
+  "change": "both_fail",
+  "gt": "non_food",
+  "gt_family": "non_food",
+  "openverse_id": "e45faa29-da50-4633-9994-17dd28c80685",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "non_food",
+   "label": null,
+   "score": 0.864,
+   "top1": "non_food"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.1654,
+   "top1": "non_food"
+  },
+  "change": "both_fail",
+  "gt": "non_food",
+  "gt_family": "non_food",
+  "openverse_id": "2f7381f6-87ea-44e7-8ddb-65efbbc53b8d",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "non_food",
+   "label": "non_food",
+   "score": 0.9498,
+   "top1": "non_food"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "non_food",
+   "label": null,
+   "score": 0.5198,
+   "top1": "non_food"
+  },
+  "change": "fixed",
+  "gt": "non_food",
+  "gt_family": "non_food",
+  "openverse_id": "92e38e07-a114-4b87-96f2-b9055904219e",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "non_food",
+   "label": "non_food",
+   "score": 0.9147,
+   "top1": "non_food"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.4122,
+   "top1": "non_food"
+  },
+  "change": "fixed",
+  "gt": "non_food",
+  "gt_family": "non_food",
+  "openverse_id": "ccb2cba1-480d-4dc3-93f5-cef02897df08",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "non_food",
+   "label": "non_food",
+   "score": 0.9273,
+   "top1": "non_food"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.4651,
+   "top1": "non_food"
+  },
+  "change": "fixed",
+  "gt": "non_food",
+  "gt_family": "non_food",
+  "openverse_id": "7c477beb-b7d5-4dcc-b4f4-5922335d4cea",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "non_food",
+   "label": "non_food",
+   "score": 0.92,
+   "top1": "non_food"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.3886,
+   "top1": "non_food"
+  },
+  "change": "fixed",
+  "gt": "non_food",
+  "gt_family": "non_food",
+  "openverse_id": "2fa10c3f-1336-455e-b299-df3e1580bcf8",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "non_food",
+   "label": "non_food",
+   "score": 0.9274,
+   "top1": "non_food"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.4333,
+   "top1": "non_food"
+  },
+  "change": "fixed",
+  "gt": "non_food",
+  "gt_family": "non_food",
+  "openverse_id": "b716a05e-948f-489a-83b6-e89d2bf976d0",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "non_food",
+   "label": "non_food",
+   "score": 0.9479,
+   "top1": "non_food"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.4841,
+   "top1": "non_food"
+  },
+  "change": "fixed",
+  "gt": "non_food",
+  "gt_family": "non_food",
+  "openverse_id": "8e14d586-ca02-495d-85b0-8474c22b2bd4",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "FAMILY",
+   "family": "prepared_meal",
+   "label": null,
+   "score": 0.8056,
+   "top1": "pizza"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "FAMILY",
+   "family": "prepared_meal",
+   "label": "pizza",
+   "score": 0.635,
+   "top1": "pizza"
+  },
+  "change": "both_fail",
+  "gt": "omelette",
+  "gt_family": "prepared_egg",
+  "openverse_id": "274258bf-5629-4dec-8160-10fa73151379",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_egg",
+   "label": "omelette",
+   "score": 0.9251,
+   "top1": "omelette"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "prepared_egg",
+   "label": null,
+   "score": 0.5863,
+   "top1": "omelette"
+  },
+  "change": "fixed",
+  "gt": "omelette",
+  "gt_family": "prepared_egg",
+  "openverse_id": "f76f5b71-7bcd-4811-a69d-91a9da37bc87",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_egg",
+   "label": "omelette",
+   "score": 0.9114,
+   "top1": "omelette"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "prepared_egg",
+   "label": null,
+   "score": 0.5071,
+   "top1": "omelette"
+  },
+  "change": "fixed",
+  "gt": "omelette",
+  "gt_family": "prepared_egg",
+  "openverse_id": "fd95abce-b6b6-49da-95c4-e6bf0e5f4cba",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_egg",
+   "label": "omelette",
+   "score": 0.9578,
+   "top1": "omelette"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_egg",
+   "label": "omelette",
+   "score": 0.6936,
+   "top1": "omelette"
+  },
+  "change": "both_ok",
+  "gt": "omelette",
+  "gt_family": "prepared_egg",
+  "openverse_id": "b6b8352e-4f21-47ac-9fac-7dbee23f7ae8",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_egg",
+   "label": "omelette",
+   "score": 0.9086,
+   "top1": "omelette"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.4495,
+   "top1": "omelette"
+  },
+  "change": "fixed",
+  "gt": "omelette",
+  "gt_family": "prepared_egg",
+  "openverse_id": "41bfc588-293f-4ecd-b2c9-24b61313d66b",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.7474,
+   "top1": "pizza"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.4378,
+   "top1": "pizza"
+  },
+  "change": "both_fail",
+  "gt": "omelette",
+  "gt_family": "prepared_egg",
+  "openverse_id": "fbf01a71-2212-4670-a052-e31fde7b5850",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_egg",
+   "label": "omelette",
+   "score": 0.9158,
+   "top1": "omelette"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "prepared_egg",
+   "label": null,
+   "score": 0.5169,
+   "top1": "omelette"
+  },
+  "change": "fixed",
+  "gt": "omelette",
+  "gt_family": "prepared_egg",
+  "openverse_id": "2c290058-e09f-457f-9707-552f16a4b99c",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_egg",
+   "label": "omelette",
+   "score": 0.9523,
+   "top1": "omelette"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_egg",
+   "label": "omelette",
+   "score": 0.6211,
+   "top1": "omelette"
+  },
+  "change": "both_ok",
+  "gt": "omelette",
+  "gt_family": "prepared_egg",
+  "openverse_id": "358bda57-7f95-4f3e-8dc8-ce887901c55b",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_egg",
+   "label": "omelette",
+   "score": 0.9772,
+   "top1": "omelette"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_egg",
+   "label": "omelette",
+   "score": 0.7514,
+   "top1": "omelette"
+  },
+  "change": "both_ok",
+  "gt": "omelette",
+  "gt_family": "prepared_egg",
+  "openverse_id": "d5471702-ef1b-4c0c-a754-5f3218da1736",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_egg",
+   "label": "omelette",
+   "score": 0.9761,
+   "top1": "omelette"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_egg",
+   "label": "omelette",
+   "score": 0.7119,
+   "top1": "omelette"
+  },
+  "change": "both_ok",
+  "gt": "omelette",
+  "gt_family": "prepared_egg",
+  "openverse_id": "2d448193-4c93-451f-bde5-bdb447beba9f",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.7102,
+   "top1": "packaged_cheese"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.379,
+   "top1": "packaged_cheese"
+  },
+  "change": "both_fail",
+  "gt": "packaged_cheese",
+  "gt_family": "packaged_dairy",
+  "openverse_id": "e8b8810e-d284-4549-94c7-d340889d8c16",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.7688,
+   "top1": "yogurt"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.2845,
+   "top1": "yogurt"
+  },
+  "change": "both_fail",
+  "gt": "packaged_cheese",
+  "gt_family": "packaged_dairy",
+  "openverse_id": "0bf0d430-6425-4b7a-bb46-96db7e2e9313",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "FAMILY",
+   "family": "dairy",
+   "label": null,
+   "score": 0.8204,
+   "top1": "cheese"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.4007,
+   "top1": "cheese"
+  },
+  "change": "both_fail",
+  "gt": "packaged_cheese",
+  "gt_family": "packaged_dairy",
+  "openverse_id": "6a14ad5c-9c9b-44cf-b03d-13e363e02107",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "noodle",
+   "label": "pad_thai",
+   "score": 0.9738,
+   "top1": "pad_thai"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "noodle",
+   "label": "pad_thai",
+   "score": 0.7683,
+   "top1": "pad_thai"
+  },
+  "change": "both_ok",
+  "gt": "pad_thai",
+  "gt_family": "noodle",
+  "openverse_id": "f4b91a48-f575-42e5-a468-c83a95ad7565",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "noodle",
+   "label": "pad_thai",
+   "score": 0.9089,
+   "top1": "pad_thai"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "noodle",
+   "label": "pad_thai",
+   "score": 0.6232,
+   "top1": "pad_thai"
+  },
+  "change": "both_ok",
+  "gt": "pad_thai",
+  "gt_family": "noodle",
+  "openverse_id": "cc14b784-e775-47f6-b2cd-346aaad6b09c",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "noodle",
+   "label": null,
+   "score": 0.8411,
+   "top1": "pad_thai"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "noodle",
+   "label": "pad_thai",
+   "score": 0.6444,
+   "top1": "pad_thai"
+  },
+  "change": "regressed",
+  "gt": "pad_thai",
+  "gt_family": "noodle",
+  "openverse_id": "05e92ef7-9f86-4bc4-a39f-c2c365e3b4d7",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "noodle",
+   "label": "pad_thai",
+   "score": 0.915,
+   "top1": "pad_thai"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "noodle",
+   "label": "pad_thai",
+   "score": 0.7047,
+   "top1": "pad_thai"
+  },
+  "change": "both_ok",
+  "gt": "pad_thai",
+  "gt_family": "noodle",
+  "openverse_id": "19897f67-3878-4399-bc2b-a2b15467caf2",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "noodle",
+   "label": "pad_thai",
+   "score": 0.9536,
+   "top1": "pad_thai"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "noodle",
+   "label": "pad_thai",
+   "score": 0.7045,
+   "top1": "pad_thai"
+  },
+  "change": "both_ok",
+  "gt": "pad_thai",
+  "gt_family": "noodle",
+  "openverse_id": "4c3fa367-804e-47c9-8f41-c20f79c8c130",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "noodle",
+   "label": "pad_thai",
+   "score": 0.9632,
+   "top1": "pad_thai"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "noodle",
+   "label": "pad_thai",
+   "score": 0.7347,
+   "top1": "pad_thai"
+  },
+  "change": "both_ok",
+  "gt": "pad_thai",
+  "gt_family": "noodle",
+  "openverse_id": "28dab922-8a75-422f-aed3-c44516e72b3b",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "noodle",
+   "label": null,
+   "score": 0.8129,
+   "top1": "pad_thai"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "noodle",
+   "label": "pad_thai",
+   "score": 0.6025,
+   "top1": "pad_thai"
+  },
+  "change": "regressed",
+  "gt": "pad_thai",
+  "gt_family": "noodle",
+  "openverse_id": "03a7a340-adb0-4799-8f88-d0b306272677",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "noodle",
+   "label": "pad_thai",
+   "score": 0.9388,
+   "top1": "pad_thai"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "noodle",
+   "label": "pad_thai",
+   "score": 0.7308,
+   "top1": "pad_thai"
+  },
+  "change": "both_ok",
+  "gt": "pad_thai",
+  "gt_family": "noodle",
+  "openverse_id": "85df9011-3d67-47f0-b2c8-c627762cca39",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "noodle",
+   "label": "pad_thai",
+   "score": 0.9664,
+   "top1": "pad_thai"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "noodle",
+   "label": "pad_thai",
+   "score": 0.7373,
+   "top1": "pad_thai"
+  },
+  "change": "both_ok",
+  "gt": "pad_thai",
+  "gt_family": "noodle",
+  "openverse_id": "f6d82633-37fb-43f7-abd5-19e0c679d658",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "noodle",
+   "label": "pad_thai",
+   "score": 0.9687,
+   "top1": "pad_thai"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "noodle",
+   "label": "pad_thai",
+   "score": 0.8039,
+   "top1": "pad_thai"
+  },
+  "change": "both_ok",
+  "gt": "pad_thai",
+  "gt_family": "noodle",
+  "openverse_id": "c7fec479-be66-435d-b252-c15e7d3bb01b",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.7125,
+   "top1": "ice_cream"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.2804,
+   "top1": "club_sandwich"
+  },
+  "change": "both_ok",
+  "gt": "pancakes",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "fdfa3c26-dd70-49aa-b5a7-6bd3f1677f4f",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OK",
+   "family": "prepared_egg",
+   "label": null,
+   "score": 0.8412,
+   "top1": "omelette"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.3915,
+   "top1": "omelette"
+  },
+  "change": "both_ok",
+  "gt": "pancakes",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "3f00ef28-6d44-4942-ba5c-669ab00499d3",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OK",
+   "family": "prepared_egg",
+   "label": null,
+   "score": 0.8401,
+   "top1": "omelette"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.3703,
+   "top1": "omelette"
+  },
+  "change": "both_ok",
+  "gt": "pancakes",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "fced270b-7525-4da4-89db-f38616a26c56",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OK",
+   "family": "prepared_sweet",
+   "label": null,
+   "score": 0.7828,
+   "top1": "donuts"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.1805,
+   "top1": "lasagna"
+  },
+  "change": "both_ok",
+  "gt": "pancakes",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "af0006f2-4b54-44b7-a307-bd2896aded89",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.7721,
+   "top1": "omelette"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.2732,
+   "top1": "omelette"
+  },
+  "change": "both_ok",
+  "gt": "pancakes",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "c0c219f5-8aef-430c-9d65-87ede4b63338",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.7291,
+   "top1": "cream"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.2526,
+   "top1": "hummus"
+  },
+  "change": "both_ok",
+  "gt": "pancakes",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "59247647-f8d7-41dd-8f9b-aa27ca5b2190",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.7664,
+   "top1": "omelette"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.3481,
+   "top1": "omelette"
+  },
+  "change": "both_ok",
+  "gt": "pancakes",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "d0a4ea0d-d1ec-4e86-8d58-1ebfcb30901b",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.7157,
+   "top1": "omelette"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.329,
+   "top1": "omelette"
+  },
+  "change": "both_ok",
+  "gt": "pancakes",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "2a561824-7592-49d0-bf2f-00c39ad1acec",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OPEN_SET_FALSE_ACCEPT",
+   "family": "dairy",
+   "label": "cream",
+   "score": 0.8953,
+   "top1": "cream"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.488,
+   "top1": "cream"
+  },
+  "change": "regressed",
+  "gt": "pancakes",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "998fed11-997e-4c20-944f-8fc6fefc5527",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OK",
+   "family": "dairy",
+   "label": null,
+   "score": 0.8625,
+   "top1": "cream"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.3837,
+   "top1": "cream"
+  },
+  "change": "both_ok",
+  "gt": "pancakes",
+  "gt_family": "prepared_sweet",
+  "openverse_id": "0417a54e-590e-45b8-9537-67b61aa16b5a",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.6962,
+   "top1": "pasta"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.4165,
+   "top1": "pasta"
+  },
+  "change": "both_fail",
+  "gt": "pasta",
+  "gt_family": "grain_starch",
+  "openverse_id": "cd5bf116-522d-401e-914b-7ad6dfe284e0",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "pasta",
+   "score": 0.9366,
+   "top1": "pasta"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "pasta",
+   "score": 0.6358,
+   "top1": "pasta"
+  },
+  "change": "both_ok",
+  "gt": "pasta",
+  "gt_family": "grain_starch",
+  "openverse_id": "0fbd5b07-38a8-4884-8b78-c78139379875",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "pasta",
+   "score": 0.9288,
+   "top1": "pasta"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "pasta",
+   "score": 0.738,
+   "top1": "pasta"
+  },
+  "change": "both_ok",
+  "gt": "pasta",
+  "gt_family": "grain_starch",
+  "openverse_id": "a356c4a4-7569-4350-9d42-3208e51add52",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "pasta",
+   "score": 0.8966,
+   "top1": "pasta"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "pasta",
+   "score": 0.603,
+   "top1": "pasta"
+  },
+  "change": "both_ok",
+  "gt": "pasta",
+  "gt_family": "grain_starch",
+  "openverse_id": "c6d67132-fa4a-4326-8441-58cf76a4833d",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "pasta",
+   "score": 0.899,
+   "top1": "pasta"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "pasta",
+   "score": 0.6517,
+   "top1": "pasta"
+  },
+  "change": "both_ok",
+  "gt": "pasta",
+  "gt_family": "grain_starch",
+  "openverse_id": "e2160662-bb8f-4a4a-8632-9b9de6f42a6d",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "grain_starch",
+   "label": null,
+   "score": 0.8441,
+   "top1": "pasta"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "grain_starch",
+   "label": null,
+   "score": 0.5606,
+   "top1": "pasta"
+  },
+  "change": "both_fail",
+  "gt": "pasta",
+  "gt_family": "grain_starch",
+  "openverse_id": "3b681e09-c9f8-485d-9e5e-b66ef2d41eac",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "pasta",
+   "score": 0.9517,
+   "top1": "pasta"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "pasta",
+   "score": 0.6902,
+   "top1": "pasta"
+  },
+  "change": "both_ok",
+  "gt": "pasta",
+  "gt_family": "grain_starch",
+  "openverse_id": "aa19b24a-7250-4897-89c4-2312fe45b8cb",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "grain_starch",
+   "label": null,
+   "score": 0.7926,
+   "top1": "pasta"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "grain_starch",
+   "label": null,
+   "score": 0.5883,
+   "top1": "pasta"
+  },
+  "change": "both_fail",
+  "gt": "pasta",
+  "gt_family": "grain_starch",
+  "openverse_id": "30fe8275-8c1a-4051-894b-db656688231c",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "FOOD_NONFOOD",
+   "family": null,
+   "label": null,
+   "score": 0.7575,
+   "top1": "non_food"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.1609,
+   "top1": "salad"
+  },
+  "change": "both_fail",
+  "gt": "pasta",
+  "gt_family": "grain_starch",
+  "openverse_id": "5db6fa16-a1aa-4edf-8485-036d3c765075",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "pasta",
+   "score": 0.8963,
+   "top1": "pasta"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "grain_starch",
+   "label": "pasta",
+   "score": 0.6735,
+   "top1": "pasta"
+  },
+  "change": "both_ok",
+  "gt": "pasta",
+  "gt_family": "grain_starch",
+  "openverse_id": "80d52238-f7a9-4b30-9609-4ac6811d5f0b",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_meal",
+   "label": "pizza",
+   "score": 0.9762,
+   "top1": "pizza"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_meal",
+   "label": "pizza",
+   "score": 0.8576,
+   "top1": "pizza"
+  },
+  "change": "both_ok",
+  "gt": "pizza",
+  "gt_family": "prepared_meal",
+  "openverse_id": "d0ce1e3a-dc85-435c-8443-69ae02aec5ad",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_meal",
+   "label": "pizza",
+   "score": 0.9722,
+   "top1": "pizza"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_meal",
+   "label": "pizza",
+   "score": 0.8511,
+   "top1": "pizza"
+  },
+  "change": "both_ok",
+  "gt": "pizza",
+  "gt_family": "prepared_meal",
+  "openverse_id": "5c5f26c4-aacd-4ec8-96d5-056927a15829",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_meal",
+   "label": "pizza",
+   "score": 0.9439,
+   "top1": "pizza"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_meal",
+   "label": "pizza",
+   "score": 0.7772,
+   "top1": "pizza"
+  },
+  "change": "both_ok",
+  "gt": "pizza",
+  "gt_family": "prepared_meal",
+  "openverse_id": "e35c668e-e88b-42d4-9cac-0e07211abde2",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_meal",
+   "label": "pizza",
+   "score": 0.9737,
+   "top1": "pizza"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_meal",
+   "label": "pizza",
+   "score": 0.8377,
+   "top1": "pizza"
+  },
+  "change": "both_ok",
+  "gt": "pizza",
+  "gt_family": "prepared_meal",
+  "openverse_id": "429038fa-4fa8-4124-9bd9-4180ba95d882",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_meal",
+   "label": "pizza",
+   "score": 0.9754,
+   "top1": "pizza"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_meal",
+   "label": "pizza",
+   "score": 0.8462,
+   "top1": "pizza"
+  },
+  "change": "both_ok",
+  "gt": "pizza",
+  "gt_family": "prepared_meal",
+  "openverse_id": "54532f93-5789-4fbc-b155-66f3239cc3ac",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_meal",
+   "label": "pizza",
+   "score": 0.881,
+   "top1": "pizza"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_meal",
+   "label": "pizza",
+   "score": 0.6983,
+   "top1": "pizza"
+  },
+  "change": "both_ok",
+  "gt": "pizza",
+  "gt_family": "prepared_meal",
+  "openverse_id": "6fedf109-8918-4275-b987-53ad592a03df",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_meal",
+   "label": "pizza",
+   "score": 0.9807,
+   "top1": "pizza"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_meal",
+   "label": "pizza",
+   "score": 0.8736,
+   "top1": "pizza"
+  },
+  "change": "both_ok",
+  "gt": "pizza",
+  "gt_family": "prepared_meal",
+  "openverse_id": "b7b26c17-89de-4156-b48f-9928a2a234a0",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_meal",
+   "label": "pizza",
+   "score": 0.9566,
+   "top1": "pizza"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_meal",
+   "label": "pizza",
+   "score": 0.8366,
+   "top1": "pizza"
+  },
+  "change": "both_ok",
+  "gt": "pizza",
+  "gt_family": "prepared_meal",
+  "openverse_id": "7af7a335-fba3-49d4-9052-5597b0b7e878",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_meal",
+   "label": "pizza",
+   "score": 0.9715,
+   "top1": "pizza"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_meal",
+   "label": "pizza",
+   "score": 0.8242,
+   "top1": "pizza"
+  },
+  "change": "both_ok",
+  "gt": "pizza",
+  "gt_family": "prepared_meal",
+  "openverse_id": "64bbadd9-ebca-4e49-b666-00fbf5a65370",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_meal",
+   "label": "pizza",
+   "score": 0.9497,
+   "top1": "pizza"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_meal",
+   "label": "pizza",
+   "score": 0.7707,
+   "top1": "pizza"
+  },
+  "change": "both_ok",
+  "gt": "pizza",
+  "gt_family": "prepared_meal",
+  "openverse_id": "3feb6717-8386-4ead-8e03-b5cc9a5c5a42",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OPEN_SET_FALSE_ACCEPT",
+   "family": "produce",
+   "label": "tomato",
+   "score": 0.8956,
+   "top1": "tomato"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.4207,
+   "top1": "tomato"
+  },
+  "change": "regressed",
+  "gt": "red_bell_pepper",
+  "gt_family": "produce",
+  "openverse_id": "ec26224f-0499-4aad-9f60-0fde6d4e6e5b",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OPEN_SET_FALSE_ACCEPT",
+   "family": "produce",
+   "label": "tomato",
+   "score": 0.8919,
+   "top1": "tomato"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.4347,
+   "top1": "tomato"
+  },
+  "change": "regressed",
+  "gt": "red_bell_pepper",
+  "gt_family": "produce",
+  "openverse_id": "39de9bf2-0ba6-4726-8407-28665c96c12c",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.761,
+   "top1": "salad"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.117,
+   "top1": "tomato"
+  },
+  "change": "both_ok",
+  "gt": "red_bell_pepper",
+  "gt_family": "produce",
+  "openverse_id": "3051e300-26ce-4657-a709-34930915aacc",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OPEN_SET_FALSE_ACCEPT",
+   "family": "produce",
+   "label": "tomato",
+   "score": 0.9018,
+   "top1": "tomato"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.4139,
+   "top1": "tomato"
+  },
+  "change": "regressed",
+  "gt": "red_bell_pepper",
+  "gt_family": "produce",
+  "openverse_id": "05dc7c44-90dc-47d2-803e-beb5817b0be6",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OK",
+   "family": "produce",
+   "label": null,
+   "score": 0.8089,
+   "top1": "tomato"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.312,
+   "top1": "tomato"
+  },
+  "change": "both_ok",
+  "gt": "red_bell_pepper",
+  "gt_family": "produce",
+  "openverse_id": "dd9c9bb5-8b3c-4507-8d30-c71202e57528",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OK",
+   "family": "produce",
+   "label": null,
+   "score": 0.8713,
+   "top1": "tomato"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.3734,
+   "top1": "tomato"
+  },
+  "change": "both_ok",
+  "gt": "red_bell_pepper",
+  "gt_family": "produce",
+  "openverse_id": "c00f1d36-2cc4-4041-b621-15a1218efb86",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OK",
+   "family": "produce",
+   "label": null,
+   "score": 0.7891,
+   "top1": "tomato"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.2481,
+   "top1": "tomato"
+  },
+  "change": "both_ok",
+  "gt": "red_bell_pepper",
+  "gt_family": "produce",
+  "openverse_id": "15f63dcc-f0ca-4ab6-b6d3-6cb87b8739c9",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OK",
+   "family": "produce",
+   "label": null,
+   "score": 0.8479,
+   "top1": "tomato"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.3368,
+   "top1": "tomato"
+  },
+  "change": "both_ok",
+  "gt": "red_bell_pepper",
+  "gt_family": "produce",
+  "openverse_id": "267c47fd-39fa-4f44-9598-dcb706450d66",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OPEN_SET_FALSE_ACCEPT",
+   "family": "produce",
+   "label": "tomato",
+   "score": 0.9116,
+   "top1": "tomato"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.4404,
+   "top1": "tomato"
+  },
+  "change": "regressed",
+  "gt": "red_bell_pepper",
+  "gt_family": "produce",
+  "openverse_id": "6765a2ed-27c2-4448-99d3-2fed54a60a02",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.7518,
+   "top1": "tomato"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OK",
+   "family": null,
+   "label": null,
+   "score": 0.3235,
+   "top1": "garlic"
+  },
+  "change": "both_ok",
+  "gt": "red_bell_pepper",
+  "gt_family": "produce",
+  "openverse_id": "8d18c44e-44b7-4348-b804-876b73a3affa",
+  "role": "open_set_unknown"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.751,
+   "top1": "rice"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "rice",
+   "score": 0.6097,
+   "top1": "rice"
+  },
+  "change": "regressed",
+  "gt": "rice",
+  "gt_family": "rice_grain",
+  "openverse_id": "e25fc34f-99a4-4eac-8b6f-401870bc1199",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "IDENTITY",
+   "family": null,
+   "label": null,
+   "score": 0.7002,
+   "top1": "biryani"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.4587,
+   "top1": "rice"
+  },
+  "change": "both_fail",
+  "gt": "rice",
+  "gt_family": "rice_grain",
+  "openverse_id": "41df5c57-6fc1-49d3-80ea-108028da963a",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "IDENTITY",
+   "family": "rice_grain",
+   "label": null,
+   "score": 0.8007,
+   "top1": "fried_rice"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "IDENTITY",
+   "family": "rice_grain",
+   "label": null,
+   "score": 0.5099,
+   "top1": "fried_rice"
+  },
+  "change": "both_fail",
+  "gt": "rice",
+  "gt_family": "rice_grain",
+  "openverse_id": "f55807eb-3f3c-4316-9234-ec95925e2f86",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.7581,
+   "top1": "rice"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "IDENTITY",
+   "family": null,
+   "label": null,
+   "score": 0.2899,
+   "top1": "fried_rice"
+  },
+  "change": "both_fail",
+  "gt": "rice",
+  "gt_family": "rice_grain",
+  "openverse_id": "4a9e4d6b-3517-4a51-a0ce-21b422be5a0d",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "rice_grain",
+   "label": null,
+   "score": 0.8672,
+   "top1": "rice"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "rice_grain",
+   "label": null,
+   "score": 0.5243,
+   "top1": "rice"
+  },
+  "change": "both_fail",
+  "gt": "rice",
+  "gt_family": "rice_grain",
+  "openverse_id": "7232bb0b-66d1-4c6c-90ca-f3e4ce07782b",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.7579,
+   "top1": "yogurt"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.1885,
+   "top1": "packaged_cheese"
+  },
+  "change": "both_fail",
+  "gt": "rice",
+  "gt_family": "rice_grain",
+  "openverse_id": "82b60f2f-05ae-498b-ae7c-caa4268b867d",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.7196,
+   "top1": "rice"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.3133,
+   "top1": "caesar_salad"
+  },
+  "change": "both_fail",
+  "gt": "rice",
+  "gt_family": "rice_grain",
+  "openverse_id": "96e4a02a-2d0d-4bce-bd6e-9357fa4fc15d",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "rice",
+   "score": 0.9116,
+   "top1": "rice"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "rice",
+   "score": 0.6552,
+   "top1": "rice"
+  },
+  "change": "both_ok",
+  "gt": "rice",
+  "gt_family": "rice_grain",
+  "openverse_id": "4ea570ea-77c9-45a6-8ba6-1db4ca7ab412",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "rice",
+   "score": 0.8837,
+   "top1": "rice"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "rice_grain",
+   "label": "rice",
+   "score": 0.712,
+   "top1": "rice"
+  },
+  "change": "both_ok",
+  "gt": "rice",
+  "gt_family": "rice_grain",
+  "openverse_id": "d8ebf983-5fc8-4efc-891a-e4db52dbddc6",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "FAMILY",
+   "family": "dairy",
+   "label": null,
+   "score": 0.84,
+   "top1": "yogurt"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.3408,
+   "top1": "yogurt"
+  },
+  "change": "both_fail",
+  "gt": "rice",
+  "gt_family": "rice_grain",
+  "openverse_id": "4ef344cb-9a91-4001-ab49-815e2187071a",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.7552,
+   "top1": "rice"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.4139,
+   "top1": "fried_rice"
+  },
+  "change": "both_fail",
+  "gt": "salad",
+  "gt_family": "salad",
+  "openverse_id": "2f65d2a8-d915-4f78-95e7-2236d95cd741",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "IDENTITY",
+   "family": "salad",
+   "label": null,
+   "score": 0.8582,
+   "top1": "caesar_salad"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "IDENTITY",
+   "family": "salad",
+   "label": "caesar_salad",
+   "score": 0.6894,
+   "top1": "caesar_salad"
+  },
+  "change": "both_fail",
+  "gt": "salad",
+  "gt_family": "salad",
+  "openverse_id": "a516f54b-9d2f-442a-9308-471fe2a62d55",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "FOOD_NONFOOD",
+   "family": null,
+   "label": null,
+   "score": 0.749,
+   "top1": "non_food"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.1962,
+   "top1": "salad"
+  },
+  "change": "both_fail",
+  "gt": "salad",
+  "gt_family": "salad",
+  "openverse_id": "c1fb4780-b24c-408d-b60b-b21b7a4f8a79",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "IDENTITY",
+   "family": "salad",
+   "label": null,
+   "score": 0.8493,
+   "top1": "caesar_salad"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "IDENTITY",
+   "family": "salad",
+   "label": null,
+   "score": 0.6325,
+   "top1": "caesar_salad"
+  },
+  "change": "both_fail",
+  "gt": "salad",
+  "gt_family": "salad",
+  "openverse_id": "3ae4f7d5-4076-40ae-bb80-2ddf38fd69d5",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.7613,
+   "top1": "salad"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.4722,
+   "top1": "salad"
+  },
+  "change": "both_fail",
+  "gt": "salad",
+  "gt_family": "salad",
+  "openverse_id": "e791f1d4-9e54-4337-9e02-35cbbe1f2940",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "salad",
+   "label": null,
+   "score": 0.8637,
+   "top1": "salad"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "IDENTITY",
+   "family": "salad",
+   "label": null,
+   "score": 0.5504,
+   "top1": "caesar_salad"
+  },
+  "change": "both_fail",
+  "gt": "salad",
+  "gt_family": "salad",
+  "openverse_id": "ccb5f459-aa7b-4be7-b3d1-f29264024b2c",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "salad",
+   "label": null,
+   "score": 0.8418,
+   "top1": "salad"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "IDENTITY",
+   "family": "salad",
+   "label": null,
+   "score": 0.5739,
+   "top1": "caesar_salad"
+  },
+  "change": "both_fail",
+  "gt": "salad",
+  "gt_family": "salad",
+  "openverse_id": "b7aca3ac-4fb2-4954-a19c-0f50e61cbf64",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "salad",
+   "label": "salad",
+   "score": 0.9066,
+   "top1": "salad"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "salad",
+   "label": "salad",
+   "score": 0.6093,
+   "top1": "salad"
+  },
+  "change": "both_ok",
+  "gt": "salad",
+  "gt_family": "salad",
+  "openverse_id": "74557730-dcc8-46e4-9bb2-6f007179f7c3",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.693,
+   "top1": "salad"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.4412,
+   "top1": "salad"
+  },
+  "change": "both_fail",
+  "gt": "salad",
+  "gt_family": "salad",
+  "openverse_id": "8e62b363-55b6-496f-9825-73a9897fcefa",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "salad",
+   "label": null,
+   "score": 0.8083,
+   "top1": "salad"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "IDENTITY",
+   "family": "salad",
+   "label": null,
+   "score": 0.5749,
+   "top1": "caesar_salad"
+  },
+  "change": "both_fail",
+  "gt": "salad",
+  "gt_family": "salad",
+  "openverse_id": "7c972f8e-2824-4817-abb6-ff333a41d56e",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": "spring_rolls",
+   "score": 0.9837,
+   "top1": "spring_rolls"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": "spring_rolls",
+   "score": 0.7722,
+   "top1": "spring_rolls"
+  },
+  "change": "both_ok",
+  "gt": "spring_rolls",
+  "gt_family": "prepared_side",
+  "openverse_id": "1d75eaff-d6c7-4a52-805c-c6eaee301e28",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": "spring_rolls",
+   "score": 0.9785,
+   "top1": "spring_rolls"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": "spring_rolls",
+   "score": 0.7733,
+   "top1": "spring_rolls"
+  },
+  "change": "both_ok",
+  "gt": "spring_rolls",
+  "gt_family": "prepared_side",
+  "openverse_id": "de1865ca-a260-40ca-a979-aca347a75885",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.7315,
+   "top1": "spring_rolls"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.4935,
+   "top1": "spring_rolls"
+  },
+  "change": "both_fail",
+  "gt": "spring_rolls",
+  "gt_family": "prepared_side",
+  "openverse_id": "6c369f1f-31ac-46eb-93e8-6e7c4d3e7875",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "prepared_side",
+   "label": null,
+   "score": 0.7904,
+   "top1": "spring_rolls"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.3988,
+   "top1": "spring_rolls"
+  },
+  "change": "both_fail",
+  "gt": "spring_rolls",
+  "gt_family": "prepared_side",
+  "openverse_id": "45505a47-8d07-4298-a7c9-5adfb86dea68",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": "spring_rolls",
+   "score": 0.9716,
+   "top1": "spring_rolls"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": "spring_rolls",
+   "score": 0.7356,
+   "top1": "spring_rolls"
+  },
+  "change": "both_ok",
+  "gt": "spring_rolls",
+  "gt_family": "prepared_side",
+  "openverse_id": "b18dff76-f098-45fb-a127-011271306dce",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": "spring_rolls",
+   "score": 0.9677,
+   "top1": "spring_rolls"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": "spring_rolls",
+   "score": 0.6834,
+   "top1": "spring_rolls"
+  },
+  "change": "both_ok",
+  "gt": "spring_rolls",
+  "gt_family": "prepared_side",
+  "openverse_id": "d2a7cdda-ee9e-490a-811e-5d00a57c6657",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": "spring_rolls",
+   "score": 0.8832,
+   "top1": "spring_rolls"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": "spring_rolls",
+   "score": 0.619,
+   "top1": "spring_rolls"
+  },
+  "change": "both_ok",
+  "gt": "spring_rolls",
+  "gt_family": "prepared_side",
+  "openverse_id": "58d3b079-3ab3-448b-917d-80dc900457e0",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.7795,
+   "top1": "spring_rolls"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.4845,
+   "top1": "spring_rolls"
+  },
+  "change": "both_fail",
+  "gt": "spring_rolls",
+  "gt_family": "prepared_side",
+  "openverse_id": "3184ad3b-7164-48e2-96bf-00241c67a3a9",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": "spring_rolls",
+   "score": 0.8923,
+   "top1": "spring_rolls"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "prepared_side",
+   "label": null,
+   "score": 0.57,
+   "top1": "spring_rolls"
+  },
+  "change": "fixed",
+  "gt": "spring_rolls",
+  "gt_family": "prepared_side",
+  "openverse_id": "71583e68-23b5-4042-8cea-1a21195a4234",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": "spring_rolls",
+   "score": 0.972,
+   "top1": "spring_rolls"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "prepared_side",
+   "label": "spring_rolls",
+   "score": 0.6928,
+   "top1": "spring_rolls"
+  },
+  "change": "both_ok",
+  "gt": "spring_rolls",
+  "gt_family": "prepared_side",
+  "openverse_id": "0e9b4ea3-10b1-4404-a2b5-ae885f3165b7",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "tomato",
+   "score": 0.9758,
+   "top1": "tomato"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "tomato",
+   "score": 0.7333,
+   "top1": "tomato"
+  },
+  "change": "both_ok",
+  "gt": "tomato",
+  "gt_family": "produce",
+  "openverse_id": "507c3b29-a865-40d3-a5ed-81b2e6d431c4",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "tomato",
+   "score": 0.9851,
+   "top1": "tomato"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "tomato",
+   "score": 0.8261,
+   "top1": "tomato"
+  },
+  "change": "both_ok",
+  "gt": "tomato",
+  "gt_family": "produce",
+  "openverse_id": "7c46b153-5602-43e8-8b3c-438dcc3b8b22",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "tomato",
+   "score": 0.988,
+   "top1": "tomato"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "tomato",
+   "score": 0.8468,
+   "top1": "tomato"
+  },
+  "change": "both_ok",
+  "gt": "tomato",
+  "gt_family": "produce",
+  "openverse_id": "bfc855eb-1139-49fa-ba63-f4849f69238a",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "tomato",
+   "score": 0.9843,
+   "top1": "tomato"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "tomato",
+   "score": 0.7897,
+   "top1": "tomato"
+  },
+  "change": "both_ok",
+  "gt": "tomato",
+  "gt_family": "produce",
+  "openverse_id": "e8dae2d7-4653-4984-809f-8a2499488d71",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "tomato",
+   "score": 0.9824,
+   "top1": "tomato"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "tomato",
+   "score": 0.7913,
+   "top1": "tomato"
+  },
+  "change": "both_ok",
+  "gt": "tomato",
+  "gt_family": "produce",
+  "openverse_id": "e2483946-b4b9-4c04-af0f-42beaf32ea68",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "tomato",
+   "score": 0.9742,
+   "top1": "tomato"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "tomato",
+   "score": 0.7152,
+   "top1": "tomato"
+  },
+  "change": "both_ok",
+  "gt": "tomato",
+  "gt_family": "produce",
+  "openverse_id": "ec6ab48d-1c85-462f-bab6-c51fc0b5696f",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "tomato",
+   "score": 0.9709,
+   "top1": "tomato"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "tomato",
+   "score": 0.6086,
+   "top1": "tomato"
+  },
+  "change": "both_ok",
+  "gt": "tomato",
+  "gt_family": "produce",
+  "openverse_id": "71ae8f05-2d4f-4305-ad5f-9cf35c2b35c6",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "tomato",
+   "score": 0.9796,
+   "top1": "tomato"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "tomato",
+   "score": 0.7636,
+   "top1": "tomato"
+  },
+  "change": "both_ok",
+  "gt": "tomato",
+  "gt_family": "produce",
+  "openverse_id": "73f8904c-48e8-404f-af55-e488f0918e14",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "tomato",
+   "score": 0.988,
+   "top1": "tomato"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "tomato",
+   "score": 0.842,
+   "top1": "tomato"
+  },
+  "change": "both_ok",
+  "gt": "tomato",
+  "gt_family": "produce",
+  "openverse_id": "be4802e4-faed-4afc-ac49-1d910f2abe8b",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "tomato",
+   "score": 0.9822,
+   "top1": "tomato"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "produce",
+   "label": "tomato",
+   "score": 0.8139,
+   "top1": "tomato"
+  },
+  "change": "both_ok",
+  "gt": "tomato",
+  "gt_family": "produce",
+  "openverse_id": "596a0995-31c6-41c8-8342-065d68a5800e",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "sauce",
+   "label": "tomato_paste",
+   "score": 0.9444,
+   "top1": "tomato_paste"
+  },
+  "baseline": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "sauce",
+   "label": "tomato_paste",
+   "score": 0.6557,
+   "top1": "tomato_paste"
+  },
+  "change": "both_ok",
+  "gt": "tomato_paste",
+  "gt_family": "sauce",
+  "openverse_id": "db9db98e-5aca-4a1c-8eee-bad56fb3dd9d",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "sauce",
+   "label": "tomato_paste",
+   "score": 0.8922,
+   "top1": "tomato_paste"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "sauce",
+   "label": null,
+   "score": 0.5189,
+   "top1": "tomato_paste"
+  },
+  "change": "fixed",
+  "gt": "tomato_paste",
+  "gt_family": "sauce",
+  "openverse_id": "c6133cd6-ce01-41dc-9480-6fa0337f2c58",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "FAMILY",
+   "family": "dairy",
+   "label": null,
+   "score": 0.7832,
+   "top1": "cheese"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.3018,
+   "top1": "cheese"
+  },
+  "change": "both_fail",
+  "gt": "tomato_paste",
+  "gt_family": "sauce",
+  "openverse_id": "d3887ccd-0fb8-442f-937a-e091a378bdf6",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "sauce",
+   "label": null,
+   "score": 0.8684,
+   "top1": "tomato_paste"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FOOD_NONFOOD",
+   "family": null,
+   "label": null,
+   "score": 0.305,
+   "top1": "non_food"
+  },
+  "change": "both_fail",
+  "gt": "tomato_paste",
+  "gt_family": "sauce",
+  "openverse_id": "86a22b9a-a4de-422a-98e1-4ba6ceeb516e",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "sauce",
+   "label": null,
+   "score": 0.8495,
+   "top1": "tomato_paste"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FOOD_NONFOOD",
+   "family": null,
+   "label": null,
+   "score": 0.301,
+   "top1": "non_food"
+  },
+  "change": "both_fail",
+  "gt": "tomato_paste",
+  "gt_family": "sauce",
+  "openverse_id": "b7b48f6c-e601-4cac-8642-67b4ba68e965",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "dairy",
+   "label": null,
+   "score": 0.8944,
+   "top1": "yogurt"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.4878,
+   "top1": "yogurt"
+  },
+  "change": "both_fail",
+  "gt": "yogurt",
+  "gt_family": "dairy",
+  "openverse_id": "6669ab5d-5cf1-4c31-8991-749ca1e03d0f",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "dairy",
+   "label": null,
+   "score": 0.8067,
+   "top1": "yogurt"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.2955,
+   "top1": "yogurt"
+  },
+  "change": "both_fail",
+  "gt": "yogurt",
+  "gt_family": "dairy",
+  "openverse_id": "e7e9e34b-edbc-44b3-a5e0-24b5935cf770",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dairy",
+   "label": "yogurt",
+   "score": 0.8841,
+   "top1": "yogurt"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.3864,
+   "top1": "yogurt"
+  },
+  "change": "fixed",
+  "gt": "yogurt",
+  "gt_family": "dairy",
+  "openverse_id": "21114f34-0c80-4d10-b132-9bb5524c3caf",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dairy",
+   "label": "yogurt",
+   "score": 0.9196,
+   "top1": "yogurt"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "dairy",
+   "label": null,
+   "score": 0.5191,
+   "top1": "yogurt"
+  },
+  "change": "fixed",
+  "gt": "yogurt",
+  "gt_family": "dairy",
+  "openverse_id": "a4d93b51-0ac4-4576-b267-8199a7eb4b73",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dairy",
+   "label": "yogurt",
+   "score": 0.9556,
+   "top1": "yogurt"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "dairy",
+   "label": null,
+   "score": 0.5601,
+   "top1": "yogurt"
+  },
+  "change": "fixed",
+  "gt": "yogurt",
+  "gt_family": "dairy",
+  "openverse_id": "b532b8dd-fb64-42a1-946e-435e4b4facc9",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "dairy",
+   "label": null,
+   "score": 0.7851,
+   "top1": "yogurt"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.3526,
+   "top1": "ice_cream"
+  },
+  "change": "both_fail",
+  "gt": "yogurt",
+  "gt_family": "dairy",
+  "openverse_id": "681ffd90-a51f-45cd-8f51-8a751c4ff2e8",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.7134,
+   "top1": "yogurt"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "FAMILY",
+   "family": null,
+   "label": null,
+   "score": 0.2875,
+   "top1": "ice_cream"
+  },
+  "change": "both_fail",
+  "gt": "yogurt",
+  "gt_family": "dairy",
+  "openverse_id": "d1503a6a-84ae-42a4-877a-540fce3b835a",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "dairy",
+   "label": null,
+   "score": 0.8742,
+   "top1": "yogurt"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.488,
+   "top1": "yogurt"
+  },
+  "change": "both_fail",
+  "gt": "yogurt",
+  "gt_family": "dairy",
+  "openverse_id": "65a67439-0cf2-432c-9a27-38732b555ffd",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "identity",
+   "divergence": "OK",
+   "family": "dairy",
+   "label": "yogurt",
+   "score": 0.95,
+   "top1": "yogurt"
+  },
+  "baseline": {
+   "decision": "unknown",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": null,
+   "label": null,
+   "score": 0.4446,
+   "top1": "yogurt"
+  },
+  "change": "fixed",
+  "gt": "yogurt",
+  "gt_family": "dairy",
+  "openverse_id": "1f979e92-c7eb-4fc1-9b8d-9ba21b60f6b4",
+  "role": "known"
+ },
+ {
+  "adapter_c": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "dairy",
+   "label": null,
+   "score": 0.8738,
+   "top1": "yogurt"
+  },
+  "baseline": {
+   "decision": "family",
+   "divergence": "OPEN_SET_OVER_ABSTAIN",
+   "family": "dairy",
+   "label": null,
+   "score": 0.5897,
+   "top1": "yogurt"
+  },
+  "change": "both_fail",
+  "gt": "yogurt",
+  "gt_family": "dairy",
+  "openverse_id": "5ee9b0ba-795f-49ca-bead-eadfdc1e6f0d",
+  "role": "known"
+ }
+]

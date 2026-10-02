@@ -1,0 +1,2700 @@
+[
+  {
+    "scene_id": "01_tomato_pilot",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "tomato_paste",
+        "bibimbap"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2116,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "tomato_paste",
+        "packaged_cheese"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8357,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "02_multi_raw_composite",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "non_food",
+        "cheese",
+        "tomato_paste",
+        "bibimbap"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2063,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "tomato_paste",
+        "non_food",
+        "packaged_cheese"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.831,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "02_multi_raw_composite",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "garlic",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "bibimbap",
+        "salad"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.195,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "tomato_paste",
+        "packaged_cheese"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.846,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "02_multi_raw_composite",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "ginger",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "non_food",
+        "cheese",
+        "bibimbap",
+        "cream"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2113,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "tomato_paste",
+        "packaged_cheese"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8426,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "02_multi_raw_composite",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "rice",
+    "gt_family": "rice_grain",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "salad",
+        "tomato_paste"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2223,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "salad",
+        "non_food",
+        "yogurt"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8717,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "03_dense_kitchen",
+    "domain": "PHOTO",
+    "gt": "pizza",
+    "gt_family": "prepared_meal",
+    "role": "known",
+    "baseline": {
+      "top1": "pizza",
+      "top5": [
+        "pizza",
+        "lasagna",
+        "omelette",
+        "cream",
+        "spring_rolls"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_meal",
+      "score": 0.5698,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_c": {
+      "top1": "pizza",
+      "top5": [
+        "pizza",
+        "lasagna",
+        "omelette",
+        "pasta",
+        "cheese"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7599,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "03_dense_kitchen",
+    "domain": "PHOTO",
+    "gt": "fried_rice",
+    "gt_family": "rice_grain",
+    "role": "known",
+    "baseline": {
+      "top1": "biryani",
+      "top5": [
+        "biryani",
+        "fried_rice",
+        "pad_thai",
+        "lasagna",
+        "guacamole"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.399,
+      "divergence": "IDENTITY"
+    },
+    "adapter_c": {
+      "top1": "fried_rice",
+      "top5": [
+        "fried_rice",
+        "biryani",
+        "pad_thai",
+        "guacamole",
+        "packaged_cheese"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.6811,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "03_dense_kitchen",
+    "domain": "PHOTO",
+    "gt": "caesar_salad",
+    "gt_family": "salad",
+    "role": "known",
+    "baseline": {
+      "top1": "caesar_salad",
+      "top5": [
+        "caesar_salad",
+        "salad",
+        "club_sandwich",
+        "pad_thai",
+        "guacamole"
+      ],
+      "decision": "identity",
+      "label": "caesar_salad",
+      "family": "salad",
+      "score": 0.6575,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "caesar_salad",
+      "top5": [
+        "caesar_salad",
+        "salad",
+        "club_sandwich",
+        "ice_cream",
+        "cheese"
+      ],
+      "decision": "identity",
+      "label": "caesar_salad",
+      "family": "salad",
+      "score": 0.9444,
+      "divergence": "OK"
+    },
+    "change": "both_ok"
+  },
+  {
+    "scene_id": "03_dense_kitchen",
+    "domain": "PHOTO",
+    "gt": "french_fries",
+    "gt_family": "prepared_side",
+    "role": "known",
+    "baseline": {
+      "top1": "french_fries",
+      "top5": [
+        "french_fries",
+        "club_sandwich",
+        "guacamole",
+        "donuts",
+        "ice_cream"
+      ],
+      "decision": "identity",
+      "label": "french_fries",
+      "family": "prepared_side",
+      "score": 0.7382,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "french_fries",
+      "top5": [
+        "french_fries",
+        "donuts",
+        "packaged_cheese",
+        "club_sandwich",
+        "omelette"
+      ],
+      "decision": "identity",
+      "label": "french_fries",
+      "family": "prepared_side",
+      "score": 0.9659,
+      "divergence": "OK"
+    },
+    "change": "both_ok"
+  },
+  {
+    "scene_id": "03_dense_kitchen",
+    "domain": "PHOTO",
+    "gt": "club_sandwich",
+    "gt_family": "sandwich",
+    "role": "known",
+    "baseline": {
+      "top1": "club_sandwich",
+      "top5": [
+        "club_sandwich",
+        "caesar_salad",
+        "french_fries",
+        "salad",
+        "omelette"
+      ],
+      "decision": "identity",
+      "label": "club_sandwich",
+      "family": "sandwich",
+      "score": 0.8026,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "club_sandwich",
+      "top5": [
+        "club_sandwich",
+        "salad",
+        "packaged_cheese",
+        "french_fries",
+        "non_food"
+      ],
+      "decision": "identity",
+      "label": "club_sandwich",
+      "family": "sandwich",
+      "score": 0.9835,
+      "divergence": "OK"
+    },
+    "change": "both_ok"
+  },
+  {
+    "scene_id": "03_dense_kitchen",
+    "domain": "PHOTO",
+    "gt": "omelette",
+    "gt_family": "prepared_egg",
+    "role": "known",
+    "baseline": {
+      "top1": "omelette",
+      "top5": [
+        "omelette",
+        "lasagna",
+        "spring_rolls",
+        "guacamole",
+        "pizza"
+      ],
+      "decision": "identity",
+      "label": "omelette",
+      "family": "prepared_egg",
+      "score": 0.6236,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "omelette",
+      "top5": [
+        "omelette",
+        "hummus",
+        "cream",
+        "guacamole",
+        "pasta"
+      ],
+      "decision": "identity",
+      "label": "omelette",
+      "family": "prepared_egg",
+      "score": 0.9346,
+      "divergence": "OK"
+    },
+    "change": "both_ok"
+  },
+  {
+    "scene_id": "04_ingredient_packaged",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "non_food",
+        "cheese",
+        "tomato_paste",
+        "bibimbap"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2161,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "non_food",
+        "cheese",
+        "tomato_paste",
+        "packaged_cheese"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8443,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "04_ingredient_packaged",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "packaged_cheese",
+    "gt_family": "packaged_dairy",
+    "role": "known",
+    "baseline": {
+      "top1": "cheese",
+      "top5": [
+        "cheese",
+        "donuts",
+        "non_food",
+        "spring_rolls",
+        "caesar_salad"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.1348,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "non_food",
+        "cheese",
+        "salad",
+        "tomato_paste"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7668,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "05_ingredient_prepared",
+    "domain": "PHOTO",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "tomato_paste",
+        "salad"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2087,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "tomato_paste",
+        "non_food",
+        "packaged_cheese"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8195,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "05_ingredient_prepared",
+    "domain": "PHOTO",
+    "gt": "pizza",
+    "gt_family": "prepared_meal",
+    "role": "known",
+    "baseline": {
+      "top1": "pizza",
+      "top5": [
+        "pizza",
+        "lasagna",
+        "omelette",
+        "cream",
+        "spring_rolls"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_meal",
+      "score": 0.5553,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_c": {
+      "top1": "pizza",
+      "top5": [
+        "pizza",
+        "lasagna",
+        "omelette",
+        "pasta",
+        "cheese"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7426,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "06_multi_prepared",
+    "domain": "PHOTO",
+    "gt": "pizza",
+    "gt_family": "prepared_meal",
+    "role": "known",
+    "baseline": {
+      "top1": "pizza",
+      "top5": [
+        "pizza",
+        "lasagna",
+        "omelette",
+        "cream",
+        "spring_rolls"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_meal",
+      "score": 0.5553,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_c": {
+      "top1": "pizza",
+      "top5": [
+        "pizza",
+        "lasagna",
+        "omelette",
+        "pasta",
+        "cheese"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7426,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "06_multi_prepared",
+    "domain": "PHOTO",
+    "gt": "fried_rice",
+    "gt_family": "rice_grain",
+    "role": "known",
+    "baseline": {
+      "top1": "biryani",
+      "top5": [
+        "biryani",
+        "fried_rice",
+        "pad_thai",
+        "lasagna",
+        "guacamole"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.395,
+      "divergence": "IDENTITY"
+    },
+    "adapter_c": {
+      "top1": "fried_rice",
+      "top5": [
+        "fried_rice",
+        "biryani",
+        "pad_thai",
+        "guacamole",
+        "packaged_cheese"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.6664,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "06_multi_prepared",
+    "domain": "PHOTO",
+    "gt": "club_sandwich",
+    "gt_family": "sandwich",
+    "role": "known",
+    "baseline": {
+      "top1": "club_sandwich",
+      "top5": [
+        "club_sandwich",
+        "caesar_salad",
+        "french_fries",
+        "salad",
+        "omelette"
+      ],
+      "decision": "identity",
+      "label": "club_sandwich",
+      "family": "sandwich",
+      "score": 0.8055,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "club_sandwich",
+      "top5": [
+        "club_sandwich",
+        "salad",
+        "french_fries",
+        "packaged_cheese",
+        "cheese"
+      ],
+      "decision": "identity",
+      "label": "club_sandwich",
+      "family": "sandwich",
+      "score": 0.9839,
+      "divergence": "OK"
+    },
+    "change": "both_ok"
+  },
+  {
+    "scene_id": "07_packaged",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "packaged_cheese",
+    "gt_family": "packaged_dairy",
+    "role": "known",
+    "baseline": {
+      "top1": "cheese",
+      "top5": [
+        "cheese",
+        "donuts",
+        "non_food",
+        "caesar_salad",
+        "spring_rolls"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.1475,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "non_food",
+        "cheese",
+        "salad",
+        "tomato_paste"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7795,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "08_fruit_proxy",
+    "domain": "PHOTO",
+    "gt": "guacamole",
+    "gt_family": "dip",
+    "role": "known",
+    "baseline": {
+      "top1": "guacamole",
+      "top5": [
+        "guacamole",
+        "hummus",
+        "biryani",
+        "caesar_salad",
+        "pad_thai"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.4798,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_c": {
+      "top1": "guacamole",
+      "top5": [
+        "guacamole",
+        "hummus",
+        "biryani",
+        "ginger",
+        "rice"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "dip",
+      "score": 0.8589,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "08_fruit_proxy",
+    "domain": "PHOTO",
+    "gt": "hummus",
+    "gt_family": "dip",
+    "role": "known",
+    "baseline": {
+      "top1": "hummus",
+      "top5": [
+        "hummus",
+        "guacamole",
+        "club_sandwich",
+        "spring_rolls",
+        "omelette"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.471,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_c": {
+      "top1": "hummus",
+      "top5": [
+        "hummus",
+        "guacamole",
+        "salad",
+        "non_food",
+        "cheese"
+      ],
+      "decision": "identity",
+      "label": "hummus",
+      "family": "dip",
+      "score": 0.9225,
+      "divergence": "OK"
+    },
+    "change": "fixed"
+  },
+  {
+    "scene_id": "09_snack_rte",
+    "domain": "PHOTO",
+    "gt": "donuts",
+    "gt_family": "prepared_sweet",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "french_fries",
+        "ice_cream",
+        "yogurt",
+        "club_sandwich"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.4474,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "french_fries",
+        "ice_cream",
+        "cream",
+        "yogurt"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8424,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "09_snack_rte",
+    "domain": "PHOTO",
+    "gt": "ice_cream",
+    "gt_family": "prepared_sweet",
+    "role": "known",
+    "baseline": {
+      "top1": "ice_cream",
+      "top5": [
+        "ice_cream",
+        "yogurt",
+        "cream",
+        "guacamole",
+        "hummus"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.5207,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_c": {
+      "top1": "ice_cream",
+      "top5": [
+        "ice_cream",
+        "yogurt",
+        "cream",
+        "guacamole",
+        "hummus"
+      ],
+      "decision": "identity",
+      "label": "ice_cream",
+      "family": "prepared_sweet",
+      "score": 0.8876,
+      "divergence": "OK"
+    },
+    "change": "fixed"
+  },
+  {
+    "scene_id": "10_raw_vs_partial",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "tomato_paste",
+        "salad"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2087,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "tomato_paste",
+        "non_food",
+        "packaged_cheese"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8195,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "10_raw_vs_partial",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato_paste",
+    "gt_family": "sauce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "tomato_paste",
+        "french_fries"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.1426,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "non_food",
+      "top5": [
+        "non_food",
+        "donuts",
+        "cheese",
+        "tomato_paste",
+        "packaged_cheese"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "non_food",
+      "score": 0.7837,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "11_state_triad",
+    "domain": "PHOTO",
+    "gt": "lasagna",
+    "gt_family": "grain_starch",
+    "role": "known",
+    "baseline": {
+      "top1": "lasagna",
+      "top5": [
+        "lasagna",
+        "biryani",
+        "omelette",
+        "pasta",
+        "spring_rolls"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "grain_starch",
+      "score": 0.5638,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_c": {
+      "top1": "lasagna",
+      "top5": [
+        "lasagna",
+        "spring_rolls",
+        "pasta",
+        "packaged_cheese",
+        "omelette"
+      ],
+      "decision": "identity",
+      "label": "lasagna",
+      "family": "grain_starch",
+      "score": 0.9413,
+      "divergence": "OK"
+    },
+    "change": "fixed"
+  },
+  {
+    "scene_id": "11_state_triad",
+    "domain": "PHOTO",
+    "gt": "omelette",
+    "gt_family": "prepared_egg",
+    "role": "known",
+    "baseline": {
+      "top1": "omelette",
+      "top5": [
+        "omelette",
+        "lasagna",
+        "spring_rolls",
+        "guacamole",
+        "hummus"
+      ],
+      "decision": "identity",
+      "label": "omelette",
+      "family": "prepared_egg",
+      "score": 0.6255,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "omelette",
+      "top5": [
+        "omelette",
+        "hummus",
+        "cream",
+        "guacamole",
+        "pasta"
+      ],
+      "decision": "identity",
+      "label": "omelette",
+      "family": "prepared_egg",
+      "score": 0.9345,
+      "divergence": "OK"
+    },
+    "change": "both_ok"
+  },
+  {
+    "scene_id": "11_state_triad",
+    "domain": "PHOTO",
+    "gt": "pad_thai",
+    "gt_family": "noodle",
+    "role": "known",
+    "baseline": {
+      "top1": "pad_thai",
+      "top5": [
+        "pad_thai",
+        "bibimbap",
+        "pasta",
+        "fried_rice",
+        "biryani"
+      ],
+      "decision": "identity",
+      "label": "pad_thai",
+      "family": "noodle",
+      "score": 0.7862,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "pad_thai",
+      "top5": [
+        "pad_thai",
+        "pasta",
+        "french_fries",
+        "biryani",
+        "packaged_cheese"
+      ],
+      "decision": "identity",
+      "label": "pad_thai",
+      "family": "noodle",
+      "score": 0.97,
+      "divergence": "OK"
+    },
+    "change": "both_ok"
+  },
+  {
+    "scene_id": "12_recipe_document",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "recipe_document",
+    "gt_family": "document",
+    "role": "open_set_unknown",
+    "baseline": {
+      "top1": "non_food",
+      "top5": [
+        "non_food",
+        "spring_rolls",
+        "french_fries",
+        "cheese",
+        "club_sandwich"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.0977,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "cheese",
+      "top5": [
+        "cheese",
+        "non_food",
+        "cream",
+        "donuts",
+        "packaged_cheese"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7344,
+      "divergence": "OK"
+    },
+    "change": "both_ok"
+  },
+  {
+    "scene_id": "12_nutrition_label",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "recipe_document",
+    "gt_family": "document",
+    "role": "open_set_unknown",
+    "baseline": {
+      "top1": "non_food",
+      "top5": [
+        "non_food",
+        "cheese",
+        "donuts",
+        "ginger",
+        "spring_rolls"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.0987,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "cheese",
+      "top5": [
+        "cheese",
+        "non_food",
+        "donuts",
+        "packaged_cheese",
+        "tomato_paste"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7528,
+      "divergence": "OK"
+    },
+    "change": "both_ok"
+  },
+  {
+    "scene_id": "13_empty_plate",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "non_food",
+    "gt_family": "non_food",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "salad",
+        "caesar_salad"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2256,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "yogurt",
+        "salad"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8366,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "13_human_hand",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "non_food",
+    "gt_family": "non_food",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "salad",
+        "caesar_salad"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.1994,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "non_food",
+        "cheese",
+        "salad",
+        "cream"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8389,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "13_pantry_empty",
+    "domain": "PHOTO",
+    "gt": "non_food",
+    "gt_family": "non_food",
+    "role": "known",
+    "baseline": {
+      "top1": "tomato",
+      "top5": [
+        "tomato",
+        "salad",
+        "cheese",
+        "caesar_salad",
+        "garlic"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.4635,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_c": {
+      "top1": "tomato",
+      "top5": [
+        "tomato",
+        "salad",
+        "tomato_paste",
+        "non_food",
+        "cheese"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "produce",
+      "score": 0.8697,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "13_kitchen_mood",
+    "domain": "PHOTO",
+    "gt": "non_food",
+    "gt_family": "non_food",
+    "role": "known",
+    "baseline": {
+      "top1": "garlic",
+      "top5": [
+        "garlic",
+        "tomato",
+        "non_food",
+        "salad",
+        "cheese"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.3276,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_c": {
+      "top1": "tomato_paste",
+      "top5": [
+        "tomato_paste",
+        "tomato",
+        "non_food",
+        "packaged_cheese",
+        "garlic"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "sauce",
+      "score": 0.8166,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "14_occlusion",
+    "domain": "PHOTO",
+    "gt": "salad",
+    "gt_family": "salad",
+    "role": "known",
+    "baseline": {
+      "top1": "caesar_salad",
+      "top5": [
+        "caesar_salad",
+        "salad",
+        "club_sandwich",
+        "guacamole",
+        "pasta"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.6237,
+      "divergence": "IDENTITY"
+    },
+    "adapter_c": {
+      "top1": "salad",
+      "top5": [
+        "salad",
+        "caesar_salad",
+        "club_sandwich",
+        "hummus",
+        "pasta"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.8662,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "15_overlap",
+    "domain": "PHOTO",
+    "gt": "salad",
+    "gt_family": "salad",
+    "role": "known",
+    "baseline": {
+      "top1": "caesar_salad",
+      "top5": [
+        "caesar_salad",
+        "salad",
+        "club_sandwich",
+        "guacamole",
+        "pasta"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.6237,
+      "divergence": "IDENTITY"
+    },
+    "adapter_c": {
+      "top1": "salad",
+      "top5": [
+        "salad",
+        "caesar_salad",
+        "club_sandwich",
+        "hummus",
+        "pasta"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.8662,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "16_small_objects",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "salad",
+    "gt_family": "salad",
+    "role": "known",
+    "baseline": {
+      "top1": "non_food",
+      "top5": [
+        "non_food",
+        "pasta",
+        "lasagna",
+        "donuts",
+        "cheese"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.0895,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_c": {
+      "top1": "non_food",
+      "top5": [
+        "non_food",
+        "tomato_paste",
+        "cheese",
+        "packaged_cheese",
+        "donuts"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7449,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "17_partial_visibility",
+    "domain": "PHOTO",
+    "gt": "salad",
+    "gt_family": "salad",
+    "role": "known",
+    "baseline": {
+      "top1": "caesar_salad",
+      "top5": [
+        "caesar_salad",
+        "salad",
+        "club_sandwich",
+        "guacamole",
+        "pasta"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.6237,
+      "divergence": "IDENTITY"
+    },
+    "adapter_c": {
+      "top1": "salad",
+      "top5": [
+        "salad",
+        "caesar_salad",
+        "club_sandwich",
+        "hummus",
+        "pasta"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.8662,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "18_low_light",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "salad",
+    "gt_family": "salad",
+    "role": "known",
+    "baseline": {
+      "top1": "caesar_salad",
+      "top5": [
+        "caesar_salad",
+        "salad",
+        "guacamole",
+        "club_sandwich",
+        "fried_rice"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.6384,
+      "divergence": "IDENTITY"
+    },
+    "adapter_c": {
+      "top1": "salad",
+      "top5": [
+        "salad",
+        "caesar_salad",
+        "club_sandwich",
+        "hummus",
+        "guacamole"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.8579,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "19_motion_blur",
+    "domain": "PHOTO",
+    "gt": "salad",
+    "gt_family": "salad",
+    "role": "known",
+    "baseline": {
+      "top1": "caesar_salad",
+      "top5": [
+        "caesar_salad",
+        "salad",
+        "guacamole",
+        "club_sandwich",
+        "fried_rice"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.6511,
+      "divergence": "IDENTITY"
+    },
+    "adapter_c": {
+      "top1": "salad",
+      "top5": [
+        "salad",
+        "caesar_salad",
+        "club_sandwich",
+        "hummus",
+        "guacamole"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.8641,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "20_perspective_distortion",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "salad",
+    "gt_family": "salad",
+    "role": "known",
+    "baseline": {
+      "top1": "non_food",
+      "top5": [
+        "non_food",
+        "donuts",
+        "cheese",
+        "salad",
+        "club_sandwich"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.1329,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_c": {
+      "top1": "non_food",
+      "top5": [
+        "non_food",
+        "donuts",
+        "packaged_cheese",
+        "salad",
+        "cream"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "non_food",
+      "score": 0.82,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "21_duplicate_tomatoes",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "tomato_paste",
+        "salad"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2087,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "tomato_paste",
+        "non_food",
+        "packaged_cheese"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8195,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "21_duplicate_tomatoes",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "tomato_paste",
+        "salad"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2087,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "tomato_paste",
+        "non_food",
+        "packaged_cheese"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8195,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "21_duplicate_tomatoes",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "tomato_paste",
+        "salad"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2087,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "tomato_paste",
+        "non_food",
+        "packaged_cheese"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8195,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "21_duplicate_tomatoes",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "tomato_paste",
+        "salad"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2087,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "tomato_paste",
+        "non_food",
+        "packaged_cheese"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8195,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "22_qty_one",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "non_food",
+        "cheese",
+        "bibimbap",
+        "tomato_paste"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2045,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "tomato_paste",
+        "non_food",
+        "packaged_cheese"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8264,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "22_qty_four",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "tomato_paste",
+        "salad"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2087,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "tomato_paste",
+        "non_food",
+        "packaged_cheese"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8195,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "22_qty_four",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "tomato_paste",
+        "salad"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2087,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "tomato_paste",
+        "non_food",
+        "packaged_cheese"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8195,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "22_qty_four",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "tomato_paste",
+        "salad"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2087,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "tomato_paste",
+        "non_food",
+        "packaged_cheese"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8195,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "22_qty_four",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "tomato_paste",
+        "salad"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2087,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "tomato_paste",
+        "non_food",
+        "packaged_cheese"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8195,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "23_tomato_vs_tomato_paste",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato",
+    "gt_family": "produce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "salad",
+        "bibimbap"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.1945,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "tomato_paste",
+        "packaged_cheese"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8254,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "23_tomato_vs_tomato_paste",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "tomato_paste",
+    "gt_family": "sauce",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "salad",
+        "caesar_salad"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.1765,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "tomato_paste",
+        "salad"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8037,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "23_yogurt_vs_cream",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "yogurt",
+    "gt_family": "dairy",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "salad",
+        "bibimbap"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2153,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "tomato_paste",
+        "salad"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8424,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "23_yogurt_vs_cream",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "cream",
+    "gt_family": "dairy",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "salad",
+        "bibimbap"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.206,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "tomato_paste",
+        "cream"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8366,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "23_cheese_vs_packaged_cheese",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "cheese",
+    "gt_family": "dairy",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "bibimbap",
+        "salad"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.1978,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "tomato_paste",
+        "packaged_cheese"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8232,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "23_cheese_vs_packaged_cheese",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "packaged_cheese",
+    "gt_family": "packaged_dairy",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "caesar_salad",
+        "salad"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.1557,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "tomato_paste",
+        "packaged_cheese"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.799,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "23_rice_vs_biryani",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "rice",
+    "gt_family": "rice_grain",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "salad",
+        "caesar_salad"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2067,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "salad",
+        "tomato_paste"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8705,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "23_rice_vs_biryani",
+    "domain": "SYNTHETIC_DRAWING",
+    "gt": "biryani",
+    "gt_family": "rice_grain",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "salad",
+        "club_sandwich"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2,
+      "divergence": "FAMILY"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "tomato_paste",
+        "non_food",
+        "salad"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.8637,
+      "divergence": "FAMILY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "23_fried_rice_not_raw",
+    "domain": "PHOTO",
+    "gt": "fried_rice",
+    "gt_family": "rice_grain",
+    "role": "known",
+    "baseline": {
+      "top1": "fried_rice",
+      "top5": [
+        "fried_rice",
+        "biryani",
+        "pad_thai",
+        "lasagna",
+        "guacamole"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.4095,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_c": {
+      "top1": "fried_rice",
+      "top5": [
+        "fried_rice",
+        "biryani",
+        "pad_thai",
+        "packaged_cheese",
+        "guacamole"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.6913,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "24_food_nonfood",
+    "domain": "PHOTO",
+    "gt": "pizza",
+    "gt_family": "prepared_meal",
+    "role": "known",
+    "baseline": {
+      "top1": "pizza",
+      "top5": [
+        "pizza",
+        "lasagna",
+        "omelette",
+        "cream",
+        "spring_rolls"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_meal",
+      "score": 0.5553,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_c": {
+      "top1": "pizza",
+      "top5": [
+        "pizza",
+        "lasagna",
+        "omelette",
+        "pasta",
+        "cheese"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.7426,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "24_food_nonfood",
+    "domain": "PHOTO",
+    "gt": "non_food",
+    "gt_family": "non_food",
+    "role": "known",
+    "baseline": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "salad",
+        "caesar_salad"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.2052,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "adapter_c": {
+      "top1": "donuts",
+      "top5": [
+        "donuts",
+        "cheese",
+        "non_food",
+        "salad",
+        "tomato_paste"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_sweet",
+      "score": 0.85,
+      "divergence": "FOOD_NONFOOD"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "25_salad_bowl",
+    "domain": "PHOTO",
+    "gt": "salad",
+    "gt_family": "salad",
+    "role": "known",
+    "baseline": {
+      "top1": "caesar_salad",
+      "top5": [
+        "caesar_salad",
+        "salad",
+        "guacamole",
+        "club_sandwich",
+        "fried_rice"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.6258,
+      "divergence": "IDENTITY"
+    },
+    "adapter_c": {
+      "top1": "salad",
+      "top5": [
+        "salad",
+        "caesar_salad",
+        "hummus",
+        "club_sandwich",
+        "guacamole"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.8624,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "25_tomato_pasta",
+    "domain": "PHOTO",
+    "gt": "pasta",
+    "gt_family": "grain_starch",
+    "role": "known",
+    "baseline": {
+      "top1": "pasta",
+      "top5": [
+        "pasta",
+        "pad_thai",
+        "lasagna",
+        "guacamole",
+        "salad"
+      ],
+      "decision": "identity",
+      "label": "pasta",
+      "family": "grain_starch",
+      "score": 0.6498,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "pasta",
+      "top5": [
+        "pasta",
+        "tomato",
+        "tomato_paste",
+        "packaged_cheese",
+        "salad"
+      ],
+      "decision": "identity",
+      "label": "pasta",
+      "family": "grain_starch",
+      "score": 0.9091,
+      "divergence": "OK"
+    },
+    "change": "both_ok"
+  },
+  {
+    "scene_id": "25_complex_mixed",
+    "domain": "PHOTO",
+    "gt": "salad",
+    "gt_family": "salad",
+    "role": "known",
+    "baseline": {
+      "top1": "caesar_salad",
+      "top5": [
+        "caesar_salad",
+        "salad",
+        "guacamole",
+        "club_sandwich",
+        "hummus"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.5691,
+      "divergence": "IDENTITY"
+    },
+    "adapter_c": {
+      "top1": "salad",
+      "top5": [
+        "salad",
+        "caesar_salad",
+        "cheese",
+        "hummus",
+        "tomato"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "salad",
+      "score": 0.8438,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "25_complex_mixed",
+    "domain": "PHOTO",
+    "gt": "pasta",
+    "gt_family": "grain_starch",
+    "role": "known",
+    "baseline": {
+      "top1": "pasta",
+      "top5": [
+        "pasta",
+        "pad_thai",
+        "lasagna",
+        "tomato_paste",
+        "bibimbap"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "grain_starch",
+      "score": 0.5608,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_c": {
+      "top1": "pasta",
+      "top5": [
+        "pasta",
+        "tomato",
+        "tomato_paste",
+        "packaged_cheese",
+        "non_food"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "grain_starch",
+      "score": 0.8724,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "25_complex_mixed",
+    "domain": "PHOTO",
+    "gt": "spring_rolls",
+    "gt_family": "prepared_side",
+    "role": "known",
+    "baseline": {
+      "top1": "spring_rolls",
+      "top5": [
+        "spring_rolls",
+        "caesar_salad",
+        "rice",
+        "lasagna",
+        "pad_thai"
+      ],
+      "decision": "identity",
+      "label": "spring_rolls",
+      "family": "prepared_side",
+      "score": 0.8136,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "spring_rolls",
+      "top5": [
+        "spring_rolls",
+        "non_food",
+        "lasagna",
+        "donuts",
+        "packaged_cheese"
+      ],
+      "decision": "identity",
+      "label": "spring_rolls",
+      "family": "prepared_side",
+      "score": 0.9853,
+      "divergence": "OK"
+    },
+    "change": "both_ok"
+  },
+  {
+    "scene_id": "prepared_pizza",
+    "domain": "PHOTO",
+    "gt": "pizza",
+    "gt_family": "prepared_meal",
+    "role": "known",
+    "baseline": {
+      "top1": "pizza",
+      "top5": [
+        "pizza",
+        "lasagna",
+        "omelette",
+        "cream",
+        "spring_rolls"
+      ],
+      "decision": "identity",
+      "label": "pizza",
+      "family": "prepared_meal",
+      "score": 0.6253,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "pizza",
+      "top5": [
+        "pizza",
+        "lasagna",
+        "omelette",
+        "pasta",
+        "cheese"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "prepared_meal",
+      "score": 0.8411,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": "regressed"
+  },
+  {
+    "scene_id": "prepared_fried_rice",
+    "domain": "PHOTO",
+    "gt": "fried_rice",
+    "gt_family": "rice_grain",
+    "role": "known",
+    "baseline": {
+      "top1": "fried_rice",
+      "top5": [
+        "fried_rice",
+        "biryani",
+        "pad_thai",
+        "lasagna",
+        "guacamole"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.4095,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "adapter_c": {
+      "top1": "fried_rice",
+      "top5": [
+        "fried_rice",
+        "biryani",
+        "pad_thai",
+        "packaged_cheese",
+        "guacamole"
+      ],
+      "decision": "unknown",
+      "label": null,
+      "family": null,
+      "score": 0.6913,
+      "divergence": "OPEN_SET_OVER_ABSTAIN"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "prepared_bibimbap",
+    "domain": "PHOTO",
+    "gt": "bibimbap",
+    "gt_family": "rice_grain",
+    "role": "known",
+    "baseline": {
+      "top1": "fried_rice",
+      "top5": [
+        "fried_rice",
+        "biryani",
+        "pad_thai",
+        "bibimbap",
+        "rice"
+      ],
+      "decision": "identity",
+      "label": "fried_rice",
+      "family": "rice_grain",
+      "score": 0.6842,
+      "divergence": "IDENTITY"
+    },
+    "adapter_c": {
+      "top1": "fried_rice",
+      "top5": [
+        "fried_rice",
+        "biryani",
+        "bibimbap",
+        "rice",
+        "pad_thai"
+      ],
+      "decision": "family",
+      "label": null,
+      "family": "rice_grain",
+      "score": 0.8546,
+      "divergence": "IDENTITY"
+    },
+    "change": "both_fail"
+  },
+  {
+    "scene_id": "prepared_lasagna",
+    "domain": "PHOTO",
+    "gt": "lasagna",
+    "gt_family": "grain_starch",
+    "role": "known",
+    "baseline": {
+      "top1": "lasagna",
+      "top5": [
+        "lasagna",
+        "omelette",
+        "biryani",
+        "bibimbap",
+        "pasta"
+      ],
+      "decision": "identity",
+      "label": "lasagna",
+      "family": "grain_starch",
+      "score": 0.6024,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "lasagna",
+      "top5": [
+        "lasagna",
+        "packaged_cheese",
+        "pasta",
+        "spring_rolls",
+        "omelette"
+      ],
+      "decision": "identity",
+      "label": "lasagna",
+      "family": "grain_starch",
+      "score": 0.9473,
+      "divergence": "OK"
+    },
+    "change": "both_ok"
+  },
+  {
+    "scene_id": "prepared_club_sandwich",
+    "domain": "PHOTO",
+    "gt": "club_sandwich",
+    "gt_family": "sandwich",
+    "role": "known",
+    "baseline": {
+      "top1": "club_sandwich",
+      "top5": [
+        "club_sandwich",
+        "caesar_salad",
+        "french_fries",
+        "salad",
+        "omelette"
+      ],
+      "decision": "identity",
+      "label": "club_sandwich",
+      "family": "sandwich",
+      "score": 0.8036,
+      "divergence": "OK"
+    },
+    "adapter_c": {
+      "top1": "club_sandwich",
+      "top5": [
+        "club_sandwich",
+        "salad",
+        "french_fries",
+        "packaged_cheese",
+        "caesar_salad"
+      ],
+      "decision": "identity",
+      "label": "club_sandwich",
+      "family": "sandwich",
+      "score": 0.9842,
+      "divergence": "OK"
+    },
+    "change": "both_ok"
+  }
+]
