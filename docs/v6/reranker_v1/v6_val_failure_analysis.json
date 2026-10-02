@@ -1,0 +1,4467 @@
+{
+ "selected": {
+  "feature_set": "E_evidence",
+  "weight_decay": 0.0001,
+  "val": {
+   "known_identity_top1_raw": 0.8319,
+   "known_identity_top5_raw": 0.9483,
+   "known_family_top1_raw": 0.8922,
+   "known_state_top1_raw": 0.9267,
+   "known_accepted_correct": 0.5905,
+   "known_coverage_identity": 0.6121,
+   "objective": 1.641,
+   "known_score": 0.7306,
+   "unknown_rejection": 0.96,
+   "false_confirmation": 0.0248,
+   "unknown_rate_all": 0.0745,
+   "abstention_rate_known": 0.3879,
+   "family_backoff_rate_known": 0.3362
+  },
+  "raw_top1_gain_vs_E": 0.0129,
+  "gain_in_queries": 3,
+  "passes_safety": true
+ },
+ "reranked": {
+  "aggregate": {
+   "wrong->wrong": 26,
+   "same_family_identity_confusion": 14,
+   "state_confusion": 17,
+   "same_state": 22,
+   "correct->wrong": 1,
+   "wrong->correct": 4,
+   "correct_absent_from_top5": 12,
+   "absent_from_top5": 12,
+   "family_confusion": 25
+  },
+  "top_confusions_adapter_e": [
+   [
+    "packaged_cheese -> cheese",
+    3
+   ],
+   [
+    "biryani -> fried_rice",
+    2
+   ],
+   [
+    "biryani -> tomato_paste",
+    2
+   ],
+   [
+    "cream -> ice_cream",
+    2
+   ],
+   [
+    "guacamole -> hummus",
+    2
+   ],
+   [
+    "ice_cream -> cream",
+    2
+   ],
+   [
+    "pad_thai -> omelette",
+    2
+   ],
+   [
+    "salad -> caesar_salad",
+    2
+   ],
+   [
+    "bibimbap -> rice",
+    1
+   ],
+   [
+    "biryani -> omelette",
+    1
+   ],
+   [
+    "cheese -> omelette",
+    1
+   ],
+   [
+    "cheese -> salad",
+    1
+   ],
+   [
+    "donuts -> biryani",
+    1
+   ],
+   [
+    "french_fries -> donuts",
+    1
+   ],
+   [
+    "fried_rice -> bibimbap",
+    1
+   ],
+   [
+    "fried_rice -> biryani",
+    1
+   ],
+   [
+    "fried_rice -> rice",
+    1
+   ],
+   [
+    "fried_rice -> pad_thai",
+    1
+   ],
+   [
+    "garlic -> tomato_paste",
+    1
+   ],
+   [
+    "garlic -> yogurt",
+    1
+   ]
+  ],
+  "top_confusions_reranked": [
+   [
+    "biryani -> fried_rice",
+    3
+   ],
+   [
+    "packaged_cheese -> cheese",
+    3
+   ],
+   [
+    "salad -> caesar_salad",
+    3
+   ],
+   [
+    "fried_rice -> biryani",
+    2
+   ],
+   [
+    "guacamole -> hummus",
+    2
+   ],
+   [
+    "ice_cream -> cream",
+    2
+   ],
+   [
+    "pad_thai -> omelette",
+    2
+   ],
+   [
+    "bibimbap -> rice",
+    1
+   ],
+   [
+    "biryani -> tomato_paste",
+    1
+   ],
+   [
+    "biryani -> omelette",
+    1
+   ],
+   [
+    "cheese -> omelette",
+    1
+   ],
+   [
+    "cheese -> salad",
+    1
+   ],
+   [
+    "cream -> ice_cream",
+    1
+   ],
+   [
+    "donuts -> biryani",
+    1
+   ],
+   [
+    "french_fries -> donuts",
+    1
+   ],
+   [
+    "fried_rice -> bibimbap",
+    1
+   ],
+   [
+    "fried_rice -> pad_thai",
+    1
+   ],
+   [
+    "garlic -> tomato_paste",
+    1
+   ],
+   [
+    "garlic -> yogurt",
+    1
+   ],
+   [
+    "ginger -> packaged_cheese",
+    1
+   ]
+  ],
+  "records": [
+   {
+    "query_id": "ce6b6031-ff75-4e35-b312-1396e4d5e6c2",
+    "ground_truth": "bibimbap",
+    "gt_family": "rice_grain",
+    "gt_state": "plated",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "rice",
+     "bibimbap",
+     "fried_rice",
+     "biryani",
+     "pad_thai"
+    ],
+    "reranked_top5": [
+     "rice",
+     "bibimbap",
+     "biryani",
+     "pad_thai",
+     "fried_rice"
+    ],
+    "correct_original_rank": 2,
+    "correct_new_rank": 2,
+    "candidate_probabilities": {
+     "rice": 0.969,
+     "bibimbap": 0.005,
+     "fried_rice": 0.001,
+     "biryani": 0.0014,
+     "pad_thai": 0.0013
+    },
+    "reference_statistics": {
+     "rice": {
+      "score": 0.9208,
+      "proto_cos": 0.9294,
+      "ref_top1": 0.9168,
+      "ref_top3_mean": 0.9122,
+      "ref_top3_std": 0.0041,
+      "ref_mean": 0.887,
+      "ref_median": 0.8842,
+      "ref_std": 0.0182,
+      "support_count": 10.0,
+      "family_score": 0.9208,
+      "dino_rank": 2.0
+     },
+     "bibimbap": {
+      "score": 0.8638,
+      "proto_cos": 0.8524,
+      "ref_top1": 0.8824,
+      "ref_top3_mean": 0.8752,
+      "ref_top3_std": 0.0079,
+      "ref_mean": 0.8159,
+      "ref_median": 0.8189,
+      "ref_std": 0.0425,
+      "support_count": 0.0,
+      "family_score": 0.9208,
+      "dino_rank": 1.0
+     },
+     "fried_rice": {
+      "score": 0.8394,
+      "proto_cos": 0.8207,
+      "ref_top1": 0.8673,
+      "ref_top3_mean": 0.858,
+      "ref_top3_std": 0.0074,
+      "ref_mean": 0.7927,
+      "ref_median": 0.7894,
+      "ref_std": 0.0406,
+      "support_count": 0.0,
+      "family_score": 0.9208,
+      "dino_rank": 3.0
+     },
+     "biryani": {
+      "score": 0.8083,
+      "proto_cos": 0.8101,
+      "ref_top1": 0.8162,
+      "ref_top3_mean": 0.8065,
+      "ref_top3_std": 0.0085,
+      "ref_mean": 0.7571,
+      "ref_median": 0.7584,
+      "ref_std": 0.0335,
+      "support_count": 0.0,
+      "family_score": 0.9208,
+      "dino_rank": 5.0
+     },
+     "pad_thai": {
+      "score": 0.7698,
+      "proto_cos": 0.7474,
+      "ref_top1": 0.8117,
+      "ref_top3_mean": 0.7922,
+      "ref_top3_std": 0.0235,
+      "ref_mean": 0.7099,
+      "ref_median": 0.6991,
+      "ref_std": 0.0456,
+      "support_count": 0.0,
+      "family_score": 0.7698,
+      "dino_rank": 4.0
+     }
+    }
+   },
+   {
+    "query_id": "65a3eeee-e25d-49bf-ac63-57b9e67aef5a",
+    "ground_truth": "biryani",
+    "gt_family": "rice_grain",
+    "gt_state": "plated",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "fried_rice",
+     "biryani",
+     "rice",
+     "pad_thai",
+     "bibimbap"
+    ],
+    "reranked_top5": [
+     "fried_rice",
+     "biryani",
+     "rice",
+     "pad_thai",
+     "bibimbap"
+    ],
+    "correct_original_rank": 2,
+    "correct_new_rank": 2,
+    "candidate_probabilities": {
+     "fried_rice": 0.5042,
+     "biryani": 0.4564,
+     "rice": 0.048,
+     "pad_thai": 0.0202,
+     "bibimbap": 0.0002
+    },
+    "reference_statistics": {
+     "fried_rice": {
+      "score": 0.9406,
+      "proto_cos": 0.9476,
+      "ref_top1": 0.9341,
+      "ref_top3_mean": 0.9336,
+      "ref_top3_std": 0.0004,
+      "ref_mean": 0.9151,
+      "ref_median": 0.9146,
+      "ref_std": 0.0153,
+      "support_count": 7.0,
+      "family_score": 0.9406,
+      "dino_rank": 1.0
+     },
+     "biryani": {
+      "score": 0.9342,
+      "proto_cos": 0.9413,
+      "ref_top1": 0.9295,
+      "ref_top3_mean": 0.9272,
+      "ref_top3_std": 0.0033,
+      "ref_mean": 0.8797,
+      "ref_median": 0.8786,
+      "ref_std": 0.0348,
+      "support_count": 3.0,
+      "family_score": 0.9406,
+      "dino_rank": 2.0
+     },
+     "rice": {
+      "score": 0.9041,
+      "proto_cos": 0.9024,
+      "ref_top1": 0.9128,
+      "ref_top3_mean": 0.9059,
+      "ref_top3_std": 0.0073,
+      "ref_mean": 0.8612,
+      "ref_median": 0.8567,
+      "ref_std": 0.0293,
+      "support_count": 0.0,
+      "family_score": 0.9406,
+      "dino_rank": 4.0
+     },
+     "pad_thai": {
+      "score": 0.8623,
+      "proto_cos": 0.8486,
+      "ref_top1": 0.9064,
+      "ref_top3_mean": 0.876,
+      "ref_top3_std": 0.024,
+      "ref_mean": 0.8061,
+      "ref_median": 0.8052,
+      "ref_std": 0.0419,
+      "support_count": 0.0,
+      "family_score": 0.8623,
+      "dino_rank": 3.0
+     },
+     "bibimbap": {
+      "score": 0.7963,
+      "proto_cos": 0.7541,
+      "ref_top1": 0.8783,
+      "ref_top3_mean": 0.8385,
+      "ref_top3_std": 0.0283,
+      "ref_mean": 0.7217,
+      "ref_median": 0.7093,
+      "ref_std": 0.0623,
+      "support_count": 0.0,
+      "family_score": 0.9406,
+      "dino_rank": 5.0
+     }
+    }
+   },
+   {
+    "query_id": "a974f0ce-693f-42ea-a741-2e8a321314ce",
+    "ground_truth": "biryani",
+    "gt_family": "rice_grain",
+    "gt_state": "plated",
+    "transition": "correct->wrong",
+    "original_e_top5": [
+     "biryani",
+     "fried_rice",
+     "rice",
+     "pad_thai",
+     "tomato_paste"
+    ],
+    "reranked_top5": [
+     "fried_rice",
+     "biryani",
+     "rice",
+     "pad_thai",
+     "tomato_paste"
+    ],
+    "correct_original_rank": 1,
+    "correct_new_rank": 2,
+    "candidate_probabilities": {
+     "biryani": 0.4233,
+     "fried_rice": 0.6051,
+     "rice": 0.0393,
+     "pad_thai": 0.0084,
+     "tomato_paste": 0.0046
+    },
+    "reference_statistics": {
+     "biryani": {
+      "score": 0.8987,
+      "proto_cos": 0.8976,
+      "ref_top1": 0.9172,
+      "ref_top3_mean": 0.8998,
+      "ref_top3_std": 0.0126,
+      "ref_mean": 0.8388,
+      "ref_median": 0.8403,
+      "ref_std": 0.0381,
+      "support_count": 3.0,
+      "family_score": 0.8987,
+      "dino_rank": 1.0
+     },
+     "fried_rice": {
+      "score": 0.8967,
+      "proto_cos": 0.9025,
+      "ref_top1": 0.8996,
+      "ref_top3_mean": 0.8909,
+      "ref_top3_std": 0.0062,
+      "ref_mean": 0.8716,
+      "ref_median": 0.8751,
+      "ref_std": 0.0145,
+      "support_count": 7.0,
+      "family_score": 0.8987,
+      "dino_rank": 2.0
+     },
+     "rice": {
+      "score": 0.8629,
+      "proto_cos": 0.8699,
+      "ref_top1": 0.8632,
+      "ref_top3_mean": 0.856,
+      "ref_top3_std": 0.0052,
+      "ref_mean": 0.8302,
+      "ref_median": 0.8329,
+      "ref_std": 0.0201,
+      "support_count": 0.0,
+      "family_score": 0.8987,
+      "dino_rank": 9.0
+     },
+     "pad_thai": {
+      "score": 0.8076,
+      "proto_cos": 0.7906,
+      "ref_top1": 0.8392,
+      "ref_top3_mean": 0.8246,
+      "ref_top3_std": 0.0139,
+      "ref_mean": 0.751,
+      "ref_median": 0.7418,
+      "ref_std": 0.045,
+      "support_count": 0.0,
+      "family_score": 0.8076,
+      "dino_rank": 4.0
+     },
+     "tomato_paste": {
+      "score": 0.7544,
+      "proto_cos": 0.742,
+      "ref_top1": 0.7814,
+      "ref_top3_mean": 0.7668,
+      "ref_top3_std": 0.0109,
+      "ref_mean": 0.6973,
+      "ref_median": 0.6831,
+      "ref_std": 0.0451,
+      "support_count": 0.0,
+      "family_score": 0.7544,
+      "dino_rank": 3.0
+     }
+    }
+   },
+   {
+    "query_id": "0b39c841-a865-407e-9a89-fc6070c75ee3",
+    "ground_truth": "biryani",
+    "gt_family": "rice_grain",
+    "gt_state": "plated",
+    "transition": "wrong->correct",
+    "original_e_top5": [
+     "tomato_paste",
+     "biryani",
+     "packaged_cheese",
+     "rice",
+     "non_food"
+    ],
+    "reranked_top5": [
+     "biryani",
+     "tomato_paste",
+     "packaged_cheese",
+     "non_food",
+     "rice"
+    ],
+    "correct_original_rank": 2,
+    "correct_new_rank": 1,
+    "candidate_probabilities": {
+     "tomato_paste": 0.3166,
+     "biryani": 0.4064,
+     "packaged_cheese": 0.2207,
+     "rice": 0.0477,
+     "non_food": 0.0681
+    },
+    "reference_statistics": {
+     "tomato_paste": {
+      "score": 0.772,
+      "proto_cos": 0.7743,
+      "ref_top1": 0.7725,
+      "ref_top3_mean": 0.7698,
+      "ref_top3_std": 0.0036,
+      "ref_mean": 0.7276,
+      "ref_median": 0.7316,
+      "ref_std": 0.0277,
+      "support_count": 3.0,
+      "family_score": 0.772,
+      "dino_rank": 6.0
+     },
+     "biryani": {
+      "score": 0.7645,
+      "proto_cos": 0.7611,
+      "ref_top1": 0.8217,
+      "ref_top3_mean": 0.768,
+      "ref_top3_std": 0.0381,
+      "ref_mean": 0.7113,
+      "ref_median": 0.7094,
+      "ref_std": 0.0346,
+      "support_count": 1.0,
+      "family_score": 0.7645,
+      "dino_rank": 1.0
+     },
+     "packaged_cheese": {
+      "score": 0.755,
+      "proto_cos": 0.757,
+      "ref_top1": 0.7618,
+      "ref_top3_mean": 0.753,
+      "ref_top3_std": 0.0078,
+      "ref_mean": 0.7269,
+      "ref_median": 0.7233,
+      "ref_std": 0.0175,
+      "support_count": 2.0,
+      "family_score": 0.755,
+      "dino_rank": 2.0
+     },
+     "rice": {
+      "score": 0.7417,
+      "proto_cos": 0.7407,
+      "ref_top1": 0.7582,
+      "ref_top3_mean": 0.7428,
+      "ref_top3_std": 0.0118,
+      "ref_mean": 0.7069,
+      "ref_median": 0.7083,
+      "ref_std": 0.023,
+      "support_count": 1.0,
+      "family_score": 0.7645,
+      "dino_rank": 15.0
+     },
+     "non_food": {
+      "score": 0.7384,
+      "proto_cos": 0.7328,
+      "ref_top1": 0.758,
+      "ref_top3_mean": 0.744,
+      "ref_top3_std": 0.0142,
+      "ref_mean": 0.6917,
+      "ref_median": 0.6908,
+      "ref_std": 0.034,
+      "support_count": 1.0,
+      "family_score": 0.7384,
+      "dino_rank": 4.0
+     }
+    }
+   },
+   {
+    "query_id": "ffb4ddce-60a4-4127-a852-ccac6496bcf7",
+    "ground_truth": "biryani",
+    "gt_family": "rice_grain",
+    "gt_state": "plated",
+    "transition": "absent_from_top5",
+    "original_e_top5": [
+     "tomato_paste",
+     "yogurt",
+     "hummus",
+     "non_food",
+     "rice"
+    ],
+    "reranked_top5": [
+     "tomato_paste",
+     "yogurt",
+     "non_food",
+     "hummus",
+     "rice"
+    ],
+    "correct_original_rank": null,
+    "correct_new_rank": null,
+    "candidate_probabilities": {
+     "tomato_paste": 0.9573,
+     "yogurt": 0.034,
+     "hummus": 0.0259,
+     "non_food": 0.0271,
+     "rice": 0.0133
+    },
+    "reference_statistics": {
+     "tomato_paste": {
+      "score": 0.8532,
+      "proto_cos": 0.8661,
+      "ref_top1": 0.8432,
+      "ref_top3_mean": 0.8402,
+      "ref_top3_std": 0.004,
+      "ref_mean": 0.814,
+      "ref_median": 0.8094,
+      "ref_std": 0.0151,
+      "support_count": 8.0,
+      "family_score": 0.8532,
+      "dino_rank": 4.0
+     },
+     "yogurt": {
+      "score": 0.7956,
+      "proto_cos": 0.7988,
+      "ref_top1": 0.7989,
+      "ref_top3_mean": 0.7925,
+      "ref_top3_std": 0.0067,
+      "ref_mean": 0.7527,
+      "ref_median": 0.7587,
+      "ref_std": 0.0273,
+      "support_count": 0.0,
+      "family_score": 0.7956,
+      "dino_rank": 6.0
+     },
+     "hummus": {
+      "score": 0.7911,
+      "proto_cos": 0.7777,
+      "ref_top1": 0.8171,
+      "ref_top3_mean": 0.8045,
+      "ref_top3_std": 0.0126,
+      "ref_mean": 0.7414,
+      "ref_median": 0.7442,
+      "ref_std": 0.0358,
+      "support_count": 1.0,
+      "family_score": 0.7911,
+      "dino_rank": 5.0
+     },
+     "non_food": {
+      "score": 0.7882,
+      "proto_cos": 0.7925,
+      "ref_top1": 0.7944,
+      "ref_top3_mean": 0.7839,
+      "ref_top3_std": 0.0074,
+      "ref_mean": 0.748,
+      "ref_median": 0.7544,
+      "ref_std": 0.025,
+      "support_count": 0.0,
+      "family_score": 0.7882,
+      "dino_rank": 3.0
+     },
+     "rice": {
+      "score": 0.7724,
+      "proto_cos": 0.775,
+      "ref_top1": 0.7826,
+      "ref_top3_mean": 0.7698,
+      "ref_top3_std": 0.0093,
+      "ref_mean": 0.7397,
+      "ref_median": 0.7448,
+      "ref_std": 0.0227,
+      "support_count": 0.0,
+      "family_score": 0.7724,
+      "dino_rank": 10.0
+     }
+    }
+   },
+   {
+    "query_id": "44797329-a737-4445-9c4d-8aa237a0322c",
+    "ground_truth": "biryani",
+    "gt_family": "rice_grain",
+    "gt_state": "plated",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "omelette",
+     "caesar_salad",
+     "pizza",
+     "biryani",
+     "guacamole"
+    ],
+    "reranked_top5": [
+     "omelette",
+     "biryani",
+     "caesar_salad",
+     "pizza",
+     "guacamole"
+    ],
+    "correct_original_rank": 4,
+    "correct_new_rank": 2,
+    "candidate_probabilities": {
+     "omelette": 0.167,
+     "caesar_salad": 0.0416,
+     "pizza": 0.0227,
+     "biryani": 0.0954,
+     "guacamole": 0.0188
+    },
+    "reference_statistics": {
+     "omelette": {
+      "score": 0.7862,
+      "proto_cos": 0.7817,
+      "ref_top1": 0.7934,
+      "ref_top3_mean": 0.7907,
+      "ref_top3_std": 0.0026,
+      "ref_mean": 0.7543,
+      "ref_median": 0.7516,
+      "ref_std": 0.0215,
+      "support_count": 5.0,
+      "family_score": 0.7862,
+      "dino_rank": 3.0
+     },
+     "caesar_salad": {
+      "score": 0.7581,
+      "proto_cos": 0.7399,
+      "ref_top1": 0.8037,
+      "ref_top3_mean": 0.7763,
+      "ref_top3_std": 0.0194,
+      "ref_mean": 0.705,
+      "ref_median": 0.6982,
+      "ref_std": 0.0389,
+      "support_count": 1.0,
+      "family_score": 0.7581,
+      "dino_rank": 9.0
+     },
+     "pizza": {
+      "score": 0.7522,
+      "proto_cos": 0.7385,
+      "ref_top1": 0.7731,
+      "ref_top3_mean": 0.7658,
+      "ref_top3_std": 0.0058,
+      "ref_mean": 0.712,
+      "ref_median": 0.7129,
+      "ref_std": 0.0365,
+      "support_count": 2.0,
+      "family_score": 0.7522,
+      "dino_rank": 1.0
+     },
+     "biryani": {
+      "score": 0.7482,
+      "proto_cos": 0.7408,
+      "ref_top1": 0.7896,
+      "ref_top3_mean": 0.7556,
+      "ref_top3_std": 0.0249,
+      "ref_mean": 0.6923,
+      "ref_median": 0.6849,
+      "ref_std": 0.0372,
+      "support_count": 1.0,
+      "family_score": 0.7482,
+      "dino_rank": 2.0
+     },
+     "guacamole": {
+      "score": 0.7451,
+      "proto_cos": 0.7423,
+      "ref_top1": 0.7526,
+      "ref_top3_mean": 0.7478,
+      "ref_top3_std": 0.0038,
+      "ref_mean": 0.704,
+      "ref_median": 0.7092,
+      "ref_std": 0.0283,
+      "support_count": 0.0,
+      "family_score": 0.7451,
+      "dino_rank": 7.0
+     }
+    }
+   },
+   {
+    "query_id": "11fd0517-c463-4e10-ae02-afd0588e5a45",
+    "ground_truth": "biryani",
+    "gt_family": "rice_grain",
+    "gt_state": "plated",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "fried_rice",
+     "biryani",
+     "rice",
+     "pad_thai",
+     "bibimbap"
+    ],
+    "reranked_top5": [
+     "fried_rice",
+     "biryani",
+     "rice",
+     "pad_thai",
+     "bibimbap"
+    ],
+    "correct_original_rank": 2,
+    "correct_new_rank": 2,
+    "candidate_probabilities": {
+     "fried_rice": 0.558,
+     "biryani": 0.537,
+     "rice": 0.0103,
+     "pad_thai": 0.0012,
+     "bibimbap": 0.0
+    },
+    "reference_statistics": {
+     "fried_rice": {
+      "score": 0.9648,
+      "proto_cos": 0.9677,
+      "ref_top1": 0.9683,
+      "ref_top3_mean": 0.9619,
+      "ref_top3_std": 0.0045,
+      "ref_mean": 0.9345,
+      "ref_median": 0.9459,
+      "ref_std": 0.0257,
+      "support_count": 7.0,
+      "family_score": 0.9648,
+      "dino_rank": 2.0
+     },
+     "biryani": {
+      "score": 0.9593,
+      "proto_cos": 0.9602,
+      "ref_top1": 0.9712,
+      "ref_top3_mean": 0.9583,
+      "ref_top3_std": 0.0091,
+      "ref_mean": 0.8973,
+      "ref_median": 0.9165,
+      "ref_std": 0.054,
+      "support_count": 3.0,
+      "family_score": 0.9648,
+      "dino_rank": 1.0
+     },
+     "rice": {
+      "score": 0.8945,
+      "proto_cos": 0.892,
+      "ref_top1": 0.9056,
+      "ref_top3_mean": 0.897,
+      "ref_top3_std": 0.0092,
+      "ref_mean": 0.8514,
+      "ref_median": 0.8469,
+      "ref_std": 0.0305,
+      "support_count": 0.0,
+      "family_score": 0.9648,
+      "dino_rank": 3.0
+     },
+     "pad_thai": {
+      "score": 0.777,
+      "proto_cos": 0.7451,
+      "ref_top1": 0.8593,
+      "ref_top3_mean": 0.8088,
+      "ref_top3_std": 0.0363,
+      "ref_mean": 0.7077,
+      "ref_median": 0.6985,
+      "ref_std": 0.059,
+      "support_count": 0.0,
+      "family_score": 0.777,
+      "dino_rank": 4.0
+     },
+     "bibimbap": {
+      "score": 0.7489,
+      "proto_cos": 0.7083,
+      "ref_top1": 0.8418,
+      "ref_top3_mean": 0.7894,
+      "ref_top3_std": 0.037,
+      "ref_mean": 0.6779,
+      "ref_median": 0.6769,
+      "ref_std": 0.061,
+      "support_count": 0.0,
+      "family_score": 0.9648,
+      "dino_rank": 5.0
+     }
+    }
+   },
+   {
+    "query_id": "82379f65-7d81-4fea-a3ec-6383691cada8",
+    "ground_truth": "cheese",
+    "gt_family": "dairy",
+    "gt_state": "raw",
+    "transition": "absent_from_top5",
+    "original_e_top5": [
+     "omelette",
+     "biryani",
+     "guacamole",
+     "hummus",
+     "yogurt"
+    ],
+    "reranked_top5": [
+     "omelette",
+     "biryani",
+     "yogurt",
+     "guacamole",
+     "hummus"
+    ],
+    "correct_original_rank": null,
+    "correct_new_rank": null,
+    "candidate_probabilities": {
+     "omelette": 0.8076,
+     "biryani": 0.0551,
+     "guacamole": 0.0152,
+     "hummus": 0.003,
+     "yogurt": 0.0166
+    },
+    "reference_statistics": {
+     "omelette": {
+      "score": 0.8531,
+      "proto_cos": 0.8496,
+      "ref_top1": 0.8698,
+      "ref_top3_mean": 0.8566,
+      "ref_top3_std": 0.0093,
+      "ref_mean": 0.8198,
+      "ref_median": 0.8145,
+      "ref_std": 0.0219,
+      "support_count": 9.0,
+      "family_score": 0.8531,
+      "dino_rank": 1.0
+     },
+     "biryani": {
+      "score": 0.7853,
+      "proto_cos": 0.7683,
+      "ref_top1": 0.8352,
+      "ref_top3_mean": 0.8022,
+      "ref_top3_std": 0.0236,
+      "ref_mean": 0.7181,
+      "ref_median": 0.7124,
+      "ref_std": 0.0495,
+      "support_count": 1.0,
+      "family_score": 0.7853,
+      "dino_rank": 3.0
+     },
+     "guacamole": {
+      "score": 0.7762,
+      "proto_cos": 0.761,
+      "ref_top1": 0.8117,
+      "ref_top3_mean": 0.7915,
+      "ref_top3_std": 0.0182,
+      "ref_mean": 0.7216,
+      "ref_median": 0.716,
+      "ref_std": 0.0386,
+      "support_count": 0.0,
+      "family_score": 0.7762,
+      "dino_rank": 6.0
+     },
+     "hummus": {
+      "score": 0.7491,
+      "proto_cos": 0.7527,
+      "ref_top1": 0.7491,
+      "ref_top3_mean": 0.7454,
+      "ref_top3_std": 0.0027,
+      "ref_mean": 0.7176,
+      "ref_median": 0.7171,
+      "ref_std": 0.0177,
+      "support_count": 0.0,
+      "family_score": 0.7762,
+      "dino_rank": 4.0
+     },
+     "yogurt": {
+      "score": 0.7466,
+      "proto_cos": 0.7438,
+      "ref_top1": 0.795,
+      "ref_top3_mean": 0.7495,
+      "ref_top3_std": 0.0323,
+      "ref_mean": 0.7009,
+      "ref_median": 0.7,
+      "ref_std": 0.0289,
+      "support_count": 0.0,
+      "family_score": 0.7466,
+      "dino_rank": 9.0
+     }
+    }
+   },
+   {
+    "query_id": "3dd0d83a-9b42-4927-9e4f-db23a6c7c744",
+    "ground_truth": "cheese",
+    "gt_family": "dairy",
+    "gt_state": "raw",
+    "transition": "absent_from_top5",
+    "original_e_top5": [
+     "salad",
+     "guacamole",
+     "hummus",
+     "yogurt",
+     "tomato"
+    ],
+    "reranked_top5": [
+     "salad",
+     "guacamole",
+     "hummus",
+     "yogurt",
+     "tomato"
+    ],
+    "correct_original_rank": null,
+    "correct_new_rank": null,
+    "candidate_probabilities": {
+     "salad": 0.9223,
+     "guacamole": 0.0173,
+     "hummus": 0.0127,
+     "yogurt": 0.0114,
+     "tomato": 0.007
+    },
+    "reference_statistics": {
+     "salad": {
+      "score": 0.7669,
+      "proto_cos": 0.7788,
+      "ref_top1": 0.7623,
+      "ref_top3_mean": 0.7549,
+      "ref_top3_std": 0.0055,
+      "ref_mean": 0.7422,
+      "ref_median": 0.7445,
+      "ref_std": 0.0089,
+      "support_count": 9.0,
+      "family_score": 0.7669,
+      "dino_rank": 7.0
+     },
+     "guacamole": {
+      "score": 0.7143,
+      "proto_cos": 0.7149,
+      "ref_top1": 0.7185,
+      "ref_top3_mean": 0.7137,
+      "ref_top3_std": 0.0052,
+      "ref_mean": 0.6779,
+      "ref_median": 0.68,
+      "ref_std": 0.0253,
+      "support_count": 0.0,
+      "family_score": 0.7143,
+      "dino_rank": 13.0
+     },
+     "hummus": {
+      "score": 0.7117,
+      "proto_cos": 0.708,
+      "ref_top1": 0.7229,
+      "ref_top3_mean": 0.7154,
+      "ref_top3_std": 0.0079,
+      "ref_mean": 0.675,
+      "ref_median": 0.6739,
+      "ref_std": 0.0219,
+      "support_count": 0.0,
+      "family_score": 0.7143,
+      "dino_rank": 20.0
+     },
+     "yogurt": {
+      "score": 0.7026,
+      "proto_cos": 0.7022,
+      "ref_top1": 0.7061,
+      "ref_top3_mean": 0.703,
+      "ref_top3_std": 0.0028,
+      "ref_mean": 0.6617,
+      "ref_median": 0.6688,
+      "ref_std": 0.0302,
+      "support_count": 0.0,
+      "family_score": 0.7026,
+      "dino_rank": 22.0
+     },
+     "tomato": {
+      "score": 0.6994,
+      "proto_cos": 0.6856,
+      "ref_top1": 0.7449,
+      "ref_top3_mean": 0.7131,
+      "ref_top3_std": 0.0225,
+      "ref_mean": 0.666,
+      "ref_median": 0.666,
+      "ref_std": 0.0252,
+      "support_count": 1.0,
+      "family_score": 0.6994,
+      "dino_rank": 21.0
+     }
+    }
+   },
+   {
+    "query_id": "5001faac-0ca6-4ed7-b10b-68c8ed2f3de1",
+    "ground_truth": "cream",
+    "gt_family": "dairy",
+    "gt_state": "raw",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "ice_cream",
+     "cream",
+     "yogurt",
+     "donuts",
+     "ginger"
+    ],
+    "reranked_top5": [
+     "ice_cream",
+     "cream",
+     "yogurt",
+     "donuts",
+     "ginger"
+    ],
+    "correct_original_rank": 2,
+    "correct_new_rank": 2,
+    "candidate_probabilities": {
+     "ice_cream": 0.3893,
+     "cream": 0.1744,
+     "yogurt": 0.0613,
+     "donuts": 0.0217,
+     "ginger": 0.0056
+    },
+    "reference_statistics": {
+     "ice_cream": {
+      "score": 0.791,
+      "proto_cos": 0.7961,
+      "ref_top1": 0.7945,
+      "ref_top3_mean": 0.7859,
+      "ref_top3_std": 0.0065,
+      "ref_mean": 0.7589,
+      "ref_median": 0.7542,
+      "ref_std": 0.0177,
+      "support_count": 6.0,
+      "family_score": 0.791,
+      "dino_rank": 1.0
+     },
+     "cream": {
+      "score": 0.7896,
+      "proto_cos": 0.7937,
+      "ref_top1": 0.7864,
+      "ref_top3_mean": 0.7855,
+      "ref_top3_std": 0.0012,
+      "ref_mean": 0.755,
+      "ref_median": 0.7573,
+      "ref_std": 0.0198,
+      "support_count": 3.0,
+      "family_score": 0.7896,
+      "dino_rank": 2.0
+     },
+     "yogurt": {
+      "score": 0.7664,
+      "proto_cos": 0.7654,
+      "ref_top1": 0.786,
+      "ref_top3_mean": 0.7674,
+      "ref_top3_std": 0.0132,
+      "ref_mean": 0.7212,
+      "ref_median": 0.723,
+      "ref_std": 0.0298,
+      "support_count": 1.0,
+      "family_score": 0.7896,
+      "dino_rank": 5.0
+     },
+     "donuts": {
+      "score": 0.7553,
+      "proto_cos": 0.7532,
+      "ref_top1": 0.7631,
+      "ref_top3_mean": 0.7575,
+      "ref_top3_std": 0.0041,
+      "ref_mean": 0.7095,
+      "ref_median": 0.7075,
+      "ref_std": 0.0325,
+      "support_count": 0.0,
+      "family_score": 0.791,
+      "dino_rank": 7.0
+     },
+     "ginger": {
+      "score": 0.7287,
+      "proto_cos": 0.7341,
+      "ref_top1": 0.7247,
+      "ref_top3_mean": 0.7233,
+      "ref_top3_std": 0.0014,
+      "ref_mean": 0.7066,
+      "ref_median": 0.712,
+      "ref_std": 0.0143,
+      "support_count": 0.0,
+      "family_score": 0.7287,
+      "dino_rank": 13.0
+     }
+    }
+   },
+   {
+    "query_id": "e60462d7-fcf6-4eec-812f-f58caff93ff8",
+    "ground_truth": "cream",
+    "gt_family": "dairy",
+    "gt_state": "raw",
+    "transition": "wrong->correct",
+    "original_e_top5": [
+     "ice_cream",
+     "cream",
+     "yogurt",
+     "hummus",
+     "donuts"
+    ],
+    "reranked_top5": [
+     "cream",
+     "ice_cream",
+     "yogurt",
+     "hummus",
+     "donuts"
+    ],
+    "correct_original_rank": 2,
+    "correct_new_rank": 1,
+    "candidate_probabilities": {
+     "ice_cream": 0.2959,
+     "cream": 0.3957,
+     "yogurt": 0.1051,
+     "hummus": 0.0001,
+     "donuts": 0.0
+    },
+    "reference_statistics": {
+     "ice_cream": {
+      "score": 0.9144,
+      "proto_cos": 0.9142,
+      "ref_top1": 0.9214,
+      "ref_top3_mean": 0.9147,
+      "ref_top3_std": 0.0064,
+      "ref_mean": 0.8714,
+      "ref_median": 0.873,
+      "ref_std": 0.0366,
+      "support_count": 4.0,
+      "family_score": 0.9144,
+      "dino_rank": 1.0
+     },
+     "cream": {
+      "score": 0.9103,
+      "proto_cos": 0.9044,
+      "ref_top1": 0.9197,
+      "ref_top3_mean": 0.9162,
+      "ref_top3_std": 0.0038,
+      "ref_mean": 0.8603,
+      "ref_median": 0.8566,
+      "ref_std": 0.0357,
+      "support_count": 4.0,
+      "family_score": 0.9103,
+      "dino_rank": 2.0
+     },
+     "yogurt": {
+      "score": 0.8879,
+      "proto_cos": 0.8705,
+      "ref_top1": 0.9069,
+      "ref_top3_mean": 0.9053,
+      "ref_top3_std": 0.0014,
+      "ref_mean": 0.8202,
+      "ref_median": 0.8287,
+      "ref_std": 0.0593,
+      "support_count": 2.0,
+      "family_score": 0.9103,
+      "dino_rank": 3.0
+     },
+     "hummus": {
+      "score": 0.6894,
+      "proto_cos": 0.6601,
+      "ref_top1": 0.7411,
+      "ref_top3_mean": 0.7187,
+      "ref_top3_std": 0.0203,
+      "ref_mean": 0.6293,
+      "ref_median": 0.6149,
+      "ref_std": 0.054,
+      "support_count": 0.0,
+      "family_score": 0.6894,
+      "dino_rank": 4.0
+     },
+     "donuts": {
+      "score": 0.6653,
+      "proto_cos": 0.6266,
+      "ref_top1": 0.7331,
+      "ref_top3_mean": 0.7039,
+      "ref_top3_std": 0.0233,
+      "ref_mean": 0.5903,
+      "ref_median": 0.5961,
+      "ref_std": 0.0717,
+      "support_count": 0.0,
+      "family_score": 0.9144,
+      "dino_rank": 6.0
+     }
+    }
+   },
+   {
+    "query_id": "27131d64-42a9-4cdc-8c47-edbef8b74df6",
+    "ground_truth": "donuts",
+    "gt_family": "prepared_sweet",
+    "gt_state": "plated",
+    "transition": "absent_from_top5",
+    "original_e_top5": [
+     "biryani",
+     "rice",
+     "packaged_cheese",
+     "ice_cream",
+     "fried_rice"
+    ],
+    "reranked_top5": [
+     "biryani",
+     "packaged_cheese",
+     "rice",
+     "ice_cream",
+     "fried_rice"
+    ],
+    "correct_original_rank": null,
+    "correct_new_rank": null,
+    "candidate_probabilities": {
+     "biryani": 0.5709,
+     "rice": 0.1439,
+     "packaged_cheese": 0.1704,
+     "ice_cream": 0.0345,
+     "fried_rice": 0.0036
+    },
+    "reference_statistics": {
+     "biryani": {
+      "score": 0.7709,
+      "proto_cos": 0.7598,
+      "ref_top1": 0.8144,
+      "ref_top3_mean": 0.782,
+      "ref_top3_std": 0.0235,
+      "ref_mean": 0.7101,
+      "ref_median": 0.7112,
+      "ref_std": 0.045,
+      "support_count": 5.0,
+      "family_score": 0.7709,
+      "dino_rank": 2.0
+     },
+     "rice": {
+      "score": 0.7556,
+      "proto_cos": 0.7553,
+      "ref_top1": 0.7765,
+      "ref_top3_mean": 0.7559,
+      "ref_top3_std": 0.0158,
+      "ref_mean": 0.7209,
+      "ref_median": 0.7202,
+      "ref_std": 0.0223,
+      "support_count": 2.0,
+      "family_score": 0.7709,
+      "dino_rank": 17.0
+     },
+     "packaged_cheese": {
+      "score": 0.74,
+      "proto_cos": 0.739,
+      "ref_top1": 0.7483,
+      "ref_top3_mean": 0.7409,
+      "ref_top3_std": 0.01,
+      "ref_mean": 0.7097,
+      "ref_median": 0.6997,
+      "ref_std": 0.021,
+      "support_count": 2.0,
+      "family_score": 0.74,
+      "dino_rank": 1.0
+     },
+     "ice_cream": {
+      "score": 0.7286,
+      "proto_cos": 0.7215,
+      "ref_top1": 0.7648,
+      "ref_top3_mean": 0.7356,
+      "ref_top3_std": 0.0213,
+      "ref_mean": 0.6878,
+      "ref_median": 0.6904,
+      "ref_std": 0.0303,
+      "support_count": 1.0,
+      "family_score": 0.7286,
+      "dino_rank": 3.0
+     },
+     "fried_rice": {
+      "score": 0.7211,
+      "proto_cos": 0.7225,
+      "ref_top1": 0.7245,
+      "ref_top3_mean": 0.7198,
+      "ref_top3_std": 0.0033,
+      "ref_mean": 0.6978,
+      "ref_median": 0.7009,
+      "ref_std": 0.0179,
+      "support_count": 0.0,
+      "family_score": 0.7709,
+      "dino_rank": 11.0
+     }
+    }
+   },
+   {
+    "query_id": "452cf3f3-0e75-4a11-b1e9-d3eae7227cc6",
+    "ground_truth": "french_fries",
+    "gt_family": "prepared_side",
+    "gt_state": "plated",
+    "transition": "absent_from_top5",
+    "original_e_top5": [
+     "donuts",
+     "ice_cream",
+     "yogurt",
+     "cheese",
+     "tomato_paste"
+    ],
+    "reranked_top5": [
+     "donuts",
+     "ice_cream",
+     "tomato_paste",
+     "yogurt",
+     "cheese"
+    ],
+    "correct_original_rank": null,
+    "correct_new_rank": null,
+    "candidate_probabilities": {
+     "donuts": 0.6937,
+     "ice_cream": 0.1634,
+     "yogurt": 0.0268,
+     "cheese": 0.0057,
+     "tomato_paste": 0.0369
+    },
+    "reference_statistics": {
+     "donuts": {
+      "score": 0.8133,
+      "proto_cos": 0.8151,
+      "ref_top1": 0.8302,
+      "ref_top3_mean": 0.8115,
+      "ref_top3_std": 0.0143,
+      "ref_mean": 0.7679,
+      "ref_median": 0.7648,
+      "ref_std": 0.0264,
+      "support_count": 6.0,
+      "family_score": 0.8133,
+      "dino_rank": 3.0
+     },
+     "ice_cream": {
+      "score": 0.7916,
+      "proto_cos": 0.7885,
+      "ref_top1": 0.801,
+      "ref_top3_mean": 0.7947,
+      "ref_top3_std": 0.006,
+      "ref_mean": 0.7517,
+      "ref_median": 0.759,
+      "ref_std": 0.0302,
+      "support_count": 4.0,
+      "family_score": 0.8133,
+      "dino_rank": 1.0
+     },
+     "yogurt": {
+      "score": 0.7654,
+      "proto_cos": 0.7645,
+      "ref_top1": 0.7694,
+      "ref_top3_mean": 0.7663,
+      "ref_top3_std": 0.0043,
+      "ref_mean": 0.7204,
+      "ref_median": 0.7195,
+      "ref_std": 0.0326,
+      "support_count": 0.0,
+      "family_score": 0.7654,
+      "dino_rank": 6.0
+     },
+     "cheese": {
+      "score": 0.7423,
+      "proto_cos": 0.7396,
+      "ref_top1": 0.753,
+      "ref_top3_mean": 0.7451,
+      "ref_top3_std": 0.0061,
+      "ref_mean": 0.7075,
+      "ref_median": 0.7138,
+      "ref_std": 0.0286,
+      "support_count": 0.0,
+      "family_score": 0.7654,
+      "dino_rank": 11.0
+     },
+     "tomato_paste": {
+      "score": 0.7408,
+      "proto_cos": 0.7469,
+      "ref_top1": 0.7442,
+      "ref_top3_mean": 0.7346,
+      "ref_top3_std": 0.0075,
+      "ref_mean": 0.702,
+      "ref_median": 0.7032,
+      "ref_std": 0.022,
+      "support_count": 0.0,
+      "family_score": 0.7408,
+      "dino_rank": 4.0
+     }
+    }
+   },
+   {
+    "query_id": "23d5de8a-75b3-4f18-be80-43c26ed394da",
+    "ground_truth": "fried_rice",
+    "gt_family": "rice_grain",
+    "gt_state": "plated",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "bibimbap",
+     "fried_rice",
+     "rice",
+     "biryani",
+     "pad_thai"
+    ],
+    "reranked_top5": [
+     "bibimbap",
+     "rice",
+     "fried_rice",
+     "biryani",
+     "pad_thai"
+    ],
+    "correct_original_rank": 2,
+    "correct_new_rank": 3,
+    "candidate_probabilities": {
+     "bibimbap": 0.7741,
+     "fried_rice": 0.0207,
+     "rice": 0.0515,
+     "biryani": 0.0134,
+     "pad_thai": 0.0003
+    },
+    "reference_statistics": {
+     "bibimbap": {
+      "score": 0.9125,
+      "proto_cos": 0.9086,
+      "ref_top1": 0.9264,
+      "ref_top3_mean": 0.9163,
+      "ref_top3_std": 0.0103,
+      "ref_mean": 0.8697,
+      "ref_median": 0.8694,
+      "ref_std": 0.0311,
+      "support_count": 8.0,
+      "family_score": 0.9125,
+      "dino_rank": 1.0
+     },
+     "fried_rice": {
+      "score": 0.8713,
+      "proto_cos": 0.8637,
+      "ref_top1": 0.9037,
+      "ref_top3_mean": 0.879,
+      "ref_top3_std": 0.018,
+      "ref_mean": 0.8342,
+      "ref_median": 0.8355,
+      "ref_std": 0.0272,
+      "support_count": 1.0,
+      "family_score": 0.9125,
+      "dino_rank": 2.0
+     },
+     "rice": {
+      "score": 0.8653,
+      "proto_cos": 0.8654,
+      "ref_top1": 0.8928,
+      "ref_top3_mean": 0.8652,
+      "ref_top3_std": 0.0197,
+      "ref_mean": 0.8259,
+      "ref_median": 0.8206,
+      "ref_std": 0.027,
+      "support_count": 1.0,
+      "family_score": 0.9125,
+      "dino_rank": 3.0
+     },
+     "biryani": {
+      "score": 0.8455,
+      "proto_cos": 0.8457,
+      "ref_top1": 0.8568,
+      "ref_top3_mean": 0.8453,
+      "ref_top3_std": 0.0082,
+      "ref_mean": 0.7904,
+      "ref_median": 0.8055,
+      "ref_std": 0.0499,
+      "support_count": 0.0,
+      "family_score": 0.9125,
+      "dino_rank": 4.0
+     },
+     "pad_thai": {
+      "score": 0.731,
+      "proto_cos": 0.7012,
+      "ref_top1": 0.7667,
+      "ref_top3_mean": 0.7608,
+      "ref_top3_std": 0.0047,
+      "ref_mean": 0.666,
+      "ref_median": 0.6517,
+      "ref_std": 0.0588,
+      "support_count": 0.0,
+      "family_score": 0.731,
+      "dino_rank": 5.0
+     }
+    }
+   },
+   {
+    "query_id": "75d45f60-cdd1-4524-9449-ef071753432f",
+    "ground_truth": "fried_rice",
+    "gt_family": "rice_grain",
+    "gt_state": "plated",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "biryani",
+     "fried_rice",
+     "pad_thai",
+     "rice",
+     "pasta"
+    ],
+    "reranked_top5": [
+     "biryani",
+     "fried_rice",
+     "pad_thai",
+     "rice",
+     "pasta"
+    ],
+    "correct_original_rank": 2,
+    "correct_new_rank": 2,
+    "candidate_probabilities": {
+     "biryani": 0.63,
+     "fried_rice": 0.3174,
+     "pad_thai": 0.0103,
+     "rice": 0.0016,
+     "pasta": 0.0012
+    },
+    "reference_statistics": {
+     "biryani": {
+      "score": 0.891,
+      "proto_cos": 0.8935,
+      "ref_top1": 0.9027,
+      "ref_top3_mean": 0.8885,
+      "ref_top3_std": 0.01,
+      "ref_mean": 0.835,
+      "ref_median": 0.8347,
+      "ref_std": 0.0425,
+      "support_count": 5.0,
+      "family_score": 0.891,
+      "dino_rank": 1.0
+     },
+     "fried_rice": {
+      "score": 0.8844,
+      "proto_cos": 0.8805,
+      "ref_top1": 0.8979,
+      "ref_top3_mean": 0.8883,
+      "ref_top3_std": 0.0091,
+      "ref_mean": 0.8504,
+      "ref_median": 0.8486,
+      "ref_std": 0.025,
+      "support_count": 5.0,
+      "family_score": 0.891,
+      "dino_rank": 2.0
+     },
+     "pad_thai": {
+      "score": 0.8105,
+      "proto_cos": 0.7819,
+      "ref_top1": 0.8604,
+      "ref_top3_mean": 0.8391,
+      "ref_top3_std": 0.0154,
+      "ref_mean": 0.7427,
+      "ref_median": 0.7422,
+      "ref_std": 0.0554,
+      "support_count": 0.0,
+      "family_score": 0.8105,
+      "dino_rank": 4.0
+     },
+     "rice": {
+      "score": 0.7916,
+      "proto_cos": 0.7813,
+      "ref_top1": 0.8164,
+      "ref_top3_mean": 0.8019,
+      "ref_top3_std": 0.0106,
+      "ref_mean": 0.7456,
+      "ref_median": 0.7402,
+      "ref_std": 0.0439,
+      "support_count": 0.0,
+      "family_score": 0.891,
+      "dino_rank": 6.0
+     },
+     "pasta": {
+      "score": 0.7212,
+      "proto_cos": 0.7068,
+      "ref_top1": 0.7629,
+      "ref_top3_mean": 0.7355,
+      "ref_top3_std": 0.0193,
+      "ref_mean": 0.6701,
+      "ref_median": 0.6713,
+      "ref_std": 0.042,
+      "support_count": 0.0,
+      "family_score": 0.7212,
+      "dino_rank": 17.0
+     }
+    }
+   },
+   {
+    "query_id": "385e5ca1-790d-4f11-a647-1efcdda5a921",
+    "ground_truth": "fried_rice",
+    "gt_family": "rice_grain",
+    "gt_state": "plated",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "rice",
+     "biryani",
+     "fried_rice",
+     "bibimbap",
+     "hummus"
+    ],
+    "reranked_top5": [
+     "biryani",
+     "rice",
+     "fried_rice",
+     "hummus",
+     "bibimbap"
+    ],
+    "correct_original_rank": 3,
+    "correct_new_rank": 3,
+    "candidate_probabilities": {
+     "rice": 0.4109,
+     "biryani": 0.5732,
+     "fried_rice": 0.0819,
+     "bibimbap": 0.0023,
+     "hummus": 0.0065
+    },
+    "reference_statistics": {
+     "rice": {
+      "score": 0.8852,
+      "proto_cos": 0.8869,
+      "ref_top1": 0.8908,
+      "ref_top3_mean": 0.8835,
+      "ref_top3_std": 0.0058,
+      "ref_mean": 0.8464,
+      "ref_median": 0.8517,
+      "ref_std": 0.0249,
+      "support_count": 4.0,
+      "family_score": 0.8852,
+      "dino_rank": 4.0
+     },
+     "biryani": {
+      "score": 0.8839,
+      "proto_cos": 0.8832,
+      "ref_top1": 0.9038,
+      "ref_top3_mean": 0.8846,
+      "ref_top3_std": 0.0136,
+      "ref_mean": 0.8254,
+      "ref_median": 0.8361,
+      "ref_std": 0.0475,
+      "support_count": 4.0,
+      "family_score": 0.8852,
+      "dino_rank": 2.0
+     },
+     "fried_rice": {
+      "score": 0.8705,
+      "proto_cos": 0.8596,
+      "ref_top1": 0.9031,
+      "ref_top3_mean": 0.8815,
+      "ref_top3_std": 0.0216,
+      "ref_mean": 0.8302,
+      "ref_median": 0.8294,
+      "ref_std": 0.0321,
+      "support_count": 2.0,
+      "family_score": 0.8852,
+      "dino_rank": 1.0
+     },
+     "bibimbap": {
+      "score": 0.8119,
+      "proto_cos": 0.7995,
+      "ref_top1": 0.8311,
+      "ref_top3_mean": 0.8242,
+      "ref_top3_std": 0.0081,
+      "ref_mean": 0.7653,
+      "ref_median": 0.7593,
+      "ref_std": 0.0393,
+      "support_count": 0.0,
+      "family_score": 0.8852,
+      "dino_rank": 3.0
+     },
+     "hummus": {
+      "score": 0.7801,
+      "proto_cos": 0.758,
+      "ref_top1": 0.8521,
+      "ref_top3_mean": 0.8023,
+      "ref_top3_std": 0.0356,
+      "ref_mean": 0.7227,
+      "ref_median": 0.7182,
+      "ref_std": 0.051,
+      "support_count": 0.0,
+      "family_score": 0.7801,
+      "dino_rank": 8.0
+     }
+    }
+   },
+   {
+    "query_id": "758c9b8e-950f-459a-adc8-e899cc1f826d",
+    "ground_truth": "fried_rice",
+    "gt_family": "rice_grain",
+    "gt_state": "plated",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "pad_thai",
+     "french_fries",
+     "rice",
+     "biryani",
+     "fried_rice"
+    ],
+    "reranked_top5": [
+     "pad_thai",
+     "french_fries",
+     "biryani",
+     "rice",
+     "fried_rice"
+    ],
+    "correct_original_rank": 5,
+    "correct_new_rank": 5,
+    "candidate_probabilities": {
+     "pad_thai": 0.2952,
+     "french_fries": 0.1127,
+     "rice": 0.0601,
+     "biryani": 0.0825,
+     "fried_rice": 0.0035
+    },
+    "reference_statistics": {
+     "pad_thai": {
+      "score": 0.7983,
+      "proto_cos": 0.7989,
+      "ref_top1": 0.8045,
+      "ref_top3_mean": 0.7976,
+      "ref_top3_std": 0.0086,
+      "ref_mean": 0.7589,
+      "ref_median": 0.7557,
+      "ref_std": 0.0222,
+      "support_count": 5.0,
+      "family_score": 0.7983,
+      "dino_rank": 5.0
+     },
+     "french_fries": {
+      "score": 0.7806,
+      "proto_cos": 0.7667,
+      "ref_top1": 0.8275,
+      "ref_top3_mean": 0.7944,
+      "ref_top3_std": 0.0238,
+      "ref_mean": 0.7358,
+      "ref_median": 0.7355,
+      "ref_std": 0.0319,
+      "support_count": 3.0,
+      "family_score": 0.7806,
+      "dino_rank": 3.0
+     },
+     "rice": {
+      "score": 0.761,
+      "proto_cos": 0.7606,
+      "ref_top1": 0.7718,
+      "ref_top3_mean": 0.7615,
+      "ref_top3_std": 0.0073,
+      "ref_mean": 0.7259,
+      "ref_median": 0.7296,
+      "ref_std": 0.0267,
+      "support_count": 1.0,
+      "family_score": 0.761,
+      "dino_rank": 14.0
+     },
+     "biryani": {
+      "score": 0.7571,
+      "proto_cos": 0.7458,
+      "ref_top1": 0.7976,
+      "ref_top3_mean": 0.7684,
+      "ref_top3_std": 0.0225,
+      "ref_mean": 0.697,
+      "ref_median": 0.689,
+      "ref_std": 0.0402,
+      "support_count": 1.0,
+      "family_score": 0.761,
+      "dino_rank": 10.0
+     },
+     "fried_rice": {
+      "score": 0.7423,
+      "proto_cos": 0.7201,
+      "ref_top1": 0.7712,
+      "ref_top3_mean": 0.7645,
+      "ref_top3_std": 0.0053,
+      "ref_mean": 0.6955,
+      "ref_median": 0.6893,
+      "ref_std": 0.0344,
+      "support_count": 0.0,
+      "family_score": 0.761,
+      "dino_rank": 1.0
+     }
+    }
+   },
+   {
+    "query_id": "f0b6afd6-f7cf-4426-81c0-9bd1ba93440c",
+    "ground_truth": "garlic",
+    "gt_family": "produce",
+    "gt_state": "raw",
+    "transition": "absent_from_top5",
+    "original_e_top5": [
+     "tomato_paste",
+     "rice",
+     "yogurt",
+     "ice_cream",
+     "pad_thai"
+    ],
+    "reranked_top5": [
+     "tomato_paste",
+     "rice",
+     "yogurt",
+     "pad_thai",
+     "ice_cream"
+    ],
+    "correct_original_rank": null,
+    "correct_new_rank": null,
+    "candidate_probabilities": {
+     "tomato_paste": 0.8911,
+     "rice": 0.0641,
+     "yogurt": 0.0303,
+     "ice_cream": 0.0087,
+     "pad_thai": 0.0087
+    },
+    "reference_statistics": {
+     "tomato_paste": {
+      "score": 0.7413,
+      "proto_cos": 0.7489,
+      "ref_top1": 0.7421,
+      "ref_top3_mean": 0.7337,
+      "ref_top3_std": 0.006,
+      "ref_mean": 0.7038,
+      "ref_median": 0.7059,
+      "ref_std": 0.0204,
+      "support_count": 8.0,
+      "family_score": 0.7413,
+      "dino_rank": 11.0
+     },
+     "rice": {
+      "score": 0.7059,
+      "proto_cos": 0.6998,
+      "ref_top1": 0.7269,
+      "ref_top3_mean": 0.7119,
+      "ref_top3_std": 0.0156,
+      "ref_mean": 0.6679,
+      "ref_median": 0.6616,
+      "ref_std": 0.0248,
+      "support_count": 2.0,
+      "family_score": 0.7059,
+      "dino_rank": 12.0
+     },
+     "yogurt": {
+      "score": 0.7004,
+      "proto_cos": 0.7047,
+      "ref_top1": 0.7046,
+      "ref_top3_mean": 0.6961,
+      "ref_top3_std": 0.006,
+      "ref_mean": 0.664,
+      "ref_median": 0.667,
+      "ref_std": 0.0235,
+      "support_count": 0.0,
+      "family_score": 0.7004,
+      "dino_rank": 15.0
+     },
+     "ice_cream": {
+      "score": 0.6773,
+      "proto_cos": 0.6708,
+      "ref_top1": 0.704,
+      "ref_top3_mean": 0.6838,
+      "ref_top3_std": 0.0166,
+      "ref_mean": 0.6394,
+      "ref_median": 0.6361,
+      "ref_std": 0.0259,
+      "support_count": 0.0,
+      "family_score": 0.6773,
+      "dino_rank": 19.0
+     },
+     "pad_thai": {
+      "score": 0.6734,
+      "proto_cos": 0.6642,
+      "ref_top1": 0.7025,
+      "ref_top3_mean": 0.6827,
+      "ref_top3_std": 0.0165,
+      "ref_mean": 0.6309,
+      "ref_median": 0.6318,
+      "ref_std": 0.0337,
+      "support_count": 0.0,
+      "family_score": 0.6734,
+      "dino_rank": 3.0
+     }
+    }
+   },
+   {
+    "query_id": "58e6c7dc-2d5d-4e3f-92d9-c0d7b3071809",
+    "ground_truth": "garlic",
+    "gt_family": "produce",
+    "gt_state": "raw",
+    "transition": "absent_from_top5",
+    "original_e_top5": [
+     "yogurt",
+     "hummus",
+     "rice",
+     "donuts",
+     "salad"
+    ],
+    "reranked_top5": [
+     "yogurt",
+     "hummus",
+     "rice",
+     "salad",
+     "donuts"
+    ],
+    "correct_original_rank": null,
+    "correct_new_rank": null,
+    "candidate_probabilities": {
+     "yogurt": 0.2962,
+     "hummus": 0.0836,
+     "rice": 0.0535,
+     "donuts": 0.0175,
+     "salad": 0.0246
+    },
+    "reference_statistics": {
+     "yogurt": {
+      "score": 0.6919,
+      "proto_cos": 0.6898,
+      "ref_top1": 0.7165,
+      "ref_top3_mean": 0.6939,
+      "ref_top3_std": 0.0169,
+      "ref_mean": 0.65,
+      "ref_median": 0.6494,
+      "ref_std": 0.0309,
+      "support_count": 4.0,
+      "family_score": 0.6919,
+      "dino_rank": 22.0
+     },
+     "hummus": {
+      "score": 0.682,
+      "proto_cos": 0.6823,
+      "ref_top1": 0.6893,
+      "ref_top3_mean": 0.6817,
+      "ref_top3_std": 0.0088,
+      "ref_mean": 0.6504,
+      "ref_median": 0.6548,
+      "ref_std": 0.0217,
+      "support_count": 3.0,
+      "family_score": 0.682,
+      "dino_rank": 4.0
+     },
+     "rice": {
+      "score": 0.6672,
+      "proto_cos": 0.6649,
+      "ref_top1": 0.6743,
+      "ref_top3_mean": 0.6695,
+      "ref_top3_std": 0.0051,
+      "ref_mean": 0.6346,
+      "ref_median": 0.6407,
+      "ref_std": 0.0293,
+      "support_count": 2.0,
+      "family_score": 0.6672,
+      "dino_rank": 1.0
+     },
+     "donuts": {
+      "score": 0.6589,
+      "proto_cos": 0.6605,
+      "ref_top1": 0.6601,
+      "ref_top3_mean": 0.6573,
+      "ref_top3_std": 0.0034,
+      "ref_mean": 0.6222,
+      "ref_median": 0.6248,
+      "ref_std": 0.0278,
+      "support_count": 0.0,
+      "family_score": 0.6589,
+      "dino_rank": 15.0
+     },
+     "salad": {
+      "score": 0.6478,
+      "proto_cos": 0.6446,
+      "ref_top1": 0.6636,
+      "ref_top3_mean": 0.6509,
+      "ref_top3_std": 0.0099,
+      "ref_mean": 0.6143,
+      "ref_median": 0.6188,
+      "ref_std": 0.0263,
+      "support_count": 0.0,
+      "family_score": 0.6478,
+      "dino_rank": 5.0
+     }
+    }
+   },
+   {
+    "query_id": "c7672c2c-bc53-4732-89a3-b4e220f14619",
+    "ground_truth": "ginger",
+    "gt_family": "produce",
+    "gt_state": "raw",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "tomato_paste",
+     "packaged_cheese",
+     "ginger",
+     "non_food",
+     "rice"
+    ],
+    "reranked_top5": [
+     "packaged_cheese",
+     "tomato_paste",
+     "ginger",
+     "rice",
+     "non_food"
+    ],
+    "correct_original_rank": 3,
+    "correct_new_rank": 3,
+    "candidate_probabilities": {
+     "tomato_paste": 0.532,
+     "packaged_cheese": 0.6764,
+     "ginger": 0.05,
+     "non_food": 0.0046,
+     "rice": 0.0056
+    },
+    "reference_statistics": {
+     "tomato_paste": {
+      "score": 0.807,
+      "proto_cos": 0.8033,
+      "ref_top1": 0.8303,
+      "ref_top3_mean": 0.8107,
+      "ref_top3_std": 0.0139,
+      "ref_mean": 0.7549,
+      "ref_median": 0.7529,
+      "ref_std": 0.0339,
+      "support_count": 4.0,
+      "family_score": 0.807,
+      "dino_rank": 1.0
+     },
+     "packaged_cheese": {
+      "score": 0.8019,
+      "proto_cos": 0.8005,
+      "ref_top1": 0.8199,
+      "ref_top3_mean": 0.8033,
+      "ref_top3_std": 0.0118,
+      "ref_mean": 0.7687,
+      "ref_median": 0.7678,
+      "ref_std": 0.0268,
+      "support_count": 5.0,
+      "family_score": 0.8019,
+      "dino_rank": 5.0
+     },
+     "ginger": {
+      "score": 0.7792,
+      "proto_cos": 0.7781,
+      "ref_top1": 0.8,
+      "ref_top3_mean": 0.7803,
+      "ref_top3_std": 0.014,
+      "ref_mean": 0.749,
+      "ref_median": 0.7509,
+      "ref_std": 0.0214,
+      "support_count": 1.0,
+      "family_score": 0.7792,
+      "dino_rank": 22.0
+     },
+     "non_food": {
+      "score": 0.7008,
+      "proto_cos": 0.6985,
+      "ref_top1": 0.7081,
+      "ref_top3_mean": 0.7031,
+      "ref_top3_std": 0.0046,
+      "ref_mean": 0.6593,
+      "ref_median": 0.6627,
+      "ref_std": 0.0291,
+      "support_count": 0.0,
+      "family_score": 0.7008,
+      "dino_rank": 11.0
+     },
+     "rice": {
+      "score": 0.6998,
+      "proto_cos": 0.6932,
+      "ref_top1": 0.7366,
+      "ref_top3_mean": 0.7065,
+      "ref_top3_std": 0.0215,
+      "ref_mean": 0.6616,
+      "ref_median": 0.6594,
+      "ref_std": 0.029,
+      "support_count": 0.0,
+      "family_score": 0.6998,
+      "dino_rank": 18.0
+     }
+    }
+   },
+   {
+    "query_id": "6ec1af71-efd7-45e1-85ef-51f8ae0a3d14",
+    "ground_truth": "guacamole",
+    "gt_family": "dip",
+    "gt_state": "plated",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "omelette",
+     "guacamole",
+     "biryani",
+     "spring_rolls",
+     "rice"
+    ],
+    "reranked_top5": [
+     "omelette",
+     "biryani",
+     "guacamole",
+     "spring_rolls",
+     "rice"
+    ],
+    "correct_original_rank": 2,
+    "correct_new_rank": 3,
+    "candidate_probabilities": {
+     "omelette": 0.9452,
+     "guacamole": 0.0087,
+     "biryani": 0.0095,
+     "spring_rolls": 0.0004,
+     "rice": 0.0003
+    },
+    "reference_statistics": {
+     "omelette": {
+      "score": 0.8662,
+      "proto_cos": 0.8663,
+      "ref_top1": 0.8718,
+      "ref_top3_mean": 0.8662,
+      "ref_top3_std": 0.0065,
+      "ref_mean": 0.8359,
+      "ref_median": 0.8415,
+      "ref_std": 0.0231,
+      "support_count": 10.0,
+      "family_score": 0.8662,
+      "dino_rank": 1.0
+     },
+     "guacamole": {
+      "score": 0.7553,
+      "proto_cos": 0.7519,
+      "ref_top1": 0.7819,
+      "ref_top3_mean": 0.7587,
+      "ref_top3_std": 0.0172,
+      "ref_mean": 0.713,
+      "ref_median": 0.7122,
+      "ref_std": 0.0298,
+      "support_count": 0.0,
+      "family_score": 0.7553,
+      "dino_rank": 5.0
+     },
+     "biryani": {
+      "score": 0.7449,
+      "proto_cos": 0.7096,
+      "ref_top1": 0.8014,
+      "ref_top3_mean": 0.7801,
+      "ref_top3_std": 0.0269,
+      "ref_mean": 0.6632,
+      "ref_median": 0.648,
+      "ref_std": 0.0591,
+      "support_count": 0.0,
+      "family_score": 0.7449,
+      "dino_rank": 10.0
+     },
+     "spring_rolls": {
+      "score": 0.6896,
+      "proto_cos": 0.6733,
+      "ref_top1": 0.714,
+      "ref_top3_mean": 0.7059,
+      "ref_top3_std": 0.0102,
+      "ref_mean": 0.6474,
+      "ref_median": 0.6426,
+      "ref_std": 0.0313,
+      "support_count": 0.0,
+      "family_score": 0.6896,
+      "dino_rank": 3.0
+     },
+     "rice": {
+      "score": 0.686,
+      "proto_cos": 0.6775,
+      "ref_top1": 0.7201,
+      "ref_top3_mean": 0.6945,
+      "ref_top3_std": 0.0181,
+      "ref_mean": 0.6466,
+      "ref_median": 0.6377,
+      "ref_std": 0.0282,
+      "support_count": 0.0,
+      "family_score": 0.7449,
+      "dino_rank": 8.0
+     }
+    }
+   },
+   {
+    "query_id": "f9618f94-378b-4779-9fac-c83f97672b98",
+    "ground_truth": "guacamole",
+    "gt_family": "dip",
+    "gt_state": "plated",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "hummus",
+     "guacamole",
+     "salad",
+     "yogurt",
+     "caesar_salad"
+    ],
+    "reranked_top5": [
+     "hummus",
+     "guacamole",
+     "salad",
+     "yogurt",
+     "caesar_salad"
+    ],
+    "correct_original_rank": 2,
+    "correct_new_rank": 2,
+    "candidate_probabilities": {
+     "hummus": 0.6364,
+     "guacamole": 0.5983,
+     "salad": 0.0032,
+     "yogurt": 0.0005,
+     "caesar_salad": 0.0001
+    },
+    "reference_statistics": {
+     "hummus": {
+      "score": 0.939,
+      "proto_cos": 0.9368,
+      "ref_top1": 0.9587,
+      "ref_top3_mean": 0.9412,
+      "ref_top3_std": 0.0124,
+      "ref_mean": 0.8932,
+      "ref_median": 0.9086,
+      "ref_std": 0.0403,
+      "support_count": 6.0,
+      "family_score": 0.939,
+      "dino_rank": 1.0
+     },
+     "guacamole": {
+      "score": 0.9384,
+      "proto_cos": 0.9433,
+      "ref_top1": 0.9467,
+      "ref_top3_mean": 0.9335,
+      "ref_top3_std": 0.0095,
+      "ref_mean": 0.8945,
+      "ref_median": 0.8996,
+      "ref_std": 0.0264,
+      "support_count": 4.0,
+      "family_score": 0.939,
+      "dino_rank": 2.0
+     },
+     "salad": {
+      "score": 0.7551,
+      "proto_cos": 0.752,
+      "ref_top1": 0.7682,
+      "ref_top3_mean": 0.7582,
+      "ref_top3_std": 0.0106,
+      "ref_mean": 0.7167,
+      "ref_median": 0.7156,
+      "ref_std": 0.0275,
+      "support_count": 0.0,
+      "family_score": 0.7551,
+      "dino_rank": 7.0
+     },
+     "yogurt": {
+      "score": 0.7412,
+      "proto_cos": 0.719,
+      "ref_top1": 0.7784,
+      "ref_top3_mean": 0.7634,
+      "ref_top3_std": 0.014,
+      "ref_mean": 0.6775,
+      "ref_median": 0.6727,
+      "ref_std": 0.0555,
+      "support_count": 0.0,
+      "family_score": 0.7412,
+      "dino_rank": 6.0
+     },
+     "caesar_salad": {
+      "score": 0.6911,
+      "proto_cos": 0.6643,
+      "ref_top1": 0.7459,
+      "ref_top3_mean": 0.718,
+      "ref_top3_std": 0.0226,
+      "ref_mean": 0.633,
+      "ref_median": 0.6293,
+      "ref_std": 0.0475,
+      "support_count": 0.0,
+      "family_score": 0.7551,
+      "dino_rank": 4.0
+     }
+    }
+   },
+   {
+    "query_id": "3b13b97f-7d33-4a0d-baff-dcf4280a8bde",
+    "ground_truth": "guacamole",
+    "gt_family": "dip",
+    "gt_state": "plated",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "club_sandwich",
+     "guacamole",
+     "hummus",
+     "cream",
+     "tomato_paste"
+    ],
+    "reranked_top5": [
+     "club_sandwich",
+     "hummus",
+     "guacamole",
+     "cream",
+     "tomato_paste"
+    ],
+    "correct_original_rank": 2,
+    "correct_new_rank": 3,
+    "candidate_probabilities": {
+     "club_sandwich": 0.5147,
+     "guacamole": 0.0534,
+     "hummus": 0.0568,
+     "cream": 0.0442,
+     "tomato_paste": 0.0407
+    },
+    "reference_statistics": {
+     "club_sandwich": {
+      "score": 0.7867,
+      "proto_cos": 0.7802,
+      "ref_top1": 0.8305,
+      "ref_top3_mean": 0.7932,
+      "ref_top3_std": 0.0276,
+      "ref_mean": 0.7425,
+      "ref_median": 0.7347,
+      "ref_std": 0.0277,
+      "support_count": 5.0,
+      "family_score": 0.7867,
+      "dino_rank": 1.0
+     },
+     "guacamole": {
+      "score": 0.7496,
+      "proto_cos": 0.7508,
+      "ref_top1": 0.7629,
+      "ref_top3_mean": 0.7484,
+      "ref_top3_std": 0.0105,
+      "ref_mean": 0.712,
+      "ref_median": 0.7203,
+      "ref_std": 0.0277,
+      "support_count": 1.0,
+      "family_score": 0.7496,
+      "dino_rank": 4.0
+     },
+     "hummus": {
+      "score": 0.7477,
+      "proto_cos": 0.737,
+      "ref_top1": 0.7646,
+      "ref_top3_mean": 0.7583,
+      "ref_top3_std": 0.0047,
+      "ref_mean": 0.7027,
+      "ref_median": 0.6997,
+      "ref_std": 0.0343,
+      "support_count": 3.0,
+      "family_score": 0.7496,
+      "dino_rank": 12.0
+     },
+     "cream": {
+      "score": 0.7418,
+      "proto_cos": 0.7364,
+      "ref_top1": 0.7693,
+      "ref_top3_mean": 0.7472,
+      "ref_top3_std": 0.0169,
+      "ref_mean": 0.7005,
+      "ref_median": 0.7004,
+      "ref_std": 0.025,
+      "support_count": 1.0,
+      "family_score": 0.7418,
+      "dino_rank": 9.0
+     },
+     "tomato_paste": {
+      "score": 0.726,
+      "proto_cos": 0.7264,
+      "ref_top1": 0.7372,
+      "ref_top3_mean": 0.7257,
+      "ref_top3_std": 0.0083,
+      "ref_mean": 0.6826,
+      "ref_median": 0.6759,
+      "ref_std": 0.0259,
+      "support_count": 0.0,
+      "family_score": 0.726,
+      "dino_rank": 22.0
+     }
+    }
+   },
+   {
+    "query_id": "919fbcb5-47e6-4613-bc6c-4f4dc100fe3f",
+    "ground_truth": "guacamole",
+    "gt_family": "dip",
+    "gt_state": "plated",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "hummus",
+     "guacamole",
+     "yogurt",
+     "salad",
+     "rice"
+    ],
+    "reranked_top5": [
+     "hummus",
+     "guacamole",
+     "salad",
+     "yogurt",
+     "rice"
+    ],
+    "correct_original_rank": 2,
+    "correct_new_rank": 2,
+    "candidate_probabilities": {
+     "hummus": 0.9103,
+     "guacamole": 0.186,
+     "yogurt": 0.0008,
+     "salad": 0.002,
+     "rice": 0.0001
+    },
+    "reference_statistics": {
+     "hummus": {
+      "score": 0.95,
+      "proto_cos": 0.9545,
+      "ref_top1": 0.9533,
+      "ref_top3_mean": 0.9455,
+      "ref_top3_std": 0.0057,
+      "ref_mean": 0.91,
+      "ref_median": 0.9203,
+      "ref_std": 0.0306,
+      "support_count": 9.0,
+      "family_score": 0.95,
+      "dino_rank": 1.0
+     },
+     "guacamole": {
+      "score": 0.9245,
+      "proto_cos": 0.9282,
+      "ref_top1": 0.9499,
+      "ref_top3_mean": 0.9207,
+      "ref_top3_std": 0.0207,
+      "ref_mean": 0.8802,
+      "ref_median": 0.8728,
+      "ref_std": 0.0278,
+      "support_count": 1.0,
+      "family_score": 0.95,
+      "dino_rank": 2.0
+     },
+     "yogurt": {
+      "score": 0.7693,
+      "proto_cos": 0.7503,
+      "ref_top1": 0.7978,
+      "ref_top3_mean": 0.7883,
+      "ref_top3_std": 0.0068,
+      "ref_mean": 0.707,
+      "ref_median": 0.6988,
+      "ref_std": 0.0509,
+      "support_count": 0.0,
+      "family_score": 0.7693,
+      "dino_rank": 3.0
+     },
+     "salad": {
+      "score": 0.7517,
+      "proto_cos": 0.7466,
+      "ref_top1": 0.7636,
+      "ref_top3_mean": 0.7568,
+      "ref_top3_std": 0.0068,
+      "ref_mean": 0.7115,
+      "ref_median": 0.7092,
+      "ref_std": 0.0294,
+      "support_count": 0.0,
+      "family_score": 0.7517,
+      "dino_rank": 5.0
+     },
+     "rice": {
+      "score": 0.7037,
+      "proto_cos": 0.682,
+      "ref_top1": 0.7479,
+      "ref_top3_mean": 0.7254,
+      "ref_top3_std": 0.0161,
+      "ref_mean": 0.6509,
+      "ref_median": 0.6581,
+      "ref_std": 0.0499,
+      "support_count": 0.0,
+      "family_score": 0.7037,
+      "dino_rank": 7.0
+     }
+    }
+   },
+   {
+    "query_id": "ee5cd632-3959-4ae6-9cdf-a8ecc0369dae",
+    "ground_truth": "hummus",
+    "gt_family": "dip",
+    "gt_state": "plated",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "tomato_paste",
+     "garlic",
+     "packaged_cheese",
+     "non_food",
+     "hummus"
+    ],
+    "reranked_top5": [
+     "tomato_paste",
+     "packaged_cheese",
+     "hummus",
+     "non_food",
+     "garlic"
+    ],
+    "correct_original_rank": 5,
+    "correct_new_rank": 3,
+    "candidate_probabilities": {
+     "tomato_paste": 0.9812,
+     "garlic": 0.0024,
+     "packaged_cheese": 0.0181,
+     "non_food": 0.0046,
+     "hummus": 0.0068
+    },
+    "reference_statistics": {
+     "tomato_paste": {
+      "score": 0.8452,
+      "proto_cos": 0.8534,
+      "ref_top1": 0.8489,
+      "ref_top3_mean": 0.8371,
+      "ref_top3_std": 0.0084,
+      "ref_mean": 0.802,
+      "ref_median": 0.803,
+      "ref_std": 0.0237,
+      "support_count": 9.0,
+      "family_score": 0.8452,
+      "dino_rank": 4.0
+     },
+     "garlic": {
+      "score": 0.7558,
+      "proto_cos": 0.7387,
+      "ref_top1": 0.7897,
+      "ref_top3_mean": 0.7728,
+      "ref_top3_std": 0.0135,
+      "ref_mean": 0.7212,
+      "ref_median": 0.7206,
+      "ref_std": 0.0291,
+      "support_count": 0.0,
+      "family_score": 0.7558,
+      "dino_rank": 2.0
+     },
+     "packaged_cheese": {
+      "score": 0.7494,
+      "proto_cos": 0.7499,
+      "ref_top1": 0.7495,
+      "ref_top3_mean": 0.7488,
+      "ref_top3_std": 0.0005,
+      "ref_mean": 0.7201,
+      "ref_median": 0.7208,
+      "ref_std": 0.029,
+      "support_count": 0.0,
+      "family_score": 0.7494,
+      "dino_rank": 1.0
+     },
+     "non_food": {
+      "score": 0.7346,
+      "proto_cos": 0.7312,
+      "ref_top1": 0.7418,
+      "ref_top3_mean": 0.738,
+      "ref_top3_std": 0.0051,
+      "ref_mean": 0.6901,
+      "ref_median": 0.6823,
+      "ref_std": 0.0298,
+      "support_count": 0.0,
+      "family_score": 0.7346,
+      "dino_rank": 8.0
+     },
+     "hummus": {
+      "score": 0.7288,
+      "proto_cos": 0.6996,
+      "ref_top1": 0.8037,
+      "ref_top3_mean": 0.7579,
+      "ref_top3_std": 0.0336,
+      "ref_mean": 0.667,
+      "ref_median": 0.6553,
+      "ref_std": 0.048,
+      "support_count": 1.0,
+      "family_score": 0.7288,
+      "dino_rank": 5.0
+     }
+    }
+   },
+   {
+    "query_id": "29425755-7bce-4486-aa3a-6e0edda1ef06",
+    "ground_truth": "hummus",
+    "gt_family": "dip",
+    "gt_state": "plated",
+    "transition": "absent_from_top5",
+    "original_e_top5": [
+     "packaged_cheese",
+     "tomato_paste",
+     "non_food",
+     "pasta",
+     "tomato"
+    ],
+    "reranked_top5": [
+     "packaged_cheese",
+     "tomato_paste",
+     "non_food",
+     "pasta",
+     "tomato"
+    ],
+    "correct_original_rank": null,
+    "correct_new_rank": null,
+    "candidate_probabilities": {
+     "packaged_cheese": 0.9976,
+     "tomato_paste": 0.0136,
+     "non_food": 0.0001,
+     "pasta": 0.0,
+     "tomato": 0.0
+    },
+    "reference_statistics": {
+     "packaged_cheese": {
+      "score": 0.9059,
+      "proto_cos": 0.9098,
+      "ref_top1": 0.9109,
+      "ref_top3_mean": 0.902,
+      "ref_top3_std": 0.0063,
+      "ref_mean": 0.8736,
+      "ref_median": 0.8717,
+      "ref_std": 0.0235,
+      "support_count": 10.0,
+      "family_score": 0.9059,
+      "dino_rank": 1.0
+     },
+     "tomato_paste": {
+      "score": 0.7544,
+      "proto_cos": 0.7524,
+      "ref_top1": 0.7672,
+      "ref_top3_mean": 0.7564,
+      "ref_top3_std": 0.008,
+      "ref_mean": 0.7071,
+      "ref_median": 0.7062,
+      "ref_std": 0.0373,
+      "support_count": 0.0,
+      "family_score": 0.7544,
+      "dino_rank": 2.0
+     },
+     "non_food": {
+      "score": 0.6366,
+      "proto_cos": 0.6115,
+      "ref_top1": 0.7257,
+      "ref_top3_mean": 0.6617,
+      "ref_top3_std": 0.0455,
+      "ref_mean": 0.5771,
+      "ref_median": 0.575,
+      "ref_std": 0.052,
+      "support_count": 0.0,
+      "family_score": 0.6366,
+      "dino_rank": 9.0
+     },
+     "pasta": {
+      "score": 0.6295,
+      "proto_cos": 0.611,
+      "ref_top1": 0.6777,
+      "ref_top3_mean": 0.6481,
+      "ref_top3_std": 0.0229,
+      "ref_mean": 0.5793,
+      "ref_median": 0.5695,
+      "ref_std": 0.0372,
+      "support_count": 0.0,
+      "family_score": 0.6295,
+      "dino_rank": 8.0
+     },
+     "tomato": {
+      "score": 0.6264,
+      "proto_cos": 0.614,
+      "ref_top1": 0.6534,
+      "ref_top3_mean": 0.6389,
+      "ref_top3_std": 0.0122,
+      "ref_mean": 0.5964,
+      "ref_median": 0.6017,
+      "ref_std": 0.0311,
+      "support_count": 0.0,
+      "family_score": 0.6264,
+      "dino_rank": 6.0
+     }
+    }
+   },
+   {
+    "query_id": "e4e5f322-5384-44b7-86d0-b6afb017b697",
+    "ground_truth": "ice_cream",
+    "gt_family": "prepared_sweet",
+    "gt_state": "plated",
+    "transition": "wrong->correct",
+    "original_e_top5": [
+     "yogurt",
+     "ice_cream",
+     "cream",
+     "hummus",
+     "donuts"
+    ],
+    "reranked_top5": [
+     "ice_cream",
+     "yogurt",
+     "cream",
+     "hummus",
+     "donuts"
+    ],
+    "correct_original_rank": 2,
+    "correct_new_rank": 1,
+    "candidate_probabilities": {
+     "yogurt": 0.3555,
+     "ice_cream": 0.408,
+     "cream": 0.233,
+     "hummus": 0.0088,
+     "donuts": 0.0
+    },
+    "reference_statistics": {
+     "yogurt": {
+      "score": 0.9112,
+      "proto_cos": 0.9179,
+      "ref_top1": 0.9096,
+      "ref_top3_mean": 0.9045,
+      "ref_top3_std": 0.0036,
+      "ref_mean": 0.865,
+      "ref_median": 0.8717,
+      "ref_std": 0.0354,
+      "support_count": 3.0,
+      "family_score": 0.9112,
+      "dino_rank": 3.0
+     },
+     "ice_cream": {
+      "score": 0.9082,
+      "proto_cos": 0.9038,
+      "ref_top1": 0.9275,
+      "ref_top3_mean": 0.9126,
+      "ref_top3_std": 0.0106,
+      "ref_mean": 0.8616,
+      "ref_median": 0.8695,
+      "ref_std": 0.0365,
+      "support_count": 4.0,
+      "family_score": 0.9082,
+      "dino_rank": 1.0
+     },
+     "cream": {
+      "score": 0.8988,
+      "proto_cos": 0.8927,
+      "ref_top1": 0.9106,
+      "ref_top3_mean": 0.9049,
+      "ref_top3_std": 0.0062,
+      "ref_mean": 0.8492,
+      "ref_median": 0.8483,
+      "ref_std": 0.0373,
+      "support_count": 3.0,
+      "family_score": 0.9112,
+      "dino_rank": 4.0
+     },
+     "hummus": {
+      "score": 0.8245,
+      "proto_cos": 0.8027,
+      "ref_top1": 0.8714,
+      "ref_top3_mean": 0.8463,
+      "ref_top3_std": 0.0204,
+      "ref_mean": 0.7653,
+      "ref_median": 0.7529,
+      "ref_std": 0.0468,
+      "support_count": 0.0,
+      "family_score": 0.8245,
+      "dino_rank": 2.0
+     },
+     "donuts": {
+      "score": 0.6973,
+      "proto_cos": 0.6674,
+      "ref_top1": 0.7497,
+      "ref_top3_mean": 0.7273,
+      "ref_top3_std": 0.0159,
+      "ref_mean": 0.6287,
+      "ref_median": 0.635,
+      "ref_std": 0.0646,
+      "support_count": 0.0,
+      "family_score": 0.9082,
+      "dino_rank": 10.0
+     }
+    }
+   },
+   {
+    "query_id": "5a3927f6-8dcf-4788-ba44-c7a5c28d2b58",
+    "ground_truth": "ice_cream",
+    "gt_family": "prepared_sweet",
+    "gt_state": "plated",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "cream",
+     "ice_cream",
+     "yogurt",
+     "donuts",
+     "hummus"
+    ],
+    "reranked_top5": [
+     "cream",
+     "ice_cream",
+     "yogurt",
+     "donuts",
+     "hummus"
+    ],
+    "correct_original_rank": 2,
+    "correct_new_rank": 2,
+    "candidate_probabilities": {
+     "cream": 0.9481,
+     "ice_cream": 0.0313,
+     "yogurt": 0.0277,
+     "donuts": 0.0031,
+     "hummus": 0.001
+    },
+    "reference_statistics": {
+     "cream": {
+      "score": 0.9327,
+      "proto_cos": 0.9426,
+      "ref_top1": 0.9258,
+      "ref_top3_mean": 0.9228,
+      "ref_top3_std": 0.0023,
+      "ref_mean": 0.8966,
+      "ref_median": 0.9008,
+      "ref_std": 0.0183,
+      "support_count": 10.0,
+      "family_score": 0.9327,
+      "dino_rank": 1.0
+     },
+     "ice_cream": {
+      "score": 0.8897,
+      "proto_cos": 0.8916,
+      "ref_top1": 0.8906,
+      "ref_top3_mean": 0.8878,
+      "ref_top3_std": 0.0027,
+      "ref_mean": 0.8499,
+      "ref_median": 0.8522,
+      "ref_std": 0.0293,
+      "support_count": 0.0,
+      "family_score": 0.8897,
+      "dino_rank": 4.0
+     },
+     "yogurt": {
+      "score": 0.8845,
+      "proto_cos": 0.8821,
+      "ref_top1": 0.889,
+      "ref_top3_mean": 0.8869,
+      "ref_top3_std": 0.0027,
+      "ref_mean": 0.8312,
+      "ref_median": 0.8275,
+      "ref_std": 0.0324,
+      "support_count": 0.0,
+      "family_score": 0.9327,
+      "dino_rank": 5.0
+     },
+     "donuts": {
+      "score": 0.8236,
+      "proto_cos": 0.8075,
+      "ref_top1": 0.8595,
+      "ref_top3_mean": 0.8396,
+      "ref_top3_std": 0.0146,
+      "ref_mean": 0.7607,
+      "ref_median": 0.7697,
+      "ref_std": 0.0548,
+      "support_count": 0.0,
+      "family_score": 0.8897,
+      "dino_rank": 3.0
+     },
+     "hummus": {
+      "score": 0.7789,
+      "proto_cos": 0.76,
+      "ref_top1": 0.8077,
+      "ref_top3_mean": 0.7978,
+      "ref_top3_std": 0.0127,
+      "ref_mean": 0.7245,
+      "ref_median": 0.7152,
+      "ref_std": 0.0431,
+      "support_count": 0.0,
+      "family_score": 0.7789,
+      "dino_rank": 7.0
+     }
+    }
+   },
+   {
+    "query_id": "280b46fb-8570-47ae-96b4-a13e6ea2453b",
+    "ground_truth": "ice_cream",
+    "gt_family": "prepared_sweet",
+    "gt_state": "plated",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "cream",
+     "yogurt",
+     "ice_cream",
+     "donuts",
+     "hummus"
+    ],
+    "reranked_top5": [
+     "cream",
+     "yogurt",
+     "ice_cream",
+     "hummus",
+     "donuts"
+    ],
+    "correct_original_rank": 3,
+    "correct_new_rank": 3,
+    "candidate_probabilities": {
+     "cream": 0.7962,
+     "yogurt": 0.1461,
+     "ice_cream": 0.0664,
+     "donuts": 0.0003,
+     "hummus": 0.0004
+    },
+    "reference_statistics": {
+     "cream": {
+      "score": 0.9181,
+      "proto_cos": 0.9295,
+      "ref_top1": 0.9098,
+      "ref_top3_mean": 0.9067,
+      "ref_top3_std": 0.0024,
+      "ref_mean": 0.8841,
+      "ref_median": 0.8802,
+      "ref_std": 0.014,
+      "support_count": 7.0,
+      "family_score": 0.9181,
+      "dino_rank": 2.0
+     },
+     "yogurt": {
+      "score": 0.8842,
+      "proto_cos": 0.8798,
+      "ref_top1": 0.9088,
+      "ref_top3_mean": 0.8886,
+      "ref_top3_std": 0.0149,
+      "ref_mean": 0.829,
+      "ref_median": 0.8261,
+      "ref_std": 0.0386,
+      "support_count": 2.0,
+      "family_score": 0.9181,
+      "dino_rank": 3.0
+     },
+     "ice_cream": {
+      "score": 0.8814,
+      "proto_cos": 0.8784,
+      "ref_top1": 0.8996,
+      "ref_top3_mean": 0.8845,
+      "ref_top3_std": 0.0108,
+      "ref_mean": 0.8374,
+      "ref_median": 0.8426,
+      "ref_std": 0.031,
+      "support_count": 1.0,
+      "family_score": 0.8814,
+      "dino_rank": 1.0
+     },
+     "donuts": {
+      "score": 0.7596,
+      "proto_cos": 0.7421,
+      "ref_top1": 0.8001,
+      "ref_top3_mean": 0.7771,
+      "ref_top3_std": 0.0162,
+      "ref_mean": 0.6991,
+      "ref_median": 0.7097,
+      "ref_std": 0.055,
+      "support_count": 0.0,
+      "family_score": 0.8814,
+      "dino_rank": 4.0
+     },
+     "hummus": {
+      "score": 0.7333,
+      "proto_cos": 0.712,
+      "ref_top1": 0.769,
+      "ref_top3_mean": 0.7546,
+      "ref_top3_std": 0.0134,
+      "ref_mean": 0.6788,
+      "ref_median": 0.6712,
+      "ref_std": 0.0425,
+      "support_count": 0.0,
+      "family_score": 0.7333,
+      "dino_rank": 6.0
+     }
+    }
+   },
+   {
+    "query_id": "a2ddf81f-0873-493f-8103-d567c2c54a55",
+    "ground_truth": "omelette",
+    "gt_family": "prepared_egg",
+    "gt_state": "plated",
+    "transition": "absent_from_top5",
+    "original_e_top5": [
+     "bibimbap",
+     "tomato",
+     "biryani",
+     "salad",
+     "pad_thai"
+    ],
+    "reranked_top5": [
+     "bibimbap",
+     "salad",
+     "tomato",
+     "pad_thai",
+     "biryani"
+    ],
+    "correct_original_rank": null,
+    "correct_new_rank": null,
+    "candidate_probabilities": {
+     "bibimbap": 0.9727,
+     "tomato": 0.0013,
+     "biryani": 0.0004,
+     "salad": 0.0037,
+     "pad_thai": 0.0008
+    },
+    "reference_statistics": {
+     "bibimbap": {
+      "score": 0.8863,
+      "proto_cos": 0.8915,
+      "ref_top1": 0.8942,
+      "ref_top3_mean": 0.8811,
+      "ref_top3_std": 0.0093,
+      "ref_mean": 0.8532,
+      "ref_median": 0.8631,
+      "ref_std": 0.0262,
+      "support_count": 10.0,
+      "family_score": 0.8863,
+      "dino_rank": 1.0
+     },
+     "tomato": {
+      "score": 0.764,
+      "proto_cos": 0.7589,
+      "ref_top1": 0.7791,
+      "ref_top3_mean": 0.769,
+      "ref_top3_std": 0.0072,
+      "ref_mean": 0.7372,
+      "ref_median": 0.7391,
+      "ref_std": 0.0216,
+      "support_count": 0.0,
+      "family_score": 0.764,
+      "dino_rank": 13.0
+     },
+     "biryani": {
+      "score": 0.737,
+      "proto_cos": 0.7038,
+      "ref_top1": 0.8148,
+      "ref_top3_mean": 0.7702,
+      "ref_top3_std": 0.0317,
+      "ref_mean": 0.6577,
+      "ref_median": 0.6565,
+      "ref_std": 0.06,
+      "support_count": 0.0,
+      "family_score": 0.8863,
+      "dino_rank": 3.0
+     },
+     "salad": {
+      "score": 0.7353,
+      "proto_cos": 0.7223,
+      "ref_top1": 0.7642,
+      "ref_top3_mean": 0.7483,
+      "ref_top3_std": 0.0118,
+      "ref_mean": 0.6884,
+      "ref_median": 0.6886,
+      "ref_std": 0.0421,
+      "support_count": 0.0,
+      "family_score": 0.7353,
+      "dino_rank": 11.0
+     },
+     "pad_thai": {
+      "score": 0.6979,
+      "proto_cos": 0.6716,
+      "ref_top1": 0.7667,
+      "ref_top3_mean": 0.7243,
+      "ref_top3_std": 0.0323,
+      "ref_mean": 0.6379,
+      "ref_median": 0.6285,
+      "ref_std": 0.0511,
+      "support_count": 0.0,
+      "family_score": 0.6979,
+      "dino_rank": 10.0
+     }
+    }
+   },
+   {
+    "query_id": "99d43ebe-7dc2-4f73-8b08-0b07b8dcb98b",
+    "ground_truth": "packaged_cheese",
+    "gt_family": "packaged_dairy",
+    "gt_state": "packaged",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "cheese",
+     "donuts",
+     "packaged_cheese",
+     "cream",
+     "pizza"
+    ],
+    "reranked_top5": [
+     "cheese",
+     "donuts",
+     "packaged_cheese",
+     "cream",
+     "pizza"
+    ],
+    "correct_original_rank": 3,
+    "correct_new_rank": 3,
+    "candidate_probabilities": {
+     "cheese": 0.956,
+     "donuts": 0.0187,
+     "packaged_cheese": 0.0081,
+     "cream": 0.0002,
+     "pizza": 0.0002
+    },
+    "reference_statistics": {
+     "cheese": {
+      "score": 0.8798,
+      "proto_cos": 0.8874,
+      "ref_top1": 0.8754,
+      "ref_top3_mean": 0.8722,
+      "ref_top3_std": 0.0023,
+      "ref_mean": 0.8489,
+      "ref_median": 0.8509,
+      "ref_std": 0.0187,
+      "support_count": 10.0,
+      "family_score": 0.8798,
+      "dino_rank": 1.0
+     },
+     "donuts": {
+      "score": 0.7946,
+      "proto_cos": 0.797,
+      "ref_top1": 0.814,
+      "ref_top3_mean": 0.7923,
+      "ref_top3_std": 0.0155,
+      "ref_mean": 0.7507,
+      "ref_median": 0.7582,
+      "ref_std": 0.0296,
+      "support_count": 0.0,
+      "family_score": 0.7946,
+      "dino_rank": 2.0
+     },
+     "packaged_cheese": {
+      "score": 0.7598,
+      "proto_cos": 0.7443,
+      "ref_top1": 0.7936,
+      "ref_top3_mean": 0.7753,
+      "ref_top3_std": 0.0131,
+      "ref_mean": 0.7148,
+      "ref_median": 0.6981,
+      "ref_std": 0.0385,
+      "support_count": 0.0,
+      "family_score": 0.7598,
+      "dino_rank": 3.0
+     },
+     "cream": {
+      "score": 0.7247,
+      "proto_cos": 0.7021,
+      "ref_top1": 0.7857,
+      "ref_top3_mean": 0.7474,
+      "ref_top3_std": 0.0278,
+      "ref_mean": 0.6678,
+      "ref_median": 0.6816,
+      "ref_std": 0.0566,
+      "support_count": 0.0,
+      "family_score": 0.8798,
+      "dino_rank": 6.0
+     },
+     "pizza": {
+      "score": 0.6958,
+      "proto_cos": 0.6758,
+      "ref_top1": 0.7193,
+      "ref_top3_mean": 0.7159,
+      "ref_top3_std": 0.0046,
+      "ref_mean": 0.6516,
+      "ref_median": 0.658,
+      "ref_std": 0.0489,
+      "support_count": 0.0,
+      "family_score": 0.6958,
+      "dino_rank": 7.0
+     }
+    }
+   },
+   {
+    "query_id": "539e8002-5504-4e57-bc00-0bd0ac60aa00",
+    "ground_truth": "packaged_cheese",
+    "gt_family": "packaged_dairy",
+    "gt_state": "packaged",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "cheese",
+     "packaged_cheese",
+     "cream",
+     "donuts",
+     "pizza"
+    ],
+    "reranked_top5": [
+     "cheese",
+     "packaged_cheese",
+     "donuts",
+     "cream",
+     "pizza"
+    ],
+    "correct_original_rank": 2,
+    "correct_new_rank": 2,
+    "candidate_probabilities": {
+     "cheese": 0.9249,
+     "packaged_cheese": 0.0266,
+     "cream": 0.001,
+     "donuts": 0.0044,
+     "pizza": 0.0009
+    },
+    "reference_statistics": {
+     "cheese": {
+      "score": 0.8299,
+      "proto_cos": 0.8321,
+      "ref_top1": 0.8347,
+      "ref_top3_mean": 0.8277,
+      "ref_top3_std": 0.0053,
+      "ref_mean": 0.796,
+      "ref_median": 0.7903,
+      "ref_std": 0.0185,
+      "support_count": 10.0,
+      "family_score": 0.8299,
+      "dino_rank": 1.0
+     },
+     "packaged_cheese": {
+      "score": 0.7588,
+      "proto_cos": 0.7479,
+      "ref_top1": 0.7779,
+      "ref_top3_mean": 0.7696,
+      "ref_top3_std": 0.0084,
+      "ref_mean": 0.7182,
+      "ref_median": 0.7089,
+      "ref_std": 0.0341,
+      "support_count": 0.0,
+      "family_score": 0.7588,
+      "dino_rank": 2.0
+     },
+     "cream": {
+      "score": 0.7214,
+      "proto_cos": 0.7029,
+      "ref_top1": 0.7611,
+      "ref_top3_mean": 0.74,
+      "ref_top3_std": 0.0149,
+      "ref_mean": 0.6686,
+      "ref_median": 0.6795,
+      "ref_std": 0.0508,
+      "support_count": 0.0,
+      "family_score": 0.8299,
+      "dino_rank": 6.0
+     },
+     "donuts": {
+      "score": 0.7134,
+      "proto_cos": 0.7065,
+      "ref_top1": 0.7403,
+      "ref_top3_mean": 0.7203,
+      "ref_top3_std": 0.015,
+      "ref_mean": 0.6655,
+      "ref_median": 0.665,
+      "ref_std": 0.0309,
+      "support_count": 0.0,
+      "family_score": 0.7134,
+      "dino_rank": 4.0
+     },
+     "pizza": {
+      "score": 0.7044,
+      "proto_cos": 0.6852,
+      "ref_top1": 0.7435,
+      "ref_top3_mean": 0.7235,
+      "ref_top3_std": 0.0142,
+      "ref_mean": 0.6607,
+      "ref_median": 0.6574,
+      "ref_std": 0.0409,
+      "support_count": 0.0,
+      "family_score": 0.7044,
+      "dino_rank": 11.0
+     }
+    }
+   },
+   {
+    "query_id": "523c8785-1a84-4059-901d-086cc5fa8630",
+    "ground_truth": "packaged_cheese",
+    "gt_family": "packaged_dairy",
+    "gt_state": "packaged",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "cheese",
+     "donuts",
+     "cream",
+     "packaged_cheese",
+     "club_sandwich"
+    ],
+    "reranked_top5": [
+     "cheese",
+     "donuts",
+     "packaged_cheese",
+     "club_sandwich",
+     "cream"
+    ],
+    "correct_original_rank": 4,
+    "correct_new_rank": 3,
+    "candidate_probabilities": {
+     "cheese": 0.9721,
+     "donuts": 0.0144,
+     "cream": 0.0002,
+     "packaged_cheese": 0.001,
+     "club_sandwich": 0.0002
+    },
+    "reference_statistics": {
+     "cheese": {
+      "score": 0.9029,
+      "proto_cos": 0.9065,
+      "ref_top1": 0.9136,
+      "ref_top3_mean": 0.8993,
+      "ref_top3_std": 0.0106,
+      "ref_mean": 0.8672,
+      "ref_median": 0.8635,
+      "ref_std": 0.0176,
+      "support_count": 10.0,
+      "family_score": 0.9029,
+      "dino_rank": 1.0
+     },
+     "donuts": {
+      "score": 0.8107,
+      "proto_cos": 0.8028,
+      "ref_top1": 0.8346,
+      "ref_top3_mean": 0.8185,
+      "ref_top3_std": 0.0164,
+      "ref_mean": 0.7563,
+      "ref_median": 0.7604,
+      "ref_std": 0.0381,
+      "support_count": 0.0,
+      "family_score": 0.8107,
+      "dino_rank": 3.0
+     },
+     "cream": {
+      "score": 0.7541,
+      "proto_cos": 0.7331,
+      "ref_top1": 0.7939,
+      "ref_top3_mean": 0.7751,
+      "ref_top3_std": 0.0133,
+      "ref_mean": 0.6973,
+      "ref_median": 0.7004,
+      "ref_std": 0.0583,
+      "support_count": 0.0,
+      "family_score": 0.9029,
+      "dino_rank": 2.0
+     },
+     "packaged_cheese": {
+      "score": 0.7037,
+      "proto_cos": 0.6838,
+      "ref_top1": 0.7513,
+      "ref_top3_mean": 0.7236,
+      "ref_top3_std": 0.0222,
+      "ref_mean": 0.6567,
+      "ref_median": 0.6406,
+      "ref_std": 0.0457,
+      "support_count": 0.0,
+      "family_score": 0.7037,
+      "dino_rank": 4.0
+     },
+     "club_sandwich": {
+      "score": 0.6762,
+      "proto_cos": 0.6606,
+      "ref_top1": 0.7239,
+      "ref_top3_mean": 0.6918,
+      "ref_top3_std": 0.0245,
+      "ref_mean": 0.6286,
+      "ref_median": 0.6265,
+      "ref_std": 0.0403,
+      "support_count": 0.0,
+      "family_score": 0.6762,
+      "dino_rank": 10.0
+     }
+    }
+   },
+   {
+    "query_id": "8c04f513-c973-4502-b965-df87751c6771",
+    "ground_truth": "pad_thai",
+    "gt_family": "noodle",
+    "gt_state": "plated",
+    "transition": "absent_from_top5",
+    "original_e_top5": [
+     "omelette",
+     "lasagna",
+     "biryani",
+     "bibimbap",
+     "pasta"
+    ],
+    "reranked_top5": [
+     "omelette",
+     "lasagna",
+     "biryani",
+     "bibimbap",
+     "pasta"
+    ],
+    "correct_original_rank": null,
+    "correct_new_rank": null,
+    "candidate_probabilities": {
+     "omelette": 0.9906,
+     "lasagna": 0.0039,
+     "biryani": 0.0006,
+     "bibimbap": 0.0001,
+     "pasta": 0.0
+    },
+    "reference_statistics": {
+     "omelette": {
+      "score": 0.9594,
+      "proto_cos": 0.9618,
+      "ref_top1": 0.9623,
+      "ref_top3_mean": 0.957,
+      "ref_top3_std": 0.0039,
+      "ref_mean": 0.9281,
+      "ref_median": 0.9324,
+      "ref_std": 0.0237,
+      "support_count": 10.0,
+      "family_score": 0.9594,
+      "dino_rank": 1.0
+     },
+     "lasagna": {
+      "score": 0.8135,
+      "proto_cos": 0.804,
+      "ref_top1": 0.8288,
+      "ref_top3_mean": 0.8231,
+      "ref_top3_std": 0.0041,
+      "ref_mean": 0.7746,
+      "ref_median": 0.7737,
+      "ref_std": 0.0348,
+      "support_count": 0.0,
+      "family_score": 0.8135,
+      "dino_rank": 2.0
+     },
+     "biryani": {
+      "score": 0.6701,
+      "proto_cos": 0.6177,
+      "ref_top1": 0.7924,
+      "ref_top3_mean": 0.7225,
+      "ref_top3_std": 0.0559,
+      "ref_mean": 0.5773,
+      "ref_median": 0.565,
+      "ref_std": 0.0752,
+      "support_count": 0.0,
+      "family_score": 0.6701,
+      "dino_rank": 4.0
+     },
+     "bibimbap": {
+      "score": 0.6595,
+      "proto_cos": 0.6209,
+      "ref_top1": 0.7522,
+      "ref_top3_mean": 0.6981,
+      "ref_top3_std": 0.0394,
+      "ref_mean": 0.5943,
+      "ref_median": 0.5781,
+      "ref_std": 0.0571,
+      "support_count": 0.0,
+      "family_score": 0.6701,
+      "dino_rank": 3.0
+     },
+     "pasta": {
+      "score": 0.6475,
+      "proto_cos": 0.6284,
+      "ref_top1": 0.6824,
+      "ref_top3_mean": 0.6665,
+      "ref_top3_std": 0.0116,
+      "ref_mean": 0.5959,
+      "ref_median": 0.5912,
+      "ref_std": 0.0388,
+      "support_count": 0.0,
+      "family_score": 0.8135,
+      "dino_rank": 14.0
+     }
+    }
+   },
+   {
+    "query_id": "eae93194-24c8-42d5-8ca8-c780e4145697",
+    "ground_truth": "pad_thai",
+    "gt_family": "noodle",
+    "gt_state": "plated",
+    "transition": "absent_from_top5",
+    "original_e_top5": [
+     "omelette",
+     "lasagna",
+     "biryani",
+     "bibimbap",
+     "guacamole"
+    ],
+    "reranked_top5": [
+     "omelette",
+     "biryani",
+     "lasagna",
+     "guacamole",
+     "bibimbap"
+    ],
+    "correct_original_rank": null,
+    "correct_new_rank": null,
+    "candidate_probabilities": {
+     "omelette": 0.9951,
+     "lasagna": 0.0004,
+     "biryani": 0.0022,
+     "bibimbap": 0.0,
+     "guacamole": 0.0001
+    },
+    "reference_statistics": {
+     "omelette": {
+      "score": 0.9579,
+      "proto_cos": 0.9632,
+      "ref_top1": 0.9535,
+      "ref_top3_mean": 0.9527,
+      "ref_top3_std": 0.0006,
+      "ref_mean": 0.9294,
+      "ref_median": 0.9349,
+      "ref_std": 0.0184,
+      "support_count": 10.0,
+      "family_score": 0.9579,
+      "dino_rank": 1.0
+     },
+     "lasagna": {
+      "score": 0.7483,
+      "proto_cos": 0.7359,
+      "ref_top1": 0.765,
+      "ref_top3_mean": 0.7606,
+      "ref_top3_std": 0.0044,
+      "ref_mean": 0.709,
+      "ref_median": 0.7011,
+      "ref_std": 0.0332,
+      "support_count": 0.0,
+      "family_score": 0.7483,
+      "dino_rank": 2.0
+     },
+     "biryani": {
+      "score": 0.7235,
+      "proto_cos": 0.6747,
+      "ref_top1": 0.8356,
+      "ref_top3_mean": 0.7723,
+      "ref_top3_std": 0.0507,
+      "ref_mean": 0.6306,
+      "ref_median": 0.6212,
+      "ref_std": 0.0722,
+      "support_count": 0.0,
+      "family_score": 0.7235,
+      "dino_rank": 3.0
+     },
+     "bibimbap": {
+      "score": 0.6638,
+      "proto_cos": 0.6356,
+      "ref_top1": 0.7357,
+      "ref_top3_mean": 0.692,
+      "ref_top3_std": 0.0312,
+      "ref_mean": 0.6083,
+      "ref_median": 0.5988,
+      "ref_std": 0.0462,
+      "support_count": 0.0,
+      "family_score": 0.7235,
+      "dino_rank": 7.0
+     },
+     "guacamole": {
+      "score": 0.6614,
+      "proto_cos": 0.6395,
+      "ref_top1": 0.7123,
+      "ref_top3_mean": 0.6834,
+      "ref_top3_std": 0.0259,
+      "ref_mean": 0.6064,
+      "ref_median": 0.6131,
+      "ref_std": 0.0459,
+      "support_count": 0.0,
+      "family_score": 0.6614,
+      "dino_rank": 5.0
+     }
+    }
+   },
+   {
+    "query_id": "46e70ce8-2736-4682-8221-d43877107b25",
+    "ground_truth": "pasta",
+    "gt_family": "grain_starch",
+    "gt_state": "plated",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "pad_thai",
+     "rice",
+     "fried_rice",
+     "biryani",
+     "pasta"
+    ],
+    "reranked_top5": [
+     "rice",
+     "pad_thai",
+     "biryani",
+     "fried_rice",
+     "pasta"
+    ],
+    "correct_original_rank": 5,
+    "correct_new_rank": 5,
+    "candidate_probabilities": {
+     "pad_thai": 0.2059,
+     "rice": 0.4557,
+     "fried_rice": 0.0818,
+     "biryani": 0.1245,
+     "pasta": 0.0684
+    },
+    "reference_statistics": {
+     "pad_thai": {
+      "score": 0.8738,
+      "proto_cos": 0.8708,
+      "ref_top1": 0.8854,
+      "ref_top3_mean": 0.8768,
+      "ref_top3_std": 0.0074,
+      "ref_mean": 0.8271,
+      "ref_median": 0.8272,
+      "ref_std": 0.0336,
+      "support_count": 4.0,
+      "family_score": 0.8738,
+      "dino_rank": 5.0
+     },
+     "rice": {
+      "score": 0.8733,
+      "proto_cos": 0.872,
+      "ref_top1": 0.8896,
+      "ref_top3_mean": 0.8746,
+      "ref_top3_std": 0.0107,
+      "ref_mean": 0.8323,
+      "ref_median": 0.8399,
+      "ref_std": 0.0336,
+      "support_count": 3.0,
+      "family_score": 0.8733,
+      "dino_rank": 3.0
+     },
+     "fried_rice": {
+      "score": 0.8661,
+      "proto_cos": 0.8641,
+      "ref_top1": 0.8784,
+      "ref_top3_mean": 0.868,
+      "ref_top3_std": 0.0074,
+      "ref_mean": 0.8346,
+      "ref_median": 0.8341,
+      "ref_std": 0.0181,
+      "support_count": 2.0,
+      "family_score": 0.8733,
+      "dino_rank": 2.0
+     },
+     "biryani": {
+      "score": 0.8645,
+      "proto_cos": 0.8751,
+      "ref_top1": 0.8611,
+      "ref_top3_mean": 0.8539,
+      "ref_top3_std": 0.0052,
+      "ref_mean": 0.8178,
+      "ref_median": 0.8112,
+      "ref_std": 0.0257,
+      "support_count": 0.0,
+      "family_score": 0.8733,
+      "dino_rank": 4.0
+     },
+     "pasta": {
+      "score": 0.8448,
+      "proto_cos": 0.8401,
+      "ref_top1": 0.8719,
+      "ref_top3_mean": 0.8496,
+      "ref_top3_std": 0.0158,
+      "ref_mean": 0.7965,
+      "ref_median": 0.7934,
+      "ref_std": 0.0363,
+      "support_count": 1.0,
+      "family_score": 0.8448,
+      "dino_rank": 1.0
+     }
+    }
+   },
+   {
+    "query_id": "7ef252ae-53dd-4107-bb7d-d317978ff0dd",
+    "ground_truth": "pasta",
+    "gt_family": "grain_starch",
+    "gt_state": "plated",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "lasagna",
+     "pasta",
+     "omelette",
+     "biryani",
+     "pad_thai"
+    ],
+    "reranked_top5": [
+     "lasagna",
+     "pasta",
+     "biryani",
+     "omelette",
+     "pad_thai"
+    ],
+    "correct_original_rank": 2,
+    "correct_new_rank": 2,
+    "candidate_probabilities": {
+     "lasagna": 0.617,
+     "pasta": 0.4631,
+     "omelette": 0.0016,
+     "biryani": 0.0023,
+     "pad_thai": 0.0003
+    },
+    "reference_statistics": {
+     "lasagna": {
+      "score": 0.927,
+      "proto_cos": 0.9204,
+      "ref_top1": 0.945,
+      "ref_top3_mean": 0.9337,
+      "ref_top3_std": 0.014,
+      "ref_mean": 0.8867,
+      "ref_median": 0.8806,
+      "ref_std": 0.0243,
+      "support_count": 6.0,
+      "family_score": 0.927,
+      "dino_rank": 2.0
+     },
+     "pasta": {
+      "score": 0.9116,
+      "proto_cos": 0.9103,
+      "ref_top1": 0.9276,
+      "ref_top3_mean": 0.9129,
+      "ref_top3_std": 0.0107,
+      "ref_mean": 0.8631,
+      "ref_median": 0.8587,
+      "ref_std": 0.0296,
+      "support_count": 4.0,
+      "family_score": 0.927,
+      "dino_rank": 1.0
+     },
+     "omelette": {
+      "score": 0.7684,
+      "proto_cos": 0.7433,
+      "ref_top1": 0.8217,
+      "ref_top3_mean": 0.7934,
+      "ref_top3_std": 0.0227,
+      "ref_mean": 0.7173,
+      "ref_median": 0.7086,
+      "ref_std": 0.0435,
+      "support_count": 0.0,
+      "family_score": 0.7684,
+      "dino_rank": 3.0
+     },
+     "biryani": {
+      "score": 0.7287,
+      "proto_cos": 0.7051,
+      "ref_top1": 0.7852,
+      "ref_top3_mean": 0.7524,
+      "ref_top3_std": 0.0271,
+      "ref_mean": 0.6589,
+      "ref_median": 0.6502,
+      "ref_std": 0.0561,
+      "support_count": 0.0,
+      "family_score": 0.7287,
+      "dino_rank": 4.0
+     },
+     "pad_thai": {
+      "score": 0.6943,
+      "proto_cos": 0.6618,
+      "ref_top1": 0.7473,
+      "ref_top3_mean": 0.7268,
+      "ref_top3_std": 0.0152,
+      "ref_mean": 0.6286,
+      "ref_median": 0.6254,
+      "ref_std": 0.0587,
+      "support_count": 0.0,
+      "family_score": 0.6943,
+      "dino_rank": 7.0
+     }
+    }
+   },
+   {
+    "query_id": "9bddadfe-87d7-480a-bd09-d6add920a392",
+    "ground_truth": "rice",
+    "gt_family": "rice_grain",
+    "gt_state": "cooked",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "biryani",
+     "rice",
+     "fried_rice",
+     "pad_thai",
+     "bibimbap"
+    ],
+    "reranked_top5": [
+     "biryani",
+     "rice",
+     "fried_rice",
+     "pad_thai",
+     "bibimbap"
+    ],
+    "correct_original_rank": 2,
+    "correct_new_rank": 2,
+    "candidate_probabilities": {
+     "biryani": 0.7517,
+     "rice": 0.1658,
+     "fried_rice": 0.0282,
+     "pad_thai": 0.0105,
+     "bibimbap": 0.0034
+    },
+    "reference_statistics": {
+     "biryani": {
+      "score": 0.9041,
+      "proto_cos": 0.9203,
+      "ref_top1": 0.8901,
+      "ref_top3_mean": 0.8878,
+      "ref_top3_std": 0.0027,
+      "ref_mean": 0.8601,
+      "ref_median": 0.8566,
+      "ref_std": 0.0179,
+      "support_count": 6.0,
+      "family_score": 0.9041,
+      "dino_rank": 2.0
+     },
+     "rice": {
+      "score": 0.8815,
+      "proto_cos": 0.8841,
+      "ref_top1": 0.8856,
+      "ref_top3_mean": 0.8788,
+      "ref_top3_std": 0.0066,
+      "ref_mean": 0.8438,
+      "ref_median": 0.8409,
+      "ref_std": 0.0189,
+      "support_count": 2.0,
+      "family_score": 0.9041,
+      "dino_rank": 1.0
+     },
+     "fried_rice": {
+      "score": 0.8764,
+      "proto_cos": 0.8824,
+      "ref_top1": 0.8745,
+      "ref_top3_mean": 0.8705,
+      "ref_top3_std": 0.003,
+      "ref_mean": 0.8522,
+      "ref_median": 0.8501,
+      "ref_std": 0.0118,
+      "support_count": 1.0,
+      "family_score": 0.9041,
+      "dino_rank": 3.0
+     },
+     "pad_thai": {
+      "score": 0.8226,
+      "proto_cos": 0.8121,
+      "ref_top1": 0.8473,
+      "ref_top3_mean": 0.8331,
+      "ref_top3_std": 0.0145,
+      "ref_mean": 0.7714,
+      "ref_median": 0.7693,
+      "ref_std": 0.0402,
+      "support_count": 0.0,
+      "family_score": 0.8226,
+      "dino_rank": 5.0
+     },
+     "bibimbap": {
+      "score": 0.8105,
+      "proto_cos": 0.7909,
+      "ref_top1": 0.8703,
+      "ref_top3_mean": 0.8301,
+      "ref_top3_std": 0.0289,
+      "ref_mean": 0.757,
+      "ref_median": 0.7498,
+      "ref_std": 0.04,
+      "support_count": 1.0,
+      "family_score": 0.9041,
+      "dino_rank": 4.0
+     }
+    }
+   },
+   {
+    "query_id": "169418c8-20cd-4813-a0c8-0da37605e244",
+    "ground_truth": "salad",
+    "gt_family": "salad",
+    "gt_state": "plated",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "caesar_salad",
+     "salad",
+     "guacamole",
+     "club_sandwich",
+     "hummus"
+    ],
+    "reranked_top5": [
+     "caesar_salad",
+     "salad",
+     "club_sandwich",
+     "guacamole",
+     "hummus"
+    ],
+    "correct_original_rank": 2,
+    "correct_new_rank": 2,
+    "candidate_probabilities": {
+     "caesar_salad": 0.7553,
+     "salad": 0.3731,
+     "guacamole": 0.0018,
+     "club_sandwich": 0.0018,
+     "hummus": 0.0001
+    },
+    "reference_statistics": {
+     "caesar_salad": {
+      "score": 0.9428,
+      "proto_cos": 0.9409,
+      "ref_top1": 0.9541,
+      "ref_top3_mean": 0.9448,
+      "ref_top3_std": 0.0081,
+      "ref_mean": 0.8966,
+      "ref_median": 0.8861,
+      "ref_std": 0.0322,
+      "support_count": 7.0,
+      "family_score": 0.9428,
+      "dino_rank": 1.0
+     },
+     "salad": {
+      "score": 0.9172,
+      "proto_cos": 0.9201,
+      "ref_top1": 0.9231,
+      "ref_top3_mean": 0.9143,
+      "ref_top3_std": 0.0063,
+      "ref_mean": 0.8768,
+      "ref_median": 0.8763,
+      "ref_std": 0.0257,
+      "support_count": 3.0,
+      "family_score": 0.9428,
+      "dino_rank": 2.0
+     },
+     "guacamole": {
+      "score": 0.7632,
+      "proto_cos": 0.7388,
+      "ref_top1": 0.8189,
+      "ref_top3_mean": 0.7875,
+      "ref_top3_std": 0.023,
+      "ref_mean": 0.7006,
+      "ref_median": 0.6955,
+      "ref_std": 0.0519,
+      "support_count": 0.0,
+      "family_score": 0.7632,
+      "dino_rank": 3.0
+     },
+     "club_sandwich": {
+      "score": 0.7436,
+      "proto_cos": 0.7163,
+      "ref_top1": 0.8389,
+      "ref_top3_mean": 0.7708,
+      "ref_top3_std": 0.0481,
+      "ref_mean": 0.6817,
+      "ref_median": 0.6735,
+      "ref_std": 0.0552,
+      "support_count": 0.0,
+      "family_score": 0.7436,
+      "dino_rank": 4.0
+     },
+     "hummus": {
+      "score": 0.708,
+      "proto_cos": 0.6838,
+      "ref_top1": 0.7452,
+      "ref_top3_mean": 0.7321,
+      "ref_top3_std": 0.0162,
+      "ref_mean": 0.6519,
+      "ref_median": 0.6514,
+      "ref_std": 0.0452,
+      "support_count": 0.0,
+      "family_score": 0.7632,
+      "dino_rank": 6.0
+     }
+    }
+   },
+   {
+    "query_id": "15c6e3ca-1db1-4314-8362-2403e7ed55a1",
+    "ground_truth": "salad",
+    "gt_family": "salad",
+    "gt_state": "plated",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "guacamole",
+     "caesar_salad",
+     "salad",
+     "spring_rolls",
+     "club_sandwich"
+    ],
+    "reranked_top5": [
+     "caesar_salad",
+     "salad",
+     "guacamole",
+     "spring_rolls",
+     "club_sandwich"
+    ],
+    "correct_original_rank": 3,
+    "correct_new_rank": 2,
+    "candidate_probabilities": {
+     "guacamole": 0.1164,
+     "caesar_salad": 0.1768,
+     "salad": 0.1587,
+     "spring_rolls": 0.0457,
+     "club_sandwich": 0.0069
+    },
+    "reference_statistics": {
+     "guacamole": {
+      "score": 0.7943,
+      "proto_cos": 0.7873,
+      "ref_top1": 0.8088,
+      "ref_top3_mean": 0.8013,
+      "ref_top3_std": 0.0101,
+      "ref_mean": 0.7466,
+      "ref_median": 0.7506,
+      "ref_std": 0.0356,
+      "support_count": 3.0,
+      "family_score": 0.7943,
+      "dino_rank": 1.0
+     },
+     "caesar_salad": {
+      "score": 0.792,
+      "proto_cos": 0.7926,
+      "ref_top1": 0.8064,
+      "ref_top3_mean": 0.7915,
+      "ref_top3_std": 0.0106,
+      "ref_mean": 0.7553,
+      "ref_median": 0.7524,
+      "ref_std": 0.0212,
+      "support_count": 3.0,
+      "family_score": 0.792,
+      "dino_rank": 4.0
+     },
+     "salad": {
+      "score": 0.7851,
+      "proto_cos": 0.7899,
+      "ref_top1": 0.7937,
+      "ref_top3_mean": 0.7803,
+      "ref_top3_std": 0.0097,
+      "ref_mean": 0.7528,
+      "ref_median": 0.7529,
+      "ref_std": 0.0209,
+      "support_count": 1.0,
+      "family_score": 0.792,
+      "dino_rank": 11.0
+     },
+     "spring_rolls": {
+      "score": 0.776,
+      "proto_cos": 0.7539,
+      "ref_top1": 0.8073,
+      "ref_top3_mean": 0.7981,
+      "ref_top3_std": 0.0066,
+      "ref_mean": 0.7249,
+      "ref_median": 0.7198,
+      "ref_std": 0.038,
+      "support_count": 3.0,
+      "family_score": 0.776,
+      "dino_rank": 3.0
+     },
+     "club_sandwich": {
+      "score": 0.7234,
+      "proto_cos": 0.7094,
+      "ref_top1": 0.7596,
+      "ref_top3_mean": 0.7375,
+      "ref_top3_std": 0.0164,
+      "ref_mean": 0.6751,
+      "ref_median": 0.6662,
+      "ref_std": 0.0357,
+      "support_count": 0.0,
+      "family_score": 0.7234,
+      "dino_rank": 15.0
+     }
+    }
+   },
+   {
+    "query_id": "645ed8e9-8a32-440f-a5d4-d19ebe433f96",
+    "ground_truth": "salad",
+    "gt_family": "salad",
+    "gt_state": "plated",
+    "transition": "wrong->wrong",
+    "original_e_top5": [
+     "caesar_salad",
+     "salad",
+     "club_sandwich",
+     "guacamole",
+     "tomato"
+    ],
+    "reranked_top5": [
+     "caesar_salad",
+     "salad",
+     "club_sandwich",
+     "guacamole",
+     "tomato"
+    ],
+    "correct_original_rank": 2,
+    "correct_new_rank": 2,
+    "candidate_probabilities": {
+     "caesar_salad": 0.7763,
+     "salad": 0.5708,
+     "club_sandwich": 0.0054,
+     "guacamole": 0.002,
+     "tomato": 0.0001
+    },
+    "reference_statistics": {
+     "caesar_salad": {
+      "score": 0.9414,
+      "proto_cos": 0.9346,
+      "ref_top1": 0.9664,
+      "ref_top3_mean": 0.9483,
+      "ref_top3_std": 0.0144,
+      "ref_mean": 0.8906,
+      "ref_median": 0.8868,
+      "ref_std": 0.0362,
+      "support_count": 7.0,
+      "family_score": 0.9414,
+      "dino_rank": 1.0
+     },
+     "salad": {
+      "score": 0.9312,
+      "proto_cos": 0.9391,
+      "ref_top1": 0.9263,
+      "ref_top3_mean": 0.9233,
+      "ref_top3_std": 0.0025,
+      "ref_mean": 0.895,
+      "ref_median": 0.8937,
+      "ref_std": 0.0212,
+      "support_count": 3.0,
+      "family_score": 0.9414,
+      "dino_rank": 2.0
+     },
+     "club_sandwich": {
+      "score": 0.79,
+      "proto_cos": 0.7732,
+      "ref_top1": 0.8481,
+      "ref_top3_mean": 0.8068,
+      "ref_top3_std": 0.0296,
+      "ref_mean": 0.7358,
+      "ref_median": 0.7339,
+      "ref_std": 0.0421,
+      "support_count": 0.0,
+      "family_score": 0.79,
+      "dino_rank": 4.0
+     },
+     "guacamole": {
+      "score": 0.7496,
+      "proto_cos": 0.7173,
+      "ref_top1": 0.8378,
+      "ref_top3_mean": 0.7819,
+      "ref_top3_std": 0.0396,
+      "ref_mean": 0.6802,
+      "ref_median": 0.6709,
+      "ref_std": 0.0573,
+      "support_count": 0.0,
+      "family_score": 0.7496,
+      "dino_rank": 6.0
+     },
+     "tomato": {
+      "score": 0.7074,
+      "proto_cos": 0.6927,
+      "ref_top1": 0.7413,
+      "ref_top3_mean": 0.722,
+      "ref_top3_std": 0.0139,
+      "ref_mean": 0.6729,
+      "ref_median": 0.6658,
+      "ref_std": 0.0297,
+      "support_count": 0.0,
+      "family_score": 0.7074,
+      "dino_rank": 19.0
+     }
+    }
+   },
+   {
+    "query_id": "12c7a397-21a1-40e5-84bc-97d069c012b4",
+    "ground_truth": "spring_rolls",
+    "gt_family": "prepared_side",
+    "gt_state": "plated",
+    "transition": "absent_from_top5",
+    "original_e_top5": [
+     "cheese",
+     "donuts",
+     "packaged_cheese",
+     "cream",
+     "club_sandwich"
+    ],
+    "reranked_top5": [
+     "cheese",
+     "donuts",
+     "packaged_cheese",
+     "club_sandwich",
+     "cream"
+    ],
+    "correct_original_rank": null,
+    "correct_new_rank": null,
+    "candidate_probabilities": {
+     "cheese": 0.6445,
+     "donuts": 0.1461,
+     "packaged_cheese": 0.0178,
+     "cream": 0.0014,
+     "club_sandwich": 0.0061
+    },
+    "reference_statistics": {
+     "cheese": {
+      "score": 0.8015,
+      "proto_cos": 0.8026,
+      "ref_top1": 0.8048,
+      "ref_top3_mean": 0.8005,
+      "ref_top3_std": 0.0059,
+      "ref_mean": 0.7678,
+      "ref_median": 0.7675,
+      "ref_std": 0.0194,
+      "support_count": 8.0,
+      "family_score": 0.8015,
+      "dino_rank": 1.0
+     },
+     "donuts": {
+      "score": 0.7813,
+      "proto_cos": 0.7804,
+      "ref_top1": 0.7984,
+      "ref_top3_mean": 0.7823,
+      "ref_top3_std": 0.0115,
+      "ref_mean": 0.7351,
+      "ref_median": 0.7318,
+      "ref_std": 0.0286,
+      "support_count": 2.0,
+      "family_score": 0.7813,
+      "dino_rank": 4.0
+     },
+     "packaged_cheese": {
+      "score": 0.7265,
+      "proto_cos": 0.7171,
+      "ref_top1": 0.7419,
+      "ref_top3_mean": 0.7359,
+      "ref_top3_std": 0.0043,
+      "ref_mean": 0.6886,
+      "ref_median": 0.6797,
+      "ref_std": 0.0348,
+      "support_count": 0.0,
+      "family_score": 0.7265,
+      "dino_rank": 5.0
+     },
+     "cream": {
+      "score": 0.716,
+      "proto_cos": 0.6965,
+      "ref_top1": 0.7439,
+      "ref_top3_mean": 0.7356,
+      "ref_top3_std": 0.006,
+      "ref_mean": 0.6625,
+      "ref_median": 0.6689,
+      "ref_std": 0.0499,
+      "support_count": 0.0,
+      "family_score": 0.8015,
+      "dino_rank": 3.0
+     },
+     "club_sandwich": {
+      "score": 0.7158,
+      "proto_cos": 0.7097,
+      "ref_top1": 0.7336,
+      "ref_top3_mean": 0.7219,
+      "ref_top3_std": 0.009,
+      "ref_mean": 0.6753,
+      "ref_median": 0.6776,
+      "ref_std": 0.0308,
+      "support_count": 0.0,
+      "family_score": 0.7158,
+      "dino_rank": 23.0
+     }
+    }
+   },
+   {
+    "query_id": "f850f25e-29c8-4398-abb9-4660595376d1",
+    "ground_truth": "tomato_paste",
+    "gt_family": "sauce",
+    "gt_state": "packaged",
+    "transition": "wrong->correct",
+    "original_e_top5": [
+     "salad",
+     "tomato_paste",
+     "yogurt",
+     "tomato",
+     "guacamole"
+    ],
+    "reranked_top5": [
+     "tomato_paste",
+     "salad",
+     "yogurt",
+     "guacamole",
+     "tomato"
+    ],
+    "correct_original_rank": 2,
+    "correct_new_rank": 1,
+    "candidate_probabilities": {
+     "salad": 0.3474,
+     "tomato_paste": 0.4878,
+     "yogurt": 0.121,
+     "tomato": 0.0064,
+     "guacamole": 0.0151
+    },
+    "reference_statistics": {
+     "salad": {
+      "score": 0.7338,
+      "proto_cos": 0.7347,
+      "ref_top1": 0.7471,
+      "ref_top3_mean": 0.7329,
+      "ref_top3_std": 0.0103,
+      "ref_mean": 0.7001,
+      "ref_median": 0.7013,
+      "ref_std": 0.0234,
+      "support_count": 4.0,
+      "family_score": 0.7338,
+      "dino_rank": 3.0
+     },
+     "tomato_paste": {
+      "score": 0.7315,
+      "proto_cos": 0.732,
+      "ref_top1": 0.7336,
+      "ref_top3_mean": 0.7309,
+      "ref_top3_std": 0.0034,
+      "ref_mean": 0.6879,
+      "ref_median": 0.6905,
+      "ref_std": 0.0277,
+      "support_count": 4.0,
+      "family_score": 0.7315,
+      "dino_rank": 1.0
+     },
+     "yogurt": {
+      "score": 0.7241,
+      "proto_cos": 0.7159,
+      "ref_top1": 0.7429,
+      "ref_top3_mean": 0.7323,
+      "ref_top3_std": 0.0111,
+      "ref_mean": 0.6746,
+      "ref_median": 0.67,
+      "ref_std": 0.033,
+      "support_count": 2.0,
+      "family_score": 0.7241,
+      "dino_rank": 2.0
+     },
+     "tomato": {
+      "score": 0.6916,
+      "proto_cos": 0.688,
+      "ref_top1": 0.7075,
+      "ref_top3_mean": 0.6952,
+      "ref_top3_std": 0.0088,
+      "ref_mean": 0.6683,
+      "ref_median": 0.6679,
+      "ref_std": 0.0169,
+      "support_count": 0.0,
+      "family_score": 0.6916,
+      "dino_rank": 12.0
+     },
+     "guacamole": {
+      "score": 0.6906,
+      "proto_cos": 0.6763,
+      "ref_top1": 0.7141,
+      "ref_top3_mean": 0.705,
+      "ref_top3_std": 0.0089,
+      "ref_mean": 0.6413,
+      "ref_median": 0.645,
+      "ref_std": 0.0394,
+      "support_count": 0.0,
+      "family_score": 0.6906,
+      "dino_rank": 9.0
+     }
+    }
+   }
+  ]
+ },
+ "adapter_e_only": {
+  "aggregate": {
+   "wrong->wrong": 30,
+   "same_family_identity_confusion": 12,
+   "state_confusion": 21,
+   "same_state": 21,
+   "family_confusion": 30,
+   "correct_absent_from_top5": 12,
+   "absent_from_top5": 12
+  },
+  "top_confusions_adapter_e": [
+   [
+    "packaged_cheese -> cheese",
+    3
+   ],
+   [
+    "biryani -> fried_rice",
+    2
+   ],
+   [
+    "biryani -> tomato_paste",
+    2
+   ],
+   [
+    "cream -> ice_cream",
+    2
+   ],
+   [
+    "guacamole -> hummus",
+    2
+   ],
+   [
+    "ice_cream -> cream",
+    2
+   ],
+   [
+    "pad_thai -> omelette",
+    2
+   ],
+   [
+    "salad -> caesar_salad",
+    2
+   ],
+   [
+    "bibimbap -> rice",
+    1
+   ],
+   [
+    "biryani -> omelette",
+    1
+   ],
+   [
+    "cheese -> omelette",
+    1
+   ],
+   [
+    "cheese -> salad",
+    1
+   ],
+   [
+    "donuts -> biryani",
+    1
+   ],
+   [
+    "french_fries -> donuts",
+    1
+   ],
+   [
+    "fried_rice -> bibimbap",
+    1
+   ],
+   [
+    "fried_rice -> biryani",
+    1
+   ],
+   [
+    "fried_rice -> rice",
+    1
+   ],
+   [
+    "fried_rice -> pad_thai",
+    1
+   ],
+   [
+    "garlic -> tomato_paste",
+    1
+   ],
+   [
+    "garlic -> yogurt",
+    1
+   ]
+  ]
+ }
+}
