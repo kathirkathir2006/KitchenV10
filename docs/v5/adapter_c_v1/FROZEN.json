@@ -1,0 +1,39 @@
+{
+  "config_id": "kiq_v5_adapter_c_v1",
+  "config_sha256": "2d1121dd428e9e8fcb06c4438988ea86cb1b8f0464b38896d2b082c18c3e561c",
+  "checkpoint_sha256": "8eac5dfd319bbc1d9ba6f76c28cd709628168dab875d8652135863d7d4b1eb5e",
+  "library_manifest_sha256": "7e95ee5636af0a14b2839b1a242699bc02635b5d0956c6d6e89a5b9019fc0a02",
+  "kaggle_run": "kathiresannatarajan/kiq-v5-adapter-c version 1",
+  "winner_cfg": {
+    "cfg": {
+      "dim": 128,
+      "dropout": 0.1,
+      "epochs": 80,
+      "hidden": 512,
+      "label_smoothing": 0.1,
+      "lr": 0.001,
+      "wd": 0.0001
+    },
+    "cfg_index": 0,
+    "checkpoint": "adapter_c_final.pt",
+    "checkpoint_sha256": "8eac5dfd319bbc1d9ba6f76c28cd709628168dab875d8652135863d7d4b1eb5e",
+    "epoch": 30,
+    "thresholds": {
+      "m_id": 0.1,
+      "t_fam": 0.78,
+      "t_id": 0.88
+    }
+  },
+  "baseline_thresholds": {
+    "m_id": 0.1,
+    "t_fam": 0.5,
+    "t_id": 0.6
+  },
+  "checks": {
+    "frozen_flag": true,
+    "test_not_used": true,
+    "selection_on_val": true,
+    "library_sha": true,
+    "checkpoint_sha": true
+  }
+}

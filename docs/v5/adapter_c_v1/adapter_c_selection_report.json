@@ -1,0 +1,222 @@
+{
+ "frozen_config_sha256": "2d1121dd428e9e8fcb06c4438988ea86cb1b8f0464b38896d2b082c18c3e561c",
+ "grid_results": [
+  {
+   "cfg": {
+    "dim": 128,
+    "dropout": 0.1,
+    "epochs": 80,
+    "hidden": 512,
+    "label_smoothing": 0.1,
+    "lr": 0.001,
+    "wd": 0.0001
+   },
+   "cfg_index": 0,
+   "epoch": 30,
+   "thresholds": {
+    "m_id": 0.1,
+    "t_fam": 0.78,
+    "t_id": 0.88
+   },
+   "val": {
+    "false_confirmation": 0.0213,
+    "known_score": 0.7457,
+    "objective": 1.6631,
+    "unknown_rejection": 0.96
+   }
+  },
+  {
+   "cfg": {
+    "dim": 128,
+    "dropout": 0.1,
+    "epochs": 80,
+    "hidden": 512,
+    "label_smoothing": 0.1,
+    "lr": 0.0003,
+    "wd": 0.0001
+   },
+   "cfg_index": 1,
+   "epoch": 30,
+   "thresholds": {
+    "m_id": 0.1,
+    "t_fam": 0.72,
+    "t_id": 0.82
+   },
+   "val": {
+    "false_confirmation": 0.0213,
+    "known_score": 0.6875,
+    "objective": 1.6049,
+    "unknown_rejection": 0.96
+   }
+  },
+  {
+   "cfg": {
+    "dim": 128,
+    "dropout": 0.3,
+    "epochs": 80,
+    "hidden": 512,
+    "label_smoothing": 0.1,
+    "lr": 0.001,
+    "wd": 0.0001
+   },
+   "cfg_index": 2,
+   "epoch": 5,
+   "thresholds": {
+    "m_id": 0.1,
+    "t_fam": 0.78,
+    "t_id": 0.88
+   },
+   "val": {
+    "false_confirmation": 0.0177,
+    "known_score": 0.7112,
+    "objective": 1.6357,
+    "unknown_rejection": 0.96
+   }
+  },
+  {
+   "cfg": {
+    "dim": 128,
+    "dropout": 0.3,
+    "epochs": 80,
+    "hidden": 512,
+    "label_smoothing": 0.1,
+    "lr": 0.0003,
+    "wd": 0.0001
+   },
+   "cfg_index": 3,
+   "epoch": 30,
+   "thresholds": {
+    "m_id": 0.1,
+    "t_fam": 0.74,
+    "t_id": 0.84
+   },
+   "val": {
+    "false_confirmation": 0.0177,
+    "known_score": 0.6573,
+    "objective": 1.6019,
+    "unknown_rejection": 0.98
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.1,
+    "epochs": 80,
+    "hidden": 512,
+    "label_smoothing": 0.1,
+    "lr": 0.001,
+    "wd": 0.0001
+   },
+   "cfg_index": 4,
+   "epoch": 5,
+   "thresholds": {
+    "m_id": 0.1,
+    "t_fam": 0.76,
+    "t_id": 0.86
+   },
+   "val": {
+    "false_confirmation": 0.0177,
+    "known_score": 0.6703,
+    "objective": 1.5948,
+    "unknown_rejection": 0.96
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.1,
+    "epochs": 80,
+    "hidden": 512,
+    "label_smoothing": 0.1,
+    "lr": 0.0003,
+    "wd": 0.0001
+   },
+   "cfg_index": 5,
+   "epoch": 55,
+   "thresholds": {
+    "m_id": 0.1,
+    "t_fam": 0.64,
+    "t_id": 0.74
+   },
+   "val": {
+    "false_confirmation": 0.0213,
+    "known_score": 0.6573,
+    "objective": 1.5748,
+    "unknown_rejection": 0.96
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 80,
+    "hidden": 512,
+    "label_smoothing": 0.1,
+    "lr": 0.001,
+    "wd": 0.0001
+   },
+   "cfg_index": 6,
+   "epoch": 5,
+   "thresholds": {
+    "m_id": 0.1,
+    "t_fam": 0.76,
+    "t_id": 0.86
+   },
+   "val": {
+    "false_confirmation": 0.0177,
+    "known_score": 0.6724,
+    "objective": 1.597,
+    "unknown_rejection": 0.96
+   }
+  },
+  {
+   "cfg": {
+    "dim": 256,
+    "dropout": 0.3,
+    "epochs": 80,
+    "hidden": 512,
+    "label_smoothing": 0.1,
+    "lr": 0.0003,
+    "wd": 0.0001
+   },
+   "cfg_index": 7,
+   "epoch": 20,
+   "thresholds": {
+    "m_id": 0.05,
+    "t_fam": 0.64,
+    "t_id": 0.74
+   },
+   "val": {
+    "false_confirmation": 0.0177,
+    "known_score": 0.6487,
+    "objective": 1.5932,
+    "unknown_rejection": 0.98
+   }
+  }
+ ],
+ "val_adapter_c": {
+  "false_confirmation": 0.0213,
+  "known_accepted_correct": 0.6552,
+  "known_coverage_identity": 0.6724,
+  "known_family_top1_raw": 0.9009,
+  "known_identity_top1_raw": 0.8578,
+  "known_identity_top5_raw": 0.9397,
+  "known_score": 0.7457,
+  "known_state_top1_raw": 0.944,
+  "objective": 1.6631,
+  "unknown_rejection": 0.96
+ },
+ "val_baseline": {
+  "false_confirmation": 0.0177,
+  "known_accepted_correct": 0.4698,
+  "known_coverage_identity": 0.4828,
+  "known_family_top1_raw": 0.8922,
+  "known_identity_top1_raw": 0.8362,
+  "known_identity_top5_raw": 0.9741,
+  "known_score": 0.5582,
+  "known_state_top1_raw": 0.9353,
+  "objective": 1.4827,
+  "unknown_rejection": 0.96
+ },
+ "winner": 0
+}
